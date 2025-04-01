@@ -1,0 +1,44 @@
+# AcousticBrainz Music Extractor Profile
+outputFormat: json          # Output format (json or yaml)
+outputFrames: 0             # Only summary statistics will be output (no per-frame data)
+requireMbid: false          # MBID is not required
+indent: 4                   # Indentation for output JSON
+
+# Global analysis settings
+analysisSampleRate: 44100.0  # Target sample rate in Hz
+
+# Low-level descriptors configuration
+lowlevel:
+  frameSize: 2048           # Frame size in samples
+  hopSize: 1024             # Hop size in samples
+  zeroPadding: 0            # Zero-padding if needed
+  windowType: blackmanharris62  # Window type (ensures consistency)
+  silentFrames: noise       # How to handle silent frames
+
+# Average loudness configuration (EBU R128)
+average_loudness:
+  frameSize: 88200          # Frame size for loudness measurement
+  hopSize: 44100            # Hop size for loudness measurement
+  windowType: hann          # Window type for loudness
+
+# Rhythm (temporal) descriptors configuration
+rhythm:
+  method: degara            # Using the Degara beat tracking method
+  minTempo: 40              # Minimum tempo considered
+  maxTempo: 208             # Maximum tempo considered
+
+# Tonal descriptors configuration
+tonal:
+  frameSize: 4096           # Frame size for tonal analysis
+  hopSize: 2048             # Hop size for tonal analysis
+  zeroPadding: 0
+  windowType: blackmanharris62  # Window type for tonal descriptors
+  silentFrames: noise       # Handling of silent frames
+
+# High-level classifiers (e.g., genre, mood) configuration: set to 0 if not computed
+highlevel:
+  compute: 0
+
+# Chromaprint configuration (for fingerprinting, if needed)
+chromaprint:
+  compute: 0

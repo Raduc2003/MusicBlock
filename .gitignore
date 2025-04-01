@@ -1,0 +1,8 @@
+acousticbrainz-*/
+qdrant_storage/
+streaming_extractor_music
+streaming_extractor
+discogs-effnet*
+genre_discogs*
+essentia-extractors*
+demoMusic/
