@@ -1,0 +1,30 @@
+FROM python:3.8-slim
+
+ENV LANG=C.UTF-8
+ENV TERM=xterm
+
+# Install system dependencies (using Debian package names)
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    curl \
+    ca-certificates \
+    libfftw3-double3 \
+    libavcodec-dev libavformat-dev libavutil-dev \
+    libsamplerate0 \
+    libtag1v5-vanilla \
+    libyaml-0-2 \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install the Python Essentia library from PyPI
+RUN pip install essentia
+
+# Download and install the static binary for Essentia Extractor v2.1_beta2
+WORKDIR /tmp
+RUN curl -L https://essentia.upf.edu/extractors/essentia-extractors-v2.1_beta2-linux-x86_64.tar.gz -o extractor.tar.gz && \
+    tar -xzvf extractor.tar.gz && \
+    cp essentia-extractors-v2.1_beta2/streaming_extractor_music /usr/local/bin/ && \
+    chmod +x /usr/local/bin/streaming_extractor_music && \
+    rm -rf /tmp/*
+
+# Set working directory for your application
+WORKDIR /app
+CMD ["bash"]

@@ -1,2 +1,2 @@
 test_id,configuration,db_size,db_name,no_test
-20250331_220107,55 dimensiuni:mfcc(13);bpm;onset_rate;danceability;key_strength; chords_changes_rate; hpcp_entropy(36) normalizate min max ( pe baza de date),1.4m pts,10*3 variante
+20250401_000350,55 dimensiuni:mfcc(13);bpm;onset_rate;danceability;key_strength; chords_changes_rate; hpcp_entropy(36) normalizate min max ( pe baza de date),1.4m pts,music_similarity2.10*3 variante

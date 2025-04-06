@@ -1,55 +1,90 @@
-# Use Ubuntu 20.04 as a base image
-FROM ubuntu:20.04
+FROM ubuntu:18.04
 
-# Disable interactive prompts during package installation
-ENV DEBIAN_FRONTEND=noninteractive
+# Set environment variables
+ENV ESSENTIA_SVM_MODELS_VERSION 2.1_beta5
+ENV ESSENTIA_VERSION 4237da97237397caf837dc79020f34af8dfc35b2
+ENV GAIA_VERSION 2.4.6
 
-# Install required dependencies, including python-is-python3 so that the 'python' command is available,
-# and python3-numpy.
-RUN apt-get update && apt-get install -y \
+ENV PYTHONPATH /usr/local/lib/python3/dist-packages
+ENV LANG C.UTF-8
+ENV TERM=xterm
+
+# # Copy required directories
+# COPY ./essentia /essentia
+
+# Install common dependencies and utils
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
     build-essential \
-    git \
-    cmake \
-    qt5-default \
-    libqt5x11extras5-dev \
-    libyaml-dev \
-    swig \
-    python3-dev \
-    python-is-python3 \
-    python3-numpy \
-    pkg-config \
+    ca-certificates \
+    curl
+
+# Install Gaia dependencies
+RUN apt-get install -y --no-install-recommends \
     libeigen3-dev \
-    wget \
-    && rm -rf /var/lib/apt/lists/*
+    libqt4-dev \
+    libyaml-dev \
+    pkg-config \
+    python-dev \
+    swig
 
-# ----------------------------
-# Build and install Gaia using WAF
-# ----------------------------
-RUN git clone https://github.com/MTG/gaia.git /opt/gaia && \
-    cd /opt/gaia && \
-    chmod +x waf && \
-    ./waf configure && \
-    ./waf -j$(nproc) && \
-    ./waf install && \
-    ldconfig
+# Compile and install Gaia
+RUN curl -L# https://github.com/MTG/gaia/archive/v${GAIA_VERSION}.tar.gz | tar xz -C /tmp && \
+    cd /tmp/gaia-${GAIA_VERSION} && \
+    ./waf configure --with-python-bindings && \
+    ./waf && \
+    ./waf install
 
-# ----------------------------
-# Build and install Essentia with Gaia support using WAF
-# ----------------------------
-RUN git clone https://github.com/MTG/essentia.git /opt/essentia && \
-    cd /opt/essentia && \
-    ./waf configure --with-python --with-gaia && \
-    ./waf -j$(nproc) && \
-    ./waf install && \
-    ldconfig
+# Install Essentia dependencies
+RUN apt-get install -y --no-install-recommends \
+    libavcodec-dev \
+    libavcodec57 \
+    libavformat-dev \
+    libavformat57 \
+    libavresample-dev \
+    libavresample3 \
+    libavutil55 \
+    libchromaprint-dev \
+    libfftw3-3 \
+    libfftw3-dev \
+    libsamplerate0 \
+    libsamplerate0-dev \
+    libtag1-dev \
+    libtag1v5 \
+    libyaml-0-2 \
+    libyaml-dev \
+    python3-dev \
+    python3-numpy \
+    python3-six \
+    python3-yaml
 
-# Ensure that /usr/local/lib (where Gaia and Essentia install their libraries) is in the library path
-ENV LD_LIBRARY_PATH="/usr/local/lib:${LD_LIBRARY_PATH}"
-# Ensure that /usr/local/bin is in the PATH (where the binaries are installed)
-ENV PATH="/usr/local/bin:${PATH}"
+RUN cd /usr/include && \
+    ln -sf eigen3/Eigen Eigen && \
+    ln -sf eigen3/unsupported unsupported
 
-# Set the working directory where you'll mount your files (audio, profiles, SVM models, etc.)
-WORKDIR /workspace
+# Compile and install Essentia
+RUN curl -L# https://github.com/MTG/essentia/archive/${ESSENTIA_VERSION}.tar.gz | tar xz -C /tmp && \
+    cd /tmp/essentia-${ESSENTIA_VERSION} && \
+    ./waf configure --mode=release --with-gaia --with-example=streaming_extractor_music && \
+    ./waf && \
+    cp ./build/src/examples/essentia_streaming_extractor_music /usr/local/bin && \
+    cp ./build/src/libessentia.so /usr/local/lib
 
-# Start a bash shell by default
-CMD ["bash"]
+RUN ldconfig /usr/local/laib
+
+# Download SVM models
+RUN curl -L# https://essentia.upf.edu/svm_models/essentia-extractor-svm_models-v${ESSENTIA_SVM_MODELS_VERSION}.tar.gz | tar xz -C /tmp && \
+    mv /tmp/essentia-extractor-svm_models-v${ESSENTIA_SVM_MODELS_VERSION}/* /essentia/svm_models/
+
+# Clean up
+RUN apt-get autoremove -y && \
+    apt-get clean && \
+    rm -rf /tmp/*
+
+# Install additional Python packages using pip
+RUN apt-get update && \
+    apt-get install -y python3-pip ffmpeg && \
+    pip3 install qdrant-client colorama librosa soundfile pyloudnorm numpy
+
+# Set working directory
+WORKDIR /essentia
