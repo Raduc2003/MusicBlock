@@ -13,7 +13,7 @@ init(autoreset=True)
 # ------------------- Configuration -------------------
 COLLECTION_NAME = "music_similarity2"
 TOP_K = 20  # Number of similar items to retrieve
-QDRANT_HOST = "localhost"
+QDRANT_HOST = "qdrant"
 QDRANT_PORT = 6333
 GLOBAL_MIN_MAX_FILE = "global_min_max.json"  # File with 55 [min, max] pairs
 # -----------------------------------------------------
@@ -46,7 +46,10 @@ def extract_features_from_json(json_path, verbose=True):
     danceability = data["rhythm"]["danceability"]
     
     # Tonal features
-    key_strength = data["tonal"]["key_temperley"]["strength"]
+    #key_strength = data["tonal"]["key_strength"] or data["tonal"]["key_temperley"]["strength"]
+    # The key_strength is extracted from either "key_strength" or "key_temperley" based on availability
+    key_strength = data["tonal"].get("key_strength", data["tonal"].get("key_temperley", {}).get("strength", 0))
+
     chords_changes_rate = data["tonal"]["chords_changes_rate"]
     hpcp_entropy_mean = data["tonal"]["hpcp_entropy"]["mean"]
     hpcp_mean = data["tonal"]["hpcp"]["mean"]     # 36 floats
@@ -126,4 +129,8 @@ if __name__ == "__main__":
             print(f"{Fore.GREEN}Match #{i+1} {Fore.CYAN}{'─'*50}")
             print(f"{Fore.YELLOW}ID: {Fore.WHITE}{res.id}")
             print(f"{Fore.YELLOW}Score: {Fore.WHITE}{res.score:.4f}")
+            #print artist name and title
+            if "artist" in res.payload and "title" in res.payload:
+                print(f"{Fore.YELLOW}Artist: {Fore.WHITE}{res.payload['artist']}")
+                print(f"{Fore.YELLOW}Title: {Fore.WHITE}{res.payload['title']}")
             print(f"{Fore.YELLOW}Payload: \n{Fore.WHITE}{res.payload}\n")
