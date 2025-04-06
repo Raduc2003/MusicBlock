@@ -1,0 +1,73 @@
+
+
+services:
+  # Qdrant Database Service
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: qdrant_db
+    ports:
+      - "6333:6333" # Map host port 6333 to container port 6333
+      - "6334:6334" # Map gRPC port if needed
+    volumes:
+      - ./qdrant_storage:/qdrant/storage # Persist Qdrant data
+    networks:
+      - musicblock_net
+
+  # Feature Extraction Service
+  extractor:
+    build:
+      context: ./extraction_module 
+      dockerfile: dockerfile.beta2 
+    container_name: extractor_service
+    volumes:
+      - shared_data:/data/output_json
+      
+      - ./demoMusic:/data/input_audio:ro
+      - ./extraction_module/pr.yaml:/app/pr.yaml:ro # Adjust /app/ if WORKDIR is different
+      - ./extraction_module/prepare_extract.py:/app/prepare_extract.py
+    working_dir: /app 
+    networks:
+      - musicblock_net
+  extractor2:
+    image: mtgupf/essentia-nightly:latest
+    container_name: extractor_service2
+    volumes:
+      - shared_data:/data/output_json
+      - ./demoMusic:/data/input_audio:ro
+      - ./extraction_module/pr.yaml:/app/pr.yaml:ro # Adjust /app/ if WORKDIR is different
+      - ./extraction_module/prepare_extract.py:/app/prepare_extract.py
+    working_dir: /app
+    networks:
+      - musicblock_net
+  # Similarity Client Service
+  client:
+    build:
+      context: . 
+      dockerfile: dockerfile 
+    container_name: client_service
+    volumes:
+      - shared_data:/data/input_json
+      
+      - ./global_min_max.json:/app/global_min_max.json:ro # Adjust /app/ if WORKDIR is different
+      - ./client_similarity.py:/app/client_similarity.py
+      # temoporary for testing
+      - ./test:/app/test
+      - ./demoMusic:/data/test
+
+    working_dir: /app 
+    networks:
+      - musicblock_net
+    environment:
+      - QDRANT_HOST=qdrant # Use the service name 'qdrant'
+    depends_on:
+      - qdrant # Ensure Qdrant starts first (doesn't guarantee readiness)
+    # No ports needed, it's run manually via docker-compose run
+
+# Define Named Volumes
+volumes:
+  qdrant_storage: # For Qdrant data persistence
+  shared_data:    # For passing JSON between extractor and client
+
+# Define Network
+networks:
+  musicblock_net:

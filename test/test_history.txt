@@ -1,2 +1,7 @@
 test_id,configuration,db_size,db_name,no_test
 20250401_000350,55 dimensiuni:mfcc(13);bpm;onset_rate;danceability;key_strength; chords_changes_rate; hpcp_entropy(36) normalizate min max ( pe baza de date),1.4m pts,music_similarity2.10*3 variante
+20250405_183437,la fel doar ca audio ul nu a fost normalizat la -23 LUFS,1.4m pts,music_similarity2.10*3 variante
+20250405_184943,audio ne-normalizat si extragere facuta cu versiuea beta2,1.4m pts,music_similarity2.10*3 variante
+20250405_193503,beta2 si audio normalizat,1.4m pts,music_similarity2.10*3 variante
+
+

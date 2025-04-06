@@ -1,66 +1,122 @@
 #!/usr/bin/env python3
+import argparse
+import subprocess
 import os
 import sys
-import subprocess
-import argparse
+import tempfile
+import shutil
 
-def main():
-    parser = argparse.ArgumentParser(
-        description="Chain audio preparation, feature extraction, and similarity search using Essentia."
-    )
-    parser.add_argument("input_audio", help="Path to the input audio file (e.g. MP3, FLAC)")
-    parser.add_argument("--temp_dir", default="temp", help="Temporary directory for intermediate files")
-    parser.add_argument("--target_lufs", type=float, default=-23.0, help="Target LUFS for audio processing (default: -23)")
-    parser.add_argument("--sr", type=int, default=44100, help="Target sample rate (default: 44100 Hz)")
-    parser.add_argument("--extractor_config", default="pr.yaml", help="Essentia extractor config file (default: pr.yaml)")
-    parser.add_argument("--top_k", type=int, default=20, help="Number of similar items to retrieve (passed to client_similarity)")
-    args = parser.parse_args()
+# --- Defaults ---
+DEFAULT_EXTRACTOR_CONFIG = "extraction_module/pr.yaml"
+DEFAULT_PREPARE_SCRIPT = "prepare_extract.py" # Script inside extractor
+DEFAULT_CLIENT_SCRIPT = "client_similarity.py"  # Script inside client
+DEFAULT_TOP_K = 20
+# ----------------
 
+def run_full_pipeline(host_input_audio, extractor_config, top_k, json_output):
+    """
+    Orchestrates the extractor and client services using docker compose run.
+    Runs on the HOST machine.
+    """
+
+    print(f"--- Starting Full Pipeline for: {host_input_audio} ---")
+
+    # --- Define Paths ---
+    # Host paths
+    host_input_dir = os.path.dirname(host_input_audio)
+    host_input_filename = os.path.basename(host_input_audio)
+    base_filename = os.path.splitext(host_input_filename)[0]
+
+    # Paths *inside* the extractor container
+    extractor_input_audio_path = f"/data/input_audio/{host_input_filename}" # Corresponds to ./demoMusic mount
+    extractor_output_json_dir = "/data/output_json" # Corresponds to shared_data mount
+    extractor_config_path = f"/app/{os.path.basename(extractor_config)}" # Corresponds to pr.yaml mount
+
+    # Path *inside* the client container
+    client_input_json_path = f"/data/input_json/output_{base_filename}.json" # Corresponds to shared_data mount
+
+    # --- Step 1: Run Extractor Service ---
+    print("\n" + "="*15 + " Step 1: Running Extractor Service " + "="*15)
+    cmd_extractor = [
+        "docker","compose", "run", "--rm", # --rm cleans up container afterwards
+        "extractor", # Service name in docker compose.yml
+        "python3", DEFAULT_PREPARE_SCRIPT, # Command to run inside container
+        extractor_input_audio_path,
+        extractor_output_json_dir,
+        "--extractor_config", extractor_config_path
+        # Add --sr if needed
+    ]
+    print(f"Host executing: {' '.join(cmd_extractor)}")
     try:
-        os.makedirs(args.temp_dir)
-    except:
-        pass
-
-    processed_audio = os.path.join(args.temp_dir, "processed_audio.wav")
-    print("=== Preparing Audio ===")
-    prepare_cmd = [
-        "python", "prepare_audio.py",
-        args.input_audio,
-        processed_audio,
-        "--target_lufs", str(args.target_lufs),
-        "--sr", str(args.sr)
-    ]
-    print("callning command:", " ".join(prepare_cmd))
-    result = subprocess.call(prepare_cmd)
-    if result != 0:
-        print("Error: Audio preparation failed.")
+        result_extractor = subprocess.run(cmd_extractor, check=True, capture_output=True, text=True)
+        print("--- Extractor Output ---")
+        print(result_extractor.stdout.strip())
+        if result_extractor.stderr:
+            print("--- Extractor Stderr ---")
+            print(result_extractor.stderr.strip())
+        print("--- Extractor Service Complete ---")
+    except subprocess.CalledProcessError as e:
+        print(f"\nError running extractor service (Return Code: {e.returncode}):")
+        print(e.stderr.strip())
         sys.exit(1)
+    except FileNotFoundError:
+         print("Error: 'docker compose' command not found. Is it installed and in your PATH?")
+         sys.exit(1)
 
-    output_json = os.path.join(args.temp_dir, "output_features.json")
-    print("\n=== Extracting Features ===")
-    extractor_cmd = [
-        "essentia_streaming_extractor_music",
-        processed_audio,
-        output_json,
-        args.extractor_config
-    ]
-    print("callning command:", " ".join(extractor_cmd))
-    result = subprocess.call(extractor_cmd)
-    if result != 0:
-        print("Error: Feature extraction failed.")
-        sys.exit(1)
 
-    print("\n=== Performing Similarity Search ===")
-    similarity_cmd = [
-        "python", "client_similarity.py",
-        output_json,
-        "--top_k", str(args.top_k)
+    # --- Step 2: Run Client Service ---
+    print("\n" + "="*15 + " Step 2: Running Client Service " + "="*15)
+    cmd_client = [
+        "docker","compose", "run", "--rm",
+        "client", # Service name
+        "python", DEFAULT_CLIENT_SCRIPT, # Command
+        client_input_json_path,
+        "--top_k", str(top_k)
     ]
-    print("callning command:", " ".join(similarity_cmd))
-    result = subprocess.call(similarity_cmd)
-    if result != 0:
-        print("Error: Similarity search failed.")
+    if json_output:
+        cmd_client.append("--json")
+
+    print(f"Host executing: {' '.join(cmd_client)}")
+    try:
+        # Let client print directly to host console
+        result_client = subprocess.run(cmd_client, check=True, text=True)
+        print("\n--- Client Service Complete ---")
+    except subprocess.CalledProcessError as e:
+        print(f"\nError running client service (Return Code: {e.returncode}). See output above.")
         sys.exit(1)
+    except FileNotFoundError:
+         print("Error: 'docker compose' command not found.")
+         sys.exit(1)
+
+    print("\n--- Full Pipeline Finished Successfully ---")
+
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(
+        description="Run the full Extractor -> Client pipeline using Docker Compose."
+    )
+    parser.add_argument("input_audio", help="Path to the input audio file ON THE HOST.")
+    parser.add_argument("--config", default=DEFAULT_EXTRACTOR_CONFIG, dest="extractor_config",
+                        help=f"Path to the Essentia extractor config profile ON THE HOST (will be mounted). (default: {DEFAULT_EXTRACTOR_CONFIG})")
+    parser.add_argument("--top_k", type=int, default=DEFAULT_TOP_K,
+                        help=f"Number of similar items to retrieve (default: {DEFAULT_TOP_K}).")
+    parser.add_argument("--json", action="store_true", dest="json_output",
+                        help="Output final similarity results in raw JSON format.")
+
+    args = parser.parse_args()
+
+    # Basic check if host files exist before starting
+    if not os.path.isfile(args.input_audio):
+        print(f"Error: Input audio file not found on host: {args.input_audio}")
+        sys.exit(1)
+    if not os.path.isfile(args.extractor_config):
+        print(f"Error: Extractor config file not found on host: {args.extractor_config}")
+        sys.exit(1)
+
+
+    run_full_pipeline(
+        host_input_audio=args.input_audio,
+        extractor_config=args.extractor_config,
+        top_k=args.top_k,
+        json_output=args.json_output
+    )
