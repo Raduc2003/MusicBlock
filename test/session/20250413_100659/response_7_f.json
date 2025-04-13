@@ -1,0 +1,1261 @@
+{
+  "query_final_vector": [
+    0.1438630351440517,
+    -0.08613170899156164,
+    0.02726784746925351,
+    0.05681520630121563,
+    0.011731840796006043,
+    0.04989191059910967,
+    0.13917239357124492,
+    0.09576142481513573,
+    0.056606567023921424,
+    0.07588910906286715,
+    0.0026367942129783043,
+    0.04503324417457551,
+    -0.07625970534816202,
+    0.11832667530051581,
+    -0.02653833120435226,
+    -0.003184357522106538,
+    0.1987739422687697,
+    -0.0701232980290873,
+    0.0015718832004551829,
+    -0.07602634318578254,
+    -0.05774520790521745,
+    -0.04946249384684009,
+    -0.08248779894429288,
+    -0.10585558827868526,
+    -0.061534535328708846,
+    -0.02266563071053432,
+    0.051920263725922615,
+    0.4472554451906296,
+    0.42233656087655996,
+    0.22553120529344878,
+    -0.027578715125378832,
+    -0.07011284714496456,
+    -0.07500115620720542,
+    -0.002542178499738908,
+    0.04446058869022543,
+    0.025733196205700297,
+    -0.05589863687043521,
+    -0.07661149148459466,
+    -0.07648376037801805,
+    -0.018585636619262914,
+    -0.010108982165638417,
+    0.025107947478998353,
+    0.0824576204359551,
+    -0.0037332064330499745,
+    -0.05483417072849967,
+    -0.06580963396908333,
+    -0.06917120542773199,
+    -0.0213066180541028,
+    0.31464413519476075,
+    0.38643277060943204,
+    0.271045021122139,
+    -0.003502070426791328,
+    -0.07609175086020604,
+    -0.09647774413707556,
+    -0.09372929889579669
+  ],
+  "results": [
+    {
+      "id": 581719,
+      "score": 0.99887925,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 147.987289429,
+        "mbid": "94c7a587-1b06-4ca6-a488-37c1363ffe8c",
+        "artist": "blink-182",
+        "title": "All The Small Things"
+      }
+    },
+    {
+      "id": 581720,
+      "score": 0.99887925,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 147.987289429,
+        "mbid": "94c7a587-1b06-4ca6-a488-37c1363ffe8c",
+        "artist": "blink-182",
+        "title": "All The Small Things"
+      }
+    },
+    {
+      "id": 950405,
+      "score": 0.99887925,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 147.987289429,
+        "mbid": "f36d9818-019b-4379-ad13-5080feb9ad8a",
+        "artist": "blink-182",
+        "title": "All The Small Things"
+      }
+    },
+    {
+      "id": 581721,
+      "score": 0.998684,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 148.161346436,
+        "mbid": "94c7a587-1b06-4ca6-a488-37c1363ffe8c",
+        "artist": "blink-182",
+        "title": "All the Small Things"
+      }
+    },
+    {
+      "id": 950399,
+      "score": 0.99849296,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 148.023864746,
+        "mbid": "f36d9818-019b-4379-ad13-5080feb9ad8a",
+        "artist": "blink-182",
+        "title": "All the Small Things"
+      }
+    },
+    {
+      "id": 1032414,
+      "score": 0.99843615,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 148.092544556,
+        "mbid": "11ebba85-039f-4dd6-aab5-9aa8e33894a4",
+        "artist": "blink-182",
+        "title": "All the Small Things"
+      }
+    },
+    {
+      "id": 950404,
+      "score": 0.9979385,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 148.01725769,
+        "mbid": "f36d9818-019b-4379-ad13-5080feb9ad8a",
+        "artist": "blink-182",
+        "title": "All the Small Things"
+      }
+    },
+    {
+      "id": 64887,
+      "score": 0.9978547,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 147.948684692,
+        "mbid": "10a0bee8-d47e-4b74-99eb-3c06820b6d41",
+        "artist": "blink-182",
+        "title": "All the Small Things"
+      }
+    },
+    {
+      "id": 599381,
+      "score": 0.9978533,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 148.038864136,
+        "mbid": "994da0b6-5229-4ab0-9c0f-edba2b617504",
+        "artist": "Blink-182",
+        "title": "All The Small Things"
+      }
+    },
+    {
+      "id": 1030138,
+      "score": 0.99744326,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 148.15145874,
+        "mbid": "10a0bee8-d47e-4b74-99eb-3c06820b6d41",
+        "artist": "Blink-182",
+        "title": "All The Small Things"
+      }
+    },
+    {
+      "id": 950401,
+      "score": 0.9970892,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 147.980392456,
+        "mbid": "f36d9818-019b-4379-ad13-5080feb9ad8a",
+        "artist": "Blink 182",
+        "title": "All The Small Things"
+      }
+    },
+    {
+      "id": 581718,
+      "score": 0.99705034,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 147.930557251,
+        "mbid": "94c7a587-1b06-4ca6-a488-37c1363ffe8c",
+        "artist": "Blink-182",
+        "title": "All the Small Things"
+      }
+    },
+    {
+      "id": 1082717,
+      "score": 0.996875,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 147.991119385,
+        "mbid": "2dfb9b07-4192-4037-834b-52493f31650b",
+        "artist": "Blink-182",
+        "title": "All the Small Things"
+      }
+    },
+    {
+      "id": 72694,
+      "score": 0.9955749,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 147.916091919,
+        "mbid": "1295f63b-3b5a-4f4f-a781-2c26cc867873",
+        "artist": "Blink 182",
+        "title": "All The Small Things"
+      }
+    },
+    {
+      "id": 72695,
+      "score": 0.9955749,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 147.916091919,
+        "mbid": "1295f63b-3b5a-4f4f-a781-2c26cc867873",
+        "artist": "Blink 182",
+        "title": "All The Small Things"
+      }
+    },
+    {
+      "id": 950400,
+      "score": 0.995416,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 148.076843262,
+        "mbid": "f36d9818-019b-4379-ad13-5080feb9ad8a",
+        "artist": "Blink-182",
+        "title": "All the Small Things"
+      }
+    },
+    {
+      "id": 950406,
+      "score": 0.99222934,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 148.079528809,
+        "mbid": "f36d9818-019b-4379-ad13-5080feb9ad8a",
+        "artist": "Blink-182",
+        "title": "All the Small Things"
+      }
+    },
+    {
+      "id": 950402,
+      "score": 0.9907515,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 148.024169922,
+        "mbid": "f36d9818-019b-4379-ad13-5080feb9ad8a",
+        "artist": "blink-182",
+        "title": "All The Small Things"
+      }
+    },
+    {
+      "id": 64886,
+      "score": 0.98828346,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 147.888031006,
+        "mbid": "10a0bee8-d47e-4b74-99eb-3c06820b6d41",
+        "artist": "blink-182",
+        "title": "All The Small Things"
+      }
+    },
+    {
+      "id": 599382,
+      "score": 0.9875161,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 148.023620605,
+        "mbid": "994da0b6-5229-4ab0-9c0f-edba2b617504",
+        "artist": "Blink 182",
+        "title": "All The Small Things"
+      }
+    },
+    {
+      "id": 1256925,
+      "score": 0.9395939,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 117.403594971,
+        "mbid": "8ea6294e-01e9-46d3-afa3-d8dd09d49868",
+        "artist": "Genesis",
+        "title": "Ballad of Big"
+      }
+    },
+    {
+      "id": 424187,
+      "score": 0.9334494,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 140.460678101,
+        "mbid": "6ccd7ffb-9370-495e-89f6-27000659ed1b",
+        "artist": "The Tossers",
+        "title": "Emerald City"
+      }
+    },
+    {
+      "id": 1256503,
+      "score": 0.9314309,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 129.920455933,
+        "mbid": "8e62956f-c320-4ce3-8073-48d52224ec99",
+        "artist": "Glee Cast",
+        "title": "Jump"
+      }
+    },
+    {
+      "id": 1148879,
+      "score": 0.92932254,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 118.041671753,
+        "mbid": "5280aa73-d1c0-491f-b3ef-708d809cd58b",
+        "artist": "blink-182",
+        "title": "Don't Tell Me It's Over"
+      }
+    },
+    {
+      "id": 1148878,
+      "score": 0.92835176,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 118.089157104,
+        "mbid": "5280aa73-d1c0-491f-b3ef-708d809cd58b",
+        "artist": "blink\u2010182",
+        "title": "Don't Tell Me It's Over"
+      }
+    },
+    {
+      "id": 1148877,
+      "score": 0.92835176,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 118.089157104,
+        "mbid": "5280aa73-d1c0-491f-b3ef-708d809cd58b",
+        "artist": "Blink-182",
+        "title": "Don't Tell Me It's Over"
+      }
+    },
+    {
+      "id": 1148880,
+      "score": 0.92835176,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 118.089157104,
+        "mbid": "5280aa73-d1c0-491f-b3ef-708d809cd58b",
+        "artist": "blink\u2010182",
+        "title": "Don't Tell Me It's Over"
+      }
+    },
+    {
+      "id": 556593,
+      "score": 0.9275202,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 129.884780884,
+        "mbid": "8e62956f-c320-4ce3-8073-48d52224ec99",
+        "artist": "Glee Cast",
+        "title": "Jump"
+      }
+    },
+    {
+      "id": 615980,
+      "score": 0.92629987,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 148.409973145,
+        "mbid": "9d7ec804-1d98-4029-93f4-326e25ed94e7",
+        "artist": "Status Quo",
+        "title": "Ol' Rag Blues (Alan Lancaster version)"
+      }
+    },
+    {
+      "id": 1256504,
+      "score": 0.92316866,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 129.814651489,
+        "mbid": "8e62956f-c320-4ce3-8073-48d52224ec99",
+        "artist": "Glee Cast",
+        "title": "Jump"
+      }
+    },
+    {
+      "id": 961121,
+      "score": 0.9198006,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 118.193557739,
+        "mbid": "f632dbe5-d9a3-4717-9f41-f25cdcc9666f",
+        "artist": "The Red Jumpsuit Apparatus",
+        "title": "California"
+      }
+    },
+    {
+      "id": 218391,
+      "score": 0.9191041,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 135.406326294,
+        "mbid": "37c91c97-ebd6-48fc-80a9-3c20ac9bff6c",
+        "artist": "James",
+        "title": "How Was It for You"
+      }
+    },
+    {
+      "id": 1209025,
+      "score": 0.9182602,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 165.398834229,
+        "mbid": "73dd961d-5cbc-4ad8-8d86-ad8b81c8acc4",
+        "artist": "Dolly Parton",
+        "title": "Tennessee Homesick Blues"
+      }
+    },
+    {
+      "id": 150744,
+      "score": 0.91650844,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 116.350067139,
+        "mbid": "2670ec91-f816-4cf6-8494-dc833e1198f5",
+        "artist": "Barenaked Ladies",
+        "title": "Another Spin"
+      }
+    },
+    {
+      "id": 1272488,
+      "score": 0.9155174,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 151.740890503,
+        "mbid": "97217a18-9739-4807-bfa7-b506983840f8",
+        "artist": "Billy Joel",
+        "title": "Only the Good Die Young"
+      }
+    },
+    {
+      "id": 591072,
+      "score": 0.9155174,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 151.740890503,
+        "mbid": "97217a18-9739-4807-bfa7-b506983840f8",
+        "artist": "Billy Joel",
+        "title": "Only The Good Die Young"
+      }
+    },
+    {
+      "id": 591070,
+      "score": 0.9155174,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 151.740890503,
+        "mbid": "97217a18-9739-4807-bfa7-b506983840f8",
+        "artist": "Billy Joel",
+        "title": "Only The Good Die Young"
+      }
+    },
+    {
+      "id": 35779,
+      "score": 0.9155174,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 151.740890503,
+        "mbid": "0922cb5c-c499-4d5f-a255-3b6a25f62266",
+        "artist": "Billy Joel",
+        "title": "Joel - Only The Good Die Young"
+      }
+    },
+    {
+      "id": 1272487,
+      "score": 0.9155174,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 151.740890503,
+        "mbid": "97217a18-9739-4807-bfa7-b506983840f8",
+        "artist": "Billy Joel",
+        "title": "Only The Good Die Young"
+      }
+    },
+    {
+      "id": 591073,
+      "score": 0.9155174,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 151.740890503,
+        "mbid": "97217a18-9739-4807-bfa7-b506983840f8",
+        "artist": "Billy Joel",
+        "title": "Only The Good Die Young"
+      }
+    },
+    {
+      "id": 1272489,
+      "score": 0.9155174,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 151.740890503,
+        "mbid": "97217a18-9739-4807-bfa7-b506983840f8",
+        "artist": "Billy Joel",
+        "title": "Only the Good Die Young"
+      }
+    },
+    {
+      "id": 486454,
+      "score": 0.9155174,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 151.740890503,
+        "mbid": "7c8d3877-e198-47fb-853a-765b8699b5ec",
+        "artist": "Billy Joel",
+        "title": "Joel - Only The Good Die Young"
+      }
+    },
+    {
+      "id": 486453,
+      "score": 0.9155174,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 151.740890503,
+        "mbid": "7c8d3877-e198-47fb-853a-765b8699b5ec",
+        "artist": "Billy Joel",
+        "title": "Joel - Only The Good Die Young"
+      }
+    },
+    {
+      "id": 150745,
+      "score": 0.9147633,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 116.248130798,
+        "mbid": "2670ec91-f816-4cf6-8494-dc833e1198f5",
+        "artist": "Barenaked Ladies",
+        "title": "Another Spin"
+      }
+    },
+    {
+      "id": 591067,
+      "score": 0.9123311,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 151.90322876,
+        "mbid": "97217a18-9739-4807-bfa7-b506983840f8",
+        "artist": "Billy Joel",
+        "title": "Only the Good Die Young"
+      }
+    },
+    {
+      "id": 1109830,
+      "score": 0.91195184,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 120.892227173,
+        "mbid": "3cb2b567-f895-484a-bb97-3273a6c705f8",
+        "artist": "Kelly Marie",
+        "title": "Feels Like I'm I Love"
+      }
+    },
+    {
+      "id": 1005771,
+      "score": 0.91130036,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 145.980743408,
+        "mbid": "0332b536-cd81-44f4-9ae4-c3474024becc",
+        "artist": "Soul Asylum",
+        "title": "Marionette"
+      }
+    },
+    {
+      "id": 1074034,
+      "score": 0.90974796,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 144.909469604,
+        "mbid": "293c945f-7079-4147-b0e3-f9b36eb5e881",
+        "artist": "DKDA",
+        "title": "Sue\u00f1os De Juventud"
+      }
+    },
+    {
+      "id": 951781,
+      "score": 0.90918714,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 123.769943237,
+        "mbid": "f3c5ceec-fbc2-4760-ab66-d51c2d422770",
+        "artist": "Cher",
+        "title": "Back on the Street Again"
+      }
+    },
+    {
+      "id": 201758,
+      "score": 0.9089479,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 140.007507324,
+        "mbid": "336ef00b-7362-43c4-849c-acd9c6bdb31e",
+        "artist": "Neil Diamond",
+        "title": "Santa Claus Is Coming to Town"
+      }
+    },
+    {
+      "id": 201761,
+      "score": 0.9089479,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 140.007507324,
+        "mbid": "336ef00b-7362-43c4-849c-acd9c6bdb31e",
+        "artist": "Neil Diamond",
+        "title": "Santa Claus Is Coming to Town"
+      }
+    },
+    {
+      "id": 201764,
+      "score": 0.9089479,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 140.007507324,
+        "mbid": "336ef00b-7362-43c4-849c-acd9c6bdb31e",
+        "artist": "Neil Diamond",
+        "title": "Santa Claus Is Coming to Town"
+      }
+    },
+    {
+      "id": 201763,
+      "score": 0.9089479,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 140.007507324,
+        "mbid": "336ef00b-7362-43c4-849c-acd9c6bdb31e",
+        "artist": "Neil Diamond",
+        "title": "Santa Claus Is Coming to Town"
+      }
+    },
+    {
+      "id": 201760,
+      "score": 0.9089479,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 140.007507324,
+        "mbid": "336ef00b-7362-43c4-849c-acd9c6bdb31e",
+        "artist": "Neil Diamond",
+        "title": "Santa Claus Is Coming to Town"
+      }
+    },
+    {
+      "id": 201759,
+      "score": 0.9089479,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 140.007507324,
+        "mbid": "336ef00b-7362-43c4-849c-acd9c6bdb31e",
+        "artist": "Neil Diamond",
+        "title": "Santa Claus Is Coming to Town"
+      }
+    },
+    {
+      "id": 201757,
+      "score": 0.9089479,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 140.007507324,
+        "mbid": "336ef00b-7362-43c4-849c-acd9c6bdb31e",
+        "artist": "Neil Diamond",
+        "title": "Santa Claus Is Coming to Town"
+      }
+    },
+    {
+      "id": 201762,
+      "score": 0.9089479,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 140.007507324,
+        "mbid": "336ef00b-7362-43c4-849c-acd9c6bdb31e",
+        "artist": "Neil Diamond",
+        "title": "Santa Claus Is Coming to Town"
+      }
+    },
+    {
+      "id": 389303,
+      "score": 0.9073689,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 143.412246704,
+        "mbid": "63ce4da1-ecfd-48c2-bd3c-16406cb44ed6",
+        "artist": "Bruce Springsteen & The E Street Band",
+        "title": "Two Hearts"
+      }
+    },
+    {
+      "id": 449949,
+      "score": 0.9059471,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 178.205337524,
+        "mbid": "737a4c3d-c095-4c31-9ff6-b2dde2110ae2",
+        "artist": "The Julie Ruin",
+        "title": "Stop Stop"
+      }
+    },
+    {
+      "id": 1269479,
+      "score": 0.90585226,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 123.019348145,
+        "mbid": "95669a10-d17c-4aa8-9d51-21293a43d87b",
+        "artist": "Dixie Chicks",
+        "title": "Goodbye Earl"
+      }
+    },
+    {
+      "id": 1269478,
+      "score": 0.90585226,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 123.019348145,
+        "mbid": "95669a10-d17c-4aa8-9d51-21293a43d87b",
+        "artist": "Dixie Chicks",
+        "title": "Goodbye Earl"
+      }
+    },
+    {
+      "id": 768802,
+      "score": 0.9058122,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 172.265213013,
+        "mbid": "c4b186a3-ea34-4f48-9ab5-cf0dbaafec3b",
+        "artist": "LADYBABY",
+        "title": "God's Not"
+      }
+    },
+    {
+      "id": 768803,
+      "score": 0.90581214,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 172.265213013,
+        "mbid": "c4b186a3-ea34-4f48-9ab5-cf0dbaafec3b",
+        "artist": "LADYBABY",
+        "title": "God\u2019s Not"
+      }
+    },
+    {
+      "id": 768804,
+      "score": 0.90581214,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 172.265213013,
+        "mbid": "c4b186a3-ea34-4f48-9ab5-cf0dbaafec3b",
+        "artist": "LADYBABY",
+        "title": "God\u2019s Not"
+      }
+    },
+    {
+      "id": 1317042,
+      "score": 0.9044376,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 120.867660522,
+        "mbid": "afde05dd-b086-4a1b-a15e-01d73b38cd77",
+        "artist": "Kelly Marie",
+        "title": "Feels Like Im in Love"
+      }
+    },
+    {
+      "id": 1129673,
+      "score": 0.9043882,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 121.728553772,
+        "mbid": "47ccd3f0-0a9e-4069-91be-33e13bf88aff",
+        "artist": "Bon Jovi",
+        "title": "Captain Crash & the Beauty Queen From Mars"
+      }
+    },
+    {
+      "id": 1074033,
+      "score": 0.9042452,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 144.921707153,
+        "mbid": "293c945f-7079-4147-b0e3-f9b36eb5e881",
+        "artist": "Dkda",
+        "title": "Amame Como Soy"
+      }
+    },
+    {
+      "id": 121552,
+      "score": 0.9037862,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 147.421463013,
+        "mbid": "1f109c75-8371-4bd4-9347-0343c783b27e",
+        "artist": "The Front Bottoms",
+        "title": "Skeleton"
+      }
+    },
+    {
+      "id": 121550,
+      "score": 0.9037862,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 147.421463013,
+        "mbid": "1f109c75-8371-4bd4-9347-0343c783b27e",
+        "artist": "The Front Bottoms",
+        "title": "Skeleton"
+      }
+    },
+    {
+      "id": 121553,
+      "score": 0.9037862,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 147.421463013,
+        "mbid": "1f109c75-8371-4bd4-9347-0343c783b27e",
+        "artist": "The Front Bottoms",
+        "title": "Skeleton"
+      }
+    },
+    {
+      "id": 1321118,
+      "score": 0.9037648,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 129.468765259,
+        "mbid": "b232e331-e98b-404d-bce7-dd3e6836709f",
+        "artist": "Mavis Staples",
+        "title": "Blood Is Thicker Than Time"
+      }
+    },
+    {
+      "id": 1084660,
+      "score": 0.9035621,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 123.094413757,
+        "mbid": "2ef52bee-d2b2-477c-b703-bbf715a91106",
+        "artist": "Dixie Chicks",
+        "title": "Goodbye Earl"
+      }
+    },
+    {
+      "id": 1084658,
+      "score": 0.9035621,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 123.094413757,
+        "mbid": "2ef52bee-d2b2-477c-b703-bbf715a91106",
+        "artist": "Dixie Chicks",
+        "title": "Goodbye Earl"
+      }
+    },
+    {
+      "id": 1084659,
+      "score": 0.9035621,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 123.094413757,
+        "mbid": "2ef52bee-d2b2-477c-b703-bbf715a91106",
+        "artist": "Dixie Chicks",
+        "title": "Goodbye Earl"
+      }
+    },
+    {
+      "id": 768805,
+      "score": 0.90336615,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 172.265213013,
+        "mbid": "c4b186a3-ea34-4f48-9ab5-cf0dbaafec3b",
+        "artist": "LADYBABY",
+        "title": "God\u2019s Not"
+      }
+    },
+    {
+      "id": 209150,
+      "score": 0.90321887,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 128.80531311,
+        "mbid": "35689b3a-f473-420e-aaea-7df0603c3998",
+        "artist": "Midge Ure",
+        "title": "Cold, Cold Heart"
+      }
+    },
+    {
+      "id": 209149,
+      "score": 0.9029734,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 128.81640625,
+        "mbid": "35689b3a-f473-420e-aaea-7df0603c3998",
+        "artist": "Midge Ure",
+        "title": "Cold, Cold Heart"
+      }
+    },
+    {
+      "id": 209148,
+      "score": 0.9029734,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 128.81640625,
+        "mbid": "35689b3a-f473-420e-aaea-7df0603c3998",
+        "artist": "Midge Ure",
+        "title": "Cold, Cold Heart"
+      }
+    },
+    {
+      "id": 174269,
+      "score": 0.90289426,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 165.31703186,
+        "mbid": "2c6b4cdd-b299-4577-b768-6ab9094329c6",
+        "artist": "Flamingoes",
+        "title": "The Chosen Few"
+      }
+    },
+    {
+      "id": 218392,
+      "score": 0.90243626,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 135.39515686,
+        "mbid": "37c91c97-ebd6-48fc-80a9-3c20ac9bff6c",
+        "artist": "James",
+        "title": "How Was It for You"
+      }
+    },
+    {
+      "id": 1121997,
+      "score": 0.9024227,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 133.613143921,
+        "mbid": "438990e1-01f5-4ec3-8662-f6f726d24594",
+        "artist": "Wet Wet Wet",
+        "title": "Stay with Me Heartache"
+      }
+    },
+    {
+      "id": 1121996,
+      "score": 0.9024227,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 133.613143921,
+        "mbid": "438990e1-01f5-4ec3-8662-f6f726d24594",
+        "artist": "Wet Wet Wet",
+        "title": "Stay with Me Heartache"
+      }
+    },
+    {
+      "id": 754063,
+      "score": 0.902211,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 134.715011597,
+        "mbid": "c0d7a269-a6b7-4e5b-8b64-8e1a20e25c04",
+        "artist": "Stoppok",
+        "title": "...H\u00f6lle losgeht"
+      }
+    },
+    {
+      "id": 34479,
+      "score": 0.9019929,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 144.474777222,
+        "mbid": "08d43b7b-3873-458d-814d-dee037eafe5d",
+        "artist": "Vic Chesnutt",
+        "title": "Until The Led"
+      }
+    },
+    {
+      "id": 1342415,
+      "score": 0.9017811,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 121.046760559,
+        "mbid": "bdf661c7-5e58-44d3-8ac3-955c97c4e9e8",
+        "artist": "The Pretenders",
+        "title": "Stop Your Sobbing"
+      }
+    },
+    {
+      "id": 1342414,
+      "score": 0.9017811,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 121.046760559,
+        "mbid": "bdf661c7-5e58-44d3-8ac3-955c97c4e9e8",
+        "artist": "The Pretenders",
+        "title": "Stop Your Sobbing"
+      }
+    },
+    {
+      "id": 1095816,
+      "score": 0.90161276,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 153.192062378,
+        "mbid": "350090d9-2f70-4752-badb-2d9101c96d75",
+        "artist": "Gary Clark, Jr.",
+        "title": "Travis County"
+      }
+    },
+    {
+      "id": 1285389,
+      "score": 0.9014221,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 120.923500061,
+        "mbid": "9e72566c-87d1-4f27-9479-33fc379649f7",
+        "artist": "Kelly Marie",
+        "title": "Feels Like I'm in Love"
+      }
+    },
+    {
+      "id": 1285391,
+      "score": 0.9014221,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 120.923500061,
+        "mbid": "9e72566c-87d1-4f27-9479-33fc379649f7",
+        "artist": "Kelly Marie",
+        "title": "Feels Like I'm in Love"
+      }
+    },
+    {
+      "id": 1285390,
+      "score": 0.9014221,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 120.923500061,
+        "mbid": "9e72566c-87d1-4f27-9479-33fc379649f7",
+        "artist": "Kelly Marie",
+        "title": "Feels Like I'm in Love"
+      }
+    },
+    {
+      "id": 237377,
+      "score": 0.9014188,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 97.9607543945,
+        "mbid": "3c97b901-5129-41d3-a52c-f4bcc75f6dd0",
+        "artist": "Devo",
+        "title": "Words Get Stuck In My Throat"
+      }
+    },
+    {
+      "id": 237378,
+      "score": 0.9014188,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 97.9607543945,
+        "mbid": "3c97b901-5129-41d3-a52c-f4bcc75f6dd0",
+        "artist": "Devo",
+        "title": "Words Get Stuck In My Throat"
+      }
+    },
+    {
+      "id": 1338232,
+      "score": 0.9013678,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 135.538848877,
+        "mbid": "bbb98029-1b29-431f-a8fe-241375451b0c",
+        "artist": "Carlene Carter",
+        "title": "Love Is a 4 Letter Verb"
+      }
+    },
+    {
+      "id": 389302,
+      "score": 0.9011299,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 143.441390991,
+        "mbid": "63ce4da1-ecfd-48c2-bd3c-16406cb44ed6",
+        "artist": "Bruce Springsteen & The E Street Band",
+        "title": "Two Hearts"
+      }
+    },
+    {
+      "id": 389304,
+      "score": 0.9011299,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 143.441390991,
+        "mbid": "63ce4da1-ecfd-48c2-bd3c-16406cb44ed6",
+        "artist": "Bruce Springsteen & The E Street Band",
+        "title": "Two Hearts"
+      }
+    },
+    {
+      "id": 105382,
+      "score": 0.90084356,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 140.172058105,
+        "mbid": "1afbf6e2-d8ca-4af1-bf7b-165dcca5b8ab",
+        "artist": "The Yellow Melodies",
+        "title": "Sheena Is a Punk Rocker"
+      }
+    },
+    {
+      "id": 334568,
+      "score": 0.90066713,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 134.740310669,
+        "mbid": "55c24daa-4f70-4cf4-9eaa-d84bdd5fa3ba",
+        "artist": "Neil Diamond",
+        "title": "Shilo"
+      }
+    },
+    {
+      "id": 334571,
+      "score": 0.90066713,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 134.740310669,
+        "mbid": "55c24daa-4f70-4cf4-9eaa-d84bdd5fa3ba",
+        "artist": "Neil Diamond",
+        "title": "Shilo"
+      }
+    },
+    {
+      "id": 334573,
+      "score": 0.90066713,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 134.740310669,
+        "mbid": "55c24daa-4f70-4cf4-9eaa-d84bdd5fa3ba",
+        "artist": "Neil Diamond",
+        "title": "Shilo"
+      }
+    },
+    {
+      "id": 334567,
+      "score": 0.90066713,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 134.740310669,
+        "mbid": "55c24daa-4f70-4cf4-9eaa-d84bdd5fa3ba",
+        "artist": "Neil Diamond",
+        "title": "Shilo"
+      }
+    }
+  ]
+}

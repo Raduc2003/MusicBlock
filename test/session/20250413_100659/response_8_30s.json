@@ -1,0 +1,1261 @@
+{
+  "query_final_vector": [
+    0.17861083164396319,
+    -0.09735133933649358,
+    0.00034115409295961606,
+    0.14611810711028236,
+    0.1873491640201335,
+    -0.02648085604912149,
+    0.17813995209347216,
+    0.10614088491917739,
+    0.08231864499756639,
+    0.07426629115721874,
+    -0.06419916772414826,
+    0.016273366862271436,
+    0.018744918754943496,
+    -0.18952967514796154,
+    0.2926217562320066,
+    0.16595768998919297,
+    0.10090187023580485,
+    0.06147175821204874,
+    0.11786410303323605,
+    -0.10366284315094847,
+    -0.06325384949086894,
+    0.17500012294880357,
+    0.14627229832053718,
+    0.07801078210814665,
+    0.06588277277656694,
+    -0.014329241944321051,
+    -0.04992186268704645,
+    -0.025805004731446087,
+    -0.05644841824350853,
+    -0.02218145303153052,
+    0.30852119037284575,
+    0.26755957231880334,
+    0.06328817266119774,
+    -0.10645967748439675,
+    -0.1020130865921241,
+    -0.00041325836013023884,
+    0.264440552296748,
+    0.16674135355875352,
+    0.005902361579933267,
+    -0.11457144012803797,
+    -0.1308441774697313,
+    -0.0467681936594001,
+    0.014394902001583165,
+    -0.07339267231258076,
+    -0.05481751889063964,
+    0.2057139318516735,
+    0.12969136682109733,
+    0.009736421780969822,
+    -0.07452193687663024,
+    -0.10655549617991585,
+    -0.04717502405978657,
+    0.2757449696619341,
+    0.2777260951881861,
+    0.1226599109816967,
+    -0.04862664428242427
+  ],
+  "results": [
+    {
+      "id": 117046,
+      "score": 0.8914255,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 92.4926071167,
+        "mbid": "1dec01ad-0023-49b5-96b5-5a663f6b4712",
+        "artist": "Las Ketchup",
+        "title": "Aserej\u00e9 (The Ketchup Song)"
+      }
+    },
+    {
+      "id": 117047,
+      "score": 0.8914255,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 92.4926071167,
+        "mbid": "1dec01ad-0023-49b5-96b5-5a663f6b4712",
+        "artist": "Las Ketchup",
+        "title": "Aserej\u00e9 (The Ketchup Song)"
+      }
+    },
+    {
+      "id": 164158,
+      "score": 0.88660234,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 92.4690170288,
+        "mbid": "29d4e6d0-ece9-4546-a532-ff0457fd8f9f",
+        "artist": "Las Ketchup",
+        "title": "The Ketchup Song (Aserej\u00e9)"
+      }
+    },
+    {
+      "id": 1295636,
+      "score": 0.8513353,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 89.5541305542,
+        "mbid": "a407f545-40e5-4cdb-ba3c-06eeb2d568db",
+        "artist": "Stevie Wonder",
+        "title": "In Your Corner"
+      }
+    },
+    {
+      "id": 289352,
+      "score": 0.8450681,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 110.184906006,
+        "mbid": "4a06d8a9-9bfe-4888-8d6f-d74e051b915b",
+        "artist": "Alison Limerick",
+        "title": "Make It On My Own"
+      }
+    },
+    {
+      "id": 289353,
+      "score": 0.8450681,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 110.184906006,
+        "mbid": "4a06d8a9-9bfe-4888-8d6f-d74e051b915b",
+        "artist": "Alison Limerick",
+        "title": "Make It On My Own"
+      }
+    },
+    {
+      "id": 291265,
+      "score": 0.84454733,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 97.001373291,
+        "mbid": "4a88c67b-82cb-48c7-a89f-f932e70ba1e6",
+        "artist": "Nick & Simon",
+        "title": "Rosanne"
+      }
+    },
+    {
+      "id": 1097217,
+      "score": 0.8359741,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 94.9964065552,
+        "mbid": "35d89e95-d4f5-4a8b-90f1-fc7d96fe4118",
+        "artist": "The Temptations",
+        "title": "Race for Your Heart"
+      }
+    },
+    {
+      "id": 490983,
+      "score": 0.8291888,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 89.8843002319,
+        "mbid": "7db979b3-dcde-4a9e-87b6-e0b09268be03",
+        "artist": "Green Day",
+        "title": "Having a Blast"
+      }
+    },
+    {
+      "id": 165675,
+      "score": 0.82601094,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 104.022911072,
+        "mbid": "2a3c56fd-c078-4c9b-a9d3-d2159448a455",
+        "artist": "Chairmen of the Board",
+        "title": "Since the Days of Pigtails (And Fairytales)"
+      }
+    },
+    {
+      "id": 1133600,
+      "score": 0.8248622,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 110.098274231,
+        "mbid": "4a06d8a9-9bfe-4888-8d6f-d74e051b915b",
+        "artist": "Alison Limerick",
+        "title": "Make It On My Own"
+      }
+    },
+    {
+      "id": 1219093,
+      "score": 0.8240838,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 124.998527527,
+        "mbid": "796c1d4d-9685-461d-9163-dc9d97824265",
+        "artist": "Curtis Mayfield",
+        "title": "You Are, You Are"
+      }
+    },
+    {
+      "id": 1087770,
+      "score": 0.82353395,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 120.402931213,
+        "mbid": "3096d2ac-1811-41b5-981d-add5eca227e5",
+        "artist": "Serge Gainsbourg",
+        "title": "Harley David Son of a Bitch"
+      }
+    },
+    {
+      "id": 80967,
+      "score": 0.8223006,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 95.0633926392,
+        "mbid": "14c57309-58ff-4d73-bd75-f72af5cbd2cf",
+        "artist": "Cibo Matto",
+        "title": "Speechless"
+      }
+    },
+    {
+      "id": 925953,
+      "score": 0.82090634,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 93.7969894409,
+        "mbid": "ed26fe6f-94d2-413b-a0e8-d17a88ecce61",
+        "artist": "TAT",
+        "title": "Bloodstain"
+      }
+    },
+    {
+      "id": 649620,
+      "score": 0.81771404,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 96.9867782593,
+        "mbid": "a616b593-d34b-4389-b16e-52a5bbd136ea",
+        "artist": "Nick & Simon",
+        "title": "Rosanne"
+      }
+    },
+    {
+      "id": 141263,
+      "score": 0.8155515,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 104.040000916,
+        "mbid": "240cf6db-99d1-4bca-890c-fe1e8d50eaac",
+        "artist": "Future Generations",
+        "title": "Landscape"
+      }
+    },
+    {
+      "id": 317996,
+      "score": 0.8152646,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 88.4073638916,
+        "mbid": "51710798-b9d5-4c2e-b3c7-bad07ce01aeb",
+        "artist": "Mighty Mighty Bosstones",
+        "title": "The Rascal King "
+      }
+    },
+    {
+      "id": 1208952,
+      "score": 0.8142891,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 126.933830261,
+        "mbid": "73d19f61-ec05-4075-962d-a36c26baeeec",
+        "artist": "KISS",
+        "title": "Shock Me"
+      }
+    },
+    {
+      "id": 735724,
+      "score": 0.8137382,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 120.008079529,
+        "mbid": "bc276126-b86c-4677-8e05-93ba4c03a81f",
+        "artist": "Jesse Cassettes",
+        "title": "Haruka Rhythm! (Album Version)"
+      }
+    },
+    {
+      "id": 938849,
+      "score": 0.8135538,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 107.716194153,
+        "mbid": "f078a340-7d2c-4497-8759-188f961141c0",
+        "artist": "Hanshotfirst",
+        "title": "Vagabonds"
+      }
+    },
+    {
+      "id": 490982,
+      "score": 0.81328344,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 89.9255752563,
+        "mbid": "7db979b3-dcde-4a9e-87b6-e0b09268be03",
+        "artist": "Green Day",
+        "title": "Having a Blast"
+      }
+    },
+    {
+      "id": 1226802,
+      "score": 0.81267184,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 89.9087905884,
+        "mbid": "7db979b3-dcde-4a9e-87b6-e0b09268be03",
+        "artist": "Green Day",
+        "title": "Having A Blast"
+      }
+    },
+    {
+      "id": 1226805,
+      "score": 0.81267184,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 89.9087905884,
+        "mbid": "7db979b3-dcde-4a9e-87b6-e0b09268be03",
+        "artist": "Green Day",
+        "title": "Having a Blast"
+      }
+    },
+    {
+      "id": 1226803,
+      "score": 0.81267184,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 89.9087905884,
+        "mbid": "7db979b3-dcde-4a9e-87b6-e0b09268be03",
+        "artist": "Green Day",
+        "title": "Having a Blast"
+      }
+    },
+    {
+      "id": 197671,
+      "score": 0.81133676,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 123.886634827,
+        "mbid": "3251edf2-45d1-4bb3-8130-a8eb32434c30",
+        "artist": "England New Order",
+        "title": "World In Motion"
+      }
+    },
+    {
+      "id": 1218586,
+      "score": 0.80739015,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 99.940322876,
+        "mbid": "791e2c58-f397-45fa-a772-c94b71904a47",
+        "artist": "Anti\u2010Flag",
+        "title": "Anthem for the New Millenium Generation"
+      }
+    },
+    {
+      "id": 467319,
+      "score": 0.8072476,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 88.2581558228,
+        "mbid": "77d21e77-9aec-4258-a280-637a565b5fc2",
+        "artist": "Chuck Berry",
+        "title": "Sweet Little Sixteen"
+      }
+    },
+    {
+      "id": 45042,
+      "score": 0.80685925,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 109.941574097,
+        "mbid": "0b701209-140a-49bb-b556-43b06ae685b7",
+        "artist": "Bombay Bicycle Club",
+        "title": "Feel"
+      }
+    },
+    {
+      "id": 467318,
+      "score": 0.80663615,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 88.2581558228,
+        "mbid": "77d21e77-9aec-4258-a280-637a565b5fc2",
+        "artist": "Chuck Berry",
+        "title": "Sweet Little Sixteen "
+      }
+    },
+    {
+      "id": 65337,
+      "score": 0.80541,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 127.101005554,
+        "mbid": "10be7c90-9a1e-4888-aa4f-cede2ab3fe62",
+        "artist": "THOMAS ANDERS FEAT. THE THREE DEGREES",
+        "title": "Thomas Anders and The Three Degrees - When Will I See You Again (Precious String House Mix)"
+      }
+    },
+    {
+      "id": 195360,
+      "score": 0.8053039,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 93.9863586426,
+        "mbid": "31be615c-d06f-4e2f-87be-40a4ea8bda3b",
+        "artist": "Enrique Iglesias",
+        "title": "She Be the One"
+      }
+    },
+    {
+      "id": 784151,
+      "score": 0.8046714,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 92.9056167603,
+        "mbid": "c89d9196-78ce-42d4-812f-c6e88c85a03a",
+        "artist": "Jay-Z",
+        "title": "Excuse Me Miss"
+      }
+    },
+    {
+      "id": 784152,
+      "score": 0.8046714,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 92.9056167603,
+        "mbid": "c89d9196-78ce-42d4-812f-c6e88c85a03a",
+        "artist": "Jay-Z",
+        "title": "Excuse Me Miss"
+      }
+    },
+    {
+      "id": 587886,
+      "score": 0.8043481,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 101.556594849,
+        "mbid": "96532b0b-20cd-429b-8be7-83bb3c9e168c",
+        "artist": "Jaki Graham",
+        "title": "Round And Around"
+      }
+    },
+    {
+      "id": 293174,
+      "score": 0.8043481,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 101.556594849,
+        "mbid": "4b0c0c90-fe56-46a3-a7ef-0619673a22bf",
+        "artist": "Jaki Graham",
+        "title": "Round And Around"
+      }
+    },
+    {
+      "id": 1226804,
+      "score": 0.8040797,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 89.9292831421,
+        "mbid": "7db979b3-dcde-4a9e-87b6-e0b09268be03",
+        "artist": "Green Day",
+        "title": "Having a Blast"
+      }
+    },
+    {
+      "id": 571937,
+      "score": 0.803967,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 119.471809387,
+        "mbid": "925754de-938e-49d1-b8a5-6aba73002294",
+        "artist": "Army of Lovers",
+        "title": "Ride the Bullet (Tren de Amor Mix)"
+      }
+    },
+    {
+      "id": 978579,
+      "score": 0.8034097,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 121.378372192,
+        "mbid": "fa9e03b5-7314-464e-bbb0-69e3310ebe87",
+        "artist": "Styx",
+        "title": "High Time"
+      }
+    },
+    {
+      "id": 978578,
+      "score": 0.8034097,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 121.378372192,
+        "mbid": "fa9e03b5-7314-464e-bbb0-69e3310ebe87",
+        "artist": "Styx",
+        "title": "High Time"
+      }
+    },
+    {
+      "id": 470617,
+      "score": 0.8033145,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 89.0298156738,
+        "mbid": "78992395-1cd0-44f8-985f-937b2b039eca",
+        "artist": "waterfront dining",
+        "title": "bunny"
+      }
+    },
+    {
+      "id": 544595,
+      "score": 0.80305177,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 110.076049805,
+        "mbid": "8b50e9d5-32e6-4831-9a84-073a27c71f57",
+        "artist": "Alison Limerick",
+        "title": "Make It On My Own"
+      }
+    },
+    {
+      "id": 289354,
+      "score": 0.80305177,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 110.076049805,
+        "mbid": "4a06d8a9-9bfe-4888-8d6f-d74e051b915b",
+        "artist": "Alison Limerick",
+        "title": "Make It On My Own"
+      }
+    },
+    {
+      "id": 544596,
+      "score": 0.80305177,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 110.076049805,
+        "mbid": "8b50e9d5-32e6-4831-9a84-073a27c71f57",
+        "artist": "Alison Limerick",
+        "title": "Make It On My Own"
+      }
+    },
+    {
+      "id": 490984,
+      "score": 0.80246776,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 89.924407959,
+        "mbid": "7db979b3-dcde-4a9e-87b6-e0b09268be03",
+        "artist": "Green Day",
+        "title": "Having a Blast"
+      }
+    },
+    {
+      "id": 1125430,
+      "score": 0.8022681,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 102.94593811,
+        "mbid": "4576437a-c089-4af5-9d02-02e4c059367a",
+        "artist": "Amazulu",
+        "title": "Too Good To Be Forgotten"
+      }
+    },
+    {
+      "id": 802052,
+      "score": 0.80204165,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 106.387069702,
+        "mbid": "cd430abe-1085-40f9-a1d5-b9016a028e2e",
+        "artist": "Jimmy Barnes",
+        "title": "Hold On I'm Comin'"
+      }
+    },
+    {
+      "id": 802051,
+      "score": 0.80204165,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 106.387069702,
+        "mbid": "cd430abe-1085-40f9-a1d5-b9016a028e2e",
+        "artist": "Jimmy Barnes",
+        "title": "Hold On I'm Comin'"
+      }
+    },
+    {
+      "id": 250203,
+      "score": 0.8017859,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 128.033950806,
+        "mbid": "3fd8a094-adae-4862-8297-c4bd6cfd6bbd",
+        "artist": "Kylie Minogue",
+        "title": "Put Your Hands Up (If You Feel Love)"
+      }
+    },
+    {
+      "id": 250201,
+      "score": 0.8017859,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 128.033950806,
+        "mbid": "3fd8a094-adae-4862-8297-c4bd6cfd6bbd",
+        "artist": "Kylie Minogue",
+        "title": "Put Your Hands Up (If You Feel Love)"
+      }
+    },
+    {
+      "id": 250202,
+      "score": 0.8017859,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 128.033950806,
+        "mbid": "3fd8a094-adae-4862-8297-c4bd6cfd6bbd",
+        "artist": "Kylie Minogue",
+        "title": "Put Your Hands Up (If You Feel Love)"
+      }
+    },
+    {
+      "id": 820356,
+      "score": 0.80150676,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 102.931343079,
+        "mbid": "d1ed8776-92b3-480e-9778-a7e5a5ea238b",
+        "artist": "Blessid Union of Souls",
+        "title": "Hey Leonardo (She Likes Me for Me)"
+      }
+    },
+    {
+      "id": 1089949,
+      "score": 0.8014752,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 93.9788742065,
+        "mbid": "31be615c-d06f-4e2f-87be-40a4ea8bda3b",
+        "artist": "Enrique Iglesias",
+        "title": "She Be The One"
+      }
+    },
+    {
+      "id": 1272698,
+      "score": 0.8011109,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 120.747940063,
+        "mbid": "9748096f-fc38-4c42-a35b-35af5b89138d",
+        "artist": "Ozzy Osbourne",
+        "title": "Don't Blame Me"
+      }
+    },
+    {
+      "id": 591653,
+      "score": 0.8011109,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 120.747940063,
+        "mbid": "9748096f-fc38-4c42-a35b-35af5b89138d",
+        "artist": "Ozzy Osbourne",
+        "title": "Don't Blame Me"
+      }
+    },
+    {
+      "id": 310942,
+      "score": 0.80106384,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 96.4944229126,
+        "mbid": "4f9032ef-c2e0-497e-b32a-1ad10d8b09dd",
+        "artist": "The Briefs",
+        "title": "Bad Vibrations"
+      }
+    },
+    {
+      "id": 707132,
+      "score": 0.8007941,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 103.420196533,
+        "mbid": "b4de6ec7-3744-40d9-8fc2-993b70e96c8f",
+        "artist": "Mutsuhiko Izumi, Mariko Egawa, Ayako Nishigaki, Junya Nakano & Michiru Yamane",
+        "title": "AHHHHH...... (4 Stage BGM2 <Rail Car>)"
+      }
+    },
+    {
+      "id": 506610,
+      "score": 0.7995383,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 126.367866516,
+        "mbid": "81b2f44f-4f0c-48d6-a471-546c3e5409d3",
+        "artist": "Guns N' Roses",
+        "title": "Sweet Child O` Mine (Remix)"
+      }
+    },
+    {
+      "id": 792618,
+      "score": 0.799156,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 84.1329421997,
+        "mbid": "cad298c0-7dd6-4ff7-867f-347a7ae6c5ed",
+        "artist": "\u0440\u043c\u043d\u0447\u0438\u0442\u0442\u043e",
+        "title": "a n i g h t w i t h y o u"
+      }
+    },
+    {
+      "id": 807248,
+      "score": 0.79822886,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 127.066886902,
+        "mbid": "ce8ebe0c-b99f-42c0-b1d2-38bfae2dab05",
+        "artist": "KISS",
+        "title": "Shock Me (live)"
+      }
+    },
+    {
+      "id": 1268499,
+      "score": 0.7979318,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 95.0407104492,
+        "mbid": "94d61b02-8356-4501-b41d-c9d54ce26185",
+        "artist": "Crossplane",
+        "title": "Life Is a Monster"
+      }
+    },
+    {
+      "id": 1117769,
+      "score": 0.79784864,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 118.748596191,
+        "mbid": "410fbc44-2a99-4043-abae-27b196417bdd",
+        "artist": "Anacaona",
+        "title": "Mentiras"
+      }
+    },
+    {
+      "id": 544041,
+      "score": 0.79762596,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "minor",
+        "bpm": 117.196578979,
+        "mbid": "8b30e7ff-b4ba-49ad-bba0-275c4d0e6f9f",
+        "artist": "Swing Out Sister",
+        "title": "Who Let the Love Out?"
+      }
+    },
+    {
+      "id": 544042,
+      "score": 0.79762596,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "minor",
+        "bpm": 117.196578979,
+        "mbid": "8b30e7ff-b4ba-49ad-bba0-275c4d0e6f9f",
+        "artist": "Swing Out Sister",
+        "title": "Who Let the Love Out?"
+      }
+    },
+    {
+      "id": 1208953,
+      "score": 0.7976245,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 126.887634277,
+        "mbid": "73d19f61-ec05-4075-962d-a36c26baeeec",
+        "artist": "KISS",
+        "title": "Shock Me"
+      }
+    },
+    {
+      "id": 1189702,
+      "score": 0.7971934,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 149.900085449,
+        "mbid": "692bee48-05f5-4b0c-a392-1a0e01cffd72",
+        "artist": "Jennifer Rush duet with Elton John",
+        "title": "Flames of Paradise"
+      }
+    },
+    {
+      "id": 633305,
+      "score": 0.796805,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 144.800109863,
+        "mbid": "a1ef406a-f75f-4929-96b3-ee34e73aa2e2",
+        "artist": "The Boo Radleys",
+        "title": "Wake up Boo! - Radio Edit"
+      }
+    },
+    {
+      "id": 1312433,
+      "score": 0.79626614,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 96.0160751343,
+        "mbid": "ad6698f2-26e7-40f0-8088-d90b56d8b446",
+        "artist": "RADWIMPS",
+        "title": "\u6d77\u99ac"
+      }
+    },
+    {
+      "id": 223283,
+      "score": 0.7962264,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 105.987411499,
+        "mbid": "38fdf43a-b4b0-4219-84f5-f06c21a1550a",
+        "artist": "Jeff Kashiwa/Russ Freeman",
+        "title": "Up"
+      }
+    },
+    {
+      "id": 302506,
+      "score": 0.7962091,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 82.9936447144,
+        "mbid": "4d70ceda-8c23-4868-8fce-5e964693889e",
+        "artist": "Scott McKeon",
+        "title": "What I've Become"
+      }
+    },
+    {
+      "id": 1051070,
+      "score": 0.7962014,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 110.449829102,
+        "mbid": "1c6b22f5-0fc7-4800-8ef1-53a2f1b1dfa3",
+        "artist": "Coati Mundi",
+        "title": "Me No Pop I"
+      }
+    },
+    {
+      "id": 191127,
+      "score": 0.7958047,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 119.08467865,
+        "mbid": "30a26e1f-7f46-4b4d-b1e8-4e8d78546724",
+        "artist": "RETROREMIXES1",
+        "title": "I Wanna Dance With Somebody (Who Loves Me) (12 \" Remix) - RETROREMIXES1 - I Wanna Dance With Somebody (Who Loves Me) (Single)"
+      }
+    },
+    {
+      "id": 191128,
+      "score": 0.7958047,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 119.08467865,
+        "mbid": "30a26e1f-7f46-4b4d-b1e8-4e8d78546724",
+        "artist": "RETROREMIXES1",
+        "title": "I Wanna Dance With Somebody (Who Loves Me) (12 \" Remix) - RETROREMIXES1 - I Wanna Dance With Somebody (Who Loves Me) (Single)"
+      }
+    },
+    {
+      "id": 579661,
+      "score": 0.7946394,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 108.404327393,
+        "mbid": "944799b2-651b-4f5e-830f-f273d9006cc6",
+        "artist": "M",
+        "title": "Pop Muzik (Long Version)"
+      }
+    },
+    {
+      "id": 302430,
+      "score": 0.79443157,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 133.903427124,
+        "mbid": "4d6d5957-1e8a-4dee-a0e4-da3d723b546b",
+        "artist": "LazyTown",
+        "title": "Bing Bang"
+      }
+    },
+    {
+      "id": 850728,
+      "score": 0.794005,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 109.921081543,
+        "mbid": "d9b7f584-f691-4bcb-93be-8fe06aa3aa21",
+        "artist": "Something to Do",
+        "title": "Down, Down, Down"
+      }
+    },
+    {
+      "id": 939389,
+      "score": 0.7932164,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 108.838401794,
+        "mbid": "f09d2b1a-7601-4100-8753-5f86e53e545a",
+        "artist": "Erasure",
+        "title": "Sometimes (Erasure and Flood mix)"
+      }
+    },
+    {
+      "id": 939388,
+      "score": 0.7932164,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 108.838401794,
+        "mbid": "f09d2b1a-7601-4100-8753-5f86e53e545a",
+        "artist": "Erasure",
+        "title": "Sometimes (Erasure and Flood mix)"
+      }
+    },
+    {
+      "id": 1111000,
+      "score": 0.79260564,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 131.20942688,
+        "mbid": "3d5801ad-3027-472b-ab91-96e23b668249",
+        "artist": "Koreana",
+        "title": "Loving You, Loving Me"
+      }
+    },
+    {
+      "id": 1244495,
+      "score": 0.79221094,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 101.607566833,
+        "mbid": "87a40b50-7162-4a04-84df-605f8e59d694",
+        "artist": "Jaki Graham",
+        "title": "Round And Round"
+      }
+    },
+    {
+      "id": 850504,
+      "score": 0.791726,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 119.803436279,
+        "mbid": "d9a7e806-e92d-49f4-b021-1fbf5f36d156",
+        "artist": "Grant Miller",
+        "title": "Wings Of Love (12'' Love Mix)"
+      }
+    },
+    {
+      "id": 850503,
+      "score": 0.791726,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 119.803436279,
+        "mbid": "d9a7e806-e92d-49f4-b021-1fbf5f36d156",
+        "artist": "Grant Miller",
+        "title": "Wings of Love (12'' Love Mix)"
+      }
+    },
+    {
+      "id": 1245170,
+      "score": 0.7912017,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 126.929023743,
+        "mbid": "8805232e-62bd-4c19-ba4b-28b2f117277f",
+        "artist": "Utah Saints",
+        "title": "Something Good '08 (Warren Clarke Remix)"
+      }
+    },
+    {
+      "id": 191131,
+      "score": 0.7907743,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 119.084251404,
+        "mbid": "30a26e1f-7f46-4b4d-b1e8-4e8d78546724",
+        "artist": "Whitney Houston",
+        "title": "I Wanna Dance With Somebody (Who Loves Me)"
+      }
+    },
+    {
+      "id": 191130,
+      "score": 0.7907743,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 119.084251404,
+        "mbid": "30a26e1f-7f46-4b4d-b1e8-4e8d78546724",
+        "artist": "Whitney Houston",
+        "title": "I Wanna Dance With Somebody (Who Loves Me)"
+      }
+    },
+    {
+      "id": 1295786,
+      "score": 0.79032487,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 94.9559860229,
+        "mbid": "a4212ae8-e940-4b07-993f-28e7fbb9d724",
+        "artist": "AFI",
+        "title": "Too Shy to Scream"
+      }
+    },
+    {
+      "id": 583777,
+      "score": 0.7901646,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 107.130027771,
+        "mbid": "954a2a04-aa06-46a8-bc49-2f5c6b336fdc",
+        "artist": "Odyssey",
+        "title": "Going Back To My Roots"
+      }
+    },
+    {
+      "id": 352601,
+      "score": 0.79006714,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 129.915557861,
+        "mbid": "5a6c7f96-cd11-4bb1-b3d9-28cdd6a940a2",
+        "artist": "Escape From Echo Base",
+        "title": "Two If By Sea"
+      }
+    },
+    {
+      "id": 799726,
+      "score": 0.78986514,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 120.530570984,
+        "mbid": "cca8d233-b51c-4c31-85cd-809cd5572a85",
+        "artist": "Whitney Houston",
+        "title": "Love Will Save the Day"
+      }
+    },
+    {
+      "id": 1226800,
+      "score": 0.7897083,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 89.9214553833,
+        "mbid": "7db979b3-dcde-4a9e-87b6-e0b09268be03",
+        "artist": "Green Day",
+        "title": "Having a Blast"
+      }
+    },
+    {
+      "id": 1070711,
+      "score": 0.78943676,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 93.6549224854,
+        "mbid": "275db705-c5ef-4341-957e-540e2bc6de2c",
+        "artist": "The Presidents of the United States of America",
+        "title": "Dune Buggy"
+      }
+    },
+    {
+      "id": 1133935,
+      "score": 0.78924865,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 91.8078384399,
+        "mbid": "4a39d41e-c1db-4d48-8c02-1e13f10f58ed",
+        "artist": "Orgy",
+        "title": "Eva"
+      }
+    },
+    {
+      "id": 1133936,
+      "score": 0.78924865,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 91.8078384399,
+        "mbid": "4a39d41e-c1db-4d48-8c02-1e13f10f58ed",
+        "artist": "Orgy",
+        "title": "Eva"
+      }
+    },
+    {
+      "id": 188877,
+      "score": 0.7892244,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 117.931587219,
+        "mbid": "301c90d7-fea1-48a5-ac80-d372e6256c52",
+        "artist": "Candi",
+        "title": "Missing You"
+      }
+    },
+    {
+      "id": 221990,
+      "score": 0.7891098,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 123.499328613,
+        "mbid": "38b104c7-d2d0-4ef2-89cf-ce73caaa369d",
+        "artist": "Lene Lovich",
+        "title": "Wonderland (London Dance Mix Radio Edit)"
+      }
+    },
+    {
+      "id": 553241,
+      "score": 0.7885533,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 124.148483276,
+        "mbid": "8d885d67-6f9f-4ce2-8566-742159574bca",
+        "artist": "Alabama",
+        "title": "Mountain Music"
+      }
+    },
+    {
+      "id": 975502,
+      "score": 0.7885224,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 92.0031661987,
+        "mbid": "f9db51ad-637b-48aa-8c48-84fb1d622424",
+        "artist": "Die Pretty",
+        "title": "Let Me Out"
+      }
+    },
+    {
+      "id": 975503,
+      "score": 0.7885224,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 92.0031661987,
+        "mbid": "f9db51ad-637b-48aa-8c48-84fb1d622424",
+        "artist": "Die Pretty",
+        "title": "Let Me Out"
+      }
+    },
+    {
+      "id": 272357,
+      "score": 0.7882269,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 102.949371338,
+        "mbid": "4576437a-c089-4af5-9d02-02e4c059367a",
+        "artist": "Amazulu",
+        "title": "Too Good To Be Forgotten"
+      }
+    },
+    {
+      "id": 434640,
+      "score": 0.7880792,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 116.310440063,
+        "mbid": "6f8557ba-5f12-4b48-bebf-f52baa6f01ea",
+        "artist": "The Matches",
+        "title": "The Jack Slap Cheer"
+      }
+    }
+  ]
+}

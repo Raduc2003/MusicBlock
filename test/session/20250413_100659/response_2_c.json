@@ -1,0 +1,1261 @@
+{
+  "query_final_vector": [
+    -0.03498976526759893,
+    0.10432765934775112,
+    0.00932197203911542,
+    -0.23914635673200474,
+    -0.09862796373700955,
+    -0.0702054355131013,
+    0.027036313050093963,
+    -0.1760328137702243,
+    -0.19203510346598857,
+    -0.22737887806836274,
+    -0.13331561119067223,
+    -0.07128980171421366,
+    -0.3605695897535814,
+    -0.0357955444795688,
+    -0.018676727330508982,
+    -0.06757172728521242,
+    0.14509852629490103,
+    -0.17361658820397305,
+    -0.17869921114873824,
+    0.09652872821779253,
+    0.002124379881344178,
+    -0.18097085253021558,
+    -0.15954850525135006,
+    -0.1545944396732553,
+    -0.06423160887650316,
+    -0.028082733852980386,
+    -0.0672126001098133,
+    0.16507833223184026,
+    0.25003507694640914,
+    0.11733797124903718,
+    -0.1317430347232823,
+    -0.15943539769660625,
+    -0.16320811888724973,
+    0.055591437013585855,
+    0.14217242206303515,
+    0.036604809342132914,
+    -0.1381287739936865,
+    -0.13761138748356483,
+    -0.1140491197146942,
+    0.14788805603341748,
+    0.16278170949388845,
+    0.03638180920611154,
+    -0.10337158930006873,
+    -0.10763597101881701,
+    -0.13353494887274284,
+    -0.09363014280853801,
+    -0.06859533216900715,
+    -0.05788727713860366,
+    0.11011743970431928,
+    0.11572340998002449,
+    0.016452714868019618,
+    -0.13157490854818105,
+    -0.15764240398095486,
+    -0.17142015722407491,
+    0.00617113824455475
+  ],
+  "results": [
+    {
+      "id": 391479,
+      "score": 0.90232676,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 118.038841248,
+        "mbid": "645d5097-053a-4a8a-931b-a43087bd16bf",
+        "artist": "LEA",
+        "title": "Leiser - Piano Sessions"
+      }
+    },
+    {
+      "id": 422597,
+      "score": 0.89941,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 105.034751892,
+        "mbid": "6c6089ce-beef-4257-b49e-754fe00a5d5f",
+        "artist": "Butterfly Boucher",
+        "title": "Cinnamon & Chocolate"
+      }
+    },
+    {
+      "id": 107042,
+      "score": 0.89531654,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 126.191444397,
+        "mbid": "1b6548a3-c44f-4b19-b2c0-2c8c4c653269",
+        "artist": "Tilly and the Wall",
+        "title": "I Always Knew"
+      }
+    },
+    {
+      "id": 107041,
+      "score": 0.89485496,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 126.368942261,
+        "mbid": "1b6548a3-c44f-4b19-b2c0-2c8c4c653269",
+        "artist": "Tilly and the Wall",
+        "title": "I Always Knew"
+      }
+    },
+    {
+      "id": 173517,
+      "score": 0.89225364,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 120.021888733,
+        "mbid": "2c3d2209-08f5-4271-9fdb-def4068f1635",
+        "artist": "Micah P. Hinson",
+        "title": "Wasted Away"
+      }
+    },
+    {
+      "id": 250977,
+      "score": 0.8912141,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 98.6843338013,
+        "mbid": "400e1057-3de1-4d54-83f9-c698299b6331",
+        "artist": "Kodaline",
+        "title": "Honest (acoustic)"
+      }
+    },
+    {
+      "id": 444455,
+      "score": 0.8904308,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 90.988067627,
+        "mbid": "721a3f59-e197-4052-b0ba-bdcee9d384db",
+        "artist": "All Bossa Too",
+        "title": "One"
+      }
+    },
+    {
+      "id": 163473,
+      "score": 0.88981944,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 111.856491089,
+        "mbid": "29aa0320-1d48-4419-8a9f-74e96561314e",
+        "artist": "Allman Brown",
+        "title": "Natasha"
+      }
+    },
+    {
+      "id": 163476,
+      "score": 0.88981944,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 111.856491089,
+        "mbid": "29aa0320-1d48-4419-8a9f-74e96561314e",
+        "artist": "Allman Brown",
+        "title": "Natasha"
+      }
+    },
+    {
+      "id": 163475,
+      "score": 0.88981944,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 111.856491089,
+        "mbid": "29aa0320-1d48-4419-8a9f-74e96561314e",
+        "artist": "Allman Brown",
+        "title": "Natasha"
+      }
+    },
+    {
+      "id": 163474,
+      "score": 0.88981944,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 111.856491089,
+        "mbid": "29aa0320-1d48-4419-8a9f-74e96561314e",
+        "artist": "Allman Brown",
+        "title": "Natasha"
+      }
+    },
+    {
+      "id": 163472,
+      "score": 0.88981944,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 111.856491089,
+        "mbid": "29aa0320-1d48-4419-8a9f-74e96561314e",
+        "artist": "Allman Brown",
+        "title": "Natasha"
+      }
+    },
+    {
+      "id": 163477,
+      "score": 0.88981944,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 111.856491089,
+        "mbid": "29aa0320-1d48-4419-8a9f-74e96561314e",
+        "artist": "Allman Brown",
+        "title": "Natasha"
+      }
+    },
+    {
+      "id": 867865,
+      "score": 0.8889569,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 91.7725524902,
+        "mbid": "de26fbb0-463b-4901-9ff1-02fa829080eb",
+        "artist": "The Jayhawks",
+        "title": "Sound of Lies"
+      }
+    },
+    {
+      "id": 1109930,
+      "score": 0.8885387,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 140.465393066,
+        "mbid": "3cbdba04-f548-416a-bb27-382a3e1efeba",
+        "artist": "Shane Nicholson",
+        "title": "Single Fathers"
+      }
+    },
+    {
+      "id": 1077568,
+      "score": 0.8884553,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 119.849502563,
+        "mbid": "2b2efb7d-3c32-4bb3-8746-8922a2d8df9c",
+        "artist": "Sleeping At Last",
+        "title": "One"
+      }
+    },
+    {
+      "id": 363833,
+      "score": 0.88835716,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 83.6240005493,
+        "mbid": "5d6024a7-f41a-4e0e-a235-3ec81df252d0",
+        "artist": "Grace Grundy",
+        "title": "Call on Me"
+      }
+    },
+    {
+      "id": 363832,
+      "score": 0.88835716,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 83.6240005493,
+        "mbid": "5d6024a7-f41a-4e0e-a235-3ec81df252d0",
+        "artist": "Grace Grundy",
+        "title": "Call on Me"
+      }
+    },
+    {
+      "id": 772635,
+      "score": 0.88740414,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 106.035575867,
+        "mbid": "c5ad117c-d88e-4d60-9056-58c3df981614",
+        "artist": "The Denotes",
+        "title": "No. 4"
+      }
+    },
+    {
+      "id": 827992,
+      "score": 0.8867114,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 81.3349380493,
+        "mbid": "d3eee5b8-fbe9-416c-96f0-c37058516197",
+        "artist": "Sarah McLachlan",
+        "title": "Dirty Little Secret"
+      }
+    },
+    {
+      "id": 827991,
+      "score": 0.8867114,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 81.3349380493,
+        "mbid": "d3eee5b8-fbe9-416c-96f0-c37058516197",
+        "artist": "Sarah McLachlan",
+        "title": "Dirty Little Secret"
+      }
+    },
+    {
+      "id": 1115762,
+      "score": 0.885378,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 103.627822876,
+        "mbid": "3fece1f9-3596-4c28-a9d8-9fd8a147813d",
+        "artist": "Regina Spektor",
+        "title": "Hero"
+      }
+    },
+    {
+      "id": 22331,
+      "score": 0.88466567,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 120.502784729,
+        "mbid": "05904591-bef6-4fb1-bb41-3edaa50a0a4f",
+        "artist": "Chris Garneau",
+        "title": "Black & Blue"
+      }
+    },
+    {
+      "id": 752162,
+      "score": 0.8846342,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 135.081420898,
+        "mbid": "c0541ee0-1936-4325-aab1-194c3cd5794d",
+        "artist": "of Montreal",
+        "title": "1st Time High (Of Chicago acoustic version of \"An Eluardian Instance\" featuring Jon Brion and Chris Thile)"
+      }
+    },
+    {
+      "id": 19093,
+      "score": 0.8843714,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 125.055763245,
+        "mbid": "04be941e-73cf-4c71-ade3-e6370fba0826",
+        "artist": "The Smashing Pumpkins",
+        "title": "Blank Page"
+      }
+    },
+    {
+      "id": 1351265,
+      "score": 0.88382006,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 152.69972229,
+        "mbid": "c2ed178c-930c-432d-a8bb-04330f562408",
+        "artist": "Alejandro Fern\u00e1ndez",
+        "title": "No Ser\u00e1 Igual"
+      }
+    },
+    {
+      "id": 758490,
+      "score": 0.88258547,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 126.733718872,
+        "mbid": "c1fcd33d-dd75-4411-8e39-ddf400a69006",
+        "artist": "Jasmine Thompson",
+        "title": "When I Was Your Man"
+      }
+    },
+    {
+      "id": 781996,
+      "score": 0.88252765,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 118.47354126,
+        "mbid": "c811cb19-eefb-4bb6-af7b-cef7fb911305",
+        "artist": "The Temper Trap",
+        "title": "Trembling Hands (acoustic)"
+      }
+    },
+    {
+      "id": 1247244,
+      "score": 0.8822327,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 118.50087738,
+        "mbid": "893ee185-104a-40b3-a3bf-5c51eb3a55ac",
+        "artist": "Isabelle Boulay",
+        "title": "Perce les nuages"
+      }
+    },
+    {
+      "id": 1104898,
+      "score": 0.88167006,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 80.8660583496,
+        "mbid": "3a0cf007-4ebc-4ef2-b36b-87ee45f7bd79",
+        "artist": "New Buffalo",
+        "title": "Misery and Mountains, Arrows and Bows"
+      }
+    },
+    {
+      "id": 950755,
+      "score": 0.8814078,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 122.424362183,
+        "mbid": "f3850d1f-e80c-4f45-afc0-0c2122746423",
+        "artist": "R.E.M.",
+        "title": "I've Been High (live video version Channel V Sydney)"
+      }
+    },
+    {
+      "id": 340890,
+      "score": 0.8810004,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 126.663642883,
+        "mbid": "57703d22-b6c3-4f82-abe3-74a1f534c5cb",
+        "artist": "Christina Perri",
+        "title": "Bluebird"
+      }
+    },
+    {
+      "id": 1238781,
+      "score": 0.8805032,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 120.509284973,
+        "mbid": "845c5f41-1f9c-4146-9852-418babbafc9d",
+        "artist": "A Fine Frenzy",
+        "title": "Almost Lover"
+      }
+    },
+    {
+      "id": 1238783,
+      "score": 0.8805032,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 120.509284973,
+        "mbid": "845c5f41-1f9c-4146-9852-418babbafc9d",
+        "artist": "A Fine Frenzy",
+        "title": "Almost Lover"
+      }
+    },
+    {
+      "id": 1238782,
+      "score": 0.8805032,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 120.509284973,
+        "mbid": "845c5f41-1f9c-4146-9852-418babbafc9d",
+        "artist": "A Fine Frenzy",
+        "title": "Almost Lover"
+      }
+    },
+    {
+      "id": 1143690,
+      "score": 0.87943584,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 107.744407654,
+        "mbid": "4f9933f3-ecfd-43e5-930c-cba58099c6af",
+        "artist": "Joanne Hogg & Paul Hart",
+        "title": "Rain From Heaven"
+      }
+    },
+    {
+      "id": 1208469,
+      "score": 0.87895983,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 125.041877747,
+        "mbid": "738c3bcf-070f-46b6-a8e2-d34659f9e039",
+        "artist": "Saunders; Kane & Del",
+        "title": "I Shall be Released"
+      }
+    },
+    {
+      "id": 669765,
+      "score": 0.8771071,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 119.862335205,
+        "mbid": "ab3fa5d6-4308-440b-b2c0-c1654d39f96e",
+        "artist": "\u4e00\u4e4b\u702c\u525b & \u5897\u7530\u9806\u4e00",
+        "title": "Lavender Town"
+      }
+    },
+    {
+      "id": 828703,
+      "score": 0.87634766,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 120.006217957,
+        "mbid": "d41bdb20-fdfb-4bc3-acfa-d7fa692c6acc",
+        "artist": "Amy Macdonald",
+        "title": "My Only One"
+      }
+    },
+    {
+      "id": 181699,
+      "score": 0.8761881,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 151.521270752,
+        "mbid": "2e47aff9-084c-4ca1-9408-6061dca933c0",
+        "artist": "Robyn Hitchcock",
+        "title": "Certainly Cliquot"
+      }
+    },
+    {
+      "id": 709269,
+      "score": 0.87605745,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 109.219703674,
+        "mbid": "b564b676-3726-476b-b6ce-98fdd0d9d756",
+        "artist": "Tout",
+        "title": "I\u2019ve Labored Long And Hard For Bread"
+      }
+    },
+    {
+      "id": 1382122,
+      "score": 0.8754769,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 112.654693604,
+        "mbid": "d45411b7-f52f-4a46-8399-639706f0d96c",
+        "artist": "Lee Hazlewood",
+        "title": "10 - Soul's Island"
+      }
+    },
+    {
+      "id": 1382121,
+      "score": 0.8754769,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 112.654693604,
+        "mbid": "d45411b7-f52f-4a46-8399-639706f0d96c",
+        "artist": "Lee Hazlewood",
+        "title": "10 - Soul's Island"
+      }
+    },
+    {
+      "id": 1382123,
+      "score": 0.8754769,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 112.654693604,
+        "mbid": "d45411b7-f52f-4a46-8399-639706f0d96c",
+        "artist": "Lee Hazlewood",
+        "title": "10 - Soul's Island"
+      }
+    },
+    {
+      "id": 998964,
+      "score": 0.8750893,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 90.8339767456,
+        "mbid": "ffc42654-b49b-48e0-b0a7-b8d3510f2071",
+        "artist": "The Idle Race",
+        "title": "A Better Life (The Weatherman Knows)"
+      }
+    },
+    {
+      "id": 827990,
+      "score": 0.87486887,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 163.92414856,
+        "mbid": "d3eee5b8-fbe9-416c-96f0-c37058516197",
+        "artist": "Sarah McLachlan",
+        "title": "Dirty Little Secret"
+      }
+    },
+    {
+      "id": 827993,
+      "score": 0.8738494,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 163.705429077,
+        "mbid": "d3eee5b8-fbe9-416c-96f0-c37058516197",
+        "artist": "Sarah McLachlan",
+        "title": "Dirty Little Secret"
+      }
+    },
+    {
+      "id": 827994,
+      "score": 0.8738494,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 163.705429077,
+        "mbid": "d3eee5b8-fbe9-416c-96f0-c37058516197",
+        "artist": "Sarah McLachlan",
+        "title": "Dirty Little Secret"
+      }
+    },
+    {
+      "id": 913978,
+      "score": 0.87289923,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 117.744773865,
+        "mbid": "e9fdef55-5556-43ad-a952-7f7efc0838e5",
+        "artist": "Maria Taylor",
+        "title": "LadyLuck"
+      }
+    },
+    {
+      "id": 198143,
+      "score": 0.8723447,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 119.978889465,
+        "mbid": "326f0a29-8605-4332-bc8b-f715f6c4a620",
+        "artist": "DDRKirby(ISQ)",
+        "title": "Ring - Grow Your Love 1"
+      }
+    },
+    {
+      "id": 128767,
+      "score": 0.8722437,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 122.996864319,
+        "mbid": "20e2649a-18a2-4528-ab5d-1accefcf2895",
+        "artist": "Hydroplane",
+        "title": "Aurora"
+      }
+    },
+    {
+      "id": 838574,
+      "score": 0.87219304,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 117.142982483,
+        "mbid": "d69f4f10-a62c-494f-8af5-4289835817fa",
+        "artist": "Eirik Suhrke",
+        "title": "Theme of Waddler"
+      }
+    },
+    {
+      "id": 1351266,
+      "score": 0.8718655,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 153.020126343,
+        "mbid": "c2ed178c-930c-432d-a8bb-04330f562408",
+        "artist": "Alejandro Fern\u00e1ndez",
+        "title": "No Ser\u00e1 Igual"
+      }
+    },
+    {
+      "id": 109347,
+      "score": 0.8717158,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 147.477127075,
+        "mbid": "1bfc96e0-40d1-46da-bce0-900f883370f8",
+        "artist": "Johann Sebastian Bach",
+        "title": "Einige canonische Ver\u00e4nderungen \u00fcber das Weihnachtslied: \"Vom Himmel hoch da komm' ich her\", BWV 769"
+      }
+    },
+    {
+      "id": 338801,
+      "score": 0.8717042,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 155.621780396,
+        "mbid": "56eac3cd-cc93-4d50-a16c-cb73b0945e82",
+        "artist": "Ulrich Schnauss",
+        "title": "Prelude and Fugue No 1 in C Major (2016)"
+      }
+    },
+    {
+      "id": 52572,
+      "score": 0.87106794,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 119.929542542,
+        "mbid": "0d6805b1-c381-4efe-9ecd-b92b2792d1df",
+        "artist": "DDRKirby(ISQ)",
+        "title": "Ring - Grow Your Love 2"
+      }
+    },
+    {
+      "id": 19095,
+      "score": 0.8708091,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 123.731018066,
+        "mbid": "04be941e-73cf-4c71-ade3-e6370fba0826",
+        "artist": "Smashing Pumpkins",
+        "title": "Blank Page"
+      }
+    },
+    {
+      "id": 347977,
+      "score": 0.8706499,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 90.7362823486,
+        "mbid": "5941233a-d76d-4e53-a427-f7a4d9f7ba37",
+        "artist": "The Head and the Heart",
+        "title": "These Days Are Numbered"
+      }
+    },
+    {
+      "id": 935901,
+      "score": 0.8704663,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 120.073570251,
+        "mbid": "efb74472-ab58-4e59-8e31-3d82e6123365",
+        "artist": "Everything But The Girl",
+        "title": "Time After Time"
+      }
+    },
+    {
+      "id": 19094,
+      "score": 0.8704268,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 123.736251831,
+        "mbid": "04be941e-73cf-4c71-ade3-e6370fba0826",
+        "artist": "Smashing Pumpkins",
+        "title": "Blank Page "
+      }
+    },
+    {
+      "id": 888000,
+      "score": 0.86987436,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 111.518005371,
+        "mbid": "e33d550b-e535-4e6b-80c1-33577428daaa",
+        "artist": "Prefab Sprout",
+        "title": "Doo Wop in Harlem"
+      }
+    },
+    {
+      "id": 593017,
+      "score": 0.8686996,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 135.105438232,
+        "mbid": "97a50b68-8e65-4286-b93d-0a78de452e0f",
+        "artist": "So\u00efg Sib\u00e9ril",
+        "title": "Vigo"
+      }
+    },
+    {
+      "id": 806990,
+      "score": 0.8686095,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 106.672546387,
+        "mbid": "ce7df2eb-61e1-45ce-94bd-54ef1ee3f1f9",
+        "artist": "Mitski",
+        "title": "*Square (Solo Piano Ver.)"
+      }
+    },
+    {
+      "id": 240637,
+      "score": 0.86827546,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 117.842002869,
+        "mbid": "3d761b64-4682-4d80-9f41-367033b22227",
+        "artist": "Lenka",
+        "title": "Anything I'm Not"
+      }
+    },
+    {
+      "id": 828704,
+      "score": 0.8675076,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 119.940765381,
+        "mbid": "d41bdb20-fdfb-4bc3-acfa-d7fa692c6acc",
+        "artist": "Amy MacDonald",
+        "title": "My only one"
+      }
+    },
+    {
+      "id": 877476,
+      "score": 0.8673945,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 111.553955078,
+        "mbid": "e0837644-e6d6-4fc9-bd31-f276af6d127f",
+        "artist": "Ryland James",
+        "title": "Good To You (acoustic version)"
+      }
+    },
+    {
+      "id": 948304,
+      "score": 0.8672982,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 132.509353638,
+        "mbid": "f2e054f7-23c1-4858-899f-9f1ecf5b78f9",
+        "artist": "Ricardo Arjona",
+        "title": "Con Una Estrella"
+      }
+    },
+    {
+      "id": 948303,
+      "score": 0.8672982,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 132.509353638,
+        "mbid": "f2e054f7-23c1-4858-899f-9f1ecf5b78f9",
+        "artist": "Ricardo Arjona",
+        "title": "Con Una Estrella"
+      }
+    },
+    {
+      "id": 746927,
+      "score": 0.86726266,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 139.076889038,
+        "mbid": "bf069710-b540-4368-96c8-2d1c661ba331",
+        "artist": "Richard Marx",
+        "title": "Angel's Lullaby"
+      }
+    },
+    {
+      "id": 84224,
+      "score": 0.8669331,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 103.143592834,
+        "mbid": "15a66804-4a3e-4094-8753-911b4ca6b399",
+        "artist": "Garfunkel & Oates",
+        "title": "Sex With Ducks - Original"
+      }
+    },
+    {
+      "id": 1265990,
+      "score": 0.8664917,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 111.25920105,
+        "mbid": "93807028-5436-4020-83ee-e9aaac80a247",
+        "artist": "William Ellwood",
+        "title": "Renaissance"
+      }
+    },
+    {
+      "id": 758649,
+      "score": 0.86623275,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 98.1739883423,
+        "mbid": "c2060753-792c-4386-9f67-20729210ba03",
+        "artist": "...thanks and get ready!",
+        "title": "How Things Will Work Out"
+      }
+    },
+    {
+      "id": 1230132,
+      "score": 0.8660729,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 108.617462158,
+        "mbid": "7f950cd4-3bc6-45ef-a30b-98cb0a27afbb",
+        "artist": "Sarah Darling",
+        "title": "I Found in You"
+      }
+    },
+    {
+      "id": 390677,
+      "score": 0.86598045,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 148.703430176,
+        "mbid": "642451fd-7616-47a5-bf20-be2ea7d05205",
+        "artist": "Aimee Mann",
+        "title": "Good for Me"
+      }
+    },
+    {
+      "id": 855555,
+      "score": 0.86591476,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 148.736907959,
+        "mbid": "daf57dd6-434c-45d3-90f2-c9a462bfc2f7",
+        "artist": "Ronan Keating",
+        "title": "Baby Can I Hold You - New Steve Mac"
+      }
+    },
+    {
+      "id": 240638,
+      "score": 0.8659042,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 117.834625244,
+        "mbid": "3d761b64-4682-4d80-9f41-367033b22227",
+        "artist": "Lenka",
+        "title": "Anything I'm Not "
+      }
+    },
+    {
+      "id": 459421,
+      "score": 0.865827,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 147.186584473,
+        "mbid": "75dff827-f276-470e-8ae4-3911ca798778",
+        "artist": "Robin Bullock",
+        "title": "Sir Charles Coote / Captain Higgins "
+      }
+    },
+    {
+      "id": 545973,
+      "score": 0.86563236,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 129.576293945,
+        "mbid": "8ba7fac0-48c5-4de1-aa09-7656fc6540d8",
+        "artist": "The Weakerthans",
+        "title": "Bigfoot"
+      }
+    },
+    {
+      "id": 720336,
+      "score": 0.8653198,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 113.363250732,
+        "mbid": "b84674f6-4e2a-418e-a85d-76ee41140bf9",
+        "artist": "Leven Kali",
+        "title": "FOREVER"
+      }
+    },
+    {
+      "id": 720337,
+      "score": 0.8653198,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 113.363250732,
+        "mbid": "b84674f6-4e2a-418e-a85d-76ee41140bf9",
+        "artist": "Leven Kali",
+        "title": "FOREVER"
+      }
+    },
+    {
+      "id": 1091970,
+      "score": 0.8651409,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 119.912399292,
+        "mbid": "32e848e2-c00c-45fb-aa8f-17d69736c3a2",
+        "artist": "Circa Survive",
+        "title": "Curritiba"
+      }
+    },
+    {
+      "id": 1196244,
+      "score": 0.8650233,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 143.404327393,
+        "mbid": "6cf1d36c-2c88-4912-99c6-554e1424a7a5",
+        "artist": "Joanne Hogg",
+        "title": "Rest"
+      }
+    },
+    {
+      "id": 710727,
+      "score": 0.8648551,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 119.961181641,
+        "mbid": "b5c68f78-e157-4f47-9e15-7d9ac6e52ff7",
+        "artist": "Amy Macdonald",
+        "title": "My Only One"
+      }
+    },
+    {
+      "id": 1016765,
+      "score": 0.8639436,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 103.068099976,
+        "mbid": "09555f13-5217-4520-b0bc-3a0c14a0503b",
+        "artist": "Chris Rea",
+        "title": "September Blue"
+      }
+    },
+    {
+      "id": 1087698,
+      "score": 0.86380684,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 139.512435913,
+        "mbid": "308b5a5b-c2b2-4f2a-a1ff-4c666580eb30",
+        "artist": "Mecano",
+        "title": "Hermano sol, hermana luna"
+      }
+    },
+    {
+      "id": 1177780,
+      "score": 0.8636942,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 144.399093628,
+        "mbid": "627fedb9-b2c7-47be-89e7-8ec47d18c509",
+        "artist": "Leon Russell",
+        "title": "Me And Baby Jane"
+      }
+    },
+    {
+      "id": 1177779,
+      "score": 0.8636942,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 144.399093628,
+        "mbid": "627fedb9-b2c7-47be-89e7-8ec47d18c509",
+        "artist": "Leon Russell",
+        "title": "Me And Baby Jane"
+      }
+    },
+    {
+      "id": 1177781,
+      "score": 0.8636942,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 144.399093628,
+        "mbid": "627fedb9-b2c7-47be-89e7-8ec47d18c509",
+        "artist": "Leon Russell",
+        "title": "Me And Baby Jane"
+      }
+    },
+    {
+      "id": 303802,
+      "score": 0.86355716,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 117.850570679,
+        "mbid": "4dc3291f-d69f-4706-b025-ae9795ab32b7",
+        "artist": "Dennis DeYoung",
+        "title": "Call Me"
+      }
+    },
+    {
+      "id": 1134860,
+      "score": 0.8632793,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 114.399124146,
+        "mbid": "4ac42900-d3a7-45fb-9607-393c1f90938b",
+        "artist": "Marianne Faithfull & Warren Ellis",
+        "title": "To the Moon"
+      }
+    },
+    {
+      "id": 1134861,
+      "score": 0.8632793,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 114.399124146,
+        "mbid": "4ac42900-d3a7-45fb-9607-393c1f90938b",
+        "artist": "Marianne Faithfull & Warren Ellis",
+        "title": "To the Moon"
+      }
+    },
+    {
+      "id": 599114,
+      "score": 0.86288494,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 99.3097686768,
+        "mbid": "993f693e-2202-4ee8-a567-e476d1b987ca",
+        "artist": "Rebecca Ferguson",
+        "title": "Blue Moon"
+      }
+    },
+    {
+      "id": 599115,
+      "score": 0.86288494,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 99.3097686768,
+        "mbid": "993f693e-2202-4ee8-a567-e476d1b987ca",
+        "artist": "Rebecca Ferguson",
+        "title": "Blue Moon"
+      }
+    },
+    {
+      "id": 646474,
+      "score": 0.86284536,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 110.563270569,
+        "mbid": "a5490aae-9674-4e61-8106-89e0ac98f455",
+        "artist": "Sean Marshall & Helen Reddy",
+        "title": "It's Not Easy"
+      }
+    },
+    {
+      "id": 1217671,
+      "score": 0.86240757,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 126.14226532,
+        "mbid": "78a41014-8864-4628-9804-582ff31ef664",
+        "artist": "Blitzen Trapper",
+        "title": "Not Your Lover"
+      }
+    },
+    {
+      "id": 1250824,
+      "score": 0.8619135,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 128.149917603,
+        "mbid": "8b433a1d-1df9-4e7c-ad56-c2042df95535",
+        "artist": "Lucie Silvas",
+        "title": "Villain"
+      }
+    },
+    {
+      "id": 763266,
+      "score": 0.86172897,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 122.865058899,
+        "mbid": "c34ad67c-5d4a-4698-baf8-18776055fb12",
+        "artist": "Landon Pigg & Lucy Schwartz",
+        "title": "Darling I Do"
+      }
+    },
+    {
+      "id": 1351874,
+      "score": 0.86172897,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 122.865058899,
+        "mbid": "c34ad67c-5d4a-4698-baf8-18776055fb12",
+        "artist": "Landon Pigg & Lucy Schwartz",
+        "title": "Darling I Do"
+      }
+    },
+    {
+      "id": 456222,
+      "score": 0.86164325,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 95.7308807373,
+        "mbid": "751828a8-fec2-4260-a1a1-3c6954345767",
+        "artist": "Serena Ryder",
+        "title": "Please, Baby Please"
+      }
+    },
+    {
+      "id": 357235,
+      "score": 0.8601954,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 110.05582428,
+        "mbid": "5b9f62c9-877a-4a43-9822-35829fe35afb",
+        "artist": "Frank Chatoupis",
+        "title": "Liebeslied"
+      }
+    }
+  ]
+}

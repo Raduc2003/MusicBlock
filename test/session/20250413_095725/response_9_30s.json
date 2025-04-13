@@ -1,0 +1,1261 @@
+{
+  "query_final_vector": [
+    0.12026291715946137,
+    0.014513401527929575,
+    -0.04452270593403555,
+    0.07404021950565969,
+    0.16851681192842496,
+    0.024295138654762207,
+    0.06568964916853763,
+    -0.051053473141688316,
+    0.037481463610745835,
+    0.09274652658273035,
+    0.07681604072130258,
+    0.12441984829201692,
+    0.08815588896445406,
+    -0.05433011275957994,
+    0.12921872820087862,
+    0.040904304198043494,
+    0.02561751694695154,
+    -0.08042058984678523,
+    -0.04427465124550433,
+    -0.1068715611921497,
+    -0.08326765265729835,
+    0.1378683630770764,
+    0.21141217588360287,
+    0.10314404971043659,
+    -0.10740633679624817,
+    -0.1337168560347923,
+    -0.0949879059653525,
+    0.18333309259134253,
+    0.18700403843150365,
+    0.06066212133626246,
+    -0.08463906612847114,
+    -0.10152507125676727,
+    -0.10119383295366267,
+    -0.059751078712215654,
+    -0.03130818672407707,
+    0.09531420486650559,
+    0.4657563399094416,
+    0.29791265899239777,
+    0.029297061958919155,
+    -0.11660031977857092,
+    -0.1307408154684307,
+    -0.14225613929180356,
+    -0.12870810471693736,
+    -0.10758601455123566,
+    -0.13501042386225345,
+    -0.17206915506832024,
+    -0.14539832870707792,
+    -0.09478105281335764,
+    0.20688759129372,
+    0.23590017562757398,
+    0.0793381333674022,
+    -0.11540241316952818,
+    -0.12047912115737074,
+    -0.1298320781979605,
+    -0.12100750398622823
+  ],
+  "results": [
+    {
+      "id": 463589,
+      "score": 0.8790736,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 142.113037109,
+        "mbid": "76e2d2ca-ce60-44f0-ba35-6e8f0ba33fe4",
+        "artist": "Public Service Broadcasting",
+        "title": "Everest"
+      }
+    },
+    {
+      "id": 182874,
+      "score": 0.8568667,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 117.668983459,
+        "mbid": "2e94fb44-34c8-40f3-a2d9-925d9b774bfd",
+        "artist": "Fields",
+        "title": "You Brought This on Yourself"
+      }
+    },
+    {
+      "id": 290536,
+      "score": 0.8529868,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 127.206939697,
+        "mbid": "4a579af4-24f7-4e72-aca2-476c8e687589",
+        "artist": "The Slits",
+        "title": "Babylon"
+      }
+    },
+    {
+      "id": 993946,
+      "score": 0.8526486,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 124.969291687,
+        "mbid": "fe869b5c-efb7-47e5-83df-dd012f37d012",
+        "artist": "Helvetia",
+        "title": "Solaris"
+      }
+    },
+    {
+      "id": 168380,
+      "score": 0.84719086,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 123.60874176,
+        "mbid": "2aefb5c8-f137-4289-b9f9-e78d23695468",
+        "artist": "Death Cab for Cutie",
+        "title": "The New Year"
+      }
+    },
+    {
+      "id": 168375,
+      "score": 0.84719086,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 123.60874176,
+        "mbid": "2aefb5c8-f137-4289-b9f9-e78d23695468",
+        "artist": "Death Cab for Cutie",
+        "title": "The New Year"
+      }
+    },
+    {
+      "id": 168377,
+      "score": 0.84719086,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 123.60874176,
+        "mbid": "2aefb5c8-f137-4289-b9f9-e78d23695468",
+        "artist": "Death Cab for Cutie",
+        "title": "The New Year"
+      }
+    },
+    {
+      "id": 168378,
+      "score": 0.84719086,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 123.60874176,
+        "mbid": "2aefb5c8-f137-4289-b9f9-e78d23695468",
+        "artist": "Death Cab for Cutie",
+        "title": "The New Year"
+      }
+    },
+    {
+      "id": 168381,
+      "score": 0.84719086,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 123.60874176,
+        "mbid": "2aefb5c8-f137-4289-b9f9-e78d23695468",
+        "artist": "Death Cab for Cutie",
+        "title": "The New Year"
+      }
+    },
+    {
+      "id": 168374,
+      "score": 0.84719086,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 123.60874176,
+        "mbid": "2aefb5c8-f137-4289-b9f9-e78d23695468",
+        "artist": "Death Cab for Cutie",
+        "title": "The New Year"
+      }
+    },
+    {
+      "id": 168376,
+      "score": 0.84719086,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 123.60874176,
+        "mbid": "2aefb5c8-f137-4289-b9f9-e78d23695468",
+        "artist": "Death Cab for Cutie",
+        "title": "The New Year"
+      }
+    },
+    {
+      "id": 168379,
+      "score": 0.84719086,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 123.60874176,
+        "mbid": "2aefb5c8-f137-4289-b9f9-e78d23695468",
+        "artist": "Death Cab for Cutie",
+        "title": "The New Year"
+      }
+    },
+    {
+      "id": 168382,
+      "score": 0.84719086,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 123.60874176,
+        "mbid": "2aefb5c8-f137-4289-b9f9-e78d23695468",
+        "artist": "Death Cab for Cutie",
+        "title": "The New Year"
+      }
+    },
+    {
+      "id": 892452,
+      "score": 0.8458758,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 85.5233535767,
+        "mbid": "e463d301-b199-4082-9dbc-29f3b7b54034",
+        "artist": "Los Angeles Azules",
+        "title": "Entrega De Amor Album Version"
+      }
+    },
+    {
+      "id": 1077067,
+      "score": 0.84575814,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 123.529251099,
+        "mbid": "2aefb5c8-f137-4289-b9f9-e78d23695468",
+        "artist": "Death Cab For Cutie",
+        "title": "The New Year"
+      }
+    },
+    {
+      "id": 998904,
+      "score": 0.8450221,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 107.798202515,
+        "mbid": "ffc0f2be-9bb2-405c-900e-4320ba467183",
+        "artist": "P!nk",
+        "title": "Runaway"
+      }
+    },
+    {
+      "id": 1150570,
+      "score": 0.84244037,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 123.677001953,
+        "mbid": "53680810-35d9-4725-8c78-ed4a68627558",
+        "artist": "The Rosetti Sisters",
+        "title": "Magia De Un Dia"
+      }
+    },
+    {
+      "id": 697544,
+      "score": 0.84220016,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 150.047088623,
+        "mbid": "b279c821-16ff-431d-898d-f24e11addb28",
+        "artist": "Jannes",
+        "title": "Zwevend Naar 't Geluk"
+      }
+    },
+    {
+      "id": 1351072,
+      "score": 0.84202915,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 123.815261841,
+        "mbid": "c2d0adf8-edbd-4f47-abac-444bb0d29d58",
+        "artist": "R\u00dcF\u00dcS",
+        "title": "Innerbloom (Lane 8 remix)"
+      }
+    },
+    {
+      "id": 1351071,
+      "score": 0.84202915,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 123.815261841,
+        "mbid": "c2d0adf8-edbd-4f47-abac-444bb0d29d58",
+        "artist": "R\u00fcf\u00fcs Du Sol, Lane 8",
+        "title": "Innerbloom (Lane 8 Remix)"
+      }
+    },
+    {
+      "id": 1351074,
+      "score": 0.84202915,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 123.815261841,
+        "mbid": "c2d0adf8-edbd-4f47-abac-444bb0d29d58",
+        "artist": "R\u00dcF\u00dcS",
+        "title": "Innerbloom (Lane 8 remix)"
+      }
+    },
+    {
+      "id": 1351073,
+      "score": 0.84202915,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 123.815261841,
+        "mbid": "c2d0adf8-edbd-4f47-abac-444bb0d29d58",
+        "artist": "R\u00dcF\u00dcS",
+        "title": "Innerbloom (Lane 8 remix)"
+      }
+    },
+    {
+      "id": 995836,
+      "score": 0.84051734,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 114.041648865,
+        "mbid": "fefd96cb-34fc-4c6c-a297-7e8ac882b4fb",
+        "artist": "The Alan Parsons Project",
+        "title": "The Voice"
+      }
+    },
+    {
+      "id": 892453,
+      "score": 0.83927816,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 85.4248275757,
+        "mbid": "e463d301-b199-4082-9dbc-29f3b7b54034",
+        "artist": "Los Angeles Azules",
+        "title": "Entrega De Amor"
+      }
+    },
+    {
+      "id": 892450,
+      "score": 0.83889586,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 85.4332199097,
+        "mbid": "e463d301-b199-4082-9dbc-29f3b7b54034",
+        "artist": "Los Angeles Azules",
+        "title": "Entrega De Amor Album Version"
+      }
+    },
+    {
+      "id": 998903,
+      "score": 0.83542883,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 107.960586548,
+        "mbid": "ffc0f2be-9bb2-405c-900e-4320ba467183",
+        "artist": "P!nk",
+        "title": "Runaway"
+      }
+    },
+    {
+      "id": 151698,
+      "score": 0.83540684,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 119.928649902,
+        "mbid": "26b3c394-dd74-4b30-bbd4-a0f5ec536890",
+        "artist": "Cortex Defect",
+        "title": "Instruments of Self Destruction"
+      }
+    },
+    {
+      "id": 446043,
+      "score": 0.83309835,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 109.892913818,
+        "mbid": "72841485-2377-4901-8859-50f0866798b8",
+        "artist": "Five for Fighting",
+        "title": "Note to the Unknown Soldier"
+      }
+    },
+    {
+      "id": 446042,
+      "score": 0.83309835,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 109.892913818,
+        "mbid": "72841485-2377-4901-8859-50f0866798b8",
+        "artist": "Five for Fighting",
+        "title": "Note to the Unknown Soldier"
+      }
+    },
+    {
+      "id": 446044,
+      "score": 0.83309835,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 109.892913818,
+        "mbid": "72841485-2377-4901-8859-50f0866798b8",
+        "artist": "Five for Fighting",
+        "title": "Note to the Unknown Soldier"
+      }
+    },
+    {
+      "id": 446045,
+      "score": 0.83309835,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 109.892913818,
+        "mbid": "72841485-2377-4901-8859-50f0866798b8",
+        "artist": "Five for Fighting",
+        "title": "Note to the Unknown Soldier"
+      }
+    },
+    {
+      "id": 918476,
+      "score": 0.83006454,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 119.989051819,
+        "mbid": "eb2cdf40-90ad-40f7-b109-ca41fba2d2b7",
+        "artist": "The Police",
+        "title": "Invisible Sun (Remastered 2003)"
+      }
+    },
+    {
+      "id": 918474,
+      "score": 0.83006454,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 119.989051819,
+        "mbid": "eb2cdf40-90ad-40f7-b109-ca41fba2d2b7",
+        "artist": "The Police",
+        "title": "Invisible Sun (Remastered 2003)"
+      }
+    },
+    {
+      "id": 995834,
+      "score": 0.8292532,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 114.060203552,
+        "mbid": "fefd96cb-34fc-4c6c-a297-7e8ac882b4fb",
+        "artist": "Parsons Project, The Alan",
+        "title": "The Voice"
+      }
+    },
+    {
+      "id": 995835,
+      "score": 0.8292532,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 114.060203552,
+        "mbid": "fefd96cb-34fc-4c6c-a297-7e8ac882b4fb",
+        "artist": "Parsons Project, The Alan",
+        "title": "The Voice"
+      }
+    },
+    {
+      "id": 382086,
+      "score": 0.8288301,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 139.91835022,
+        "mbid": "61f85f1f-a62e-4752-b801-2690b67f9560",
+        "artist": "Metro Station",
+        "title": "Seventeen Forever"
+      }
+    },
+    {
+      "id": 534071,
+      "score": 0.8274521,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 112.987541199,
+        "mbid": "88ad0c6f-8331-456a-8732-9c01ab9d0e53",
+        "artist": "No Tears",
+        "title": "Night Effect"
+      }
+    },
+    {
+      "id": 1015997,
+      "score": 0.8271411,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 140.169403076,
+        "mbid": "08e52ce0-785a-45b8-a6b5-cefa8dae504e",
+        "artist": "Stereolab",
+        "title": "Visionary Road Maps"
+      }
+    },
+    {
+      "id": 484145,
+      "score": 0.82703567,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 101.046989441,
+        "mbid": "7bf8a0a2-d7e2-48ff-9090-ba287e041f74",
+        "artist": "Het Goede Doel",
+        "title": "Zwijgen"
+      }
+    },
+    {
+      "id": 426374,
+      "score": 0.82601273,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 131.523254395,
+        "mbid": "6d5c333b-d927-4a32-8263-f9c4750b4a4a",
+        "artist": "Noir D\u00e9sir",
+        "title": "\u00c0 ton \u00e9toile"
+      }
+    },
+    {
+      "id": 1087180,
+      "score": 0.8244379,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 123.08139801,
+        "mbid": "304c7c04-e7cc-49f5-ad60-a9a553bc85f6",
+        "artist": "Country Gentlemen",
+        "title": "Matterhorn"
+      }
+    },
+    {
+      "id": 820402,
+      "score": 0.8228757,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 96.8156738281,
+        "mbid": "d1f0d3cb-9228-4699-bae3-ac6ce370640c",
+        "artist": "The Connells",
+        "title": "I Suppose"
+      }
+    },
+    {
+      "id": 108706,
+      "score": 0.8222429,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 131.944869995,
+        "mbid": "1bd0cc18-f7e5-4aa3-aa93-57b38bb89771",
+        "artist": "The Afters",
+        "title": "Never Going Back to OK"
+      }
+    },
+    {
+      "id": 108707,
+      "score": 0.82224274,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 131.944869995,
+        "mbid": "1bd0cc18-f7e5-4aa3-aa93-57b38bb89771",
+        "artist": "The Afters",
+        "title": "Never Going Back to OK"
+      }
+    },
+    {
+      "id": 108705,
+      "score": 0.82224274,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 131.944869995,
+        "mbid": "1bd0cc18-f7e5-4aa3-aa93-57b38bb89771",
+        "artist": "The Afters",
+        "title": "Never Going Back to OK"
+      }
+    },
+    {
+      "id": 1140960,
+      "score": 0.8219247,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 117.396827698,
+        "mbid": "4e1083c3-b577-48e9-9a56-7bbbcbb1d6e7",
+        "artist": "System of a Down",
+        "title": "Toxicity"
+      }
+    },
+    {
+      "id": 719499,
+      "score": 0.8216243,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 102.015281677,
+        "mbid": "b80de6af-6fd2-40eb-8018-b65061c44dc1",
+        "artist": "Natalia Lafourcade",
+        "title": "Hasta la ra\u00edz"
+      }
+    },
+    {
+      "id": 953737,
+      "score": 0.8214185,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 120.203559875,
+        "mbid": "f44d6cba-515e-4e4b-93bc-5814316d5fdc",
+        "artist": "William Bell",
+        "title": "Any Other Way"
+      }
+    },
+    {
+      "id": 953738,
+      "score": 0.8214185,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 120.203559875,
+        "mbid": "f44d6cba-515e-4e4b-93bc-5814316d5fdc",
+        "artist": "William Bell",
+        "title": "Any Other Way"
+      }
+    },
+    {
+      "id": 637675,
+      "score": 0.8205113,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 126.022445679,
+        "mbid": "a30f9608-8e0e-42d9-889c-054d8ab6815b",
+        "artist": "Anchorsong",
+        "title": "Diver"
+      }
+    },
+    {
+      "id": 304959,
+      "score": 0.8195731,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 117.388496399,
+        "mbid": "4e1083c3-b577-48e9-9a56-7bbbcbb1d6e7",
+        "artist": "System Of A Down",
+        "title": "Toxicity"
+      }
+    },
+    {
+      "id": 1082091,
+      "score": 0.8195154,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 94.7241897583,
+        "mbid": "2d9b2a48-6a80-4cba-aeea-cb3946b38222",
+        "artist": "Moby",
+        "title": "Hotel Intro"
+      }
+    },
+    {
+      "id": 64119,
+      "score": 0.81868416,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 123.693908691,
+        "mbid": "106c3a81-b6e0-4b5b-8753-ff671bc157de",
+        "artist": "Coldplay",
+        "title": "The Hardest Part"
+      }
+    },
+    {
+      "id": 141748,
+      "score": 0.8171345,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 105.827056885,
+        "mbid": "242727e5-7eea-4f23-99cb-ced37a20b2d2",
+        "artist": "Shota Kageyama",
+        "title": "Route 10 (Pok\u00e9mon Black / Pok\u00e9mon White)"
+      }
+    },
+    {
+      "id": 673295,
+      "score": 0.8157965,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 110.180374146,
+        "mbid": "ac2f8dea-5726-4ffc-a248-87f42fef2951",
+        "artist": "Bruce Springsteen",
+        "title": "Nothing man"
+      }
+    },
+    {
+      "id": 918475,
+      "score": 0.8155549,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 119.985435486,
+        "mbid": "eb2cdf40-90ad-40f7-b109-ca41fba2d2b7",
+        "artist": "The Police",
+        "title": "Invisible Sun (Remastered 2003)"
+      }
+    },
+    {
+      "id": 242529,
+      "score": 0.8153866,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 120.058387756,
+        "mbid": "3de64aae-8bbe-4d65-b1d2-b38c3b6a2bf3",
+        "artist": "The Police",
+        "title": "Invisible Sun Remastered 2003"
+      }
+    },
+    {
+      "id": 233414,
+      "score": 0.8153866,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 120.058387756,
+        "mbid": "3b950e4f-451b-4d04-982a-bb72b2a463ee",
+        "artist": "The Police",
+        "title": "Invisible Sun Remastered 2003"
+      }
+    },
+    {
+      "id": 219183,
+      "score": 0.8139436,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 120.004089355,
+        "mbid": "37f9c461-4324-4e73-9c4a-ebf09782651a",
+        "artist": "The Police",
+        "title": "Invisible Sun"
+      }
+    },
+    {
+      "id": 219182,
+      "score": 0.8139436,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 120.004089355,
+        "mbid": "37f9c461-4324-4e73-9c4a-ebf09782651a",
+        "artist": "The Police",
+        "title": "Invisible Sun"
+      }
+    },
+    {
+      "id": 949227,
+      "score": 0.8129362,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 131.014434814,
+        "mbid": "f31d0355-5e36-4647-998f-56551940b9bd",
+        "artist": "Alain Souchon; Laurent Voulzy",
+        "title": "La Ballade de Jim"
+      }
+    },
+    {
+      "id": 57097,
+      "score": 0.8128266,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 94.9373550415,
+        "mbid": "0e9c3c92-90a6-433c-889d-547a24c188e2",
+        "artist": "M83",
+        "title": "Run Into Flowers (Abstrackt Keal Agram remix)"
+      }
+    },
+    {
+      "id": 380888,
+      "score": 0.81125647,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 133.410934448,
+        "mbid": "61a79472-53f0-4b3d-a19a-5a9d4e185b7b",
+        "artist": "Haerts",
+        "title": "No One Needs to Know"
+      }
+    },
+    {
+      "id": 447239,
+      "score": 0.8111639,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 117.871276855,
+        "mbid": "72cdd4e1-92e4-454e-9dda-ffaa838981dc",
+        "artist": "Elton John",
+        "title": "Blues Never Fade Away"
+      }
+    },
+    {
+      "id": 979188,
+      "score": 0.8110545,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 88.837348938,
+        "mbid": "fac63e6c-f80a-4b1b-80d0-8580df8c16be",
+        "artist": "JD McPherson",
+        "title": "Your Love (All That I'm Missing)"
+      }
+    },
+    {
+      "id": 979187,
+      "score": 0.8110545,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 88.837348938,
+        "mbid": "fac63e6c-f80a-4b1b-80d0-8580df8c16be",
+        "artist": "JD McPherson",
+        "title": "Your Love (All That I'm Missing)"
+      }
+    },
+    {
+      "id": 600017,
+      "score": 0.81004477,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 98.0000915527,
+        "mbid": "99763cec-6ecb-493c-a5fd-942c68c2c36a",
+        "artist": "Simple Minds",
+        "title": "Cry"
+      }
+    },
+    {
+      "id": 600016,
+      "score": 0.81004477,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 98.0000915527,
+        "mbid": "99763cec-6ecb-493c-a5fd-942c68c2c36a",
+        "artist": "Simple Minds",
+        "title": "Cry"
+      }
+    },
+    {
+      "id": 1173740,
+      "score": 0.8079637,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 85.8439941406,
+        "mbid": "60347f59-5007-49aa-9076-50de368d4ea5",
+        "artist": "Rimitti",
+        "title": "Rouked El Achra"
+      }
+    },
+    {
+      "id": 1173742,
+      "score": 0.8079637,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 85.8439941406,
+        "mbid": "60347f59-5007-49aa-9076-50de368d4ea5",
+        "artist": "Rimitti",
+        "title": "Rouked El Achra"
+      }
+    },
+    {
+      "id": 1173741,
+      "score": 0.8079637,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 85.8439941406,
+        "mbid": "60347f59-5007-49aa-9076-50de368d4ea5",
+        "artist": "Rimitti",
+        "title": "Rouked El Achra"
+      }
+    },
+    {
+      "id": 396107,
+      "score": 0.80777395,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 116.862976074,
+        "mbid": "659555bf-832b-4e73-9fcf-6cf86eb3c0db",
+        "artist": "Menahan Street Band",
+        "title": "Ivory and Blue"
+      }
+    },
+    {
+      "id": 918473,
+      "score": 0.80745643,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 120.012687683,
+        "mbid": "eb2cdf40-90ad-40f7-b109-ca41fba2d2b7",
+        "artist": "The Police",
+        "title": "Invisible Sun"
+      }
+    },
+    {
+      "id": 918472,
+      "score": 0.80745643,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 120.012687683,
+        "mbid": "eb2cdf40-90ad-40f7-b109-ca41fba2d2b7",
+        "artist": "The Police",
+        "title": "Invisible Sun"
+      }
+    },
+    {
+      "id": 1062167,
+      "score": 0.8073348,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 128.482025146,
+        "mbid": "22a361ab-e8f0-4dbd-91a3-666267d53534",
+        "artist": "Medina",
+        "title": "6 AM"
+      }
+    },
+    {
+      "id": 967526,
+      "score": 0.80687,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 122.982154846,
+        "mbid": "f7c31a4d-692e-432e-95f3-7d364b631505",
+        "artist": "Escort",
+        "title": "Cabaret"
+      }
+    },
+    {
+      "id": 184847,
+      "score": 0.8063343,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 126.312950134,
+        "mbid": "2f16a066-9da8-46d1-b84b-705023a65c23",
+        "artist": "Huey Lewis and the News",
+        "title": "Mother in Law"
+      }
+    },
+    {
+      "id": 184846,
+      "score": 0.8063343,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 126.312950134,
+        "mbid": "2f16a066-9da8-46d1-b84b-705023a65c23",
+        "artist": "Huey Lewis and the News",
+        "title": "Mother in Law"
+      }
+    },
+    {
+      "id": 939401,
+      "score": 0.8051363,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 122.984077454,
+        "mbid": "f09e2efa-ccf5-4062-8f5a-633bdcaf067c",
+        "artist": "\u4eca\u4e95\u9ebb\u7f8e",
+        "title": "The Azure\uff5e\u78a7\u306e\u8a18\u61b6\uff5e"
+      }
+    },
+    {
+      "id": 1276922,
+      "score": 0.8049799,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 88.8785400391,
+        "mbid": "99a9b00f-12c9-4c42-afe0-d5f325e4c263",
+        "artist": "The Boxer Rebellion",
+        "title": "Love Yourself"
+      }
+    },
+    {
+      "id": 877037,
+      "score": 0.8043341,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 125.395835876,
+        "mbid": "e0661e50-2e6d-424b-80b2-b4dc862be53f",
+        "artist": "AnnenMayKantereit",
+        "title": "Oft gefragt"
+      }
+    },
+    {
+      "id": 1161568,
+      "score": 0.8032977,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 138.255126953,
+        "mbid": "5977c1c8-1b89-47cd-adb9-3076f9076013",
+        "artist": "Johnny Cash",
+        "title": "Crazy Old Soldier (with Ray .."
+      }
+    },
+    {
+      "id": 939400,
+      "score": 0.8032119,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 122.998382568,
+        "mbid": "f09e2efa-ccf5-4062-8f5a-633bdcaf067c",
+        "artist": "\u4eca\u4e95\u9ebb\u7f8e",
+        "title": "The Azure \uff5e\u78a7\u306e\u8a18\u61b6\uff5e"
+      }
+    },
+    {
+      "id": 233415,
+      "score": 0.8021568,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 120.029563904,
+        "mbid": "3b950e4f-451b-4d04-982a-bb72b2a463ee",
+        "artist": "The Police",
+        "title": "Invisible Sun"
+      }
+    },
+    {
+      "id": 121774,
+      "score": 0.80082494,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 95.5611038208,
+        "mbid": "1f1ea5e8-dcce-4f47-a32d-301685499bea",
+        "artist": "Alternate Skies",
+        "title": "Research & Develpoment"
+      }
+    },
+    {
+      "id": 121773,
+      "score": 0.80082494,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 95.5611038208,
+        "mbid": "1f1ea5e8-dcce-4f47-a32d-301685499bea",
+        "artist": "Alternate Skies",
+        "title": "Research & Develpoment"
+      }
+    },
+    {
+      "id": 412204,
+      "score": 0.8007365,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 112.003173828,
+        "mbid": "69ad6c09-6d63-4d7d-b7b3-183fbb7a7ebe",
+        "artist": "Lene Lovich",
+        "title": "Life"
+      }
+    },
+    {
+      "id": 412205,
+      "score": 0.8007365,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 112.003173828,
+        "mbid": "69ad6c09-6d63-4d7d-b7b3-183fbb7a7ebe",
+        "artist": "Lene Lovich",
+        "title": "Life"
+      }
+    },
+    {
+      "id": 171636,
+      "score": 0.80056614,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 89.9750213623,
+        "mbid": "2bc77156-4a6a-4622-9302-65976a68a67b",
+        "artist": "La Barranca;Labarranca",
+        "title": "Posiblemente Imposible"
+      }
+    },
+    {
+      "id": 171634,
+      "score": 0.80056614,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 89.9750213623,
+        "mbid": "2bc77156-4a6a-4622-9302-65976a68a67b",
+        "artist": "La Barranca",
+        "title": "Posiblemente Imposible"
+      }
+    },
+    {
+      "id": 1153798,
+      "score": 0.80034,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 123.684013367,
+        "mbid": "551c01b6-8295-4549-9bdf-b65ba32ce4a9",
+        "artist": "Coldplay",
+        "title": "Hardest Part"
+      }
+    },
+    {
+      "id": 1153797,
+      "score": 0.80034,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 123.684013367,
+        "mbid": "551c01b6-8295-4549-9bdf-b65ba32ce4a9",
+        "artist": "Coldplay",
+        "title": "Hardest Part"
+      }
+    },
+    {
+      "id": 78337,
+      "score": 0.80012524,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 162.62020874,
+        "mbid": "141295ec-bfe1-428c-a66f-48853e3270b2",
+        "artist": "Gene Vincent",
+        "title": "That's the Trouble With Love (take 2) (mono)"
+      }
+    },
+    {
+      "id": 881866,
+      "score": 0.7995273,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 92.9022979736,
+        "mbid": "e1b1aa95-daa0-4ec2-8001-48c54c529bc8",
+        "artist": "Los Angeles Azules;Ximena Sarinana",
+        "title": "Mis Sentimientos"
+      }
+    },
+    {
+      "id": 332230,
+      "score": 0.79899925,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 123.659545898,
+        "mbid": "551c01b6-8295-4549-9bdf-b65ba32ce4a9",
+        "artist": "Coldplay",
+        "title": "The Hardest Part"
+      }
+    },
+    {
+      "id": 332226,
+      "score": 0.79899925,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 123.659545898,
+        "mbid": "551c01b6-8295-4549-9bdf-b65ba32ce4a9",
+        "artist": "Coldplay",
+        "title": "The Hardest Part"
+      }
+    },
+    {
+      "id": 332223,
+      "score": 0.79899925,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 123.659545898,
+        "mbid": "551c01b6-8295-4549-9bdf-b65ba32ce4a9",
+        "artist": "Coldplay",
+        "title": "The Hardest Part"
+      }
+    },
+    {
+      "id": 332235,
+      "score": 0.79899925,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 123.659545898,
+        "mbid": "551c01b6-8295-4549-9bdf-b65ba32ce4a9",
+        "artist": "Coldplay",
+        "title": "The Hardest Part"
+      }
+    },
+    {
+      "id": 332232,
+      "score": 0.79899925,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 123.659545898,
+        "mbid": "551c01b6-8295-4549-9bdf-b65ba32ce4a9",
+        "artist": "Coldplay",
+        "title": "The Hardest Part"
+      }
+    },
+    {
+      "id": 332225,
+      "score": 0.79899925,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 123.659545898,
+        "mbid": "551c01b6-8295-4549-9bdf-b65ba32ce4a9",
+        "artist": "Coldplay",
+        "title": "The Hardest Part"
+      }
+    }
+  ]
+}

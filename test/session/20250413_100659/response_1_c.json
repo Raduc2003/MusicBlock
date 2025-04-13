@@ -1,0 +1,1261 @@
+{
+  "query_final_vector": [
+    -0.09022476295369171,
+    0.0012224194850894551,
+    0.04838719240812975,
+    -0.007603880920484478,
+    -0.08766488414604114,
+    -0.21857582138239762,
+    -0.2885344423859373,
+    -0.3203758952934582,
+    -0.41040056817401327,
+    -0.1255181359951872,
+    -0.07401588149318394,
+    -0.12754814872556589,
+    0.06909401152274212,
+    -0.14359898181398792,
+    0.1474391095147348,
+    0.08628539052491178,
+    0.038194555954012326,
+    -0.08831260075208218,
+    -0.10688358016812821,
+    0.26851009836178535,
+    0.2178650445150458,
+    -0.06447598497852258,
+    -0.14542834290217158,
+    -0.16017708650790746,
+    -0.09534839779711866,
+    -0.05817370016255295,
+    -0.11159736534716382,
+    -0.08252191205293305,
+    0.0346392900129395,
+    0.002515801115106172,
+    -0.18437523585268212,
+    -0.17692913631155574,
+    -0.15657329009648735,
+    0.003911639767291561,
+    0.0689037104892451,
+    0.023348734852716116,
+    -0.05705568644597177,
+    -0.04392840942571926,
+    -0.0035696963622401353,
+    0.04779261230928879,
+    0.07186320222550517,
+    0.05807838988982764,
+    -0.12725893341725678,
+    -0.13674311131613598,
+    -0.12089418388034356,
+    -0.10391818594288305,
+    -0.12219123766213913,
+    -0.14744561365599876,
+    -0.10144311818895316,
+    -0.02120203583450241,
+    -0.008823620526193045,
+    -0.021351343535903778,
+    0.02095273441938178,
+    0.06278043668123924,
+    0.1991715997454882
+  ],
+  "results": [
+    {
+      "id": 441756,
+      "score": 0.8341473,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 117.781646729,
+        "mbid": "715aba52-2d3c-48cb-b588-8e2fbb3fc95a",
+        "artist": "Johnny Cash",
+        "title": "Wayfaring Stranger"
+      }
+    },
+    {
+      "id": 441759,
+      "score": 0.8341473,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 117.781646729,
+        "mbid": "715aba52-2d3c-48cb-b588-8e2fbb3fc95a",
+        "artist": "Johnny Cash",
+        "title": "Wayfaring Stranger"
+      }
+    },
+    {
+      "id": 441758,
+      "score": 0.8341473,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 117.781646729,
+        "mbid": "715aba52-2d3c-48cb-b588-8e2fbb3fc95a",
+        "artist": "Johnny Cash",
+        "title": "Wayfaring Stranger"
+      }
+    },
+    {
+      "id": 441753,
+      "score": 0.8341473,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 117.781646729,
+        "mbid": "715aba52-2d3c-48cb-b588-8e2fbb3fc95a",
+        "artist": "Johnny Cash",
+        "title": "Wayfaring Stranger"
+      }
+    },
+    {
+      "id": 441751,
+      "score": 0.8341473,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 117.781646729,
+        "mbid": "715aba52-2d3c-48cb-b588-8e2fbb3fc95a",
+        "artist": "Johnny Cash",
+        "title": "Wayfaring Stranger"
+      }
+    },
+    {
+      "id": 441755,
+      "score": 0.8341473,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 117.781646729,
+        "mbid": "715aba52-2d3c-48cb-b588-8e2fbb3fc95a",
+        "artist": "Johnny Cash",
+        "title": "Wayfaring Stranger"
+      }
+    },
+    {
+      "id": 441752,
+      "score": 0.8341473,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 117.781646729,
+        "mbid": "715aba52-2d3c-48cb-b588-8e2fbb3fc95a",
+        "artist": "Johnny Cash",
+        "title": "Wayfaring Stranger"
+      }
+    },
+    {
+      "id": 441754,
+      "score": 0.8341473,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 117.781646729,
+        "mbid": "715aba52-2d3c-48cb-b588-8e2fbb3fc95a",
+        "artist": "Johnny Cash",
+        "title": "Wayfaring Stranger"
+      }
+    },
+    {
+      "id": 665012,
+      "score": 0.8305013,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "minor",
+        "bpm": 94.3118057251,
+        "mbid": "aa08f743-0ce4-4ef9-bace-f605a7f9cdb3",
+        "artist": "Lisa Maffia",
+        "title": "City Life (feat. Face)"
+      }
+    },
+    {
+      "id": 557866,
+      "score": 0.8283524,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "major",
+        "bpm": 140.033584595,
+        "mbid": "8eadd3ac-4566-4fbe-8390-b2f5b923843f",
+        "artist": "Aufhocker",
+        "title": "untitled"
+      }
+    },
+    {
+      "id": 441757,
+      "score": 0.82335705,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 119.694076538,
+        "mbid": "715aba52-2d3c-48cb-b588-8e2fbb3fc95a",
+        "artist": "Johnny Cash",
+        "title": "Wayfaring Stranger"
+      }
+    },
+    {
+      "id": 169501,
+      "score": 0.81930846,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 105.847930908,
+        "mbid": "2b3d8295-09e1-4de0-929c-d0e3267dcaac",
+        "artist": "Hisztory",
+        "title": "Der Lucky und die Marylou"
+      }
+    },
+    {
+      "id": 337694,
+      "score": 0.815298,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "minor",
+        "bpm": 120.582977295,
+        "mbid": "569a64c7-ab2a-42da-b858-92f4752a38dc",
+        "artist": "The Triffids",
+        "title": "Suntrapper"
+      }
+    },
+    {
+      "id": 1031981,
+      "score": 0.8151204,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "minor",
+        "bpm": 122.83416748,
+        "mbid": "11ad7683-5ce4-4c08-aecd-ba8c714712d9",
+        "artist": "Paul McCartney",
+        "title": "Valentine Day"
+      }
+    },
+    {
+      "id": 1204490,
+      "score": 0.81397206,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 118.070739746,
+        "mbid": "715aba52-2d3c-48cb-b588-8e2fbb3fc95a",
+        "artist": "Johnny Cash",
+        "title": "Wayfaring Stranger"
+      }
+    },
+    {
+      "id": 35497,
+      "score": 0.8126558,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 80.0038604736,
+        "mbid": "0913f2b5-2cdd-4de8-9fb7-259317a4a6c2",
+        "artist": "Derek Fiechter",
+        "title": "Shadow Elves"
+      }
+    },
+    {
+      "id": 399227,
+      "score": 0.81011,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 112.256523132,
+        "mbid": "66647779-a5e0-42d9-9a0f-9a0ff55e4154",
+        "artist": "Rattle On The Stovepipe",
+        "title": "Elzick's Farewell"
+      }
+    },
+    {
+      "id": 1269521,
+      "score": 0.8093685,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 85.0772247314,
+        "mbid": "956d9fac-68d1-440c-b7d3-c54a4143dc07",
+        "artist": "Am Fost La Munte \u0218i Mi-a Pl\u0103cut",
+        "title": "Pavel Puiu\u021b \u0218i Birocra\u021bia"
+      }
+    },
+    {
+      "id": 1221589,
+      "score": 0.8084813,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 92.9713745117,
+        "mbid": "7ad82991-e8c0-42b5-87d7-1723415a188d",
+        "artist": "Hardkandy",
+        "title": "Moonlight [Remix]"
+      }
+    },
+    {
+      "id": 1221590,
+      "score": 0.8084813,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 92.9713745117,
+        "mbid": "7ad82991-e8c0-42b5-87d7-1723415a188d",
+        "artist": "Hardkandy",
+        "title": "Moonlight [Remix]"
+      }
+    },
+    {
+      "id": 1327090,
+      "score": 0.80746835,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "major",
+        "bpm": 128.390197754,
+        "mbid": "b58db773-bb8a-42c3-8f86-dd14e2fbd42b",
+        "artist": "Bluegrass Mandolin Extravag",
+        "title": "Dusty Miller"
+      }
+    },
+    {
+      "id": 883246,
+      "score": 0.80681753,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "minor",
+        "bpm": 111.515312195,
+        "mbid": "e20de9b6-9da3-46a8-b6f3-66c7234e0022",
+        "artist": "Chicago Underground Duo",
+        "title": "Red Graduations"
+      }
+    },
+    {
+      "id": 84117,
+      "score": 0.80344296,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 114.249191284,
+        "mbid": "159fedec-2455-439f-ab16-26fc1e348385",
+        "artist": "Inle Myint Maung and Yi Yi Thant",
+        "title": "Lonely in the Forest"
+      }
+    },
+    {
+      "id": 762421,
+      "score": 0.80134875,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 99.9828948975,
+        "mbid": "c30eca33-5ae8-4ce8-98cb-60e0cfe1a28c",
+        "artist": "Colourbox",
+        "title": "Sleepwalker"
+      }
+    },
+    {
+      "id": 762422,
+      "score": 0.80134875,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 99.9828948975,
+        "mbid": "c30eca33-5ae8-4ce8-98cb-60e0cfe1a28c",
+        "artist": "Colourbox",
+        "title": "Sleepwalker"
+      }
+    },
+    {
+      "id": 1239083,
+      "score": 0.7989888,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 108.718765259,
+        "mbid": "848961c1-ba4a-4c4c-af37-1169ca659c7c",
+        "artist": "R. Kelly",
+        "title": "What I Feel / Issues"
+      }
+    },
+    {
+      "id": 173303,
+      "score": 0.7962428,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 111.941589355,
+        "mbid": "2c2d832b-12b3-47af-a495-d2c56455aeee",
+        "artist": "The Magnetic Fields",
+        "title": "Kraftwerk in a Blackout"
+      }
+    },
+    {
+      "id": 517880,
+      "score": 0.79435503,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 108.59072876,
+        "mbid": "848961c1-ba4a-4c4c-af37-1169ca659c7c",
+        "artist": "R. Kelly",
+        "title": "What I Feel / Issues"
+      }
+    },
+    {
+      "id": 907069,
+      "score": 0.7941786,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "minor",
+        "bpm": 111.96521759,
+        "mbid": "e82ad6ae-aeac-4c56-8cfe-1ebce9a2ead4",
+        "artist": "Chuck Loeb/Christina Loeb",
+        "title": "Las Eras"
+      }
+    },
+    {
+      "id": 136881,
+      "score": 0.7937887,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "major",
+        "bpm": 122.040931702,
+        "mbid": "22ee5233-cf1e-4885-adb8-ff8f428ac24d",
+        "artist": "Rattle On The Stovepipe",
+        "title": "Ways of the World"
+      }
+    },
+    {
+      "id": 532053,
+      "score": 0.7933798,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 103.02495575,
+        "mbid": "882b306c-16ee-41f7-b240-c25be4034730",
+        "artist": "June Tabor",
+        "title": "Lord Maxwell's Last Goodnight"
+      }
+    },
+    {
+      "id": 517881,
+      "score": 0.79024935,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 108.750762939,
+        "mbid": "848961c1-ba4a-4c4c-af37-1169ca659c7c",
+        "artist": "R. Kelly",
+        "title": "What I Feel / Issues"
+      }
+    },
+    {
+      "id": 517879,
+      "score": 0.79024935,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 108.750762939,
+        "mbid": "848961c1-ba4a-4c4c-af37-1169ca659c7c",
+        "artist": "R. Kelly",
+        "title": "What I Feel / Issues"
+      }
+    },
+    {
+      "id": 517878,
+      "score": 0.79024935,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 108.750762939,
+        "mbid": "848961c1-ba4a-4c4c-af37-1169ca659c7c",
+        "artist": "R. Kelly",
+        "title": "What I Feel / Issues"
+      }
+    },
+    {
+      "id": 878561,
+      "score": 0.7900535,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 83.9034576416,
+        "mbid": "e0c9252d-26ab-42a1-afe9-802080b67d94",
+        "artist": "The Isley Brothers",
+        "title": "Between the Sheets"
+      }
+    },
+    {
+      "id": 878562,
+      "score": 0.7900535,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 83.9034576416,
+        "mbid": "e0c9252d-26ab-42a1-afe9-802080b67d94",
+        "artist": "The Isley Brothers",
+        "title": "Between the Sheets"
+      }
+    },
+    {
+      "id": 878559,
+      "score": 0.7900535,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 83.9034576416,
+        "mbid": "e0c9252d-26ab-42a1-afe9-802080b67d94",
+        "artist": "The Isley Brothers",
+        "title": "Between the Sheets"
+      }
+    },
+    {
+      "id": 394750,
+      "score": 0.78978974,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 90.7099685669,
+        "mbid": "65375752-906c-4068-9b1c-f5833555107a",
+        "artist": "Clannad",
+        "title": "Si\u00fail a R\u00fan"
+      }
+    },
+    {
+      "id": 394749,
+      "score": 0.78978974,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 90.7099685669,
+        "mbid": "65375752-906c-4068-9b1c-f5833555107a",
+        "artist": "Clannad",
+        "title": "Si\u00fail a R\u00fan"
+      }
+    },
+    {
+      "id": 878560,
+      "score": 0.78930116,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 83.8987426758,
+        "mbid": "e0c9252d-26ab-42a1-afe9-802080b67d94",
+        "artist": "The Isley Brothers",
+        "title": "Between the Sheets"
+      }
+    },
+    {
+      "id": 878558,
+      "score": 0.78930116,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 83.8987426758,
+        "mbid": "e0c9252d-26ab-42a1-afe9-802080b67d94",
+        "artist": "The Isley Brothers",
+        "title": "Between the Sheets"
+      }
+    },
+    {
+      "id": 504203,
+      "score": 0.7886474,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 88.1014022827,
+        "mbid": "810f0e45-aa02-48dd-a167-949dffe68c30",
+        "artist": "\u5357\u6fa4\u5927\u4ecb",
+        "title": "Vamo 'alla flamenco"
+      }
+    },
+    {
+      "id": 504204,
+      "score": 0.7886474,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 88.1014022827,
+        "mbid": "810f0e45-aa02-48dd-a167-949dffe68c30",
+        "artist": "\u5357\u6fa4\u5927\u4ecb",
+        "title": "Vamo 'alla flamenco"
+      }
+    },
+    {
+      "id": 696520,
+      "score": 0.78720844,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "minor",
+        "bpm": 92.0164031982,
+        "mbid": "b23391f5-986b-4cdc-b92e-b20e9b9d659e",
+        "artist": "N.O.R.E. feat. Complexions",
+        "title": "Black Clouds"
+      }
+    },
+    {
+      "id": 1281911,
+      "score": 0.786613,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 123.092063904,
+        "mbid": "9c764fe2-8e86-4f6d-9f6b-85510da2111a",
+        "artist": "Morgan",
+        "title": "The Banks of Claudy"
+      }
+    },
+    {
+      "id": 1245048,
+      "score": 0.7842857,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 117.169425964,
+        "mbid": "87f2f44e-51dc-49fd-b0ca-9fe136b70c1e",
+        "artist": "Barry Solomon",
+        "title": "All Of Me"
+      }
+    },
+    {
+      "id": 876403,
+      "score": 0.78426504,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 163.138900757,
+        "mbid": "e040e228-1dc6-4ada-a6d9-6b51e0a80be1",
+        "artist": "Pyotr Ilyich Tchaikovsky",
+        "title": "12 Romances, op. 60 no. 11: The exploit"
+      }
+    },
+    {
+      "id": 876402,
+      "score": 0.78426504,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 163.138900757,
+        "mbid": "e040e228-1dc6-4ada-a6d9-6b51e0a80be1",
+        "artist": "Pyotr Ilyich Tchaikovsky",
+        "title": "12 Romances, op. 60 no. 11: The exploit"
+      }
+    },
+    {
+      "id": 961195,
+      "score": 0.783495,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "minor",
+        "bpm": 123.880897522,
+        "mbid": "f6362d1c-6a45-4d16-a360-8fc447f0c7eb",
+        "artist": "Brian Boothby",
+        "title": "E.P.N.S."
+      }
+    },
+    {
+      "id": 1338468,
+      "score": 0.78294015,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 107.867858887,
+        "mbid": "bbe1abb5-3818-4e62-908b-3a4d7e22756c",
+        "artist": "Isaac Alb\u00e9niz",
+        "title": "Sevilla"
+      }
+    },
+    {
+      "id": 1315320,
+      "score": 0.78060967,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "minor",
+        "bpm": 150.093276978,
+        "mbid": "aef7788e-0132-4039-bb45-d2c6036ae1c8",
+        "artist": "Manu Chao",
+        "title": "Bongo Bong"
+      }
+    },
+    {
+      "id": 1249354,
+      "score": 0.779962,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 110.727577209,
+        "mbid": "8a76684e-8f0f-461f-b1df-c6f9903de8ee",
+        "artist": "Mama's Broke",
+        "title": "Oh Sun / Pale Night / Forgetting Reel"
+      }
+    },
+    {
+      "id": 895103,
+      "score": 0.7796226,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "major",
+        "bpm": 148.36151123,
+        "mbid": "e50f183a-26d2-44a9-aaf5-519e61e08ab5",
+        "artist": "Captain Murphy",
+        "title": "Disciples"
+      }
+    },
+    {
+      "id": 878557,
+      "score": 0.77917933,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 83.9123306274,
+        "mbid": "e0c9252d-26ab-42a1-afe9-802080b67d94",
+        "artist": "Isley Brothers",
+        "title": "Between The Sheets"
+      }
+    },
+    {
+      "id": 582016,
+      "score": 0.77847403,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 104.209739685,
+        "mbid": "94dbc038-c700-4da0-916c-a258d0ab0096",
+        "artist": "Gottfried Heinrich St\u00f6lzel",
+        "title": "Brockes Passion: Pars III: Aria & Recitativo: La\u00df doch diese herben Schmertzen"
+      }
+    },
+    {
+      "id": 684073,
+      "score": 0.77800184,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "minor",
+        "bpm": 150.178039551,
+        "mbid": "aef7788e-0132-4039-bb45-d2c6036ae1c8",
+        "artist": "Manu Chao",
+        "title": "Bongo Bong"
+      }
+    },
+    {
+      "id": 264795,
+      "score": 0.77624816,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "minor",
+        "bpm": 102.642700195,
+        "mbid": "438f290f-d1d1-45d7-9131-1a2f56758e74",
+        "artist": "Brika",
+        "title": "4.9.14"
+      }
+    },
+    {
+      "id": 264791,
+      "score": 0.77624816,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "minor",
+        "bpm": 102.642700195,
+        "mbid": "438f290f-d1d1-45d7-9131-1a2f56758e74",
+        "artist": "Brika",
+        "title": "4.9.14"
+      }
+    },
+    {
+      "id": 264796,
+      "score": 0.77624816,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "minor",
+        "bpm": 102.642700195,
+        "mbid": "438f290f-d1d1-45d7-9131-1a2f56758e74",
+        "artist": "Brika",
+        "title": "4.9.14"
+      }
+    },
+    {
+      "id": 264793,
+      "score": 0.77624816,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "minor",
+        "bpm": 102.642700195,
+        "mbid": "438f290f-d1d1-45d7-9131-1a2f56758e74",
+        "artist": "Brika",
+        "title": "4.9.14"
+      }
+    },
+    {
+      "id": 264792,
+      "score": 0.77624816,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "minor",
+        "bpm": 102.642700195,
+        "mbid": "438f290f-d1d1-45d7-9131-1a2f56758e74",
+        "artist": "Brika",
+        "title": "4.9.14"
+      }
+    },
+    {
+      "id": 264797,
+      "score": 0.77624816,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "minor",
+        "bpm": 102.642700195,
+        "mbid": "438f290f-d1d1-45d7-9131-1a2f56758e74",
+        "artist": "Brika",
+        "title": "4.9.14"
+      }
+    },
+    {
+      "id": 264794,
+      "score": 0.77624816,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "minor",
+        "bpm": 102.642700195,
+        "mbid": "438f290f-d1d1-45d7-9131-1a2f56758e74",
+        "artist": "Brika",
+        "title": "4.9.14"
+      }
+    },
+    {
+      "id": 264798,
+      "score": 0.77624816,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "minor",
+        "bpm": 102.642700195,
+        "mbid": "438f290f-d1d1-45d7-9131-1a2f56758e74",
+        "artist": "Brika",
+        "title": "4.9.14"
+      }
+    },
+    {
+      "id": 264799,
+      "score": 0.77624816,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "minor",
+        "bpm": 102.642700195,
+        "mbid": "438f290f-d1d1-45d7-9131-1a2f56758e74",
+        "artist": "Brika",
+        "title": "4.9.14"
+      }
+    },
+    {
+      "id": 569266,
+      "score": 0.77622277,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 102.8516922,
+        "mbid": "91a624d9-be7e-4bd0-b171-0732ee01aa55",
+        "artist": "Robert Johnson",
+        "title": "I'm a Steady Rollin' Man"
+      }
+    },
+    {
+      "id": 953848,
+      "score": 0.7760967,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 126.016387939,
+        "mbid": "f453bfcd-3d90-40c4-926b-7129e0955f7b",
+        "artist": "Armik",
+        "title": "Romance De La Luna"
+      }
+    },
+    {
+      "id": 684074,
+      "score": 0.77564913,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "minor",
+        "bpm": 150.101928711,
+        "mbid": "aef7788e-0132-4039-bb45-d2c6036ae1c8",
+        "artist": "Manu Chao",
+        "title": "Bongo Bong/Je Ne T'Aime Plus"
+      }
+    },
+    {
+      "id": 1238992,
+      "score": 0.774522,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 110.541343689,
+        "mbid": "847ad579-46c3-44c5-9a1b-fa5eda2367db",
+        "artist": "Den Fule",
+        "title": "Norkskorna"
+      }
+    },
+    {
+      "id": 368588,
+      "score": 0.7739151,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 84.9827728271,
+        "mbid": "5e8ce8da-5f69-4f3e-b40c-e5374aec88e5",
+        "artist": "Alison Statton and Spike",
+        "title": "Sleepless"
+      }
+    },
+    {
+      "id": 119174,
+      "score": 0.77364874,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "minor",
+        "bpm": 123.657501221,
+        "mbid": "1e73674a-350c-4efd-bb69-392213cf1825",
+        "artist": "Richard Souther",
+        "title": "Divine Love (Karitas Habundat)"
+      }
+    },
+    {
+      "id": 119175,
+      "score": 0.7735223,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "minor",
+        "bpm": 123.657501221,
+        "mbid": "1e73674a-350c-4efd-bb69-392213cf1825",
+        "artist": "Richard Souther",
+        "title": "Divine Love (Karitas Habundat)"
+      }
+    },
+    {
+      "id": 652876,
+      "score": 0.7728038,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 112.824401855,
+        "mbid": "a6edff3d-bbcb-4977-8906-a57e29ddc079",
+        "artist": "Benedicte Maurseth",
+        "title": "Torghallingen"
+      }
+    },
+    {
+      "id": 1254685,
+      "score": 0.7726847,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "major",
+        "bpm": 140.02041626,
+        "mbid": "8d61a98f-e183-4684-af80-cf3e4634bcc2",
+        "artist": "Bill Monroe",
+        "title": "Go Hither To Go Yonder"
+      }
+    },
+    {
+      "id": 973589,
+      "score": 0.7718642,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 91.7462310791,
+        "mbid": "f956ad1e-71a7-4d19-a73d-4734c1336de1",
+        "artist": "Holly Williams",
+        "title": "Let You Go"
+      }
+    },
+    {
+      "id": 1329402,
+      "score": 0.7718067,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 99.9737854004,
+        "mbid": "b6c36fe7-262c-4a74-86b4-b09f22e98174",
+        "artist": "Franz Schubert",
+        "title": "Ellens Gesang III \u2033Ave Maria\u2033, song for voice & piano, D\u2024 839 (op\u2024 52\u20446)"
+      }
+    },
+    {
+      "id": 4971,
+      "score": 0.77131623,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 104.094856262,
+        "mbid": "012e5cce-9ac2-4360-b421-e93089faaceb",
+        "artist": "Inca Son",
+        "title": "Viaje a la montana"
+      }
+    },
+    {
+      "id": 624405,
+      "score": 0.77113485,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 99.951789856,
+        "mbid": "9fa5c74f-ae19-4b94-b50e-7eb308aeff62",
+        "artist": "Falcon Ave.",
+        "title": "Animals"
+      }
+    },
+    {
+      "id": 917083,
+      "score": 0.7709918,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "minor",
+        "bpm": 82.8400726318,
+        "mbid": "eacd1a2b-5d27-4aa0-8d74-2bf915162438",
+        "artist": "31Knots",
+        "title": "Everything in Letters"
+      }
+    },
+    {
+      "id": 565215,
+      "score": 0.77077764,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 88.0009460449,
+        "mbid": "9091f747-a449-47a2-afea-3a691f4fd032",
+        "artist": "Bizzle & Sharon Ann",
+        "title": "Prodigal"
+      }
+    },
+    {
+      "id": 565221,
+      "score": 0.77077764,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 88.0009460449,
+        "mbid": "9091f747-a449-47a2-afea-3a691f4fd032",
+        "artist": "Bizzle & Sharon Ann",
+        "title": "Prodigal"
+      }
+    },
+    {
+      "id": 565219,
+      "score": 0.77077764,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 88.0009460449,
+        "mbid": "9091f747-a449-47a2-afea-3a691f4fd032",
+        "artist": "Bizzle & Sharon Ann",
+        "title": "Prodigal"
+      }
+    },
+    {
+      "id": 565217,
+      "score": 0.77077764,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 88.0009460449,
+        "mbid": "9091f747-a449-47a2-afea-3a691f4fd032",
+        "artist": "Bizzle & Sharon Ann",
+        "title": "Prodigal"
+      }
+    },
+    {
+      "id": 565220,
+      "score": 0.77077764,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 88.0009460449,
+        "mbid": "9091f747-a449-47a2-afea-3a691f4fd032",
+        "artist": "Bizzle & Sharon Ann",
+        "title": "Prodigal"
+      }
+    },
+    {
+      "id": 565216,
+      "score": 0.77077764,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 88.0009460449,
+        "mbid": "9091f747-a449-47a2-afea-3a691f4fd032",
+        "artist": "Bizzle & Sharon Ann",
+        "title": "Prodigal"
+      }
+    },
+    {
+      "id": 565218,
+      "score": 0.77077764,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 88.0009460449,
+        "mbid": "9091f747-a449-47a2-afea-3a691f4fd032",
+        "artist": "Bizzle & Sharon Ann",
+        "title": "Prodigal"
+      }
+    },
+    {
+      "id": 1273485,
+      "score": 0.7707571,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "minor",
+        "bpm": 123.279914856,
+        "mbid": "97bca895-df5a-493d-b2d3-84caa4567cd7",
+        "artist": "Robert Rich",
+        "title": "Weightless Morning"
+      }
+    },
+    {
+      "id": 1273484,
+      "score": 0.7707571,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "minor",
+        "bpm": 123.279914856,
+        "mbid": "97bca895-df5a-493d-b2d3-84caa4567cd7",
+        "artist": "Robert Rich",
+        "title": "Weightless Morning"
+      }
+    },
+    {
+      "id": 1273486,
+      "score": 0.7707571,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "minor",
+        "bpm": 123.279914856,
+        "mbid": "97bca895-df5a-493d-b2d3-84caa4567cd7",
+        "artist": "Robert Rich",
+        "title": "Weightless Morning"
+      }
+    },
+    {
+      "id": 1396866,
+      "score": 0.77038604,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "minor",
+        "bpm": 107.237419128,
+        "mbid": "dc878bdc-0517-4754-8b37-e8e5fef72ab1",
+        "artist": "Jane Monheit",
+        "title": "Chega de saudade (No More Blues)"
+      }
+    },
+    {
+      "id": 1024920,
+      "score": 0.77035785,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 103.636482239,
+        "mbid": "0da02bd3-9ecc-4714-96aa-9d8e701bc09d",
+        "artist": "Folklore - Los Kjarkas",
+        "title": "Wayayay"
+      }
+    },
+    {
+      "id": 710787,
+      "score": 0.77021015,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 104.980224609,
+        "mbid": "b5c9d2bf-ea3e-4c59-ac64-2b7545b0d974",
+        "artist": "Derek Fiechter",
+        "title": "Water Nymph"
+      }
+    },
+    {
+      "id": 1209559,
+      "score": 0.77019185,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 88.78175354,
+        "mbid": "742e3620-7a51-4bb9-bd74-6fa8a30ace82",
+        "artist": "Linn Barnes and Allison Hampton",
+        "title": "The Star of County Down"
+      }
+    },
+    {
+      "id": 192641,
+      "score": 0.770101,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "minor",
+        "bpm": 129.987609863,
+        "mbid": "310eae58-9516-42fb-aaa7-5756d4b4db30",
+        "artist": "Nobuo Uematsu",
+        "title": "Oeilvert "
+      }
+    },
+    {
+      "id": 116033,
+      "score": 0.76974994,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "minor",
+        "bpm": 154.651016235,
+        "mbid": "1dafb0c9-9eea-4147-8ac9-8e020bbcaa99",
+        "artist": "Marina Albero",
+        "title": "El cant dels ocells"
+      }
+    },
+    {
+      "id": 1071966,
+      "score": 0.769457,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "minor",
+        "bpm": 123.530052185,
+        "mbid": "280ba93d-e055-4a5c-b2bc-97ea47014e13",
+        "artist": "Taste",
+        "title": "See Here"
+      }
+    },
+    {
+      "id": 670906,
+      "score": 0.76934946,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "minor",
+        "bpm": 114.656524658,
+        "mbid": "ab922024-8734-436d-ab69-a776a89c22e0",
+        "artist": "Cartola",
+        "title": "As rosas n\u00e3o falam"
+      }
+    },
+    {
+      "id": 192644,
+      "score": 0.76888955,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "minor",
+        "bpm": 130.014251709,
+        "mbid": "310eae58-9516-42fb-aaa7-5756d4b4db30",
+        "artist": "Nobuo Uematsu",
+        "title": "Oeilvert"
+      }
+    },
+    {
+      "id": 192642,
+      "score": 0.76888955,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "minor",
+        "bpm": 130.014251709,
+        "mbid": "310eae58-9516-42fb-aaa7-5756d4b4db30",
+        "artist": "\u690d\u677e\u4f38\u592b",
+        "title": "\u30a6\u30a4\u30e6\u30f4\u30a7\u30fc\u30eb"
+      }
+    },
+    {
+      "id": 192643,
+      "score": 0.76888955,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "minor",
+        "bpm": 130.014251709,
+        "mbid": "310eae58-9516-42fb-aaa7-5756d4b4db30",
+        "artist": "\u690d\u677e\u4f38\u592b",
+        "title": "\u30a6\u30a4\u30e6\u30f4\u30a7\u30fc\u30eb"
+      }
+    }
+  ]
+}

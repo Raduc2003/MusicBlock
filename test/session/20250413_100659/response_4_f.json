@@ -1,0 +1,1261 @@
+{
+  "query_final_vector": [
+    -0.007643072488312041,
+    -0.09213421143701174,
+    0.017176958581613957,
+    -0.1428805430182888,
+    -0.13644349240392337,
+    -0.043894777278279895,
+    -0.05050592109433957,
+    -0.10694028290387925,
+    0.0258257895226489,
+    -0.026167447476023748,
+    0.04973854387107443,
+    0.010941210358991054,
+    -0.013241980610597006,
+    -0.04243275078781257,
+    0.2108920472314124,
+    0.0755275041532643,
+    -0.14946479919988742,
+    -0.02743144805441164,
+    0.09514180430972799,
+    -0.13533223661367194,
+    -0.13124152712185674,
+    -0.08982537108070858,
+    -0.06076190448381823,
+    -0.005910361808757255,
+    0.06080430899452759,
+    0.1520619864624869,
+    0.3028080135091686,
+    0.10962465399192275,
+    -0.07117415335571159,
+    -0.02323109931066891,
+    0.08222763803389473,
+    0.2528917882833289,
+    0.40841784389813435,
+    0.09769569264222355,
+    -0.11703945969367087,
+    -0.11335185209782865,
+    -0.06478938276750697,
+    -0.01624762988394889,
+    0.029195268390200566,
+    -0.02453864468049509,
+    0.0010433438249009292,
+    0.18085682285358395,
+    0.13057724124907757,
+    -0.016228817054844916,
+    -0.018563832248634875,
+    -0.017086601096127644,
+    0.08142625800364058,
+    0.2087968973583412,
+    0.02026847762722641,
+    -0.129471750282871,
+    -0.12759961486916482,
+    0.025471599024406325,
+    0.26856887120624434,
+    0.41517883362761976,
+    0.07398964477328568
+  ],
+  "results": [
+    {
+      "id": 46228,
+      "score": 0.8821177,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "major",
+        "bpm": 128.951065063,
+        "mbid": "0bbbfcf0-fdde-4c08-bde8-529eef59e060",
+        "artist": "The Future Sound of London",
+        "title": "Deep Sea of Clouds"
+      }
+    },
+    {
+      "id": 46227,
+      "score": 0.8821177,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "major",
+        "bpm": 128.951065063,
+        "mbid": "0bbbfcf0-fdde-4c08-bde8-529eef59e060",
+        "artist": "The Future Sound of London",
+        "title": "Deep Sea of Clouds"
+      }
+    },
+    {
+      "id": 52753,
+      "score": 0.8800841,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "minor",
+        "bpm": 90.3947677612,
+        "mbid": "0d73e626-6827-47f9-bce1-36a6ed0bdbe3",
+        "artist": "Dave Weckl",
+        "title": "Auratune"
+      }
+    },
+    {
+      "id": 796995,
+      "score": 0.87117463,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "minor",
+        "bpm": 161.541397095,
+        "mbid": "cbfc1a4d-78d8-4617-9707-90c336847cc5",
+        "artist": "Theory of a Deadman",
+        "title": "Me & My Girl"
+      }
+    },
+    {
+      "id": 796994,
+      "score": 0.8709242,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "minor",
+        "bpm": 161.569458008,
+        "mbid": "cbfc1a4d-78d8-4617-9707-90c336847cc5",
+        "artist": "Theory of a Deadman",
+        "title": "Me & My Girl"
+      }
+    },
+    {
+      "id": 795829,
+      "score": 0.8708123,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "major",
+        "bpm": 116.82258606,
+        "mbid": "cbaa2066-4b02-4ea5-bec4-1241355b271f",
+        "artist": "Nick Kamen",
+        "title": "Each Time You Break My Heart (Dance Mix)"
+      }
+    },
+    {
+      "id": 1228113,
+      "score": 0.86861014,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "major",
+        "bpm": 132.282470703,
+        "mbid": "7e7acbf0-d79a-46bf-a06a-6faa6c6de2bf",
+        "artist": "Johnny Adams",
+        "title": "Dancing Man"
+      }
+    },
+    {
+      "id": 303349,
+      "score": 0.86684793,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 118.053939819,
+        "mbid": "4da5afe1-90d4-41b5-898e-c650fb4d0afd",
+        "artist": "Michael Jackson",
+        "title": "Thriller"
+      }
+    },
+    {
+      "id": 303350,
+      "score": 0.86684793,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 118.053939819,
+        "mbid": "4da5afe1-90d4-41b5-898e-c650fb4d0afd",
+        "artist": "Michael Jackson",
+        "title": "Thriller"
+      }
+    },
+    {
+      "id": 293927,
+      "score": 0.8668479,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 118.053939819,
+        "mbid": "4b442925-9d2a-41e0-b958-4c2739a09d45",
+        "artist": "Michael Jackson",
+        "title": "Thriller"
+      }
+    },
+    {
+      "id": 515780,
+      "score": 0.8668479,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 118.053939819,
+        "mbid": "8403caf8-3714-46da-934c-1fe91a049540",
+        "artist": "Michael Jackson",
+        "title": "Thriller"
+      }
+    },
+    {
+      "id": 293924,
+      "score": 0.8662959,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "minor",
+        "bpm": 118.064117432,
+        "mbid": "4b442925-9d2a-41e0-b958-4c2739a09d45",
+        "artist": "Micheal Jackson",
+        "title": "Thriller"
+      }
+    },
+    {
+      "id": 293925,
+      "score": 0.8662959,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "minor",
+        "bpm": 118.064117432,
+        "mbid": "4b442925-9d2a-41e0-b958-4c2739a09d45",
+        "artist": "Micheal Jackson",
+        "title": "Thriller"
+      }
+    },
+    {
+      "id": 303351,
+      "score": 0.8662959,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "minor",
+        "bpm": 118.064117432,
+        "mbid": "4da5afe1-90d4-41b5-898e-c650fb4d0afd",
+        "artist": "Micheal Jackson",
+        "title": "Thriller"
+      }
+    },
+    {
+      "id": 94181,
+      "score": 0.86454576,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "major",
+        "bpm": 127.985298157,
+        "mbid": "182fec95-c775-4654-9701-c42e2e8a4cb9",
+        "artist": "Cari\u00f1o",
+        "title": "Bisexual"
+      }
+    },
+    {
+      "id": 1154508,
+      "score": 0.85640126,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "minor",
+        "bpm": 127.989402771,
+        "mbid": "55815526-520a-4ca6-90c7-057ffd3f05c0",
+        "artist": "Marc Copland & Dave Liebman Quartet",
+        "title": "Lunar"
+      }
+    },
+    {
+      "id": 538172,
+      "score": 0.85583925,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "minor",
+        "bpm": 117.958610535,
+        "mbid": "89bdb41f-45f7-4289-a788-bd6cc7d8f528",
+        "artist": "Michael Jackson",
+        "title": "Thriller"
+      }
+    },
+    {
+      "id": 909705,
+      "score": 0.8546306,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "minor",
+        "bpm": 128.007171631,
+        "mbid": "e8d944d1-23c3-417e-b5b7-b98db7643e54",
+        "artist": "David Guetta & Afrojack",
+        "title": "Lunar"
+      }
+    },
+    {
+      "id": 154019,
+      "score": 0.8538515,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "minor",
+        "bpm": 128.003860474,
+        "mbid": "2750e238-6a7b-4ad7-b598-15dfa8916b2c",
+        "artist": "David Guetta",
+        "title": "Lunar"
+      }
+    },
+    {
+      "id": 154020,
+      "score": 0.8538515,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "minor",
+        "bpm": 128.003860474,
+        "mbid": "2750e238-6a7b-4ad7-b598-15dfa8916b2c",
+        "artist": "David Guetta",
+        "title": "Lunar"
+      }
+    },
+    {
+      "id": 154021,
+      "score": 0.8538515,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "minor",
+        "bpm": 128.003860474,
+        "mbid": "2750e238-6a7b-4ad7-b598-15dfa8916b2c",
+        "artist": "David Guetta",
+        "title": "Lunar"
+      }
+    },
+    {
+      "id": 1207965,
+      "score": 0.8532264,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "minor",
+        "bpm": 128.002883911,
+        "mbid": "7344ebbf-fc1d-4a08-bef5-ba4c91434d3e",
+        "artist": "DJs From Mars",
+        "title": "Where Have You Lunar"
+      }
+    },
+    {
+      "id": 563692,
+      "score": 0.8490016,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "minor",
+        "bpm": 92.9500427246,
+        "mbid": "902b0130-2d37-42bb-92af-d792fb8da2ab",
+        "artist": "New Model Army",
+        "title": "Space"
+      }
+    },
+    {
+      "id": 581983,
+      "score": 0.848244,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "major",
+        "bpm": 117.010299683,
+        "mbid": "94da9f7d-16b4-40f8-b91c-4b33892a5bad",
+        "artist": "Peace",
+        "title": "Imaginary"
+      }
+    },
+    {
+      "id": 1390430,
+      "score": 0.84798425,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "minor",
+        "bpm": 127.000648499,
+        "mbid": "d8ea0516-029c-4e43-8bd0-43b80a51c1be",
+        "artist": "Freeform Five",
+        "title": "No More Conversations (Mylo Remix (Radio Edit))"
+      }
+    },
+    {
+      "id": 635850,
+      "score": 0.84633255,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "minor",
+        "bpm": 121.993041992,
+        "mbid": "a29d169a-c223-4c1a-9bad-7e348deb950e",
+        "artist": "Crystal Castles",
+        "title": "Vietnam"
+      }
+    },
+    {
+      "id": 635847,
+      "score": 0.8459817,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "minor",
+        "bpm": 121.98425293,
+        "mbid": "a29d169a-c223-4c1a-9bad-7e348deb950e",
+        "artist": "Crystal Castles",
+        "title": "Vietnam"
+      }
+    },
+    {
+      "id": 635846,
+      "score": 0.8459817,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "minor",
+        "bpm": 121.98425293,
+        "mbid": "a29d169a-c223-4c1a-9bad-7e348deb950e",
+        "artist": "Crystal Castles",
+        "title": "Vietnam"
+      }
+    },
+    {
+      "id": 635843,
+      "score": 0.8459817,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "minor",
+        "bpm": 121.98425293,
+        "mbid": "a29d169a-c223-4c1a-9bad-7e348deb950e",
+        "artist": "Crystal Castles",
+        "title": "Vietnam"
+      }
+    },
+    {
+      "id": 635849,
+      "score": 0.8459817,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "minor",
+        "bpm": 121.98425293,
+        "mbid": "a29d169a-c223-4c1a-9bad-7e348deb950e",
+        "artist": "Crystal Castles",
+        "title": "Vietnam"
+      }
+    },
+    {
+      "id": 635848,
+      "score": 0.8459817,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "minor",
+        "bpm": 121.98425293,
+        "mbid": "a29d169a-c223-4c1a-9bad-7e348deb950e",
+        "artist": "Crystal Castles",
+        "title": "Vietnam"
+      }
+    },
+    {
+      "id": 635845,
+      "score": 0.8459817,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "minor",
+        "bpm": 121.98425293,
+        "mbid": "a29d169a-c223-4c1a-9bad-7e348deb950e",
+        "artist": "Crystal Castles",
+        "title": "Vietnam"
+      }
+    },
+    {
+      "id": 635844,
+      "score": 0.8459817,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "minor",
+        "bpm": 121.98425293,
+        "mbid": "a29d169a-c223-4c1a-9bad-7e348deb950e",
+        "artist": "Crystal Castles",
+        "title": "Vietnam"
+      }
+    },
+    {
+      "id": 18632,
+      "score": 0.8458234,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "major",
+        "bpm": 116.951828003,
+        "mbid": "04a074f4-055f-4a82-a5df-a3d7a7d9989f",
+        "artist": "Erste Allgemeine Verunsicherung",
+        "title": "Samurai"
+      }
+    },
+    {
+      "id": 899568,
+      "score": 0.84579843,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "minor",
+        "bpm": 116.998397827,
+        "mbid": "e63c37c2-01f1-41a5-8c1c-23ed23658f1e",
+        "artist": "Breakfast Club",
+        "title": "Right on Track"
+      }
+    },
+    {
+      "id": 1135708,
+      "score": 0.8445926,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "minor",
+        "bpm": 117.796966553,
+        "mbid": "4b442925-9d2a-41e0-b958-4c2739a09d45",
+        "artist": "Michael Jackson",
+        "title": "Thriller"
+      }
+    },
+    {
+      "id": 707786,
+      "score": 0.842979,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "minor",
+        "bpm": 116.980812073,
+        "mbid": "b50697a7-57d6-483b-92e9-451b50641a3e",
+        "artist": "Breakfast Club",
+        "title": "Right On Track"
+      }
+    },
+    {
+      "id": 707784,
+      "score": 0.8429158,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "minor",
+        "bpm": 116.980812073,
+        "mbid": "b50697a7-57d6-483b-92e9-451b50641a3e",
+        "artist": "Breakfast Club",
+        "title": "Right On Track"
+      }
+    },
+    {
+      "id": 931252,
+      "score": 0.8414245,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 126.886856079,
+        "mbid": "ee778e26-5934-40ac-bfce-7a2304dcaa3f",
+        "artist": "Shitdisco & David Rubato",
+        "title": "I Know Kung Fu"
+      }
+    },
+    {
+      "id": 123075,
+      "score": 0.8413221,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "major",
+        "bpm": 124.749885559,
+        "mbid": "1f74d5ec-dbd5-412b-95dc-2547b83ce378",
+        "artist": "The Bilinda Butchers",
+        "title": "Low"
+      }
+    },
+    {
+      "id": 199836,
+      "score": 0.8384861,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "minor",
+        "bpm": 100.016319275,
+        "mbid": "32eba6be-56ae-4f1e-aff3-59a7354e9c81",
+        "artist": "L\u012bve",
+        "title": "Purifier"
+      }
+    },
+    {
+      "id": 140685,
+      "score": 0.8378207,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "major",
+        "bpm": 164.445663452,
+        "mbid": "23e42428-005e-4fb2-ad99-2ddddd03855d",
+        "artist": "Olivia Newton-John",
+        "title": "Twist of Fate"
+      }
+    },
+    {
+      "id": 508554,
+      "score": 0.8373087,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 90.0015182495,
+        "mbid": "82302041-8139-4212-bd78-99f88e2c9847",
+        "artist": "Seabound",
+        "title": "Avalost (vocal version)"
+      }
+    },
+    {
+      "id": 508553,
+      "score": 0.8373087,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 90.0015182495,
+        "mbid": "82302041-8139-4212-bd78-99f88e2c9847",
+        "artist": "Seabound",
+        "title": "Avalost (vocal version)"
+      }
+    },
+    {
+      "id": 1197507,
+      "score": 0.8370077,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "major",
+        "bpm": 112.79561615,
+        "mbid": "6da70cd5-e2b2-4055-b6e2-a1b4b12f1a59",
+        "artist": "Roisin Murphy",
+        "title": "Game Changer"
+      }
+    },
+    {
+      "id": 283993,
+      "score": 0.8349699,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "minor",
+        "bpm": 116.603187561,
+        "mbid": "4898bd39-36a6-4699-b921-4f9b90ca6639",
+        "artist": "Paula Abdul",
+        "title": "Knocked Out"
+      }
+    },
+    {
+      "id": 1315609,
+      "score": 0.83302534,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "major",
+        "bpm": 103.596199036,
+        "mbid": "af2221f2-434c-4551-a251-cfb19118f135",
+        "artist": "Ian Moss",
+        "title": "I've got you"
+      }
+    },
+    {
+      "id": 554902,
+      "score": 0.83163476,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 113.931892395,
+        "mbid": "8df16605-3a6f-4fad-acbf-61b210758a65",
+        "artist": "H-Blockx",
+        "title": "Celebrate Youth"
+      }
+    },
+    {
+      "id": 340156,
+      "score": 0.83062184,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "major",
+        "bpm": 105.974060059,
+        "mbid": "573f9760-e444-46ef-91cf-0866674c5bc7",
+        "artist": "Cryptrik",
+        "title": "My Sunset Slide"
+      }
+    },
+    {
+      "id": 174274,
+      "score": 0.8292716,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "major",
+        "bpm": 94.503288269,
+        "mbid": "2c6ba604-3351-4413-9476-38417ae604e2",
+        "artist": "Streetwize",
+        "title": "Gangsta Lovin'"
+      }
+    },
+    {
+      "id": 756835,
+      "score": 0.8285983,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 119.843833923,
+        "mbid": "c18c2891-1a06-43e8-a1bd-e9448e956506",
+        "artist": "Knife Party",
+        "title": "Reconnect"
+      }
+    },
+    {
+      "id": 1347253,
+      "score": 0.8284338,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "major",
+        "bpm": 116.921485901,
+        "mbid": "c09ae0d7-285c-4415-a130-c729974d7752",
+        "artist": "Nick Kamen",
+        "title": "Each Time You Break My Heart"
+      }
+    },
+    {
+      "id": 1347254,
+      "score": 0.8284338,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "major",
+        "bpm": 116.921485901,
+        "mbid": "c09ae0d7-285c-4415-a130-c729974d7752",
+        "artist": "Nick Kamen",
+        "title": "Each Time You Break My Heart"
+      }
+    },
+    {
+      "id": 756834,
+      "score": 0.82841945,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 119.837188721,
+        "mbid": "c18c2891-1a06-43e8-a1bd-e9448e956506",
+        "artist": "Knife Party",
+        "title": "Reconnect"
+      }
+    },
+    {
+      "id": 900678,
+      "score": 0.82738066,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "major",
+        "bpm": 101.344299316,
+        "mbid": "e687bf45-bb89-4de6-8cd0-fa4dab58bdd1",
+        "artist": "Victoria Beckham",
+        "title": "Not Such An Innocent Girl"
+      }
+    },
+    {
+      "id": 900677,
+      "score": 0.82738066,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "major",
+        "bpm": 101.344299316,
+        "mbid": "e687bf45-bb89-4de6-8cd0-fa4dab58bdd1",
+        "artist": "Victoria Beckham",
+        "title": "Not Such An Innocent Girl"
+      }
+    },
+    {
+      "id": 463409,
+      "score": 0.82738066,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "major",
+        "bpm": 101.344299316,
+        "mbid": "76d5f830-2c4b-486b-88d0-54c629ac1fb8",
+        "artist": "Victoria Beckham",
+        "title": "Not Such An Innocent Girl"
+      }
+    },
+    {
+      "id": 15968,
+      "score": 0.82626235,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 122.826057434,
+        "mbid": "03f2e7f3-4b74-4df0-9180-9b31f3ed9015",
+        "artist": "Joshua Morse",
+        "title": "Turtle Dance 6"
+      }
+    },
+    {
+      "id": 161348,
+      "score": 0.8258215,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "minor",
+        "bpm": 130.004638672,
+        "mbid": "292222ed-2c5a-4d38-97aa-10a6924c0bb8",
+        "artist": "The Used",
+        "title": "Cry"
+      }
+    },
+    {
+      "id": 1317441,
+      "score": 0.8234861,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "major",
+        "bpm": 119.975952148,
+        "mbid": "b01be989-30f8-42da-a8e8-f5401a44e1a0",
+        "artist": "Ana Torroja",
+        "title": "Como Sue\u00f1an Las Sirenas (Pumpin' Dolls Radio Remix)"
+      }
+    },
+    {
+      "id": 1194669,
+      "score": 0.8231407,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "major",
+        "bpm": 135.111022949,
+        "mbid": "6c0cc83f-818a-462e-a905-afaa5b5e380c",
+        "artist": "Ana Torroja",
+        "title": "Barco A Venus"
+      }
+    },
+    {
+      "id": 753234,
+      "score": 0.8226907,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "major",
+        "bpm": 116.926887512,
+        "mbid": "c09ae0d7-285c-4415-a130-c729974d7752",
+        "artist": "Nick Kamen",
+        "title": "Each Time You Break My Heart"
+      }
+    },
+    {
+      "id": 753235,
+      "score": 0.8226907,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "major",
+        "bpm": 116.926887512,
+        "mbid": "c09ae0d7-285c-4415-a130-c729974d7752",
+        "artist": "Nick Kamen",
+        "title": "Each Time You Break My Heart"
+      }
+    },
+    {
+      "id": 274879,
+      "score": 0.82243377,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "major",
+        "bpm": 116.949058533,
+        "mbid": "462c0ff4-374b-4d03-ba4a-043cbbc84eea",
+        "artist": "Nick Kamen",
+        "title": "Each Time You Break My Heart"
+      }
+    },
+    {
+      "id": 274880,
+      "score": 0.82243377,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "major",
+        "bpm": 116.949058533,
+        "mbid": "462c0ff4-374b-4d03-ba4a-043cbbc84eea",
+        "artist": "Nick Kamen",
+        "title": "Each Time You Break My Heart"
+      }
+    },
+    {
+      "id": 1123998,
+      "score": 0.82125944,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "minor",
+        "bpm": 95.0489959717,
+        "mbid": "44abd7d3-c593-4587-a109-6d9582f13f36",
+        "artist": "Britney Spears",
+        "title": "Oops!... I Did It Again"
+      }
+    },
+    {
+      "id": 519148,
+      "score": 0.81867373,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 131.867034912,
+        "mbid": "84de3400-1abc-4bbf-92ae-90c951171e6a",
+        "artist": "BWO",
+        "title": "Conquering America"
+      }
+    },
+    {
+      "id": 77822,
+      "score": 0.81780475,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "minor",
+        "bpm": 109.782531738,
+        "mbid": "13ed9451-f021-4b2f-b60b-9cb7e8e3cfe0",
+        "artist": "Paperghost",
+        "title": "In the Future We Will Go to War So We Can Base New Computer Games on New Wars"
+      }
+    },
+    {
+      "id": 603750,
+      "score": 0.8172986,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "minor",
+        "bpm": 155.836105347,
+        "mbid": "9a64e1e5-cafc-4277-b609-4b0737976685",
+        "artist": "Ja Rule feat. Young Life & Chink Santana",
+        "title": "Emerican"
+      }
+    },
+    {
+      "id": 1021405,
+      "score": 0.8166628,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 142.107757568,
+        "mbid": "0bd343b1-19c6-4fba-919b-83aa42e44a87",
+        "artist": "Ginuwine",
+        "title": "Pony (Album Version)"
+      }
+    },
+    {
+      "id": 1078143,
+      "score": 0.81536573,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 142.111541748,
+        "mbid": "2b822bed-9998-4238-b8e6-f8fbdf81ca79",
+        "artist": "Ginuwine",
+        "title": "Pony"
+      }
+    },
+    {
+      "id": 1356256,
+      "score": 0.8133703,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 102.975074768,
+        "mbid": "c59e317b-701e-4889-bb46-e34805052636",
+        "artist": "Poets of the Fall",
+        "title": "The Ultimate Fling (Director's Cut)"
+      }
+    },
+    {
+      "id": 814691,
+      "score": 0.8129235,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "minor",
+        "bpm": 120.030464172,
+        "mbid": "d0758d6b-caab-4df3-b0e3-0e3aa38354eb",
+        "artist": "CFCF",
+        "title": "Keys"
+      }
+    },
+    {
+      "id": 779576,
+      "score": 0.8123358,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "major",
+        "bpm": 116.968841553,
+        "mbid": "c7700e64-4ec7-4c98-9c6e-03821236d884",
+        "artist": "Erste Allgemeine Verunsicherung",
+        "title": "Samurai (Maxi Version)"
+      }
+    },
+    {
+      "id": 158104,
+      "score": 0.8121125,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "minor",
+        "bpm": 114.692779541,
+        "mbid": "285bdfb9-73d3-48c6-a9c1-8ab1f54574c7",
+        "artist": "Lebo M",
+        "title": "He Lives In You"
+      }
+    },
+    {
+      "id": 158102,
+      "score": 0.8121125,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "minor",
+        "bpm": 114.692779541,
+        "mbid": "285bdfb9-73d3-48c6-a9c1-8ab1f54574c7",
+        "artist": "Lebo M",
+        "title": "He Lives In You"
+      }
+    },
+    {
+      "id": 158103,
+      "score": 0.8121125,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "minor",
+        "bpm": 114.692779541,
+        "mbid": "285bdfb9-73d3-48c6-a9c1-8ab1f54574c7",
+        "artist": "Lebo M",
+        "title": "He Lives In You"
+      }
+    },
+    {
+      "id": 158100,
+      "score": 0.8121125,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "minor",
+        "bpm": 114.692779541,
+        "mbid": "285bdfb9-73d3-48c6-a9c1-8ab1f54574c7",
+        "artist": "Lebo M",
+        "title": "He Lives In You"
+      }
+    },
+    {
+      "id": 158101,
+      "score": 0.8121125,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "minor",
+        "bpm": 114.692779541,
+        "mbid": "285bdfb9-73d3-48c6-a9c1-8ab1f54574c7",
+        "artist": "Lebo M",
+        "title": "He Lives In You"
+      }
+    },
+    {
+      "id": 1338880,
+      "score": 0.8119485,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 105.513999939,
+        "mbid": "bc12f92d-5523-4dac-b3b1-fde9b36fd256",
+        "artist": "Lenny Kravitz",
+        "title": "The Majesty of Love"
+      }
+    },
+    {
+      "id": 1072458,
+      "score": 0.81193835,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "minor",
+        "bpm": 114.669631958,
+        "mbid": "285bdfb9-73d3-48c6-a9c1-8ab1f54574c7",
+        "artist": "Lebo M.",
+        "title": "He Lives In You"
+      }
+    },
+    {
+      "id": 770699,
+      "score": 0.8115676,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "major",
+        "bpm": 123.012001038,
+        "mbid": "c52c2b90-8b0f-4834-9cb9-bc9e5cdd3930",
+        "artist": "MYTH & ROID",
+        "title": "STYX HELIX"
+      }
+    },
+    {
+      "id": 1039525,
+      "score": 0.8113421,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "minor",
+        "bpm": 147.70501709,
+        "mbid": "15efa460-25c0-4c19-bf17-0f99470dbd12",
+        "artist": "Mecano",
+        "title": "Barco a Venus"
+      }
+    },
+    {
+      "id": 158099,
+      "score": 0.8108672,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "minor",
+        "bpm": 114.747932434,
+        "mbid": "285bdfb9-73d3-48c6-a9c1-8ab1f54574c7",
+        "artist": "Lebo M",
+        "title": "He Lives In You"
+      }
+    },
+    {
+      "id": 568679,
+      "score": 0.81083435,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "minor",
+        "bpm": 139.764251709,
+        "mbid": "917d07f2-792f-4e3b-9058-272aee1a843e",
+        "artist": "Kim Wilde",
+        "title": "Perfect Girl (The Perfect Chill Mix)"
+      }
+    },
+    {
+      "id": 74208,
+      "score": 0.81054753,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "minor",
+        "bpm": 117.985336304,
+        "mbid": "12fd8a39-1da5-4276-a0d8-0b47b5022a49",
+        "artist": "Michael Jackson",
+        "title": "Thriller"
+      }
+    },
+    {
+      "id": 74209,
+      "score": 0.81054753,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "minor",
+        "bpm": 117.985336304,
+        "mbid": "12fd8a39-1da5-4276-a0d8-0b47b5022a49",
+        "artist": "Michael Jackson",
+        "title": "Thriller"
+      }
+    },
+    {
+      "id": 21343,
+      "score": 0.81040484,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 92.998916626,
+        "mbid": "054f0f38-8f4a-417b-bfb5-6bb4accdb104",
+        "artist": "Juan Mag\u00e1n & B-Case",
+        "title": "Le Encanta"
+      }
+    },
+    {
+      "id": 855281,
+      "score": 0.8103267,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 145.89175415,
+        "mbid": "dae33972-b0dc-44ae-9291-5f1ed735483b",
+        "artist": "Pet Shop Boys",
+        "title": "Sad Robot World"
+      }
+    },
+    {
+      "id": 855280,
+      "score": 0.8103267,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 145.89175415,
+        "mbid": "dae33972-b0dc-44ae-9291-5f1ed735483b",
+        "artist": "Pet Shop Boys",
+        "title": "Sad Robot World"
+      }
+    },
+    {
+      "id": 1307231,
+      "score": 0.808493,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 97.9237518311,
+        "mbid": "aa7eebb8-fc16-4e06-858e-41a6636814cd",
+        "artist": "Depeche Mode",
+        "title": "In Your Room (The Jeep Rock Mix)"
+      }
+    },
+    {
+      "id": 685769,
+      "score": 0.80848575,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "minor",
+        "bpm": 79.5879821777,
+        "mbid": "af725574-559f-4172-a131-407cf4c6c558",
+        "artist": "David Banner and 9TH Wonder",
+        "title": "Be With You (Featuring Ludacris & Marsha Ambrosious)"
+      }
+    },
+    {
+      "id": 685768,
+      "score": 0.80848575,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "minor",
+        "bpm": 79.5879821777,
+        "mbid": "af725574-559f-4172-a131-407cf4c6c558",
+        "artist": "David Banner and 9TH Wonder",
+        "title": "Be With You (Featuring Ludacris & Marsha Ambrosious)"
+      }
+    },
+    {
+      "id": 1288829,
+      "score": 0.8084459,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 142.070373535,
+        "mbid": "a04e03fb-13b5-48d2-9ad6-a0d8522363c5",
+        "artist": "ginuwine",
+        "title": "Pony"
+      }
+    },
+    {
+      "id": 745016,
+      "score": 0.8078555,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 142.03944397,
+        "mbid": "be8926ab-3abf-4e20-a316-c587f16f084e",
+        "artist": "Ginuwine",
+        "title": "Pony - Extended Mix"
+      }
+    },
+    {
+      "id": 573448,
+      "score": 0.8066491,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "minor",
+        "bpm": 106.012428284,
+        "mbid": "92af809b-6be9-489a-a93c-605b8f8d320e",
+        "artist": "Enigma",
+        "title": "Turn Around"
+      }
+    },
+    {
+      "id": 573450,
+      "score": 0.8066491,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "minor",
+        "bpm": 106.012428284,
+        "mbid": "92af809b-6be9-489a-a93c-605b8f8d320e",
+        "artist": "Enigma",
+        "title": "Turn Around"
+      }
+    },
+    {
+      "id": 852750,
+      "score": 0.8064311,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "minor",
+        "bpm": 97.9615859985,
+        "mbid": "da3cf754-854c-44b5-9253-4abf64cef6a9",
+        "artist": "Billy Idol",
+        "title": "Evil Eye"
+      }
+    },
+    {
+      "id": 1008969,
+      "score": 0.8062774,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "minor",
+        "bpm": 126.873252869,
+        "mbid": "04fc9172-191c-432a-966a-ec2835dbb2d8",
+        "artist": "Hippie Sabotage",
+        "title": "Quit Wastin Time"
+      }
+    },
+    {
+      "id": 666855,
+      "score": 0.8059125,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 97.922416687,
+        "mbid": "aa7eebb8-fc16-4e06-858e-41a6636814cd",
+        "artist": "Depeche Mode",
+        "title": "In Your Room (The Jeep Rock mix)"
+      }
+    }
+  ]
+}

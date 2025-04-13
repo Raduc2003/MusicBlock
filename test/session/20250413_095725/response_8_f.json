@@ -1,0 +1,1261 @@
+{
+  "query_final_vector": [
+    0.12503407866871752,
+    -0.12627851597243095,
+    0.05295440609000652,
+    0.16479402648326966,
+    0.1774467391529642,
+    -0.05708468015812066,
+    0.13532828530014196,
+    0.16540311509634048,
+    0.12217655459534581,
+    0.13371065440485766,
+    0.0034764073302081134,
+    -0.022762485378257296,
+    0.017759018210617303,
+    -0.20522353002196939,
+    0.30180488870992495,
+    0.13109241557587226,
+    -0.12152446297300455,
+    -0.029350852576636364,
+    0.10899724173590221,
+    -0.09107679149659503,
+    -0.055793874724401185,
+    0.19712230763238295,
+    0.1840769350475971,
+    0.09042807239384455,
+    0.03968525409855297,
+    -0.01075913175855983,
+    -0.04674386399971407,
+    -0.06834346910018542,
+    -0.08839321035138001,
+    -0.05509038528286344,
+    0.18148669848021481,
+    0.1752909935647623,
+    0.048111981507446694,
+    -0.09777312336508674,
+    -0.10901121672221113,
+    0.034266414558946516,
+    0.40816567243202145,
+    0.261578217444254,
+    0.04457420854428116,
+    -0.11191005797438716,
+    -0.14105055557192842,
+    -0.08360306053205914,
+    -0.038649002964171154,
+    -0.09386500814304595,
+    -0.07722965335903495,
+    0.15818920859660446,
+    0.13353814636539618,
+    0.043665466616051925,
+    -0.07176280727496646,
+    -0.11676615921450746,
+    -0.0861267221686617,
+    0.14349167248397215,
+    0.1987873979550975,
+    0.1496263674678038,
+    -0.005273760548658572
+  ],
+  "results": [
+    {
+      "id": 164158,
+      "score": 0.98359036,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 92.4690170288,
+        "mbid": "29d4e6d0-ece9-4546-a532-ff0457fd8f9f",
+        "artist": "Las Ketchup",
+        "title": "The Ketchup Song (Aserej\u00e9)"
+      }
+    },
+    {
+      "id": 117047,
+      "score": 0.9689603,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 92.4926071167,
+        "mbid": "1dec01ad-0023-49b5-96b5-5a663f6b4712",
+        "artist": "Las Ketchup",
+        "title": "Aserej\u00e9 (The Ketchup Song)"
+      }
+    },
+    {
+      "id": 117046,
+      "score": 0.9689603,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 92.4926071167,
+        "mbid": "1dec01ad-0023-49b5-96b5-5a663f6b4712",
+        "artist": "Las Ketchup",
+        "title": "Aserej\u00e9 (The Ketchup Song)"
+      }
+    },
+    {
+      "id": 583777,
+      "score": 0.85216844,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 107.130027771,
+        "mbid": "954a2a04-aa06-46a8-bc49-2f5c6b336fdc",
+        "artist": "Odyssey",
+        "title": "Going Back To My Roots"
+      }
+    },
+    {
+      "id": 451446,
+      "score": 0.8456808,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 112.439216614,
+        "mbid": "73dba154-057c-4370-8abf-68d8a3b46814",
+        "artist": "wowaka",
+        "title": "\u30ea\u30d0\u30b7\u30d6\u30eb\u30c9\u30fc\u30eb"
+      }
+    },
+    {
+      "id": 583775,
+      "score": 0.83953315,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 107.121002197,
+        "mbid": "954a2a04-aa06-46a8-bc49-2f5c6b336fdc",
+        "artist": "Odyssey",
+        "title": "Going Back to My Roots"
+      }
+    },
+    {
+      "id": 583776,
+      "score": 0.83953315,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 107.121002197,
+        "mbid": "954a2a04-aa06-46a8-bc49-2f5c6b336fdc",
+        "artist": "Odyssey",
+        "title": "Going Back To My Roots"
+      }
+    },
+    {
+      "id": 1097217,
+      "score": 0.83806574,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 94.9964065552,
+        "mbid": "35d89e95-d4f5-4a8b-90f1-fc7d96fe4118",
+        "artist": "The Temptations",
+        "title": "Race for Your Heart"
+      }
+    },
+    {
+      "id": 289353,
+      "score": 0.8362631,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 110.184906006,
+        "mbid": "4a06d8a9-9bfe-4888-8d6f-d74e051b915b",
+        "artist": "Alison Limerick",
+        "title": "Make It On My Own"
+      }
+    },
+    {
+      "id": 289352,
+      "score": 0.8362631,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 110.184906006,
+        "mbid": "4a06d8a9-9bfe-4888-8d6f-d74e051b915b",
+        "artist": "Alison Limerick",
+        "title": "Make It On My Own"
+      }
+    },
+    {
+      "id": 1323827,
+      "score": 0.834537,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "minor",
+        "bpm": 110.985977173,
+        "mbid": "b3b9b9f0-25ff-4d87-8efd-083162cb4cd7",
+        "artist": "\u0421\u043b\u043e\u0442",
+        "title": "\u0414\u0435\u043d\u044c \u0437\u0430\u043a\u0440\u044b\u0442\u044b\u0445 \u0434\u0432\u0435\u0440\u0435\u0439"
+      }
+    },
+    {
+      "id": 250203,
+      "score": 0.8296827,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 128.033950806,
+        "mbid": "3fd8a094-adae-4862-8297-c4bd6cfd6bbd",
+        "artist": "Kylie Minogue",
+        "title": "Put Your Hands Up (If You Feel Love)"
+      }
+    },
+    {
+      "id": 250202,
+      "score": 0.8296827,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 128.033950806,
+        "mbid": "3fd8a094-adae-4862-8297-c4bd6cfd6bbd",
+        "artist": "Kylie Minogue",
+        "title": "Put Your Hands Up (If You Feel Love)"
+      }
+    },
+    {
+      "id": 250201,
+      "score": 0.8296827,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 128.033950806,
+        "mbid": "3fd8a094-adae-4862-8297-c4bd6cfd6bbd",
+        "artist": "Kylie Minogue",
+        "title": "Put Your Hands Up (If You Feel Love)"
+      }
+    },
+    {
+      "id": 767236,
+      "score": 0.8280435,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 121.403213501,
+        "mbid": "c4488e7f-dd5c-40be-8807-84f6c0aabf64",
+        "artist": "Kraftwerk",
+        "title": "Robotnik (Kling Klang extended mix)"
+      }
+    },
+    {
+      "id": 767237,
+      "score": 0.8280435,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 121.403213501,
+        "mbid": "c4488e7f-dd5c-40be-8807-84f6c0aabf64",
+        "artist": "Kraftwerk",
+        "title": "Robotnik (Kling Klang extended mix)"
+      }
+    },
+    {
+      "id": 1269290,
+      "score": 0.82634073,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 107.084472656,
+        "mbid": "954a2a04-aa06-46a8-bc49-2f5c6b336fdc",
+        "artist": "Odyssey",
+        "title": "Going Back to My Roots"
+      }
+    },
+    {
+      "id": 729665,
+      "score": 0.82578945,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "minor",
+        "bpm": 112.907821655,
+        "mbid": "ba9cb1eb-1752-4e67-9c09-96498239a1ec",
+        "artist": "The Ting Tings",
+        "title": "Wrong Club"
+      }
+    },
+    {
+      "id": 544042,
+      "score": 0.8252612,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "minor",
+        "bpm": 117.196578979,
+        "mbid": "8b30e7ff-b4ba-49ad-bba0-275c4d0e6f9f",
+        "artist": "Swing Out Sister",
+        "title": "Who Let the Love Out?"
+      }
+    },
+    {
+      "id": 544041,
+      "score": 0.8252612,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "minor",
+        "bpm": 117.196578979,
+        "mbid": "8b30e7ff-b4ba-49ad-bba0-275c4d0e6f9f",
+        "artist": "Swing Out Sister",
+        "title": "Who Let the Love Out?"
+      }
+    },
+    {
+      "id": 356570,
+      "score": 0.82452697,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 107.263565063,
+        "mbid": "5b70b740-2b8d-4d19-b5e6-b5881afb131a",
+        "artist": "Odyssey",
+        "title": "Going Back to My Roots"
+      }
+    },
+    {
+      "id": 262973,
+      "score": 0.82452697,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 107.263565063,
+        "mbid": "4314dfc2-eebd-48ce-8d4d-1f51bd91bbc4",
+        "artist": "Odyssey",
+        "title": "Going Back to My Roots"
+      }
+    },
+    {
+      "id": 61970,
+      "score": 0.82065433,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 92.4064865112,
+        "mbid": "0fdfc8ef-bc85-4006-af90-8ad6de0b4019",
+        "artist": "Die Gerd Show",
+        "title": "Der Steuersong (Las Kanzlern) - Karaoke Version"
+      }
+    },
+    {
+      "id": 984783,
+      "score": 0.81850475,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 104.035903931,
+        "mbid": "fc356068-351b-4ee6-8c82-2dd7a0480760",
+        "artist": "Jaki Graham",
+        "title": "Set Me Free"
+      }
+    },
+    {
+      "id": 984782,
+      "score": 0.81850475,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 104.035903931,
+        "mbid": "fc356068-351b-4ee6-8c82-2dd7a0480760",
+        "artist": "Jaki Graham",
+        "title": "Set Me Free"
+      }
+    },
+    {
+      "id": 261216,
+      "score": 0.8181383,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 114.636306763,
+        "mbid": "42a303ab-60c1-4d5c-a876-164de81cf481",
+        "artist": "Swing Out Sister",
+        "title": "Fever"
+      }
+    },
+    {
+      "id": 261217,
+      "score": 0.8181383,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 114.636306763,
+        "mbid": "42a303ab-60c1-4d5c-a876-164de81cf481",
+        "artist": "Swing Out Sister",
+        "title": "Fever"
+      }
+    },
+    {
+      "id": 539703,
+      "score": 0.8167284,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 127.989227295,
+        "mbid": "8a1adf90-0adf-4873-9101-75f88b250420",
+        "artist": "Etherfox",
+        "title": "The Whirled You Live (Sixty Six mix)"
+      }
+    },
+    {
+      "id": 1099478,
+      "score": 0.81525856,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 104.886558533,
+        "mbid": "3715372c-f6ad-4e65-a324-e292f809b80f",
+        "artist": "Ignite",
+        "title": "How Is This Progress?"
+      }
+    },
+    {
+      "id": 1099479,
+      "score": 0.81525856,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 104.886558533,
+        "mbid": "3715372c-f6ad-4e65-a324-e292f809b80f",
+        "artist": "Ignite",
+        "title": "How Is This Progress?"
+      }
+    },
+    {
+      "id": 1099477,
+      "score": 0.81525856,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 104.886558533,
+        "mbid": "3715372c-f6ad-4e65-a324-e292f809b80f",
+        "artist": "Ignite",
+        "title": "How Is This Progress?"
+      }
+    },
+    {
+      "id": 799726,
+      "score": 0.8138865,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 120.530570984,
+        "mbid": "cca8d233-b51c-4c31-85cd-809cd5572a85",
+        "artist": "Whitney Houston",
+        "title": "Love Will Save the Day"
+      }
+    },
+    {
+      "id": 1133600,
+      "score": 0.8134358,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 110.098274231,
+        "mbid": "4a06d8a9-9bfe-4888-8d6f-d74e051b915b",
+        "artist": "Alison Limerick",
+        "title": "Make It On My Own"
+      }
+    },
+    {
+      "id": 464978,
+      "score": 0.8130829,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 118.69834137,
+        "mbid": "7738b93c-78dc-4781-81cc-aa9eaa29bc2f",
+        "artist": "SEGA Sound Team & Hidenori Shoji",
+        "title": "SMALL WAR"
+      }
+    },
+    {
+      "id": 54877,
+      "score": 0.81274956,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 115.014923096,
+        "mbid": "0e068152-5b80-463f-94df-7a2abe1751b5",
+        "artist": "Miss Kookie",
+        "title": "Puttin' On the Ritz (Radio Edit)"
+      }
+    },
+    {
+      "id": 185625,
+      "score": 0.8117598,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 120.003189087,
+        "mbid": "2f47c9b3-963c-44d8-a386-6f0c9708443f",
+        "artist": "Alestorm",
+        "title": "Chomp Chomp (16th Century version)"
+      }
+    },
+    {
+      "id": 464855,
+      "score": 0.81148964,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "minor",
+        "bpm": 115.945510864,
+        "mbid": "7730bb97-f763-4515-a697-9fcaec1162b1",
+        "artist": "Information Society",
+        "title": "If It's Real"
+      }
+    },
+    {
+      "id": 464854,
+      "score": 0.81148964,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "minor",
+        "bpm": 115.945510864,
+        "mbid": "7730bb97-f763-4515-a697-9fcaec1162b1",
+        "artist": "Information Society",
+        "title": "If It's Real"
+      }
+    },
+    {
+      "id": 792618,
+      "score": 0.8113154,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 84.1329421997,
+        "mbid": "cad298c0-7dd6-4ff7-867f-347a7ae6c5ed",
+        "artist": "\u0440\u043c\u043d\u0447\u0438\u0442\u0442\u043e",
+        "title": "a n i g h t w i t h y o u"
+      }
+    },
+    {
+      "id": 605038,
+      "score": 0.8099927,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 115.197135925,
+        "mbid": "9ab53a10-b077-4419-971b-d97544db3ca3",
+        "artist": "Genesis",
+        "title": "Land Of Confusion"
+      }
+    },
+    {
+      "id": 828869,
+      "score": 0.8099927,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 115.197135925,
+        "mbid": "d425d5fa-404d-4e38-8f5a-6ff5cf9ad8aa",
+        "artist": "Genesis",
+        "title": "Land Of Confusion"
+      }
+    },
+    {
+      "id": 223283,
+      "score": 0.8096553,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 105.987411499,
+        "mbid": "38fdf43a-b4b0-4219-84f5-f06c21a1550a",
+        "artist": "Jeff Kashiwa/Russ Freeman",
+        "title": "Up"
+      }
+    },
+    {
+      "id": 888702,
+      "score": 0.8094569,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 121.986122131,
+        "mbid": "e36a5702-459a-49e7-8a5b-4822f49f7923",
+        "artist": "DAFT PUNK",
+        "title": "Aerodynamite"
+      }
+    },
+    {
+      "id": 888704,
+      "score": 0.8094569,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 121.986122131,
+        "mbid": "e36a5702-459a-49e7-8a5b-4822f49f7923",
+        "artist": "DAFT PUNK",
+        "title": "Aerodynamite"
+      }
+    },
+    {
+      "id": 1120283,
+      "score": 0.8092752,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 105.077537537,
+        "mbid": "42832cce-ff02-4b96-9104-f8a053cf65cc",
+        "artist": "Every Little Thing",
+        "title": "Season (Album Version)"
+      }
+    },
+    {
+      "id": 79108,
+      "score": 0.8085895,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 116.670692444,
+        "mbid": "144943a5-c04f-4187-9178-6881ca1a5c8d",
+        "artist": "C.C. Catch",
+        "title": "Strangers By Night (Maxi-Version)"
+      }
+    },
+    {
+      "id": 80967,
+      "score": 0.8085883,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 95.0633926392,
+        "mbid": "14c57309-58ff-4d73-bd75-f72af5cbd2cf",
+        "artist": "Cibo Matto",
+        "title": "Speechless"
+      }
+    },
+    {
+      "id": 978579,
+      "score": 0.8085182,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 121.378372192,
+        "mbid": "fa9e03b5-7314-464e-bbb0-69e3310ebe87",
+        "artist": "Styx",
+        "title": "High Time"
+      }
+    },
+    {
+      "id": 978578,
+      "score": 0.8085182,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 121.378372192,
+        "mbid": "fa9e03b5-7314-464e-bbb0-69e3310ebe87",
+        "artist": "Styx",
+        "title": "High Time"
+      }
+    },
+    {
+      "id": 888703,
+      "score": 0.8084198,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 122.023094177,
+        "mbid": "e36a5702-459a-49e7-8a5b-4822f49f7923",
+        "artist": "Daft Punk",
+        "title": "Aerodynamite"
+      }
+    },
+    {
+      "id": 888701,
+      "score": 0.8084198,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 122.023094177,
+        "mbid": "e36a5702-459a-49e7-8a5b-4822f49f7923",
+        "artist": "Daft Punk",
+        "title": "Aerodynamite"
+      }
+    },
+    {
+      "id": 571937,
+      "score": 0.80726755,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 119.471809387,
+        "mbid": "925754de-938e-49d1-b8a5-6aba73002294",
+        "artist": "Army of Lovers",
+        "title": "Ride the Bullet (Tren de Amor Mix)"
+      }
+    },
+    {
+      "id": 16288,
+      "score": 0.80658233,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 114.495491028,
+        "mbid": "0406089c-fa3d-447a-bbf5-d3c48606fc9d",
+        "artist": "Jellybean Featuring Steven Dante",
+        "title": "The Real Thing"
+      }
+    },
+    {
+      "id": 16287,
+      "score": 0.80658233,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 114.495491028,
+        "mbid": "0406089c-fa3d-447a-bbf5-d3c48606fc9d",
+        "artist": "Jellybean Featuring Steven Dante",
+        "title": "The Real Thing"
+      }
+    },
+    {
+      "id": 888698,
+      "score": 0.80585563,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 122.01209259,
+        "mbid": "e36a5702-459a-49e7-8a5b-4822f49f7923",
+        "artist": "Daft Punk",
+        "title": "Aerodynamite"
+      }
+    },
+    {
+      "id": 888697,
+      "score": 0.80585563,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 122.01209259,
+        "mbid": "e36a5702-459a-49e7-8a5b-4822f49f7923",
+        "artist": "Daft Punk",
+        "title": "Aerodynamite"
+      }
+    },
+    {
+      "id": 888699,
+      "score": 0.80585563,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 122.01209259,
+        "mbid": "e36a5702-459a-49e7-8a5b-4822f49f7923",
+        "artist": "Daft Punk",
+        "title": "Aerodynamite"
+      }
+    },
+    {
+      "id": 888694,
+      "score": 0.80585563,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 122.01209259,
+        "mbid": "e36a5702-459a-49e7-8a5b-4822f49f7923",
+        "artist": "Daft Punk",
+        "title": "Aerodynamite"
+      }
+    },
+    {
+      "id": 888695,
+      "score": 0.80585563,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 122.01209259,
+        "mbid": "e36a5702-459a-49e7-8a5b-4822f49f7923",
+        "artist": "Daft Punk",
+        "title": "Aerodynamite"
+      }
+    },
+    {
+      "id": 888700,
+      "score": 0.80585563,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 122.01209259,
+        "mbid": "e36a5702-459a-49e7-8a5b-4822f49f7923",
+        "artist": "Daft Punk",
+        "title": "Aerodynamite"
+      }
+    },
+    {
+      "id": 888696,
+      "score": 0.80585563,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 122.01209259,
+        "mbid": "e36a5702-459a-49e7-8a5b-4822f49f7923",
+        "artist": "Daft Punk",
+        "title": "Aerodynamite"
+      }
+    },
+    {
+      "id": 748258,
+      "score": 0.8054533,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 91.9098052979,
+        "mbid": "bf5e6749-dca6-42e7-bf00-746a293c4cd0",
+        "artist": "Monique Smit",
+        "title": "Wild"
+      }
+    },
+    {
+      "id": 1303762,
+      "score": 0.8054157,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 104.20753479,
+        "mbid": "a8952a6b-3bb7-4005-ae41-3a4269f61280",
+        "artist": "Jaki Graham",
+        "title": "Set Me Free"
+      }
+    },
+    {
+      "id": 984780,
+      "score": 0.8054157,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 104.20753479,
+        "mbid": "fc356068-351b-4ee6-8c82-2dd7a0480760",
+        "artist": "Jaki Graham",
+        "title": "Set Me Free"
+      }
+    },
+    {
+      "id": 1303763,
+      "score": 0.8054157,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 104.20753479,
+        "mbid": "a8952a6b-3bb7-4005-ae41-3a4269f61280",
+        "artist": "Jaki Graham",
+        "title": "Set Me Free"
+      }
+    },
+    {
+      "id": 1303764,
+      "score": 0.8054157,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 104.20753479,
+        "mbid": "a8952a6b-3bb7-4005-ae41-3a4269f61280",
+        "artist": "Jaki Graham",
+        "title": "Set Me Free"
+      }
+    },
+    {
+      "id": 895138,
+      "score": 0.8045365,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 80.9126281738,
+        "mbid": "e51232e4-f547-4c9b-832b-76faf52b9270",
+        "artist": "Celeste Buckingham",
+        "title": "Run Run Run"
+      }
+    },
+    {
+      "id": 1219093,
+      "score": 0.8039136,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 124.998527527,
+        "mbid": "796c1d4d-9685-461d-9163-dc9d97824265",
+        "artist": "Curtis Mayfield",
+        "title": "You Are, You Are"
+      }
+    },
+    {
+      "id": 544595,
+      "score": 0.8028288,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 110.076049805,
+        "mbid": "8b50e9d5-32e6-4831-9a84-073a27c71f57",
+        "artist": "Alison Limerick",
+        "title": "Make It On My Own"
+      }
+    },
+    {
+      "id": 289354,
+      "score": 0.8028288,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 110.076049805,
+        "mbid": "4a06d8a9-9bfe-4888-8d6f-d74e051b915b",
+        "artist": "Alison Limerick",
+        "title": "Make It On My Own"
+      }
+    },
+    {
+      "id": 544596,
+      "score": 0.8028288,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 110.076049805,
+        "mbid": "8b50e9d5-32e6-4831-9a84-073a27c71f57",
+        "artist": "Alison Limerick",
+        "title": "Make It On My Own"
+      }
+    },
+    {
+      "id": 457405,
+      "score": 0.8017709,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 125.983390808,
+        "mbid": "75625df2-0c8f-49ae-af02-77408e6804a4",
+        "artist": "Loona",
+        "title": "Baila Mi Ritmo"
+      }
+    },
+    {
+      "id": 611347,
+      "score": 0.8007861,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 89.9605178833,
+        "mbid": "9c6045be-3dd3-48cf-95ef-c9b9621dc9bf",
+        "artist": "dai",
+        "title": "Final answer (short)"
+      }
+    },
+    {
+      "id": 1082131,
+      "score": 0.80046636,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "minor",
+        "bpm": 102.186393738,
+        "mbid": "2da24520-2000-4383-b248-9aa12f27bfdb",
+        "artist": "Shanice",
+        "title": "It's For You"
+      }
+    },
+    {
+      "id": 1233173,
+      "score": 0.8004168,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 131.953689575,
+        "mbid": "814f2609-d8ea-42c0-9cde-f9565a4b555e",
+        "artist": "Probspot",
+        "title": "Blows My Mind"
+      }
+    },
+    {
+      "id": 1359318,
+      "score": 0.80019194,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 118.005187988,
+        "mbid": "c7564010-22b5-4284-8589-b76451b6149a",
+        "artist": "Bloodline",
+        "title": "Dixie Peach"
+      }
+    },
+    {
+      "id": 1359317,
+      "score": 0.80019194,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 118.005187988,
+        "mbid": "c7564010-22b5-4284-8589-b76451b6149a",
+        "artist": "Bloodline",
+        "title": "Dixie Peach"
+      }
+    },
+    {
+      "id": 1359319,
+      "score": 0.80019194,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 118.005187988,
+        "mbid": "c7564010-22b5-4284-8589-b76451b6149a",
+        "artist": "Bloodline",
+        "title": "Dixie Peach"
+      }
+    },
+    {
+      "id": 135490,
+      "score": 0.7998814,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 123.915130615,
+        "mbid": "22921e11-5fa3-433b-aab8-3d796f74f3fa",
+        "artist": "Double Dee",
+        "title": "Found Love"
+      }
+    },
+    {
+      "id": 1381830,
+      "score": 0.79901075,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 115.168022156,
+        "mbid": "d425d5fa-404d-4e38-8f5a-6ff5cf9ad8aa",
+        "artist": "Genesis",
+        "title": "Land of Confusion"
+      }
+    },
+    {
+      "id": 1356183,
+      "score": 0.7967038,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 101.550209045,
+        "mbid": "c595cd5d-0cae-4cd6-9244-bd6a09bda891",
+        "artist": "Bassomatic",
+        "title": "Fascinating Rhythm"
+      }
+    },
+    {
+      "id": 1026893,
+      "score": 0.7966972,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 114.009483337,
+        "mbid": "0eca09ec-89e3-4efb-9da9-8df3030c09e1",
+        "artist": "Stevie Ray Vaughan and Double Trouble",
+        "title": "Long Way From Home (The Vaughan Brothers)"
+      }
+    },
+    {
+      "id": 1236167,
+      "score": 0.79641324,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 110.117210388,
+        "mbid": "82f6c975-a222-44a1-af78-a45d622409f9",
+        "artist": "Chris Rea",
+        "title": "Josephine (La Version Francaise)"
+      }
+    },
+    {
+      "id": 626302,
+      "score": 0.79641074,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 113.746551514,
+        "mbid": "a025bc45-2cb0-4564-bb09-7d7d86d25c36",
+        "artist": "Periphery",
+        "title": "Priestess"
+      }
+    },
+    {
+      "id": 1106810,
+      "score": 0.7960608,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 116.239868164,
+        "mbid": "3b033b80-fd74-411c-8532-d8de9c1eba49",
+        "artist": "U2",
+        "title": "Last Night on Earth"
+      }
+    },
+    {
+      "id": 804802,
+      "score": 0.7955771,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 92.3552398682,
+        "mbid": "cdecf413-5ef3-4262-811b-5125f2dc5ac1",
+        "artist": "Die Gerd Show",
+        "title": "Der Steuersong (Las Kanzlern) - Radio Version"
+      }
+    },
+    {
+      "id": 774041,
+      "score": 0.7947496,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 115.18044281,
+        "mbid": "c602d9e8-0c5d-431e-a7aa-ed760b7677ac",
+        "artist": "Genesis",
+        "title": "Land of Confusion"
+      }
+    },
+    {
+      "id": 124715,
+      "score": 0.7936976,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 122.145851135,
+        "mbid": "1fdff0d9-1ec6-434c-9301-0cc8de6562d3",
+        "artist": "Depeche Mode",
+        "title": "World in My Eyes"
+      }
+    },
+    {
+      "id": 1057212,
+      "score": 0.7934618,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 122.107772827,
+        "mbid": "1fdff0d9-1ec6-434c-9301-0cc8de6562d3",
+        "artist": "Depeche Mode",
+        "title": "World in My Eyes (single version)"
+      }
+    },
+    {
+      "id": 1069843,
+      "score": 0.7934618,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 122.107772827,
+        "mbid": "26f7bb0d-133d-4811-a8bf-0ff930c5a11a",
+        "artist": "Depeche Mode",
+        "title": "World In My Eyes"
+      }
+    },
+    {
+      "id": 1057211,
+      "score": 0.7934618,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 122.107772827,
+        "mbid": "1fdff0d9-1ec6-434c-9301-0cc8de6562d3",
+        "artist": "Depeche Mode",
+        "title": "World in My Eyes"
+      }
+    },
+    {
+      "id": 1069846,
+      "score": 0.7934618,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 122.107772827,
+        "mbid": "26f7bb0d-133d-4811-a8bf-0ff930c5a11a",
+        "artist": "Depeche Mode",
+        "title": "World In My Eyes [Single Version]"
+      }
+    },
+    {
+      "id": 1106809,
+      "score": 0.7932846,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 116.212188721,
+        "mbid": "3b033b80-fd74-411c-8532-d8de9c1eba49",
+        "artist": "U2",
+        "title": "Last Night on Earth"
+      }
+    },
+    {
+      "id": 984781,
+      "score": 0.79238164,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 104.123847961,
+        "mbid": "fc356068-351b-4ee6-8c82-2dd7a0480760",
+        "artist": "Jaki Graham",
+        "title": "Set Me Free"
+      }
+    },
+    {
+      "id": 1359316,
+      "score": 0.7921591,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 117.975845337,
+        "mbid": "c7564010-22b5-4284-8589-b76451b6149a",
+        "artist": "Bloodline",
+        "title": "Dixie Peach"
+      }
+    },
+    {
+      "id": 1235492,
+      "score": 0.7921226,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 123.984649658,
+        "mbid": "82955ca7-f5ac-46b9-a701-19ddd59b943d",
+        "artist": "Dubmood",
+        "title": "Sector 1F"
+      }
+    },
+    {
+      "id": 1030046,
+      "score": 0.79181224,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 104.563484192,
+        "mbid": "1092ff8a-5125-4dbb-b1ef-45896da3c301",
+        "artist": "Will Downing",
+        "title": "Test Of Time (Timeless Piano V"
+      }
+    },
+    {
+      "id": 1030047,
+      "score": 0.79181224,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 104.563484192,
+        "mbid": "1092ff8a-5125-4dbb-b1ef-45896da3c301",
+        "artist": "Will Downing",
+        "title": "Test Of Time (Timeless Piano V"
+      }
+    },
+    {
+      "id": 680197,
+      "score": 0.7914138,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 100.220481873,
+        "mbid": "adf9dca9-508c-46fa-8844-a6036b7941f2",
+        "artist": "Kate Bush",
+        "title": "Constellation of the Heart"
+      }
+    },
+    {
+      "id": 1014032,
+      "score": 0.7911993,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 117.640823364,
+        "mbid": "07d5c55d-f063-415c-a173-3dfdedda22f2",
+        "artist": "Sandra",
+        "title": "Heaven Can Wait"
+      }
+    }
+  ]
+}

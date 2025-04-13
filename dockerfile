@@ -37,4 +37,4 @@ COPY global_min_max.json .
 
 # Since we are using docker-compose run, CMD is not strictly necessary
 # but you could set a default if desired, e.g.,
-CMD ["python", "client.py", "--help"]
+CMD ["python", "client_similarity.py", "--help"]

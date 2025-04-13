@@ -1,0 +1,1261 @@
+{
+  "query_final_vector": [
+    0.11514166051707163,
+    -0.21819600374811432,
+    0.13730592957492294,
+    -0.11786625404700726,
+    0.19457524459348235,
+    0.019791610013174636,
+    0.07865776944035349,
+    0.19659564461018575,
+    -0.2810761482226827,
+    0.22203004864818218,
+    0.06564312716805638,
+    -0.1899698731082218,
+    -0.012298792022488453,
+    -0.15209143949744755,
+    0.21495237068721962,
+    0.22467538276481522,
+    -0.005809858834618298,
+    0.22674031470420636,
+    -0.04723029507568434,
+    -0.17162301891204867,
+    -0.147887152350167,
+    -0.06319442893386873,
+    -0.006655585275714421,
+    0.031372276918428976,
+    -0.0004090705380261236,
+    -0.05822278099270698,
+    -0.08663227435898598,
+    -0.012576661578290923,
+    0.17913257130658206,
+    0.2906921140562619,
+    0.06819651767170169,
+    -0.0962688970399824,
+    -0.13453646803173658,
+    -0.1598235297386389,
+    -0.09868862047275719,
+    -0.02060664876163389,
+    0.05714165149332384,
+    0.1129298849597615,
+    0.18714436649599675,
+    0.027518970056796273,
+    -0.10353950078824625,
+    -0.14527147999156523,
+    -0.05821731339737449,
+    0.061686635837993074,
+    0.17688030224624507,
+    0.12921780987685938,
+    -0.06133089815886932,
+    -0.09898010208713069,
+    -0.07706055950958422,
+    0.023646776686397152,
+    0.13990583931928022,
+    0.01879478129487663,
+    -0.10430008818576633,
+    -0.11069745545337625,
+    -0.1653020978740955
+  ],
+  "results": [
+    {
+      "id": 22830,
+      "score": 0.93944436,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "minor",
+        "bpm": 99.9181365967,
+        "mbid": "05b95267-27c4-4e7d-bfa2-7220f0f66e10",
+        "artist": "Whitney Houston & George Michael",
+        "title": "If I Told You That"
+      }
+    },
+    {
+      "id": 22831,
+      "score": 0.93549025,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "minor",
+        "bpm": 99.9125595093,
+        "mbid": "05b95267-27c4-4e7d-bfa2-7220f0f66e10",
+        "artist": "Whitney Houston",
+        "title": "If I Told You That"
+      }
+    },
+    {
+      "id": 1010325,
+      "score": 0.93527335,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "minor",
+        "bpm": 99.9906311035,
+        "mbid": "05b95267-27c4-4e7d-bfa2-7220f0f66e10",
+        "artist": "Whitney Houston",
+        "title": "If I Told You That"
+      }
+    },
+    {
+      "id": 1010326,
+      "score": 0.930934,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "minor",
+        "bpm": 99.9371337891,
+        "mbid": "05b95267-27c4-4e7d-bfa2-7220f0f66e10",
+        "artist": "Whitney Houston",
+        "title": "If I Told You That (Feat. George Michael)"
+      }
+    },
+    {
+      "id": 691764,
+      "score": 0.81705236,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "minor",
+        "bpm": 99.9643249512,
+        "mbid": "b0fba0ec-2b22-4604-9423-2dd512d10a1e",
+        "artist": "Whitney Houston",
+        "title": "If I Told You That"
+      }
+    },
+    {
+      "id": 691763,
+      "score": 0.81705236,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "minor",
+        "bpm": 99.9643249512,
+        "mbid": "b0fba0ec-2b22-4604-9423-2dd512d10a1e",
+        "artist": "Whitney Houston",
+        "title": "If I Told You That"
+      }
+    },
+    {
+      "id": 691765,
+      "score": 0.81705236,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "minor",
+        "bpm": 99.9643249512,
+        "mbid": "b0fba0ec-2b22-4604-9423-2dd512d10a1e",
+        "artist": "Whitney Houston",
+        "title": "If I Told You That"
+      }
+    },
+    {
+      "id": 1166755,
+      "score": 0.8166579,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 99.9846115112,
+        "mbid": "5c4c0dec-d0aa-4582-a965-f2d439bce346",
+        "artist": "Home Free",
+        "title": "9 to 5"
+      }
+    },
+    {
+      "id": 1318954,
+      "score": 0.81375104,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "minor",
+        "bpm": 99.960647583,
+        "mbid": "b0fba0ec-2b22-4604-9423-2dd512d10a1e",
+        "artist": "Whitney Houston",
+        "title": "If I Told You That"
+      }
+    },
+    {
+      "id": 788745,
+      "score": 0.8124142,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 110.026191711,
+        "mbid": "c9d43633-309d-4ac3-bfee-767c93e13d27",
+        "artist": "Intellivision",
+        "title": "Intellivison's Big Party"
+      }
+    },
+    {
+      "id": 788744,
+      "score": 0.8124142,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 110.026191711,
+        "mbid": "c9d43633-309d-4ac3-bfee-767c93e13d27",
+        "artist": "Intellivision",
+        "title": "Intellivison's Big Party"
+      }
+    },
+    {
+      "id": 1105875,
+      "score": 0.8076154,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "minor",
+        "bpm": 91.9789733887,
+        "mbid": "3a85bb23-a7a2-4064-84bd-333ff0b24f94",
+        "artist": "Mavado",
+        "title": "Dreaming"
+      }
+    },
+    {
+      "id": 1130581,
+      "score": 0.80761117,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 108.858955383,
+        "mbid": "4852b854-a086-460f-aa38-e2e26cbe49d4",
+        "artist": "Day 26, Fat Joe, & Rick Ross",
+        "title": "Got Me Going Remix"
+      }
+    },
+    {
+      "id": 1389270,
+      "score": 0.80564916,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "minor",
+        "bpm": 129.780059814,
+        "mbid": "d84670b6-cf1c-4922-a03b-f00a2273a29d",
+        "artist": "Kim Sanders",
+        "title": "Show Me"
+      }
+    },
+    {
+      "id": 133578,
+      "score": 0.8042642,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 127.757537842,
+        "mbid": "221c5874-895e-4a41-bc24-059b76e65d67",
+        "artist": "Queen of Japan",
+        "title": "Sexual Healing"
+      }
+    },
+    {
+      "id": 196119,
+      "score": 0.780868,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 125.959892273,
+        "mbid": "31f03ef4-1725-4f23-8e76-381d5afecbde",
+        "artist": "Anita Ward",
+        "title": "Ring My Bell"
+      }
+    },
+    {
+      "id": 241536,
+      "score": 0.78075725,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 99.9462890625,
+        "mbid": "3dab50eb-1e9f-49d9-bd67-1472e3c260fe",
+        "artist": "The Weeknd",
+        "title": "In Your Eyes"
+      }
+    },
+    {
+      "id": 233185,
+      "score": 0.780046,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "minor",
+        "bpm": 117.041946411,
+        "mbid": "3b87f209-d94b-477a-a90b-08a3897f9b21",
+        "artist": "Weezer",
+        "title": "Billie Jean"
+      }
+    },
+    {
+      "id": 103209,
+      "score": 0.7799053,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 99.9898605347,
+        "mbid": "1a6bae09-e6d6-4653-b1a5-6a124b50fe70",
+        "artist": "Whitney Houston & George Michael",
+        "title": "If I Told You That (Johnny Douglas Mix)"
+      }
+    },
+    {
+      "id": 569061,
+      "score": 0.7734205,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 99.9461288452,
+        "mbid": "919a0015-31ce-41f1-9a45-898dfa728d1b",
+        "artist": "The Weeknd",
+        "title": "In Your Eyes"
+      }
+    },
+    {
+      "id": 241534,
+      "score": 0.77335775,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 99.9461288452,
+        "mbid": "3dab50eb-1e9f-49d9-bd67-1472e3c260fe",
+        "artist": "The Weeknd",
+        "title": "In Your Eyes"
+      }
+    },
+    {
+      "id": 681512,
+      "score": 0.7696994,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 95.7036209106,
+        "mbid": "ae4e96bb-d12e-496a-ac59-03ec8f9e0787",
+        "artist": "Jewelle Blackman, Yvette Gonzalez-Nacer, Kay Trinidad, Eva Noblezada & Hadestown Original Broadway Company",
+        "title": "When the Chips Are Down"
+      }
+    },
+    {
+      "id": 241535,
+      "score": 0.76471454,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 99.9334335327,
+        "mbid": "3dab50eb-1e9f-49d9-bd67-1472e3c260fe",
+        "artist": "The Weeknd",
+        "title": "In Your Eyes"
+      }
+    },
+    {
+      "id": 1238906,
+      "score": 0.7643026,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "minor",
+        "bpm": 119.993225098,
+        "mbid": "846d3219-da4c-484b-b5d6-a0932729816e",
+        "artist": "Nathan Evans",
+        "title": "Wellerman (Sea Shanty \u2044 220 KID x Billen Ted Remix)"
+      }
+    },
+    {
+      "id": 773191,
+      "score": 0.76400095,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "major",
+        "bpm": 84.0054931641,
+        "mbid": "c5cf5dea-907f-4ec1-97c4-eac026ce0a18",
+        "artist": ".gif",
+        "title": "diatribe"
+      }
+    },
+    {
+      "id": 646292,
+      "score": 0.76366043,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "minor",
+        "bpm": 88.9226074219,
+        "mbid": "a53b083e-3b52-4174-a99f-367c99033a40",
+        "artist": "Deborah Cox",
+        "title": "Sentimental"
+      }
+    },
+    {
+      "id": 1371879,
+      "score": 0.76114184,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "minor",
+        "bpm": 93.0097808838,
+        "mbid": "ce762f6c-c625-4dac-8238-25e90fba02e3",
+        "artist": "Joss Stone",
+        "title": "Bad Habit"
+      }
+    },
+    {
+      "id": 196121,
+      "score": 0.7601551,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 125.923355103,
+        "mbid": "31f03ef4-1725-4f23-8e76-381d5afecbde",
+        "artist": "Unknown",
+        "title": "Unknown"
+      }
+    },
+    {
+      "id": 806858,
+      "score": 0.7577196,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "minor",
+        "bpm": 92.9289703369,
+        "mbid": "ce762f6c-c625-4dac-8238-25e90fba02e3",
+        "artist": "Joss Stone",
+        "title": "Bad Habit"
+      }
+    },
+    {
+      "id": 806859,
+      "score": 0.7577196,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "minor",
+        "bpm": 92.9289703369,
+        "mbid": "ce762f6c-c625-4dac-8238-25e90fba02e3",
+        "artist": "Joss Stone",
+        "title": "Bad Habit"
+      }
+    },
+    {
+      "id": 519232,
+      "score": 0.7556263,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 125.910812378,
+        "mbid": "84e2cfea-81f2-481d-b03d-d2fa7e17539c",
+        "artist": "Anita Ward",
+        "title": "Ring My Bell"
+      }
+    },
+    {
+      "id": 30884,
+      "score": 0.7543251,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 134.1121521,
+        "mbid": "07e94de6-81eb-4598-82d5-eb1bbf93acd6",
+        "artist": "K-Ci & JOJO",
+        "title": "Tell Me It's Real (Club Asylum Vocal Edit)"
+      }
+    },
+    {
+      "id": 30885,
+      "score": 0.7533812,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 134.115997314,
+        "mbid": "07e94de6-81eb-4598-82d5-eb1bbf93acd6",
+        "artist": "K-Ci & JoJo",
+        "title": "Tell Me It's Real (Club Asylum Vocal Edit)"
+      }
+    },
+    {
+      "id": 446326,
+      "score": 0.75147057,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 100.961151123,
+        "mbid": "72945811-7f63-4115-a810-4d6164f721fa",
+        "artist": "D-Train",
+        "title": "Something's On Your Mind (12'')"
+      }
+    },
+    {
+      "id": 25760,
+      "score": 0.7507494,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 107.833656311,
+        "mbid": "0684516a-0318-4fcf-abdb-2b5cd5fec7b8",
+        "artist": "\uc2e0\ud654",
+        "title": "Perfect Man"
+      }
+    },
+    {
+      "id": 710236,
+      "score": 0.7504824,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 110.856071472,
+        "mbid": "b5ab02bc-4444-455a-8e4a-b9d7bced05b4",
+        "artist": "Quincy Jones",
+        "title": "Betcha Wouldn't Hurt Me (Special Extended Version)"
+      }
+    },
+    {
+      "id": 83321,
+      "score": 0.75009197,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 91.9623718262,
+        "mbid": "15690bf0-4b45-4868-aec3-9062c4a5a852",
+        "artist": "Bebel Gilberto",
+        "title": "Aganju"
+      }
+    },
+    {
+      "id": 1174903,
+      "score": 0.74929845,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "major",
+        "bpm": 119.546157837,
+        "mbid": "60d5478a-fe3c-429d-aeed-79206f40f20d",
+        "artist": "Whitney Houston",
+        "title": "I'm Every Woman"
+      }
+    },
+    {
+      "id": 1297098,
+      "score": 0.7484311,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 132.402923584,
+        "mbid": "a4d76782-73de-4ec7-bc38-7c2b45d04b07",
+        "artist": "Wham!",
+        "title": "Come On!"
+      }
+    },
+    {
+      "id": 518439,
+      "score": 0.747602,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 101.821105957,
+        "mbid": "84b0ec86-f4a3-4996-81fc-41e14e55635f",
+        "artist": "J Hus",
+        "title": "Spirit"
+      }
+    },
+    {
+      "id": 518438,
+      "score": 0.7461205,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 101.755363464,
+        "mbid": "84b0ec86-f4a3-4996-81fc-41e14e55635f",
+        "artist": "J Hus",
+        "title": "Spirit"
+      }
+    },
+    {
+      "id": 518436,
+      "score": 0.7461205,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 101.755363464,
+        "mbid": "84b0ec86-f4a3-4996-81fc-41e14e55635f",
+        "artist": "J Hus",
+        "title": "Spirit"
+      }
+    },
+    {
+      "id": 518437,
+      "score": 0.7461205,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 101.755363464,
+        "mbid": "84b0ec86-f4a3-4996-81fc-41e14e55635f",
+        "artist": "J Hus",
+        "title": "Spirit"
+      }
+    },
+    {
+      "id": 518440,
+      "score": 0.7461204,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 101.755363464,
+        "mbid": "84b0ec86-f4a3-4996-81fc-41e14e55635f",
+        "artist": "J Hus",
+        "title": "Spirit"
+      }
+    },
+    {
+      "id": 403125,
+      "score": 0.74539614,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 110.962600708,
+        "mbid": "675c4fa3-a8d3-4ff4-a7ce-ad395b689ef5",
+        "artist": "Meek Mill",
+        "title": "I Got The Juice (Explicit)"
+      }
+    },
+    {
+      "id": 289388,
+      "score": 0.7449719,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "minor",
+        "bpm": 120.842544556,
+        "mbid": "4a0a25ff-e62a-4525-83cb-0a2811affd35",
+        "artist": "V.A",
+        "title": "Mary Had A Little Boy (Club Edit)"
+      }
+    },
+    {
+      "id": 191023,
+      "score": 0.74432343,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 91.8640594482,
+        "mbid": "309cb357-a989-4bda-a4b9-a1989bf1dac7",
+        "artist": "Ayman",
+        "title": "Es Ist Vorbei"
+      }
+    },
+    {
+      "id": 873728,
+      "score": 0.7427985,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "minor",
+        "bpm": 115.013061523,
+        "mbid": "df9675c3-c312-4e91-9644-60181977b760",
+        "artist": "The Knocks feat. X Ambassadors",
+        "title": "Comfortable"
+      }
+    },
+    {
+      "id": 480297,
+      "score": 0.74276006,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "minor",
+        "bpm": 126.188026428,
+        "mbid": "7afed3ca-19ab-4266-8ba7-aae3bb932b35",
+        "artist": "Gil Glaze",
+        "title": "Funkhouse (Antonio Giacca remix)"
+      }
+    },
+    {
+      "id": 1073241,
+      "score": 0.7426512,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "major",
+        "bpm": 92.1076049805,
+        "mbid": "28cbaf27-6de3-462c-acd0-378703e2fb7a",
+        "artist": "Daryl Hall",
+        "title": "Love Revelation"
+      }
+    },
+    {
+      "id": 568012,
+      "score": 0.7420088,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "major",
+        "bpm": 104.92049408,
+        "mbid": "915070d6-0e8b-4a96-8764-8bdef5d48f2e",
+        "artist": "Empire of the Sun",
+        "title": "ZZZ"
+      }
+    },
+    {
+      "id": 1220012,
+      "score": 0.74173784,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "minor",
+        "bpm": 126.641410828,
+        "mbid": "79ec814d-61c1-41ac-a26d-a490fd2c17d5",
+        "artist": "The Isley Brothers",
+        "title": "That Lady"
+      }
+    },
+    {
+      "id": 1228193,
+      "score": 0.74101466,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "minor",
+        "bpm": 109.442893982,
+        "mbid": "7e84e0c5-972b-4f30-9ed9-9e91651e3dcc",
+        "artist": "Kevin Lyttle",
+        "title": "I Got It"
+      }
+    },
+    {
+      "id": 377577,
+      "score": 0.7406323,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "major",
+        "bpm": 119.557975769,
+        "mbid": "60d5478a-fe3c-429d-aeed-79206f40f20d",
+        "artist": "Whitney Houston",
+        "title": "I'm Every Woman"
+      }
+    },
+    {
+      "id": 906088,
+      "score": 0.74042594,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "major",
+        "bpm": 113.989776611,
+        "mbid": "e7e97e57-e533-4be7-bded-9fde3f38045d",
+        "artist": "Mark Ronson",
+        "title": "High (feat. Aya)"
+      }
+    },
+    {
+      "id": 543894,
+      "score": 0.7391319,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "minor",
+        "bpm": 120.836235046,
+        "mbid": "8b26e8c3-9f13-41f7-9301-735f1de6e223",
+        "artist": "Snap!",
+        "title": "Mary Had A Little Boy"
+      }
+    },
+    {
+      "id": 339747,
+      "score": 0.73878014,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 94.9870223999,
+        "mbid": "57291fd1-dc5a-4166-ad89-e67fcb984ab1",
+        "artist": "Matt McAndrew",
+        "title": "Counting On Love"
+      }
+    },
+    {
+      "id": 205489,
+      "score": 0.73859566,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 119.926712036,
+        "mbid": "34732839-ce47-43e6-acda-0c4cf15d8a90",
+        "artist": "Youssou N'Dour",
+        "title": "How You Are (No mele)"
+      }
+    },
+    {
+      "id": 1074792,
+      "score": 0.7384678,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "major",
+        "bpm": 93.9931030273,
+        "mbid": "29b0c1b9-0bdd-4703-ba5d-913a11115479",
+        "artist": "Kelly Clarkson",
+        "title": "Bad Reputation"
+      }
+    },
+    {
+      "id": 8220,
+      "score": 0.73598355,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 85.5019683838,
+        "mbid": "01fb0a45-443e-4468-be9d-1d4b25519fad",
+        "artist": "The Weeknd feat. Chromatics",
+        "title": "Blinding Lights (Chromatics remix)"
+      }
+    },
+    {
+      "id": 1035869,
+      "score": 0.7358236,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "major",
+        "bpm": 131.95791626,
+        "mbid": "13df7989-8922-43d3-9375-d3da43a3830f",
+        "artist": "Alex Party",
+        "title": "Wrap Me Up"
+      }
+    },
+    {
+      "id": 844987,
+      "score": 0.7353454,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 106.06526947,
+        "mbid": "d839c7ed-de3f-4ac9-b904-549da42b0123",
+        "artist": "Olly Murs",
+        "title": "Troublemaker (feat. Flo Rida)"
+      }
+    },
+    {
+      "id": 787674,
+      "score": 0.73451334,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 84.0030975342,
+        "mbid": "c993a2e3-d329-43c6-a457-e9e59022ed77",
+        "artist": "Tech N9ne feat. Craig Smith & Oobergeek",
+        "title": "What's Next?"
+      }
+    },
+    {
+      "id": 1053445,
+      "score": 0.73444414,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 119.660270691,
+        "mbid": "1dc43a4f-8f58-4a24-a2be-ba356b8ab33f",
+        "artist": "Bad Bunny",
+        "title": "El apag\u00f3n"
+      }
+    },
+    {
+      "id": 155823,
+      "score": 0.7344217,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 105.99130249,
+        "mbid": "27c81996-a8a8-4b44-8322-b46cc9e59377",
+        "artist": "Olly Murs feat. Flo Rida",
+        "title": "Troublemaker"
+      }
+    },
+    {
+      "id": 220984,
+      "score": 0.73430794,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 117.203460693,
+        "mbid": "386d4702-1bd4-44be-a5a6-eec64ddfd74d",
+        "artist": "First Choice",
+        "title": "Dr. Love"
+      }
+    },
+    {
+      "id": 232733,
+      "score": 0.7337651,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "major",
+        "bpm": 107.721511841,
+        "mbid": "3b65dd33-af10-4d59-a47e-fd3810c3f5ee",
+        "artist": "Jennifer Lopez",
+        "title": "Feelin' So Good"
+      }
+    },
+    {
+      "id": 289389,
+      "score": 0.73352367,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "minor",
+        "bpm": 120.899940491,
+        "mbid": "4a0a25ff-e62a-4525-83cb-0a2811affd35",
+        "artist": "Snap!",
+        "title": "Mary Had a Little Boy"
+      }
+    },
+    {
+      "id": 231234,
+      "score": 0.7331237,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 105.97013855,
+        "mbid": "3b052db3-e66e-4976-8bf9-d741b6446481",
+        "artist": "Olly Murs feat. Flo Rida",
+        "title": "Troublemaker"
+      }
+    },
+    {
+      "id": 231233,
+      "score": 0.7331237,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 105.97013855,
+        "mbid": "3b052db3-e66e-4976-8bf9-d741b6446481",
+        "artist": "Olly Murs feat. Flo Rida",
+        "title": "Troublemaker"
+      }
+    },
+    {
+      "id": 103113,
+      "score": 0.73293036,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "major",
+        "bpm": 131.975112915,
+        "mbid": "1a64797d-c3b5-47fe-b3d7-8158bd333909",
+        "artist": "Alex Party",
+        "title": "Wrap Me Up"
+      }
+    },
+    {
+      "id": 77605,
+      "score": 0.73293036,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "major",
+        "bpm": 131.975112915,
+        "mbid": "13df7989-8922-43d3-9375-d3da43a3830f",
+        "artist": "Alex Party",
+        "title": "Wrap Me Up"
+      }
+    },
+    {
+      "id": 437837,
+      "score": 0.7327648,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "major",
+        "bpm": 107.753173828,
+        "mbid": "705dcff6-d885-4333-8c45-12ed387b878d",
+        "artist": "Jennifer Lopez Feat. Big Pun",
+        "title": "Feelin' So Good"
+      }
+    },
+    {
+      "id": 1363163,
+      "score": 0.7327632,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 84.0018005371,
+        "mbid": "c993a2e3-d329-43c6-a457-e9e59022ed77",
+        "artist": "Tech N9ne feat. Craig Smith & Oobergeek",
+        "title": "What's Next?"
+      }
+    },
+    {
+      "id": 543895,
+      "score": 0.73243773,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "minor",
+        "bpm": 120.836853027,
+        "mbid": "8b26e8c3-9f13-41f7-9301-735f1de6e223",
+        "artist": "Snap!",
+        "title": "Mary Had A Little Boy"
+      }
+    },
+    {
+      "id": 1071462,
+      "score": 0.73098016,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 106.019714355,
+        "mbid": "27c81996-a8a8-4b44-8322-b46cc9e59377",
+        "artist": "Olly Murs",
+        "title": "Troublemaker"
+      }
+    },
+    {
+      "id": 1071461,
+      "score": 0.7309775,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 106.026443481,
+        "mbid": "27c81996-a8a8-4b44-8322-b46cc9e59377",
+        "artist": "Olly Murs",
+        "title": "Troublemaker"
+      }
+    },
+    {
+      "id": 1302539,
+      "score": 0.7306841,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 107.94695282,
+        "mbid": "a7eabafe-363f-454d-a073-306728058dc1",
+        "artist": "Aretha Franklin",
+        "title": "Rolling In the Deep (The Aretha Version)"
+      }
+    },
+    {
+      "id": 884089,
+      "score": 0.73043364,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "minor",
+        "bpm": 138.909957886,
+        "mbid": "e2437edd-ac22-4627-9287-ab46e48fa0c2",
+        "artist": "Ceephax Acid Crew",
+        "title": "Parallax Drome"
+      }
+    },
+    {
+      "id": 1094324,
+      "score": 0.7303668,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 112.954437256,
+        "mbid": "343d0347-f206-47d1-82f7-996ed1102ddb",
+        "artist": "Depeche Mode",
+        "title": "Enjoy The Silence (Ecstatic Dub)"
+      }
+    },
+    {
+      "id": 903891,
+      "score": 0.7303374,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "minor",
+        "bpm": 84.220741272,
+        "mbid": "e75f25c6-2299-48f7-a0f9-dfd887f50f82",
+        "artist": "Handsome Boy Modeling School",
+        "title": "The Projects"
+      }
+    },
+    {
+      "id": 19317,
+      "score": 0.73030823,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "major",
+        "bpm": 117.500434875,
+        "mbid": "04cbee53-b4ba-479d-a745-04e756e1a0be",
+        "artist": "Howard Johnson",
+        "title": "Let's Take Time Out (12')"
+      }
+    },
+    {
+      "id": 641981,
+      "score": 0.72962,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "minor",
+        "bpm": 97.8990097046,
+        "mbid": "a42037f6-c85f-4ed0-923e-ac35aafc70f4",
+        "artist": "Wyclef Jean feat. Earth, Wind & Fire and The Product G&B",
+        "title": "Runaway"
+      }
+    },
+    {
+      "id": 798090,
+      "score": 0.72954416,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 109.880836487,
+        "mbid": "cc415b88-b9ad-4e07-9f6e-a15780d824a2",
+        "artist": "C\u00e9line Dion",
+        "title": "Misled"
+      }
+    },
+    {
+      "id": 798092,
+      "score": 0.72954416,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 109.880836487,
+        "mbid": "cc415b88-b9ad-4e07-9f6e-a15780d824a2",
+        "artist": "C\u00e9line Dion",
+        "title": "Misled"
+      }
+    },
+    {
+      "id": 798089,
+      "score": 0.72954416,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 109.880836487,
+        "mbid": "cc415b88-b9ad-4e07-9f6e-a15780d824a2",
+        "artist": "C\u00e9line Dion",
+        "title": "Misled"
+      }
+    },
+    {
+      "id": 798091,
+      "score": 0.72954416,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 109.880836487,
+        "mbid": "cc415b88-b9ad-4e07-9f6e-a15780d824a2",
+        "artist": "C\u00e9line Dion",
+        "title": "Misled"
+      }
+    },
+    {
+      "id": 798085,
+      "score": 0.72954416,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 109.880836487,
+        "mbid": "cc415b88-b9ad-4e07-9f6e-a15780d824a2",
+        "artist": "C\u00e9line Dion",
+        "title": "Misled"
+      }
+    },
+    {
+      "id": 798088,
+      "score": 0.72954416,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 109.880836487,
+        "mbid": "cc415b88-b9ad-4e07-9f6e-a15780d824a2",
+        "artist": "C\u00e9line Dion",
+        "title": "Misled"
+      }
+    },
+    {
+      "id": 798087,
+      "score": 0.72954416,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 109.880836487,
+        "mbid": "cc415b88-b9ad-4e07-9f6e-a15780d824a2",
+        "artist": "C\u00e9line Dion",
+        "title": "Misled"
+      }
+    },
+    {
+      "id": 798086,
+      "score": 0.72954416,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 109.880836487,
+        "mbid": "cc415b88-b9ad-4e07-9f6e-a15780d824a2",
+        "artist": "C\u00e9line Dion",
+        "title": "Misled"
+      }
+    },
+    {
+      "id": 368197,
+      "score": 0.7292046,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "minor",
+        "bpm": 101.895957947,
+        "mbid": "5e712f9e-43b2-4531-9c0c-132affcc0837",
+        "artist": "Natasha Bedingfield",
+        "title": "Drop Me In The Middle (Featuring Estelle) "
+      }
+    },
+    {
+      "id": 1094341,
+      "score": 0.72917545,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 128.04725647,
+        "mbid": "343ffe53-ea6a-42f7-be6b-8576c4ae2cee",
+        "artist": "Ti\u00ebsto feat. BT",
+        "title": "Love Comes Again (Manufactured Superstars vs. JQA remix)"
+      }
+    },
+    {
+      "id": 1094343,
+      "score": 0.72917545,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 128.04725647,
+        "mbid": "343ffe53-ea6a-42f7-be6b-8576c4ae2cee",
+        "artist": "Ti\u00ebsto feat? BT",
+        "title": "Love Comes Again (Manufactured Superstars vs? JQA remix)"
+      }
+    },
+    {
+      "id": 1094340,
+      "score": 0.72917545,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 128.04725647,
+        "mbid": "343ffe53-ea6a-42f7-be6b-8576c4ae2cee",
+        "artist": "Ti\u00ebsto",
+        "title": "Love Comes Again Feat. Bt (Manufactured Superstars Vs. Jqa Remix)"
+      }
+    },
+    {
+      "id": 1094342,
+      "score": 0.72917545,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 128.04725647,
+        "mbid": "343ffe53-ea6a-42f7-be6b-8576c4ae2cee",
+        "artist": "Ti\u00ebsto feat? BT",
+        "title": "Love Comes Again (Manufactured Superstars vs? JQA remix)"
+      }
+    },
+    {
+      "id": 652547,
+      "score": 0.72913283,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 120.001197815,
+        "mbid": "a6d88d09-2851-45e2-b429-3c5ddd121629",
+        "artist": "Erasure",
+        "title": "I Lose Myself (\"No Self Control\" Mix By Gareth Jones)"
+      }
+    },
+    {
+      "id": 652546,
+      "score": 0.72913283,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 120.001197815,
+        "mbid": "a6d88d09-2851-45e2-b429-3c5ddd121629",
+        "artist": "Erasure",
+        "title": "I Lose Myself (\"No Self Control\" Mix By Gareth Jones)"
+      }
+    },
+    {
+      "id": 37090,
+      "score": 0.72806454,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 120.037872314,
+        "mbid": "097531bc-67a3-4cef-9698-3e6fd24d34bc",
+        "artist": "Gipsy.Cz",
+        "title": "Benga Beating"
+      }
+    },
+    {
+      "id": 542058,
+      "score": 0.7269659,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "minor",
+        "bpm": 93.0988235474,
+        "mbid": "8ab42014-fe63-444c-9eef-cce91a9ac5ea",
+        "artist": "Brandy",
+        "title": "What About Us?"
+      }
+    }
+  ]
+}

@@ -10,12 +10,13 @@ from datetime import datetime
 # --- Configuration (Paths relative to WORKDIR /app inside container) ---
 # Since ./test is mounted to /app/test and WORKDIR is /app, these paths work:
 EXPECTED_MATCHES_FILE = "test/test_config.json"
-QUERY_JSON_FOLDER = "test/json_lnorm_beta2" # Base folder for query JSONs
+QUERY_JSON_FOLDER = "test/json_no_lnorm_beta2" # Base folder for query JSONs
 RESULTS_CSV_FOLDER = "test/results/"
 SESSION_FOLDER_BASE = "test/session"
 
 # Container execution settings
-CONTAINER_CLIENT_SCRIPT_PATH = "/app/client_similarity.py" # Assumes it's copied/mounted to /app
+# Change just this one line to switch between client implementations
+CLIENT_SCRIPT = "client_similarity_2.py"  # Just the filename, not the full path
 CLIENT_SERVICE_NAME = "client"
 
 # Test Settings
@@ -111,7 +112,7 @@ def main():
                         # It will then call client_similarity.py DIRECTLY
                         # No need for another docker compose run here.
                         sys.executable, # The python interpreter inside the container
-                        "client_similarity.py", # Relative path from /app works
+                        CLIENT_SCRIPT, # Relative path from /app works
                         query_path,             # Relative path from /app works
                         "--json",
                         "--top_k", str(TOP_K)
@@ -120,6 +121,7 @@ def main():
 
                     try:
                         # Execute client_similarity.py directly within the same container
+                        print(f"  Running command: {' '.join(cmd)}")
                         process = subprocess.run(cmd, capture_output=True, text=True, check=False)
 
                         if process.returncode != 0:
