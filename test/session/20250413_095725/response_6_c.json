@@ -1,0 +1,1261 @@
+{
+  "query_final_vector": [
+    0.13492405612084227,
+    -0.15801154214371663,
+    0.1464895728885996,
+    -0.05499752972314491,
+    0.01201395670139175,
+    0.0801342485447021,
+    -0.0648830702508621,
+    0.002787486706436089,
+    0.044395399555501744,
+    0.14699823694977573,
+    0.026052929813711132,
+    0.09444106435724693,
+    -0.06878985712347407,
+    -0.09380013596978168,
+    0.26905052535136953,
+    0.15917941266094351,
+    0.17090223908592295,
+    -0.21290926383298858,
+    -0.0486799958729353,
+    -0.02798358936267849,
+    -0.07820869959687517,
+    -0.11540394081742797,
+    -0.09090586857444768,
+    -0.08639613653793035,
+    0.20426066677085422,
+    0.36826977367994357,
+    0.24825966138588043,
+    -0.057470376142665404,
+    -0.09280358522519964,
+    -0.11864277519499088,
+    -0.10944538999336886,
+    -0.07301761974636707,
+    -0.09374031046631034,
+    -0.10917346652227802,
+    -0.08703618071341189,
+    -0.10325200251380778,
+    -0.045423153866980814,
+    0.018871102403934543,
+    -0.019113775762108116,
+    0.0904431509424826,
+    0.18573672649404546,
+    0.13233415479576902,
+    -0.10146526097218969,
+    -0.13626360465061255,
+    -0.14657978168738586,
+    0.13612661519796657,
+    0.3152346629481704,
+    0.2451440347047371,
+    0.09937356064593084,
+    0.06730454533320947,
+    -0.022440971141763327,
+    -0.11748811712451372,
+    -0.10990887778239568,
+    -0.09934736827889823,
+    -0.032659320778188186
+  ],
+  "results": [
+    {
+      "id": 456769,
+      "score": 0.8524394,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 96.0904159546,
+        "mbid": "753b756a-776c-4dcd-8f82-4abfd6e61466",
+        "artist": "Chambao",
+        "title": "As de Corazones"
+      }
+    },
+    {
+      "id": 1128775,
+      "score": 0.84225047,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 110.53717804,
+        "mbid": "4753a5a9-4102-4a7e-94b2-af1f730affbb",
+        "artist": "Zoom",
+        "title": "Wayawaya"
+      }
+    },
+    {
+      "id": 1128774,
+      "score": 0.84225047,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 110.53717804,
+        "mbid": "4753a5a9-4102-4a7e-94b2-af1f730affbb",
+        "artist": "Zoom",
+        "title": "Wayawaya"
+      }
+    },
+    {
+      "id": 1256622,
+      "score": 0.83781725,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 132.917022705,
+        "mbid": "8e726d36-2dd3-4702-9605-c9c08d72868e",
+        "artist": "Kosheen",
+        "title": "Chances"
+      }
+    },
+    {
+      "id": 435790,
+      "score": 0.8321819,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 103.152000427,
+        "mbid": "6fd744df-0d0c-4b1e-993e-554f3af61d19",
+        "artist": "The Waterboys",
+        "title": "The Raggle Taggle Gypsy"
+      }
+    },
+    {
+      "id": 1166359,
+      "score": 0.83213407,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 132.916870117,
+        "mbid": "5c11e1c0-b470-4e05-a73c-679c4121dc3a",
+        "artist": "Takanori Arisawa",
+        "title": "Dancin' On The Sky ~Miyako's Theme~"
+      }
+    },
+    {
+      "id": 38233,
+      "score": 0.826431,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 122.102828979,
+        "mbid": "09c0e334-3961-4e89-9f08-f85b4261ec2d",
+        "artist": "Omega",
+        "title": "V\u00e9g\u00fcl ez a tang\u00f3"
+      }
+    },
+    {
+      "id": 1116828,
+      "score": 0.8247094,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 105.054977417,
+        "mbid": "408b9b3a-2796-487e-8df1-19c7ca89d548",
+        "artist": "Peter Schilling",
+        "title": "Mach einfach laut"
+      }
+    },
+    {
+      "id": 924251,
+      "score": 0.82346135,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 118.297180176,
+        "mbid": "ecb2d120-ba4e-41d5-8b68-47e6e858bc1e",
+        "artist": "Grupo Fantasma",
+        "title": "Seis Seis Seis"
+      }
+    },
+    {
+      "id": 682646,
+      "score": 0.82238823,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 133.974822998,
+        "mbid": "ae998e49-b166-4d31-9a36-77385f00a19c",
+        "artist": "Ricky Martin",
+        "title": "Are You in It for Love"
+      }
+    },
+    {
+      "id": 682645,
+      "score": 0.82238823,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 133.974822998,
+        "mbid": "ae998e49-b166-4d31-9a36-77385f00a19c",
+        "artist": "Ricky Martin",
+        "title": "Are You in It for Love"
+      }
+    },
+    {
+      "id": 147046,
+      "score": 0.820802,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 98.0870285034,
+        "mbid": "257bd34e-15b8-452e-a986-51cbb3eb6124",
+        "artist": "Los Lobos",
+        "title": "Maricela"
+      }
+    },
+    {
+      "id": 225345,
+      "score": 0.8196475,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 131.90284729,
+        "mbid": "39828e94-5fd6-42ed-860b-ae901d0526b8",
+        "artist": "Peter Heppner",
+        "title": "All Is Shadow (Apoptygma Berzerk Remix)"
+      }
+    },
+    {
+      "id": 744673,
+      "score": 0.8193437,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 128.661117554,
+        "mbid": "be74decd-65a9-4d81-8d8b-6dfae4e638af",
+        "artist": "Death In Vegas",
+        "title": "Rocco"
+      }
+    },
+    {
+      "id": 7936,
+      "score": 0.818901,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 111.697525024,
+        "mbid": "01e8d980-88d9-4cdc-9509-7b33cf7587a0",
+        "artist": "Caro Emerald",
+        "title": "Liquid Lunch"
+      }
+    },
+    {
+      "id": 7935,
+      "score": 0.818901,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 111.697525024,
+        "mbid": "01e8d980-88d9-4cdc-9509-7b33cf7587a0",
+        "artist": "Caro Emerald",
+        "title": "Liquid Lunch"
+      }
+    },
+    {
+      "id": 815105,
+      "score": 0.81889707,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 117.566123962,
+        "mbid": "d0951a8c-4e38-4fb5-a08f-7eec3f27646c",
+        "artist": "Images",
+        "title": "Les D\u00e9mons De Minuit"
+      }
+    },
+    {
+      "id": 15084,
+      "score": 0.8173434,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 131.181182861,
+        "mbid": "03b4f695-7ea8-4b7e-8eb5-e375c37392ea",
+        "artist": "Julio Iglesias",
+        "title": "A Veces T\u00fa, a Veces Yo"
+      }
+    },
+    {
+      "id": 1164631,
+      "score": 0.8169097,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 120.012420654,
+        "mbid": "5b24a667-7210-4ccc-b6a1-29bff2391ab1",
+        "artist": "Chichi Peralta",
+        "title": "Tamborada"
+      }
+    },
+    {
+      "id": 302992,
+      "score": 0.81637794,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "major",
+        "bpm": 87.8177337646,
+        "mbid": "4d8fe7d9-aea1-424d-9c72-aec4ac40dfc3",
+        "artist": "Steve Mason",
+        "title": "Alive!"
+      }
+    },
+    {
+      "id": 433245,
+      "score": 0.81537896,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 105.297515869,
+        "mbid": "6f26c9dd-77cd-45a9-8097-d82a64f00d16",
+        "artist": "Don Henley",
+        "title": "Miss Ghost"
+      }
+    },
+    {
+      "id": 842774,
+      "score": 0.81478804,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 129.762115479,
+        "mbid": "d7a98ecb-0246-4a85-a4d7-2cf1f6ce98df",
+        "artist": "Echo & The Bunnymen",
+        "title": "Lips Like Sugar (12\u2032\u2032 Mix)"
+      }
+    },
+    {
+      "id": 1023548,
+      "score": 0.81352323,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "major",
+        "bpm": 100.593002319,
+        "mbid": "0cf1eae6-9451-4351-a171-da46f3513bb5",
+        "artist": "Sweethearts Of The Rodeo",
+        "title": "Pretty Words"
+      }
+    },
+    {
+      "id": 1355288,
+      "score": 0.8113648,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 98.7729949951,
+        "mbid": "c515ec54-2d08-4e1f-8c2c-e373786f7a93",
+        "artist": "Chingon",
+        "title": "Cuka Rocka (Extended)"
+      }
+    },
+    {
+      "id": 1396004,
+      "score": 0.81098896,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 85.0079269409,
+        "mbid": "dc0e1ad4-ea01-4159-9c35-cbd521f28bd0",
+        "artist": "Los Fabulosos Cadillacs",
+        "title": "Padre Nuestro (Cumbia Hot Rod Version)"
+      }
+    },
+    {
+      "id": 1019516,
+      "score": 0.8104464,
+      "payload": {
+        "key_key": "B",
+        "key_scale": "minor",
+        "bpm": 127.674034119,
+        "mbid": "0ad225fb-3407-453f-89b4-dc104f569f4e",
+        "artist": "Cusco",
+        "title": "North Easter"
+      }
+    },
+    {
+      "id": 208370,
+      "score": 0.8104464,
+      "payload": {
+        "key_key": "B",
+        "key_scale": "minor",
+        "bpm": 127.674034119,
+        "mbid": "3531ae56-e598-4783-97a3-a3f4760bd09b",
+        "artist": "Cusco",
+        "title": "North Easter"
+      }
+    },
+    {
+      "id": 207916,
+      "score": 0.80992216,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 126.519981384,
+        "mbid": "35126658-4011-426b-bfc4-cae7ce6653d6",
+        "artist": "Fleetwood Mac",
+        "title": "Ricky (Remastered)"
+      }
+    },
+    {
+      "id": 867075,
+      "score": 0.80919003,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 114.772132874,
+        "mbid": "ddf444bc-841b-4a5b-af50-abeae1510edc",
+        "artist": "Ladytron",
+        "title": "Far From Home"
+      }
+    },
+    {
+      "id": 433244,
+      "score": 0.808912,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 105.291374207,
+        "mbid": "6f26c9dd-77cd-45a9-8097-d82a64f00d16",
+        "artist": "Don Henley",
+        "title": "Miss Ghost"
+      }
+    },
+    {
+      "id": 253157,
+      "score": 0.8074856,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 114.775688171,
+        "mbid": "40987c34-ea7d-4aec-a876-f94756337815",
+        "artist": "Ladytron",
+        "title": "Far From Home"
+      }
+    },
+    {
+      "id": 979502,
+      "score": 0.8074741,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 110.51033783,
+        "mbid": "fadaf367-1cb6-490c-a3e0-a526a823529c",
+        "artist": "Pat Metheny; Pat Metheny Group",
+        "title": "Praise"
+      }
+    },
+    {
+      "id": 556944,
+      "score": 0.80734104,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 112.056091309,
+        "mbid": "8e7611f4-15c2-4fd4-bf18-2b21ca408db5",
+        "artist": "CREATIVE CONNECTION",
+        "title": "SCRATCH MY NAME"
+      }
+    },
+    {
+      "id": 556943,
+      "score": 0.80734104,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 112.056091309,
+        "mbid": "8e7611f4-15c2-4fd4-bf18-2b21ca408db5",
+        "artist": "Creative Connection",
+        "title": "Scratch My Name"
+      }
+    },
+    {
+      "id": 416922,
+      "score": 0.8057624,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 120.053497314,
+        "mbid": "6ae7bdb1-e322-435d-8d8c-0ae0df742bac",
+        "artist": "Jeff Ball",
+        "title": "RoboTiny (unused)"
+      }
+    },
+    {
+      "id": 1334518,
+      "score": 0.8047595,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "major",
+        "bpm": 104.983673096,
+        "mbid": "b999cac8-6671-4ec8-ae90-837810d0ef18",
+        "artist": "Sting",
+        "title": "Brand New Day"
+      }
+    },
+    {
+      "id": 1201482,
+      "score": 0.8046144,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 103.153755188,
+        "mbid": "6fd744df-0d0c-4b1e-993e-554f3af61d19",
+        "artist": "The Waterboys",
+        "title": "The Raggle Taggle Gypsy"
+      }
+    },
+    {
+      "id": 1201480,
+      "score": 0.8046144,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 103.153755188,
+        "mbid": "6fd744df-0d0c-4b1e-993e-554f3af61d19",
+        "artist": "The Waterboys",
+        "title": "The Raggle Taggle Gypsy"
+      }
+    },
+    {
+      "id": 1201481,
+      "score": 0.8046144,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 103.153755188,
+        "mbid": "6fd744df-0d0c-4b1e-993e-554f3af61d19",
+        "artist": "the waterboys",
+        "title": "the raggle taggle gypsy"
+      }
+    },
+    {
+      "id": 6946,
+      "score": 0.80350924,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 123.085983276,
+        "mbid": "01a408a4-3774-4b7a-9c8b-3de9ea2c423c",
+        "artist": "a-ha",
+        "title": "The Blood That Moves the Body (extended remix)"
+      }
+    },
+    {
+      "id": 142436,
+      "score": 0.80347025,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 96.1674499512,
+        "mbid": "2450d4c5-8458-4b35-bc25-642335c84c88",
+        "artist": "John Coltrane",
+        "title": "My Favorite Things"
+      }
+    },
+    {
+      "id": 142432,
+      "score": 0.80347025,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 96.1674499512,
+        "mbid": "2450d4c5-8458-4b35-bc25-642335c84c88",
+        "artist": "John Coltrane",
+        "title": "My Favorite Things"
+      }
+    },
+    {
+      "id": 142439,
+      "score": 0.80347025,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 96.1674499512,
+        "mbid": "2450d4c5-8458-4b35-bc25-642335c84c88",
+        "artist": "John Coltrane",
+        "title": "My Favorite Things"
+      }
+    },
+    {
+      "id": 142434,
+      "score": 0.80347025,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 96.1674499512,
+        "mbid": "2450d4c5-8458-4b35-bc25-642335c84c88",
+        "artist": "John Coltrane",
+        "title": "My Favorite Things"
+      }
+    },
+    {
+      "id": 142438,
+      "score": 0.80347025,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 96.1674499512,
+        "mbid": "2450d4c5-8458-4b35-bc25-642335c84c88",
+        "artist": "John Coltrane",
+        "title": "My Favorite Things"
+      }
+    },
+    {
+      "id": 142433,
+      "score": 0.80347025,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 96.1674499512,
+        "mbid": "2450d4c5-8458-4b35-bc25-642335c84c88",
+        "artist": "John Coltrane",
+        "title": "My Favorite Things"
+      }
+    },
+    {
+      "id": 142435,
+      "score": 0.80347025,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 96.1674499512,
+        "mbid": "2450d4c5-8458-4b35-bc25-642335c84c88",
+        "artist": "John Coltrane",
+        "title": "My Favorite Things"
+      }
+    },
+    {
+      "id": 142437,
+      "score": 0.80347025,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 96.1674499512,
+        "mbid": "2450d4c5-8458-4b35-bc25-642335c84c88",
+        "artist": "John Coltrane",
+        "title": "My Favorite Things"
+      }
+    },
+    {
+      "id": 406018,
+      "score": 0.80329776,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 123.54145813,
+        "mbid": "6821b9a2-b3f3-4545-acc7-523578683948",
+        "artist": "Los Enanitos Verdes",
+        "title": "Lamento Boliviano"
+      }
+    },
+    {
+      "id": 406017,
+      "score": 0.80329776,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 123.54145813,
+        "mbid": "6821b9a2-b3f3-4545-acc7-523578683948",
+        "artist": "Los Enanitos Verdes",
+        "title": "Lamento Boliviano"
+      }
+    },
+    {
+      "id": 980775,
+      "score": 0.8031778,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 150.976959229,
+        "mbid": "fb2f4409-28e9-4ba1-9773-9994081f906d",
+        "artist": "L. Subramaniam",
+        "title": "Indian Express"
+      }
+    },
+    {
+      "id": 759209,
+      "score": 0.80307186,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 93.9262161255,
+        "mbid": "c22d8e66-ee29-4901-b7b8-05d4ec777a1a",
+        "artist": "J.J. Cale",
+        "title": "Devil in Disguise"
+      }
+    },
+    {
+      "id": 759208,
+      "score": 0.80307186,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 93.9262161255,
+        "mbid": "c22d8e66-ee29-4901-b7b8-05d4ec777a1a",
+        "artist": "J.J. Cale",
+        "title": "Devil in Disguise"
+      }
+    },
+    {
+      "id": 1342820,
+      "score": 0.80301464,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 125.689460754,
+        "mbid": "be30c9d6-66a6-4183-b474-c86f458934f8",
+        "artist": "Paul Kelly & Kasey Chambers",
+        "title": "Heartbreak Heartmend"
+      }
+    },
+    {
+      "id": 1342819,
+      "score": 0.80301464,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 125.689460754,
+        "mbid": "be30c9d6-66a6-4183-b474-c86f458934f8",
+        "artist": "Paul Kelly & Kasey Chambers",
+        "title": "Heartbreak Heartmend"
+      }
+    },
+    {
+      "id": 1342818,
+      "score": 0.80301464,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 125.689460754,
+        "mbid": "be30c9d6-66a6-4183-b474-c86f458934f8",
+        "artist": "Paul Kelly & Kasey Chambers",
+        "title": "Heartbreak Heartmend"
+      }
+    },
+    {
+      "id": 589161,
+      "score": 0.80298597,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 123.507049561,
+        "mbid": "96a18f4d-d366-484b-93ac-285ef6abbcd0",
+        "artist": "Los Enanitos Verdes",
+        "title": "Lamento Boliviano"
+      }
+    },
+    {
+      "id": 1109029,
+      "score": 0.8026075,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 117.589447021,
+        "mbid": "3c369347-dd9b-4e22-b81a-70a045c0b207",
+        "artist": "Image",
+        "title": "Les D\u00e9mons De Minuit"
+      }
+    },
+    {
+      "id": 1109030,
+      "score": 0.8026075,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 117.589447021,
+        "mbid": "3c369347-dd9b-4e22-b81a-70a045c0b207",
+        "artist": "Image",
+        "title": "Les D\u00e9mons De Minuit"
+      }
+    },
+    {
+      "id": 443482,
+      "score": 0.80237806,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 116.635643005,
+        "mbid": "71d70cda-0839-44c4-b9d1-7ac0b4af3ba1",
+        "artist": "I Built The Sky",
+        "title": "Velum"
+      }
+    },
+    {
+      "id": 1318921,
+      "score": 0.8019637,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 114.137390137,
+        "mbid": "b0f71c4a-454c-4f88-9fde-e40f6c1309a6",
+        "artist": "Alquin",
+        "title": "Sweet Surrender (new studiotrack)"
+      }
+    },
+    {
+      "id": 308820,
+      "score": 0.8018652,
+      "payload": {
+        "key_key": "B",
+        "key_scale": "minor",
+        "bpm": 111.964904785,
+        "mbid": "4f0c78eb-30aa-4a17-9f0d-2b67df6e1ef9",
+        "artist": "Blondie",
+        "title": "Man Overboard"
+      }
+    },
+    {
+      "id": 791949,
+      "score": 0.80147773,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 116.656318665,
+        "mbid": "caa7bd4c-ff2c-4a99-81f0-9f8354ae5e5e",
+        "artist": "Bob James",
+        "title": "Touchdown"
+      }
+    },
+    {
+      "id": 791951,
+      "score": 0.80147773,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 116.656318665,
+        "mbid": "caa7bd4c-ff2c-4a99-81f0-9f8354ae5e5e",
+        "artist": "Bob James",
+        "title": "Touchdown"
+      }
+    },
+    {
+      "id": 423049,
+      "score": 0.8005154,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 91.9381713867,
+        "mbid": "6c82a342-5c2d-4426-98ea-d0ca9e2d1854",
+        "artist": "Fahir Atako\u011flu",
+        "title": "Oniki"
+      }
+    },
+    {
+      "id": 997654,
+      "score": 0.8004794,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 122.033508301,
+        "mbid": "ff6e1e82-b242-4b9c-a4ed-f436078caa23",
+        "artist": "LAMF",
+        "title": "Beyond"
+      }
+    },
+    {
+      "id": 312182,
+      "score": 0.80020714,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 124.010093689,
+        "mbid": "4fe4def8-25cd-48f3-8d6d-2171640b951e",
+        "artist": "Future Crew",
+        "title": "In Certain Frequency"
+      }
+    },
+    {
+      "id": 147139,
+      "score": 0.7998262,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 99.9991989136,
+        "mbid": "258118df-6b61-4b05-b76f-132bca7a532d",
+        "artist": "Santana",
+        "title": "In Search Of Mona Lisa"
+      }
+    },
+    {
+      "id": 890716,
+      "score": 0.7993624,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "major",
+        "bpm": 128.239532471,
+        "mbid": "e3f277d2-6a0a-483c-a855-64399390f30b",
+        "artist": "Datarock",
+        "title": "The Pretender (Holy Ghost Remix Radio Edit)"
+      }
+    },
+    {
+      "id": 233472,
+      "score": 0.7993418,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 95.9687423706,
+        "mbid": "3b99b731-de59-41c8-ac1e-7ad9c1cbdd41",
+        "artist": "Derek Ryan",
+        "title": "Raggle Taggle Gypsy"
+      }
+    },
+    {
+      "id": 124318,
+      "score": 0.79912764,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "major",
+        "bpm": 118.504272461,
+        "mbid": "1fc5d69d-f5e6-4a45-8dea-e7e0be8644f0",
+        "artist": "J.J. Cale",
+        "title": "City Girls"
+      }
+    },
+    {
+      "id": 124317,
+      "score": 0.79912764,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "major",
+        "bpm": 118.504272461,
+        "mbid": "1fc5d69d-f5e6-4a45-8dea-e7e0be8644f0",
+        "artist": "J.J. Cale",
+        "title": "City Girls"
+      }
+    },
+    {
+      "id": 183344,
+      "score": 0.7989502,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 117.598754883,
+        "mbid": "2eb47df9-5bb0-4270-87d6-b783b3d101aa",
+        "artist": "Images",
+        "title": "Les D\u00e9mons De Minuit"
+      }
+    },
+    {
+      "id": 183345,
+      "score": 0.7989502,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 117.598754883,
+        "mbid": "2eb47df9-5bb0-4270-87d6-b783b3d101aa",
+        "artist": "Images",
+        "title": "Les D\u00e9mons De Minuit"
+      }
+    },
+    {
+      "id": 824856,
+      "score": 0.79893625,
+      "payload": {
+        "key_key": "B",
+        "key_scale": "minor",
+        "bpm": 119.560470581,
+        "mbid": "d320c58c-7f12-4a1e-9461-cb607354f019",
+        "artist": "The Badloves",
+        "title": "Slave"
+      }
+    },
+    {
+      "id": 1054202,
+      "score": 0.7979676,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 98.9147872925,
+        "mbid": "1e2c74e6-336d-4ab1-b03c-98e028d43b42",
+        "artist": "David Arnold",
+        "title": "Welcome to Cuba"
+      }
+    },
+    {
+      "id": 1038188,
+      "score": 0.79782706,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 113.94052887,
+        "mbid": "152f8b96-b870-4ca5-9247-e9734cc98e0a",
+        "artist": "\u05e7\u05d5\u05d1\u05d9 \u05e4\u05e8\u05e5",
+        "title": "\u05d1\u05dc\u05d1\u05dc\u05d9 \u05d0\u05d5\u05ea\u05d5"
+      }
+    },
+    {
+      "id": 1073420,
+      "score": 0.79750776,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 128.105575562,
+        "mbid": "28e6fb3b-8a3d-4acd-8021-c58e44b5e897",
+        "artist": "Ivanov",
+        "title": "Les Nuits Sans Soleil"
+      }
+    },
+    {
+      "id": 1073419,
+      "score": 0.79750776,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 128.105575562,
+        "mbid": "28e6fb3b-8a3d-4acd-8021-c58e44b5e897",
+        "artist": "Ivanov",
+        "title": "Les Nuits Sans Soleil"
+      }
+    },
+    {
+      "id": 933449,
+      "score": 0.7975032,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 138.001922607,
+        "mbid": "ef120d91-2472-4370-abe4-911cdb2b707a",
+        "artist": "Dogzilla",
+        "title": "Without You"
+      }
+    },
+    {
+      "id": 24292,
+      "score": 0.79737514,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 99.9828109741,
+        "mbid": "061e4a28-dbae-4491-898a-ef2327da55a7",
+        "artist": "Bobbi Humphrey",
+        "title": "Smiling Faces Sometimes"
+      }
+    },
+    {
+      "id": 390855,
+      "score": 0.79711956,
+      "payload": {
+        "key_key": "B",
+        "key_scale": "minor",
+        "bpm": 117.963905334,
+        "mbid": "6430cc03-058f-4d7e-a5f2-e8963f051e37",
+        "artist": "Oliver Cheatham",
+        "title": "Unknown"
+      }
+    },
+    {
+      "id": 1227708,
+      "score": 0.79697955,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 132.692276001,
+        "mbid": "7e433c6e-f244-4122-91cb-a8caae06868f",
+        "artist": "\u0413\u043e\u0441\u0442\u0438 \u0438\u0437 \u0431\u0443\u0434\u0443\u0449\u0435\u0433\u043e",
+        "title": "\u0412\u0440\u0435\u043c\u044f \u043f\u0435\u0441\u043e\u043a (remix)"
+      }
+    },
+    {
+      "id": 1305161,
+      "score": 0.7952722,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 92.5241928101,
+        "mbid": "a956b5f7-e42a-43ca-a41c-82c2bb5a10cb",
+        "artist": "Andr\u00e9s Calamaro",
+        "title": "Donde Manda Marinero"
+      }
+    },
+    {
+      "id": 31566,
+      "score": 0.79511374,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 122.182975769,
+        "mbid": "0813041b-b4c7-46c0-a3e9-0df6bbb606fe",
+        "artist": "Body Music",
+        "title": "Just One"
+      }
+    },
+    {
+      "id": 1165814,
+      "score": 0.79474014,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 113.125869751,
+        "mbid": "5bce038b-d3b5-4c40-a5eb-e5a6303326ec",
+        "artist": "Creative Connection",
+        "title": "Call My Name (The Final Disco Remix)"
+      }
+    },
+    {
+      "id": 169941,
+      "score": 0.79444844,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 119.996490479,
+        "mbid": "2b56da89-f89e-42d2-a022-7643ba8596ba",
+        "artist": "Dave Matthews Band",
+        "title": "Mother Father"
+      }
+    },
+    {
+      "id": 1078430,
+      "score": 0.79444486,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 133.53302002,
+        "mbid": "2ba6610a-0007-43e8-a19b-1ffe7693a7a3",
+        "artist": "Hamlet Minassian",
+        "title": "A\u00ef-A\u00ef Heyveh Heyveh"
+      }
+    },
+    {
+      "id": 589162,
+      "score": 0.7938376,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 123.544303894,
+        "mbid": "96a18f4d-d366-484b-93ac-285ef6abbcd0",
+        "artist": "Los Enanitos Verdes",
+        "title": "Lamento Boliviano"
+      }
+    },
+    {
+      "id": 1165059,
+      "score": 0.79382026,
+      "payload": {
+        "key_key": "B",
+        "key_scale": "minor",
+        "bpm": 101.301643372,
+        "mbid": "5b5dcb1f-747d-4279-841c-fed700cae736",
+        "artist": "The Brand New Heavies",
+        "title": "Never Stop"
+      }
+    },
+    {
+      "id": 1165060,
+      "score": 0.79382026,
+      "payload": {
+        "key_key": "B",
+        "key_scale": "minor",
+        "bpm": 101.301643372,
+        "mbid": "5b5dcb1f-747d-4279-841c-fed700cae736",
+        "artist": "The Brand New Heavies",
+        "title": "Never Stop"
+      }
+    },
+    {
+      "id": 1041709,
+      "score": 0.79309815,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "major",
+        "bpm": 112.923912048,
+        "mbid": "172390ce-d3de-4243-af29-0f148ebacd3d",
+        "artist": "Bruce Springsteen & The E Street Band",
+        "title": "Born in the U.S.A."
+      }
+    },
+    {
+      "id": 344369,
+      "score": 0.79283875,
+      "payload": {
+        "key_key": "B",
+        "key_scale": "major",
+        "bpm": 134.099746704,
+        "mbid": "5852835b-3458-409f-a567-43617f5938d3",
+        "artist": "Dead Or Alive",
+        "title": "You Spin Me Round (Sugar Pumpers Radio Mix)"
+      }
+    },
+    {
+      "id": 877855,
+      "score": 0.79236954,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 135.294387817,
+        "mbid": "e09ad4f3-65fc-4866-aad7-b20ad00e24fa",
+        "artist": "Adriano Celentano",
+        "title": "Stivali e colbacco"
+      }
+    },
+    {
+      "id": 877857,
+      "score": 0.79236954,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 135.294387817,
+        "mbid": "e09ad4f3-65fc-4866-aad7-b20ad00e24fa",
+        "artist": "Adriano Celentano",
+        "title": "Stivali e colbacco"
+      }
+    },
+    {
+      "id": 877856,
+      "score": 0.79236954,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 135.294387817,
+        "mbid": "e09ad4f3-65fc-4866-aad7-b20ad00e24fa",
+        "artist": "Adriano Celentano",
+        "title": "Stivali E Colbacco"
+      }
+    },
+    {
+      "id": 1370605,
+      "score": 0.79202175,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 122.898788452,
+        "mbid": "cdc44821-f632-4037-85b0-80c69fcb502a",
+        "artist": "Yes",
+        "title": "Friend of a Friend"
+      }
+    },
+    {
+      "id": 746360,
+      "score": 0.7917974,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 106.147384644,
+        "mbid": "bee26359-82ea-4782-bbb6-ab1915208ad7",
+        "artist": "Casiopea",
+        "title": "Midnight Rendezvous"
+      }
+    },
+    {
+      "id": 1199662,
+      "score": 0.79163516,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 126.152488708,
+        "mbid": "6edcd36c-3d8b-45f4-9e06-4513e01d6391",
+        "artist": "Chris De Burgh",
+        "title": "The Ecstasy Of Flight (I Love The Night)"
+      }
+    },
+    {
+      "id": 838385,
+      "score": 0.7915559,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 114.465637207,
+        "mbid": "d692a6d6-13d6-4e9a-8077-8f913fe183df",
+        "artist": "Hiroki Morishita",
+        "title": "Dark Song (Instrumental)"
+      }
+    }
+  ]
+}

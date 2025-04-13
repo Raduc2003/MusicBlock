@@ -37,6 +37,9 @@ else:
 with open(GLOBAL_MIN_MAX_FILE, "r") as f:
     global_min_max = json.load(f)  # Should be a list of 55 [min, max] pairs
 
+
+
+
 def normalize_vector(vector, min_max):
     """
     Normalize a single feature vector using the provided per-dimension min and max values.

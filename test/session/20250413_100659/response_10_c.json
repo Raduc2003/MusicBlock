@@ -1,0 +1,1261 @@
+{
+  "query_final_vector": [
+    0.19490528933203266,
+    -0.1436868563732443,
+    0.05263781744897301,
+    -0.0072603480160612485,
+    -0.08971816662440599,
+    0.05872584260458512,
+    -0.07719808694464775,
+    0.057782207448642306,
+    0.1864097859191093,
+    0.049214027211940355,
+    0.18042705906831535,
+    -0.060352356325948056,
+    -0.03686747907499656,
+    -0.17633980258805354,
+    0.223525253522361,
+    0.10770172246048867,
+    -0.08020709249692307,
+    0.17792958659037067,
+    -0.03186181181588522,
+    -0.12571621799978866,
+    -0.14292720236528955,
+    -0.06388628127266598,
+    0.07538555352463219,
+    0.17580409860673038,
+    0.04559411761888564,
+    0.01729069883584179,
+    0.06958484964062096,
+    -0.08441442094707656,
+    -0.1334672037931896,
+    -0.09914030414086449,
+    -0.014459197571335174,
+    0.09489267208578606,
+    0.19701908840782945,
+    0.027083018301582315,
+    -0.10165698537513236,
+    -0.046405420748142544,
+    0.15706978943256905,
+    0.3386693392647695,
+    0.48270824577817206,
+    0.15418748960829268,
+    -0.08219065088152328,
+    -0.12842096698704805,
+    -0.0853851290228399,
+    0.0005570097096224159,
+    0.049713081566366536,
+    -0.006964534026407368,
+    0.03858409452824526,
+    0.11082186660831388,
+    -0.07840755355234469,
+    -0.16942688074078072,
+    -0.1675813880377249,
+    -0.07243525966235963,
+    0.047835289990835944,
+    0.13277141077445692,
+    -0.005747809876555008
+  ],
+  "results": [
+    {
+      "id": 706464,
+      "score": 0.89439696,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 114.934593201,
+        "mbid": "b4b55f62-01c9-4148-b0fa-b1f56f12d123",
+        "artist": "Stanley Clarke/George Duke",
+        "title": "Oh Oh"
+      }
+    },
+    {
+      "id": 221363,
+      "score": 0.8730774,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 104.560874939,
+        "mbid": "3889afaa-846d-44db-bbee-1656ec51744d",
+        "artist": "Rufus & Chaka Khan",
+        "title": "Ain't Nobody (Hallucinogenic version)"
+      }
+    },
+    {
+      "id": 152771,
+      "score": 0.8678176,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 122.235580444,
+        "mbid": "26f7bb0d-133d-4811-a8bf-0ff930c5a11a",
+        "artist": "Depeche Mode",
+        "title": "World In My Eyes "
+      }
+    },
+    {
+      "id": 152769,
+      "score": 0.8671938,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 122.284645081,
+        "mbid": "26f7bb0d-133d-4811-a8bf-0ff930c5a11a",
+        "artist": "Depeche Mode",
+        "title": "World In My Eyes"
+      }
+    },
+    {
+      "id": 152768,
+      "score": 0.8671938,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 122.284645081,
+        "mbid": "26f7bb0d-133d-4811-a8bf-0ff930c5a11a",
+        "artist": "Depeche Mode",
+        "title": "World In My Eyes"
+      }
+    },
+    {
+      "id": 152770,
+      "score": 0.8667299,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 122.228233337,
+        "mbid": "26f7bb0d-133d-4811-a8bf-0ff930c5a11a",
+        "artist": "Depeche Mode",
+        "title": "World in My Eyes"
+      }
+    },
+    {
+      "id": 1069844,
+      "score": 0.8658129,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 122.228218079,
+        "mbid": "26f7bb0d-133d-4811-a8bf-0ff930c5a11a",
+        "artist": "Depeche Mode",
+        "title": "World In My Eyes"
+      }
+    },
+    {
+      "id": 865351,
+      "score": 0.8631025,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "minor",
+        "bpm": 93.0166091919,
+        "mbid": "dd84ec54-c90f-4ca2-b754-c036dc11cd8f",
+        "artist": "Chris Brown feat. Lil Wayne",
+        "title": "Gimme Whatcha Got"
+      }
+    },
+    {
+      "id": 865350,
+      "score": 0.8631025,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "minor",
+        "bpm": 93.0166091919,
+        "mbid": "dd84ec54-c90f-4ca2-b754-c036dc11cd8f",
+        "artist": "Chris Brown feat. Lil Wayne",
+        "title": "Gimme Whatcha Got"
+      }
+    },
+    {
+      "id": 865352,
+      "score": 0.8631025,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "minor",
+        "bpm": 93.0166091919,
+        "mbid": "dd84ec54-c90f-4ca2-b754-c036dc11cd8f",
+        "artist": "Chris Brown feat. Lil Wayne",
+        "title": "Gimme Whatcha Got"
+      }
+    },
+    {
+      "id": 865353,
+      "score": 0.8631025,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "minor",
+        "bpm": 93.0166091919,
+        "mbid": "dd84ec54-c90f-4ca2-b754-c036dc11cd8f",
+        "artist": "Chris Brown feat. Lil Wayne",
+        "title": "Gimme Whatcha Got"
+      }
+    },
+    {
+      "id": 865349,
+      "score": 0.8631025,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "minor",
+        "bpm": 93.0166091919,
+        "mbid": "dd84ec54-c90f-4ca2-b754-c036dc11cd8f",
+        "artist": "Chris Brown feat. Lil Wayne",
+        "title": "Gimme Whatcha Got"
+      }
+    },
+    {
+      "id": 865348,
+      "score": 0.8631025,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "minor",
+        "bpm": 93.0166091919,
+        "mbid": "dd84ec54-c90f-4ca2-b754-c036dc11cd8f",
+        "artist": "Chris Brown feat. Lil Wayne",
+        "title": "Gimme Whatcha Got"
+      }
+    },
+    {
+      "id": 60808,
+      "score": 0.8626862,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 94.0123977661,
+        "mbid": "0f924faa-a1e0-47a6-abb6-4efc86d6b62f",
+        "artist": "Vybz Kartel",
+        "title": "Dumper Truck (That Sweet Yuh)"
+      }
+    },
+    {
+      "id": 152767,
+      "score": 0.8626599,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 122.212516785,
+        "mbid": "26f7bb0d-133d-4811-a8bf-0ff930c5a11a",
+        "artist": "Depeche Mode",
+        "title": "World in My Eyes"
+      }
+    },
+    {
+      "id": 304012,
+      "score": 0.86157626,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 118.772949219,
+        "mbid": "4dd30d28-ccd2-47bf-8b42-ea433cd3051a",
+        "artist": "Art Of Tones",
+        "title": "Reprise De Fonk"
+      }
+    },
+    {
+      "id": 279546,
+      "score": 0.86040795,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 87.9996337891,
+        "mbid": "47619f6d-d4bd-4e1d-9b4f-9dfc311ec8ee",
+        "artist": "Brian Culbertson",
+        "title": "After Hours"
+      }
+    },
+    {
+      "id": 152765,
+      "score": 0.85898477,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 122.246643066,
+        "mbid": "26f7bb0d-133d-4811-a8bf-0ff930c5a11a",
+        "artist": "Depeche Mode",
+        "title": "World in My Eyes"
+      }
+    },
+    {
+      "id": 992047,
+      "score": 0.85845023,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 87.9976425171,
+        "mbid": "fe0f4c54-ea38-4f30-a24b-feb1a0d48179",
+        "artist": "Brian Culbertson",
+        "title": "After Hours (extended solo mix)"
+      }
+    },
+    {
+      "id": 392702,
+      "score": 0.85660905,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 88.0091629028,
+        "mbid": "64adf062-179d-493b-83ed-e487cd28474e",
+        "artist": "Joe Budden feat. Emanny",
+        "title": "Ghetto Burbs"
+      }
+    },
+    {
+      "id": 557044,
+      "score": 0.85628265,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 111.134544373,
+        "mbid": "8e7cc502-32a8-4473-bcb7-1a46f35273b2",
+        "artist": "Carly Simon",
+        "title": "Interview"
+      }
+    },
+    {
+      "id": 557045,
+      "score": 0.85628265,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 111.134544373,
+        "mbid": "8e7cc502-32a8-4473-bcb7-1a46f35273b2",
+        "artist": "Carly Simon",
+        "title": "Interview"
+      }
+    },
+    {
+      "id": 392700,
+      "score": 0.8551007,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 88.0113449097,
+        "mbid": "64adf062-179d-493b-83ed-e487cd28474e",
+        "artist": "Joe Budden feat. Emanny",
+        "title": "Ghetto Burbs"
+      }
+    },
+    {
+      "id": 392701,
+      "score": 0.8551007,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 88.0113449097,
+        "mbid": "64adf062-179d-493b-83ed-e487cd28474e",
+        "artist": "Joe Budden feat. Emanny",
+        "title": "Ghetto Burbs"
+      }
+    },
+    {
+      "id": 392704,
+      "score": 0.8551007,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 88.0113449097,
+        "mbid": "64adf062-179d-493b-83ed-e487cd28474e",
+        "artist": "Joe Budden feat. Emanny",
+        "title": "Ghetto Burbs"
+      }
+    },
+    {
+      "id": 392703,
+      "score": 0.8551007,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 88.0113449097,
+        "mbid": "64adf062-179d-493b-83ed-e487cd28474e",
+        "artist": "Joe Budden feat. Emanny",
+        "title": "Ghetto Burbs"
+      }
+    },
+    {
+      "id": 392699,
+      "score": 0.8551007,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 88.0113449097,
+        "mbid": "64adf062-179d-493b-83ed-e487cd28474e",
+        "artist": "Joe Budden feat. Emanny",
+        "title": "Ghetto Burbs"
+      }
+    },
+    {
+      "id": 417333,
+      "score": 0.85123616,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 105.820098877,
+        "mbid": "6b04711b-a859-4e65-a20c-d01047feb265",
+        "artist": "Bonfire",
+        "title": "SDI"
+      }
+    },
+    {
+      "id": 36014,
+      "score": 0.850809,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 99.8794403076,
+        "mbid": "0934d3fc-40a8-44a4-84e7-4a0e781bb113",
+        "artist": "she",
+        "title": "I'll Be Around"
+      }
+    },
+    {
+      "id": 763944,
+      "score": 0.85072726,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "minor",
+        "bpm": 89.9041595459,
+        "mbid": "c373464d-01f7-42be-be35-cd14aa611f1f",
+        "artist": "B\u00e9zier",
+        "title": "\u5e9c\u57ce"
+      }
+    },
+    {
+      "id": 902318,
+      "score": 0.849348,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 122.96005249,
+        "mbid": "e6f68eb9-b7d7-45bb-a47b-538aa7bdf0c8",
+        "artist": "Breathe Carolina",
+        "title": "Blackout"
+      }
+    },
+    {
+      "id": 995102,
+      "score": 0.8475806,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 96.3367156982,
+        "mbid": "fecd818d-3033-4d44-afa5-e0f424ac135f",
+        "artist": "Peter Gabriel",
+        "title": "Sledgehammer"
+      }
+    },
+    {
+      "id": 164098,
+      "score": 0.8471249,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 96.3124847412,
+        "mbid": "29d17df4-7514-4538-9642-4cea073e059b",
+        "artist": "Peter Gabriel",
+        "title": "Sledgehammer"
+      }
+    },
+    {
+      "id": 355766,
+      "score": 0.8466939,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 102.756492615,
+        "mbid": "5b401b8e-a702-49e6-9a1f-5188d50b37c1",
+        "artist": "Jeff Lorber",
+        "title": "Ain't Nobody"
+      }
+    },
+    {
+      "id": 152766,
+      "score": 0.8461054,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 122.262649536,
+        "mbid": "26f7bb0d-133d-4811-a8bf-0ff930c5a11a",
+        "artist": "Depeche Mode",
+        "title": "World In My Eyes"
+      }
+    },
+    {
+      "id": 1186029,
+      "score": 0.8450735,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "minor",
+        "bpm": 131.05897522,
+        "mbid": "671aa84c-70b7-4e83-9264-b588d0c33c20",
+        "artist": "Monster Magnet",
+        "title": "See You in Hell"
+      }
+    },
+    {
+      "id": 1186028,
+      "score": 0.8450735,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "minor",
+        "bpm": 131.05897522,
+        "mbid": "671aa84c-70b7-4e83-9264-b588d0c33c20",
+        "artist": "Monster Magnet",
+        "title": "See You in Hell"
+      }
+    },
+    {
+      "id": 1186027,
+      "score": 0.8450735,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "minor",
+        "bpm": 131.05897522,
+        "mbid": "671aa84c-70b7-4e83-9264-b588d0c33c20",
+        "artist": "Monster Magnet",
+        "title": "See You in Hell"
+      }
+    },
+    {
+      "id": 1262755,
+      "score": 0.84393924,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 104.510429382,
+        "mbid": "91cf329b-9dc5-4c23-bc99-a7023aefea74",
+        "artist": "Rufus & Chaka Khan",
+        "title": "Ain't Nobody (Hallucinogenic version)"
+      }
+    },
+    {
+      "id": 1207668,
+      "score": 0.8425907,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 104.660903931,
+        "mbid": "731dba40-d479-479e-9ede-65a631e10f35",
+        "artist": "Rufus & Chaka Khan",
+        "title": "Ain't Nobody (LP Remix Version"
+      }
+    },
+    {
+      "id": 1207667,
+      "score": 0.8425907,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 104.660903931,
+        "mbid": "731dba40-d479-479e-9ede-65a631e10f35",
+        "artist": "Rufus & Chaka Khan",
+        "title": "Ain't Nobody (LP Remix Version"
+      }
+    },
+    {
+      "id": 1207666,
+      "score": 0.8425907,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 104.660903931,
+        "mbid": "731dba40-d479-479e-9ede-65a631e10f35",
+        "artist": "Rufus & Chaka Khan",
+        "title": "Ain't Nobody (LP Remix Version"
+      }
+    },
+    {
+      "id": 902316,
+      "score": 0.8413908,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 123.000289917,
+        "mbid": "e6f68eb9-b7d7-45bb-a47b-538aa7bdf0c8",
+        "artist": "Breathe Carolina",
+        "title": "Take It Back"
+      }
+    },
+    {
+      "id": 21989,
+      "score": 0.8413908,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 123.000289917,
+        "mbid": "057a2558-2ca1-447d-ac11-1975fdb9b532",
+        "artist": "Breathe Carolina",
+        "title": "Take It Back"
+      }
+    },
+    {
+      "id": 180990,
+      "score": 0.8412258,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 94.9923171997,
+        "mbid": "2e1b304a-6211-451d-842e-7f86955022f4",
+        "artist": "Genesis",
+        "title": "Jesus He Knows Me"
+      }
+    },
+    {
+      "id": 913056,
+      "score": 0.84085536,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 96.4379577637,
+        "mbid": "e9be5582-53af-469e-829e-4b0910d1b026",
+        "artist": "Peter Gabriel",
+        "title": "Sledgehammer"
+      }
+    },
+    {
+      "id": 20312,
+      "score": 0.84059274,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 115.923240662,
+        "mbid": "050c7f86-59b3-419b-b659-9cbc8e817d73",
+        "artist": "Leighton Meester",
+        "title": "Somebody to Love"
+      }
+    },
+    {
+      "id": 20313,
+      "score": 0.84059274,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 115.923240662,
+        "mbid": "050c7f86-59b3-419b-b659-9cbc8e817d73",
+        "artist": "Leighton Meester",
+        "title": "Somebody to Love"
+      }
+    },
+    {
+      "id": 1214226,
+      "score": 0.83996487,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 112.806549072,
+        "mbid": "76beced4-c8e9-4796-bfdb-dbab5c066366",
+        "artist": "Diana Ross",
+        "title": "Love Hangover (Tribal Hangover) - 2A - 154,94"
+      }
+    },
+    {
+      "id": 1214230,
+      "score": 0.83996487,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 112.806549072,
+        "mbid": "76beced4-c8e9-4796-bfdb-dbab5c066366",
+        "artist": "Diana Ross",
+        "title": "Love Hangover (Tribal Hangover) - 2A - 154,94"
+      }
+    },
+    {
+      "id": 1214228,
+      "score": 0.83996487,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 112.806549072,
+        "mbid": "76beced4-c8e9-4796-bfdb-dbab5c066366",
+        "artist": "Diana Ross",
+        "title": "Love Hangover (Tribal Hangover) - 2A - 154,94"
+      }
+    },
+    {
+      "id": 24773,
+      "score": 0.8396373,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 114.001419067,
+        "mbid": "063f9865-a0b3-49da-87b6-4526c48c8360",
+        "artist": "Dead When I Found Her",
+        "title": "Taking Shelter"
+      }
+    },
+    {
+      "id": 902317,
+      "score": 0.8395513,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 122.992843628,
+        "mbid": "e6f68eb9-b7d7-45bb-a47b-538aa7bdf0c8",
+        "artist": "Breathe Carolina",
+        "title": "Blackout"
+      }
+    },
+    {
+      "id": 995101,
+      "score": 0.839417,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 96.2666244507,
+        "mbid": "fecd818d-3033-4d44-afa5-e0f424ac135f",
+        "artist": "Peter Gabriel",
+        "title": "Sledgehammer"
+      }
+    },
+    {
+      "id": 793298,
+      "score": 0.83933955,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 95.0465621948,
+        "mbid": "cb0376c6-8a55-4782-8608-191ecabeb666",
+        "artist": "Genesis",
+        "title": "Jesus He Knows Me"
+      }
+    },
+    {
+      "id": 336160,
+      "score": 0.8385847,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 116.258125305,
+        "mbid": "562ec2bc-f39b-4a0c-a232-8d7c27ddc9eb",
+        "artist": "Jeff Lorber",
+        "title": "Jazzery"
+      }
+    },
+    {
+      "id": 467565,
+      "score": 0.8381439,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 128.020797729,
+        "mbid": "77e121e6-08e4-4fe2-91e9-b7b25b94aea7",
+        "artist": "Freemasons ft. Siedah Garrett",
+        "title": "Rain Down Love"
+      }
+    },
+    {
+      "id": 587138,
+      "score": 0.8380857,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 99.2800598145,
+        "mbid": "962ae3d3-7981-47de-b03f-6ba372216a61",
+        "artist": "Bonfire",
+        "title": "Ready 4 Reaction"
+      }
+    },
+    {
+      "id": 1243689,
+      "score": 0.8376866,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 104.873245239,
+        "mbid": "872445a7-cd8d-4657-bd33-ffb92137085a",
+        "artist": "Millie Scott",
+        "title": "Can't Stand the Heat"
+      }
+    },
+    {
+      "id": 734886,
+      "score": 0.834639,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 78.1652374268,
+        "mbid": "bbf3824d-8a12-4f47-8389-6c9b13306e33",
+        "artist": "Chic",
+        "title": "When You Love Somebody"
+      }
+    },
+    {
+      "id": 172437,
+      "score": 0.83450323,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 123.014312744,
+        "mbid": "2bf9847a-acde-480a-a954-fc26fe39477b",
+        "artist": "Unknown",
+        "title": "Blackout 2"
+      }
+    },
+    {
+      "id": 172435,
+      "score": 0.83450323,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 123.014312744,
+        "mbid": "2bf9847a-acde-480a-a954-fc26fe39477b",
+        "artist": "Breathe Carolina",
+        "title": "Blackout"
+      }
+    },
+    {
+      "id": 172434,
+      "score": 0.83450323,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 123.014312744,
+        "mbid": "2bf9847a-acde-480a-a954-fc26fe39477b",
+        "artist": "Breathe Carolina",
+        "title": "Blackout Breathe Carolina(1)"
+      }
+    },
+    {
+      "id": 902319,
+      "score": 0.83450323,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 123.014312744,
+        "mbid": "e6f68eb9-b7d7-45bb-a47b-538aa7bdf0c8",
+        "artist": "Breathe Carolina",
+        "title": "Take It Back"
+      }
+    },
+    {
+      "id": 172436,
+      "score": 0.83450323,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 123.014312744,
+        "mbid": "2bf9847a-acde-480a-a954-fc26fe39477b",
+        "artist": "Breathe Carolina",
+        "title": "Blackout Breathe Carolina(1)"
+      }
+    },
+    {
+      "id": 1337717,
+      "score": 0.83417857,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 89.9426269531,
+        "mbid": "bb6ec08d-d9cd-4e4b-8568-da7c1ce572be",
+        "artist": "De/Vision",
+        "title": "Who Am I (Invisible Ballet Remix)"
+      }
+    },
+    {
+      "id": 825873,
+      "score": 0.8331127,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 116.906562805,
+        "mbid": "d3607a86-3b20-4a5c-9fe9-cc8d9e6ee797",
+        "artist": "Bonfire",
+        "title": "Sword and Stone"
+      }
+    },
+    {
+      "id": 822652,
+      "score": 0.8284783,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 87.9408950806,
+        "mbid": "d28bb571-e090-49a0-8ff1-9dea80d1f70d",
+        "artist": "High Spirits",
+        "title": "We Are Everywhere"
+      }
+    },
+    {
+      "id": 822651,
+      "score": 0.8284783,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 87.9408950806,
+        "mbid": "d28bb571-e090-49a0-8ff1-9dea80d1f70d",
+        "artist": "High Spirits",
+        "title": "We Are Everywhere"
+      }
+    },
+    {
+      "id": 822650,
+      "score": 0.8284783,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 87.9408950806,
+        "mbid": "d28bb571-e090-49a0-8ff1-9dea80d1f70d",
+        "artist": "High Spirits",
+        "title": "We Are Everywhere"
+      }
+    },
+    {
+      "id": 421881,
+      "score": 0.82846195,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 128.275024414,
+        "mbid": "6c2db590-2f59-476a-a3e8-8cc9817180aa",
+        "artist": "she",
+        "title": "Chiptek"
+      }
+    },
+    {
+      "id": 149198,
+      "score": 0.82827896,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 121.993270874,
+        "mbid": "260a54ff-533d-474c-9047-0acecf86d3ba",
+        "artist": "LukHash",
+        "title": "Sunset"
+      }
+    },
+    {
+      "id": 149197,
+      "score": 0.82827896,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 121.993270874,
+        "mbid": "260a54ff-533d-474c-9047-0acecf86d3ba",
+        "artist": "LukHash",
+        "title": "Sunset"
+      }
+    },
+    {
+      "id": 196192,
+      "score": 0.82796395,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 119.970077515,
+        "mbid": "31f5e330-d350-41b7-b4e7-891c4e9c959c",
+        "artist": "Anders Enger Jensen",
+        "title": "DiscoVision"
+      }
+    },
+    {
+      "id": 1205257,
+      "score": 0.827727,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 95.9883346558,
+        "mbid": "71d6075c-71c8-4a70-99e8-2af60166c549",
+        "artist": "Kreuz",
+        "title": "Party All Night"
+      }
+    },
+    {
+      "id": 123139,
+      "score": 0.827727,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 95.9883346558,
+        "mbid": "1f7ad445-d6a0-4e76-845a-cf8af4f8eb11",
+        "artist": "Kreuz",
+        "title": "Party All Night"
+      }
+    },
+    {
+      "id": 136767,
+      "score": 0.8266454,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 109.886878967,
+        "mbid": "22e670ad-cfa2-4fe8-9bae-0325360ee419",
+        "artist": "Stonebank feat. Concept",
+        "title": "Chokehold"
+      }
+    },
+    {
+      "id": 972426,
+      "score": 0.8257162,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 104.985954285,
+        "mbid": "f90ce718-6117-4bf0-9600-84f1c0a0a41f",
+        "artist": "Underworld, Evelyn Glennie & The Pandemonium Drummers",
+        "title": "And I Will Kiss"
+      }
+    },
+    {
+      "id": 831670,
+      "score": 0.82436603,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 89.9211654663,
+        "mbid": "d4dc5ad1-3c3e-44c2-9e5e-61a60b9f9cdb",
+        "artist": "Infected Mushroom & Tuna",
+        "title": "Lost in Space (feat. A-Wa)"
+      }
+    },
+    {
+      "id": 831671,
+      "score": 0.82436603,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 89.9211654663,
+        "mbid": "d4dc5ad1-3c3e-44c2-9e5e-61a60b9f9cdb",
+        "artist": "Infected Mushroom & Tuna",
+        "title": "Lost in Space (feat. A-Wa)"
+      }
+    },
+    {
+      "id": 137884,
+      "score": 0.8240834,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 94.9876785278,
+        "mbid": "2330874f-2a58-4781-a8d2-e237963c9e33",
+        "artist": "Fard feat. Kollegah & Asche",
+        "title": "Sinaloa"
+      }
+    },
+    {
+      "id": 1182736,
+      "score": 0.8235862,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 107.313514709,
+        "mbid": "654014f5-3980-4bed-98da-28d5b1d19872",
+        "artist": "Paul McCartney",
+        "title": "What's That You're Doing?"
+      }
+    },
+    {
+      "id": 137883,
+      "score": 0.8232776,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 94.975112915,
+        "mbid": "2330874f-2a58-4781-a8d2-e237963c9e33",
+        "artist": "Fard feat. Kollegah & Asche",
+        "title": "Sinaloa"
+      }
+    },
+    {
+      "id": 846883,
+      "score": 0.82321566,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 99.3809356689,
+        "mbid": "d8b22aef-35f9-47d7-b682-7e8a326acce9",
+        "artist": "Krept & Konan feat. Siah",
+        "title": "Nightmares"
+      }
+    },
+    {
+      "id": 660400,
+      "score": 0.8229932,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 101.95262146,
+        "mbid": "a8d78183-1cd9-40af-940e-8364b90986fc",
+        "artist": "Robbie Williams",
+        "title": "Lovelight"
+      }
+    },
+    {
+      "id": 558610,
+      "score": 0.8226777,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 116.814498901,
+        "mbid": "8eddbc0e-4acc-4ab2-b250-f049cefb0c0f",
+        "artist": "Gerald Levert",
+        "title": "Thinkin' Bout It"
+      }
+    },
+    {
+      "id": 1122758,
+      "score": 0.8225065,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 89.0496444702,
+        "mbid": "43f2dcb9-4da3-4441-bdce-d5a6cf11ceb2",
+        "artist": "Sting",
+        "title": "Perfect Love Gone Wrong ( Live )"
+      }
+    },
+    {
+      "id": 1202728,
+      "score": 0.82218987,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 111.959846497,
+        "mbid": "707b149a-265b-4266-9807-2d97901a1775",
+        "artist": "Odyssey",
+        "title": "Going Back To My Roots (Joey Negro Disco Re-Blend)"
+      }
+    },
+    {
+      "id": 1202729,
+      "score": 0.82218987,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 111.959846497,
+        "mbid": "707b149a-265b-4266-9807-2d97901a1775",
+        "artist": "Odyssey",
+        "title": "Going Back To My Roots (Joey Negro Disco Re-Blend)"
+      }
+    },
+    {
+      "id": 1202727,
+      "score": 0.82218987,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 111.959846497,
+        "mbid": "707b149a-265b-4266-9807-2d97901a1775",
+        "artist": "Odyssey",
+        "title": "Going Back To My Roots (Joey Negro Disco Re-Blend)"
+      }
+    },
+    {
+      "id": 972427,
+      "score": 0.8217862,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 104.95615387,
+        "mbid": "f90ce718-6117-4bf0-9600-84f1c0a0a41f",
+        "artist": "Underworld feat. Evelyn Glennie",
+        "title": "And I Will Kiss"
+      }
+    },
+    {
+      "id": 1064354,
+      "score": 0.82141954,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 100.994590759,
+        "mbid": "23df426d-f673-4aff-893c-2685ee76b311",
+        "artist": "Bloodline",
+        "title": "Cell Block 7"
+      }
+    },
+    {
+      "id": 421882,
+      "score": 0.8213251,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 128.246551514,
+        "mbid": "6c2db590-2f59-476a-a3e8-8cc9817180aa",
+        "artist": "she",
+        "title": "Chiptek"
+      }
+    },
+    {
+      "id": 972428,
+      "score": 0.8209851,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 104.961532593,
+        "mbid": "f90ce718-6117-4bf0-9600-84f1c0a0a41f",
+        "artist": "Underworld",
+        "title": "And I Will Kiss"
+      }
+    },
+    {
+      "id": 1304253,
+      "score": 0.82051843,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 101.874938965,
+        "mbid": "a8d78183-1cd9-40af-940e-8364b90986fc",
+        "artist": "Robbie Williams",
+        "title": "Lovelight"
+      }
+    },
+    {
+      "id": 793300,
+      "score": 0.8201048,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 94.981918335,
+        "mbid": "cb0376c6-8a55-4782-8608-191ecabeb666",
+        "artist": "Genesis",
+        "title": "Jesus He Knows Me"
+      }
+    },
+    {
+      "id": 296415,
+      "score": 0.8200384,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 105.949707031,
+        "mbid": "4be91aba-baac-4189-8b39-21cb2ffd2b01",
+        "artist": "Mindless Self Indulgence",
+        "title": "Bullshit"
+      }
+    },
+    {
+      "id": 42319,
+      "score": 0.8197546,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 112.785102844,
+        "mbid": "0ac683b6-e86d-4a99-8d17-79cc8fa1482a",
+        "artist": "Rise Against",
+        "title": "Endgame"
+      }
+    },
+    {
+      "id": 1365702,
+      "score": 0.8196103,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 95.0042037964,
+        "mbid": "cb0376c6-8a55-4782-8608-191ecabeb666",
+        "artist": "Genesis",
+        "title": "Jesus He Knows Me"
+      }
+    },
+    {
+      "id": 42318,
+      "score": 0.8192803,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 112.830505371,
+        "mbid": "0ac683b6-e86d-4a99-8d17-79cc8fa1482a",
+        "artist": "Rise Against",
+        "title": "Endgame"
+      }
+    }
+  ]
+}

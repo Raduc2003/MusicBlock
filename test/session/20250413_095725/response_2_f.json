@@ -1,0 +1,1261 @@
+{
+  "query_final_vector": [
+    0.058584132237542656,
+    -0.062132916454451514,
+    0.2748713308528034,
+    0.008970478398601892,
+    0.030991641258731786,
+    -0.0972300215687271,
+    -0.08223194841668902,
+    -0.1549380571661342,
+    -0.22053890183057595,
+    -0.019773187481042453,
+    -0.05990853048095689,
+    0.09510516537639248,
+    -0.04770873867044816,
+    0.05324671423928682,
+    0.10333328589273554,
+    0.07317451511738186,
+    0.18896062257921079,
+    -0.16547014210947703,
+    -0.12925182732115983,
+    0.12870053434947468,
+    0.05789252197957763,
+    -0.17640733061025696,
+    -0.17903451143826807,
+    -0.18986777163008026,
+    -0.11280696441083396,
+    -0.026393893393403686,
+    -0.05694520613252063,
+    0.12670873376950217,
+    0.34678842967909296,
+    0.28023634949391013,
+    -0.12624042571299476,
+    -0.17389697578381424,
+    -0.18272604529883665,
+    -0.06695837678258737,
+    0.04237849436491276,
+    0.01291945384104093,
+    -0.13298108490538404,
+    -0.15172032721705142,
+    -0.15410961249534252,
+    -0.0251070204720444,
+    0.06686114832952991,
+    0.052354951738132004,
+    -0.014251381171353236,
+    -0.007074667123752154,
+    -0.02901090865609525,
+    -0.12323675885111628,
+    -0.1336554375527527,
+    -0.11989249121052803,
+    0.1393655038664969,
+    0.24178278720852678,
+    0.13421262371279885,
+    -0.12752061087138422,
+    -0.14391322602733286,
+    -0.15127742373011974,
+    0.0078015484466383055
+  ],
+  "results": [
+    {
+      "id": 1380641,
+      "score": 0.9975157,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 132.707763672,
+        "mbid": "d373ce6a-d746-4516-9950-7ed3835982f1",
+        "artist": "Elton John",
+        "title": "Daniel"
+      }
+    },
+    {
+      "id": 826169,
+      "score": 0.99610925,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 132.660064697,
+        "mbid": "d373ce6a-d746-4516-9950-7ed3835982f1",
+        "artist": "Elton John",
+        "title": "Daniel"
+      }
+    },
+    {
+      "id": 1294190,
+      "score": 0.9940722,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 132.6355896,
+        "mbid": "a344c102-052f-42e3-b520-5e3f5a52fc6c",
+        "artist": "Elton John",
+        "title": "Daniel"
+      }
+    },
+    {
+      "id": 1380642,
+      "score": 0.9938544,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 132.630752563,
+        "mbid": "d373ce6a-d746-4516-9950-7ed3835982f1",
+        "artist": "Elton John",
+        "title": "Daniel"
+      }
+    },
+    {
+      "id": 1380643,
+      "score": 0.9918707,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 132.600921631,
+        "mbid": "d373ce6a-d746-4516-9950-7ed3835982f1",
+        "artist": "Elton John",
+        "title": "Daniel"
+      }
+    },
+    {
+      "id": 826168,
+      "score": 0.9914701,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 132.554870605,
+        "mbid": "d373ce6a-d746-4516-9950-7ed3835982f1",
+        "artist": "Elton John",
+        "title": "Daniel"
+      }
+    },
+    {
+      "id": 826161,
+      "score": 0.9896583,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 132.581085205,
+        "mbid": "d373ce6a-d746-4516-9950-7ed3835982f1",
+        "artist": "Elton John",
+        "title": "Daniel"
+      }
+    },
+    {
+      "id": 675716,
+      "score": 0.98892254,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 132.655288696,
+        "mbid": "acd0ba74-6ebc-4826-a64c-f7051bde106b",
+        "artist": "Elton John",
+        "title": "Daniel"
+      }
+    },
+    {
+      "id": 826167,
+      "score": 0.988567,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 132.916046143,
+        "mbid": "d373ce6a-d746-4516-9950-7ed3835982f1",
+        "artist": "Elton John",
+        "title": "Daniel"
+      }
+    },
+    {
+      "id": 826170,
+      "score": 0.988567,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 132.916046143,
+        "mbid": "d373ce6a-d746-4516-9950-7ed3835982f1",
+        "artist": "Elton John",
+        "title": "Daniel"
+      }
+    },
+    {
+      "id": 1091521,
+      "score": 0.98804665,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 132.607116699,
+        "mbid": "32a33621-a5bc-4645-82d6-707fb1fe6375",
+        "artist": "Elton John",
+        "title": "Daniel"
+      }
+    },
+    {
+      "id": 1091519,
+      "score": 0.98804665,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 132.607116699,
+        "mbid": "32a33621-a5bc-4645-82d6-707fb1fe6375",
+        "artist": "Elton John",
+        "title": "Daniel"
+      }
+    },
+    {
+      "id": 1091520,
+      "score": 0.98804665,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 132.607116699,
+        "mbid": "32a33621-a5bc-4645-82d6-707fb1fe6375",
+        "artist": "Elton John",
+        "title": "Daniel"
+      }
+    },
+    {
+      "id": 675714,
+      "score": 0.98691463,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 132.704071045,
+        "mbid": "acd0ba74-6ebc-4826-a64c-f7051bde106b",
+        "artist": "Elton John",
+        "title": "Daniel"
+      }
+    },
+    {
+      "id": 860526,
+      "score": 0.98645175,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 132.843719482,
+        "mbid": "dc3ba6b5-4b82-493d-9e43-bac40118e905",
+        "artist": "Elton John",
+        "title": "Daniel"
+      }
+    },
+    {
+      "id": 826166,
+      "score": 0.9846335,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 132.599685669,
+        "mbid": "d373ce6a-d746-4516-9950-7ed3835982f1",
+        "artist": "Elton John",
+        "title": "Daniel"
+      }
+    },
+    {
+      "id": 675715,
+      "score": 0.9782033,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 133.034744263,
+        "mbid": "acd0ba74-6ebc-4826-a64c-f7051bde106b",
+        "artist": "Elton John",
+        "title": "Daniel"
+      }
+    },
+    {
+      "id": 675720,
+      "score": 0.9779893,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 132.681472778,
+        "mbid": "acd0ba74-6ebc-4826-a64c-f7051bde106b",
+        "artist": "Elton John",
+        "title": "Daniel"
+      }
+    },
+    {
+      "id": 826162,
+      "score": 0.9727181,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 132.838638306,
+        "mbid": "d373ce6a-d746-4516-9950-7ed3835982f1",
+        "artist": "Elton John",
+        "title": "Daniel"
+      }
+    },
+    {
+      "id": 826164,
+      "score": 0.9727181,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 132.838638306,
+        "mbid": "d373ce6a-d746-4516-9950-7ed3835982f1",
+        "artist": "Elton John",
+        "title": "Daniel"
+      }
+    },
+    {
+      "id": 826163,
+      "score": 0.9698946,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 132.764556885,
+        "mbid": "d373ce6a-d746-4516-9950-7ed3835982f1",
+        "artist": "Elton John",
+        "title": "Daniel"
+      }
+    },
+    {
+      "id": 826165,
+      "score": 0.9698946,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 132.764556885,
+        "mbid": "d373ce6a-d746-4516-9950-7ed3835982f1",
+        "artist": "Elton John",
+        "title": "Daniel"
+      }
+    },
+    {
+      "id": 675719,
+      "score": 0.92930317,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 132.819122314,
+        "mbid": "acd0ba74-6ebc-4826-a64c-f7051bde106b",
+        "artist": "Elton John",
+        "title": "Daniel"
+      }
+    },
+    {
+      "id": 675718,
+      "score": 0.92930317,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 132.819122314,
+        "mbid": "acd0ba74-6ebc-4826-a64c-f7051bde106b",
+        "artist": "Elton John",
+        "title": "Daniel"
+      }
+    },
+    {
+      "id": 893297,
+      "score": 0.8942466,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 124.835647583,
+        "mbid": "e49905f6-932b-4c49-95da-c0b43ea19a15",
+        "artist": "Figurine",
+        "title": "[untitled]"
+      }
+    },
+    {
+      "id": 1158320,
+      "score": 0.8893521,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 98.0572814941,
+        "mbid": "57a2b620-ba3a-4930-9c04-d46efa2d779c",
+        "artist": "Backstreet Boys",
+        "title": "As Long As You Love Me"
+      }
+    },
+    {
+      "id": 1027796,
+      "score": 0.8884773,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 153.099075317,
+        "mbid": "0f484ce7-3506-496d-b0d5-6970a45d032f",
+        "artist": "Chris Rea",
+        "title": "Hello Friend"
+      }
+    },
+    {
+      "id": 59675,
+      "score": 0.888173,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 153.099838257,
+        "mbid": "0f484ce7-3506-496d-b0d5-6970a45d032f",
+        "artist": "Chris Rea",
+        "title": "Hello Friend"
+      }
+    },
+    {
+      "id": 59674,
+      "score": 0.888173,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 153.099838257,
+        "mbid": "0f484ce7-3506-496d-b0d5-6970a45d032f",
+        "artist": "Chris Rea",
+        "title": "Hello Friend"
+      }
+    },
+    {
+      "id": 1241589,
+      "score": 0.8862251,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 116.471954346,
+        "mbid": "85f662d7-1f2c-456c-be37-fe36ae128e28",
+        "artist": "Ben Kweller",
+        "title": "The Biggest Flower"
+      }
+    },
+    {
+      "id": 1241586,
+      "score": 0.8862251,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 116.471954346,
+        "mbid": "85f662d7-1f2c-456c-be37-fe36ae128e28",
+        "artist": "Ben Kweller",
+        "title": "The Biggest Flower"
+      }
+    },
+    {
+      "id": 1241587,
+      "score": 0.8862251,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 116.471954346,
+        "mbid": "85f662d7-1f2c-456c-be37-fe36ae128e28",
+        "artist": "Ben Kweller",
+        "title": "The Biggest Flower"
+      }
+    },
+    {
+      "id": 1241588,
+      "score": 0.8862251,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 116.471954346,
+        "mbid": "85f662d7-1f2c-456c-be37-fe36ae128e28",
+        "artist": "Ben Kweller",
+        "title": "The Biggest Flower"
+      }
+    },
+    {
+      "id": 1027797,
+      "score": 0.88601816,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 153.127685547,
+        "mbid": "0f484ce7-3506-496d-b0d5-6970a45d032f",
+        "artist": "Chris Rea",
+        "title": "Hello Friend"
+      }
+    },
+    {
+      "id": 80067,
+      "score": 0.88212925,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 153.994277954,
+        "mbid": "14866037-25c4-4a17-a4b3-754a4c91a6d0",
+        "artist": "Eric Clapton",
+        "title": "Songbird"
+      }
+    },
+    {
+      "id": 80068,
+      "score": 0.88212925,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 153.994277954,
+        "mbid": "14866037-25c4-4a17-a4b3-754a4c91a6d0",
+        "artist": "Eric Clapton",
+        "title": "Songbird"
+      }
+    },
+    {
+      "id": 1023811,
+      "score": 0.88005656,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 144.957046509,
+        "mbid": "0d145118-af3f-433c-9131-09b995dce588",
+        "artist": "Ciencias Naturales",
+        "title": "El Poeta Enamorado"
+      }
+    },
+    {
+      "id": 80066,
+      "score": 0.87795454,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 153.940078735,
+        "mbid": "14866037-25c4-4a17-a4b3-754a4c91a6d0",
+        "artist": "Eric Clapton & Friends",
+        "title": "Songbird"
+      }
+    },
+    {
+      "id": 216789,
+      "score": 0.87705016,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 132.344863892,
+        "mbid": "37667581-df4d-4c46-b78a-4fce05b79d68",
+        "artist": "The Blackeyed Susans",
+        "title": "Reveal Yourself"
+      }
+    },
+    {
+      "id": 501568,
+      "score": 0.87673193,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 112.955764771,
+        "mbid": "80621d71-078c-40cf-9054-8131e90f71ae",
+        "artist": "Dieter Thomas Kuhn",
+        "title": "Der letzte Tanz"
+      }
+    },
+    {
+      "id": 251896,
+      "score": 0.8747883,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 154.12399292,
+        "mbid": "40494935-9129-411f-8c3d-cf9916809b0c",
+        "artist": "Steve Winwood",
+        "title": "Back In The High Life Again"
+      }
+    },
+    {
+      "id": 814952,
+      "score": 0.8742352,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 112.461990356,
+        "mbid": "d0895c48-d2f8-45e9-b8a0-e792593d1c3a",
+        "artist": "Queen",
+        "title": "These Are the Days of Our Lives"
+      }
+    },
+    {
+      "id": 1386923,
+      "score": 0.8742352,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 112.461990356,
+        "mbid": "d7085c4d-a2d6-40d3-b514-707b28126099",
+        "artist": "Queen",
+        "title": "These Are the Days of Our Lives"
+      }
+    },
+    {
+      "id": 840303,
+      "score": 0.87392676,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 112.476272583,
+        "mbid": "d7085c4d-a2d6-40d3-b514-707b28126099",
+        "artist": "Queen",
+        "title": "These Are the Days of Our Lives"
+      }
+    },
+    {
+      "id": 148430,
+      "score": 0.8730864,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 135.060653687,
+        "mbid": "25d6b2f2-4f05-4980-ae49-724acf0b7236",
+        "artist": "Don Williams",
+        "title": "The Answer"
+      }
+    },
+    {
+      "id": 28533,
+      "score": 0.8715462,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 99.9865188599,
+        "mbid": "0740f3ee-346d-4788-b14d-c81a74e06f7c",
+        "artist": "Taylor Swift",
+        "title": "Stay Stay Stay"
+      }
+    },
+    {
+      "id": 842142,
+      "score": 0.87075067,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 104.992965698,
+        "mbid": "d78206e2-67b7-4939-bff5-bccbb3c27c73",
+        "artist": "Earl Klugh",
+        "title": "Driftin'"
+      }
+    },
+    {
+      "id": 863661,
+      "score": 0.86902606,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 151.942886353,
+        "mbid": "dd0f468a-d750-4a42-a900-1edabd2d93fa",
+        "artist": "Glee Cast",
+        "title": "(You're) Having My Baby"
+      }
+    },
+    {
+      "id": 1386924,
+      "score": 0.868658,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 112.495979309,
+        "mbid": "d7085c4d-a2d6-40d3-b514-707b28126099",
+        "artist": "Queen",
+        "title": "These Are the Days of Our Lives"
+      }
+    },
+    {
+      "id": 1018748,
+      "score": 0.8683941,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 112.472236633,
+        "mbid": "0a676e69-4b2f-4154-8224-9b31e6acd537",
+        "artist": "Queen",
+        "title": "These Are the Days of Our Lives"
+      }
+    },
+    {
+      "id": 1218594,
+      "score": 0.86773115,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 121.454437256,
+        "mbid": "791fef7d-4110-4ece-8ece-fadd40150c6e",
+        "artist": "\"Weird Al\" Yankovic",
+        "title": "Good Old Days"
+      }
+    },
+    {
+      "id": 1164595,
+      "score": 0.8675169,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 130.51701355,
+        "mbid": "5b20a7d0-adce-461b-852b-1e622bb25b2a",
+        "artist": "Cyndi Lauper",
+        "title": "Time After Time"
+      }
+    },
+    {
+      "id": 1012954,
+      "score": 0.86723953,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 99.9848480225,
+        "mbid": "0740f3ee-346d-4788-b14d-c81a74e06f7c",
+        "artist": "Taylor Swift",
+        "title": "Stay Stay Stay"
+      }
+    },
+    {
+      "id": 1137207,
+      "score": 0.86709315,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 128.051635742,
+        "mbid": "4c0fb67b-d5b0-489c-b4ef-e078045124c5",
+        "artist": "John Michael Montgomery",
+        "title": "Letters from Home"
+      }
+    },
+    {
+      "id": 1137205,
+      "score": 0.86709315,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 128.051635742,
+        "mbid": "4c0fb67b-d5b0-489c-b4ef-e078045124c5",
+        "artist": "John Michael Montgomery",
+        "title": "Letters from Home"
+      }
+    },
+    {
+      "id": 1137206,
+      "score": 0.86709315,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 128.051635742,
+        "mbid": "4c0fb67b-d5b0-489c-b4ef-e078045124c5",
+        "artist": "John Michael Montgomery",
+        "title": "Letters from Home"
+      }
+    },
+    {
+      "id": 1375430,
+      "score": 0.86679673,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 112.471031189,
+        "mbid": "d0895c48-d2f8-45e9-b8a0-e792593d1c3a",
+        "artist": "Queen",
+        "title": "These Are the Days of Our Live"
+      }
+    },
+    {
+      "id": 265512,
+      "score": 0.86529106,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 119.90802002,
+        "mbid": "43c4c88e-d0e5-4956-b08a-31a853a98179",
+        "artist": "The Japanese House",
+        "title": "Face Like Thunder"
+      }
+    },
+    {
+      "id": 252733,
+      "score": 0.8639414,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 124.981704712,
+        "mbid": "4080ea3a-ad59-42d2-a1d0-16336af9017b",
+        "artist": "Dynatron",
+        "title": "Zero Gravity"
+      }
+    },
+    {
+      "id": 229729,
+      "score": 0.8638882,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 112.598320007,
+        "mbid": "3aa14790-4748-48bb-97d4-876a868d7358",
+        "artist": "Queen",
+        "title": "These Are the Days of Our Lives"
+      }
+    },
+    {
+      "id": 1386880,
+      "score": 0.8636064,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 115.06212616,
+        "mbid": "d70194ad-8e81-4a79-8f6d-921fe1c34817",
+        "artist": "Zden\u011bk Sv\u011br\u00e1k & Jaroslav Uhl\u00ed\u0159",
+        "title": "Rovn\u00e1tka"
+      }
+    },
+    {
+      "id": 649771,
+      "score": 0.8632304,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 131.992614746,
+        "mbid": "a62171a4-5d1a-4346-ba40-4ffc132a94ee",
+        "artist": "Tiny Fireflies",
+        "title": "Make Believe"
+      }
+    },
+    {
+      "id": 1386922,
+      "score": 0.86314577,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 112.496910095,
+        "mbid": "d7085c4d-a2d6-40d3-b514-707b28126099",
+        "artist": "Queen",
+        "title": "These Are The Days Of Our Lives"
+      }
+    },
+    {
+      "id": 1375429,
+      "score": 0.86302567,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 112.636611938,
+        "mbid": "d0895c48-d2f8-45e9-b8a0-e792593d1c3a",
+        "artist": "Queen",
+        "title": "These Are The Days Of Our Lives"
+      }
+    },
+    {
+      "id": 849430,
+      "score": 0.8627953,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 116.9661026,
+        "mbid": "d95ab97e-8235-489e-b346-ae09dc7aaaaa",
+        "artist": "Elephant Stone",
+        "title": "Love Is Like a Spinning Wheel (Xavier Boyer Remix)"
+      }
+    },
+    {
+      "id": 840302,
+      "score": 0.8626202,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 112.476547241,
+        "mbid": "d7085c4d-a2d6-40d3-b514-707b28126099",
+        "artist": "Queen",
+        "title": "These Are the Days of Our Lives"
+      }
+    },
+    {
+      "id": 682791,
+      "score": 0.8624337,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 146.049102783,
+        "mbid": "aea4f650-3e83-430e-abb7-40b37341d404",
+        "artist": "Third Day",
+        "title": "Cry Out to Jesus"
+      }
+    },
+    {
+      "id": 1386919,
+      "score": 0.8621912,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 112.492469788,
+        "mbid": "d7085c4d-a2d6-40d3-b514-707b28126099",
+        "artist": "Queen",
+        "title": "These Are The Days Of Our Lives"
+      }
+    },
+    {
+      "id": 814953,
+      "score": 0.8614445,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 112.573051453,
+        "mbid": "d0895c48-d2f8-45e9-b8a0-e792593d1c3a",
+        "artist": "Queen",
+        "title": "These Are the Days of Our Lives"
+      }
+    },
+    {
+      "id": 1166494,
+      "score": 0.86138123,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 112.619194031,
+        "mbid": "5c242f02-4d96-4ed9-94d8-3d1663b15974",
+        "artist": "Queen",
+        "title": "These Are The Days Of Our Lives"
+      }
+    },
+    {
+      "id": 1386917,
+      "score": 0.86137277,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 112.609603882,
+        "mbid": "d7085c4d-a2d6-40d3-b514-707b28126099",
+        "artist": "Queen",
+        "title": "These Are The Days Of Our Lives"
+      }
+    },
+    {
+      "id": 1359789,
+      "score": 0.8605455,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 98.9294128418,
+        "mbid": "c7a183c3-7bfa-4a83-a9e7-4d867cb7375d",
+        "artist": "Sierra Hull",
+        "title": "I'll Always Be Waiting for You"
+      }
+    },
+    {
+      "id": 1259413,
+      "score": 0.86029994,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 138.057495117,
+        "mbid": "9003ada6-ce47-4f23-a889-073e65d4cc03",
+        "artist": "Jasmine Rae",
+        "title": "Hold My Hand"
+      }
+    },
+    {
+      "id": 251168,
+      "score": 0.85998917,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 126.596916199,
+        "mbid": "401a7ba7-18b4-4c2c-a94a-cd861fd1615c",
+        "artist": "Thomas Wesley Stern",
+        "title": "Underneath the Sea"
+      }
+    },
+    {
+      "id": 593017,
+      "score": 0.8597595,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 135.105438232,
+        "mbid": "97a50b68-8e65-4286-b93d-0a78de452e0f",
+        "artist": "So\u00efg Sib\u00e9ril",
+        "title": "Vigo"
+      }
+    },
+    {
+      "id": 476038,
+      "score": 0.8595473,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 104.993148804,
+        "mbid": "79e99f23-ef04-45a7-9b22-74123b5d3750",
+        "artist": "Lorne Balfe",
+        "title": "If the Shoe Fits"
+      }
+    },
+    {
+      "id": 476037,
+      "score": 0.8595473,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 104.993148804,
+        "mbid": "79e99f23-ef04-45a7-9b22-74123b5d3750",
+        "artist": "Lorne Balfe",
+        "title": "If the Shoe Fits"
+      }
+    },
+    {
+      "id": 476039,
+      "score": 0.8595473,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 104.993148804,
+        "mbid": "79e99f23-ef04-45a7-9b22-74123b5d3750",
+        "artist": "Lorne Balfe",
+        "title": "If the Shoe Fits"
+      }
+    },
+    {
+      "id": 476042,
+      "score": 0.8595473,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 104.993148804,
+        "mbid": "79e99f23-ef04-45a7-9b22-74123b5d3750",
+        "artist": "Lorne Balfe",
+        "title": "If the Shoe Fits"
+      }
+    },
+    {
+      "id": 476036,
+      "score": 0.8595473,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 104.993148804,
+        "mbid": "79e99f23-ef04-45a7-9b22-74123b5d3750",
+        "artist": "Lorne Balfe",
+        "title": "If the Shoe Fits"
+      }
+    },
+    {
+      "id": 476034,
+      "score": 0.8595473,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 104.993148804,
+        "mbid": "79e99f23-ef04-45a7-9b22-74123b5d3750",
+        "artist": "Lorne Balfe",
+        "title": "If the Shoe Fits"
+      }
+    },
+    {
+      "id": 476041,
+      "score": 0.8595473,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 104.993148804,
+        "mbid": "79e99f23-ef04-45a7-9b22-74123b5d3750",
+        "artist": "Lorne Balfe",
+        "title": "If the Shoe Fits"
+      }
+    },
+    {
+      "id": 476040,
+      "score": 0.8595473,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 104.993148804,
+        "mbid": "79e99f23-ef04-45a7-9b22-74123b5d3750",
+        "artist": "Lorne Balfe",
+        "title": "If the Shoe Fits"
+      }
+    },
+    {
+      "id": 476035,
+      "score": 0.8595473,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 104.993148804,
+        "mbid": "79e99f23-ef04-45a7-9b22-74123b5d3750",
+        "artist": "Lorne Balfe",
+        "title": "If the Shoe Fits"
+      }
+    },
+    {
+      "id": 336870,
+      "score": 0.8592705,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 139.847412109,
+        "mbid": "5664ce50-b88f-4573-bf67-f48fba288c58",
+        "artist": "Glorious",
+        "title": "Ave Maria"
+      }
+    },
+    {
+      "id": 336869,
+      "score": 0.8592705,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 139.847412109,
+        "mbid": "5664ce50-b88f-4573-bf67-f48fba288c58",
+        "artist": "Glorious",
+        "title": "Ave Maria"
+      }
+    },
+    {
+      "id": 1164588,
+      "score": 0.85907525,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 130.550186157,
+        "mbid": "5b20a7d0-adce-461b-852b-1e622bb25b2a",
+        "artist": "Cyndi Lauper",
+        "title": "Time After Time"
+      }
+    },
+    {
+      "id": 1135275,
+      "score": 0.8588131,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 116.352012634,
+        "mbid": "4b01b292-ef27-4000-89c8-bb7571d71c34",
+        "artist": "Laurie Anderson",
+        "title": "Strange Angels"
+      }
+    },
+    {
+      "id": 1293902,
+      "score": 0.8586896,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 120.584083557,
+        "mbid": "a31680ca-08e9-4f33-a628-90f16328dab0",
+        "artist": "Kacey Jones",
+        "title": "I Could Get Over Him"
+      }
+    },
+    {
+      "id": 242669,
+      "score": 0.858158,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 148.333877563,
+        "mbid": "3df1eb53-d17c-4217-95c3-489f52cb83a8",
+        "artist": "Horse Feathers",
+        "title": "Middle Testament"
+      }
+    },
+    {
+      "id": 1018747,
+      "score": 0.85795164,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 112.463058472,
+        "mbid": "0a676e69-4b2f-4154-8224-9b31e6acd537",
+        "artist": "Queen",
+        "title": "These Are the Days of Our Lives"
+      }
+    },
+    {
+      "id": 1386921,
+      "score": 0.85795164,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 112.463058472,
+        "mbid": "d7085c4d-a2d6-40d3-b514-707b28126099",
+        "artist": "Queen",
+        "title": "These Are the Days of Our Lives"
+      }
+    },
+    {
+      "id": 78103,
+      "score": 0.85772216,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 151.499969482,
+        "mbid": "13fe1f51-2f48-47d2-8f5b-c1ec01808610",
+        "artist": "Nikki Sudden",
+        "title": "Stay Bruised (from \"Treasure Island\" 2004)"
+      }
+    },
+    {
+      "id": 28534,
+      "score": 0.8575092,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 99.9779281616,
+        "mbid": "0740f3ee-346d-4788-b14d-c81a74e06f7c",
+        "artist": "Taylor Swift",
+        "title": "Stay Stay Stay"
+      }
+    },
+    {
+      "id": 28532,
+      "score": 0.8573312,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 99.9886932373,
+        "mbid": "0740f3ee-346d-4788-b14d-c81a74e06f7c",
+        "artist": "Taylor Swift",
+        "title": "Stay Stay Stay"
+      }
+    },
+    {
+      "id": 149691,
+      "score": 0.85718435,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 120.105766296,
+        "mbid": "262e4e27-12f0-4632-803f-9fc3bd83c507",
+        "artist": "Bad Boys Blue",
+        "title": "Inside Of Me"
+      }
+    },
+    {
+      "id": 685162,
+      "score": 0.8565394,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 111.309867859,
+        "mbid": "af441fcd-34b1-4f30-bd0a-7570c3f79acc",
+        "artist": "Brett Dennen",
+        "title": "When You Feel It"
+      }
+    },
+    {
+      "id": 40923,
+      "score": 0.8565182,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 112.490600586,
+        "mbid": "0a676e69-4b2f-4154-8224-9b31e6acd537",
+        "artist": "Queen",
+        "title": "These Are the Days of Our Lives"
+      }
+    },
+    {
+      "id": 40922,
+      "score": 0.8565182,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 112.490600586,
+        "mbid": "0a676e69-4b2f-4154-8224-9b31e6acd537",
+        "artist": "Queen",
+        "title": "These Are the Days of Our Lives"
+      }
+    },
+    {
+      "id": 1386916,
+      "score": 0.85567665,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 112.618934631,
+        "mbid": "d7085c4d-a2d6-40d3-b514-707b28126099",
+        "artist": "Queen",
+        "title": "These Are The Days Of Our Lives"
+      }
+    }
+  ]
+}

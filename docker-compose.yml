@@ -48,8 +48,11 @@ services:
     volumes:
       - shared_data:/data/input_json
       
-      - ./global_min_max.json:/app/global_min_max.json:ro # Adjust /app/ if WORKDIR is different
+      - ./global_min_max.json:/app/global_min_max.json:ro
+      - ./Dataset/global_mean_std.json:/app/global_mean_std.json:ro # Adjust /app/ if WORKDIR is different
       - ./client_similarity.py:/app/client_similarity.py
+      - ./client_similarity_2.py:/app/client_similarity_2.py
+      - ./test.py:/app/test.py
       # temoporary for testing
       - ./test:/app/test
       - ./demoMusic:/data/test

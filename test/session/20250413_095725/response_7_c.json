@@ -1,0 +1,1261 @@
+{
+  "query_final_vector": [
+    0.10697618087352205,
+    -0.055242058100414354,
+    -0.14386969687503978,
+    0.047247038641411304,
+    0.005922602588826417,
+    0.021509153435390657,
+    0.1830745757551052,
+    -0.04565316257466838,
+    -0.00503018528309307,
+    0.0832844322571643,
+    0.049702391960083026,
+    -0.03552008147050763,
+    -0.046646908384678144,
+    0.13847272906182187,
+    0.031312242411789315,
+    -0.05884017164467289,
+    0.20596599343739874,
+    0.09330967775479353,
+    0.07876180833436262,
+    -0.013460275344636388,
+    -0.011987965757181822,
+    -0.023741441150171648,
+    -0.06283398176014705,
+    -0.07457302958235035,
+    -0.05783827586621939,
+    -0.016871275339119092,
+    0.042217523873445885,
+    0.2813549924235461,
+    0.4404473712753488,
+    0.45636718661445014,
+    0.09791426281735338,
+    -0.07458651842714571,
+    -0.09251505579123916,
+    -0.08072679945082806,
+    -0.024579935192170117,
+    0.03264082926754955,
+    0.0012958729224199497,
+    -0.06916498576440226,
+    -0.0770464904286317,
+    -0.028906998471690353,
+    0.017227983894726392,
+    0.03522511655553544,
+    -0.0026972114112868654,
+    -0.016200937099921677,
+    -0.004769096791945941,
+    -0.027589542072443813,
+    -0.07148538447952364,
+    -0.03521728596267614,
+    0.14479384324020192,
+    0.324087698458675,
+    0.38415694158300917,
+    0.0891108567577605,
+    -0.03517188158577571,
+    -0.013222071131078133,
+    0.00994307582833666
+  ],
+  "results": [
+    {
+      "id": 600524,
+      "score": 0.8941649,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 136.905548096,
+        "mbid": "99989640-a6d5-4b71-93a6-653950e5ad99",
+        "artist": "Huey Lewis and the News",
+        "title": "Stagger Lee"
+      }
+    },
+    {
+      "id": 600525,
+      "score": 0.8941649,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 136.905548096,
+        "mbid": "99989640-a6d5-4b71-93a6-653950e5ad99",
+        "artist": "Huey Lewis and the News",
+        "title": "Stagger Lee"
+      }
+    },
+    {
+      "id": 431607,
+      "score": 0.88764536,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 134.661758423,
+        "mbid": "6ebbc12b-3068-430b-86a4-2b0d5a880eb3",
+        "artist": "The View",
+        "title": "Same Jeans"
+      }
+    },
+    {
+      "id": 911650,
+      "score": 0.88695025,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 161.995193481,
+        "mbid": "e95e4c9f-28d1-428a-b8af-7b2d4954301e",
+        "artist": "The Connells",
+        "title": "Take a Bow"
+      }
+    },
+    {
+      "id": 1256504,
+      "score": 0.8860211,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 129.814651489,
+        "mbid": "8e62956f-c320-4ce3-8073-48d52224ec99",
+        "artist": "Glee Cast",
+        "title": "Jump"
+      }
+    },
+    {
+      "id": 556593,
+      "score": 0.88102007,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 129.884780884,
+        "mbid": "8e62956f-c320-4ce3-8073-48d52224ec99",
+        "artist": "Glee Cast",
+        "title": "Jump"
+      }
+    },
+    {
+      "id": 669630,
+      "score": 0.8787348,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 121.723060608,
+        "mbid": "ab36be98-0e71-494e-b184-a885c308ca0b",
+        "artist": "Bon Jovi",
+        "title": "Captain Crash and the Beauty Queen From Mars"
+      }
+    },
+    {
+      "id": 953908,
+      "score": 0.8748606,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 123.845863342,
+        "mbid": "f459c0c3-64dd-4411-bed6-7e5875455908",
+        "artist": "Huey Lewis & The News",
+        "title": "We're Not Here for a Long Time (We're Here for a Good Time)"
+      }
+    },
+    {
+      "id": 203061,
+      "score": 0.87309664,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 133.98727417,
+        "mbid": "33c57a82-4d45-417f-a3c7-a9a10dcaf9a0",
+        "artist": "Neil Diamond",
+        "title": "Shilo"
+      }
+    },
+    {
+      "id": 203068,
+      "score": 0.87309664,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 133.98727417,
+        "mbid": "33c57a82-4d45-417f-a3c7-a9a10dcaf9a0",
+        "artist": "Neil Diamond",
+        "title": "Shilo"
+      }
+    },
+    {
+      "id": 203067,
+      "score": 0.87309664,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 133.98727417,
+        "mbid": "33c57a82-4d45-417f-a3c7-a9a10dcaf9a0",
+        "artist": "Neil Diamond",
+        "title": "Shilo"
+      }
+    },
+    {
+      "id": 203069,
+      "score": 0.87309664,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 133.98727417,
+        "mbid": "33c57a82-4d45-417f-a3c7-a9a10dcaf9a0",
+        "artist": "Neil Diamond",
+        "title": "Shilo"
+      }
+    },
+    {
+      "id": 203062,
+      "score": 0.87309664,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 133.98727417,
+        "mbid": "33c57a82-4d45-417f-a3c7-a9a10dcaf9a0",
+        "artist": "Neil Diamond",
+        "title": "Shilo"
+      }
+    },
+    {
+      "id": 203066,
+      "score": 0.87309664,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 133.98727417,
+        "mbid": "33c57a82-4d45-417f-a3c7-a9a10dcaf9a0",
+        "artist": "Neil Diamond",
+        "title": "Shilo"
+      }
+    },
+    {
+      "id": 203065,
+      "score": 0.87309664,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 133.98727417,
+        "mbid": "33c57a82-4d45-417f-a3c7-a9a10dcaf9a0",
+        "artist": "Neil Diamond",
+        "title": "Shilo"
+      }
+    },
+    {
+      "id": 203063,
+      "score": 0.87309664,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 133.98727417,
+        "mbid": "33c57a82-4d45-417f-a3c7-a9a10dcaf9a0",
+        "artist": "Neil Diamond",
+        "title": "Shilo"
+      }
+    },
+    {
+      "id": 203064,
+      "score": 0.87309664,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 133.98727417,
+        "mbid": "33c57a82-4d45-417f-a3c7-a9a10dcaf9a0",
+        "artist": "Neil Diamond",
+        "title": "Shilo"
+      }
+    },
+    {
+      "id": 921549,
+      "score": 0.8704226,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 115.021644592,
+        "mbid": "ebfb6589-016d-42d6-be93-881cad7eed40",
+        "artist": "MxPx",
+        "title": "The Downfall of Western Civilization"
+      }
+    },
+    {
+      "id": 1043307,
+      "score": 0.8693964,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 123.158050537,
+        "mbid": "1807c925-e55f-44ad-86ad-e7a27c1b154e",
+        "artist": "Band Aid 20",
+        "title": "Do They Know It's Christmas?"
+      }
+    },
+    {
+      "id": 1095813,
+      "score": 0.8692991,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 153.21307373,
+        "mbid": "350090d9-2f70-4752-badb-2d9101c96d75",
+        "artist": "Gary Clark Jr.",
+        "title": "Travis County"
+      }
+    },
+    {
+      "id": 1269820,
+      "score": 0.8665331,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 155.751251221,
+        "mbid": "959c4f04-8e23-4b3a-afb4-fbdd1b76f433",
+        "artist": "Fierce Deity",
+        "title": "LEViARACH"
+      }
+    },
+    {
+      "id": 445680,
+      "score": 0.86390245,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 139.918640137,
+        "mbid": "726a15db-0ab3-4440-a814-e5c1401b906c",
+        "artist": "Great White",
+        "title": "Silent Night"
+      }
+    },
+    {
+      "id": 331177,
+      "score": 0.8635176,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 136.089355469,
+        "mbid": "54d75deb-3039-42a5-944a-1090a37c384a",
+        "artist": "Marc Almond",
+        "title": "Nijinsky Heart"
+      }
+    },
+    {
+      "id": 331178,
+      "score": 0.8635176,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 136.089355469,
+        "mbid": "54d75deb-3039-42a5-944a-1090a37c384a",
+        "artist": "Marc Almond",
+        "title": "Nijinsky Heart"
+      }
+    },
+    {
+      "id": 1068112,
+      "score": 0.8627105,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 119.998680115,
+        "mbid": "25f98061-6538-452e-b8bb-7db41447a042",
+        "artist": "Jeff Foxworthy Feat. Dave MacKenzie",
+        "title": "Let Me Drive"
+      }
+    },
+    {
+      "id": 214411,
+      "score": 0.8625501,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 142.005187988,
+        "mbid": "36caf068-55e0-4c92-a6f2-f60247789588",
+        "artist": "The Jaded Hearts Club",
+        "title": "Bad Boy"
+      }
+    },
+    {
+      "id": 463364,
+      "score": 0.86175275,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 151.868057251,
+        "mbid": "76d12ebd-7f38-49a1-a973-e996eda7b7d8",
+        "artist": "Dropkick Murphys",
+        "title": "Sunday Hardcore Matinee"
+      }
+    },
+    {
+      "id": 652491,
+      "score": 0.8617502,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 172.265365601,
+        "mbid": "a6d3b803-7cc9-477e-8dc1-3ca5bdfef9c2",
+        "artist": "William Shatner",
+        "title": "Common People"
+      }
+    },
+    {
+      "id": 968714,
+      "score": 0.8609376,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 140.453369141,
+        "mbid": "f80ef648-4370-4a02-ae02-840ebdb3367a",
+        "artist": "James",
+        "title": "Homeboy"
+      }
+    },
+    {
+      "id": 337017,
+      "score": 0.86078405,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 115.09790802,
+        "mbid": "566d7c17-16be-40ad-b10d-f5c4347a0baa",
+        "artist": "Band Aid",
+        "title": "Do They Know It's Christmas?"
+      }
+    },
+    {
+      "id": 37369,
+      "score": 0.8599212,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 172.265441895,
+        "mbid": "098695c3-9885-44df-ae17-d1f9bd32814b",
+        "artist": "William Shatner",
+        "title": "Common People"
+      }
+    },
+    {
+      "id": 584202,
+      "score": 0.85930496,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 123.012313843,
+        "mbid": "95669a10-d17c-4aa8-9d51-21293a43d87b",
+        "artist": "Dixie Chicks, Linde, Dennis",
+        "title": "Goodbye Earl"
+      }
+    },
+    {
+      "id": 584203,
+      "score": 0.85930496,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 123.012313843,
+        "mbid": "95669a10-d17c-4aa8-9d51-21293a43d87b",
+        "artist": "Dixie Chicks, Linde, Dennis",
+        "title": "Goodbye Earl"
+      }
+    },
+    {
+      "id": 742770,
+      "score": 0.8572906,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 138.960861206,
+        "mbid": "bdfb9018-d7fe-4632-b9c3-1513cb878331",
+        "artist": "The Jesus and Mary Chain",
+        "title": "Head On"
+      }
+    },
+    {
+      "id": 539818,
+      "score": 0.85694236,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 152.250991821,
+        "mbid": "8a2273b8-fc98-4a2d-ba12-2b3ceb2119b3",
+        "artist": "Jools Holland & His Rhythm & Blues Orchestra feat. Ringo Starr",
+        "title": "Boys"
+      }
+    },
+    {
+      "id": 539817,
+      "score": 0.85694236,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 152.250991821,
+        "mbid": "8a2273b8-fc98-4a2d-ba12-2b3ceb2119b3",
+        "artist": "Jools Holland & His Rhythm & Blues Orchestra feat. Ringo Starr",
+        "title": "Boys"
+      }
+    },
+    {
+      "id": 1129673,
+      "score": 0.85689414,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 121.728553772,
+        "mbid": "47ccd3f0-0a9e-4069-91be-33e13bf88aff",
+        "artist": "Bon Jovi",
+        "title": "Captain Crash & the Beauty Queen From Mars"
+      }
+    },
+    {
+      "id": 64887,
+      "score": 0.85647124,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 147.948684692,
+        "mbid": "10a0bee8-d47e-4b74-99eb-3c06820b6d41",
+        "artist": "blink-182",
+        "title": "All the Small Things"
+      }
+    },
+    {
+      "id": 1365717,
+      "score": 0.85596406,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 161.888122559,
+        "mbid": "cb070cf5-fdf9-4ac2-a4b5-395a9267ddbc",
+        "artist": "Toto Coelo",
+        "title": "Tell Him"
+      }
+    },
+    {
+      "id": 1043310,
+      "score": 0.85483134,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 123.188568115,
+        "mbid": "1807c925-e55f-44ad-86ad-e7a27c1b154e",
+        "artist": "Band Aid 20",
+        "title": "Do They Know It's Christmas?"
+      }
+    },
+    {
+      "id": 1043308,
+      "score": 0.85483134,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 123.188568115,
+        "mbid": "1807c925-e55f-44ad-86ad-e7a27c1b154e",
+        "artist": "Band Aid 20",
+        "title": "Do They Know It's Christmas"
+      }
+    },
+    {
+      "id": 1043309,
+      "score": 0.85483134,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 123.188568115,
+        "mbid": "1807c925-e55f-44ad-86ad-e7a27c1b154e",
+        "artist": "Band Aid 20",
+        "title": "Do They Know It's Christmas?"
+      }
+    },
+    {
+      "id": 789341,
+      "score": 0.8536064,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 123.29296875,
+        "mbid": "c9fe459b-38f7-4ab2-a90b-9a9c6710e831",
+        "artist": "The Prodigy",
+        "title": "Do They Know It's Christmas"
+      }
+    },
+    {
+      "id": 1095815,
+      "score": 0.85338044,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 153.142745972,
+        "mbid": "350090d9-2f70-4752-badb-2d9101c96d75",
+        "artist": "Unknown",
+        "title": "Travis County"
+      }
+    },
+    {
+      "id": 1095814,
+      "score": 0.85338044,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 153.142745972,
+        "mbid": "350090d9-2f70-4752-badb-2d9101c96d75",
+        "artist": "Unknown",
+        "title": "Travis County"
+      }
+    },
+    {
+      "id": 1095812,
+      "score": 0.85338044,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 153.142745972,
+        "mbid": "350090d9-2f70-4752-badb-2d9101c96d75",
+        "artist": "Unknown",
+        "title": "Travis County"
+      }
+    },
+    {
+      "id": 337013,
+      "score": 0.8529268,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 115.16443634,
+        "mbid": "566d7c17-16be-40ad-b10d-f5c4347a0baa",
+        "artist": "Band Aid",
+        "title": "Do They Know It's Christmas"
+      }
+    },
+    {
+      "id": 337014,
+      "score": 0.8529268,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 115.16443634,
+        "mbid": "566d7c17-16be-40ad-b10d-f5c4347a0baa",
+        "artist": "Band Aid",
+        "title": "Do They Know It's Christmas"
+      }
+    },
+    {
+      "id": 1374618,
+      "score": 0.8517238,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 145.398406982,
+        "mbid": "d00e77f1-c5bd-401b-a11e-8d4278ebf6c8",
+        "artist": "The Octopus Project",
+        "title": "Exit Counselor"
+      }
+    },
+    {
+      "id": 221660,
+      "score": 0.8515495,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 126.422927856,
+        "mbid": "389fa003-5708-45c3-bcf3-e8c4b6b58d86",
+        "artist": "The Golliwogs",
+        "title": "Fragile Child Single Version"
+      }
+    },
+    {
+      "id": 1209691,
+      "score": 0.85152066,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 166.311141968,
+        "mbid": "74446451-8882-4be4-b0c1-c6e462b2c911",
+        "artist": "George Thorogood & the Destroyers",
+        "title": "Be Bop Grandma"
+      }
+    },
+    {
+      "id": 936135,
+      "score": 0.85118854,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 154.604446411,
+        "mbid": "efc9d4c9-9eb4-4226-9217-97c21102542c",
+        "artist": "Pulp",
+        "title": "Common People"
+      }
+    },
+    {
+      "id": 559231,
+      "score": 0.8511348,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 144.577377319,
+        "mbid": "8f071c3b-ac73-418b-8409-480869c89e22",
+        "artist": "Max Eider",
+        "title": "Rosemary"
+      }
+    },
+    {
+      "id": 91218,
+      "score": 0.8508649,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 172.265884399,
+        "mbid": "17695372-9ff0-42a8-80f4-7a6bd6c18361",
+        "artist": "Dead Bars",
+        "title": "Always Bet on Clark"
+      }
+    },
+    {
+      "id": 130008,
+      "score": 0.85047716,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 166.156051636,
+        "mbid": "21332613-5356-4a78-8355-482f7634eb93",
+        "artist": "Velvet Revolver",
+        "title": "Can't Get It Out Of My Head"
+      }
+    },
+    {
+      "id": 968713,
+      "score": 0.850331,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 140.398971558,
+        "mbid": "f80ef648-4370-4a02-ae02-840ebdb3367a",
+        "artist": "James",
+        "title": "Homeboy"
+      }
+    },
+    {
+      "id": 1156054,
+      "score": 0.8498014,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 115.152633667,
+        "mbid": "566d7c17-16be-40ad-b10d-f5c4347a0baa",
+        "artist": "Band Aid",
+        "title": "Do They Know It's Christmas?"
+      }
+    },
+    {
+      "id": 1233535,
+      "score": 0.8497885,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 147.470748901,
+        "mbid": "817c66cf-16f8-4a43-a6ed-2e1d5bb61627",
+        "artist": "The Lawrence Arms",
+        "title": "Demons"
+      }
+    },
+    {
+      "id": 452949,
+      "score": 0.8497661,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 166.311141968,
+        "mbid": "74446451-8882-4be4-b0c1-c6e462b2c911",
+        "artist": "George Thorogood & The Destroyers",
+        "title": "Be Bop Grandma"
+      }
+    },
+    {
+      "id": 452948,
+      "score": 0.8497661,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 166.311141968,
+        "mbid": "74446451-8882-4be4-b0c1-c6e462b2c911",
+        "artist": "George Thorogood & The Destroyers",
+        "title": "Be Bop Grandma"
+      }
+    },
+    {
+      "id": 1162667,
+      "score": 0.84956706,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 135.042617798,
+        "mbid": "5a202db0-7743-4f1f-943a-827097e7214c",
+        "artist": "AWOLNATION & Taylor Hanson of Hanson",
+        "title": "Material Girl"
+      }
+    },
+    {
+      "id": 1342447,
+      "score": 0.84952295,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 138.993988037,
+        "mbid": "bdfb9018-d7fe-4632-b9c3-1513cb878331",
+        "artist": "The Jesus & Mary Chain",
+        "title": "Head On"
+      }
+    },
+    {
+      "id": 1342444,
+      "score": 0.84952295,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 138.993988037,
+        "mbid": "bdfb9018-d7fe-4632-b9c3-1513cb878331",
+        "artist": "The Jesus & Mary Chain",
+        "title": "Head On"
+      }
+    },
+    {
+      "id": 1342446,
+      "score": 0.84952295,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 138.993988037,
+        "mbid": "bdfb9018-d7fe-4632-b9c3-1513cb878331",
+        "artist": "The Jesus & Mary Chain",
+        "title": "Head On"
+      }
+    },
+    {
+      "id": 1342443,
+      "score": 0.84952295,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 138.993988037,
+        "mbid": "bdfb9018-d7fe-4632-b9c3-1513cb878331",
+        "artist": "The Jesus & Mary Chain",
+        "title": "Head On"
+      }
+    },
+    {
+      "id": 1093238,
+      "score": 0.8493327,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 154.781448364,
+        "mbid": "339f6b1e-1ff2-4042-aa48-4fb6397c43a5",
+        "artist": "Pulp",
+        "title": "Common People"
+      }
+    },
+    {
+      "id": 93651,
+      "score": 0.84876174,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 123.198722839,
+        "mbid": "1807c925-e55f-44ad-86ad-e7a27c1b154e",
+        "artist": "Band Aid 20",
+        "title": "Do They Know It's Christmas?"
+      }
+    },
+    {
+      "id": 936134,
+      "score": 0.8487558,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 154.71673584,
+        "mbid": "efc9d4c9-9eb4-4226-9217-97c21102542c",
+        "artist": "Pulp",
+        "title": "Common People"
+      }
+    },
+    {
+      "id": 914332,
+      "score": 0.8480172,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 99.9994735718,
+        "mbid": "ea1a7af2-c0ac-41fb-b996-4bfec0f9f0ac",
+        "artist": "Carniceiros de A\u00e7o",
+        "title": "A criatura"
+      }
+    },
+    {
+      "id": 925592,
+      "score": 0.8479606,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 111.264320374,
+        "mbid": "ed11a512-0049-4322-b0cb-f45989050bb7",
+        "artist": "The Who",
+        "title": "Let's See Action"
+      }
+    },
+    {
+      "id": 925593,
+      "score": 0.8479606,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 111.264320374,
+        "mbid": "ed11a512-0049-4322-b0cb-f45989050bb7",
+        "artist": "The Who",
+        "title": "Let's See Action"
+      }
+    },
+    {
+      "id": 1256503,
+      "score": 0.84780616,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 129.920455933,
+        "mbid": "8e62956f-c320-4ce3-8073-48d52224ec99",
+        "artist": "Glee Cast",
+        "title": "Jump"
+      }
+    },
+    {
+      "id": 715604,
+      "score": 0.847751,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 172.265426636,
+        "mbid": "b70eefaa-e5dd-41a9-a782-5c25eb080b94",
+        "artist": "2 Minutos",
+        "title": "Contrabando de amor"
+      }
+    },
+    {
+      "id": 168301,
+      "score": 0.84758204,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 156.392654419,
+        "mbid": "2aec11ea-da94-428f-b552-749037b8c428",
+        "artist": "The National",
+        "title": "Abel"
+      }
+    },
+    {
+      "id": 1323477,
+      "score": 0.8474114,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 135.928833008,
+        "mbid": "b38f193c-8fb6-4918-87e9-de5fedd2f119",
+        "artist": "Can\u2019t Swim",
+        "title": "$50,000,000"
+      }
+    },
+    {
+      "id": 1323476,
+      "score": 0.8474114,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 135.928833008,
+        "mbid": "b38f193c-8fb6-4918-87e9-de5fedd2f119",
+        "artist": "Can\u2019t Swim",
+        "title": "$50,000,000"
+      }
+    },
+    {
+      "id": 742769,
+      "score": 0.84707063,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 138.941436768,
+        "mbid": "bdfb9018-d7fe-4632-b9c3-1513cb878331",
+        "artist": "The Jesus And Mary Chain",
+        "title": "Head On"
+      }
+    },
+    {
+      "id": 720216,
+      "score": 0.84684145,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 164.356124878,
+        "mbid": "b8405653-ed13-4c4c-8154-f7b8b507acb2",
+        "artist": "Sika Redem",
+        "title": "No Gods No Masters"
+      }
+    },
+    {
+      "id": 720217,
+      "score": 0.84684145,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 164.356124878,
+        "mbid": "b8405653-ed13-4c4c-8154-f7b8b507acb2",
+        "artist": "Sika Redem",
+        "title": "No Gods No Masters"
+      }
+    },
+    {
+      "id": 1095816,
+      "score": 0.8463528,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 153.192062378,
+        "mbid": "350090d9-2f70-4752-badb-2d9101c96d75",
+        "artist": "Gary Clark, Jr.",
+        "title": "Travis County"
+      }
+    },
+    {
+      "id": 945452,
+      "score": 0.8460281,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 138.02583313,
+        "mbid": "f23851cd-bacf-4b51-a20f-0772f1a77693",
+        "artist": "Mates of State",
+        "title": "Palomino"
+      }
+    },
+    {
+      "id": 833772,
+      "score": 0.8447943,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 150.403640747,
+        "mbid": "d562bbe5-40fb-4ace-aa81-9bf3ebd89456",
+        "artist": "Best Coast",
+        "title": "Scooby Doo Theme Song"
+      }
+    },
+    {
+      "id": 833776,
+      "score": 0.8447943,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 150.403640747,
+        "mbid": "d562bbe5-40fb-4ace-aa81-9bf3ebd89456",
+        "artist": "Best Coast",
+        "title": "Scooby Doo Theme Song"
+      }
+    },
+    {
+      "id": 833775,
+      "score": 0.8447943,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 150.403640747,
+        "mbid": "d562bbe5-40fb-4ace-aa81-9bf3ebd89456",
+        "artist": "Best Coast",
+        "title": "Scooby Doo Theme Song"
+      }
+    },
+    {
+      "id": 833771,
+      "score": 0.8447943,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 150.403640747,
+        "mbid": "d562bbe5-40fb-4ace-aa81-9bf3ebd89456",
+        "artist": "Best Coast",
+        "title": "Scooby Doo Theme Song"
+      }
+    },
+    {
+      "id": 833773,
+      "score": 0.8447943,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 150.403640747,
+        "mbid": "d562bbe5-40fb-4ace-aa81-9bf3ebd89456",
+        "artist": "Best Coast",
+        "title": "Scooby Doo Theme Song"
+      }
+    },
+    {
+      "id": 833770,
+      "score": 0.8447943,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 150.403640747,
+        "mbid": "d562bbe5-40fb-4ace-aa81-9bf3ebd89456",
+        "artist": "Best Coast",
+        "title": "Scooby Doo Theme Song"
+      }
+    },
+    {
+      "id": 833774,
+      "score": 0.8447943,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 150.403640747,
+        "mbid": "d562bbe5-40fb-4ace-aa81-9bf3ebd89456",
+        "artist": "Best Coast",
+        "title": "Scooby Doo Theme Song"
+      }
+    },
+    {
+      "id": 775065,
+      "score": 0.8447156,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 164.601913452,
+        "mbid": "c642d320-cf84-4dc9-9503-76b532c5731b",
+        "artist": "Eat Lights Become Lights",
+        "title": "Bound for Magic Mountain"
+      }
+    },
+    {
+      "id": 638399,
+      "score": 0.844218,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 143.609909058,
+        "mbid": "a33ce847-9022-42ca-8a2f-ebfc6bf9d496",
+        "artist": "Rick Wakeman",
+        "title": "Sir Lancelot and the Black Knight"
+      }
+    },
+    {
+      "id": 135691,
+      "score": 0.8442087,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 132.105072021,
+        "mbid": "229e7e0d-b65e-4e1c-aefc-318dea3f900c",
+        "artist": "Roger Glover",
+        "title": "Fake It"
+      }
+    },
+    {
+      "id": 1318955,
+      "score": 0.8440093,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 153.122406006,
+        "mbid": "b0fbf3dc-d727-43c6-be20-b89d41614e53",
+        "artist": "Die Toten Hosen",
+        "title": "Bis zum bitteren Ende"
+      }
+    },
+    {
+      "id": 1318877,
+      "score": 0.843715,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 122.979057312,
+        "mbid": "b0f225ee-38ff-47eb-98d4-d3bc0da90ab4",
+        "artist": "Eric Church",
+        "title": "Hell on the Heart"
+      }
+    },
+    {
+      "id": 374983,
+      "score": 0.8432658,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 138.770874023,
+        "mbid": "602b139d-7b1a-4cac-823d-193f602e3662",
+        "artist": "Chicago",
+        "title": "Vote for Me"
+      }
+    },
+    {
+      "id": 374984,
+      "score": 0.8432658,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 138.770874023,
+        "mbid": "602b139d-7b1a-4cac-823d-193f602e3662",
+        "artist": "Chicago",
+        "title": "Vote for Me"
+      }
+    },
+    {
+      "id": 374981,
+      "score": 0.8432658,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 138.770874023,
+        "mbid": "602b139d-7b1a-4cac-823d-193f602e3662",
+        "artist": "Chicago",
+        "title": "Vote for Me"
+      }
+    },
+    {
+      "id": 374982,
+      "score": 0.8432658,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 138.770874023,
+        "mbid": "602b139d-7b1a-4cac-823d-193f602e3662",
+        "artist": "Chicago",
+        "title": "Vote for Me"
+      }
+    },
+    {
+      "id": 374980,
+      "score": 0.8432658,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 138.770874023,
+        "mbid": "602b139d-7b1a-4cac-823d-193f602e3662",
+        "artist": "Chicago",
+        "title": "Vote for Me"
+      }
+    },
+    {
+      "id": 374986,
+      "score": 0.8432658,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 138.770874023,
+        "mbid": "602b139d-7b1a-4cac-823d-193f602e3662",
+        "artist": "Chicago",
+        "title": "Vote for Me"
+      }
+    },
+    {
+      "id": 374985,
+      "score": 0.8432658,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "major",
+        "bpm": 138.770874023,
+        "mbid": "602b139d-7b1a-4cac-823d-193f602e3662",
+        "artist": "Chicago",
+        "title": "Vote for Me"
+      }
+    }
+  ]
+}

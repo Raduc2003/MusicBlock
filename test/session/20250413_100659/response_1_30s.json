@@ -1,0 +1,1261 @@
+{
+  "query_final_vector": [
+    0.22074525912648132,
+    -0.15720881977776957,
+    0.12140279863218188,
+    0.0005816301054947874,
+    0.044643331424062654,
+    0.03361372949808096,
+    0.08386666172027413,
+    0.03126613292167472,
+    0.06844156323050646,
+    0.12017567885442579,
+    0.06952261804345664,
+    0.10855633983961194,
+    -0.08192295754154119,
+    -0.1951511851959514,
+    0.30687624779192374,
+    0.10029131954731522,
+    -0.16023774051584833,
+    0.17418413561946977,
+    0.006143496380709504,
+    -0.09345036521053972,
+    0.03534441883921012,
+    0.020563320041352466,
+    -0.01808149513285854,
+    0.014541989632802066,
+    -0.06642616673906421,
+    -0.08568807976644276,
+    -0.01556416331044515,
+    0.003328176423538607,
+    0.07814104967620085,
+    0.22653832866550336,
+    0.05422742818337741,
+    -0.1435757293824256,
+    -0.17275181142856494,
+    -0.199799875840832,
+    -0.056066763259781736,
+    0.1779110250774009,
+    0.3040015188043895,
+    0.23535814132771374,
+    0.25674475574046063,
+    -0.041297447918379526,
+    -0.1696919395521377,
+    -0.1674786971446705,
+    -0.1179393704201646,
+    -0.019232173951160707,
+    0.07213273232288205,
+    -0.024117106106508912,
+    -0.10804597021190791,
+    -0.07178172323930158,
+    -0.07518005290894314,
+    0.013368564244877588,
+    0.11302361178703382,
+    -0.009314577015034794,
+    -0.15820137528085915,
+    -0.2190056675312728,
+    -0.22475722465029593
+  ],
+  "results": [
+    {
+      "id": 632605,
+      "score": 0.81150264,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "major",
+        "bpm": 103.902267456,
+        "mbid": "a1b84584-afe4-418e-972e-adfe88779161",
+        "artist": "Electro Deluxe",
+        "title": "But No"
+      }
+    },
+    {
+      "id": 129878,
+      "score": 0.7959351,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 98.8904418945,
+        "mbid": "212ac62d-c882-4ac4-bbbf-a66794dec3d8",
+        "artist": "Daniel Merriweather feat. Wale",
+        "title": "Change"
+      }
+    },
+    {
+      "id": 286719,
+      "score": 0.79404867,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 98.7504959106,
+        "mbid": "495aacf0-f2b4-4bc4-b41f-79ae56a69562",
+        "artist": "Mizz Nina",
+        "title": "Yesterday"
+      }
+    },
+    {
+      "id": 129879,
+      "score": 0.7918741,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 98.9638214111,
+        "mbid": "212ac62d-c882-4ac4-bbbf-a66794dec3d8",
+        "artist": "Daniel Merriweather Feat. Wale",
+        "title": "Change"
+      }
+    },
+    {
+      "id": 129880,
+      "score": 0.7918741,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 98.9638137817,
+        "mbid": "212ac62d-c882-4ac4-bbbf-a66794dec3d8",
+        "artist": "Daniel Merriweather Feat. Wale",
+        "title": "Change"
+      }
+    },
+    {
+      "id": 866205,
+      "score": 0.7873512,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 113.987876892,
+        "mbid": "ddbf50d7-2ca0-4676-ae30-62736c9b0ce0",
+        "artist": "\u00ef\u00bf\u220f",
+        "title": "Want To Want Me 3"
+      }
+    },
+    {
+      "id": 866207,
+      "score": 0.7873512,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 113.987876892,
+        "mbid": "ddbf50d7-2ca0-4676-ae30-62736c9b0ce0",
+        "artist": "Jason Derulo",
+        "title": "Want To Want Me"
+      }
+    },
+    {
+      "id": 866211,
+      "score": 0.7873512,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 113.987876892,
+        "mbid": "ddbf50d7-2ca0-4676-ae30-62736c9b0ce0",
+        "artist": "Jason Derulo",
+        "title": "Want To Want Me"
+      }
+    },
+    {
+      "id": 866209,
+      "score": 0.7873452,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 113.994277954,
+        "mbid": "ddbf50d7-2ca0-4676-ae30-62736c9b0ce0",
+        "artist": "Jason Derulo",
+        "title": "Want To Want Me"
+      }
+    },
+    {
+      "id": 114957,
+      "score": 0.78647965,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 100.023086548,
+        "mbid": "1d6564eb-42f9-43cf-aba8-5da4e72b0438",
+        "artist": "Muse",
+        "title": "Dead Inside"
+      }
+    },
+    {
+      "id": 303389,
+      "score": 0.7864477,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 97.0014877319,
+        "mbid": "4da8da89-ac38-44da-864f-f8d60c60a9e0",
+        "artist": "joan",
+        "title": "love me better"
+      }
+    },
+    {
+      "id": 303390,
+      "score": 0.7864477,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 97.0014877319,
+        "mbid": "4da8da89-ac38-44da-864f-f8d60c60a9e0",
+        "artist": "joan",
+        "title": "love me better"
+      }
+    },
+    {
+      "id": 1236735,
+      "score": 0.78350943,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 113.990692139,
+        "mbid": "83451080-bcfe-4825-bef7-ed953c7fa162",
+        "artist": "Jason Derulo",
+        "title": "Want to Want Me"
+      }
+    },
+    {
+      "id": 1236736,
+      "score": 0.78350943,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 113.990692139,
+        "mbid": "83451080-bcfe-4825-bef7-ed953c7fa162",
+        "artist": "Jason Derulo",
+        "title": "Want To Want Me"
+      }
+    },
+    {
+      "id": 866206,
+      "score": 0.78337234,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 113.969642639,
+        "mbid": "ddbf50d7-2ca0-4676-ae30-62736c9b0ce0",
+        "artist": "\u00ef\u00bf\u220f",
+        "title": "Want to Want Me 3"
+      }
+    },
+    {
+      "id": 866210,
+      "score": 0.78336036,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 113.981971741,
+        "mbid": "ddbf50d7-2ca0-4676-ae30-62736c9b0ce0",
+        "artist": "\u00ef\u00bf\u220f",
+        "title": "Want to Want Me 3"
+      }
+    },
+    {
+      "id": 512720,
+      "score": 0.7824021,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 113.970001221,
+        "mbid": "83451080-bcfe-4825-bef7-ed953c7fa162",
+        "artist": "Jason Derulo",
+        "title": "Want to Want Me"
+      }
+    },
+    {
+      "id": 512716,
+      "score": 0.7824021,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 113.970001221,
+        "mbid": "83451080-bcfe-4825-bef7-ed953c7fa162",
+        "artist": "Jason Derulo",
+        "title": "Want to Want Me"
+      }
+    },
+    {
+      "id": 512715,
+      "score": 0.7824021,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 113.970001221,
+        "mbid": "83451080-bcfe-4825-bef7-ed953c7fa162",
+        "artist": "Jason Derulo",
+        "title": "Want to Want Me"
+      }
+    },
+    {
+      "id": 512713,
+      "score": 0.7824021,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 113.970001221,
+        "mbid": "83451080-bcfe-4825-bef7-ed953c7fa162",
+        "artist": "Jason Derulo",
+        "title": "Want to Want Me"
+      }
+    },
+    {
+      "id": 512722,
+      "score": 0.7824021,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 113.970001221,
+        "mbid": "83451080-bcfe-4825-bef7-ed953c7fa162",
+        "artist": "Jason Derulo",
+        "title": "Want to Want Me"
+      }
+    },
+    {
+      "id": 512721,
+      "score": 0.7824021,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 113.970001221,
+        "mbid": "83451080-bcfe-4825-bef7-ed953c7fa162",
+        "artist": "Jason Derulo",
+        "title": "Want to Want Me"
+      }
+    },
+    {
+      "id": 512714,
+      "score": 0.7824021,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 113.970001221,
+        "mbid": "83451080-bcfe-4825-bef7-ed953c7fa162",
+        "artist": "Jason Derulo",
+        "title": "Want to Want Me"
+      }
+    },
+    {
+      "id": 512717,
+      "score": 0.7824021,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 113.970001221,
+        "mbid": "83451080-bcfe-4825-bef7-ed953c7fa162",
+        "artist": "Jason Derulo",
+        "title": "Want to Want Me"
+      }
+    },
+    {
+      "id": 512712,
+      "score": 0.7824021,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 113.970001221,
+        "mbid": "83451080-bcfe-4825-bef7-ed953c7fa162",
+        "artist": "Jason Derulo",
+        "title": "Want to Want Me"
+      }
+    },
+    {
+      "id": 512718,
+      "score": 0.7824021,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 113.970001221,
+        "mbid": "83451080-bcfe-4825-bef7-ed953c7fa162",
+        "artist": "Jason Derulo",
+        "title": "Want to Want Me"
+      }
+    },
+    {
+      "id": 544161,
+      "score": 0.7820901,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 109.721878052,
+        "mbid": "8b373b1e-0ac4-48bc-9eff-967d4a2a272a",
+        "artist": "Unknown",
+        "title": "Unknown"
+      }
+    },
+    {
+      "id": 822406,
+      "score": 0.7814324,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 90.9547805786,
+        "mbid": "d278d505-f359-4676-bd7b-9fa8ee9387ec",
+        "artist": "\u30de\u30af\u30ed\u30b9MACROSS 82\u201399",
+        "title": "\u30de\u3042\u306a\u305fTHE NIGHT IN TOKYO"
+      }
+    },
+    {
+      "id": 822407,
+      "score": 0.7814324,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 90.9547805786,
+        "mbid": "d278d505-f359-4676-bd7b-9fa8ee9387ec",
+        "artist": "\u30de\u30af\u30ed\u30b9MACROSS 82\u201399",
+        "title": "\u30de\u3042\u306a\u305fTHE NIGHT IN TOKYO"
+      }
+    },
+    {
+      "id": 320631,
+      "score": 0.7808195,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 83.8426208496,
+        "mbid": "5214aa73-6980-4976-a700-794fe92ac4d2",
+        "artist": "JAY-Z",
+        "title": "Marcy Me"
+      }
+    },
+    {
+      "id": 866208,
+      "score": 0.78067315,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 114.039604187,
+        "mbid": "ddbf50d7-2ca0-4676-ae30-62736c9b0ce0",
+        "artist": "Jason Derulo",
+        "title": "Want to Want Me"
+      }
+    },
+    {
+      "id": 233247,
+      "score": 0.7804232,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 97.9206008911,
+        "mbid": "3b8b8384-35a1-4c80-b76e-6cc1f312e9d7",
+        "artist": "Freeweights",
+        "title": "True to My Game"
+      }
+    },
+    {
+      "id": 233248,
+      "score": 0.7804232,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 97.9206008911,
+        "mbid": "3b8b8384-35a1-4c80-b76e-6cc1f312e9d7",
+        "artist": "Freeweights",
+        "title": "True to My Game"
+      }
+    },
+    {
+      "id": 866213,
+      "score": 0.7770732,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 114.001754761,
+        "mbid": "ddbf50d7-2ca0-4676-ae30-62736c9b0ce0",
+        "artist": "Jason Derulo",
+        "title": "Want to Want Me"
+      }
+    },
+    {
+      "id": 512719,
+      "score": 0.7765335,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 114.023910522,
+        "mbid": "83451080-bcfe-4825-bef7-ed953c7fa162",
+        "artist": "Jason Derulo",
+        "title": "Want to Want Me"
+      }
+    },
+    {
+      "id": 241536,
+      "score": 0.7753829,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 99.9462890625,
+        "mbid": "3dab50eb-1e9f-49d9-bd67-1472e3c260fe",
+        "artist": "The Weeknd",
+        "title": "In Your Eyes"
+      }
+    },
+    {
+      "id": 1283803,
+      "score": 0.7751151,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 85.0036087036,
+        "mbid": "9d7fab73-3b37-4156-8c42-329c0d9eedc3",
+        "artist": "The Boxer Rebellion",
+        "title": "Step Out of the Car"
+      }
+    },
+    {
+      "id": 625113,
+      "score": 0.77382845,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 113.972312927,
+        "mbid": "9fd406f2-503e-4117-8b6e-2ec06de8e8b6",
+        "artist": "Jason Derulo",
+        "title": "Want To Want Me"
+      }
+    },
+    {
+      "id": 625114,
+      "score": 0.77382845,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 113.972312927,
+        "mbid": "9fd406f2-503e-4117-8b6e-2ec06de8e8b6",
+        "artist": "Jason Derulo",
+        "title": "Want To Want Me"
+      }
+    },
+    {
+      "id": 336850,
+      "score": 0.77301294,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 117.432685852,
+        "mbid": "56636234-22be-4015-a609-5c3529dcdce3",
+        "artist": "Lafayette Afro-Rock Band",
+        "title": "Soul Makossa"
+      }
+    },
+    {
+      "id": 114958,
+      "score": 0.77230954,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 100.012077332,
+        "mbid": "1d6564eb-42f9-43cf-aba8-5da4e72b0438",
+        "artist": "Muse",
+        "title": "Dead Inside"
+      }
+    },
+    {
+      "id": 114955,
+      "score": 0.77230746,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 100.019744873,
+        "mbid": "1d6564eb-42f9-43cf-aba8-5da4e72b0438",
+        "artist": "Muse",
+        "title": "Dead Inside"
+      }
+    },
+    {
+      "id": 872479,
+      "score": 0.77205914,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 90.7585449219,
+        "mbid": "df483ba7-f914-44c3-919a-8695af812af4",
+        "artist": "Soul II Soul",
+        "title": "Wish"
+      }
+    },
+    {
+      "id": 872478,
+      "score": 0.77205914,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 90.7585449219,
+        "mbid": "df483ba7-f914-44c3-919a-8695af812af4",
+        "artist": "Soul II Soul",
+        "title": "Wish"
+      }
+    },
+    {
+      "id": 866212,
+      "score": 0.77063227,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 113.974960327,
+        "mbid": "ddbf50d7-2ca0-4676-ae30-62736c9b0ce0",
+        "artist": "Jason Derulo",
+        "title": "Want to Want Me"
+      }
+    },
+    {
+      "id": 569061,
+      "score": 0.7705937,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 99.9461288452,
+        "mbid": "919a0015-31ce-41f1-9a45-898dfa728d1b",
+        "artist": "The Weeknd",
+        "title": "In Your Eyes"
+      }
+    },
+    {
+      "id": 241534,
+      "score": 0.7703872,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 99.9461288452,
+        "mbid": "3dab50eb-1e9f-49d9-bd67-1472e3c260fe",
+        "artist": "The Weeknd",
+        "title": "In Your Eyes"
+      }
+    },
+    {
+      "id": 624802,
+      "score": 0.7690002,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "minor",
+        "bpm": 114.983558655,
+        "mbid": "9fc0be3b-4ba6-43d5-b084-946dc560337f",
+        "artist": "Al Stewart",
+        "title": "King of Portugal"
+      }
+    },
+    {
+      "id": 866214,
+      "score": 0.7689901,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 114.006439209,
+        "mbid": "ddbf50d7-2ca0-4676-ae30-62736c9b0ce0",
+        "artist": "Jason Derulo",
+        "title": "Want to Want Me"
+      }
+    },
+    {
+      "id": 8201,
+      "score": 0.7689056,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "major",
+        "bpm": 107.990539551,
+        "mbid": "01f9e7a4-f3fc-46bd-b69e-fe9368f6a713",
+        "artist": "Brian Bromberg",
+        "title": "Choices"
+      }
+    },
+    {
+      "id": 114956,
+      "score": 0.7670965,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 99.9858856201,
+        "mbid": "1d6564eb-42f9-43cf-aba8-5da4e72b0438",
+        "artist": "Muse",
+        "title": "Dead Inside"
+      }
+    },
+    {
+      "id": 31232,
+      "score": 0.76567376,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 103.088050842,
+        "mbid": "07fe016a-6760-4d42-8cc9-bce4dec383e7",
+        "artist": "Swing Out Sister",
+        "title": "Between Strangers"
+      }
+    },
+    {
+      "id": 31231,
+      "score": 0.76567376,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 103.088050842,
+        "mbid": "07fe016a-6760-4d42-8cc9-bce4dec383e7",
+        "artist": "Swing Out Sister",
+        "title": "Between Strangers"
+      }
+    },
+    {
+      "id": 1078813,
+      "score": 0.76553017,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 92.4898147583,
+        "mbid": "2be5c423-4e05-49a4-a25f-c0b8038e2991",
+        "artist": "Mark Ronson",
+        "title": "Bang Bang Bang f. Q-Tip"
+      }
+    },
+    {
+      "id": 1078812,
+      "score": 0.76553017,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 92.4898147583,
+        "mbid": "2be5c423-4e05-49a4-a25f-c0b8038e2991",
+        "artist": "Mark Ronson",
+        "title": "Bang Bang Bang f. Q-Tip"
+      }
+    },
+    {
+      "id": 1231812,
+      "score": 0.76431197,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 96.9964141846,
+        "mbid": "80912eb3-733e-4559-82e9-805d6e7ef533",
+        "artist": "Robbie Williams Feat. Olly Murs",
+        "title": "I Wan'na Be Like You"
+      }
+    },
+    {
+      "id": 502264,
+      "score": 0.76325226,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 97.0213623047,
+        "mbid": "80912eb3-733e-4559-82e9-805d6e7ef533",
+        "artist": "Robbie Williams feat. Olly Murs",
+        "title": "I Wan'na Be Like You"
+      }
+    },
+    {
+      "id": 502263,
+      "score": 0.76325226,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 97.0213623047,
+        "mbid": "80912eb3-733e-4559-82e9-805d6e7ef533",
+        "artist": "Robbie Williams feat. Olly Murs",
+        "title": "I Wan'na Be Like You"
+      }
+    },
+    {
+      "id": 526165,
+      "score": 0.7631714,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 120.026168823,
+        "mbid": "86b00fa9-1d49-434c-a9ba-0755c0539875",
+        "artist": "Assemblage 23",
+        "title": "Straightjacket"
+      }
+    },
+    {
+      "id": 121495,
+      "score": 0.76270515,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 93.816696167,
+        "mbid": "1f0c6729-5e48-46fe-95aa-8da6f8affc22",
+        "artist": "Warren G feat. Nate Dogg",
+        "title": "Mid-Nite Hour"
+      }
+    },
+    {
+      "id": 1252366,
+      "score": 0.7620431,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "major",
+        "bpm": 97.0496292114,
+        "mbid": "8c112ca9-a808-4522-a22c-ab2d83abb5a4",
+        "artist": "Samantha Fox",
+        "title": "Another Woman (Too Many People)"
+      }
+    },
+    {
+      "id": 241535,
+      "score": 0.76133186,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 99.9334335327,
+        "mbid": "3dab50eb-1e9f-49d9-bd67-1472e3c260fe",
+        "artist": "The Weeknd",
+        "title": "In Your Eyes"
+      }
+    },
+    {
+      "id": 502262,
+      "score": 0.760803,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 97.0078887939,
+        "mbid": "80912eb3-733e-4559-82e9-805d6e7ef533",
+        "artist": "Robbie Williams",
+        "title": "I Wan'na Be Like You"
+      }
+    },
+    {
+      "id": 413164,
+      "score": 0.7607232,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "major",
+        "bpm": 135.024169922,
+        "mbid": "69f0cc7e-2e49-479e-a6f2-f935cff37110",
+        "artist": "Shirobon",
+        "title": "This Love"
+      }
+    },
+    {
+      "id": 960901,
+      "score": 0.7607232,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "major",
+        "bpm": 135.024169922,
+        "mbid": "f625775f-18c1-454b-ba80-393f5ad26870",
+        "artist": "Shirobon",
+        "title": "This Love"
+      }
+    },
+    {
+      "id": 1231813,
+      "score": 0.7595381,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 97.0268859863,
+        "mbid": "80912eb3-733e-4559-82e9-805d6e7ef533",
+        "artist": "Robbie Williams",
+        "title": "I Wan'na Be Like You"
+      }
+    },
+    {
+      "id": 350010,
+      "score": 0.7594878,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 99.9728775024,
+        "mbid": "59cbb862-d5be-4a25-ac3e-950c7d019b55",
+        "artist": "Freeway feat. Rick Ross",
+        "title": "Lights Get Low"
+      }
+    },
+    {
+      "id": 846707,
+      "score": 0.7593251,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 111.894340515,
+        "mbid": "d8a67e53-9ce7-42cb-ab2e-96baf3f62d27",
+        "artist": "Erasure",
+        "title": "Precious"
+      }
+    },
+    {
+      "id": 846708,
+      "score": 0.7593251,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 111.894340515,
+        "mbid": "d8a67e53-9ce7-42cb-ab2e-96baf3f62d27",
+        "artist": "Erasure",
+        "title": "Precious"
+      }
+    },
+    {
+      "id": 284768,
+      "score": 0.758771,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 130.018386841,
+        "mbid": "48ceb603-84bb-4a12-ad8e-e92ff23de345",
+        "artist": "The Streets",
+        "title": "Weak Become Heroes (Ashley Beedle's Love Bug vocal)"
+      }
+    },
+    {
+      "id": 798089,
+      "score": 0.7585115,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 109.880836487,
+        "mbid": "cc415b88-b9ad-4e07-9f6e-a15780d824a2",
+        "artist": "C\u00e9line Dion",
+        "title": "Misled"
+      }
+    },
+    {
+      "id": 798087,
+      "score": 0.7585115,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 109.880836487,
+        "mbid": "cc415b88-b9ad-4e07-9f6e-a15780d824a2",
+        "artist": "C\u00e9line Dion",
+        "title": "Misled"
+      }
+    },
+    {
+      "id": 798088,
+      "score": 0.7585115,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 109.880836487,
+        "mbid": "cc415b88-b9ad-4e07-9f6e-a15780d824a2",
+        "artist": "C\u00e9line Dion",
+        "title": "Misled"
+      }
+    },
+    {
+      "id": 798091,
+      "score": 0.7585115,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 109.880836487,
+        "mbid": "cc415b88-b9ad-4e07-9f6e-a15780d824a2",
+        "artist": "C\u00e9line Dion",
+        "title": "Misled"
+      }
+    },
+    {
+      "id": 798085,
+      "score": 0.7585115,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 109.880836487,
+        "mbid": "cc415b88-b9ad-4e07-9f6e-a15780d824a2",
+        "artist": "C\u00e9line Dion",
+        "title": "Misled"
+      }
+    },
+    {
+      "id": 798092,
+      "score": 0.7585115,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 109.880836487,
+        "mbid": "cc415b88-b9ad-4e07-9f6e-a15780d824a2",
+        "artist": "C\u00e9line Dion",
+        "title": "Misled"
+      }
+    },
+    {
+      "id": 798086,
+      "score": 0.7585115,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 109.880836487,
+        "mbid": "cc415b88-b9ad-4e07-9f6e-a15780d824a2",
+        "artist": "C\u00e9line Dion",
+        "title": "Misled"
+      }
+    },
+    {
+      "id": 798090,
+      "score": 0.7585115,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 109.880836487,
+        "mbid": "cc415b88-b9ad-4e07-9f6e-a15780d824a2",
+        "artist": "C\u00e9line Dion",
+        "title": "Misled"
+      }
+    },
+    {
+      "id": 290427,
+      "score": 0.7580827,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "major",
+        "bpm": 99.9948501587,
+        "mbid": "4a50f28f-9feb-4618-b410-777d0a8bac13",
+        "artist": "Madeon",
+        "title": "All My Friends (phritz remix)"
+      }
+    },
+    {
+      "id": 1284638,
+      "score": 0.7572076,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 87.9958572388,
+        "mbid": "9df5dd1d-7630-4ca2-826c-72bce199c615",
+        "artist": "A-Trak",
+        "title": "Kanye Get Em High remix (heartbeats)"
+      }
+    },
+    {
+      "id": 732937,
+      "score": 0.75673586,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "major",
+        "bpm": 125.920806885,
+        "mbid": "bb737760-68b2-469f-9f6c-7c3403ad6ffd",
+        "artist": "Lou Bega",
+        "title": "Mambo (Havanna Club Mix)"
+      }
+    },
+    {
+      "id": 949184,
+      "score": 0.75598556,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 99.9002609253,
+        "mbid": "f3199c4c-4591-4d43-8364-bb58cc1826b6",
+        "artist": "Crest of the Syndicate",
+        "title": "Griever Reaper"
+      }
+    },
+    {
+      "id": 1131462,
+      "score": 0.755859,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 130.027511597,
+        "mbid": "48ceb603-84bb-4a12-ad8e-e92ff23de345",
+        "artist": "The Streets",
+        "title": "Weak Become Heroes (Ashley Beedle's Love Bug Vocal)"
+      }
+    },
+    {
+      "id": 1131463,
+      "score": 0.755859,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 130.027511597,
+        "mbid": "48ceb603-84bb-4a12-ad8e-e92ff23de345",
+        "artist": "The Streets",
+        "title": "Weak Become Heroes (Ashley Beedle's Love Bug Vocal)"
+      }
+    },
+    {
+      "id": 354541,
+      "score": 0.75535274,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "major",
+        "bpm": 140.018173218,
+        "mbid": "5aeb602d-4e4f-4346-ae06-47891606d02b",
+        "artist": "FlexE",
+        "title": "From the Up \u2019yall"
+      }
+    },
+    {
+      "id": 568012,
+      "score": 0.7542809,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "major",
+        "bpm": 104.92049408,
+        "mbid": "915070d6-0e8b-4a96-8764-8bdef5d48f2e",
+        "artist": "Empire of the Sun",
+        "title": "ZZZ"
+      }
+    },
+    {
+      "id": 1019755,
+      "score": 0.7532122,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "major",
+        "bpm": 124.868675232,
+        "mbid": "0af39ecd-cff1-4d5d-9a47-e9daec3f5b8d",
+        "artist": "Gorgon City & Drama",
+        "title": "You\u2019ve Done Enough"
+      }
+    },
+    {
+      "id": 936919,
+      "score": 0.7531151,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 99.3079910278,
+        "mbid": "eff78322-d18e-40b8-bc59-a77d8cf0be25",
+        "artist": "Squirrel Nut Zippers",
+        "title": "Put A Lid On It "
+      }
+    },
+    {
+      "id": 42439,
+      "score": 0.7523278,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 94.5723953247,
+        "mbid": "0accf2f1-da49-471f-aa7e-bc24ed9b0efe",
+        "artist": "Damian Marley",
+        "title": "Old War Chant"
+      }
+    },
+    {
+      "id": 359278,
+      "score": 0.7520021,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "major",
+        "bpm": 104.949127197,
+        "mbid": "5c294952-2817-4268-a672-4fed20126823",
+        "artist": "Danielle Grubb",
+        "title": "It's Yours"
+      }
+    },
+    {
+      "id": 1069318,
+      "score": 0.75159246,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "major",
+        "bpm": 90.0956802368,
+        "mbid": "26aed21b-b54c-4c51-b6ae-331c8d1dfa33",
+        "artist": "Mack 10, Akon, & Red Cafe",
+        "title": "Clack Clack"
+      }
+    },
+    {
+      "id": 936918,
+      "score": 0.7514867,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 99.330909729,
+        "mbid": "eff78322-d18e-40b8-bc59-a77d8cf0be25",
+        "artist": "Squirrel Nut Zippers",
+        "title": "Put a Lid on It"
+      }
+    },
+    {
+      "id": 1133938,
+      "score": 0.75004226,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 114.948928833,
+        "mbid": "4a3a3672-c670-42ce-b013-da9dee535fb8",
+        "artist": "Hyper",
+        "title": "This Is a Warning"
+      }
+    },
+    {
+      "id": 405794,
+      "score": 0.74898666,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "minor",
+        "bpm": 107.392822266,
+        "mbid": "681400de-5dab-4de8-9730-ba33d111c3c2",
+        "artist": "Four80East",
+        "title": "Eastside"
+      }
+    },
+    {
+      "id": 1310977,
+      "score": 0.7487489,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "minor",
+        "bpm": 106.618019104,
+        "mbid": "ac91c310-48bb-4869-8bd5-17d375f8ce0b",
+        "artist": "Clara Nunes",
+        "title": "Feitio De Orac\u00e3o"
+      }
+    },
+    {
+      "id": 1212479,
+      "score": 0.74859583,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "major",
+        "bpm": 115.888725281,
+        "mbid": "75c8d956-f411-456f-b187-4b8d07b3702b",
+        "artist": "Jon Secada",
+        "title": "It's Enough"
+      }
+    },
+    {
+      "id": 649968,
+      "score": 0.74802494,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 128.006973267,
+        "mbid": "a62d1b64-a22a-459c-80c5-c3061f364439",
+        "artist": "DJ Hardwell feat. I-Fan",
+        "title": "Feel So High (Carlos Silva remix)"
+      }
+    },
+    {
+      "id": 374804,
+      "score": 0.747465,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 117.47555542,
+        "mbid": "601e1cf3-ad6c-4e38-9128-ba4d0d4b010f",
+        "artist": "Roger Meno",
+        "title": "MEGAMIX"
+      }
+    },
+    {
+      "id": 374805,
+      "score": 0.747465,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 117.47555542,
+        "mbid": "601e1cf3-ad6c-4e38-9128-ba4d0d4b010f",
+        "artist": "ROGER MENO",
+        "title": "MEGAMIX"
+      }
+    },
+    {
+      "id": 412643,
+      "score": 0.74587184,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 109.912002563,
+        "mbid": "69cb0f84-b62a-4348-a01c-71c820da0f70",
+        "artist": "Kunstler - Cammariere",
+        "title": "Cambiamenti del mondo"
+      }
+    }
+  ]
+}

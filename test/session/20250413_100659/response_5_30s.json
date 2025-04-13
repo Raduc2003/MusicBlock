@@ -1,0 +1,1261 @@
+{
+  "query_final_vector": [
+    0.05951625413267281,
+    -0.09236373416577516,
+    0.06918694647178607,
+    0.13669146231689708,
+    0.1739355758827558,
+    0.011945800636005711,
+    0.0405147801771714,
+    0.08034188645839861,
+    0.001318772109357581,
+    0.2242078294839405,
+    0.05621236138961291,
+    0.07047870737168159,
+    0.17544166913622594,
+    0.18666883537311077,
+    0.15904138827662626,
+    0.18034818121241214,
+    -0.12520438700667852,
+    -0.07146366676677036,
+    0.08834631239977747,
+    -0.11428687972950546,
+    -0.10044717107614834,
+    -0.06381904748534904,
+    -0.019171253934571017,
+    0.2138257431109085,
+    0.6083723020211731,
+    0.2939187713242699,
+    -0.00088606930717537,
+    -0.11463991347538598,
+    -0.10121302527765835,
+    -0.10380378461793628,
+    -0.10260671686009201,
+    -0.08429797295028005,
+    -0.08409381006989324,
+    -0.08888839665143176,
+    -0.07749924939014298,
+    -0.05932310824543018,
+    -0.0189404820773562,
+    -0.012500874927214788,
+    -0.001378484777595487,
+    -0.014039808610228003,
+    -0.047603734849328685,
+    -0.06687248177725094,
+    0.04263693113359613,
+    0.07448923513702528,
+    0.05505869622149976,
+    -0.04073865585816064,
+    -0.08247525284808105,
+    -0.10140954694597021,
+    -0.11612986908871438,
+    -0.10751859056333954,
+    -0.09871383409772438,
+    -0.08922590197952976,
+    -0.08643675895787248,
+    -0.09116290854174078,
+    -0.11953666532977966
+  ],
+  "results": [
+    {
+      "id": 13075,
+      "score": 0.9599288,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "major",
+        "bpm": 172.265136719,
+        "mbid": "0339d684-2c84-4a70-b287-9c2f5eb425d2",
+        "artist": "50 Cent",
+        "title": "High All the Time"
+      }
+    },
+    {
+      "id": 68788,
+      "score": 0.9599288,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "major",
+        "bpm": 172.265136719,
+        "mbid": "119c74aa-3bb0-41ea-ad44-d9debba15db3",
+        "artist": "50 Cent",
+        "title": "High All the Time"
+      }
+    },
+    {
+      "id": 13079,
+      "score": 0.9589119,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "major",
+        "bpm": 172.265090942,
+        "mbid": "0339d684-2c84-4a70-b287-9c2f5eb425d2",
+        "artist": "50 Cent",
+        "title": "High All the Time"
+      }
+    },
+    {
+      "id": 1005804,
+      "score": 0.9587235,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "major",
+        "bpm": 172.265151978,
+        "mbid": "0339d684-2c84-4a70-b287-9c2f5eb425d2",
+        "artist": "50 Cent",
+        "title": "High All The Time"
+      }
+    },
+    {
+      "id": 13074,
+      "score": 0.95867246,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "major",
+        "bpm": 172.265197754,
+        "mbid": "0339d684-2c84-4a70-b287-9c2f5eb425d2",
+        "artist": "50 Cent",
+        "title": "High All the Time"
+      }
+    },
+    {
+      "id": 13081,
+      "score": 0.95867246,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "major",
+        "bpm": 172.265197754,
+        "mbid": "0339d684-2c84-4a70-b287-9c2f5eb425d2",
+        "artist": "50 Cent",
+        "title": "High All the Time"
+      }
+    },
+    {
+      "id": 13080,
+      "score": 0.95867246,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "major",
+        "bpm": 172.265197754,
+        "mbid": "0339d684-2c84-4a70-b287-9c2f5eb425d2",
+        "artist": "50 Cent",
+        "title": "High All the Time"
+      }
+    },
+    {
+      "id": 13077,
+      "score": 0.95867246,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "major",
+        "bpm": 172.265197754,
+        "mbid": "0339d684-2c84-4a70-b287-9c2f5eb425d2",
+        "artist": "50 Cent",
+        "title": "High All the Time"
+      }
+    },
+    {
+      "id": 13078,
+      "score": 0.95867246,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "major",
+        "bpm": 172.265197754,
+        "mbid": "0339d684-2c84-4a70-b287-9c2f5eb425d2",
+        "artist": "50 Cent",
+        "title": "High All the Time"
+      }
+    },
+    {
+      "id": 13076,
+      "score": 0.95867246,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "major",
+        "bpm": 172.265197754,
+        "mbid": "0339d684-2c84-4a70-b287-9c2f5eb425d2",
+        "artist": "50 Cent",
+        "title": "High All the Time"
+      }
+    },
+    {
+      "id": 13073,
+      "score": 0.95867246,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "major",
+        "bpm": 172.265197754,
+        "mbid": "0339d684-2c84-4a70-b287-9c2f5eb425d2",
+        "artist": "50 Cent",
+        "title": "High All the Time"
+      }
+    },
+    {
+      "id": 13082,
+      "score": 0.95867246,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "major",
+        "bpm": 172.265197754,
+        "mbid": "0339d684-2c84-4a70-b287-9c2f5eb425d2",
+        "artist": "50 Cent",
+        "title": "High All the Time"
+      }
+    },
+    {
+      "id": 767269,
+      "score": 0.89430696,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "major",
+        "bpm": 172.264938354,
+        "mbid": "c44b135b-3f7c-47cc-8a00-4a733cfabd91",
+        "artist": "ASC",
+        "title": "Breaking the Symmetry"
+      }
+    },
+    {
+      "id": 910588,
+      "score": 0.8585272,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 140.042327881,
+        "mbid": "e9175b71-4655-4a45-8054-c715d5b38b30",
+        "artist": "Kernkraft 400",
+        "title": "Zombie Nation"
+      }
+    },
+    {
+      "id": 139263,
+      "score": 0.8529241,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 139.892059326,
+        "mbid": "23899e8a-8eaf-487b-93ce-07f00bafc24a",
+        "artist": "Rebeca Lane",
+        "title": "Alma mestiza"
+      }
+    },
+    {
+      "id": 1039747,
+      "score": 0.848318,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 139.940505981,
+        "mbid": "160a7ab1-eca7-4fec-86d9-c13771a51eb0",
+        "artist": "Zombie Nation",
+        "title": "Kernkraft 400"
+      }
+    },
+    {
+      "id": 1029990,
+      "score": 0.8451775,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 172.265014648,
+        "mbid": "108c61ea-c7e0-4990-86ef-725f7c4cc016",
+        "artist": "D12",
+        "title": "Git Up"
+      }
+    },
+    {
+      "id": 1029992,
+      "score": 0.8451775,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 172.265014648,
+        "mbid": "108c61ea-c7e0-4990-86ef-725f7c4cc016",
+        "artist": "D12",
+        "title": "Git Up"
+      }
+    },
+    {
+      "id": 1029991,
+      "score": 0.8451775,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 172.265014648,
+        "mbid": "108c61ea-c7e0-4990-86ef-725f7c4cc016",
+        "artist": "D12",
+        "title": "Git Up"
+      }
+    },
+    {
+      "id": 338925,
+      "score": 0.8434896,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 140.864898682,
+        "mbid": "56f3fd13-f754-47bb-91a8-734e030a7384",
+        "artist": "Niels van Gogh",
+        "title": "Pulverturm"
+      }
+    },
+    {
+      "id": 152807,
+      "score": 0.8419719,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 166.103775024,
+        "mbid": "26fac7da-dd43-46b7-a744-4be5cf14d5ba",
+        "artist": "The Alchemist feat. Stat Quo & M.O.P.",
+        "title": "Stop the Show"
+      }
+    },
+    {
+      "id": 1026033,
+      "score": 0.8413352,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 161.70111084,
+        "mbid": "0e4a8f8d-a516-4d0b-bb6a-942334295727",
+        "artist": "Kruder & Dorfmeister",
+        "title": "Deep Shit Pt. 1 & 2"
+      }
+    },
+    {
+      "id": 1026034,
+      "score": 0.8413352,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 161.70111084,
+        "mbid": "0e4a8f8d-a516-4d0b-bb6a-942334295727",
+        "artist": "Kruder & Dorfmeister",
+        "title": "Deep Shit Pt. 1 & 2"
+      }
+    },
+    {
+      "id": 1026032,
+      "score": 0.8413352,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 161.70111084,
+        "mbid": "0e4a8f8d-a516-4d0b-bb6a-942334295727",
+        "artist": "Kruder & Dorfmeister",
+        "title": "Deep Shit Pt. 1 & 2"
+      }
+    },
+    {
+      "id": 1029993,
+      "score": 0.84065604,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 172.265014648,
+        "mbid": "108c61ea-c7e0-4990-86ef-725f7c4cc016",
+        "artist": "D12",
+        "title": "Git Up"
+      }
+    },
+    {
+      "id": 1397439,
+      "score": 0.8380104,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 172.265197754,
+        "mbid": "dce21df2-4a97-4014-9876-f80da2697488",
+        "artist": "Florence + the Machine",
+        "title": "Free"
+      }
+    },
+    {
+      "id": 694290,
+      "score": 0.83748305,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 152.315475464,
+        "mbid": "b1a7c5e9-4f1f-4a60-8051-795afe278fd5",
+        "artist": "The Orb",
+        "title": "Beautitude"
+      }
+    },
+    {
+      "id": 1320158,
+      "score": 0.8374122,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 152.287963867,
+        "mbid": "b1a7c5e9-4f1f-4a60-8051-795afe278fd5",
+        "artist": "Orb, The",
+        "title": "Beautitude"
+      }
+    },
+    {
+      "id": 1320162,
+      "score": 0.8374122,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 152.287963867,
+        "mbid": "b1a7c5e9-4f1f-4a60-8051-795afe278fd5",
+        "artist": "Orb, The",
+        "title": "Beautitude"
+      }
+    },
+    {
+      "id": 1320160,
+      "score": 0.8374122,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 152.287963867,
+        "mbid": "b1a7c5e9-4f1f-4a60-8051-795afe278fd5",
+        "artist": "Orb, The",
+        "title": "Beautitude"
+      }
+    },
+    {
+      "id": 611081,
+      "score": 0.8373828,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "major",
+        "bpm": 139.988006592,
+        "mbid": "9c4d55cd-9503-4b52-9112-ee8840dda147",
+        "artist": "Zombie Nation",
+        "title": "Kernkraft 400 (DJ Gius video cut)"
+      }
+    },
+    {
+      "id": 1320157,
+      "score": 0.8366596,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 152.452819824,
+        "mbid": "b1a7c5e9-4f1f-4a60-8051-795afe278fd5",
+        "artist": "Orb, The",
+        "title": "Beatitude"
+      }
+    },
+    {
+      "id": 1320161,
+      "score": 0.8366596,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 152.452819824,
+        "mbid": "b1a7c5e9-4f1f-4a60-8051-795afe278fd5",
+        "artist": "Orb, The",
+        "title": "Beatitude"
+      }
+    },
+    {
+      "id": 1320159,
+      "score": 0.8366596,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 152.452819824,
+        "mbid": "b1a7c5e9-4f1f-4a60-8051-795afe278fd5",
+        "artist": "Orb, The",
+        "title": "Beatitude"
+      }
+    },
+    {
+      "id": 906485,
+      "score": 0.8343743,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "minor",
+        "bpm": 140.021148682,
+        "mbid": "e802d2ff-dfc3-4534-961d-ebce483ed6df",
+        "artist": "Zombie Nation",
+        "title": "Kernkraft 400"
+      }
+    },
+    {
+      "id": 906486,
+      "score": 0.8343743,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "minor",
+        "bpm": 140.021148682,
+        "mbid": "e802d2ff-dfc3-4534-961d-ebce483ed6df",
+        "artist": "Zombie Nation",
+        "title": "Kernkraft 400"
+      }
+    },
+    {
+      "id": 64541,
+      "score": 0.8341384,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 172.265075684,
+        "mbid": "108c61ea-c7e0-4990-86ef-725f7c4cc016",
+        "artist": "D12",
+        "title": "Git Up"
+      }
+    },
+    {
+      "id": 32101,
+      "score": 0.8306597,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 126.060714722,
+        "mbid": "0839f92b-67ce-4e36-84f9-e37b22c05100",
+        "artist": "Kash Doll",
+        "title": "Cheap Shit"
+      }
+    },
+    {
+      "id": 32100,
+      "score": 0.8306597,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 126.060714722,
+        "mbid": "0839f92b-67ce-4e36-84f9-e37b22c05100",
+        "artist": "Kash Doll",
+        "title": "Cheap Shit"
+      }
+    },
+    {
+      "id": 928400,
+      "score": 0.82749665,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 130.594863892,
+        "mbid": "edc3846f-54fc-4355-b55b-2e8e62fde570",
+        "artist": "Suzanne Palmer",
+        "title": "Fascinated (Radio Edit)"
+      }
+    },
+    {
+      "id": 928402,
+      "score": 0.8249846,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 130.571563721,
+        "mbid": "edc3846f-54fc-4355-b55b-2e8e62fde570",
+        "artist": "Suzanne Palmer",
+        "title": "Fascinated (Radio Edit)"
+      }
+    },
+    {
+      "id": 928401,
+      "score": 0.8249846,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 130.571563721,
+        "mbid": "edc3846f-54fc-4355-b55b-2e8e62fde570",
+        "artist": "Suzanne Palmer",
+        "title": "Fascinated (Radio Edit)"
+      }
+    },
+    {
+      "id": 308406,
+      "score": 0.8236737,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 90.4391174316,
+        "mbid": "4ef36515-0999-4859-9464-12a3328da0f4",
+        "artist": "Bloodyminded",
+        "title": "Flooded Interiors"
+      }
+    },
+    {
+      "id": 861930,
+      "score": 0.8231871,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 150.06237793,
+        "mbid": "dc9e19cf-6960-4e2e-990d-7cf4e8f2e96e",
+        "artist": "Headscan",
+        "title": "Orbit Shift v1"
+      }
+    },
+    {
+      "id": 518080,
+      "score": 0.82208425,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "major",
+        "bpm": 89.0335464478,
+        "mbid": "849824db-604b-4abb-83be-00abbf283177",
+        "artist": "The Game",
+        "title": "Church for Thugs"
+      }
+    },
+    {
+      "id": 928399,
+      "score": 0.8184758,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 130.590881348,
+        "mbid": "edc3846f-54fc-4355-b55b-2e8e62fde570",
+        "artist": "Suzanne Palmer",
+        "title": "Fascinated"
+      }
+    },
+    {
+      "id": 1239765,
+      "score": 0.81745404,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "major",
+        "bpm": 128.151382446,
+        "mbid": "84f2c0b3-2f54-4910-8624-0dcb5c2dbfa5",
+        "artist": "Martin Solveig",
+        "title": "Rejection (Bob Sinclar remix)"
+      }
+    },
+    {
+      "id": 79049,
+      "score": 0.81610507,
+      "payload": {
+        "key_key": "B",
+        "key_scale": "major",
+        "bpm": 153.979125977,
+        "mbid": "14450818-7626-4764-a867-920cca558d6a",
+        "artist": "KaitO",
+        "title": "Try Me Out"
+      }
+    },
+    {
+      "id": 611208,
+      "score": 0.8108059,
+      "payload": {
+        "key_key": "B",
+        "key_scale": "major",
+        "bpm": 128.018051147,
+        "mbid": "9c5797e7-6d86-4b62-a693-83512e20d490",
+        "artist": "Kelis",
+        "title": "Acapella"
+      }
+    },
+    {
+      "id": 383498,
+      "score": 0.80922323,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 129.860809326,
+        "mbid": "624b4d30-6707-469b-8fe2-78c7bf0baa1e",
+        "artist": "Deadmau5",
+        "title": "sniper"
+      }
+    },
+    {
+      "id": 1395175,
+      "score": 0.8089039,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 134.981063843,
+        "mbid": "dba08842-32d9-43c6-8746-241e3df0deef",
+        "artist": "The Chemical Brothers",
+        "title": "Under The Influence (Mix 2)"
+      }
+    },
+    {
+      "id": 1395174,
+      "score": 0.8089039,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 134.981063843,
+        "mbid": "dba08842-32d9-43c6-8746-241e3df0deef",
+        "artist": "The Chemical Brothers",
+        "title": "Under The Influence (Mix 2)"
+      }
+    },
+    {
+      "id": 1029033,
+      "score": 0.8089039,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 134.981063843,
+        "mbid": "0ffd6142-2580-4fd9-ad2a-92125b1a97e9",
+        "artist": "The Chemical Brothers",
+        "title": "Under The Influence (Mix 2)"
+      }
+    },
+    {
+      "id": 1181476,
+      "score": 0.80824727,
+      "payload": {
+        "key_key": "B",
+        "key_scale": "major",
+        "bpm": 128.027206421,
+        "mbid": "6495108c-9b28-4583-a8f8-1a4540ab65d1",
+        "artist": "Kelis",
+        "title": "Acapella"
+      }
+    },
+    {
+      "id": 1149694,
+      "score": 0.8076013,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "major",
+        "bpm": 137.710861206,
+        "mbid": "52f2a72e-c31b-4247-8f7a-35b4d5e831a4",
+        "artist": "The Nighttripper",
+        "title": "Tone Exploitation"
+      }
+    },
+    {
+      "id": 219311,
+      "score": 0.8043447,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "major",
+        "bpm": 132.009460449,
+        "mbid": "3800bd93-a954-43a3-b9fa-156cdfc6b2a1",
+        "artist": "Mike Nylons",
+        "title": "RNR"
+      }
+    },
+    {
+      "id": 970476,
+      "score": 0.80265766,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 136.854385376,
+        "mbid": "f883b4f3-85d9-4f9a-b10f-8b19ceea97b9",
+        "artist": "Arakis",
+        "title": "Aira Force (Lemon8 remix)"
+      }
+    },
+    {
+      "id": 921719,
+      "score": 0.79982704,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 172.265365601,
+        "mbid": "ec05f1cb-9cff-4dae-bfc9-1304ff9fc692",
+        "artist": "Priteo",
+        "title": "Interludio por interludio"
+      }
+    },
+    {
+      "id": 383492,
+      "score": 0.7992799,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 129.804199219,
+        "mbid": "624b4d30-6707-469b-8fe2-78c7bf0baa1e",
+        "artist": "deadmau5",
+        "title": "sniper"
+      }
+    },
+    {
+      "id": 383495,
+      "score": 0.7992799,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 129.804199219,
+        "mbid": "624b4d30-6707-469b-8fe2-78c7bf0baa1e",
+        "artist": "deadmau5",
+        "title": "sniper"
+      }
+    },
+    {
+      "id": 383496,
+      "score": 0.7992799,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 129.804199219,
+        "mbid": "624b4d30-6707-469b-8fe2-78c7bf0baa1e",
+        "artist": "deadmau5",
+        "title": "sniper"
+      }
+    },
+    {
+      "id": 383490,
+      "score": 0.7992799,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 129.804199219,
+        "mbid": "624b4d30-6707-469b-8fe2-78c7bf0baa1e",
+        "artist": "deadmau5",
+        "title": "sniper"
+      }
+    },
+    {
+      "id": 383497,
+      "score": 0.7992799,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 129.804199219,
+        "mbid": "624b4d30-6707-469b-8fe2-78c7bf0baa1e",
+        "artist": "deadmau5",
+        "title": "sniper"
+      }
+    },
+    {
+      "id": 383494,
+      "score": 0.7992799,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 129.804199219,
+        "mbid": "624b4d30-6707-469b-8fe2-78c7bf0baa1e",
+        "artist": "deadmau5",
+        "title": "sniper"
+      }
+    },
+    {
+      "id": 383493,
+      "score": 0.7992799,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 129.804199219,
+        "mbid": "624b4d30-6707-469b-8fe2-78c7bf0baa1e",
+        "artist": "deadmau5",
+        "title": "sniper"
+      }
+    },
+    {
+      "id": 383491,
+      "score": 0.7992799,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 129.804199219,
+        "mbid": "624b4d30-6707-469b-8fe2-78c7bf0baa1e",
+        "artist": "deadmau5",
+        "title": "sniper"
+      }
+    },
+    {
+      "id": 598080,
+      "score": 0.7991614,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "major",
+        "bpm": 127.975097656,
+        "mbid": "98fb6122-d74d-4c8a-af4e-4f6aba93f684",
+        "artist": "Matt Lange",
+        "title": "Avenue (Haske & Johnson Remix)"
+      }
+    },
+    {
+      "id": 1397438,
+      "score": 0.7986355,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 172.26550293,
+        "mbid": "dce21df2-4a97-4014-9876-f80da2697488",
+        "artist": "Florence + The Machine",
+        "title": "Free"
+      }
+    },
+    {
+      "id": 405602,
+      "score": 0.7984376,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 131.913238525,
+        "mbid": "680553d9-b8ed-4842-acaa-3bfabd2dee4f",
+        "artist": "Bobina",
+        "title": "Lazy World 2017"
+      }
+    },
+    {
+      "id": 1158824,
+      "score": 0.79773414,
+      "payload": {
+        "key_key": "B",
+        "key_scale": "minor",
+        "bpm": 126.96711731,
+        "mbid": "57ec9498-f1ef-4852-977f-c8d5b0d07491",
+        "artist": "Track Dogs",
+        "title": "Orion Sees"
+      }
+    },
+    {
+      "id": 1158823,
+      "score": 0.79773414,
+      "payload": {
+        "key_key": "B",
+        "key_scale": "minor",
+        "bpm": 126.96711731,
+        "mbid": "57ec9498-f1ef-4852-977f-c8d5b0d07491",
+        "artist": "Track Dogs",
+        "title": "Orion Sees"
+      }
+    },
+    {
+      "id": 1158822,
+      "score": 0.79773414,
+      "payload": {
+        "key_key": "B",
+        "key_scale": "minor",
+        "bpm": 126.96711731,
+        "mbid": "57ec9498-f1ef-4852-977f-c8d5b0d07491",
+        "artist": "Track Dogs",
+        "title": "Orion (Original Mix)"
+      }
+    },
+    {
+      "id": 887788,
+      "score": 0.79750043,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 154.960128784,
+        "mbid": "e32f8d43-cd19-4800-b0c2-cf3f890f9f1f",
+        "artist": "R. Stevie Moore",
+        "title": "Etude 05"
+      }
+    },
+    {
+      "id": 893666,
+      "score": 0.79691124,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 129.815200806,
+        "mbid": "e4ae8f16-3923-4e14-a0eb-81f856809a89",
+        "artist": "Combichrist",
+        "title": "This Is My Rifle"
+      }
+    },
+    {
+      "id": 661615,
+      "score": 0.7944101,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "major",
+        "bpm": 84.8499221802,
+        "mbid": "a92144f2-882b-44e0-81d6-e40d88f567fd",
+        "artist": "The Allegorist",
+        "title": "Ninja Mademoiselle"
+      }
+    },
+    {
+      "id": 1386407,
+      "score": 0.79259866,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 123.291374207,
+        "mbid": "d6c394f2-f6fb-492b-908f-e05e7b9b71bc",
+        "artist": "Mario",
+        "title": "Music For Love"
+      }
+    },
+    {
+      "id": 1306533,
+      "score": 0.7882043,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 150.058639526,
+        "mbid": "aa247353-d203-4988-a195-1e05b0d4440f",
+        "artist": "Soulja Boy Tell 'Em",
+        "title": "Turn My Swag On"
+      }
+    },
+    {
+      "id": 623047,
+      "score": 0.7881946,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "major",
+        "bpm": 132.016143799,
+        "mbid": "9f529984-862f-49c2-baef-2508d101e724",
+        "artist": "Mike Nylons",
+        "title": "Entepede"
+      }
+    },
+    {
+      "id": 1197296,
+      "score": 0.78794056,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 126.017784119,
+        "mbid": "6d86d2d2-b514-4c42-ad5b-0e9fc10c769e",
+        "artist": "Moby",
+        "title": "Natural Blues (Victor Ruiz remix)"
+      }
+    },
+    {
+      "id": 1197294,
+      "score": 0.78794056,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 126.017784119,
+        "mbid": "6d86d2d2-b514-4c42-ad5b-0e9fc10c769e",
+        "artist": "Moby",
+        "title": "Natural Blues (Victor Ruiz Remix)"
+      }
+    },
+    {
+      "id": 1197298,
+      "score": 0.78794056,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 126.017784119,
+        "mbid": "6d86d2d2-b514-4c42-ad5b-0e9fc10c769e",
+        "artist": "Moby",
+        "title": "Natural Blues (Victor Ruiz remix)"
+      }
+    },
+    {
+      "id": 1197297,
+      "score": 0.78794056,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 126.017784119,
+        "mbid": "6d86d2d2-b514-4c42-ad5b-0e9fc10c769e",
+        "artist": "Moby",
+        "title": "Natural Blues (Victor Ruiz remix)"
+      }
+    },
+    {
+      "id": 1197295,
+      "score": 0.78794056,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 126.017784119,
+        "mbid": "6d86d2d2-b514-4c42-ad5b-0e9fc10c769e",
+        "artist": "Moby",
+        "title": "Natural Blues (Victor Ruiz remix)"
+      }
+    },
+    {
+      "id": 534344,
+      "score": 0.78311175,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 148.035629272,
+        "mbid": "88bcdbf0-276d-4d76-972f-edd415aa2305",
+        "artist": "FM Audio",
+        "title": "Killer (Used & Abused bootleg remix)"
+      }
+    },
+    {
+      "id": 574924,
+      "score": 0.7820132,
+      "payload": {
+        "key_key": "B",
+        "key_scale": "major",
+        "bpm": 128.001190186,
+        "mbid": "930a719a-09f9-4240-9dd4-ff57fadf6a24",
+        "artist": "Kelis",
+        "title": "Acappella"
+      }
+    },
+    {
+      "id": 574925,
+      "score": 0.7820132,
+      "payload": {
+        "key_key": "B",
+        "key_scale": "major",
+        "bpm": 128.001190186,
+        "mbid": "930a719a-09f9-4240-9dd4-ff57fadf6a24",
+        "artist": "Kelis",
+        "title": "Acappella"
+      }
+    },
+    {
+      "id": 574923,
+      "score": 0.7820132,
+      "payload": {
+        "key_key": "B",
+        "key_scale": "major",
+        "bpm": 128.001190186,
+        "mbid": "930a719a-09f9-4240-9dd4-ff57fadf6a24",
+        "artist": "Kelis",
+        "title": "Acappella"
+      }
+    },
+    {
+      "id": 47057,
+      "score": 0.7816729,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "major",
+        "bpm": 127.92351532,
+        "mbid": "0bf5ac94-67ea-4f6f-bdd5-a5367b0f68c3",
+        "artist": "Frozen Starfall feat. Milkychan",
+        "title": "Change!"
+      }
+    },
+    {
+      "id": 1396048,
+      "score": 0.7811967,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "minor",
+        "bpm": 123.908439636,
+        "mbid": "dc13fb5c-246c-4dbf-adc3-5f57765528e4",
+        "artist": "Pitch Black",
+        "title": "Melt (Dub Obscura Mix)"
+      }
+    },
+    {
+      "id": 1396046,
+      "score": 0.7811967,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "minor",
+        "bpm": 123.908439636,
+        "mbid": "dc13fb5c-246c-4dbf-adc3-5f57765528e4",
+        "artist": "Pitch Black",
+        "title": "Melt (Dub Obscura Mix)"
+      }
+    },
+    {
+      "id": 1396047,
+      "score": 0.7811967,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "minor",
+        "bpm": 123.908439636,
+        "mbid": "dc13fb5c-246c-4dbf-adc3-5f57765528e4",
+        "artist": "Pitch Black",
+        "title": "Melt (Dub Obscura Mix)"
+      }
+    },
+    {
+      "id": 1240298,
+      "score": 0.78082055,
+      "payload": {
+        "key_key": "B",
+        "key_scale": "minor",
+        "bpm": 127.836044312,
+        "mbid": "85463195-2023-43d6-a09a-5156a22b4277",
+        "artist": "Paolo Mojo",
+        "title": "Ruckus (Buick Project remix)"
+      }
+    },
+    {
+      "id": 360146,
+      "score": 0.77952135,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 82.5721817017,
+        "mbid": "5c6609da-d3a2-48e5-a360-b69e721dbe39",
+        "artist": "Pan Sonic",
+        "title": "Johto 2"
+      }
+    },
+    {
+      "id": 996675,
+      "score": 0.7771602,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 178.205993652,
+        "mbid": "ff321e47-6015-435a-87f0-101acd74150b",
+        "artist": "Atli \u00d6rvarsson",
+        "title": "Date Night"
+      }
+    },
+    {
+      "id": 996672,
+      "score": 0.7771602,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 178.205993652,
+        "mbid": "ff321e47-6015-435a-87f0-101acd74150b",
+        "artist": "Atli \u00d6rvarsson",
+        "title": "Date Night"
+      }
+    },
+    {
+      "id": 996673,
+      "score": 0.7771602,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 178.205993652,
+        "mbid": "ff321e47-6015-435a-87f0-101acd74150b",
+        "artist": "Atli \u00d6rvarsson",
+        "title": "Date Night"
+      }
+    },
+    {
+      "id": 996678,
+      "score": 0.7771602,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 178.205993652,
+        "mbid": "ff321e47-6015-435a-87f0-101acd74150b",
+        "artist": "Atli \u00d6rvarsson",
+        "title": "Date Night"
+      }
+    },
+    {
+      "id": 996679,
+      "score": 0.7771602,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 178.205993652,
+        "mbid": "ff321e47-6015-435a-87f0-101acd74150b",
+        "artist": "Atli \u00d6rvarsson",
+        "title": "Date Night"
+      }
+    },
+    {
+      "id": 996676,
+      "score": 0.7771602,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 178.205993652,
+        "mbid": "ff321e47-6015-435a-87f0-101acd74150b",
+        "artist": "Atli \u00d6rvarsson",
+        "title": "Date Night"
+      }
+    },
+    {
+      "id": 996674,
+      "score": 0.7771602,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 178.205993652,
+        "mbid": "ff321e47-6015-435a-87f0-101acd74150b",
+        "artist": "Atli \u00d6rvarsson",
+        "title": "Date Night"
+      }
+    }
+  ]
+}

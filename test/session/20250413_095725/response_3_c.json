@@ -1,0 +1,1261 @@
+{
+  "query_final_vector": [
+    -0.006734649783800911,
+    0.0697681001135808,
+    0.12715974615450562,
+    -0.0038029841296342275,
+    -0.08197524477927748,
+    -0.10039543476111407,
+    -0.21938569653788706,
+    -0.10487238438197807,
+    -0.19811019464638055,
+    -0.2642935416307138,
+    -0.09869112631217575,
+    -0.1553238699253054,
+    -0.11446511173903406,
+    0.22582798909337465,
+    0.020314534694513657,
+    0.015064528122633859,
+    -0.01415234482374646,
+    -0.024659267541769198,
+    -0.2056386102505843,
+    -0.002332438947896887,
+    -0.06149263773193074,
+    -0.16065702696560138,
+    -0.13633099755749953,
+    -0.15281162996539513,
+    -0.09087272462654038,
+    -0.0651418012799426,
+    -0.15304167874030974,
+    -0.2200078632986546,
+    -0.1641754467889598,
+    -0.17829981143768564,
+    -0.159281237182749,
+    -0.10822678617049555,
+    -0.12345646635345549,
+    0.09670128979761851,
+    0.23754086032987257,
+    0.14408221701513377,
+    -0.12194320026844797,
+    -0.14431432754003096,
+    -0.13948958359566146,
+    -0.05600264089590203,
+    -0.06318500728224283,
+    -0.1431472294787391,
+    -0.2441385730835257,
+    -0.18778148590261168,
+    -0.1374603697436171,
+    0.18491256229113875,
+    0.16090314601428501,
+    -0.020271909921601328,
+    -0.07806700912540135,
+    -0.07891418061191532,
+    -0.14210478576740804,
+    -0.010164463511643157,
+    0.04365489179027072,
+    -0.06930977885650753,
+    -0.0484905450137407
+  ],
+  "results": [
+    {
+      "id": 513827,
+      "score": 0.8729736,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 165.850128174,
+        "mbid": "838af2bf-4775-4585-bf03-ccde4be50860",
+        "artist": "The Beatles",
+        "title": "Mother Nature's Son (Take 2)"
+      }
+    },
+    {
+      "id": 292710,
+      "score": 0.8729736,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 165.850128174,
+        "mbid": "4ae8559e-2af1-4674-95d2-66478e52e79f",
+        "artist": "The Beatles",
+        "title": "Mother Nature's Son (Anthology version)"
+      }
+    },
+    {
+      "id": 292711,
+      "score": 0.867524,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 165.870162964,
+        "mbid": "4ae8559e-2af1-4674-95d2-66478e52e79f",
+        "artist": "The Beatles",
+        "title": "Mother Nature's Son"
+      }
+    },
+    {
+      "id": 292712,
+      "score": 0.867524,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 165.870162964,
+        "mbid": "4ae8559e-2af1-4674-95d2-66478e52e79f",
+        "artist": "The Beatles",
+        "title": "Mother Nature's Son"
+      }
+    },
+    {
+      "id": 1372974,
+      "score": 0.83823586,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 172.265853882,
+        "mbid": "cf147cd0-8e0a-43ee-82f1-cc3fbe666d88",
+        "artist": "The Beatles",
+        "title": "Mother Nature's Son (2018 Mix)"
+      }
+    },
+    {
+      "id": 1372973,
+      "score": 0.83823586,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 172.265853882,
+        "mbid": "cf147cd0-8e0a-43ee-82f1-cc3fbe666d88",
+        "artist": "The Beatles",
+        "title": "Mother Nature's Son (2018 Mix)"
+      }
+    },
+    {
+      "id": 1372968,
+      "score": 0.83823586,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 172.265853882,
+        "mbid": "cf147cd0-8e0a-43ee-82f1-cc3fbe666d88",
+        "artist": "The Beatles",
+        "title": "Mother Nature's Son (2018 Mix)"
+      }
+    },
+    {
+      "id": 889622,
+      "score": 0.83739775,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 184.570770264,
+        "mbid": "e3aa6f76-9284-4e3f-a347-b476cb6d628a",
+        "artist": "Matt Kivel",
+        "title": "Radiance"
+      }
+    },
+    {
+      "id": 839502,
+      "score": 0.8359401,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 146.062026978,
+        "mbid": "d6d68301-44c3-4f0e-81bf-74a496665a48",
+        "artist": "Trans-Siberian Orchestra",
+        "title": "The Music Box"
+      }
+    },
+    {
+      "id": 1395284,
+      "score": 0.83549416,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 172.265777588,
+        "mbid": "dbada846-b4f6-4a8d-b4a1-33a330b06a80",
+        "artist": "The Beatles",
+        "title": "Mother Nature's Son (2018 Stereo Mix)"
+      }
+    },
+    {
+      "id": 1395283,
+      "score": 0.83549416,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 172.265777588,
+        "mbid": "dbada846-b4f6-4a8d-b4a1-33a330b06a80",
+        "artist": "The Beatles",
+        "title": "Mother Nature's Son (2018 Stereo Mix)"
+      }
+    },
+    {
+      "id": 1395282,
+      "score": 0.83549416,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 172.265777588,
+        "mbid": "dbada846-b4f6-4a8d-b4a1-33a330b06a80",
+        "artist": "The Beatles",
+        "title": "Mother Nature's Son (2018 Stereo Mix)"
+      }
+    },
+    {
+      "id": 1388140,
+      "score": 0.8354643,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 172.265762329,
+        "mbid": "d7b01603-78f7-491f-a5ba-b8669d0a90ea",
+        "artist": "Mary Flower",
+        "title": "Cock-A-Doodle Blues"
+      }
+    },
+    {
+      "id": 766715,
+      "score": 0.83520406,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 172.265792847,
+        "mbid": "c428f69d-08d0-49d4-bbde-ad746e96b812",
+        "artist": "The Beatles",
+        "title": "Mother Nature's Son"
+      }
+    },
+    {
+      "id": 1193389,
+      "score": 0.83421147,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 147.895904541,
+        "mbid": "6b524be2-7456-459c-adbd-659c536cb253",
+        "artist": "Entre 2 Caisses",
+        "title": "Gentioux Et Termignon"
+      }
+    },
+    {
+      "id": 442445,
+      "score": 0.8316856,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 114.310493469,
+        "mbid": "718c5b3e-7d72-42be-9094-6c6226e16946",
+        "artist": "Freya Ridings",
+        "title": "Unconditional"
+      }
+    },
+    {
+      "id": 766796,
+      "score": 0.8292571,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 162.451400757,
+        "mbid": "c42e4d4b-2d4e-40a3-8142-ed5500079a27",
+        "artist": "Tom Paxton",
+        "title": "My Lady's a Wild, Flying Dove"
+      }
+    },
+    {
+      "id": 706039,
+      "score": 0.8288642,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 132.307159424,
+        "mbid": "b49cae59-54c7-42b9-b5fa-628c471b1b8e",
+        "artist": "Vicente Emilio Sojo",
+        "title": "Five Pieces from Venezuela: Aire venezolano"
+      }
+    },
+    {
+      "id": 709935,
+      "score": 0.8257998,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 172.265808105,
+        "mbid": "b59108d7-48f7-473d-abea-9170b3c8c345",
+        "artist": "The Beatles",
+        "title": "Mother Nature's Son"
+      }
+    },
+    {
+      "id": 709934,
+      "score": 0.8257998,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 172.265808105,
+        "mbid": "b59108d7-48f7-473d-abea-9170b3c8c345",
+        "artist": "The Beatles",
+        "title": "Mother Nature's Son"
+      }
+    },
+    {
+      "id": 809272,
+      "score": 0.8237527,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 172.265762329,
+        "mbid": "cf147cd0-8e0a-43ee-82f1-cc3fbe666d88",
+        "artist": "The Beatles",
+        "title": "Mother Nature's Son "
+      }
+    },
+    {
+      "id": 76378,
+      "score": 0.8236301,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 154.460952759,
+        "mbid": "138a285e-5e6e-452d-a1d9-edf632ab349d",
+        "artist": "My Morning Jacket",
+        "title": "Bermuda Highway"
+      }
+    },
+    {
+      "id": 89270,
+      "score": 0.8234585,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 166.11390686,
+        "mbid": "16eb5e5d-b29e-45c1-891f-b0b9674f18b1",
+        "artist": "The Beatles",
+        "title": "Mother Nature's Son (take 15)"
+      }
+    },
+    {
+      "id": 383050,
+      "score": 0.8232394,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 184.570709229,
+        "mbid": "622efbaa-04a4-4c61-96b1-90f1506bf86e",
+        "artist": "The Beatles",
+        "title": "Why Don't We Do It in the Road? (Anthology version)"
+      }
+    },
+    {
+      "id": 97822,
+      "score": 0.8232394,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 184.570709229,
+        "mbid": "19198ae0-e121-43d0-8ddf-b56d6753ba5e",
+        "artist": "The Beatles",
+        "title": "Why Don't We Do It in the Road? (Take 4)"
+      }
+    },
+    {
+      "id": 1041327,
+      "score": 0.8232351,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 166.048568726,
+        "mbid": "16eb5e5d-b29e-45c1-891f-b0b9674f18b1",
+        "artist": "The Beatles",
+        "title": "Mother Nature's Son [Take 15]"
+      }
+    },
+    {
+      "id": 1041328,
+      "score": 0.8232351,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 166.048568726,
+        "mbid": "16eb5e5d-b29e-45c1-891f-b0b9674f18b1",
+        "artist": "The Beatles",
+        "title": "Mother Nature's Son (Take 15)"
+      }
+    },
+    {
+      "id": 1041329,
+      "score": 0.8232351,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 166.048568726,
+        "mbid": "16eb5e5d-b29e-45c1-891f-b0b9674f18b1",
+        "artist": "The Beatles",
+        "title": "Mother Nature's Son (Take 15)"
+      }
+    },
+    {
+      "id": 1395280,
+      "score": 0.8230396,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 172.265731812,
+        "mbid": "dbada846-b4f6-4a8d-b4a1-33a330b06a80",
+        "artist": "The Beatles",
+        "title": "Mother Nature's Son"
+      }
+    },
+    {
+      "id": 809270,
+      "score": 0.8224098,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 172.265670776,
+        "mbid": "cf147cd0-8e0a-43ee-82f1-cc3fbe666d88",
+        "artist": "The Beatles",
+        "title": "Mother Nature\u2019s Son"
+      }
+    },
+    {
+      "id": 97823,
+      "score": 0.8221502,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 184.570709229,
+        "mbid": "19198ae0-e121-43d0-8ddf-b56d6753ba5e",
+        "artist": "The Beatles",
+        "title": "Why Don't We Do It in the Road?"
+      }
+    },
+    {
+      "id": 97824,
+      "score": 0.8221502,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 184.570709229,
+        "mbid": "19198ae0-e121-43d0-8ddf-b56d6753ba5e",
+        "artist": "The Beatles",
+        "title": "Why Don't We Do It in the Road?"
+      }
+    },
+    {
+      "id": 709933,
+      "score": 0.8219063,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 172.265762329,
+        "mbid": "b59108d7-48f7-473d-abea-9170b3c8c345",
+        "artist": "The Beatles",
+        "title": "Mother Nature's Son"
+      }
+    },
+    {
+      "id": 809268,
+      "score": 0.8219063,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 172.265762329,
+        "mbid": "cf147cd0-8e0a-43ee-82f1-cc3fbe666d88",
+        "artist": "The Beatles",
+        "title": "Mother Nature's Son"
+      }
+    },
+    {
+      "id": 809269,
+      "score": 0.8219063,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 172.265762329,
+        "mbid": "cf147cd0-8e0a-43ee-82f1-cc3fbe666d88",
+        "artist": "The Beatles",
+        "title": "Mother Nature's Son"
+      }
+    },
+    {
+      "id": 858328,
+      "score": 0.82175547,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 172.265945435,
+        "mbid": "dbada846-b4f6-4a8d-b4a1-33a330b06a80",
+        "artist": "The Beatles",
+        "title": "Mother Nature's Son"
+      }
+    },
+    {
+      "id": 874704,
+      "score": 0.8216855,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 109.370285034,
+        "mbid": "dfd5e51d-9a2a-4098-a04b-8b393f848915",
+        "artist": "Sassparilla",
+        "title": "The Hoot Song"
+      }
+    },
+    {
+      "id": 809273,
+      "score": 0.82166654,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 172.265838623,
+        "mbid": "cf147cd0-8e0a-43ee-82f1-cc3fbe666d88",
+        "artist": "The Beatles",
+        "title": "Mother Nature's Son"
+      }
+    },
+    {
+      "id": 858329,
+      "score": 0.82166654,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 172.265838623,
+        "mbid": "dbada846-b4f6-4a8d-b4a1-33a330b06a80",
+        "artist": "The Beatles",
+        "title": "Mother Nature's Son"
+      }
+    },
+    {
+      "id": 858330,
+      "score": 0.82166654,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 172.265838623,
+        "mbid": "dbada846-b4f6-4a8d-b4a1-33a330b06a80",
+        "artist": "The Beatles",
+        "title": "Mother Nature's Son (Remastered)"
+      }
+    },
+    {
+      "id": 809274,
+      "score": 0.82166654,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 172.265838623,
+        "mbid": "cf147cd0-8e0a-43ee-82f1-cc3fbe666d88",
+        "artist": "The Beatles",
+        "title": "Mother Nature's Son (Remastered)"
+      }
+    },
+    {
+      "id": 945945,
+      "score": 0.8212004,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 172.265594482,
+        "mbid": "f24fb67d-8ca2-43b9-a6ad-feeb4f24d4e9",
+        "artist": "Brocel\u00efande",
+        "title": "I Denna Ljuva Sommartid / Midsommer Vals"
+      }
+    },
+    {
+      "id": 809271,
+      "score": 0.8205224,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 172.265838623,
+        "mbid": "cf147cd0-8e0a-43ee-82f1-cc3fbe666d88",
+        "artist": "The Beatles",
+        "title": "Mother Nature's Son"
+      }
+    },
+    {
+      "id": 1395281,
+      "score": 0.8199846,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 172.265808105,
+        "mbid": "dbada846-b4f6-4a8d-b4a1-33a330b06a80",
+        "artist": "The Beatles",
+        "title": "Mother Nature'S Son"
+      }
+    },
+    {
+      "id": 43471,
+      "score": 0.81993043,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 184.570739746,
+        "mbid": "0b0e4e84-6f0a-4804-9744-0919c7c65ef8",
+        "artist": "The Beatles",
+        "title": "Why Don't We Do It In The Road? (Anthology 3 Version)"
+      }
+    },
+    {
+      "id": 383051,
+      "score": 0.81993043,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 184.570739746,
+        "mbid": "622efbaa-04a4-4c61-96b1-90f1506bf86e",
+        "artist": "The Beatles",
+        "title": "Why Don't We Do It In The Road? (Anthology 3 Version)"
+      }
+    },
+    {
+      "id": 194738,
+      "score": 0.81959957,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 116.492546082,
+        "mbid": "3194cbfa-afd3-4b2a-a2bc-4683d94b30de",
+        "artist": "A Great Notion",
+        "title": "5th February"
+      }
+    },
+    {
+      "id": 190043,
+      "score": 0.8193586,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 155.722457886,
+        "mbid": "3063fb46-dcbc-446e-a949-6d9fad01edb9",
+        "artist": "Cast Of I Still Believe feat. KJ Apa & JJ Heller",
+        "title": "Find Me In The River"
+      }
+    },
+    {
+      "id": 1316821,
+      "score": 0.8185251,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 147.731201172,
+        "mbid": "afbcfdc2-27e6-4ecc-bc20-d0713078e3d0",
+        "artist": "Tommy Emmanuel & John Knowles",
+        "title": "Lullabye (Good Night, My Angel)"
+      }
+    },
+    {
+      "id": 514485,
+      "score": 0.8173777,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 128.013381958,
+        "mbid": "83b5e498-6465-475e-a796-24a0e08df59c",
+        "artist": "Charlie Dore",
+        "title": "Cartoon"
+      }
+    },
+    {
+      "id": 485559,
+      "score": 0.8169701,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 165.223403931,
+        "mbid": "7c4e964b-d19b-4099-a8d6-d1b361c3942d",
+        "artist": "Lagaan",
+        "title": "O Paalanhaare"
+      }
+    },
+    {
+      "id": 485558,
+      "score": 0.8169701,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 165.223403931,
+        "mbid": "7c4e964b-d19b-4099-a8d6-d1b361c3942d",
+        "artist": "Lagaan",
+        "title": "O Paalanhaare"
+      }
+    },
+    {
+      "id": 1268286,
+      "score": 0.8167981,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 184.5703125,
+        "mbid": "94b71950-675b-423b-aa89-23a424d0b770",
+        "artist": "Narciso Yepes",
+        "title": "Suite espa\u00f1ola: Rujero y paradetas"
+      }
+    },
+    {
+      "id": 922492,
+      "score": 0.8163646,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 164.200378418,
+        "mbid": "ec3b69da-a095-4532-be38-4ac84f603cd3",
+        "artist": "Dean Martin",
+        "title": "Return To Me"
+      }
+    },
+    {
+      "id": 553018,
+      "score": 0.81632805,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 147.817733765,
+        "mbid": "8d77d88e-78c1-427d-b226-8328e2f70246",
+        "artist": "Barbra Streisand with Elvis Presley",
+        "title": "Love Me Tender"
+      }
+    },
+    {
+      "id": 1363257,
+      "score": 0.8161922,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 172.265380859,
+        "mbid": "c99ff34f-04fc-4eb9-a010-736b48b647b6",
+        "artist": "Eva Cassidy",
+        "title": "Time After Time"
+      }
+    },
+    {
+      "id": 1060879,
+      "score": 0.81617326,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 153.598815918,
+        "mbid": "21dfacd6-b802-4370-812a-449d7575d401",
+        "artist": "John Zorn",
+        "title": "Moonbeams"
+      }
+    },
+    {
+      "id": 1060878,
+      "score": 0.81617326,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 153.598815918,
+        "mbid": "21dfacd6-b802-4370-812a-449d7575d401",
+        "artist": "John Zorn",
+        "title": "Moonbeams"
+      }
+    },
+    {
+      "id": 861705,
+      "score": 0.81331897,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 123.584358215,
+        "mbid": "dc8e0c32-0b39-4088-b6bd-101c0ebabeaa",
+        "artist": "Zeki Min",
+        "title": "I Don't Want Nothing"
+      }
+    },
+    {
+      "id": 89271,
+      "score": 0.81273395,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 166.087280273,
+        "mbid": "16eb5e5d-b29e-45c1-891f-b0b9674f18b1",
+        "artist": "The Beatles;Paul McCartney;George Martin",
+        "title": "Mother Nature's Son (Take 15)"
+      }
+    },
+    {
+      "id": 89272,
+      "score": 0.81273395,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 166.087280273,
+        "mbid": "16eb5e5d-b29e-45c1-891f-b0b9674f18b1",
+        "artist": "The Beatles;Paul McCartney;George Martin",
+        "title": "Mother Nature's Son (Take 15)"
+      }
+    },
+    {
+      "id": 401264,
+      "score": 0.8121502,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 163.899581909,
+        "mbid": "66e4ac3e-efef-4c3a-a6b1-1dcf9f39cfc1",
+        "artist": "Andrew Bird",
+        "title": "Song of Foot"
+      }
+    },
+    {
+      "id": 1357600,
+      "score": 0.8118524,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 121.765472412,
+        "mbid": "c65c4e1f-18cd-47e7-ac24-7dfcc327544a",
+        "artist": "Luis Eduardo Aute",
+        "title": "Anda"
+      }
+    },
+    {
+      "id": 401265,
+      "score": 0.8104595,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 163.965499878,
+        "mbid": "66e4ac3e-efef-4c3a-a6b1-1dcf9f39cfc1",
+        "artist": "Andrew Bird",
+        "title": "Song of Foot"
+      }
+    },
+    {
+      "id": 918867,
+      "score": 0.80955267,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 178.205825806,
+        "mbid": "eb4a9a82-d9d9-4286-9c3a-6eb5f6391448",
+        "artist": "Loreena McKennitt",
+        "title": "The Death of Queen Jane"
+      }
+    },
+    {
+      "id": 918866,
+      "score": 0.80955267,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 178.205825806,
+        "mbid": "eb4a9a82-d9d9-4286-9c3a-6eb5f6391448",
+        "artist": "Loreena McKennitt",
+        "title": "The Death of Queen Jane"
+      }
+    },
+    {
+      "id": 81837,
+      "score": 0.80942553,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 118.610702515,
+        "mbid": "1501ed89-fb20-43ac-a64c-b5f16ec8989c",
+        "artist": "Original Broadway Cast",
+        "title": "Without You"
+      }
+    },
+    {
+      "id": 1037845,
+      "score": 0.80857885,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 118.367080688,
+        "mbid": "1501ed89-fb20-43ac-a64c-b5f16ec8989c",
+        "artist": "Original Broadway Cast",
+        "title": "Without You"
+      }
+    },
+    {
+      "id": 653314,
+      "score": 0.8082642,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 178.2059021,
+        "mbid": "a7094837-2486-4db6-b3da-7a2e05c92c4c",
+        "artist": "Regina Spektor",
+        "title": "Jessica"
+      }
+    },
+    {
+      "id": 653315,
+      "score": 0.8082642,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 178.2059021,
+        "mbid": "a7094837-2486-4db6-b3da-7a2e05c92c4c",
+        "artist": "Regina Spektor",
+        "title": "Jessica"
+      }
+    },
+    {
+      "id": 17850,
+      "score": 0.8077568,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 172.265579224,
+        "mbid": "046e2ee6-747a-4c92-93b7-1d206e47a251",
+        "artist": "Baby Bird",
+        "title": "Dustbin liner"
+      }
+    },
+    {
+      "id": 653316,
+      "score": 0.80753434,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 178.205856323,
+        "mbid": "a7094837-2486-4db6-b3da-7a2e05c92c4c",
+        "artist": "Regina Spektor",
+        "title": "Jessica"
+      }
+    },
+    {
+      "id": 720263,
+      "score": 0.8058396,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 172.26524353,
+        "mbid": "b84275b7-5e5c-4a1b-81b0-1993f647570d",
+        "artist": "Olivier Fortin/Ensemble Masques",
+        "title": "Trio Sonata in D major, BuxWV 267"
+      }
+    },
+    {
+      "id": 170907,
+      "score": 0.8054318,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 148.022628784,
+        "mbid": "2b96f5c1-2009-4fc8-824e-ef920d53d1e9",
+        "artist": "David Sylvian",
+        "title": "Dobro #1"
+      }
+    },
+    {
+      "id": 353617,
+      "score": 0.8051836,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 150.68359375,
+        "mbid": "5aafc4c9-fde3-4a40-9d79-be7102dde5ec",
+        "artist": "Neil Diamond",
+        "title": "Everybody"
+      }
+    },
+    {
+      "id": 353612,
+      "score": 0.8051836,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 150.68359375,
+        "mbid": "5aafc4c9-fde3-4a40-9d79-be7102dde5ec",
+        "artist": "Neil Diamond",
+        "title": "Everybody"
+      }
+    },
+    {
+      "id": 353613,
+      "score": 0.8051836,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 150.68359375,
+        "mbid": "5aafc4c9-fde3-4a40-9d79-be7102dde5ec",
+        "artist": "Neil Diamond",
+        "title": "Everybody"
+      }
+    },
+    {
+      "id": 353616,
+      "score": 0.8051836,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 150.68359375,
+        "mbid": "5aafc4c9-fde3-4a40-9d79-be7102dde5ec",
+        "artist": "Neil Diamond",
+        "title": "Everybody"
+      }
+    },
+    {
+      "id": 353615,
+      "score": 0.8051836,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 150.68359375,
+        "mbid": "5aafc4c9-fde3-4a40-9d79-be7102dde5ec",
+        "artist": "Neil Diamond",
+        "title": "Everybody"
+      }
+    },
+    {
+      "id": 353614,
+      "score": 0.8051836,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 150.68359375,
+        "mbid": "5aafc4c9-fde3-4a40-9d79-be7102dde5ec",
+        "artist": "Neil Diamond",
+        "title": "Everybody"
+      }
+    },
+    {
+      "id": 353611,
+      "score": 0.8051836,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 150.68359375,
+        "mbid": "5aafc4c9-fde3-4a40-9d79-be7102dde5ec",
+        "artist": "Neil Diamond",
+        "title": "Everybody"
+      }
+    },
+    {
+      "id": 353618,
+      "score": 0.8051836,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 150.68359375,
+        "mbid": "5aafc4c9-fde3-4a40-9d79-be7102dde5ec",
+        "artist": "Neil Diamond",
+        "title": "Everybody"
+      }
+    },
+    {
+      "id": 509278,
+      "score": 0.8047103,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 178.205978394,
+        "mbid": "8264c774-544e-4557-87db-a07c7ce97a2c",
+        "artist": "Spailpin & The Dublin Ramblers",
+        "title": "Arthur McBride"
+      }
+    },
+    {
+      "id": 102778,
+      "score": 0.8045201,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 136.287597656,
+        "mbid": "1a4dc032-9b53-4c55-9b43-e31c964a4512",
+        "artist": "Iain Archer",
+        "title": "Frozen Lake"
+      }
+    },
+    {
+      "id": 383053,
+      "score": 0.8040703,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "minor",
+        "bpm": 184.570648193,
+        "mbid": "622efbaa-04a4-4c61-96b1-90f1506bf86e",
+        "artist": "The Beatles",
+        "title": "Why Don't We Do It In The Road (Anthology 3 Version)"
+      }
+    },
+    {
+      "id": 383052,
+      "score": 0.8040703,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "minor",
+        "bpm": 184.570648193,
+        "mbid": "622efbaa-04a4-4c61-96b1-90f1506bf86e",
+        "artist": "The Beatles",
+        "title": "Why Don't We Do It In The Road (Anthology 3 Version)"
+      }
+    },
+    {
+      "id": 147253,
+      "score": 0.80352753,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 184.570480347,
+        "mbid": "258ba257-2696-4a57-b488-e332c75e7546",
+        "artist": "Ferdinand Sor",
+        "title": "Six Bagatelles \"Mes Ennuis\", op. 43: No. 6. Valse"
+      }
+    },
+    {
+      "id": 1064637,
+      "score": 0.8029491,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 120.245811462,
+        "mbid": "240b65da-5ac7-472e-90e9-87d6ae25d175",
+        "artist": "Nina Nastasia",
+        "title": "Run, All You..."
+      }
+    },
+    {
+      "id": 722704,
+      "score": 0.80285317,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 111.405403137,
+        "mbid": "b8daa78b-cb08-48fd-8b25-27eb2bdd893f",
+        "artist": "Jay Farrar",
+        "title": "Heart on the Ground II"
+      }
+    },
+    {
+      "id": 761528,
+      "score": 0.80237985,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 172.265823364,
+        "mbid": "c2cf6ccf-0a6d-4c18-a391-57829b5d178e",
+        "artist": "Rockabye Baby!",
+        "title": "Bad Moon Rising"
+      }
+    },
+    {
+      "id": 106564,
+      "score": 0.8015852,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 146.831207275,
+        "mbid": "1b46933d-b6f3-42c9-9b89-07fbb235934d",
+        "artist": "Zeki Min",
+        "title": "Under Northen Skies"
+      }
+    },
+    {
+      "id": 973915,
+      "score": 0.80129296,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 154.517440796,
+        "mbid": "f96c10d1-fbae-4d40-8261-455c87c970e4",
+        "artist": "Trian",
+        "title": "An Chreach 'the Robbery'"
+      }
+    },
+    {
+      "id": 487116,
+      "score": 0.8011928,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 129.181442261,
+        "mbid": "7cb769fd-9fad-4611-a363-20d253a2fd50",
+        "artist": "Antony and the Johnsons",
+        "title": "Another World"
+      }
+    },
+    {
+      "id": 487110,
+      "score": 0.8011928,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 129.181442261,
+        "mbid": "7cb769fd-9fad-4611-a363-20d253a2fd50",
+        "artist": "Antony and the Johnsons",
+        "title": "Another World"
+      }
+    },
+    {
+      "id": 487111,
+      "score": 0.8011928,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 129.181442261,
+        "mbid": "7cb769fd-9fad-4611-a363-20d253a2fd50",
+        "artist": "Antony and the Johnsons",
+        "title": "Another World"
+      }
+    },
+    {
+      "id": 487112,
+      "score": 0.8011928,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 129.181442261,
+        "mbid": "7cb769fd-9fad-4611-a363-20d253a2fd50",
+        "artist": "Antony and the Johnsons",
+        "title": "Another World"
+      }
+    },
+    {
+      "id": 487107,
+      "score": 0.8011928,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 129.181442261,
+        "mbid": "7cb769fd-9fad-4611-a363-20d253a2fd50",
+        "artist": "Antony and the Johnsons",
+        "title": "Another World"
+      }
+    },
+    {
+      "id": 487115,
+      "score": 0.8011928,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 129.181442261,
+        "mbid": "7cb769fd-9fad-4611-a363-20d253a2fd50",
+        "artist": "Antony and the Johnsons",
+        "title": "Another World"
+      }
+    },
+    {
+      "id": 487106,
+      "score": 0.8011928,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 129.181442261,
+        "mbid": "7cb769fd-9fad-4611-a363-20d253a2fd50",
+        "artist": "Antony and the Johnsons",
+        "title": "Another World"
+      }
+    },
+    {
+      "id": 487108,
+      "score": 0.8011928,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 129.181442261,
+        "mbid": "7cb769fd-9fad-4611-a363-20d253a2fd50",
+        "artist": "Antony and the Johnsons",
+        "title": "Another World"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1261 @@
+{
+  "query_final_vector": [
+    0.08676570452298893,
+    -0.0921852030973088,
+    0.07939735025193315,
+    0.12352622001219007,
+    0.423608358153298,
+    0.13124577287282185,
+    0.0009558106642801158,
+    0.07984898286176546,
+    0.36128094586083676,
+    0.1332527339503277,
+    -0.22556566941718564,
+    -0.11445397142614758,
+    0.2680049989754272,
+    -0.15314603191314952,
+    0.14931524317449044,
+    0.05932757760108047,
+    -0.12746186278649063,
+    -0.07703292206325468,
+    -0.03726299780518176,
+    -0.15613270266398638,
+    -0.1562952153034001,
+    -0.06718751703123689,
+    0.038853747963827664,
+    0.06094305426778676,
+    -0.03762190957278808,
+    -0.02063214751613027,
+    0.012763593697007792,
+    -0.09952893449459568,
+    -0.10344184546281905,
+    -0.046415648371460096,
+    0.040927153015800445,
+    0.0997256194411194,
+    0.1095120196549985,
+    -0.0663116786184516,
+    -0.1209379026793742,
+    -0.11415012345555223,
+    0.0614188557405942,
+    0.18754877200103365,
+    0.09788127495761623,
+    -0.12530699249577168,
+    -0.1389690716751764,
+    -0.1532533567487814,
+    -0.08098106421597448,
+    -0.05397444054588695,
+    -0.09507342351242598,
+    -0.12657725139136555,
+    -0.046704208429862726,
+    -0.023929894938016987,
+    -0.14675675151465908,
+    -0.16423324058544136,
+    -0.1779167274009884,
+    -0.1566479712343355,
+    -0.0372380812014822,
+    0.018447938816913943,
+    -0.112790003255834
+  ],
+  "results": [
+    {
+      "id": 971493,
+      "score": 0.8166058,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 121.989341736,
+        "mbid": "f8ca895b-5189-42f0-a787-618a053fd563",
+        "artist": "Stereolab",
+        "title": "Spool of Collusion"
+      }
+    },
+    {
+      "id": 714455,
+      "score": 0.7697587,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 120.040328979,
+        "mbid": "b6c0dd75-9293-4703-a7a4-cf823985d846",
+        "artist": "Eisbrecher",
+        "title": "Vergissmeinnicht (Phase III remix)"
+      }
+    },
+    {
+      "id": 714454,
+      "score": 0.75179595,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 120.000602722,
+        "mbid": "b6c0dd75-9293-4703-a7a4-cf823985d846",
+        "artist": "Eisbrecher",
+        "title": "Vergissmeinnicht (Phase III mix)"
+      }
+    },
+    {
+      "id": 636673,
+      "score": 0.7445292,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 100.400726318,
+        "mbid": "a2d21e96-e378-4e54-b3db-1fec2610ef49",
+        "artist": "Dubmood",
+        "title": "Chiptune"
+      }
+    },
+    {
+      "id": 1375539,
+      "score": 0.73342705,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 96.172996521,
+        "mbid": "d099d113-6a1f-43eb-b88d-21c471b32d27",
+        "artist": "Kool Savas",
+        "title": "Fehdehandschuh"
+      }
+    },
+    {
+      "id": 842665,
+      "score": 0.7293391,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 128.93862915,
+        "mbid": "d7a30257-d229-406a-a535-b8b60af15b39",
+        "artist": "LMC vs. U2",
+        "title": "Take Me to the Clouds Above (The Mash Up Kids remix)"
+      }
+    },
+    {
+      "id": 183554,
+      "score": 0.72730905,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 95.9970092773,
+        "mbid": "2ec45abb-cde8-41c4-9469-896e6c074472",
+        "artist": "Sugababes",
+        "title": "Lush Life"
+      }
+    },
+    {
+      "id": 844372,
+      "score": 0.726968,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 97.0304641724,
+        "mbid": "d81241be-c109-4ca4-92bf-6d19063ed034",
+        "artist": "Wild Beasts",
+        "title": "He the Colossus"
+      }
+    },
+    {
+      "id": 1033514,
+      "score": 0.724097,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "minor",
+        "bpm": 135.465881348,
+        "mbid": "1291cab8-1508-426b-8193-0f6e67ee61ce",
+        "artist": "Iggy Pop",
+        "title": "I'm Sick Of You"
+      }
+    },
+    {
+      "id": 1033515,
+      "score": 0.724097,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "minor",
+        "bpm": 135.465881348,
+        "mbid": "1291cab8-1508-426b-8193-0f6e67ee61ce",
+        "artist": "Iggy Pop",
+        "title": "I'm Sick Of You"
+      }
+    },
+    {
+      "id": 1072861,
+      "score": 0.724097,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "minor",
+        "bpm": 135.465881348,
+        "mbid": "28948712-83d9-43c4-9f3c-b45478efe032",
+        "artist": "Iggy Pop",
+        "title": "I'm Sick Of You"
+      }
+    },
+    {
+      "id": 507108,
+      "score": 0.72203064,
+      "payload": {
+        "key_key": "B",
+        "key_scale": "minor",
+        "bpm": 97.066947937,
+        "mbid": "81d35f9d-fe3c-4ae4-ad8a-d6cd62e336d7",
+        "artist": "AGF",
+        "title": "Suba"
+      }
+    },
+    {
+      "id": 1158750,
+      "score": 0.7219577,
+      "payload": {
+        "key_key": "B",
+        "key_scale": "major",
+        "bpm": 86.3784179688,
+        "mbid": "57e490ea-50ba-4f19-aeba-965791bc1309",
+        "artist": "Bronze Nazareth",
+        "title": "Black Dawn"
+      }
+    },
+    {
+      "id": 670472,
+      "score": 0.72055435,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 109.977996826,
+        "mbid": "ab75a71c-456f-4f18-8143-ae08e8f029d4",
+        "artist": "Hey Violet",
+        "title": "Where Have You Been (All My Night)"
+      }
+    },
+    {
+      "id": 264788,
+      "score": 0.71777666,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 110.851783752,
+        "mbid": "438ed07d-758f-4c36-9024-7949501ddeed",
+        "artist": "Johnny \"Guitar\" Watson",
+        "title": "Love That Will Not Die"
+      }
+    },
+    {
+      "id": 1278717,
+      "score": 0.7145864,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 93.9126205444,
+        "mbid": "9aa4361d-3fe3-445e-a3a7-5d6b909fd8b1",
+        "artist": "Ariana Grande",
+        "title": "Break Your Heart Right Back (feat. Childish Gambino)"
+      }
+    },
+    {
+      "id": 1356945,
+      "score": 0.7106642,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 89.9265975952,
+        "mbid": "c604ebed-7b53-4d74-af66-f97e837916e5",
+        "artist": "Headphone Science",
+        "title": "Air Bubble Material"
+      }
+    },
+    {
+      "id": 1052608,
+      "score": 0.7061332,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "minor",
+        "bpm": 129.048294067,
+        "mbid": "1d4ad8aa-1e98-4f29-88fe-4ae2de6af422",
+        "artist": "Gus Gus",
+        "title": "Need In Me (Micky Monza & Joseph Disco Remix)"
+      }
+    },
+    {
+      "id": 1052610,
+      "score": 0.7061332,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "minor",
+        "bpm": 129.048294067,
+        "mbid": "1d4ad8aa-1e98-4f29-88fe-4ae2de6af422",
+        "artist": "Gus Gus",
+        "title": "Need In Me (Micky Monza & Joseph Disco Remix)"
+      }
+    },
+    {
+      "id": 1052609,
+      "score": 0.7061332,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "minor",
+        "bpm": 129.048294067,
+        "mbid": "1d4ad8aa-1e98-4f29-88fe-4ae2de6af422",
+        "artist": "Gus Gus",
+        "title": "Need In Me (Micky Monza & Joseph Disco Remix)"
+      }
+    },
+    {
+      "id": 1046521,
+      "score": 0.7056751,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 87.8897247314,
+        "mbid": "19d39a75-feaf-40cf-baf5-ba9dd65f4b15",
+        "artist": "Suoh Mikoto (Cv\u2024 Kenjiro Tsuda)",
+        "title": "Stand In The Wilderness (Poetry Reading Ver\u2024)"
+      }
+    },
+    {
+      "id": 1014808,
+      "score": 0.7040019,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 95.9970626831,
+        "mbid": "083f3e83-e2d3-430c-b391-80598aff4e91",
+        "artist": "Anthony Hamilton",
+        "title": "Best Of Me"
+      }
+    },
+    {
+      "id": 424112,
+      "score": 0.70202315,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 84.8960189819,
+        "mbid": "6cc8e4e4-6838-4921-9948-f552d4d8f498",
+        "artist": "The Czars",
+        "title": "I Am the Man"
+      }
+    },
+    {
+      "id": 424113,
+      "score": 0.70202315,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 84.8960189819,
+        "mbid": "6cc8e4e4-6838-4921-9948-f552d4d8f498",
+        "artist": "The Czars",
+        "title": "I Am the Man"
+      }
+    },
+    {
+      "id": 394619,
+      "score": 0.70045567,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "minor",
+        "bpm": 112.968078613,
+        "mbid": "652f6bf5-fd1c-42e3-ab47-9a3bc3781f33",
+        "artist": "Joe Hertler & The Rainbow Seekers",
+        "title": "Evening Coffee"
+      }
+    },
+    {
+      "id": 707567,
+      "score": 0.6995584,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 120.024459839,
+        "mbid": "b4f6577e-3d03-4a46-ad9a-888ee37d7e24",
+        "artist": "Grace Ives",
+        "title": "Icing on the Cake"
+      }
+    },
+    {
+      "id": 424114,
+      "score": 0.69926375,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 84.7685317993,
+        "mbid": "6cc8e4e4-6838-4921-9948-f552d4d8f498",
+        "artist": "The Czars",
+        "title": "I Am the Man"
+      }
+    },
+    {
+      "id": 877510,
+      "score": 0.69924515,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 90.8197479248,
+        "mbid": "e0867e54-21f5-445f-bb66-edfe24752f9c",
+        "artist": "Jamie Lawson",
+        "title": "Wasn't Expecting That"
+      }
+    },
+    {
+      "id": 763214,
+      "score": 0.6988692,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 90.7915420532,
+        "mbid": "c3463f90-8864-48d8-8070-a96ac80b5ef0",
+        "artist": "Jamie Lawson",
+        "title": "Wasn't Expecting That"
+      }
+    },
+    {
+      "id": 877509,
+      "score": 0.6985091,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 90.8949127197,
+        "mbid": "e0867e54-21f5-445f-bb66-edfe24752f9c",
+        "artist": "Jamie lawson",
+        "title": "Wasn t expecting that"
+      }
+    },
+    {
+      "id": 877511,
+      "score": 0.69690466,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 90.9197540283,
+        "mbid": "e0867e54-21f5-445f-bb66-edfe24752f9c",
+        "artist": "Jamie Lawson",
+        "title": "Wasn't Expecting That"
+      }
+    },
+    {
+      "id": 877512,
+      "score": 0.69690466,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 90.9197540283,
+        "mbid": "e0867e54-21f5-445f-bb66-edfe24752f9c",
+        "artist": "Jamie Lawson",
+        "title": "Wasn't Expecting That"
+      }
+    },
+    {
+      "id": 1238761,
+      "score": 0.6961182,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "minor",
+        "bpm": 154.481674194,
+        "mbid": "845ab2fa-9d3e-4d53-87e8-6c0e486a66b8",
+        "artist": "Stereolab",
+        "title": "Les Yper-Sound"
+      }
+    },
+    {
+      "id": 707565,
+      "score": 0.6947651,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 120.111717224,
+        "mbid": "b4f6577e-3d03-4a46-ad9a-888ee37d7e24",
+        "artist": "Grace Ives",
+        "title": "Icing on the Cake"
+      }
+    },
+    {
+      "id": 707566,
+      "score": 0.6947651,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 120.111717224,
+        "mbid": "b4f6577e-3d03-4a46-ad9a-888ee37d7e24",
+        "artist": "Grace Ives",
+        "title": "Icing on the Cake"
+      }
+    },
+    {
+      "id": 971903,
+      "score": 0.69409615,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 90.0869445801,
+        "mbid": "f8e776ca-1d15-4430-834a-25ada0e49f43",
+        "artist": "True Widow",
+        "title": "Blooden Horse"
+      }
+    },
+    {
+      "id": 160761,
+      "score": 0.69405675,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 87.8863601685,
+        "mbid": "28ff09dd-afc9-4eb9-bdc0-df88992a84d7",
+        "artist": "Kanye West feat. Paul Wall & GLC",
+        "title": "Drive Slow"
+      }
+    },
+    {
+      "id": 1349135,
+      "score": 0.6929231,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "minor",
+        "bpm": 154.437561035,
+        "mbid": "c1ac1989-9abf-4ea8-a4a5-2f802125bd90",
+        "artist": "Stereolab",
+        "title": "Les Yper-Sound"
+      }
+    },
+    {
+      "id": 634736,
+      "score": 0.6925639,
+      "payload": {
+        "key_key": "B",
+        "key_scale": "major",
+        "bpm": 104.926383972,
+        "mbid": "a24c8765-375a-4a91-b5a6-88e87f44f7d4",
+        "artist": "MONOSCOPIC",
+        "title": "BOUNCE"
+      }
+    },
+    {
+      "id": 1378134,
+      "score": 0.69239646,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 104.906272888,
+        "mbid": "d2077d90-6118-48b0-b387-5b65ee9a610f",
+        "artist": "Ilya Santana",
+        "title": "Hammerhead (Tad Wily remix)"
+      }
+    },
+    {
+      "id": 1378135,
+      "score": 0.692395,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 104.909828186,
+        "mbid": "d2077d90-6118-48b0-b387-5b65ee9a610f",
+        "artist": "Ilya Santana",
+        "title": "Hammerhead (Tad Wily remix)"
+      }
+    },
+    {
+      "id": 1378136,
+      "score": 0.692395,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 104.909828186,
+        "mbid": "d2077d90-6118-48b0-b387-5b65ee9a610f",
+        "artist": "Ilya Santana",
+        "title": "Hammerhead (Tad Wily remix)"
+      }
+    },
+    {
+      "id": 1378133,
+      "score": 0.692395,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 104.909828186,
+        "mbid": "d2077d90-6118-48b0-b387-5b65ee9a610f",
+        "artist": "Ilya Santana",
+        "title": "Hammerhead (Tad Wily Remix)"
+      }
+    },
+    {
+      "id": 757356,
+      "score": 0.6921714,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "minor",
+        "bpm": 154.541900635,
+        "mbid": "c1ac1989-9abf-4ea8-a4a5-2f802125bd90",
+        "artist": "Stereolab",
+        "title": "Les Yper-sound"
+      }
+    },
+    {
+      "id": 821688,
+      "score": 0.692073,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 117.685272217,
+        "mbid": "d246651b-cdee-4897-b78a-1faa6e80def5",
+        "artist": "The Cardigans",
+        "title": "Explode"
+      }
+    },
+    {
+      "id": 641445,
+      "score": 0.69197047,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 87.8781433105,
+        "mbid": "a3fc88da-14f1-4923-a4a2-7ae46a4a153e",
+        "artist": "Kanye West",
+        "title": "Drive Slow (feat. Paul Wall & GLC)"
+      }
+    },
+    {
+      "id": 646633,
+      "score": 0.6918186,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 88.0111923218,
+        "mbid": "a554914d-e676-4908-b680-750fda420622",
+        "artist": "dead prez",
+        "title": "Last Days Reloaded (feat. Onyx)"
+      }
+    },
+    {
+      "id": 821691,
+      "score": 0.6916789,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 117.690917969,
+        "mbid": "d246651b-cdee-4897-b78a-1faa6e80def5",
+        "artist": "The Cardigans",
+        "title": "Explode"
+      }
+    },
+    {
+      "id": 821690,
+      "score": 0.6916183,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 117.764305115,
+        "mbid": "d246651b-cdee-4897-b78a-1faa6e80def5",
+        "artist": "The Cardigans",
+        "title": "Explode "
+      }
+    },
+    {
+      "id": 952360,
+      "score": 0.691457,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "minor",
+        "bpm": 89.9713973999,
+        "mbid": "f3f22995-b03b-4ec4-a45c-180143327b0a",
+        "artist": "M.O.P.",
+        "title": "Forever and Always"
+      }
+    },
+    {
+      "id": 581864,
+      "score": 0.6913851,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 92.3211669922,
+        "mbid": "94d1f059-5a79-470e-a811-9f51ace7f4be",
+        "artist": "Stereolab",
+        "title": "Come and Play in the Milky Night"
+      }
+    },
+    {
+      "id": 821689,
+      "score": 0.690896,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 117.691741943,
+        "mbid": "d246651b-cdee-4897-b78a-1faa6e80def5",
+        "artist": "The Cardigans",
+        "title": "Explode"
+      }
+    },
+    {
+      "id": 1210960,
+      "score": 0.6907688,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "minor",
+        "bpm": 99.7914428711,
+        "mbid": "74f50082-1c17-497b-9f0e-77f071d51cd3",
+        "artist": "Oblique",
+        "title": "Black Heart"
+      }
+    },
+    {
+      "id": 1210959,
+      "score": 0.6907688,
+      "payload": {
+        "key_key": "A#",
+        "key_scale": "minor",
+        "bpm": 99.7914428711,
+        "mbid": "74f50082-1c17-497b-9f0e-77f071d51cd3",
+        "artist": "Oblique",
+        "title": "Black Heart"
+      }
+    },
+    {
+      "id": 43960,
+      "score": 0.690489,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 144.682800293,
+        "mbid": "0b2c7ef0-bf34-4640-95ed-9a17798ce9e9",
+        "artist": "U2",
+        "title": "Twilight (single version)"
+      }
+    },
+    {
+      "id": 1071647,
+      "score": 0.6899639,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "minor",
+        "bpm": 107.897743225,
+        "mbid": "27e42572-26e2-4bb2-abb4-6bc96b21923f",
+        "artist": "Lucinda Williams",
+        "title": "I Know All About It"
+      }
+    },
+    {
+      "id": 497638,
+      "score": 0.68992215,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 125.315101624,
+        "mbid": "7f6dd0aa-cee3-463b-91a3-0937230f227e",
+        "artist": "The Temptations",
+        "title": "Power (Soundtree Remix Edit)"
+      }
+    },
+    {
+      "id": 497639,
+      "score": 0.68992215,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 125.315101624,
+        "mbid": "7f6dd0aa-cee3-463b-91a3-0937230f227e",
+        "artist": "The Temptations",
+        "title": "Power (Soundtree Remix Edit)"
+      }
+    },
+    {
+      "id": 194843,
+      "score": 0.6895638,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 122.959114075,
+        "mbid": "319df8f4-4516-401f-aba0-41134c09f8ae",
+        "artist": "Ally Brooke,Matoma",
+        "title": "Higher"
+      }
+    },
+    {
+      "id": 497637,
+      "score": 0.6891148,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 125.359016418,
+        "mbid": "7f6dd0aa-cee3-463b-91a3-0937230f227e",
+        "artist": "The Temptations",
+        "title": "Power (Soundtree Remix Edit) - The Temptations - 50th Anniversary - The Singles Collection (196 1971)"
+      }
+    },
+    {
+      "id": 156206,
+      "score": 0.68819577,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "minor",
+        "bpm": 107.877609253,
+        "mbid": "27e42572-26e2-4bb2-abb4-6bc96b21923f",
+        "artist": "Lucinda Williams",
+        "title": "I Know All About It"
+      }
+    },
+    {
+      "id": 156207,
+      "score": 0.68819577,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "minor",
+        "bpm": 107.877609253,
+        "mbid": "27e42572-26e2-4bb2-abb4-6bc96b21923f",
+        "artist": "Lucinda Williams",
+        "title": "I Know All About It"
+      }
+    },
+    {
+      "id": 194847,
+      "score": 0.68780124,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 122.988586426,
+        "mbid": "319df8f4-4516-401f-aba0-41134c09f8ae",
+        "artist": "Ally Brooke, Matoma",
+        "title": "Higher"
+      }
+    },
+    {
+      "id": 194846,
+      "score": 0.68780124,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 122.988586426,
+        "mbid": "319df8f4-4516-401f-aba0-41134c09f8ae",
+        "artist": "Ally Brooke, Matoma",
+        "title": "Higher"
+      }
+    },
+    {
+      "id": 194844,
+      "score": 0.68780124,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 122.988586426,
+        "mbid": "319df8f4-4516-401f-aba0-41134c09f8ae",
+        "artist": "Ally Brooke, Matoma",
+        "title": "Higher"
+      }
+    },
+    {
+      "id": 194845,
+      "score": 0.68780124,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 122.988586426,
+        "mbid": "319df8f4-4516-401f-aba0-41134c09f8ae",
+        "artist": "Ally Brooke, Matoma",
+        "title": "Higher"
+      }
+    },
+    {
+      "id": 286357,
+      "score": 0.68761,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 135.004058838,
+        "mbid": "493d9a5b-6488-4dbb-9b7d-1a69974a9bfa",
+        "artist": "Crystal Castles",
+        "title": "Sad Eyes"
+      }
+    },
+    {
+      "id": 286355,
+      "score": 0.68761,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 135.004058838,
+        "mbid": "493d9a5b-6488-4dbb-9b7d-1a69974a9bfa",
+        "artist": "Crystal Castles",
+        "title": "Sad Eyes"
+      }
+    },
+    {
+      "id": 286353,
+      "score": 0.68761,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 135.004058838,
+        "mbid": "493d9a5b-6488-4dbb-9b7d-1a69974a9bfa",
+        "artist": "Crystal Castles",
+        "title": "Sad Eyes"
+      }
+    },
+    {
+      "id": 286352,
+      "score": 0.68761,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 135.004058838,
+        "mbid": "493d9a5b-6488-4dbb-9b7d-1a69974a9bfa",
+        "artist": "Crystal Castles",
+        "title": "Sad Eyes"
+      }
+    },
+    {
+      "id": 286354,
+      "score": 0.68761,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 135.004058838,
+        "mbid": "493d9a5b-6488-4dbb-9b7d-1a69974a9bfa",
+        "artist": "Crystal Castles",
+        "title": "Sad Eyes"
+      }
+    },
+    {
+      "id": 286356,
+      "score": 0.68761,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 135.004058838,
+        "mbid": "493d9a5b-6488-4dbb-9b7d-1a69974a9bfa",
+        "artist": "Crystal Castles",
+        "title": "Sad Eyes"
+      }
+    },
+    {
+      "id": 286351,
+      "score": 0.68761,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 135.004058838,
+        "mbid": "493d9a5b-6488-4dbb-9b7d-1a69974a9bfa",
+        "artist": "Crystal Castles",
+        "title": "Sad Eyes"
+      }
+    },
+    {
+      "id": 68132,
+      "score": 0.68744165,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 144.766281128,
+        "mbid": "1171bec5-985b-4d1a-8765-365caf5748ff",
+        "artist": "U2",
+        "title": "Twilight"
+      }
+    },
+    {
+      "id": 43961,
+      "score": 0.68744165,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 144.766281128,
+        "mbid": "0b2c7ef0-bf34-4640-95ed-9a17798ce9e9",
+        "artist": "U2",
+        "title": "Twilight"
+      }
+    },
+    {
+      "id": 497644,
+      "score": 0.6871689,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 125.318237305,
+        "mbid": "7f6dd0aa-cee3-463b-91a3-0937230f227e",
+        "artist": "The Temptations",
+        "title": "Power (Soundtree Remix Edit)"
+      }
+    },
+    {
+      "id": 497642,
+      "score": 0.6871689,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 125.318237305,
+        "mbid": "7f6dd0aa-cee3-463b-91a3-0937230f227e",
+        "artist": "The Temptations",
+        "title": "Power (Soundtree Remix Edit)"
+      }
+    },
+    {
+      "id": 497643,
+      "score": 0.6871689,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 125.318237305,
+        "mbid": "7f6dd0aa-cee3-463b-91a3-0937230f227e",
+        "artist": "The Temptations",
+        "title": "Power (Soundtree Remix Edit)"
+      }
+    },
+    {
+      "id": 497641,
+      "score": 0.6871689,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 125.318237305,
+        "mbid": "7f6dd0aa-cee3-463b-91a3-0937230f227e",
+        "artist": "The Temptations",
+        "title": "Power (Soundtree Remix Edit)"
+      }
+    },
+    {
+      "id": 1204810,
+      "score": 0.6864991,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "minor",
+        "bpm": 110.960823059,
+        "mbid": "718b22f7-2fdb-4fff-ae30-e947f190976b",
+        "artist": "\u0421\u043b\u043e\u0442",
+        "title": "\u0414\u0435\u043d\u044c \u0437\u0430\u043a\u0440\u044b\u0442\u044b\u0445 \u0434\u0432\u0435\u0440\u0435\u0439 (Minus)"
+      }
+    },
+    {
+      "id": 1111200,
+      "score": 0.68489623,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 110.550178528,
+        "mbid": "3d6cb10e-e57c-42bd-b06f-1de2f2f028fe",
+        "artist": "Michelle Branch",
+        "title": "Temporary Feeling"
+      }
+    },
+    {
+      "id": 662308,
+      "score": 0.6828323,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 114.986961365,
+        "mbid": "a94ecdd8-08c4-4659-8761-642cece68636",
+        "artist": "Justs",
+        "title": "Heartbeat (Latvia)"
+      }
+    },
+    {
+      "id": 497640,
+      "score": 0.68244654,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "minor",
+        "bpm": 125.311027527,
+        "mbid": "7f6dd0aa-cee3-463b-91a3-0937230f227e",
+        "artist": "The Temptations",
+        "title": "Power (Soundtree Remix Edit)"
+      }
+    },
+    {
+      "id": 453522,
+      "score": 0.6824339,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 98.0079421997,
+        "mbid": "746a6b70-d3d2-406f-a56b-bb2669d51f07",
+        "artist": "Jay-Jay Johanson",
+        "title": "Tomorrow"
+      }
+    },
+    {
+      "id": 605966,
+      "score": 0.68202263,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 114.572097778,
+        "mbid": "9af564be-0196-449d-8f7d-2c4ffbcc9f91",
+        "artist": "Bob Marley; The Wailers",
+        "title": "Mr. Chatterbox (alternate take)"
+      }
+    },
+    {
+      "id": 43958,
+      "score": 0.6819071,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 144.685668945,
+        "mbid": "0b2c7ef0-bf34-4640-95ed-9a17798ce9e9",
+        "artist": "U2",
+        "title": "Twilight"
+      }
+    },
+    {
+      "id": 43962,
+      "score": 0.6819071,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 144.685668945,
+        "mbid": "0b2c7ef0-bf34-4640-95ed-9a17798ce9e9",
+        "artist": "U2",
+        "title": "Twilight"
+      }
+    },
+    {
+      "id": 47636,
+      "score": 0.6818038,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 100.001228333,
+        "mbid": "0c1ecd5d-035e-41b2-97de-56df053926fb",
+        "artist": "Yasunori Mitsuda",
+        "title": "The Grasslands of Time: Home World"
+      }
+    },
+    {
+      "id": 516514,
+      "score": 0.68151534,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 112.0287323,
+        "mbid": "8433452a-e027-48a0-b307-8e927106911a",
+        "artist": "The Funk Brothers",
+        "title": "Bernadette"
+      }
+    },
+    {
+      "id": 516515,
+      "score": 0.68151534,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 112.0287323,
+        "mbid": "8433452a-e027-48a0-b307-8e927106911a",
+        "artist": "The Funk Brothers",
+        "title": "Bernadette"
+      }
+    },
+    {
+      "id": 729593,
+      "score": 0.6813079,
+      "payload": {
+        "key_key": "B",
+        "key_scale": "major",
+        "bpm": 87.9955749512,
+        "mbid": "ba974ac4-0c6d-4726-be4f-0af93364e8e9",
+        "artist": "DJ BAKU",
+        "title": "Mixture (feat. Shing02)"
+      }
+    },
+    {
+      "id": 102379,
+      "score": 0.680729,
+      "payload": {
+        "key_key": "F",
+        "key_scale": "minor",
+        "bpm": 119.978279114,
+        "mbid": "1a343f72-3b28-4107-911d-6cd137e02d30",
+        "artist": "Michiru Yamane",
+        "title": "Wandering Ghosts"
+      }
+    },
+    {
+      "id": 106642,
+      "score": 0.680637,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 162.60798645,
+        "mbid": "1b4aaca6-a371-413d-8639-75da96a517f1",
+        "artist": "Dubmood & Zabutom",
+        "title": "Nightpop"
+      }
+    },
+    {
+      "id": 1236292,
+      "score": 0.6790358,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "major",
+        "bpm": 122.038078308,
+        "mbid": "8304f983-2bb0-46fc-aa85-9801059350df",
+        "artist": "Nadia Ali",
+        "title": "Ride with Me [original mix]"
+      }
+    },
+    {
+      "id": 1085608,
+      "score": 0.6788098,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 89.0265884399,
+        "mbid": "2f78c8f1-7693-42cb-9b44-e82a73d6cb7e",
+        "artist": "Twista",
+        "title": "All About the Papes"
+      }
+    },
+    {
+      "id": 64904,
+      "score": 0.67867064,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 126.98916626,
+        "mbid": "10a16f2f-d540-492a-a21f-7506cee7abb7",
+        "artist": "Tomoaki \u014cga & Minako Adachi",
+        "title": "Infiltration"
+      }
+    },
+    {
+      "id": 1159590,
+      "score": 0.6775712,
+      "payload": {
+        "key_key": "C#",
+        "key_scale": "major",
+        "bpm": 129.952102661,
+        "mbid": "5855d763-3ed7-4913-8ce1-64000e183535",
+        "artist": "Saint Etienne",
+        "title": "Cool Kids of Death (Underworld mix)"
+      }
+    },
+    {
+      "id": 1025103,
+      "score": 0.6771487,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 89.5752716064,
+        "mbid": "0dbef904-eeec-4e0a-91d2-f881121ad4fe",
+        "artist": "Nirvana",
+        "title": "Marigold"
+      }
+    },
+    {
+      "id": 47857,
+      "score": 0.67651534,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "minor",
+        "bpm": 137.476333618,
+        "mbid": "0c2ee50b-155a-45f5-8bb2-a48af0bf9844",
+        "artist": "4 Strings",
+        "title": "Take Me Away (Into the Night) (original mix)"
+      }
+    },
+    {
+      "id": 13768,
+      "score": 0.67618626,
+      "payload": {
+        "key_key": "G#",
+        "key_scale": "major",
+        "bpm": 130.054214478,
+        "mbid": "0364612d-5c1f-44c8-bcf7-a84d922327fd",
+        "artist": "\u690d\u677e\u4f38\u592b",
+        "title": "Only a Plank Between One and Perdition"
+      }
+    }
+  ]
+}

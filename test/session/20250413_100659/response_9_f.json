@@ -1,0 +1,1261 @@
+{
+  "query_final_vector": [
+    0.13661847687708764,
+    -0.12742155134489194,
+    -0.09365932746152346,
+    0.12020535104252943,
+    0.14001969831265548,
+    0.0847337965491828,
+    0.18358977898439702,
+    0.07364758019638416,
+    0.08554176864499843,
+    0.012865526637008249,
+    -0.016726471581783916,
+    0.0018200733023896929,
+    -0.02791742988841406,
+    -0.043953735510471686,
+    0.06693412697682875,
+    -0.06170191786484115,
+    0.20601685425096947,
+    -0.05354328014604854,
+    0.09150357542283269,
+    -0.13259848226407042,
+    -0.09862044816600425,
+    0.061646557752729675,
+    0.11552953270628061,
+    0.09365401276131785,
+    -0.037653540133532754,
+    -0.09732900129020573,
+    -0.05500265454548427,
+    0.21170243976952674,
+    0.2205502421851476,
+    0.14371097596497204,
+    0.002144519465311585,
+    -0.07497688723706081,
+    -0.08294069522651498,
+    -0.02998352194588534,
+    0.012822334886978193,
+    0.10247666153750853,
+    0.32467111530874865,
+    0.2544438574199841,
+    0.09569455641609334,
+    -0.11101207863302803,
+    -0.16386226319221917,
+    -0.18201916041164565,
+    -0.20067354614158356,
+    -0.1687520723511158,
+    -0.15867610881538038,
+    -0.10226947055750207,
+    -0.09286701111597542,
+    -0.021175510785616043,
+    0.25633851550357845,
+    0.2978463152748988,
+    0.24294900185824886,
+    0.08810631830277556,
+    0.03377806921111817,
+    -0.0013438603594766497,
+    -0.1037555984076779
+  ],
+  "results": [
+    {
+      "id": 304959,
+      "score": 0.99465907,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 117.388496399,
+        "mbid": "4e1083c3-b577-48e9-9a56-7bbbcbb1d6e7",
+        "artist": "System Of A Down",
+        "title": "Toxicity"
+      }
+    },
+    {
+      "id": 1140960,
+      "score": 0.9939583,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 117.396827698,
+        "mbid": "4e1083c3-b577-48e9-9a56-7bbbcbb1d6e7",
+        "artist": "System of a Down",
+        "title": "Toxicity"
+      }
+    },
+    {
+      "id": 304960,
+      "score": 0.9895891,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 117.377639771,
+        "mbid": "4e1083c3-b577-48e9-9a56-7bbbcbb1d6e7",
+        "artist": "System of a Down",
+        "title": "Toxicity"
+      }
+    },
+    {
+      "id": 1276414,
+      "score": 0.97946495,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 117.294876099,
+        "mbid": "99630575-8171-447e-8cdb-a149b2ec031c",
+        "artist": "System of a Down",
+        "title": "Toxicity"
+      }
+    },
+    {
+      "id": 228290,
+      "score": 0.87953043,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 109.867095947,
+        "mbid": "3a40dfad-f3ea-4c76-a337-c2840c939b4f",
+        "artist": "Periphery",
+        "title": "Facepalm Mute"
+      }
+    },
+    {
+      "id": 153474,
+      "score": 0.8784832,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 114.855163574,
+        "mbid": "2729c784-c23f-4efb-ab65-efe036c7750e",
+        "artist": "Various Artists",
+        "title": "Explosive"
+      }
+    },
+    {
+      "id": 153473,
+      "score": 0.8784832,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 114.855163574,
+        "mbid": "2729c784-c23f-4efb-ab65-efe036c7750e",
+        "artist": "bond",
+        "title": "Explosive"
+      }
+    },
+    {
+      "id": 1308619,
+      "score": 0.8782811,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 109.799530029,
+        "mbid": "ab441d77-3b1f-48e1-8fb3-1ec259aac6fc",
+        "artist": "Queens of the Stone Age",
+        "title": "Mexicola"
+      }
+    },
+    {
+      "id": 1308620,
+      "score": 0.8782811,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 109.799530029,
+        "mbid": "ab441d77-3b1f-48e1-8fb3-1ec259aac6fc",
+        "artist": "Queens of the Stone Age",
+        "title": "Mexicola"
+      }
+    },
+    {
+      "id": 1308617,
+      "score": 0.8782811,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 109.799530029,
+        "mbid": "ab441d77-3b1f-48e1-8fb3-1ec259aac6fc",
+        "artist": "Queens of the Stone Age",
+        "title": "Mexicola"
+      }
+    },
+    {
+      "id": 1310980,
+      "score": 0.8782811,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 109.799530029,
+        "mbid": "ac929a86-ddea-4c86-bb4b-150dbda27ef1",
+        "artist": "Queens Of The Stone Age",
+        "title": "Mexicola"
+      }
+    },
+    {
+      "id": 1308618,
+      "score": 0.8772587,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 109.772346497,
+        "mbid": "ab441d77-3b1f-48e1-8fb3-1ec259aac6fc",
+        "artist": "Queens of the Stone Age",
+        "title": "Mexicola"
+      }
+    },
+    {
+      "id": 699985,
+      "score": 0.87129533,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 120.015106201,
+        "mbid": "b3150340-6376-469d-9de4-959a7b4104de",
+        "artist": "Sister Electra feat. Helm",
+        "title": "When Romance Dies"
+      }
+    },
+    {
+      "id": 772610,
+      "score": 0.8687292,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 142.748764038,
+        "mbid": "c5ab94c9-a195-4a33-8c0c-bb2b495f490d",
+        "artist": "While Heaven Wept",
+        "title": "In Aeturnum"
+      }
+    },
+    {
+      "id": 927000,
+      "score": 0.8674693,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 118.409179688,
+        "mbid": "ed660f6e-23dc-4ce7-9866-e44ad7a8cc96",
+        "artist": "Mastodon",
+        "title": "The Last Baron"
+      }
+    },
+    {
+      "id": 335504,
+      "score": 0.8674505,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 92.2285385132,
+        "mbid": "56016476-9e36-4ff7-939b-e75d42b2c73f",
+        "artist": "Unzucht",
+        "title": "Ein Wort Fliegt Wie Ein Stein"
+      }
+    },
+    {
+      "id": 381837,
+      "score": 0.86403865,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 143.735992432,
+        "mbid": "61e967e3-9c71-49e9-befb-2e506aaa8023",
+        "artist": "36 Crazyfists",
+        "title": "Aurora"
+      }
+    },
+    {
+      "id": 568033,
+      "score": 0.8639434,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 102.776115417,
+        "mbid": "9151627a-76a5-4a42-b594-d9efe3ade734",
+        "artist": "Oceansize",
+        "title": "No Tomorrow"
+      }
+    },
+    {
+      "id": 1272344,
+      "score": 0.8623775,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 129.938919067,
+        "mbid": "970b7969-a747-4164-9e47-25afaefa18cc",
+        "artist": "Avenged Sevenfold",
+        "title": "Victim"
+      }
+    },
+    {
+      "id": 366883,
+      "score": 0.86199397,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 85.5853271484,
+        "mbid": "5e1e7a85-6c37-4fc2-8398-e3bea12e33d0",
+        "artist": "Paramore",
+        "title": "Stop This Song (Lovesick Melody)"
+      }
+    },
+    {
+      "id": 590707,
+      "score": 0.8601938,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 129.898193359,
+        "mbid": "970b7969-a747-4164-9e47-25afaefa18cc",
+        "artist": "Avenged Sevenfold",
+        "title": "Victim"
+      }
+    },
+    {
+      "id": 747374,
+      "score": 0.8587535,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 125.999046326,
+        "mbid": "bf2336a5-344d-4564-85a3-9e197b8b7f04",
+        "artist": "Schwarzer Engel",
+        "title": "Der schwarze Engel (Herr der Kr\u00e4hen)"
+      }
+    },
+    {
+      "id": 927001,
+      "score": 0.8583906,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 118.410797119,
+        "mbid": "ed660f6e-23dc-4ce7-9866-e44ad7a8cc96",
+        "artist": "Mastodon",
+        "title": "The Last Baron"
+      }
+    },
+    {
+      "id": 590708,
+      "score": 0.8574164,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 129.90725708,
+        "mbid": "970b7969-a747-4164-9e47-25afaefa18cc",
+        "artist": "Avenged Sevenfold",
+        "title": "Victim"
+      }
+    },
+    {
+      "id": 1196781,
+      "score": 0.8544781,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 134.204864502,
+        "mbid": "6d3d402e-d77c-40cf-a4be-4843a0771dc7",
+        "artist": "Bullet for My Valentine",
+        "title": "Your Betrayal"
+      }
+    },
+    {
+      "id": 320116,
+      "score": 0.85335046,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 131.427947998,
+        "mbid": "51f6bb09-93dd-42b9-a418-53daa3e980e5",
+        "artist": "James Last",
+        "title": "Let the Sunshine In"
+      }
+    },
+    {
+      "id": 1066278,
+      "score": 0.85316896,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 110.604934692,
+        "mbid": "24f8276e-7b9e-4b8e-8f9c-accd45422e05",
+        "artist": "Bullet For My Valentine",
+        "title": "Run for Your Life"
+      }
+    },
+    {
+      "id": 1066280,
+      "score": 0.85316896,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 110.604934692,
+        "mbid": "24f8276e-7b9e-4b8e-8f9c-accd45422e05",
+        "artist": "Bullet for My Valentine",
+        "title": "Run for Your Life"
+      }
+    },
+    {
+      "id": 1066279,
+      "score": 0.85316896,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 110.604934692,
+        "mbid": "24f8276e-7b9e-4b8e-8f9c-accd45422e05",
+        "artist": "Bullet For My Valentine",
+        "title": "Run for Your Life"
+      }
+    },
+    {
+      "id": 1196782,
+      "score": 0.8529852,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 134.167480469,
+        "mbid": "6d3d402e-d77c-40cf-a4be-4843a0771dc7",
+        "artist": "Bullet For My Valentine",
+        "title": "Your Betrayal"
+      }
+    },
+    {
+      "id": 932196,
+      "score": 0.85248613,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 148.002853394,
+        "mbid": "eeb7f544-8834-4dd2-b890-84c395c8a43b",
+        "artist": "Sunpocrisy",
+        "title": "Samaroid"
+      }
+    },
+    {
+      "id": 603759,
+      "score": 0.84771174,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 109.762016296,
+        "mbid": "9a6538ba-af3a-48f5-98ea-c2768f7df7f9",
+        "artist": "Pixies",
+        "title": "The Thing"
+      }
+    },
+    {
+      "id": 458752,
+      "score": 0.8469411,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 127.204124451,
+        "mbid": "75b4f4d3-e879-4b99-ae91-52cd43a33be2",
+        "artist": "Pet Shop Boys",
+        "title": "It's a Sin"
+      }
+    },
+    {
+      "id": 1058358,
+      "score": 0.8449744,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 99.7440032959,
+        "mbid": "20817dd8-21b8-4f01-9217-3709f1968568",
+        "artist": "We The Heathens",
+        "title": "33 Shots"
+      }
+    },
+    {
+      "id": 1058359,
+      "score": 0.8449744,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 99.7440032959,
+        "mbid": "20817dd8-21b8-4f01-9217-3709f1968568",
+        "artist": "We The Heathens",
+        "title": "33 Shots"
+      }
+    },
+    {
+      "id": 150711,
+      "score": 0.8448703,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 134.962646484,
+        "mbid": "266edf15-7186-4833-a37a-6568295318b2",
+        "artist": "Anti-Flag",
+        "title": "Sky Is Falling"
+      }
+    },
+    {
+      "id": 840131,
+      "score": 0.84481347,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 118.703773499,
+        "mbid": "d6fd29c8-154d-4748-b3bd-e3e29c1875f6",
+        "artist": "Psyclops",
+        "title": "Fabricated"
+      }
+    },
+    {
+      "id": 729978,
+      "score": 0.8429633,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 98.0386047363,
+        "mbid": "bab238cd-56c7-4209-ba39-a0d1edb42022",
+        "artist": "Nico",
+        "title": "Genghis Khan"
+      }
+    },
+    {
+      "id": 729979,
+      "score": 0.8429632,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 98.0386047363,
+        "mbid": "bab238cd-56c7-4209-ba39-a0d1edb42022",
+        "artist": "Nico",
+        "title": "Genghis Khan"
+      }
+    },
+    {
+      "id": 1108776,
+      "score": 0.84258205,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 161.560287476,
+        "mbid": "3c120ed2-2abd-45ba-98d5-6cb430ae766e",
+        "artist": "Archive ",
+        "title": "Mr. Daisy"
+      }
+    },
+    {
+      "id": 603760,
+      "score": 0.84257907,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 109.696983337,
+        "mbid": "9a6538ba-af3a-48f5-98ea-c2768f7df7f9",
+        "artist": "Pixies",
+        "title": "The Thing"
+      }
+    },
+    {
+      "id": 57097,
+      "score": 0.8418571,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 94.9373550415,
+        "mbid": "0e9c3c92-90a6-433c-889d-547a24c188e2",
+        "artist": "M83",
+        "title": "Run Into Flowers (Abstrackt Keal Agram remix)"
+      }
+    },
+    {
+      "id": 1355322,
+      "score": 0.8416678,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 122.916816711,
+        "mbid": "c51bf90e-c184-40d5-87ab-a1374bd3a070",
+        "artist": "Cradle of Filth",
+        "title": "Nymphetamine Fix"
+      }
+    },
+    {
+      "id": 1355324,
+      "score": 0.8416678,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 122.916816711,
+        "mbid": "c51bf90e-c184-40d5-87ab-a1374bd3a070",
+        "artist": "Cradle of Filth",
+        "title": "Nymphetamine Fix"
+      }
+    },
+    {
+      "id": 1355323,
+      "score": 0.8416678,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 122.916816711,
+        "mbid": "c51bf90e-c184-40d5-87ab-a1374bd3a070",
+        "artist": "Cradle of Filth",
+        "title": "Nymphetamine Fix"
+      }
+    },
+    {
+      "id": 61019,
+      "score": 0.84078825,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 113.976516724,
+        "mbid": "0f9fb328-b29a-4733-ae50-931152d03ad1",
+        "artist": "The Cactus Channel",
+        "title": "Derty D's Thang"
+      }
+    },
+    {
+      "id": 765084,
+      "score": 0.8398631,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 90.7807846069,
+        "mbid": "c3bc2d6b-2105-49ef-82f4-1e1f886ce054",
+        "artist": "Paradise Lost",
+        "title": "Crucify"
+      }
+    },
+    {
+      "id": 1149638,
+      "score": 0.83838487,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 118.599563599,
+        "mbid": "52e8bbc3-9e5c-442f-8482-ebbbb9138e14",
+        "artist": "Beatsteaks",
+        "title": "Let Me In"
+      }
+    },
+    {
+      "id": 542316,
+      "score": 0.83809733,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 135.90473938,
+        "mbid": "8ac223ab-9754-48cc-bab1-047fde141667",
+        "artist": "Vein",
+        "title": "Errorzone"
+      }
+    },
+    {
+      "id": 179290,
+      "score": 0.8368749,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 93.103515625,
+        "mbid": "2da9b909-a809-4f01-ae35-0e4e8ae4c27d",
+        "artist": "Wolf King",
+        "title": "Loyal to the Soil II"
+      }
+    },
+    {
+      "id": 1118457,
+      "score": 0.8364349,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 112.440284729,
+        "mbid": "41757208-2b4d-4a5d-af9b-49382de5d635",
+        "artist": "Bullet for My Valentine",
+        "title": "Curses"
+      }
+    },
+    {
+      "id": 1118458,
+      "score": 0.8364349,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 112.440284729,
+        "mbid": "41757208-2b4d-4a5d-af9b-49382de5d635",
+        "artist": "Bullet for My Valentine",
+        "title": "Curses"
+      }
+    },
+    {
+      "id": 870233,
+      "score": 0.8345446,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 110.626602173,
+        "mbid": "deb90c3d-13d9-4c9d-b3af-831f124759f5",
+        "artist": "Evergreen Terrace",
+        "title": "Let It Go (demo)"
+      }
+    },
+    {
+      "id": 637064,
+      "score": 0.83356607,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 129.969482422,
+        "mbid": "a2ecf981-a57e-46f9-bafd-4e02de3b514b",
+        "artist": "Void Droid",
+        "title": "Somen Mask"
+      }
+    },
+    {
+      "id": 603761,
+      "score": 0.83131814,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 109.700111389,
+        "mbid": "9a6538ba-af3a-48f5-98ea-c2768f7df7f9",
+        "artist": "Pixies",
+        "title": "The Thing"
+      }
+    },
+    {
+      "id": 338613,
+      "score": 0.82927513,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 100.161132812,
+        "mbid": "56dc4d2d-5296-41bb-8430-eb05f8e95b56",
+        "artist": "Haste the Day",
+        "title": "When Everything Falls"
+      }
+    },
+    {
+      "id": 338611,
+      "score": 0.82927513,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 100.161132812,
+        "mbid": "56dc4d2d-5296-41bb-8430-eb05f8e95b56",
+        "artist": "Haste the Day",
+        "title": "When Everything Falls"
+      }
+    },
+    {
+      "id": 338612,
+      "score": 0.82927513,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 100.161132812,
+        "mbid": "56dc4d2d-5296-41bb-8430-eb05f8e95b56",
+        "artist": "Haste the Day",
+        "title": "When Everything Falls"
+      }
+    },
+    {
+      "id": 338610,
+      "score": 0.82927513,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 100.161132812,
+        "mbid": "56dc4d2d-5296-41bb-8430-eb05f8e95b56",
+        "artist": "Haste the Day",
+        "title": "When Everything Falls"
+      }
+    },
+    {
+      "id": 644704,
+      "score": 0.8289215,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 135.16065979,
+        "mbid": "a4ced994-94e4-4e66-af62-094fcd10f334",
+        "artist": "Periphery",
+        "title": "Luck as a Constant"
+      }
+    },
+    {
+      "id": 458097,
+      "score": 0.8280019,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 114.417785645,
+        "mbid": "758bf91f-16f9-48e0-be82-9b0202a5595c",
+        "artist": "Kenji Hiramatsu",
+        "title": "Battle!!"
+      }
+    },
+    {
+      "id": 368659,
+      "score": 0.8279844,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 128.097427368,
+        "mbid": "5e924607-30fc-4572-853a-e289090d7cab",
+        "artist": "Trix",
+        "title": "Passion"
+      }
+    },
+    {
+      "id": 945214,
+      "score": 0.8276951,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 123.003974915,
+        "mbid": "f22873f4-df2d-4b5a-a934-473640835ad7",
+        "artist": "Haste the Day",
+        "title": "Song of Faith"
+      }
+    },
+    {
+      "id": 945216,
+      "score": 0.8276951,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 123.003974915,
+        "mbid": "f22873f4-df2d-4b5a-a934-473640835ad7",
+        "artist": "Haste the Day",
+        "title": "Song of Faith"
+      }
+    },
+    {
+      "id": 945215,
+      "score": 0.8276951,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 123.003974915,
+        "mbid": "f22873f4-df2d-4b5a-a934-473640835ad7",
+        "artist": "Haste the Day",
+        "title": "Song of Faith"
+      }
+    },
+    {
+      "id": 945213,
+      "score": 0.8276951,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 123.003974915,
+        "mbid": "f22873f4-df2d-4b5a-a934-473640835ad7",
+        "artist": "Haste the Day",
+        "title": "Song of Faith"
+      }
+    },
+    {
+      "id": 143020,
+      "score": 0.82768035,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 112.317268372,
+        "mbid": "2473724f-e6cb-4813-bfed-f70909709ba7",
+        "artist": "28 Days",
+        "title": "Photos"
+      }
+    },
+    {
+      "id": 143021,
+      "score": 0.82768035,
+      "payload": {
+        "key_key": "D#",
+        "key_scale": "major",
+        "bpm": 112.317268372,
+        "mbid": "2473724f-e6cb-4813-bfed-f70909709ba7",
+        "artist": "28 Days",
+        "title": "Photos"
+      }
+    },
+    {
+      "id": 214672,
+      "score": 0.8270821,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 109.999015808,
+        "mbid": "36db7551-ece9-4a6b-9464-d3d44884a91f",
+        "artist": "Serj Tankian",
+        "title": "Honking Antelope"
+      }
+    },
+    {
+      "id": 275424,
+      "score": 0.8267554,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 139.898361206,
+        "mbid": "46500157-f125-406c-8d3b-85436f02cd93",
+        "artist": "E Nomine",
+        "title": "Das B\u00f6se"
+      }
+    },
+    {
+      "id": 872242,
+      "score": 0.82658046,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 98.0166625977,
+        "mbid": "df39bb9a-7fe7-4f51-975a-45c2c29f0af1",
+        "artist": "Tsunami Bomb",
+        "title": "The Hathors"
+      }
+    },
+    {
+      "id": 55326,
+      "score": 0.8259861,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 125.879936218,
+        "mbid": "0e24b774-6cb6-443b-bacc-51cbe32809fa",
+        "artist": "Beyonce & Shakira",
+        "title": "Beautiful Liar (Freemasons Radio Vox)"
+      }
+    },
+    {
+      "id": 55327,
+      "score": 0.8259861,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 125.879936218,
+        "mbid": "0e24b774-6cb6-443b-bacc-51cbe32809fa",
+        "artist": "Beyonce & Shakira",
+        "title": "Beautiful Liar (Freemasons Radio Vox)"
+      }
+    },
+    {
+      "id": 438131,
+      "score": 0.8259861,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 125.879936218,
+        "mbid": "706f3805-6e9a-4a5b-9888-e9ab78d47c1a",
+        "artist": "Beyonce & Shakira",
+        "title": "Beautiful Liar (Freemasons Radio Vox)"
+      }
+    },
+    {
+      "id": 759225,
+      "score": 0.82569385,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 149.902023315,
+        "mbid": "c22f3b7b-8c36-432c-b07a-6c475ca41985",
+        "artist": "Stardust",
+        "title": "Sehnsucht"
+      }
+    },
+    {
+      "id": 1033037,
+      "score": 0.8252164,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 103.969833374,
+        "mbid": "124631db-8241-4cee-ba43-4901190ee6b6",
+        "artist": "Celia Cruz",
+        "title": "La Vida Es Un Carnaval"
+      }
+    },
+    {
+      "id": 1033043,
+      "score": 0.8252164,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 103.969833374,
+        "mbid": "124631db-8241-4cee-ba43-4901190ee6b6",
+        "artist": "Celia Cruz",
+        "title": "La Vida Es Un Carnaval"
+      }
+    },
+    {
+      "id": 1033036,
+      "score": 0.82514733,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 103.969833374,
+        "mbid": "124631db-8241-4cee-ba43-4901190ee6b6",
+        "artist": "Celia Cruz",
+        "title": "La Vida Es Un Carnaval"
+      }
+    },
+    {
+      "id": 235049,
+      "score": 0.8245399,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 118.478385925,
+        "mbid": "3c0255e6-b66b-45f0-90b9-b7cfd916e11d",
+        "artist": "Beatsteaks",
+        "title": "Let Me In"
+      }
+    },
+    {
+      "id": 1082560,
+      "score": 0.82451594,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 133.228240967,
+        "mbid": "2de64f7a-67f8-4869-be70-e18d879c4893",
+        "artist": "Clawfinger",
+        "title": "Chances"
+      }
+    },
+    {
+      "id": 71487,
+      "score": 0.8243718,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 103.97101593,
+        "mbid": "124631db-8241-4cee-ba43-4901190ee6b6",
+        "artist": "Celia Cruz",
+        "title": "La vida es un carnaval"
+      }
+    },
+    {
+      "id": 695907,
+      "score": 0.8241365,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 95.8918380737,
+        "mbid": "b20b8f47-9f0b-44f7-99d4-a3e7c8cdb086",
+        "artist": "Atomic Tom",
+        "title": "Red Light Warning Sign (video mix)"
+      }
+    },
+    {
+      "id": 603758,
+      "score": 0.8239849,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 109.756309509,
+        "mbid": "9a6538ba-af3a-48f5-98ea-c2768f7df7f9",
+        "artist": "Pixies",
+        "title": "The Thing"
+      }
+    },
+    {
+      "id": 151228,
+      "score": 0.8239261,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 120.034957886,
+        "mbid": "2691ef3d-d008-416e-a22e-8862ee1ae43b",
+        "artist": "Sumo Cyco",
+        "title": "Won't Put Me Out"
+      }
+    },
+    {
+      "id": 16616,
+      "score": 0.82226074,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 136.599197388,
+        "mbid": "041daf27-e6fc-4aa6-941b-a5da232adbb0",
+        "artist": "Saurom",
+        "title": "Azogue en vergel"
+      }
+    },
+    {
+      "id": 303219,
+      "score": 0.82201153,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 143.755584717,
+        "mbid": "4d9f9230-0580-4184-b70f-b8e72fb7cda3",
+        "artist": "Grant McLennan",
+        "title": "Lighting Fires"
+      }
+    },
+    {
+      "id": 1097817,
+      "score": 0.8209361,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 140.632736206,
+        "mbid": "36286ba8-adad-4563-a2ef-5a0932607c9e",
+        "artist": "The Cranberries",
+        "title": "I Just Shot John Lennon"
+      }
+    },
+    {
+      "id": 1033038,
+      "score": 0.82087433,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 103.97354126,
+        "mbid": "124631db-8241-4cee-ba43-4901190ee6b6",
+        "artist": "Celia Cruz",
+        "title": "La Vida Es Un Carnaval"
+      }
+    },
+    {
+      "id": 457059,
+      "score": 0.82057965,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 142.836669922,
+        "mbid": "754ed343-8f90-4565-a3b7-d95b453995fc",
+        "artist": "Living Loud",
+        "title": "Over the Mountain"
+      }
+    },
+    {
+      "id": 112362,
+      "score": 0.82057315,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 103.965179443,
+        "mbid": "1cc0ebaf-1058-40cb-8e30-7938cb5de85a",
+        "artist": "Celia Cruz",
+        "title": "La Vida Es Un Carnaval"
+      }
+    },
+    {
+      "id": 908207,
+      "score": 0.8204116,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 96.2741088867,
+        "mbid": "e8753fed-d872-41cb-be08-0186c1099968",
+        "artist": "Thrice",
+        "title": "Cold Cash and Colder Hearts"
+      }
+    },
+    {
+      "id": 77121,
+      "score": 0.8201778,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 126.621269226,
+        "mbid": "13bab70c-1aa2-4a9c-9881-aed722f98476",
+        "artist": "Haste the Day",
+        "title": "The Last Goodbye"
+      }
+    },
+    {
+      "id": 77122,
+      "score": 0.8201778,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 126.621269226,
+        "mbid": "13bab70c-1aa2-4a9c-9881-aed722f98476",
+        "artist": "Haste the Day",
+        "title": "The Last Goodbye"
+      }
+    },
+    {
+      "id": 77123,
+      "score": 0.8201778,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 126.621269226,
+        "mbid": "13bab70c-1aa2-4a9c-9881-aed722f98476",
+        "artist": "Haste the Day",
+        "title": "The Last Goodbye"
+      }
+    },
+    {
+      "id": 77124,
+      "score": 0.8201778,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 126.621269226,
+        "mbid": "13bab70c-1aa2-4a9c-9881-aed722f98476",
+        "artist": "Haste the Day",
+        "title": "The Last Goodbye"
+      }
+    },
+    {
+      "id": 95343,
+      "score": 0.8201696,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 130.506912231,
+        "mbid": "18741eb3-a818-475a-856b-38a231951258",
+        "artist": "Microwave",
+        "title": "Carry"
+      }
+    },
+    {
+      "id": 1264461,
+      "score": 0.81987727,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 119.757980347,
+        "mbid": "92af1e64-dd1e-4b8f-9eba-6567384ecc4f",
+        "artist": "RJD2",
+        "title": "Giant Squid"
+      }
+    },
+    {
+      "id": 926663,
+      "score": 0.81984824,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 129.973602295,
+        "mbid": "ed50699d-8ab1-4df2-add8-ca770ab3971b",
+        "artist": "Pretty Maids",
+        "title": "Why so Serious (Motherland)"
+      }
+    },
+    {
+      "id": 1033040,
+      "score": 0.8191074,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 103.933097839,
+        "mbid": "124631db-8241-4cee-ba43-4901190ee6b6",
+        "artist": "Celia Cruz",
+        "title": "La vida es un carnaval"
+      }
+    },
+    {
+      "id": 1033042,
+      "score": 0.8191074,
+      "payload": {
+        "key_key": "C",
+        "key_scale": "minor",
+        "bpm": 103.933097839,
+        "mbid": "124631db-8241-4cee-ba43-4901190ee6b6",
+        "artist": "Celia Cruz",
+        "title": "La vida es un carnaval"
+      }
+    }
+  ]
+}

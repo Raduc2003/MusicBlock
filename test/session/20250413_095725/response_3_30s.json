@@ -1,0 +1,1261 @@
+{
+  "query_final_vector": [
+    -0.13447860583440022,
+    0.08256983286830331,
+    0.1463133814987622,
+    0.12857181298557502,
+    0.037209169957234944,
+    0.06309157972203622,
+    -0.12896643257433632,
+    -0.12957936291702715,
+    -0.13614883237566955,
+    -0.3157932698611258,
+    -0.18949579545018788,
+    -0.2181007538612325,
+    -0.25509870142207186,
+    0.13053761438684003,
+    0.06739940825886749,
+    -0.07922820936438871,
+    0.02163104547924429,
+    -0.01945593310673292,
+    -0.1296779679058815,
+    -0.1388663151475307,
+    -0.1453119507827581,
+    -0.07833201701558727,
+    -0.03995310033297062,
+    -0.10968420226618672,
+    -0.1866710140847908,
+    -0.16597462990465428,
+    -0.19020354181519533,
+    -0.1895849129996906,
+    -0.13849007852658146,
+    -0.15186687192222484,
+    -0.16354179027190469,
+    -0.12646723232753573,
+    -0.1049956066762454,
+    0.13461401093723488,
+    0.2001049519794963,
+    0.09186985444094879,
+    -0.1046997220218962,
+    -0.1166116103835685,
+    -0.10173760198885375,
+    -0.08369593895096566,
+    -0.10051170073521196,
+    -0.1415933898612709,
+    -0.1883023781302871,
+    -0.13729434938856075,
+    -0.05511629586739983,
+    0.2121452142937608,
+    0.09040844257119039,
+    -0.039548020813349606,
+    0.01901246714649286,
+    0.030402726953430798,
+    -0.03073138240631019,
+    -0.09233022518763853,
+    -0.06618789980454731,
+    -0.08773743956471465,
+    -0.14751081060494217
+  ],
+  "results": [
+    {
+      "id": 70122,
+      "score": 0.84738135,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 138.597000122,
+        "mbid": "11f101a2-6e41-4146-afd4-f45d41308ff7",
+        "artist": "Isobel Campbell & Mark Lanegan",
+        "title": "Something to Believe"
+      }
+    },
+    {
+      "id": 70125,
+      "score": 0.84738135,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 138.597000122,
+        "mbid": "11f101a2-6e41-4146-afd4-f45d41308ff7",
+        "artist": "Isobel Campbell & Mark Lanegan",
+        "title": "Something to Believe"
+      }
+    },
+    {
+      "id": 70128,
+      "score": 0.84738135,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 138.597000122,
+        "mbid": "11f101a2-6e41-4146-afd4-f45d41308ff7",
+        "artist": "Isobel Campbell & Mark Lanegan",
+        "title": "Something to Believe"
+      }
+    },
+    {
+      "id": 70127,
+      "score": 0.84738135,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 138.597000122,
+        "mbid": "11f101a2-6e41-4146-afd4-f45d41308ff7",
+        "artist": "Isobel Campbell & Mark Lanegan",
+        "title": "Something to Believe"
+      }
+    },
+    {
+      "id": 70123,
+      "score": 0.84738135,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 138.597000122,
+        "mbid": "11f101a2-6e41-4146-afd4-f45d41308ff7",
+        "artist": "Isobel Campbell & Mark Lanegan",
+        "title": "Something to Believe"
+      }
+    },
+    {
+      "id": 70126,
+      "score": 0.84738135,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 138.597000122,
+        "mbid": "11f101a2-6e41-4146-afd4-f45d41308ff7",
+        "artist": "Isobel Campbell & Mark Lanegan",
+        "title": "Something to Believe"
+      }
+    },
+    {
+      "id": 70124,
+      "score": 0.84738135,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 138.597000122,
+        "mbid": "11f101a2-6e41-4146-afd4-f45d41308ff7",
+        "artist": "Isobel Campbell & Mark Lanegan",
+        "title": "Something to Believe"
+      }
+    },
+    {
+      "id": 383050,
+      "score": 0.8394855,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 184.570709229,
+        "mbid": "622efbaa-04a4-4c61-96b1-90f1506bf86e",
+        "artist": "The Beatles",
+        "title": "Why Don't We Do It in the Road? (Anthology version)"
+      }
+    },
+    {
+      "id": 97822,
+      "score": 0.8394855,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 184.570709229,
+        "mbid": "19198ae0-e121-43d0-8ddf-b56d6753ba5e",
+        "artist": "The Beatles",
+        "title": "Why Don't We Do It in the Road? (Take 4)"
+      }
+    },
+    {
+      "id": 106564,
+      "score": 0.839148,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 146.831207275,
+        "mbid": "1b46933d-b6f3-42c9-9b89-07fbb235934d",
+        "artist": "Zeki Min",
+        "title": "Under Northen Skies"
+      }
+    },
+    {
+      "id": 43471,
+      "score": 0.8380056,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 184.570739746,
+        "mbid": "0b0e4e84-6f0a-4804-9744-0919c7c65ef8",
+        "artist": "The Beatles",
+        "title": "Why Don't We Do It In The Road? (Anthology 3 Version)"
+      }
+    },
+    {
+      "id": 383051,
+      "score": 0.8380056,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 184.570739746,
+        "mbid": "622efbaa-04a4-4c61-96b1-90f1506bf86e",
+        "artist": "The Beatles",
+        "title": "Why Don't We Do It In The Road? (Anthology 3 Version)"
+      }
+    },
+    {
+      "id": 804110,
+      "score": 0.83780086,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 155.321670532,
+        "mbid": "cdc38fa0-5ad4-4124-b7c0-85d1ad6ad8a7",
+        "artist": "Coldplay",
+        "title": "I Bloom Blaum"
+      }
+    },
+    {
+      "id": 383052,
+      "score": 0.8362574,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "minor",
+        "bpm": 184.570648193,
+        "mbid": "622efbaa-04a4-4c61-96b1-90f1506bf86e",
+        "artist": "The Beatles",
+        "title": "Why Don't We Do It In The Road (Anthology 3 Version)"
+      }
+    },
+    {
+      "id": 383053,
+      "score": 0.8362574,
+      "payload": {
+        "key_key": "F#",
+        "key_scale": "minor",
+        "bpm": 184.570648193,
+        "mbid": "622efbaa-04a4-4c61-96b1-90f1506bf86e",
+        "artist": "The Beatles",
+        "title": "Why Don't We Do It In The Road (Anthology 3 Version)"
+      }
+    },
+    {
+      "id": 745187,
+      "score": 0.8323955,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 104.311721802,
+        "mbid": "be9257ea-54c1-4ad3-b347-88d3ebbb8d63",
+        "artist": "Le Volume Courbe",
+        "title": "This & That"
+      }
+    },
+    {
+      "id": 97824,
+      "score": 0.8316992,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 184.570709229,
+        "mbid": "19198ae0-e121-43d0-8ddf-b56d6753ba5e",
+        "artist": "The Beatles",
+        "title": "Why Don't We Do It in the Road?"
+      }
+    },
+    {
+      "id": 97823,
+      "score": 0.8316992,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 184.570709229,
+        "mbid": "19198ae0-e121-43d0-8ddf-b56d6753ba5e",
+        "artist": "The Beatles",
+        "title": "Why Don't We Do It in the Road?"
+      }
+    },
+    {
+      "id": 1194628,
+      "score": 0.8306621,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 132.100830078,
+        "mbid": "6c066900-63de-45e7-8b8d-edf5f5a47201",
+        "artist": "The Beatles",
+        "title": "Step Inside Love [Studio Jam]"
+      }
+    },
+    {
+      "id": 1194629,
+      "score": 0.8306621,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 132.100830078,
+        "mbid": "6c066900-63de-45e7-8b8d-edf5f5a47201",
+        "artist": "The Beatles",
+        "title": "Step Inside Love (Studio Jam)"
+      }
+    },
+    {
+      "id": 1194627,
+      "score": 0.8306621,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 132.100830078,
+        "mbid": "6c066900-63de-45e7-8b8d-edf5f5a47201",
+        "artist": "The Beatles",
+        "title": "Step Inside Love (Studio Jam)"
+      }
+    },
+    {
+      "id": 421320,
+      "score": 0.82992995,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 132.133529663,
+        "mbid": "6c066900-63de-45e7-8b8d-edf5f5a47201",
+        "artist": "The Beatles",
+        "title": "Step Inside Love (studio jam)"
+      }
+    },
+    {
+      "id": 421321,
+      "score": 0.82976,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 132.133529663,
+        "mbid": "6c066900-63de-45e7-8b8d-edf5f5a47201",
+        "artist": "The Beatles",
+        "title": "Step Inside Love (Studio Jam)"
+      }
+    },
+    {
+      "id": 113662,
+      "score": 0.8256292,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 132.40524292,
+        "mbid": "1d0f8cb7-c518-4095-a933-83dbd83bc6ba",
+        "artist": "The Beatles",
+        "title": "Step Inside Love / Los Paranoias"
+      }
+    },
+    {
+      "id": 113661,
+      "score": 0.8256292,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 132.40524292,
+        "mbid": "1d0f8cb7-c518-4095-a933-83dbd83bc6ba",
+        "artist": "The Beatles",
+        "title": "Step Inside Love / Los Paranoias"
+      }
+    },
+    {
+      "id": 1302714,
+      "score": 0.8214674,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 103.801391602,
+        "mbid": "a7fe82b6-bdfd-4496-9d0e-f22866abe34d",
+        "artist": "Julien Baker",
+        "title": "Blacktop"
+      }
+    },
+    {
+      "id": 656966,
+      "score": 0.8212687,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 103.823120117,
+        "mbid": "a7fe82b6-bdfd-4496-9d0e-f22866abe34d",
+        "artist": "Julien Baker",
+        "title": "Blacktop"
+      }
+    },
+    {
+      "id": 656967,
+      "score": 0.8212687,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 103.823120117,
+        "mbid": "a7fe82b6-bdfd-4496-9d0e-f22866abe34d",
+        "artist": "Julien Baker",
+        "title": "Blacktop"
+      }
+    },
+    {
+      "id": 656969,
+      "score": 0.8212687,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 103.823120117,
+        "mbid": "a7fe82b6-bdfd-4496-9d0e-f22866abe34d",
+        "artist": "Julien Baker",
+        "title": "Blacktop"
+      }
+    },
+    {
+      "id": 656970,
+      "score": 0.8212687,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 103.823120117,
+        "mbid": "a7fe82b6-bdfd-4496-9d0e-f22866abe34d",
+        "artist": "Julien Baker",
+        "title": "Blacktop"
+      }
+    },
+    {
+      "id": 656963,
+      "score": 0.8212687,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 103.823120117,
+        "mbid": "a7fe82b6-bdfd-4496-9d0e-f22866abe34d",
+        "artist": "Julien Baker",
+        "title": "Blacktop"
+      }
+    },
+    {
+      "id": 656961,
+      "score": 0.8212687,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 103.823120117,
+        "mbid": "a7fe82b6-bdfd-4496-9d0e-f22866abe34d",
+        "artist": "Julien Baker",
+        "title": "Blacktop"
+      }
+    },
+    {
+      "id": 656964,
+      "score": 0.8212687,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 103.823120117,
+        "mbid": "a7fe82b6-bdfd-4496-9d0e-f22866abe34d",
+        "artist": "Julien Baker",
+        "title": "Blacktop"
+      }
+    },
+    {
+      "id": 656965,
+      "score": 0.8212687,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 103.823120117,
+        "mbid": "a7fe82b6-bdfd-4496-9d0e-f22866abe34d",
+        "artist": "Julien Baker",
+        "title": "Blacktop"
+      }
+    },
+    {
+      "id": 656968,
+      "score": 0.8212687,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 103.823120117,
+        "mbid": "a7fe82b6-bdfd-4496-9d0e-f22866abe34d",
+        "artist": "Julien Baker",
+        "title": "Blacktop"
+      }
+    },
+    {
+      "id": 656962,
+      "score": 0.8212687,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 103.823120117,
+        "mbid": "a7fe82b6-bdfd-4496-9d0e-f22866abe34d",
+        "artist": "Julien Baker",
+        "title": "Blacktop"
+      }
+    },
+    {
+      "id": 292712,
+      "score": 0.8197739,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 165.870162964,
+        "mbid": "4ae8559e-2af1-4674-95d2-66478e52e79f",
+        "artist": "The Beatles",
+        "title": "Mother Nature's Son"
+      }
+    },
+    {
+      "id": 292711,
+      "score": 0.8197739,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 165.870162964,
+        "mbid": "4ae8559e-2af1-4674-95d2-66478e52e79f",
+        "artist": "The Beatles",
+        "title": "Mother Nature's Son"
+      }
+    },
+    {
+      "id": 761528,
+      "score": 0.8180381,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 172.265823364,
+        "mbid": "c2cf6ccf-0a6d-4c18-a391-57829b5d178e",
+        "artist": "Rockabye Baby!",
+        "title": "Bad Moon Rising"
+      }
+    },
+    {
+      "id": 113664,
+      "score": 0.81795824,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 132.475250244,
+        "mbid": "1d0f8cb7-c518-4095-a933-83dbd83bc6ba",
+        "artist": "The Beatles",
+        "title": "Step Inside Love / Los Paranoias (Anthology 3 Version)"
+      }
+    },
+    {
+      "id": 292710,
+      "score": 0.81700546,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 165.850128174,
+        "mbid": "4ae8559e-2af1-4674-95d2-66478e52e79f",
+        "artist": "The Beatles",
+        "title": "Mother Nature's Son (Anthology version)"
+      }
+    },
+    {
+      "id": 513827,
+      "score": 0.81700546,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 165.850128174,
+        "mbid": "838af2bf-4775-4585-bf03-ccde4be50860",
+        "artist": "The Beatles",
+        "title": "Mother Nature's Son (Take 2)"
+      }
+    },
+    {
+      "id": 113659,
+      "score": 0.81528574,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 132.406356812,
+        "mbid": "1d0f8cb7-c518-4095-a933-83dbd83bc6ba",
+        "artist": "The Beatles",
+        "title": "Step Inside Love / Los Paranoias (jam)"
+      }
+    },
+    {
+      "id": 113660,
+      "score": 0.81528574,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 132.406356812,
+        "mbid": "1d0f8cb7-c518-4095-a933-83dbd83bc6ba",
+        "artist": "The Beatles",
+        "title": "Step Inside Love / Los Paranoias (Anthology version)"
+      }
+    },
+    {
+      "id": 890310,
+      "score": 0.81403744,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 114.123649597,
+        "mbid": "e3d95c55-db3e-4c49-938c-770b2c85b731",
+        "artist": "Margaret Atwood",
+        "title": "Blackberries"
+      }
+    },
+    {
+      "id": 423796,
+      "score": 0.8098662,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 130.174926758,
+        "mbid": "6cb5dd22-e165-48fd-b2fa-06916baba5c9",
+        "artist": "Peter Bjorn and John",
+        "title": "All Those Expectations (Weak remix)"
+      }
+    },
+    {
+      "id": 425163,
+      "score": 0.8097151,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 135.706314087,
+        "mbid": "6d0c4d34-00ec-44bc-b82c-4fdb44fa5d16",
+        "artist": "Richard Dawson",
+        "title": "We Picked Apples in a Graveyard Freshly Mowed"
+      }
+    },
+    {
+      "id": 940509,
+      "score": 0.80918896,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 146.444778442,
+        "mbid": "f0e3de1d-fe22-4c86-8a8a-dd8d77670bba",
+        "artist": "PrismCorp Virtual Enterprises",
+        "title": "Su Casa Theme"
+      }
+    },
+    {
+      "id": 578921,
+      "score": 0.8080172,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 109.708938599,
+        "mbid": "9416a1dd-efff-44fe-9a47-18098b17113f",
+        "artist": "Mariama",
+        "title": "Outro (Solo Abdoulaye Kouyat\u00e9)"
+      }
+    },
+    {
+      "id": 581155,
+      "score": 0.80631363,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "minor",
+        "bpm": 178.205841064,
+        "mbid": "94a5552d-a447-4749-8bab-af9cdb56f949",
+        "artist": "Nakaido \"Chabo\" Reichi",
+        "title": "Family Portrait"
+      }
+    },
+    {
+      "id": 402998,
+      "score": 0.80624413,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 144.164398193,
+        "mbid": "67543513-a770-4fb1-ba5c-787ac11a0833",
+        "artist": "Gr\u00e9gory Turpin",
+        "title": "Amazing Grace"
+      }
+    },
+    {
+      "id": 402997,
+      "score": 0.80624413,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 144.164398193,
+        "mbid": "67543513-a770-4fb1-ba5c-787ac11a0833",
+        "artist": "Gr\u00e9gory Turpin",
+        "title": "Amazing Grace"
+      }
+    },
+    {
+      "id": 1330481,
+      "score": 0.80582976,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 150.519256592,
+        "mbid": "b751fc1c-8cf3-4b56-8786-a76f28f3d670",
+        "artist": "Jack Johnson",
+        "title": "Fall Line"
+      }
+    },
+    {
+      "id": 1330479,
+      "score": 0.80582976,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 150.519256592,
+        "mbid": "b751fc1c-8cf3-4b56-8786-a76f28f3d670",
+        "artist": "Jack Johnson",
+        "title": "Fall Line"
+      }
+    },
+    {
+      "id": 1330480,
+      "score": 0.80582976,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 150.519256592,
+        "mbid": "b751fc1c-8cf3-4b56-8786-a76f28f3d670",
+        "artist": "Jack Johnson",
+        "title": "Fall Line"
+      }
+    },
+    {
+      "id": 986246,
+      "score": 0.8043193,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 164.233642578,
+        "mbid": "fc922d06-13a0-41ad-82a7-6d2efd2d26b5",
+        "artist": "Drugstore",
+        "title": "Song for Pessoa"
+      }
+    },
+    {
+      "id": 17850,
+      "score": 0.8042129,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 172.265579224,
+        "mbid": "046e2ee6-747a-4c92-93b7-1d206e47a251",
+        "artist": "Baby Bird",
+        "title": "Dustbin liner"
+      }
+    },
+    {
+      "id": 1241133,
+      "score": 0.8038348,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 151.3384552,
+        "mbid": "85ba5dd5-7937-442a-ac93-ea68676da5fd",
+        "artist": "Buddy Guy",
+        "title": "Louise McGhee"
+      }
+    },
+    {
+      "id": 1241131,
+      "score": 0.8038348,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 151.3384552,
+        "mbid": "85ba5dd5-7937-442a-ac93-ea68676da5fd",
+        "artist": "Buddy Guy",
+        "title": "Louise McGhee"
+      }
+    },
+    {
+      "id": 1241132,
+      "score": 0.8038348,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 151.3384552,
+        "mbid": "85ba5dd5-7937-442a-ac93-ea68676da5fd",
+        "artist": "Buddy Guy",
+        "title": "Louise McGhee"
+      }
+    },
+    {
+      "id": 1330478,
+      "score": 0.8025702,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 150.673233032,
+        "mbid": "b751fc1c-8cf3-4b56-8786-a76f28f3d670",
+        "artist": "Jack Johnson",
+        "title": "Fall Line"
+      }
+    },
+    {
+      "id": 138366,
+      "score": 0.80255836,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 108.179748535,
+        "mbid": "234d5ac1-ef17-4987-80bb-71dd197f92a8",
+        "artist": "Yann Tiersen",
+        "title": "Comptine d'un autre ete: L'apres midi"
+      }
+    },
+    {
+      "id": 716606,
+      "score": 0.80035615,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 150.654251099,
+        "mbid": "b751fc1c-8cf3-4b56-8786-a76f28f3d670",
+        "artist": "Jack Johnson",
+        "title": "Fall Line "
+      }
+    },
+    {
+      "id": 113663,
+      "score": 0.79998034,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 132.61164856,
+        "mbid": "1d0f8cb7-c518-4095-a933-83dbd83bc6ba",
+        "artist": "The Beatles",
+        "title": "Step Inside Love / Los Paranoias (Medley / Anthology 3 Version)"
+      }
+    },
+    {
+      "id": 783553,
+      "score": 0.7987243,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 97.9430465698,
+        "mbid": "c870dc0f-c610-49d9-90aa-1762783cd99e",
+        "artist": "Gungor",
+        "title": "Please Be My Strength"
+      }
+    },
+    {
+      "id": 783554,
+      "score": 0.7987243,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 97.9430465698,
+        "mbid": "c870dc0f-c610-49d9-90aa-1762783cd99e",
+        "artist": "Gungor",
+        "title": "Please Be My Strength"
+      }
+    },
+    {
+      "id": 328977,
+      "score": 0.7972135,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 91.5458831787,
+        "mbid": "5449c629-f4ed-402b-bbb3-d84f63d189b9",
+        "artist": "Ora Cogan",
+        "title": "Cool"
+      }
+    },
+    {
+      "id": 1141906,
+      "score": 0.7967906,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "minor",
+        "bpm": 135.865463257,
+        "mbid": "4e9bedfc-c0d0-4db8-8588-eeba3e79f0b5",
+        "artist": "Betty Carter",
+        "title": "Day Dream"
+      }
+    },
+    {
+      "id": 224702,
+      "score": 0.7959458,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 109.721954346,
+        "mbid": "3955e8fc-6546-49ce-905f-076437c057bb",
+        "artist": "Luke Temple",
+        "title": "The Birds of Late December"
+      }
+    },
+    {
+      "id": 1394136,
+      "score": 0.79499376,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 140.954467773,
+        "mbid": "db08049c-3ab1-49c4-b58c-9a6dc25335c8",
+        "artist": "The Jimmy Giuffre Trio",
+        "title": "The Rain and the River"
+      }
+    },
+    {
+      "id": 1271755,
+      "score": 0.7949847,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 110.036094666,
+        "mbid": "96bd547b-6717-470f-ad9d-73f3a65b395a",
+        "artist": "Buddy Guy",
+        "title": "01 Done Got Old"
+      }
+    },
+    {
+      "id": 1271756,
+      "score": 0.7949847,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 110.036094666,
+        "mbid": "96bd547b-6717-470f-ad9d-73f3a65b395a",
+        "artist": "Buddy Guy",
+        "title": "01 Done Got Old"
+      }
+    },
+    {
+      "id": 1271757,
+      "score": 0.7949847,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 110.036094666,
+        "mbid": "96bd547b-6717-470f-ad9d-73f3a65b395a",
+        "artist": "Buddy Guy",
+        "title": "01 Done Got Old"
+      }
+    },
+    {
+      "id": 874704,
+      "score": 0.7949166,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 109.370285034,
+        "mbid": "dfd5e51d-9a2a-4098-a04b-8b393f848915",
+        "artist": "Sassparilla",
+        "title": "The Hoot Song"
+      }
+    },
+    {
+      "id": 1388140,
+      "score": 0.7938629,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 172.265762329,
+        "mbid": "d7b01603-78f7-491f-a5ba-b8669d0a90ea",
+        "artist": "Mary Flower",
+        "title": "Cock-A-Doodle Blues"
+      }
+    },
+    {
+      "id": 1306215,
+      "score": 0.793627,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 172.265396118,
+        "mbid": "a9f5bbc7-c26e-406c-b1a1-9618bf6e5cc2",
+        "artist": "Katja Werker",
+        "title": "Step by Step (conducted string version)"
+      }
+    },
+    {
+      "id": 1372187,
+      "score": 0.79340225,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 126.683700562,
+        "mbid": "cea41f7a-fe76-4314-8cef-793009e09d2b",
+        "artist": "Miles Davis",
+        "title": "Water on the Pond"
+      }
+    },
+    {
+      "id": 1372186,
+      "score": 0.79340225,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 126.683700562,
+        "mbid": "cea41f7a-fe76-4314-8cef-793009e09d2b",
+        "artist": "Miles Davis",
+        "title": "Water on the Pond"
+      }
+    },
+    {
+      "id": 1372185,
+      "score": 0.79340225,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 126.683700562,
+        "mbid": "cea41f7a-fe76-4314-8cef-793009e09d2b",
+        "artist": "Miles Davis",
+        "title": "Water on the Pond"
+      }
+    },
+    {
+      "id": 1195784,
+      "score": 0.7925978,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 97.6759719849,
+        "mbid": "6cb5dd22-e165-48fd-b2fa-06916baba5c9",
+        "artist": "Peter Bjorn and John",
+        "title": "All Those Expectations (Weak remix)"
+      }
+    },
+    {
+      "id": 190043,
+      "score": 0.78960246,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 155.722457886,
+        "mbid": "3063fb46-dcbc-446e-a949-6d9fad01edb9",
+        "artist": "Cast Of I Still Believe feat. KJ Apa & JJ Heller",
+        "title": "Find Me In The River"
+      }
+    },
+    {
+      "id": 554062,
+      "score": 0.7893158,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 136.987228394,
+        "mbid": "8dbbc1e7-41cb-46cc-bd86-d8a6a926264c",
+        "artist": "Leonard Cohen",
+        "title": "Winter Lady"
+      }
+    },
+    {
+      "id": 507660,
+      "score": 0.7881513,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "minor",
+        "bpm": 172.265762329,
+        "mbid": "81f59d6f-bb55-4319-92cb-e8518b1a8c13",
+        "artist": "Big Bill Broonzy",
+        "title": "Black, Brown And White"
+      }
+    },
+    {
+      "id": 1235534,
+      "score": 0.78763837,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 184.570175171,
+        "mbid": "829ca18f-d323-4a1d-94a5-5fdde26ce9fd",
+        "artist": "Richard Thompson",
+        "title": "Coyotes"
+      }
+    },
+    {
+      "id": 1235532,
+      "score": 0.78763837,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 184.570175171,
+        "mbid": "829ca18f-d323-4a1d-94a5-5fdde26ce9fd",
+        "artist": "Richard Thompson",
+        "title": "Coyotes"
+      }
+    },
+    {
+      "id": 1235533,
+      "score": 0.78763837,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 184.570175171,
+        "mbid": "829ca18f-d323-4a1d-94a5-5fdde26ce9fd",
+        "artist": "Richard Thompson",
+        "title": "Coyotes"
+      }
+    },
+    {
+      "id": 151825,
+      "score": 0.7868801,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 117.344360352,
+        "mbid": "26be2990-4de0-4f67-9477-2acc532447e9",
+        "artist": "Se\u00e1n Tyrrell",
+        "title": "Trilogy: Message of Peace"
+      }
+    },
+    {
+      "id": 921750,
+      "score": 0.78645974,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 109.555473328,
+        "mbid": "ec097145-5565-4d14-aa6b-0e67b94eecc5",
+        "artist": "William Fitzsimmons",
+        "title": "Bird of Winter Prey (Acoustic)"
+      }
+    },
+    {
+      "id": 103461,
+      "score": 0.78631175,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 152.036499023,
+        "mbid": "1a7dbfd1-5bb6-41b0-b91e-5a01e542ef9e",
+        "artist": "Grant Campbell",
+        "title": "In These Loving Arms"
+      }
+    },
+    {
+      "id": 369515,
+      "score": 0.7854002,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 123.389312744,
+        "mbid": "5ec84d28-1508-4f3d-b6e5-4e7331572298",
+        "artist": "Passenger",
+        "title": "Words"
+      }
+    },
+    {
+      "id": 369516,
+      "score": 0.784025,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 123.598480225,
+        "mbid": "5ec84d28-1508-4f3d-b6e5-4e7331572298",
+        "artist": "Passenger",
+        "title": "Words"
+      }
+    },
+    {
+      "id": 543697,
+      "score": 0.7837048,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 163.81010437,
+        "mbid": "8b1cd879-38df-43d1-9e90-ed49a4739dc0",
+        "artist": "Flip Grater",
+        "title": "Golden Trinket (So Long)"
+      }
+    },
+    {
+      "id": 389040,
+      "score": 0.78346056,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 162.431549072,
+        "mbid": "63bc9019-1824-47c5-813b-e01bc5eb96ae",
+        "artist": "Tina Guo",
+        "title": "We Wish You a Merry Christmas"
+      }
+    },
+    {
+      "id": 497953,
+      "score": 0.7833301,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 148.075714111,
+        "mbid": "7f800905-2bc9-46b9-b6a9-44b74995cd09",
+        "artist": "Chavela Vargas",
+        "title": "Aquel amor"
+      }
+    },
+    {
+      "id": 163373,
+      "score": 0.7832914,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 172.265563965,
+        "mbid": "29a3b65c-5f80-4ced-844e-bad23a4d8193",
+        "artist": "Leo Kottke",
+        "title": "Side One Suite: Some Birds / Sounds Like / Slang / My Double / Three Walls and Bars / Reprise: Some Birds"
+      }
+    },
+    {
+      "id": 163372,
+      "score": 0.7832914,
+      "payload": {
+        "key_key": "D",
+        "key_scale": "major",
+        "bpm": 172.265563965,
+        "mbid": "29a3b65c-5f80-4ced-844e-bad23a4d8193",
+        "artist": "Leo Kottke",
+        "title": "Side One Suite: Some Birds / Sounds Like / Slang / My Double / Three Walls and Bars / Reprise: Some Birds"
+      }
+    },
+    {
+      "id": 1164737,
+      "score": 0.782896,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 108.145820618,
+        "mbid": "5b30ae7a-0d5c-4fff-89e6-e8f384bdda87",
+        "artist": "Samantha Fish",
+        "title": "Over You"
+      }
+    },
+    {
+      "id": 1164736,
+      "score": 0.782896,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 108.145820618,
+        "mbid": "5b30ae7a-0d5c-4fff-89e6-e8f384bdda87",
+        "artist": "Samantha Fish",
+        "title": "Over You"
+      }
+    },
+    {
+      "id": 775979,
+      "score": 0.78268385,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 143.054931641,
+        "mbid": "c67da53d-06dc-455c-acfe-96737958e670",
+        "artist": "Steve Morse Band",
+        "title": "Mood For A Day"
+      }
+    },
+    {
+      "id": 877673,
+      "score": 0.78268385,
+      "payload": {
+        "key_key": "G",
+        "key_scale": "major",
+        "bpm": 143.054931641,
+        "mbid": "e0907885-bcae-46a0-8168-d40b9f696da9",
+        "artist": "Steve Morse",
+        "title": "Mood For A Day"
+      }
+    }
+  ]
+}

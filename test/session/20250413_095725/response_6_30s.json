@@ -1,0 +1,1261 @@
+{
+  "query_final_vector": [
+    0.19498167435365418,
+    -0.12753768321224923,
+    0.17855994047256116,
+    -0.037782231141941236,
+    -0.005247128200120144,
+    0.03607330942831629,
+    -0.0022795069235286673,
+    0.017774428376917402,
+    -0.1387450132382745,
+    0.18180440628361302,
+    0.09467812207764281,
+    0.11490423617311366,
+    0.018951462453600798,
+    -0.10634585069833358,
+    0.24088062157772022,
+    0.10927033296566575,
+    0.1845022779911623,
+    -0.1676106885622696,
+    -0.000944290954492372,
+    0.02735794285565249,
+    -0.01881323880223394,
+    -0.06124752144951804,
+    -0.04211741715655138,
+    0.05473641343455038,
+    0.3411431264556662,
+    0.3196476315865734,
+    0.20382921606838497,
+    0.029492001177055794,
+    -0.05689940275066666,
+    -0.09633784065695039,
+    -0.12340501744481883,
+    -0.1310356469444692,
+    -0.15348187519404347,
+    -0.1444895631932767,
+    -0.11362262293227936,
+    -0.12206110219907002,
+    -0.10677167781655018,
+    -0.07780097136094509,
+    -0.027574106614875086,
+    0.20382666026936727,
+    0.26456834316513,
+    0.2556609024663225,
+    0.0007054248425781619,
+    -0.1262832309756842,
+    -0.14942324596847945,
+    0.05046021939082237,
+    0.08979593062700991,
+    0.040259430894260345,
+    0.13691240180997577,
+    0.0928212818027488,
+    -0.03198505284359758,
+    -0.11899632787747547,
+    -0.10383242171049992,
+    -0.06561791858479211,
+    0.038859673877157656
+  ],
+  "results": [
+    {
+      "id": 918988,
+      "score": 0.8798118,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 90.8721618652,
+        "mbid": "eb52d546-3de3-45e0-b056-85afa4c557bd",
+        "artist": "CAKE",
+        "title": "No Phone"
+      }
+    },
+    {
+      "id": 918987,
+      "score": 0.87638927,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 90.8721618652,
+        "mbid": "eb52d546-3de3-45e0-b056-85afa4c557bd",
+        "artist": "Cake",
+        "title": "No Phone"
+      }
+    },
+    {
+      "id": 1128774,
+      "score": 0.86479485,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 110.53717804,
+        "mbid": "4753a5a9-4102-4a7e-94b2-af1f730affbb",
+        "artist": "Zoom",
+        "title": "Wayawaya"
+      }
+    },
+    {
+      "id": 1128775,
+      "score": 0.86479485,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 110.53717804,
+        "mbid": "4753a5a9-4102-4a7e-94b2-af1f730affbb",
+        "artist": "Zoom",
+        "title": "Wayawaya"
+      }
+    },
+    {
+      "id": 169941,
+      "score": 0.86345667,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 119.996490479,
+        "mbid": "2b56da89-f89e-42d2-a022-7643ba8596ba",
+        "artist": "Dave Matthews Band",
+        "title": "Mother Father"
+      }
+    },
+    {
+      "id": 1145700,
+      "score": 0.8507156,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 88.5881195068,
+        "mbid": "50b21519-2378-4e0e-baf0-9e775a1662d5",
+        "artist": "Tim McGraw",
+        "title": "Let Me Love You"
+      }
+    },
+    {
+      "id": 169943,
+      "score": 0.8506759,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 119.994155884,
+        "mbid": "2b56da89-f89e-42d2-a022-7643ba8596ba",
+        "artist": "Dave Matthews Band",
+        "title": "Mother Father"
+      }
+    },
+    {
+      "id": 169942,
+      "score": 0.8506759,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 119.994155884,
+        "mbid": "2b56da89-f89e-42d2-a022-7643ba8596ba",
+        "artist": "Dave Matthews Band",
+        "title": "Mother Father"
+      }
+    },
+    {
+      "id": 187324,
+      "score": 0.8502278,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 128.002197266,
+        "mbid": "2fbe7f1f-78b1-49f2-b83a-4b5f27cb2d37",
+        "artist": "Jerry Ropero & Stefan Gr\u00fcnwald feat. Gitano",
+        "title": "Cancion del mariachi"
+      }
+    },
+    {
+      "id": 1357191,
+      "score": 0.8489648,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 110.350570679,
+        "mbid": "c6285ee0-023b-4560-90ea-3a12e5e92230",
+        "artist": "Guaco",
+        "title": "Inv\u00edtame A Tu Casa"
+      }
+    },
+    {
+      "id": 933449,
+      "score": 0.84489346,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 138.001922607,
+        "mbid": "ef120d91-2472-4370-abe4-911cdb2b707a",
+        "artist": "Dogzilla",
+        "title": "Without You"
+      }
+    },
+    {
+      "id": 1355288,
+      "score": 0.8406162,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 98.7729949951,
+        "mbid": "c515ec54-2d08-4e1f-8c2c-e373786f7a93",
+        "artist": "Chingon",
+        "title": "Cuka Rocka (Extended)"
+      }
+    },
+    {
+      "id": 423049,
+      "score": 0.8380255,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 91.9381713867,
+        "mbid": "6c82a342-5c2d-4426-98ea-d0ca9e2d1854",
+        "artist": "Fahir Atako\u011flu",
+        "title": "Oniki"
+      }
+    },
+    {
+      "id": 1305161,
+      "score": 0.8374389,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 92.5241928101,
+        "mbid": "a956b5f7-e42a-43ca-a41c-82c2bb5a10cb",
+        "artist": "Andr\u00e9s Calamaro",
+        "title": "Donde Manda Marinero"
+      }
+    },
+    {
+      "id": 28666,
+      "score": 0.8343255,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 90.0146102905,
+        "mbid": "074a08b9-bb20-4a44-b88b-d546d4c9465f",
+        "artist": "El Gran Silencio",
+        "title": "El Espejo"
+      }
+    },
+    {
+      "id": 28667,
+      "score": 0.8343255,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 90.0146102905,
+        "mbid": "074a08b9-bb20-4a44-b88b-d546d4c9465f",
+        "artist": "El Gran Silencio",
+        "title": "El Espejo"
+      }
+    },
+    {
+      "id": 912156,
+      "score": 0.8294878,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 108.680740356,
+        "mbid": "e97fabb5-4db7-44b2-9eae-6d204445ac4d",
+        "artist": "Andr\u00e9s Calamaro",
+        "title": "Loco"
+      }
+    },
+    {
+      "id": 317856,
+      "score": 0.82916754,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 100.213035583,
+        "mbid": "516801a2-b00f-4a7d-bc24-bb78ef9eef6c",
+        "artist": "Pink Floyd",
+        "title": "Keep Talking (Radio Edit)"
+      }
+    },
+    {
+      "id": 307751,
+      "score": 0.82916754,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 100.213035583,
+        "mbid": "4ecbe93b-ac90-4e3a-ba4b-7e9767b31ab3",
+        "artist": "Pink Floyd",
+        "title": "Keep Talking (Radio Edit)"
+      }
+    },
+    {
+      "id": 563452,
+      "score": 0.82841915,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 120.45602417,
+        "mbid": "901cb3ea-5b26-4c4d-b046-4e782ba7a867",
+        "artist": "Marc Almond",
+        "title": "A Lover Spurned"
+      }
+    },
+    {
+      "id": 563451,
+      "score": 0.82841915,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 120.45602417,
+        "mbid": "901cb3ea-5b26-4c4d-b046-4e782ba7a867",
+        "artist": "Marc Almond",
+        "title": "A Lover Spurned"
+      }
+    },
+    {
+      "id": 405268,
+      "score": 0.8282005,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 125.106506348,
+        "mbid": "67efda41-45cc-4253-8b1d-59ab2fccd64b",
+        "artist": "Motoi Sakuraba",
+        "title": "Dark Pit's Theme"
+      }
+    },
+    {
+      "id": 944595,
+      "score": 0.8267791,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 124.933753967,
+        "mbid": "f1fc79ac-cd5a-48d1-ac60-ce73c5b7b87d",
+        "artist": "EMAX",
+        "title": "Defloration"
+      }
+    },
+    {
+      "id": 709150,
+      "score": 0.82615757,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 125.076248169,
+        "mbid": "b55cc67f-562d-4066-8ba2-65f0b9041a19",
+        "artist": "Motoi Sakuraba",
+        "title": "Dark Pit's Theme (Kid Icarus: Uprising)"
+      }
+    },
+    {
+      "id": 903695,
+      "score": 0.8257272,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 99.9888076782,
+        "mbid": "e752defa-bc00-42a9-a907-5c5d849ade2e",
+        "artist": "Baby Dayliner",
+        "title": "Party Scenes"
+      }
+    },
+    {
+      "id": 20487,
+      "score": 0.8252086,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 95.7764892578,
+        "mbid": "051707d5-24f1-4a6e-99a8-f24a0d99c841",
+        "artist": "Ben Folds & Nick Hornby",
+        "title": "From Above"
+      }
+    },
+    {
+      "id": 20488,
+      "score": 0.8252086,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 95.7764892578,
+        "mbid": "051707d5-24f1-4a6e-99a8-f24a0d99c841",
+        "artist": "Ben Folds & Nick Hornby",
+        "title": "From Above"
+      }
+    },
+    {
+      "id": 32543,
+      "score": 0.82103634,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 100.225799561,
+        "mbid": "08534b18-9962-465c-b7df-abdad692a380",
+        "artist": "Pink Floyd",
+        "title": "Keep Talking"
+      }
+    },
+    {
+      "id": 1263540,
+      "score": 0.82103634,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 100.225799561,
+        "mbid": "92300466-d9dd-4c82-9136-692384416c34",
+        "artist": "Pink Floyd",
+        "title": "Keep Talking"
+      }
+    },
+    {
+      "id": 745980,
+      "score": 0.8208264,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 106.569641113,
+        "mbid": "bec9e81d-c184-4181-b442-1da948c766a7",
+        "artist": "mewithoutYou",
+        "title": "Goodbye, I!"
+      }
+    },
+    {
+      "id": 571411,
+      "score": 0.8192498,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 100.222511292,
+        "mbid": "92300466-d9dd-4c82-9136-692384416c34",
+        "artist": "Pink Floyd",
+        "title": "Keep Talking"
+      }
+    },
+    {
+      "id": 29909,
+      "score": 0.8175653,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 87.1362609863,
+        "mbid": "07a17d7a-4ad4-412b-bb8f-024281f1ad69",
+        "artist": "Lowkey",
+        "title": "Long Live Palestine (feat. Maverick Sabre, Frankie Boyle, Ken Loach, Chakabars, Khaled Siddiq & Mai Khalil)"
+      }
+    },
+    {
+      "id": 1142218,
+      "score": 0.8174588,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 100.222511292,
+        "mbid": "4ecbe93b-ac90-4e3a-ba4b-7e9767b31ab3",
+        "artist": "Pink Floyd",
+        "title": "Keep Talking"
+      }
+    },
+    {
+      "id": 1014984,
+      "score": 0.81733006,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 100.228965759,
+        "mbid": "08534b18-9962-465c-b7df-abdad692a380",
+        "artist": "Pink Floyd",
+        "title": "Keep Talking"
+      }
+    },
+    {
+      "id": 692440,
+      "score": 0.8167082,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 86.9938430786,
+        "mbid": "b12b1a6d-ecd2-45f8-9454-9ac230983e8e",
+        "artist": "Hilltop Hoods",
+        "title": "City of Light"
+      }
+    },
+    {
+      "id": 466136,
+      "score": 0.81662875,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 129.973571777,
+        "mbid": "778b0ec6-39f2-4bb2-a0da-6a93efa7bd5d",
+        "artist": "Ilona Mitrecey",
+        "title": "Un monde parfait"
+      }
+    },
+    {
+      "id": 1142217,
+      "score": 0.81623876,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 100.172966003,
+        "mbid": "4ecbe93b-ac90-4e3a-ba4b-7e9767b31ab3",
+        "artist": "Pink Floyd",
+        "title": "Keep Talking"
+      }
+    },
+    {
+      "id": 1264088,
+      "score": 0.8161517,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 104.954856873,
+        "mbid": "927f0617-7400-4eef-b24c-42380161a7b5",
+        "artist": "Chris Spheeris",
+        "title": "The Arrow"
+      }
+    },
+    {
+      "id": 490850,
+      "score": 0.81593466,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 118.486862183,
+        "mbid": "7daea27c-cdbd-44bc-bd40-20caf60833ee",
+        "artist": "Juanes",
+        "title": "PODEMOS HACERNOS DA\u00d1O"
+      }
+    },
+    {
+      "id": 341837,
+      "score": 0.814827,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 109.890769958,
+        "mbid": "57ae8bae-8c24-4ec1-9589-ff12a3862af3",
+        "artist": "The Tikiyaki Orchestra",
+        "title": "Mai Tais on the Moon"
+      }
+    },
+    {
+      "id": 1234136,
+      "score": 0.8139198,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 100.211120605,
+        "mbid": "81ce11c1-21b7-4d88-b5b7-9458101fc423",
+        "artist": "Pink Floyd",
+        "title": "Keep Talking"
+      }
+    },
+    {
+      "id": 507065,
+      "score": 0.8132294,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 100.206352234,
+        "mbid": "81ce11c1-21b7-4d88-b5b7-9458101fc423",
+        "artist": "Pink Floyd",
+        "title": "Keep Talking"
+      }
+    },
+    {
+      "id": 1234134,
+      "score": 0.8132294,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 100.206352234,
+        "mbid": "81ce11c1-21b7-4d88-b5b7-9458101fc423",
+        "artist": "Pink Floyd",
+        "title": "Keep Talking"
+      }
+    },
+    {
+      "id": 507063,
+      "score": 0.8128938,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 100.206741333,
+        "mbid": "81ce11c1-21b7-4d88-b5b7-9458101fc423",
+        "artist": "Pink Floyd",
+        "title": "Keep Talking"
+      }
+    },
+    {
+      "id": 507062,
+      "score": 0.8128938,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 100.206741333,
+        "mbid": "81ce11c1-21b7-4d88-b5b7-9458101fc423",
+        "artist": "Pink Floyd",
+        "title": "Keep Talking"
+      }
+    },
+    {
+      "id": 507061,
+      "score": 0.8128938,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 100.206741333,
+        "mbid": "81ce11c1-21b7-4d88-b5b7-9458101fc423",
+        "artist": "Pink Floyd",
+        "title": "Keep Talking"
+      }
+    },
+    {
+      "id": 1319332,
+      "score": 0.8126329,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 86.9756317139,
+        "mbid": "b12b1a6d-ecd2-45f8-9454-9ac230983e8e",
+        "artist": "Hilltop Hoods",
+        "title": "City of Light"
+      }
+    },
+    {
+      "id": 1319331,
+      "score": 0.8126329,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 86.9756317139,
+        "mbid": "b12b1a6d-ecd2-45f8-9454-9ac230983e8e",
+        "artist": "Hilltop Hoods",
+        "title": "City of Light"
+      }
+    },
+    {
+      "id": 456769,
+      "score": 0.8118989,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 96.0904159546,
+        "mbid": "753b756a-776c-4dcd-8f82-4abfd6e61466",
+        "artist": "Chambao",
+        "title": "As de Corazones"
+      }
+    },
+    {
+      "id": 9229,
+      "score": 0.81118447,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 139.6927948,
+        "mbid": "02429692-35ea-41f3-a8ed-b2175e5bad0b",
+        "artist": "Mainfield",
+        "title": "Supernova (Dream Trance Radio Edit)"
+      }
+    },
+    {
+      "id": 9228,
+      "score": 0.81118447,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 139.6927948,
+        "mbid": "02429692-35ea-41f3-a8ed-b2175e5bad0b",
+        "artist": "Mainfield",
+        "title": "Supernova (Dream Trance Radio Edit)"
+      }
+    },
+    {
+      "id": 9230,
+      "score": 0.81118447,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 139.6927948,
+        "mbid": "02429692-35ea-41f3-a8ed-b2175e5bad0b",
+        "artist": "Mainfield",
+        "title": "Supernova (Dream Trance Radio Edit)"
+      }
+    },
+    {
+      "id": 447604,
+      "score": 0.8105774,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 100.014198303,
+        "mbid": "72e15efb-db22-4911-8002-33383e2f9839",
+        "artist": "Craig Chaquico",
+        "title": "Dia del Zorro"
+      }
+    },
+    {
+      "id": 102662,
+      "score": 0.81051964,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 118.150978088,
+        "mbid": "1a45921f-14fb-415e-b49f-522e0ef2e725",
+        "artist": "Earl Klugh",
+        "title": "Mobimientos del Alma"
+      }
+    },
+    {
+      "id": 577157,
+      "score": 0.8097975,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 144.86819458,
+        "mbid": "939ca81e-d633-47ad-a662-08705a4c8ff9",
+        "artist": "Luke Haines and The Auteurs",
+        "title": "Lenny Valentino"
+      }
+    },
+    {
+      "id": 1022118,
+      "score": 0.80886215,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 95.0209579468,
+        "mbid": "0c3312a8-e1c7-4917-8712-72d9133f4e6e",
+        "artist": "Shpongle",
+        "title": "Dr. Vinklestein Says"
+      }
+    },
+    {
+      "id": 657066,
+      "score": 0.8079851,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 101.88860321,
+        "mbid": "a80424a5-6281-492b-97b3-4d9e5417a348",
+        "artist": "Saigon Blue Rain",
+        "title": "The King is Dead"
+      }
+    },
+    {
+      "id": 744259,
+      "score": 0.806655,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 86.0029754639,
+        "mbid": "be5d51fd-77ac-43ad-af1d-64552752e639",
+        "artist": "Keiko Matsui",
+        "title": "Across the Sun"
+      }
+    },
+    {
+      "id": 183344,
+      "score": 0.8064963,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 117.598754883,
+        "mbid": "2eb47df9-5bb0-4270-87d6-b783b3d101aa",
+        "artist": "Images",
+        "title": "Les D\u00e9mons De Minuit"
+      }
+    },
+    {
+      "id": 183345,
+      "score": 0.8064963,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 117.598754883,
+        "mbid": "2eb47df9-5bb0-4270-87d6-b783b3d101aa",
+        "artist": "Images",
+        "title": "Les D\u00e9mons De Minuit"
+      }
+    },
+    {
+      "id": 436861,
+      "score": 0.80646396,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 107.099639893,
+        "mbid": "7018c863-919c-4a8b-8f7c-8d0fadfdadce",
+        "artist": "\u0410\u043b\u043b\u0430 \u041f\u0443\u0433\u0430\u0447\u0451\u0432\u0430",
+        "title": "\u041f\u0435\u0441\u0435\u043d\u043a\u0430 \u043f\u0435\u0440\u0432\u043e\u043a\u043b\u0430\u0441\u0441\u043d\u0438\u043a\u0430"
+      }
+    },
+    {
+      "id": 970978,
+      "score": 0.8051465,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 109.990196228,
+        "mbid": "f8a63515-244d-4f6e-abbe-a68f02030c27",
+        "artist": "Dub Colossus",
+        "title": "Family Man"
+      }
+    },
+    {
+      "id": 815105,
+      "score": 0.8050344,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 117.566123962,
+        "mbid": "d0951a8c-4e38-4fb5-a08f-7eec3f27646c",
+        "artist": "Images",
+        "title": "Les D\u00e9mons De Minuit"
+      }
+    },
+    {
+      "id": 674666,
+      "score": 0.8047257,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 115.061408997,
+        "mbid": "ac8b8c91-ee45-41cd-a021-e4c8151f0be5",
+        "artist": "Space",
+        "title": "Neighbourhood"
+      }
+    },
+    {
+      "id": 674667,
+      "score": 0.8047257,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 115.061408997,
+        "mbid": "ac8b8c91-ee45-41cd-a021-e4c8151f0be5",
+        "artist": "Space",
+        "title": "Neighbourhood"
+      }
+    },
+    {
+      "id": 1109029,
+      "score": 0.8040808,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 117.589447021,
+        "mbid": "3c369347-dd9b-4e22-b81a-70a045c0b207",
+        "artist": "Image",
+        "title": "Les D\u00e9mons De Minuit"
+      }
+    },
+    {
+      "id": 1109030,
+      "score": 0.8040808,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 117.589447021,
+        "mbid": "3c369347-dd9b-4e22-b81a-70a045c0b207",
+        "artist": "Image",
+        "title": "Les D\u00e9mons De Minuit"
+      }
+    },
+    {
+      "id": 854457,
+      "score": 0.80401415,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 112.900695801,
+        "mbid": "daa90b33-d188-4a9a-9540-4949cf11a1c8",
+        "artist": "3 Doors Down",
+        "title": "Down Poison"
+      }
+    },
+    {
+      "id": 854467,
+      "score": 0.8039071,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 112.922950745,
+        "mbid": "daa90b33-d188-4a9a-9540-4949cf11a1c8",
+        "artist": "3 Doors Down",
+        "title": "Down Poison"
+      }
+    },
+    {
+      "id": 854465,
+      "score": 0.8039071,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 112.922950745,
+        "mbid": "daa90b33-d188-4a9a-9540-4949cf11a1c8",
+        "artist": "3 Doors Down",
+        "title": "Down Poison"
+      }
+    },
+    {
+      "id": 1236499,
+      "score": 0.8036403,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 107.092918396,
+        "mbid": "83201301-68c6-4ba9-b180-d7bbacee9855",
+        "artist": "\u0410\u043b\u043b\u0430 \u041f\u0443\u0433\u0430\u0447\u0451\u0432\u0430",
+        "title": "\u041f\u0435\u0441\u0435\u043d\u043a\u0430 \u043f\u0435\u0440\u0432\u043e\u043a\u043b\u0430\u0441\u0441\u043d\u0438\u043a\u0430"
+      }
+    },
+    {
+      "id": 1095080,
+      "score": 0.8028902,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 120.354682922,
+        "mbid": "349dbf71-ab26-46c3-a851-b6d5c1d0e6bb",
+        "artist": "Marc Almond",
+        "title": "A Lover Spurned"
+      }
+    },
+    {
+      "id": 1095081,
+      "score": 0.8028902,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 120.354682922,
+        "mbid": "349dbf71-ab26-46c3-a851-b6d5c1d0e6bb",
+        "artist": "Marc Almond",
+        "title": "A Lover Spurned"
+      }
+    },
+    {
+      "id": 525022,
+      "score": 0.8028735,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 89.3960800171,
+        "mbid": "8663c0a4-a401-4119-8aca-1d94c78968fd",
+        "artist": "Kammerflimmer Kollektief",
+        "title": "Shibboleth"
+      }
+    },
+    {
+      "id": 507064,
+      "score": 0.80245405,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 100.285751343,
+        "mbid": "81ce11c1-21b7-4d88-b5b7-9458101fc423",
+        "artist": "Pink Floyd",
+        "title": "Keep Talking - 2011 Remaster"
+      }
+    },
+    {
+      "id": 496585,
+      "score": 0.80123353,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 126.940116882,
+        "mbid": "7f30ce12-37ee-4089-a4cb-cc39be71b5e6",
+        "artist": "Abel",
+        "title": "Tijd Genoeg"
+      }
+    },
+    {
+      "id": 1057508,
+      "score": 0.8008389,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 164.01524353,
+        "mbid": "200619d6-4c33-4640-9c46-58b0be39b459",
+        "artist": "Wolfsheim",
+        "title": "Kein Zur\u00fcck"
+      }
+    },
+    {
+      "id": 1235131,
+      "score": 0.80059767,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 79.9844284058,
+        "mbid": "8264a84f-aadc-4ebd-b9a9-662d5249b540",
+        "artist": "Babyface",
+        "title": "How Come, How Long"
+      }
+    },
+    {
+      "id": 1235130,
+      "score": 0.80059767,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 79.9844284058,
+        "mbid": "8264a84f-aadc-4ebd-b9a9-662d5249b540",
+        "artist": "Babyface",
+        "title": "How Come, How Long"
+      }
+    },
+    {
+      "id": 102272,
+      "score": 0.8002144,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 110.973892212,
+        "mbid": "1a2d5551-688b-409e-a521-15f2587a9811",
+        "artist": "Lust For Youth",
+        "title": "New Boys"
+      }
+    },
+    {
+      "id": 1367675,
+      "score": 0.79970175,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 91.8956756592,
+        "mbid": "cc18df17-8c4b-4e71-9fee-77f2381211a4",
+        "artist": "A-Ha",
+        "title": "Lie Down In Darkness"
+      }
+    },
+    {
+      "id": 1327570,
+      "score": 0.7995174,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "major",
+        "bpm": 89.7467956543,
+        "mbid": "b5ce9248-798d-490e-9f33-b3822d8775c4",
+        "artist": "Hank Williams Jr",
+        "title": "The Conversation"
+      }
+    },
+    {
+      "id": 31566,
+      "score": 0.7994199,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 122.182975769,
+        "mbid": "0813041b-b4c7-46c0-a3e9-0df6bbb606fe",
+        "artist": "Body Music",
+        "title": "Just One"
+      }
+    },
+    {
+      "id": 49929,
+      "score": 0.7989856,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 96.1803436279,
+        "mbid": "0cbc18d2-a754-421a-8205-e772e1816ef8",
+        "artist": "Cypress Hill",
+        "title": "Certified Bomb"
+      }
+    },
+    {
+      "id": 49928,
+      "score": 0.7989856,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 96.1803436279,
+        "mbid": "0cbc18d2-a754-421a-8205-e772e1816ef8",
+        "artist": "Cypress Hill",
+        "title": "Certified Bomb"
+      }
+    },
+    {
+      "id": 49927,
+      "score": 0.7989856,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 96.1803436279,
+        "mbid": "0cbc18d2-a754-421a-8205-e772e1816ef8",
+        "artist": "Cypress Hill",
+        "title": "Certified Bomb"
+      }
+    },
+    {
+      "id": 507066,
+      "score": 0.79894876,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 100.285346985,
+        "mbid": "81ce11c1-21b7-4d88-b5b7-9458101fc423",
+        "artist": "Pink Floyd",
+        "title": "Keep Talking"
+      }
+    },
+    {
+      "id": 923212,
+      "score": 0.7981831,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 127.074874878,
+        "mbid": "ec750acb-c475-4541-82b8-4bbe689eb638",
+        "artist": "Momus",
+        "title": "The Hairstyle of the Devil"
+      }
+    },
+    {
+      "id": 1234135,
+      "score": 0.7981087,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 100.274497986,
+        "mbid": "81ce11c1-21b7-4d88-b5b7-9458101fc423",
+        "artist": "Pink Floyd",
+        "title": "Keep Talking"
+      }
+    },
+    {
+      "id": 49931,
+      "score": 0.79810375,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 96.1559295654,
+        "mbid": "0cbc18d2-a754-421a-8205-e772e1816ef8",
+        "artist": "Cypress Hill",
+        "title": "Certified Bomb"
+      }
+    },
+    {
+      "id": 36737,
+      "score": 0.79808265,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 117.291946411,
+        "mbid": "096053e7-695e-4c51-b074-a014ffb37d7d",
+        "artist": "a-ha",
+        "title": "Lamb to the Slaughter (demo)"
+      }
+    },
+    {
+      "id": 923213,
+      "score": 0.797614,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 127.077400208,
+        "mbid": "ec750acb-c475-4541-82b8-4bbe689eb638",
+        "artist": "Momus",
+        "title": "The Hairstyle of the Devil"
+      }
+    },
+    {
+      "id": 984591,
+      "score": 0.7974684,
+      "payload": {
+        "key_key": "A",
+        "key_scale": "minor",
+        "bpm": 86.8954162598,
+        "mbid": "fc2c7696-27a5-460a-b094-c07d1a1dbca9",
+        "artist": "Hilltop Hoods",
+        "title": "City of Light Restrung"
+      }
+    },
+    {
+      "id": 1368128,
+      "score": 0.79621935,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 101.137489319,
+        "mbid": "cc587d33-9ed9-45a9-aadb-db110d6247d8",
+        "artist": "Gil Evans",
+        "title": "Las Vegas Tango"
+      }
+    },
+    {
+      "id": 49930,
+      "score": 0.7961873,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 96.1787796021,
+        "mbid": "0cbc18d2-a754-421a-8205-e772e1816ef8",
+        "artist": "Cypress Hill",
+        "title": "Certified Bomb"
+      }
+    },
+    {
+      "id": 1286281,
+      "score": 0.7958833,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 125.220222473,
+        "mbid": "9ee78a9b-d7bb-4a45-a50b-c4e8de6c9865",
+        "artist": "Albert Hammond",
+        "title": "Comprenderte"
+      }
+    },
+    {
+      "id": 115606,
+      "score": 0.7958789,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 137.936065674,
+        "mbid": "1d8f9360-1a75-4207-8da2-39b8bda7a7d4",
+        "artist": "Three 'N One",
+        "title": "Reflect"
+      }
+    },
+    {
+      "id": 1201480,
+      "score": 0.79579395,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 103.153755188,
+        "mbid": "6fd744df-0d0c-4b1e-993e-554f3af61d19",
+        "artist": "The Waterboys",
+        "title": "The Raggle Taggle Gypsy"
+      }
+    },
+    {
+      "id": 1201481,
+      "score": 0.79579395,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 103.153755188,
+        "mbid": "6fd744df-0d0c-4b1e-993e-554f3af61d19",
+        "artist": "the waterboys",
+        "title": "the raggle taggle gypsy"
+      }
+    },
+    {
+      "id": 1201482,
+      "score": 0.79579395,
+      "payload": {
+        "key_key": "E",
+        "key_scale": "minor",
+        "bpm": 103.153755188,
+        "mbid": "6fd744df-0d0c-4b1e-993e-554f3af61d19",
+        "artist": "The Waterboys",
+        "title": "The Raggle Taggle Gypsy"
+      }
+    }
+  ]
+}
