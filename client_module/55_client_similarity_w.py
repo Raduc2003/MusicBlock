@@ -1,0 +1,182 @@
+#!/usr/bin/env python3
+import os
+import json
+import sys
+import numpy as np
+from qdrant_client import QdrantClient
+from qdrant_client.http import models
+from colorama import init, Fore, Style
+import argparse
+import math # Add math module for sqrt
+
+# Initialize colorama
+init(autoreset=True)
+
+# ------------------- Configuration -------------------
+COLLECTION_NAME = "music_similarity2" # Original Min-Max collection
+TOP_K = 20
+QDRANT_HOST = os.getenv("QDRANT_HOST", "qdrant")
+QDRANT_PORT = int(os.getenv("QDRANT_PORT", 6333))
+GLOBAL_MIN_MAX_FILE = "global_min_max.json"
+EXPECTED_DIM = 55
+
+# --- Feature Group Indices and Dimensions ---
+GROUP_TIMBRE_INDICES = slice(0, 13); N_TIMBRE = 13
+GROUP_RHYTHM_INDICES = slice(13, 16); N_RHYTHM = 3
+GROUP_TONAL_INDICES = slice(16, 55); N_TONAL = 39
+GROUP_INFO = { # Store info together
+    'timbre': {'slice': GROUP_TIMBRE_INDICES, 'n_dims': N_TIMBRE},
+    'rhythm': {'slice': GROUP_RHYTHM_INDICES, 'n_dims': N_RHYTHM},
+    'tonal':  {'slice': GROUP_TONAL_INDICES,  'n_dims': N_TONAL}
+}
+# ----------------------------------------------
+
+# --- Load Stats, Min-Max Norm, Feature Extraction (Keep as before) ---
+def load_global_min_max(file_path):
+    # ... (same as previous min-max script)
+    if not os.path.isfile(file_path): print(f"Error: Min/Max file not found: {file_path}", file=sys.stderr); sys.exit(1)
+    try:
+        with open(file_path, "r") as f: stats = json.load(f)
+        if len(stats) != EXPECTED_DIM: print(f"Error: Min/Max file dimensions mismatch.", file=sys.stderr); sys.exit(1)
+        return stats
+    except Exception as e: print(f"Error loading min/max file: {e}", file=sys.stderr); sys.exit(1)
+
+def normalize_vector_minmax(vector, min_max_stats):
+    # ... (same as previous min-max script, includes clamping)
+    normalized = []
+    if len(vector) != len(min_max_stats): raise ValueError("Length mismatch")
+    for i, x in enumerate(vector):
+        mn, mx = min_max_stats[i]; range_val = mx - mn
+        normalized_value = 0.0 if range_val < 1e-9 else (max(mn, min(x, mx)) - mn) / range_val
+        normalized.append(normalized_value)
+    return normalized
+
+def extract_features_from_json(json_path, verbose=True):
+    # ... (same as previous min-max script)
+    try:
+        with open(json_path, "r") as f: data = json.load(f)
+    except Exception as e: print(f"Error reading query JSON {json_path}: {e}", file=sys.stderr); sys.exit(1)
+    try:
+        mfcc_mean = data["lowlevel"]["mfcc"]["mean"]
+        bpm = data["rhythm"]["bpm"]; onset_rate = data["rhythm"]["onset_rate"]; danceability = data["rhythm"]["danceability"]
+        key_strength = data["tonal"].get("key_strength", data["tonal"].get("key_temperley", {}).get("strength", 0))
+        chords_changes_rate = data["tonal"]["chords_changes_rate"]; hpcp_entropy_mean = data["tonal"]["hpcp_entropy"]["mean"]
+        hpcp_mean = data["tonal"]["hpcp"]["mean"]
+        feature_vector = ( mfcc_mean + [bpm, onset_rate, danceability, key_strength, chords_changes_rate, hpcp_entropy_mean] + hpcp_mean )
+        if len(feature_vector) != EXPECTED_DIM: raise ValueError("Incorrect feature vector length")
+        if verbose: print(f"{Fore.YELLOW}Extracted raw features ({len(feature_vector)} dims)\n", file=sys.stderr)
+        return feature_vector
+    except Exception as e: print(f"Error extracting features from {json_path}: {e}", file=sys.stderr); sys.exit(1)
+# -----------------------------------------------------------------------
+
+# --- MODIFIED: Apply Square Root Scaling similar to Z-score approach ---
+def apply_sqrt_direct_scaling(vector, group_weights):
+    """
+    Applies scaling to Min-Max features based on group weights and dimensionality,
+    using square root calculation similar to Z-score approach.
+    Returns numpy array.
+    """
+    vec_np = np.array(vector, dtype=np.float64) # Input is Min-Max vector
+    scaled_vector = np.zeros_like(vec_np)
+
+    # Calculate scaling factors with sqrt (matching Z-score approach)
+    scale_timbre = math.sqrt(group_weights.get('timbre', 0.0) / N_TIMBRE) if N_TIMBRE > 0 else 0
+    scale_rhythm = math.sqrt(group_weights.get('rhythm', 0.0) / N_RHYTHM) if N_RHYTHM > 0 else 0
+    scale_tonal = math.sqrt(group_weights.get('tonal', 0.0) / N_TONAL) if N_TONAL > 0 else 0
+    
+    # Apply scaling to each group slice
+    scaled_vector[GROUP_TIMBRE_INDICES] = vec_np[GROUP_TIMBRE_INDICES] * scale_timbre
+    scaled_vector[GROUP_RHYTHM_INDICES] = vec_np[GROUP_RHYTHM_INDICES] * scale_rhythm
+    scaled_vector[GROUP_TONAL_INDICES] = vec_np[GROUP_TONAL_INDICES] * scale_tonal
+
+    return scaled_vector
+# -----------------------------------------------------------------
+
+# --- Qdrant Search Function (Keep as before) ---
+def perform_similarity_search(query_vector, top_k=TOP_K, collection=COLLECTION_NAME, host=QDRANT_HOST, port=QDRANT_PORT):
+    # ... (same as before)
+    try:
+        client = QdrantClient(host=host, port=port, timeout=20.0)
+        try: client.get_collection(collection_name=collection)
+        except Exception as e: print(f"Error: Collection '{collection}' not found/conn failed: {e}", file=sys.stderr); sys.exit(1)
+        search_result = client.search( collection_name=collection, query_vector=query_vector.tolist(), limit=top_k )
+        return search_result
+    except Exception as e: print(f"Error during Qdrant search: {e}", file=sys.stderr); sys.exit(1)
+# ---------------------------------------------
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Qdrant similarity client using Min-Max normalization and sqrt-scaled group weights.")
+    # --- Arguments remain the same, updating default weights to match Z-score script ---
+    parser.add_argument("query_json", help="Path to the query JSON file (features).")
+    parser.add_argument("--collection", default=COLLECTION_NAME, help=f"Qdrant collection name (default: {COLLECTION_NAME}).")
+    parser.add_argument("--stats_file", default=GLOBAL_MIN_MAX_FILE, help=f"Path to the [min, max] stats file (default: {GLOBAL_MIN_MAX_FILE}).")
+    parser.add_argument("--host", default=QDRANT_HOST, help=f"Qdrant host (default: read env or '{QDRANT_HOST}').")
+    parser.add_argument("--port", type=int, default=QDRANT_PORT, help=f"Qdrant port (default: read env or {QDRANT_PORT}).")
+    parser.add_argument("--json", action="store_true", help="Output results in raw JSON format.")
+    parser.add_argument("--top_k", type=int, default=TOP_K, help=f"Number of similar items (default: {TOP_K}).")
+    parser.add_argument("--verbose", action="store_true", help="Print debug output to stderr.")
+    # Update default weights to match Z-score script
+    parser.add_argument("--w_timbre", type=float, default=0.6, help="Weight for timbre features (default: 0.3).")
+    parser.add_argument("--w_rhythm", type=float, default=0.1, help="Weight for rhythm features (default: 0.1).")
+    parser.add_argument("--w_tonal", type=float, default=0.3, help="Weight for tonal features (default: 0.6).")
+    # ------------------------------------------------------
+    args = parser.parse_args()
+
+    if args.verbose: print(f"{Fore.YELLOW}--- Qdrant Similarity Client (Min-Max + Sqrt-Scaled Weighting) ---", file=sys.stderr)
+    verbose = args.verbose
+
+    # --- Define Group Weights ---
+    group_weights = { 'timbre': args.w_timbre, 'rhythm': args.w_rhythm, 'tonal': args.w_tonal }
+    if verbose: print(f"{Fore.YELLOW}Using Group Weights: {group_weights}", file=sys.stderr)
+    # ----------------------------
+
+    # 1) Extract raw features
+    raw_vector = extract_features_from_json(args.query_json, verbose=verbose)
+
+    # 2) Load global min/max stats
+    min_max_stats = load_global_min_max(args.stats_file)
+
+    # 3) Apply Min-Max normalization
+    minmax_vector = normalize_vector_minmax(raw_vector, min_max_stats)
+
+    # 4) Apply Sqrt-Scaled Weighting to the Min-Max vector (matching Z-score approach)
+    final_query_vector_np = apply_sqrt_direct_scaling(minmax_vector, group_weights)
+
+    if verbose:
+         raw_np = np.array(raw_vector); minmax_np = np.array(minmax_vector); final_np = final_query_vector_np
+         np.set_printoptions(precision=4, suppress=True)
+         print(f"{Fore.YELLOW}--- Vector Stages ---", file=sys.stderr)
+         print(f"{Fore.CYAN}Raw Vector (excerpt): {Style.RESET_ALL}{raw_np[:5]}...{raw_np[-5:]}", file=sys.stderr)
+         print(f"{Fore.CYAN}Min-Max Vector (excerpt): {Style.RESET_ALL}{minmax_np[:5]}...{minmax_np[-5:]}", file=sys.stderr)
+         print(f"{Fore.CYAN}Sqrt-Scaled Min-Max Query Vector (excerpt): {Style.RESET_ALL}{final_np[:5]}...{final_np[-5:]}", file=sys.stderr)
+         final_norm = np.linalg.norm(final_np); print(f"{Fore.YELLOW}Weighted Vector L2 Norm: {final_norm:.4f}", file=sys.stderr)
+         print("-" * 20, file=sys.stderr)
+
+    # 5) Perform similarity search using the SQRT-SCALED MIN-MAX vector
+    results = perform_similarity_search(
+        query_vector=final_query_vector_np,
+        top_k=args.top_k,
+        collection=args.collection,
+        host=args.host,
+        port=args.port
+    )
+
+    # 6) Output results
+    if args.json:
+        output_data = { "query_sqrt_scaled_minmax_vector": final_query_vector_np.tolist(), "group_weights_used": group_weights, "results": [] }
+        for r in results: output_data["results"].append({"id": r.id, "score": r.score, "payload": r.payload})
+        print(json.dumps(output_data, indent=2))
+    else:
+        print(f"\n{Fore.CYAN}{'='*80}"); print(f"{Fore.YELLOW}SIMILARITY SEARCH RESULTS (Min-Max + Sqrt-Scaled Weights)")
+        print(f"{Fore.CYAN}{'='*80}{Style.RESET_ALL}")
+        print(f"{Fore.WHITE}Collection: {args.collection}, Top K: {args.top_k}, Weights: {group_weights}")
+        print(f"{Fore.CYAN}{'-'*80}{Style.RESET_ALL}\n")
+        if not results: print(f"{Fore.RED}No results found.")
+        else:
+            for i, res in enumerate(results):
+                print(f"{Fore.GREEN}Match #{i+1} {Fore.CYAN}{'─'*50}")
+                print(f"{Fore.YELLOW}ID: {Fore.WHITE}{res.id}")
+                print(f"{Fore.YELLOW}Score (Cosine Sim): {Fore.WHITE}{res.score:.4f}")
+                artist = res.payload.get("artist", "N/A"); title = res.payload.get("title", "N/A"); mbid = res.payload.get("mbid", "N/A")
+                print(f"{Fore.YELLOW}Artist: {Fore.WHITE}{artist}"); print(f"{Fore.YELLOW}Title: {Fore.WHITE}{title}"); print(f"{Fore.YELLOW}MBID: {Fore.WHITE}{mbid}")
+                print("")

@@ -33,7 +33,9 @@ services:
     container_name: extractor_service2
     volumes:
       - shared_data:/data/output_json
+
       - ./demoMusic:/data/input_audio:ro
+        # will need to be copied
       - ./extraction_module/pr.yaml:/app/pr.yaml:ro # Adjust /app/ if WORKDIR is different
       - ./extraction_module/prepare_extract.py:/app/prepare_extract.py
     working_dir: /app
@@ -48,11 +50,13 @@ services:
     volumes:
       - shared_data:/data/input_json
       
+      # will need to be copied
       - ./global_min_max.json:/app/global_min_max.json:ro
       - ./Dataset/global_mean_std.json:/app/global_mean_std.json:ro # Adjust /app/ if WORKDIR is different
-      - ./client_similarity.py:/app/client_similarity.py
-      - ./client_similarity_2.py:/app/client_similarity_2.py
-      - ./test.py:/app/test.py
+      - ./client_module/client_similarity.py:/app/client_similarity.py
+      - ./client_module/client_similarity_2.py:/app/client_similarity_2.py
+      - ./client_module/client_similarity_w.py:/app/client_similarity_w.py
+      - ./client_module/test.py:/app/test.py
       # temoporary for testing
       - ./test:/app/test
       - ./demoMusic:/data/test
