@@ -24,11 +24,8 @@ RUN pip install --no-cache-dir --upgrade pip && \
     pip install --no-cache-dir -r requirements.txt
 
 
-COPY client_similarity.py .
-COPY client.py .
-COPY test.py .
+
 # # Copy the normalization data file
-COPY global_min_max.json .
 # If client_similarity.py imported other local modules/scripts, copy them too
 # COPY utils/ some_util_script.py ./utils/
 
