@@ -10,13 +10,13 @@ from datetime import datetime
 # --- Configuration (Paths relative to WORKDIR /app inside container) ---
 # Since ./test is mounted to /app/test and WORKDIR is /app, these paths work:
 EXPECTED_MATCHES_FILE = "test/test_config.json"
-QUERY_JSON_FOLDER = "test/json_no_lnorm_beta2" # Base folder for query JSONs
+QUERY_JSON_FOLDER = "test/json_lnorm_beta6" # Base folder for query JSONs
 RESULTS_CSV_FOLDER = "test/results/"
 SESSION_FOLDER_BASE = "test/session"
 
 # Container execution settings
 # Change just this one line to switch between client implementations
-CLIENT_SCRIPT = "client_similarity_w.py"  # Just the filename, not the full path
+CLIENT_SCRIPT = "94_client_similarity_z.py"  # Just the filename, not the full path
 CLIENT_SERVICE_NAME = "client"
 
 # Test Settings

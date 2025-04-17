@@ -52,10 +52,9 @@ services:
       
       # will need to be copied
       - ./global_min_max.json:/app/global_min_max.json:ro
-      - ./Dataset/global_mean_std.json:/app/global_mean_std.json:ro # Adjust /app/ if WORKDIR is different
-      - ./client_module/client_similarity.py:/app/client_similarity.py
-      - ./client_module/client_similarity_2.py:/app/client_similarity_2.py
-      - ./client_module/client_similarity_w.py:/app/client_similarity_w.py
+      - ./Dataset/global_mean_std_94FEATURES.json:/app/global_mean_std_94FEATURES.json:ro # Adjust /app/ if WORKDIR is different
+      - ./client_module/94_client_similarity_z.py:/app/94_client_similarity_z.py
+      
       - ./client_module/test.py:/app/test.py
       # temoporary for testing
       - ./test:/app/test
