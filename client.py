@@ -9,7 +9,7 @@ import shutil
 # --- Defaults ---
 DEFAULT_EXTRACTOR_CONFIG = "extraction_module/pr.yaml"
 DEFAULT_PREPARE_SCRIPT = "prepare_extract.py" # Script inside extractor
-DEFAULT_CLIENT_SCRIPT = "client_similarity_2.py"  # Script inside client
+DEFAULT_CLIENT_SCRIPT = "94_client_similarity_z.py"  # Script inside client
 DEFAULT_TOP_K = 20
 # ----------------
 
