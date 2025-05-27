@@ -6,7 +6,7 @@ import datetime
 import logging # Using Python's standard logging
 import argparse
 from typing import Dict, Any, Optional
-
+import graphviz
 
 from langgraph.graph import StateGraph, END
 from rag_state import OverallState
@@ -153,6 +153,57 @@ if __name__ == "__main__":
 
 
     workflow_graph = build_graph(sequential_mode=args.sequential)
+
+
+    AGENTS = [
+    "rhythm_agent",
+    "music_theory_agent",
+    "instruments_agent",
+    "lyrics_agent",
+    "production_agent",
+]
+
+    def visualize_state_graph(sequential: bool, filename="moodboard_graph"):
+        """
+        Render the nodes & edges exactly as in build_graph() into
+        filename.png (and .dot).
+        """
+        dot = graphviz.Digraph(comment="Music Moodboard RAG")
+        # all the nodes
+        dot.node("initial_processor")
+        for a in AGENTS:
+            dot.node(a)
+        dot.node("advice_combiner")
+        dot.node("END")  # END is a string, not an object
+
+        # edges
+        if sequential:
+            seq = ["initial_processor"] + AGENTS + ["advice_combiner"]
+            for src, dst in zip(seq, seq[1:]):
+                dot.edge(src, dst)
+        else:
+            # fan‐out from initial
+            for a in AGENTS:
+                dot.edge("initial_processor", a)
+            # fan‐in to combiner
+            for a in AGENTS:
+                dot.edge(a, "advice_combiner")
+        # final edge to END
+        dot.edge("advice_combiner", "END")
+        
+        try:
+            # Render the graph
+            dot.render(filename, format='png', cleanup=True)
+            logger.info(f"Graph visualization saved as {filename}.png")
+        except Exception as e:
+            logger.warning(f"Graphviz render failed: {e}")
+
+    # Call the visualization function
+    try:
+        visualize_state_graph(args.sequential)
+    except Exception as e:
+        logger.warning(f"Graphviz visualization failed: {e}")
+
     app = workflow_graph.compile()
     logger.info("LangGraph RAG Moodboard Generator Compiled.")
 

@@ -26,9 +26,9 @@ LOCAL_LLM_MODEL_NAME = os.getenv("LOCAL_LLM_MODEL_NAME", "llama3.2:3b")
 LOCAL_LLM_API_KEY = os.getenv("LOCAL_LLM_API_KEY", "NotNeeded")
 
 # Remote LLM Setup (RunPod, OpenAI-compatible APIs)
-REMOTE_LLM_API_BASE = os.getenv("REMOTE_LLM_API_BASE", "https://api.runpod.ai/v2/u4d3b5g2c5ot09/openai/v1")
+REMOTE_LLM_API_BASE = os.getenv("REMOTE_LLM_API_BASE", "https://api.runpod.ai/v2/YOUR_ENDPOINT_ID/openai/v1")
 REMOTE_LLM_MODEL_NAME = os.getenv("REMOTE_LLM_MODEL_NAME", "meta-llama/Llama-3.2-3B-Instruct")
-REMOTE_LLM_API_KEY = os.getenv("REMOTE_LLM_API_KEY", "YOUR_API_KEY_HERE")
+REMOTE_LLM_API_KEY = os.getenv("REMOTE_LLM_API_KEY")
 
 # Active LLM Configuration (the ones actually used by the system)
 LLM_API_BASE = os.getenv("LLM_API_BASE", REMOTE_LLM_API_BASE)

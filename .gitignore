@@ -7,3 +7,22 @@ genre_discogs*
 essentia-extractors*
 demoMusic/
 KB/
+
+# Environment and secrets
+.env
+*.env
+!.env.example
+**/test_llm_connection.py
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+rag_logs/
+*.log
+
+# Generated visualizations
+*.png
+*.dot
