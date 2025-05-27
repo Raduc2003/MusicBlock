@@ -1,0 +1,518 @@
+2025-05-27 17:23:22,774 - INFO     - __main__                       - Logging → console INFO, file rag_logs/moodboard_run_20250527_172322.log
+2025-05-27 17:23:22,774 - INFO     - __main__                       - Runner started. LLM initialized: yes
+2025-05-27 17:23:22,775 - INFO     - __main__                       - Building & compiling graph…
+2025-05-27 17:23:22,785 - INFO     - __main__                       - Graph compiled.
+2025-05-27 17:23:26,489 - INFO     - rag_agent_nodes                - --- NODE START: Initial Input Processor ---
+2025-05-27 17:23:26,490 - INFO     - rag_agent_nodes                - User Query: 'Blues'
+2025-05-27 17:23:26,495 - DEBUG    - openai._base_client            - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-7aaff398-16ce-4c83-bee9-50611be03970', 'json_data': {'messages': [{'content': "\nYou are a helpful assistant that synthesizes information for a music creation project.\nBased on the user's request and an analysis of similar music (if provided), create a concise project goal summary.\nThis summary will guide other specialized AI agents in providing creative advice.\nFocus on extracting key musical elements: genre, target artists/style, mood, instrumentation, tempo, and key signatures mentioned or implied.\nKeep the summary to 1-2 concise paragraphs.\n\nUser Request:\n---\nBlues\n---\n\nProvided Similarity Analysis (characteristics of the user's audio or comparable tracks):\n---\nNo audio → examples:\n| # | Title | Artist | Key | BPM | Genres |\n---\n\nConcise Project Goal Summary:\n", 'role': 'user'}], 'model': 'meta-llama/Llama-3.2-3B-Instruct', 'stream': False, 'temperature': 0.7}}
+2025-05-27 17:23:26,499 - DEBUG    - openai._base_client            - Sending HTTP Request: POST https://api.runpod.ai/v2/u4d3b5g2c5ot09/openai/v1/chat/completions
+2025-05-27 17:23:26,500 - DEBUG    - httpcore.connection            - connect_tcp.started host='api.runpod.ai' port=443 local_address=None timeout=60.0 socket_options=None
+2025-05-27 17:23:26,549 - DEBUG    - httpcore.connection            - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fe9c5c5dae0>
+2025-05-27 17:23:26,549 - DEBUG    - httpcore.connection            - start_tls.started ssl_context=<ssl.SSLContext object at 0x7fe9801a6b40> server_hostname='api.runpod.ai' timeout=60.0
+2025-05-27 17:23:26,586 - DEBUG    - httpcore.connection            - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fe9c5c5d930>
+2025-05-27 17:23:26,587 - DEBUG    - httpcore.http11                - send_request_headers.started request=<Request [b'POST']>
+2025-05-27 17:23:26,587 - DEBUG    - httpcore.http11                - send_request_headers.complete
+2025-05-27 17:23:26,587 - DEBUG    - httpcore.http11                - send_request_body.started request=<Request [b'POST']>
+2025-05-27 17:23:26,587 - DEBUG    - httpcore.http11                - send_request_body.complete
+2025-05-27 17:23:26,588 - DEBUG    - httpcore.http11                - receive_response_headers.started request=<Request [b'POST']>
+2025-05-27 17:24:26,648 - DEBUG    - httpcore.http11                - receive_response_headers.failed exception=ReadTimeout(TimeoutError('The read operation timed out'))
+2025-05-27 17:24:26,648 - DEBUG    - httpcore.http11                - response_closed.started
+2025-05-27 17:24:26,649 - DEBUG    - httpcore.http11                - response_closed.complete
+2025-05-27 17:24:26,649 - DEBUG    - openai._base_client            - Encountered httpx.TimeoutException
+Traceback (most recent call last):
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/httpx/_transports/default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 103, in handle_request
+    return self._connection.handle_request(request)
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 136, in handle_request
+    raise exc
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 106, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 177, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 217, in _receive_event
+    data = self._network_stream.read(
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/httpcore/_backends/sync.py", line 126, in read
+    with map_exceptions(exc_map):
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/openai/_base_client.py", line 969, in request
+    response = self._client.send(
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/httpx/_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/httpx/_transports/default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout: The read operation timed out
+2025-05-27 17:24:26,652 - DEBUG    - openai._base_client            - 2 retries left
+2025-05-27 17:24:26,653 - INFO     - openai._base_client            - Retrying request to /chat/completions in 0.445132 seconds
+2025-05-27 17:24:27,099 - DEBUG    - openai._base_client            - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-7aaff398-16ce-4c83-bee9-50611be03970', 'json_data': {'messages': [{'content': "\nYou are a helpful assistant that synthesizes information for a music creation project.\nBased on the user's request and an analysis of similar music (if provided), create a concise project goal summary.\nThis summary will guide other specialized AI agents in providing creative advice.\nFocus on extracting key musical elements: genre, target artists/style, mood, instrumentation, tempo, and key signatures mentioned or implied.\nKeep the summary to 1-2 concise paragraphs.\n\nUser Request:\n---\nBlues\n---\n\nProvided Similarity Analysis (characteristics of the user's audio or comparable tracks):\n---\nNo audio → examples:\n| # | Title | Artist | Key | BPM | Genres |\n---\n\nConcise Project Goal Summary:\n", 'role': 'user'}], 'model': 'meta-llama/Llama-3.2-3B-Instruct', 'stream': False, 'temperature': 0.7}}
+2025-05-27 17:24:27,100 - DEBUG    - openai._base_client            - Sending HTTP Request: POST https://api.runpod.ai/v2/u4d3b5g2c5ot09/openai/v1/chat/completions
+2025-05-27 17:24:27,101 - DEBUG    - httpcore.connection            - connect_tcp.started host='api.runpod.ai' port=443 local_address=None timeout=60.0 socket_options=None
+2025-05-27 17:24:27,129 - DEBUG    - httpcore.connection            - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fe9c5c5d570>
+2025-05-27 17:24:27,129 - DEBUG    - httpcore.connection            - start_tls.started ssl_context=<ssl.SSLContext object at 0x7fe9801a6b40> server_hostname='api.runpod.ai' timeout=60.0
+2025-05-27 17:24:27,170 - DEBUG    - httpcore.connection            - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fe9c5c5d510>
+2025-05-27 17:24:27,170 - DEBUG    - httpcore.http11                - send_request_headers.started request=<Request [b'POST']>
+2025-05-27 17:24:27,170 - DEBUG    - httpcore.http11                - send_request_headers.complete
+2025-05-27 17:24:27,170 - DEBUG    - httpcore.http11                - send_request_body.started request=<Request [b'POST']>
+2025-05-27 17:24:27,171 - DEBUG    - httpcore.http11                - send_request_body.complete
+2025-05-27 17:24:27,171 - DEBUG    - httpcore.http11                - receive_response_headers.started request=<Request [b'POST']>
+2025-05-27 17:25:00,484 - DEBUG    - httpcore.http11                - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 27 May 2025 14:25:23 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'cf-cache-status', b'DYNAMIC'), (b'Set-Cookie', b'__cflb=0H28v2ycMsGacX9vgDrwk2ZtxqyQtaSpT8JCbt7jdd7; SameSite=None; Secure; path=/; expires=Tue, 27-May-25 14:55:23 GMT; HttpOnly'), (b'Server', b'cloudflare'), (b'CF-RAY', b'94662d98790ae3e8-OTP'), (b'Content-Encoding', b'gzip')])
+2025-05-27 17:25:00,486 - INFO     - httpx                          - HTTP Request: POST https://api.runpod.ai/v2/u4d3b5g2c5ot09/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 17:25:00,487 - DEBUG    - httpcore.http11                - receive_response_body.started request=<Request [b'POST']>
+2025-05-27 17:25:00,488 - DEBUG    - httpcore.http11                - receive_response_body.complete
+2025-05-27 17:25:00,488 - DEBUG    - httpcore.http11                - response_closed.started
+2025-05-27 17:25:00,488 - DEBUG    - httpcore.http11                - response_closed.complete
+2025-05-27 17:25:00,488 - DEBUG    - openai._base_client            - HTTP Response: POST https://api.runpod.ai/v2/u4d3b5g2c5ot09/openai/v1/chat/completions "200 OK" Headers({'date': 'Tue, 27 May 2025 14:25:23 GMT', 'content-type': 'application/json; charset=utf-8', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cf-cache-status': 'DYNAMIC', 'set-cookie': '__cflb=0H28v2ycMsGacX9vgDrwk2ZtxqyQtaSpT8JCbt7jdd7; SameSite=None; Secure; path=/; expires=Tue, 27-May-25 14:55:23 GMT; HttpOnly', 'server': 'cloudflare', 'cf-ray': '94662d98790ae3e8-OTP', 'content-encoding': 'gzip'})
+2025-05-27 17:25:00,488 - DEBUG    - openai._base_client            - request_id: None
+2025-05-27 17:25:00,500 - INFO     - rag_agent_nodes                - Goal summary generated. Tokens P=176, C=207
+2025-05-27 17:25:00,502 - INFO     - rag_agent_nodes                - --- NODE START: Instruments Agent ---
+2025-05-27 17:25:00,503 - INFO     - rag_agent_nodes                - --- NODE START: Lyrics Agent (conditional) ---
+2025-05-27 17:25:00,503 - INFO     - rag_agent_nodes                - --- NODE START: Music Theory Agent ---
+2025-05-27 17:25:00,504 - INFO     - rag_agent_nodes                - --- NODE START: Production Agent ---
+2025-05-27 17:25:00,505 - INFO     - rag_agent_nodes                - --- NODE START: Rhythm Agent ---
+2025-05-27 17:25:00,511 - INFO     - rag_agent_nodes                - Skipping Lyrics Agent by flag.
+2025-05-27 17:25:00,798 - DEBUG    - httpcore.connection            - connect_tcp.started host='localhost' port=6333 local_address=None timeout=5.0 socket_options=None
+2025-05-27 17:25:00,799 - DEBUG    - httpcore.connection            - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fe9c5d43bb0>
+2025-05-27 17:25:00,799 - DEBUG    - httpcore.http11                - send_request_headers.started request=<Request [b'GET']>
+2025-05-27 17:25:00,799 - DEBUG    - httpcore.http11                - send_request_headers.complete
+2025-05-27 17:25:00,799 - DEBUG    - httpcore.http11                - send_request_body.started request=<Request [b'GET']>
+2025-05-27 17:25:00,799 - DEBUG    - httpcore.http11                - send_request_body.complete
+2025-05-27 17:25:00,799 - DEBUG    - httpcore.http11                - receive_response_headers.started request=<Request [b'GET']>
+2025-05-27 17:25:00,801 - DEBUG    - httpcore.http11                - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'transfer-encoding', b'chunked'), (b'vary', b'accept-encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers'), (b'content-type', b'application/json'), (b'content-encoding', b'zstd'), (b'date', b'Tue, 27 May 2025 14:25:00 GMT')])
+2025-05-27 17:25:00,802 - INFO     - httpx                          - HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+2025-05-27 17:25:00,802 - DEBUG    - httpcore.http11                - receive_response_body.started request=<Request [b'GET']>
+2025-05-27 17:25:00,802 - DEBUG    - httpcore.http11                - receive_response_body.complete
+2025-05-27 17:25:00,802 - DEBUG    - httpcore.http11                - response_closed.started
+2025-05-27 17:25:00,802 - DEBUG    - httpcore.http11                - response_closed.complete
+2025-05-27 17:25:00,802 - DEBUG    - httpcore.connection            - close.started
+2025-05-27 17:25:00,802 - DEBUG    - httpcore.connection            - close.complete
+2025-05-27 17:25:00,803 - DEBUG    - httpcore.connection            - connect_tcp.started host='localhost' port=6333 local_address=None timeout=5.0 socket_options=None
+2025-05-27 17:25:00,803 - DEBUG    - httpcore.connection            - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fe97dab04f0>
+2025-05-27 17:25:00,803 - DEBUG    - httpcore.http11                - send_request_headers.started request=<Request [b'GET']>
+2025-05-27 17:25:00,803 - DEBUG    - httpcore.http11                - send_request_headers.complete
+2025-05-27 17:25:00,803 - DEBUG    - httpcore.http11                - send_request_body.started request=<Request [b'GET']>
+2025-05-27 17:25:00,804 - DEBUG    - httpcore.http11                - send_request_body.complete
+2025-05-27 17:25:00,804 - DEBUG    - httpcore.http11                - receive_response_headers.started request=<Request [b'GET']>
+2025-05-27 17:25:00,804 - DEBUG    - httpcore.connection            - connect_tcp.started host='localhost' port=6333 local_address=None timeout=5.0 socket_options=None
+2025-05-27 17:25:00,805 - DEBUG    - httpcore.connection            - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fe97dab0dc0>
+2025-05-27 17:25:00,805 - DEBUG    - httpcore.http11                - send_request_headers.started request=<Request [b'GET']>
+2025-05-27 17:25:00,805 - DEBUG    - httpcore.http11                - send_request_headers.complete
+2025-05-27 17:25:00,805 - DEBUG    - httpcore.http11                - send_request_body.started request=<Request [b'GET']>
+2025-05-27 17:25:00,805 - DEBUG    - httpcore.http11                - send_request_body.complete
+2025-05-27 17:25:00,805 - DEBUG    - httpcore.http11                - receive_response_headers.started request=<Request [b'GET']>
+2025-05-27 17:25:00,806 - DEBUG    - httpcore.http11                - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'transfer-encoding', b'chunked'), (b'content-encoding', b'zstd'), (b'vary', b'accept-encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers'), (b'content-type', b'application/json'), (b'date', b'Tue, 27 May 2025 14:25:00 GMT')])
+2025-05-27 17:25:00,807 - INFO     - httpx                          - HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+2025-05-27 17:25:00,807 - DEBUG    - httpcore.http11                - receive_response_body.started request=<Request [b'GET']>
+2025-05-27 17:25:00,807 - DEBUG    - httpcore.http11                - receive_response_body.complete
+2025-05-27 17:25:00,807 - DEBUG    - httpcore.http11                - response_closed.started
+2025-05-27 17:25:00,807 - DEBUG    - httpcore.http11                - response_closed.complete
+2025-05-27 17:25:00,807 - DEBUG    - httpcore.connection            - close.started
+2025-05-27 17:25:00,808 - DEBUG    - httpcore.connection            - close.complete
+2025-05-27 17:25:00,808 - DEBUG    - httpcore.connection            - connect_tcp.started host='localhost' port=6333 local_address=None timeout=5.0 socket_options=None
+2025-05-27 17:25:00,808 - DEBUG    - httpcore.connection            - connect_tcp.started host='localhost' port=6333 local_address=None timeout=5.0 socket_options=None
+2025-05-27 17:25:00,809 - DEBUG    - httpcore.connection            - connect_tcp.started host='localhost' port=6333 local_address=None timeout=5.0 socket_options=None
+2025-05-27 17:25:00,809 - DEBUG    - httpcore.connection            - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fe97dab1120>
+2025-05-27 17:25:00,809 - DEBUG    - httpcore.http11                - send_request_headers.started request=<Request [b'GET']>
+2025-05-27 17:25:00,810 - DEBUG    - httpcore.connection            - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fe97dab1e10>
+2025-05-27 17:25:00,810 - DEBUG    - httpcore.http11                - send_request_headers.complete
+2025-05-27 17:25:00,810 - DEBUG    - httpcore.http11                - send_request_headers.started request=<Request [b'GET']>
+2025-05-27 17:25:00,810 - DEBUG    - httpcore.http11                - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'transfer-encoding', b'chunked'), (b'content-type', b'application/json'), (b'vary', b'accept-encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers'), (b'content-encoding', b'zstd'), (b'date', b'Tue, 27 May 2025 14:25:00 GMT')])
+2025-05-27 17:25:00,810 - DEBUG    - httpcore.connection            - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fe97dab2500>
+2025-05-27 17:25:00,810 - DEBUG    - httpcore.http11                - send_request_body.started request=<Request [b'GET']>
+2025-05-27 17:25:00,811 - DEBUG    - httpcore.http11                - send_request_headers.complete
+2025-05-27 17:25:00,811 - INFO     - httpx                          - HTTP Request: GET http://localhost:6333/collections/pdf_knowledge_base_hybrid3 "HTTP/1.1 200 OK"
+2025-05-27 17:25:00,811 - DEBUG    - httpcore.http11                - send_request_headers.started request=<Request [b'GET']>
+2025-05-27 17:25:00,812 - DEBUG    - httpcore.http11                - send_request_body.complete
+2025-05-27 17:25:00,812 - DEBUG    - httpcore.http11                - send_request_body.started request=<Request [b'GET']>
+2025-05-27 17:25:00,812 - DEBUG    - httpcore.http11                - receive_response_body.started request=<Request [b'GET']>
+2025-05-27 17:25:00,812 - DEBUG    - httpcore.http11                - receive_response_headers.started request=<Request [b'GET']>
+2025-05-27 17:25:00,812 - DEBUG    - httpcore.http11                - send_request_headers.complete
+2025-05-27 17:25:00,813 - DEBUG    - httpcore.http11                - send_request_body.complete
+2025-05-27 17:25:00,813 - DEBUG    - httpcore.http11                - receive_response_body.complete
+2025-05-27 17:25:00,813 - DEBUG    - httpcore.http11                - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'transfer-encoding', b'chunked'), (b'content-encoding', b'zstd'), (b'vary', b'accept-encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers'), (b'content-type', b'application/json'), (b'date', b'Tue, 27 May 2025 14:25:00 GMT')])
+2025-05-27 17:25:00,814 - DEBUG    - httpcore.http11                - send_request_body.started request=<Request [b'GET']>
+2025-05-27 17:25:00,814 - DEBUG    - httpcore.http11                - receive_response_headers.started request=<Request [b'GET']>
+2025-05-27 17:25:00,814 - DEBUG    - httpcore.http11                - response_closed.started
+2025-05-27 17:25:00,814 - INFO     - httpx                          - HTTP Request: GET http://localhost:6333/collections/pdf_knowledge_base_hybrid3 "HTTP/1.1 200 OK"
+2025-05-27 17:25:00,814 - DEBUG    - httpcore.http11                - send_request_body.complete
+2025-05-27 17:25:00,815 - DEBUG    - httpcore.http11                - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'transfer-encoding', b'chunked'), (b'vary', b'accept-encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers'), (b'content-encoding', b'zstd'), (b'content-type', b'application/json'), (b'date', b'Tue, 27 May 2025 14:25:00 GMT')])
+2025-05-27 17:25:00,815 - DEBUG    - httpcore.http11                - response_closed.complete
+2025-05-27 17:25:00,815 - DEBUG    - httpcore.http11                - receive_response_body.started request=<Request [b'GET']>
+2025-05-27 17:25:00,815 - DEBUG    - httpcore.http11                - receive_response_headers.started request=<Request [b'GET']>
+2025-05-27 17:25:00,816 - INFO     - httpx                          - HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+2025-05-27 17:25:00,816 - DEBUG    - httpcore.connection            - close.started
+2025-05-27 17:25:00,816 - DEBUG    - httpcore.http11                - receive_response_body.complete
+2025-05-27 17:25:00,819 - DEBUG    - httpcore.http11                - receive_response_body.started request=<Request [b'GET']>
+2025-05-27 17:25:00,819 - DEBUG    - httpcore.http11                - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'transfer-encoding', b'chunked'), (b'vary', b'accept-encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers'), (b'content-type', b'application/json'), (b'content-encoding', b'zstd'), (b'date', b'Tue, 27 May 2025 14:25:00 GMT')])
+2025-05-27 17:25:00,819 - DEBUG    - httpcore.connection            - close.complete
+2025-05-27 17:25:00,819 - DEBUG    - httpcore.http11                - response_closed.started
+2025-05-27 17:25:00,820 - DEBUG    - httpcore.http11                - receive_response_body.complete
+2025-05-27 17:25:00,820 - INFO     - httpx                          - HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+2025-05-27 17:25:00,826 - DEBUG    - httpcore.http11                - response_closed.complete
+2025-05-27 17:25:00,826 - DEBUG    - httpcore.http11                - response_closed.started
+2025-05-27 17:25:00,827 - DEBUG    - httpcore.http11                - receive_response_body.started request=<Request [b'GET']>
+2025-05-27 17:25:00,827 - DEBUG    - httpcore.connection            - close.started
+2025-05-27 17:25:00,827 - DEBUG    - httpcore.http11                - response_closed.complete
+2025-05-27 17:25:00,828 - DEBUG    - httpcore.http11                - receive_response_body.complete
+2025-05-27 17:25:00,828 - DEBUG    - httpcore.connection            - close.started
+2025-05-27 17:25:00,828 - DEBUG    - httpcore.connection            - close.complete
+2025-05-27 17:25:00,829 - DEBUG    - httpcore.http11                - response_closed.started
+2025-05-27 17:25:00,829 - DEBUG    - httpcore.connection            - close.complete
+2025-05-27 17:25:00,832 - DEBUG    - httpcore.http11                - response_closed.complete
+2025-05-27 17:25:00,833 - DEBUG    - httpcore.connection            - connect_tcp.started host='localhost' port=6333 local_address=None timeout=5.0 socket_options=None
+2025-05-27 17:25:00,833 - DEBUG    - httpcore.connection            - close.started
+2025-05-27 17:25:00,834 - DEBUG    - httpcore.connection            - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fe9c5d43280>
+2025-05-27 17:25:00,835 - DEBUG    - httpcore.http11                - send_request_headers.started request=<Request [b'GET']>
+2025-05-27 17:25:00,835 - DEBUG    - httpcore.http11                - send_request_headers.complete
+2025-05-27 17:25:00,835 - DEBUG    - httpcore.http11                - send_request_body.started request=<Request [b'GET']>
+2025-05-27 17:25:00,835 - DEBUG    - httpcore.http11                - send_request_body.complete
+2025-05-27 17:25:00,835 - DEBUG    - httpcore.http11                - receive_response_headers.started request=<Request [b'GET']>
+2025-05-27 17:25:00,835 - DEBUG    - httpcore.connection            - close.complete
+2025-05-27 17:25:00,839 - DEBUG    - httpcore.connection            - connect_tcp.started host='localhost' port=6333 local_address=None timeout=5.0 socket_options=None
+2025-05-27 17:25:00,839 - DEBUG    - httpcore.http11                - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'transfer-encoding', b'chunked'), (b'content-encoding', b'zstd'), (b'vary', b'accept-encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers'), (b'content-type', b'application/json'), (b'date', b'Tue, 27 May 2025 14:25:00 GMT')])
+2025-05-27 17:25:00,841 - INFO     - httpx                          - HTTP Request: GET http://localhost:6333/collections/pdf_knowledge_base_hybrid3 "HTTP/1.1 200 OK"
+2025-05-27 17:25:00,843 - DEBUG    - httpcore.connection            - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fe9c5d430d0>
+2025-05-27 17:25:00,844 - DEBUG    - httpcore.http11                - send_request_headers.started request=<Request [b'GET']>
+2025-05-27 17:25:00,846 - DEBUG    - httpcore.http11                - receive_response_body.started request=<Request [b'GET']>
+2025-05-27 17:25:00,846 - DEBUG    - httpcore.http11                - receive_response_body.complete
+2025-05-27 17:25:00,847 - DEBUG    - httpcore.http11                - send_request_headers.complete
+2025-05-27 17:25:00,847 - DEBUG    - httpcore.http11                - response_closed.started
+2025-05-27 17:25:00,848 - DEBUG    - httpcore.http11                - send_request_body.started request=<Request [b'GET']>
+2025-05-27 17:25:00,849 - DEBUG    - httpcore.http11                - response_closed.complete
+2025-05-27 17:25:00,850 - DEBUG    - httpcore.http11                - send_request_body.complete
+2025-05-27 17:25:00,851 - DEBUG    - httpcore.connection            - close.started
+2025-05-27 17:25:00,851 - DEBUG    - httpcore.http11                - receive_response_headers.started request=<Request [b'GET']>
+2025-05-27 17:25:00,852 - DEBUG    - httpcore.connection            - close.complete
+2025-05-27 17:25:00,853 - DEBUG    - httpcore.http11                - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'transfer-encoding', b'chunked'), (b'content-type', b'application/json'), (b'content-encoding', b'zstd'), (b'vary', b'accept-encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers'), (b'date', b'Tue, 27 May 2025 14:25:00 GMT')])
+2025-05-27 17:25:00,856 - INFO     - httpx                          - HTTP Request: GET http://localhost:6333/collections/pdf_knowledge_base_hybrid3 "HTTP/1.1 200 OK"
+2025-05-27 17:25:00,856 - DEBUG    - httpcore.http11                - receive_response_body.started request=<Request [b'GET']>
+2025-05-27 17:25:00,857 - DEBUG    - httpcore.http11                - receive_response_body.complete
+2025-05-27 17:25:00,858 - DEBUG    - httpcore.http11                - response_closed.started
+2025-05-27 17:25:00,858 - DEBUG    - httpcore.http11                - response_closed.complete
+2025-05-27 17:25:00,858 - DEBUG    - httpcore.connection            - close.started
+2025-05-27 17:25:00,859 - DEBUG    - httpcore.connection            - close.complete
+2025-05-27 17:25:01,033 - DEBUG    - httpcore.connection            - connect_tcp.started host='localhost' port=6333 local_address=None timeout=5.0 socket_options=None
+2025-05-27 17:25:01,035 - DEBUG    - httpcore.connection            - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fe97dab3010>
+2025-05-27 17:25:01,035 - DEBUG    - httpcore.http11                - send_request_headers.started request=<Request [b'GET']>
+2025-05-27 17:25:01,037 - DEBUG    - httpcore.connection            - connect_tcp.started host='localhost' port=6333 local_address=None timeout=5.0 socket_options=None
+2025-05-27 17:25:01,037 - DEBUG    - httpcore.http11                - send_request_headers.complete
+2025-05-27 17:25:01,038 - DEBUG    - httpcore.http11                - send_request_body.started request=<Request [b'GET']>
+2025-05-27 17:25:01,038 - DEBUG    - httpcore.http11                - send_request_body.complete
+2025-05-27 17:25:01,039 - DEBUG    - httpcore.http11                - receive_response_headers.started request=<Request [b'GET']>
+2025-05-27 17:25:01,039 - DEBUG    - httpcore.connection            - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fe97dab0bb0>
+2025-05-27 17:25:01,040 - DEBUG    - httpcore.http11                - send_request_headers.started request=<Request [b'GET']>
+2025-05-27 17:25:01,041 - DEBUG    - httpcore.http11                - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'transfer-encoding', b'chunked'), (b'content-encoding', b'zstd'), (b'vary', b'accept-encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers'), (b'content-type', b'application/json'), (b'date', b'Tue, 27 May 2025 14:25:00 GMT')])
+2025-05-27 17:25:01,042 - DEBUG    - httpcore.http11                - send_request_headers.complete
+2025-05-27 17:25:01,043 - INFO     - httpx                          - HTTP Request: GET http://localhost:6333/collections/pdf_knowledge_base_hybrid3 "HTTP/1.1 200 OK"
+2025-05-27 17:25:01,043 - DEBUG    - httpcore.http11                - send_request_body.started request=<Request [b'GET']>
+2025-05-27 17:25:01,045 - DEBUG    - httpcore.http11                - send_request_body.complete
+2025-05-27 17:25:01,045 - DEBUG    - httpcore.http11                - receive_response_body.started request=<Request [b'GET']>
+2025-05-27 17:25:01,046 - DEBUG    - httpcore.http11                - receive_response_headers.started request=<Request [b'GET']>
+2025-05-27 17:25:01,047 - DEBUG    - httpcore.http11                - receive_response_body.complete
+2025-05-27 17:25:01,048 - DEBUG    - httpcore.http11                - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'transfer-encoding', b'chunked'), (b'content-encoding', b'zstd'), (b'vary', b'accept-encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers'), (b'content-type', b'application/json'), (b'date', b'Tue, 27 May 2025 14:25:00 GMT')])
+2025-05-27 17:25:01,048 - DEBUG    - httpcore.http11                - response_closed.started
+2025-05-27 17:25:01,049 - INFO     - httpx                          - HTTP Request: GET http://localhost:6333/collections/pdf_knowledge_base_hybrid3 "HTTP/1.1 200 OK"
+2025-05-27 17:25:01,050 - DEBUG    - httpcore.http11                - response_closed.complete
+2025-05-27 17:25:01,050 - DEBUG    - httpcore.http11                - receive_response_body.started request=<Request [b'GET']>
+2025-05-27 17:25:01,051 - DEBUG    - httpcore.connection            - close.started
+2025-05-27 17:25:01,052 - DEBUG    - httpcore.http11                - receive_response_body.complete
+2025-05-27 17:25:01,053 - DEBUG    - httpcore.connection            - close.complete
+2025-05-27 17:25:01,054 - DEBUG    - httpcore.connection            - connect_tcp.started host='localhost' port=6333 local_address=None timeout=5.0 socket_options=None
+2025-05-27 17:25:01,054 - DEBUG    - httpcore.http11                - response_closed.started
+2025-05-27 17:25:01,059 - DEBUG    - httpcore.http11                - response_closed.complete
+2025-05-27 17:25:01,060 - DEBUG    - httpcore.connection            - close.started
+2025-05-27 17:25:01,060 - DEBUG    - httpcore.connection            - close.complete
+2025-05-27 17:25:01,063 - DEBUG    - httpcore.connection            - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fe9c5d43970>
+2025-05-27 17:25:01,064 - DEBUG    - httpcore.http11                - send_request_headers.started request=<Request [b'GET']>
+2025-05-27 17:25:01,067 - DEBUG    - httpcore.http11                - send_request_headers.complete
+2025-05-27 17:25:01,067 - DEBUG    - httpcore.http11                - send_request_body.started request=<Request [b'GET']>
+2025-05-27 17:25:01,067 - DEBUG    - httpcore.http11                - send_request_body.complete
+2025-05-27 17:25:01,067 - DEBUG    - httpcore.http11                - receive_response_headers.started request=<Request [b'GET']>
+2025-05-27 17:25:01,070 - DEBUG    - httpcore.http11                - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'transfer-encoding', b'chunked'), (b'content-type', b'application/json'), (b'content-encoding', b'zstd'), (b'vary', b'accept-encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers'), (b'date', b'Tue, 27 May 2025 14:25:00 GMT')])
+2025-05-27 17:25:01,071 - INFO     - httpx                          - HTTP Request: GET http://localhost:6333/collections/pdf_knowledge_base_hybrid3 "HTTP/1.1 200 OK"
+2025-05-27 17:25:01,072 - DEBUG    - httpcore.http11                - receive_response_body.started request=<Request [b'GET']>
+2025-05-27 17:25:01,073 - DEBUG    - httpcore.http11                - receive_response_body.complete
+2025-05-27 17:25:01,074 - DEBUG    - httpcore.http11                - response_closed.started
+2025-05-27 17:25:01,074 - DEBUG    - httpcore.http11                - response_closed.complete
+2025-05-27 17:25:01,074 - DEBUG    - httpcore.connection            - close.started
+2025-05-27 17:25:01,075 - DEBUG    - httpcore.connection            - close.complete
+2025-05-27 17:25:01,081 - DEBUG    - httpcore.connection            - connect_tcp.started host='localhost' port=6333 local_address=None timeout=5.0 socket_options=None
+2025-05-27 17:25:01,084 - DEBUG    - httpcore.connection            - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fe97dab1090>
+2025-05-27 17:25:01,084 - DEBUG    - httpcore.http11                - send_request_headers.started request=<Request [b'GET']>
+2025-05-27 17:25:01,085 - DEBUG    - httpcore.http11                - send_request_headers.complete
+2025-05-27 17:25:01,085 - DEBUG    - httpcore.http11                - send_request_body.started request=<Request [b'GET']>
+2025-05-27 17:25:01,086 - DEBUG    - httpcore.http11                - send_request_body.complete
+2025-05-27 17:25:01,086 - DEBUG    - httpcore.http11                - receive_response_headers.started request=<Request [b'GET']>
+2025-05-27 17:25:01,088 - DEBUG    - httpcore.http11                - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'transfer-encoding', b'chunked'), (b'content-encoding', b'zstd'), (b'content-type', b'application/json'), (b'vary', b'accept-encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers'), (b'date', b'Tue, 27 May 2025 14:25:00 GMT')])
+2025-05-27 17:25:01,089 - INFO     - httpx                          - HTTP Request: GET http://localhost:6333/collections/pdf_knowledge_base_hybrid3 "HTTP/1.1 200 OK"
+2025-05-27 17:25:01,090 - DEBUG    - httpcore.http11                - receive_response_body.started request=<Request [b'GET']>
+2025-05-27 17:25:01,094 - DEBUG    - httpcore.http11                - receive_response_body.complete
+2025-05-27 17:25:01,095 - DEBUG    - httpcore.http11                - response_closed.started
+2025-05-27 17:25:01,095 - DEBUG    - httpcore.http11                - response_closed.complete
+2025-05-27 17:25:01,096 - DEBUG    - httpcore.connection            - close.started
+2025-05-27 17:25:01,099 - DEBUG    - httpcore.connection            - close.complete
+2025-05-27 17:25:01,633 - DEBUG    - httpcore.connection            - connect_tcp.started host='localhost' port=6333 local_address=None timeout=5.0 socket_options=None
+2025-05-27 17:25:01,636 - DEBUG    - httpcore.connection            - connect_tcp.started host='localhost' port=6333 local_address=None timeout=5.0 socket_options=None
+2025-05-27 17:25:01,636 - DEBUG    - httpcore.connection            - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fe9c5d42ce0>
+2025-05-27 17:25:01,637 - DEBUG    - httpcore.http11                - send_request_headers.started request=<Request [b'POST']>
+2025-05-27 17:25:01,637 - DEBUG    - httpcore.http11                - send_request_headers.complete
+2025-05-27 17:25:01,637 - DEBUG    - httpcore.http11                - send_request_body.started request=<Request [b'POST']>
+2025-05-27 17:25:01,638 - DEBUG    - httpcore.http11                - send_request_body.complete
+2025-05-27 17:25:01,638 - DEBUG    - httpcore.connection            - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fe9c5d41c00>
+2025-05-27 17:25:01,638 - DEBUG    - httpcore.http11                - receive_response_headers.started request=<Request [b'POST']>
+2025-05-27 17:25:01,639 - DEBUG    - httpcore.http11                - send_request_headers.started request=<Request [b'POST']>
+2025-05-27 17:25:01,639 - DEBUG    - httpcore.http11                - send_request_headers.complete
+2025-05-27 17:25:01,639 - DEBUG    - httpcore.http11                - send_request_body.started request=<Request [b'POST']>
+2025-05-27 17:25:01,640 - DEBUG    - httpcore.http11                - send_request_body.complete
+2025-05-27 17:25:01,640 - DEBUG    - httpcore.http11                - receive_response_headers.started request=<Request [b'POST']>
+2025-05-27 17:25:01,645 - DEBUG    - httpcore.connection            - connect_tcp.started host='localhost' port=6333 local_address=None timeout=5.0 socket_options=None
+2025-05-27 17:25:01,646 - DEBUG    - httpcore.connection            - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fe97dab2500>
+2025-05-27 17:25:01,646 - DEBUG    - httpcore.http11                - send_request_headers.started request=<Request [b'POST']>
+2025-05-27 17:25:01,647 - DEBUG    - httpcore.http11                - send_request_headers.complete
+2025-05-27 17:25:01,647 - DEBUG    - httpcore.http11                - send_request_body.started request=<Request [b'POST']>
+2025-05-27 17:25:01,647 - DEBUG    - httpcore.http11                - send_request_body.complete
+2025-05-27 17:25:01,647 - DEBUG    - httpcore.http11                - receive_response_headers.started request=<Request [b'POST']>
+2025-05-27 17:25:01,654 - DEBUG    - httpcore.http11                - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'transfer-encoding', b'chunked'), (b'content-encoding', b'zstd'), (b'vary', b'accept-encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers'), (b'content-type', b'application/json'), (b'date', b'Tue, 27 May 2025 14:25:01 GMT')])
+2025-05-27 17:25:01,655 - INFO     - httpx                          - HTTP Request: POST http://localhost:6333/collections/pdf_knowledge_base_hybrid3/points/query "HTTP/1.1 200 OK"
+2025-05-27 17:25:01,655 - DEBUG    - httpcore.http11                - receive_response_body.started request=<Request [b'POST']>
+2025-05-27 17:25:01,655 - DEBUG    - httpcore.http11                - receive_response_body.complete
+2025-05-27 17:25:01,655 - DEBUG    - httpcore.http11                - response_closed.started
+2025-05-27 17:25:01,656 - DEBUG    - httpcore.http11                - response_closed.complete
+2025-05-27 17:25:01,656 - DEBUG    - httpcore.connection            - close.started
+2025-05-27 17:25:01,656 - DEBUG    - httpcore.connection            - close.complete
+2025-05-27 17:25:01,657 - INFO     - rag_agent_nodes                - Retrieved 3 KB docs for Instruments.
+2025-05-27 17:25:01,658 - DEBUG    - openai._base_client            - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-ee0cd4e3-fdc8-406c-9d64-240f2d7a2d53', 'json_data': {'messages': [{'content': "\nBased on the following overall music project goal and the specific focus area, generate a concise and targeted search query (max 3 words) suitable for finding relevant Q&A on a site like StackExchange (e.g., music.stackexchange.com or audio.stackexchange.com).\nThe query should be specific enough to find practical answers or discussions.\n\nOverall Project Goal:\n---\nBased on the user's request for a Blues music creation project, here's a concise project goal summary:\n\nThe project aims to create a Blues music piece, drawing inspiration from the classic genre's emotional intensity and soulful feel. The target artist/style is likely to be a contemporary Blues musician, such as Gary Clark Jr. or Buddy Guy, known for their mastery of the genre. The desired mood is melancholic and heartfelt, evoking the feelings of longing and nostalgia that are characteristic of Blues music. Instrumentation may include the guitar, harmonica, and drums, with possible additional elements like piano or bass.\n\nThe tempo is likely to be moderate, around 100-120 BPM, allowing for a steady, walking pace that underscores the emotional weight of the music. A key signature of E-flat minor (Ebmin) or C minor (Cmin) is implied, which are common keys used in Blues music. The overall goal is to craft a Blues piece that feels authentic, heartfelt, and true to the genre's traditions.\n---\n\nSpecific Focus Area for this query: Instruments\n\nConcise Search Query for StackExchange  IN 2 WORDS:\n", 'role': 'user'}], 'model': 'meta-llama/Llama-3.2-3B-Instruct', 'stream': False, 'temperature': 0.7}}
+2025-05-27 17:25:01,659 - DEBUG    - openai._base_client            - Sending HTTP Request: POST https://api.runpod.ai/v2/u4d3b5g2c5ot09/openai/v1/chat/completions
+2025-05-27 17:25:01,659 - DEBUG    - httpcore.http11                - send_request_headers.started request=<Request [b'POST']>
+2025-05-27 17:25:01,660 - DEBUG    - httpcore.http11                - send_request_headers.complete
+2025-05-27 17:25:01,660 - DEBUG    - httpcore.http11                - send_request_body.started request=<Request [b'POST']>
+2025-05-27 17:25:01,660 - DEBUG    - httpcore.http11                - send_request_body.complete
+2025-05-27 17:25:01,660 - DEBUG    - httpcore.http11                - receive_response_headers.started request=<Request [b'POST']>
+2025-05-27 17:25:01,663 - DEBUG    - httpcore.connection            - connect_tcp.started host='localhost' port=6333 local_address=None timeout=5.0 socket_options=None
+2025-05-27 17:25:01,663 - DEBUG    - httpcore.http11                - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'transfer-encoding', b'chunked'), (b'content-encoding', b'zstd'), (b'vary', b'accept-encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers'), (b'content-type', b'application/json'), (b'date', b'Tue, 27 May 2025 14:25:01 GMT')])
+2025-05-27 17:25:01,663 - INFO     - httpx                          - HTTP Request: POST http://localhost:6333/collections/pdf_knowledge_base_hybrid3/points/query "HTTP/1.1 200 OK"
+2025-05-27 17:25:01,664 - DEBUG    - httpcore.http11                - receive_response_body.started request=<Request [b'POST']>
+2025-05-27 17:25:01,664 - DEBUG    - httpcore.connection            - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fe97dab0250>
+2025-05-27 17:25:01,664 - DEBUG    - httpcore.http11                - receive_response_body.complete
+2025-05-27 17:25:01,664 - DEBUG    - httpcore.http11                - send_request_headers.started request=<Request [b'POST']>
+2025-05-27 17:25:01,664 - DEBUG    - httpcore.http11                - response_closed.started
+2025-05-27 17:25:01,664 - DEBUG    - httpcore.http11                - response_closed.complete
+2025-05-27 17:25:01,664 - DEBUG    - httpcore.http11                - send_request_headers.complete
+2025-05-27 17:25:01,664 - DEBUG    - httpcore.connection            - close.started
+2025-05-27 17:25:01,665 - DEBUG    - httpcore.http11                - send_request_body.started request=<Request [b'POST']>
+2025-05-27 17:25:01,665 - DEBUG    - httpcore.connection            - close.complete
+2025-05-27 17:25:01,665 - DEBUG    - httpcore.http11                - send_request_body.complete
+2025-05-27 17:25:01,665 - INFO     - rag_agent_nodes                - Retrieved 3 KB docs for Production.
+2025-05-27 17:25:01,665 - DEBUG    - httpcore.http11                - receive_response_headers.started request=<Request [b'POST']>
+2025-05-27 17:25:01,665 - DEBUG    - httpcore.http11                - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'transfer-encoding', b'chunked'), (b'content-type', b'application/json'), (b'content-encoding', b'zstd'), (b'vary', b'accept-encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers'), (b'date', b'Tue, 27 May 2025 14:25:01 GMT')])
+2025-05-27 17:25:01,667 - DEBUG    - openai._base_client            - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-e7fa8fdb-3cfe-460a-8145-aa88f3310dd0', 'json_data': {'messages': [{'content': "\nBased on the following overall music project goal and the specific focus area, generate a concise and targeted search query (max 3 words) suitable for finding relevant Q&A on a site like StackExchange (e.g., music.stackexchange.com or audio.stackexchange.com).\nThe query should be specific enough to find practical answers or discussions.\n\nOverall Project Goal:\n---\nBased on the user's request for a Blues music creation project, here's a concise project goal summary:\n\nThe project aims to create a Blues music piece, drawing inspiration from the classic genre's emotional intensity and soulful feel. The target artist/style is likely to be a contemporary Blues musician, such as Gary Clark Jr. or Buddy Guy, known for their mastery of the genre. The desired mood is melancholic and heartfelt, evoking the feelings of longing and nostalgia that are characteristic of Blues music. Instrumentation may include the guitar, harmonica, and drums, with possible additional elements like piano or bass.\n\nThe tempo is likely to be moderate, around 100-120 BPM, allowing for a steady, walking pace that underscores the emotional weight of the music. A key signature of E-flat minor (Ebmin) or C minor (Cmin) is implied, which are common keys used in Blues music. The overall goal is to craft a Blues piece that feels authentic, heartfelt, and true to the genre's traditions.\n---\n\nSpecific Focus Area for this query: Production\n\nConcise Search Query for StackExchange  IN 2 WORDS:\n", 'role': 'user'}], 'model': 'meta-llama/Llama-3.2-3B-Instruct', 'stream': False, 'temperature': 0.7}}
+2025-05-27 17:25:01,667 - INFO     - httpx                          - HTTP Request: POST http://localhost:6333/collections/pdf_knowledge_base_hybrid3/points/query "HTTP/1.1 200 OK"
+2025-05-27 17:25:01,668 - DEBUG    - openai._base_client            - Sending HTTP Request: POST https://api.runpod.ai/v2/u4d3b5g2c5ot09/openai/v1/chat/completions
+2025-05-27 17:25:01,669 - DEBUG    - httpcore.http11                - receive_response_body.started request=<Request [b'POST']>
+2025-05-27 17:25:01,669 - DEBUG    - httpcore.connection            - connect_tcp.started host='api.runpod.ai' port=443 local_address=None timeout=60.0 socket_options=None
+2025-05-27 17:25:01,669 - DEBUG    - httpcore.http11                - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'transfer-encoding', b'chunked'), (b'content-encoding', b'zstd'), (b'content-type', b'application/json'), (b'vary', b'accept-encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers'), (b'date', b'Tue, 27 May 2025 14:25:01 GMT')])
+2025-05-27 17:25:01,670 - DEBUG    - httpcore.http11                - receive_response_body.complete
+2025-05-27 17:25:01,670 - INFO     - httpx                          - HTTP Request: POST http://localhost:6333/collections/pdf_knowledge_base_hybrid3/points/query "HTTP/1.1 200 OK"
+2025-05-27 17:25:01,670 - DEBUG    - httpcore.http11                - response_closed.started
+2025-05-27 17:25:01,670 - DEBUG    - httpcore.http11                - response_closed.complete
+2025-05-27 17:25:01,670 - DEBUG    - httpcore.connection            - close.started
+2025-05-27 17:25:01,670 - DEBUG    - httpcore.http11                - receive_response_body.started request=<Request [b'POST']>
+2025-05-27 17:25:01,670 - DEBUG    - httpcore.connection            - close.complete
+2025-05-27 17:25:01,671 - INFO     - rag_agent_nodes                - Retrieved 3 KB docs for Music Theory.
+2025-05-27 17:25:01,672 - DEBUG    - openai._base_client            - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-3e398c99-8d9d-47d3-b850-54ff9a824734', 'json_data': {'messages': [{'content': "\nBased on the following overall music project goal and the specific focus area, generate a concise and targeted search query (max 3 words) suitable for finding relevant Q&A on a site like StackExchange (e.g., music.stackexchange.com or audio.stackexchange.com).\nThe query should be specific enough to find practical answers or discussions.\n\nOverall Project Goal:\n---\nBased on the user's request for a Blues music creation project, here's a concise project goal summary:\n\nThe project aims to create a Blues music piece, drawing inspiration from the classic genre's emotional intensity and soulful feel. The target artist/style is likely to be a contemporary Blues musician, such as Gary Clark Jr. or Buddy Guy, known for their mastery of the genre. The desired mood is melancholic and heartfelt, evoking the feelings of longing and nostalgia that are characteristic of Blues music. Instrumentation may include the guitar, harmonica, and drums, with possible additional elements like piano or bass.\n\nThe tempo is likely to be moderate, around 100-120 BPM, allowing for a steady, walking pace that underscores the emotional weight of the music. A key signature of E-flat minor (Ebmin) or C minor (Cmin) is implied, which are common keys used in Blues music. The overall goal is to craft a Blues piece that feels authentic, heartfelt, and true to the genre's traditions.\n---\n\nSpecific Focus Area for this query: Music Theory\n\nConcise Search Query for StackExchange  IN 2 WORDS:\n", 'role': 'user'}], 'model': 'meta-llama/Llama-3.2-3B-Instruct', 'stream': False, 'temperature': 0.7}}
+2025-05-27 17:25:01,673 - DEBUG    - openai._base_client            - Sending HTTP Request: POST https://api.runpod.ai/v2/u4d3b5g2c5ot09/openai/v1/chat/completions
+2025-05-27 17:25:01,673 - DEBUG    - httpcore.connection            - connect_tcp.started host='api.runpod.ai' port=443 local_address=None timeout=60.0 socket_options=None
+2025-05-27 17:25:01,673 - DEBUG    - httpcore.http11                - receive_response_body.complete
+2025-05-27 17:25:01,673 - DEBUG    - httpcore.http11                - response_closed.started
+2025-05-27 17:25:01,673 - DEBUG    - httpcore.http11                - response_closed.complete
+2025-05-27 17:25:01,673 - DEBUG    - httpcore.connection            - close.started
+2025-05-27 17:25:01,673 - DEBUG    - httpcore.connection            - close.complete
+2025-05-27 17:25:01,674 - INFO     - rag_agent_nodes                - Retrieved 3 KB docs for Rhythm.
+2025-05-27 17:25:01,675 - DEBUG    - openai._base_client            - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-3d52805b-71fd-4025-bcd8-5ace0d382157', 'json_data': {'messages': [{'content': "\nBased on the following overall music project goal and the specific focus area, generate a concise and targeted search query (max 3 words) suitable for finding relevant Q&A on a site like StackExchange (e.g., music.stackexchange.com or audio.stackexchange.com).\nThe query should be specific enough to find practical answers or discussions.\n\nOverall Project Goal:\n---\nBased on the user's request for a Blues music creation project, here's a concise project goal summary:\n\nThe project aims to create a Blues music piece, drawing inspiration from the classic genre's emotional intensity and soulful feel. The target artist/style is likely to be a contemporary Blues musician, such as Gary Clark Jr. or Buddy Guy, known for their mastery of the genre. The desired mood is melancholic and heartfelt, evoking the feelings of longing and nostalgia that are characteristic of Blues music. Instrumentation may include the guitar, harmonica, and drums, with possible additional elements like piano or bass.\n\nThe tempo is likely to be moderate, around 100-120 BPM, allowing for a steady, walking pace that underscores the emotional weight of the music. A key signature of E-flat minor (Ebmin) or C minor (Cmin) is implied, which are common keys used in Blues music. The overall goal is to craft a Blues piece that feels authentic, heartfelt, and true to the genre's traditions.\n---\n\nSpecific Focus Area for this query: Rhythm\n\nConcise Search Query for StackExchange  IN 2 WORDS:\n", 'role': 'user'}], 'model': 'meta-llama/Llama-3.2-3B-Instruct', 'stream': False, 'temperature': 0.7}}
+2025-05-27 17:25:01,676 - DEBUG    - openai._base_client            - Sending HTTP Request: POST https://api.runpod.ai/v2/u4d3b5g2c5ot09/openai/v1/chat/completions
+2025-05-27 17:25:01,676 - DEBUG    - httpcore.connection            - connect_tcp.started host='api.runpod.ai' port=443 local_address=None timeout=60.0 socket_options=None
+2025-05-27 17:25:01,707 - DEBUG    - httpcore.connection            - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fe9c5c5de40>
+2025-05-27 17:25:01,708 - DEBUG    - httpcore.connection            - start_tls.started ssl_context=<ssl.SSLContext object at 0x7fe9801a6b40> server_hostname='api.runpod.ai' timeout=60.0
+2025-05-27 17:25:01,715 - DEBUG    - httpcore.connection            - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fe9c5c5d9c0>
+2025-05-27 17:25:01,716 - DEBUG    - httpcore.connection            - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fe97dab1f00>
+2025-05-27 17:25:01,716 - DEBUG    - httpcore.connection            - start_tls.started ssl_context=<ssl.SSLContext object at 0x7fe9801a6b40> server_hostname='api.runpod.ai' timeout=60.0
+2025-05-27 17:25:01,716 - DEBUG    - httpcore.connection            - start_tls.started ssl_context=<ssl.SSLContext object at 0x7fe9801a6b40> server_hostname='api.runpod.ai' timeout=60.0
+2025-05-27 17:25:01,748 - DEBUG    - httpcore.connection            - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fe97dab39d0>
+2025-05-27 17:25:01,748 - DEBUG    - httpcore.http11                - send_request_headers.started request=<Request [b'POST']>
+2025-05-27 17:25:01,748 - DEBUG    - httpcore.http11                - send_request_headers.complete
+2025-05-27 17:25:01,748 - DEBUG    - httpcore.http11                - send_request_body.started request=<Request [b'POST']>
+2025-05-27 17:25:01,748 - DEBUG    - httpcore.http11                - send_request_body.complete
+2025-05-27 17:25:01,749 - DEBUG    - httpcore.http11                - receive_response_headers.started request=<Request [b'POST']>
+2025-05-27 17:25:01,761 - DEBUG    - httpcore.connection            - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fe9c5d40f40>
+2025-05-27 17:25:01,761 - DEBUG    - httpcore.connection            - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fe9c5c5d930>
+2025-05-27 17:25:01,761 - DEBUG    - httpcore.http11                - send_request_headers.started request=<Request [b'POST']>
+2025-05-27 17:25:01,761 - DEBUG    - httpcore.http11                - send_request_headers.started request=<Request [b'POST']>
+2025-05-27 17:25:01,762 - DEBUG    - httpcore.http11                - send_request_headers.complete
+2025-05-27 17:25:01,762 - DEBUG    - httpcore.http11                - send_request_headers.complete
+2025-05-27 17:25:01,762 - DEBUG    - httpcore.http11                - send_request_body.started request=<Request [b'POST']>
+2025-05-27 17:25:01,763 - DEBUG    - httpcore.http11                - send_request_body.started request=<Request [b'POST']>
+2025-05-27 17:25:01,763 - DEBUG    - httpcore.http11                - send_request_body.complete
+2025-05-27 17:25:01,763 - DEBUG    - httpcore.http11                - receive_response_headers.started request=<Request [b'POST']>
+2025-05-27 17:25:01,763 - DEBUG    - httpcore.http11                - send_request_body.complete
+2025-05-27 17:25:01,763 - DEBUG    - httpcore.http11                - receive_response_headers.started request=<Request [b'POST']>
+2025-05-27 17:25:02,632 - DEBUG    - httpcore.http11                - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 27 May 2025 14:25:25 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'cf-cache-status', b'DYNAMIC'), (b'Server', b'cloudflare'), (b'CF-RAY', b'94662e70aafde4b4-OTP'), (b'Content-Encoding', b'gzip')])
+2025-05-27 17:25:02,633 - INFO     - httpx                          - HTTP Request: POST https://api.runpod.ai/v2/u4d3b5g2c5ot09/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 17:25:02,634 - DEBUG    - httpcore.http11                - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 27 May 2025 14:25:25 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'cf-cache-status', b'DYNAMIC'), (b'Server', b'cloudflare'), (b'CF-RAY', b'94662e70ac53053b-OTP'), (b'Content-Encoding', b'gzip')])
+2025-05-27 17:25:02,635 - DEBUG    - httpcore.http11                - receive_response_body.started request=<Request [b'POST']>
+2025-05-27 17:25:02,635 - INFO     - httpx                          - HTTP Request: POST https://api.runpod.ai/v2/u4d3b5g2c5ot09/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 17:25:02,636 - DEBUG    - httpcore.http11                - receive_response_body.started request=<Request [b'POST']>
+2025-05-27 17:25:02,637 - DEBUG    - httpcore.http11                - receive_response_body.complete
+2025-05-27 17:25:02,637 - DEBUG    - httpcore.http11                - receive_response_body.complete
+2025-05-27 17:25:02,637 - DEBUG    - httpcore.http11                - response_closed.started
+2025-05-27 17:25:02,638 - DEBUG    - httpcore.http11                - response_closed.started
+2025-05-27 17:25:02,638 - DEBUG    - httpcore.http11                - response_closed.complete
+2025-05-27 17:25:02,638 - DEBUG    - httpcore.http11                - response_closed.complete
+2025-05-27 17:25:02,638 - DEBUG    - openai._base_client            - HTTP Response: POST https://api.runpod.ai/v2/u4d3b5g2c5ot09/openai/v1/chat/completions "200 OK" Headers({'date': 'Tue, 27 May 2025 14:25:25 GMT', 'content-type': 'application/json; charset=utf-8', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cf-cache-status': 'DYNAMIC', 'server': 'cloudflare', 'cf-ray': '94662e70aafde4b4-OTP', 'content-encoding': 'gzip'})
+2025-05-27 17:25:02,638 - DEBUG    - openai._base_client            - HTTP Response: POST https://api.runpod.ai/v2/u4d3b5g2c5ot09/openai/v1/chat/completions "200 OK" Headers({'date': 'Tue, 27 May 2025 14:25:25 GMT', 'content-type': 'application/json; charset=utf-8', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cf-cache-status': 'DYNAMIC', 'server': 'cloudflare', 'cf-ray': '94662e70ac53053b-OTP', 'content-encoding': 'gzip'})
+2025-05-27 17:25:02,638 - DEBUG    - openai._base_client            - request_id: None
+2025-05-27 17:25:02,639 - DEBUG    - openai._base_client            - request_id: None
+2025-05-27 17:25:02,640 - INFO     - rag_agent_nodes                - SE query tokens P=338, C=6
+2025-05-27 17:25:02,641 - INFO     - rag_agent_nodes                - SE query tokens P=338, C=5
+2025-05-27 17:25:02,643 - DEBUG    - urllib3.connectionpool         - Starting new HTTPS connection (1): api.stackexchange.com:443
+2025-05-27 17:25:02,644 - DEBUG    - urllib3.connectionpool         - Starting new HTTPS connection (1): api.stackexchange.com:443
+2025-05-27 17:25:03,042 - DEBUG    - urllib3.connectionpool         - https://api.stackexchange.com:443 "GET /2.3/search/advanced?site=audio.stackexchange.com&q=Blues+Rhythm&pagesize=2&sort=relevance&order=desc HTTP/1.1" 400 119
+2025-05-27 17:25:03,048 - DEBUG    - openai._base_client            - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-186d53e7-0928-445d-91b0-98a9cbea1b95', 'json_data': {'messages': [{'content': '\nYou are a helpful music production assistant specializing in rhythm and groove.\nYour goal is to provide actionable and creative suggestions.\n\nBased on the following overall project goal:\n---\nBased on the user\'s request for a Blues music creation project, here\'s a concise project goal summary:\n\nThe project aims to create a Blues music piece, drawing inspiration from the classic genre\'s emotional intensity and soulful feel. The target artist/style is likely to be a contemporary Blues musician, such as Gary Clark Jr. or Buddy Guy, known for their mastery of the genre. The desired mood is melancholic and heartfelt, evoking the feelings of longing and nostalgia that are characteristic of Blues music. Instrumentation may include the guitar, harmonica, and drums, with possible additional elements like piano or bass.\n\nThe tempo is likely to be moderate, around 100-120 BPM, allowing for a steady, walking pace that underscores the emotional weight of the music. A key signature of E-flat minor (Ebmin) or C minor (Cmin) is implied, which are common keys used in Blues music. The overall goal is to craft a Blues piece that feels authentic, heartfelt, and true to the genre\'s traditions.\n---\n\nAnd these relevant knowledge chunks retrieved from a music production knowledge base about rhythm, drums, and groove:\n---\nKB INFO:\nKB: rythm/TBQ_the_basic_elements_of_music.pdf (Pg:32):\n2. Have the students listen to excerpts of instrumental music. Encourage them to come up with adjectives that describe the color of the instruments. Some words that musicians often use to describe color/timbre are: bright, dark, full, thin, warm, rich, reedy, rounded, edgy, breathy (pronounced BRETH-ee), scratchy, heavy, light, transparent, and intense. If your students have trouble coming up with adjectives, suggest some of these, but encourage them to come up with their own, too. If students independently come up with a timbre word that musicians often use, point this out and congratulate them on doing so; but point out that the use of timbre words is fairly informal, and coming up with their own is (cid:28)ne, too, particularly if they are good descriptions of the sound. eCopy available for free at Textbook Equity http://textbookequity.org/the-basic-elements-of-music or http://cnx.org/content/ col10218/1.8\n---\nKB: rythm/TBQ_the_basic_elements_of_music.pdf (Pg:98):\nTernary Form - Three main sections, usually A B A or A B A’. • Cyclic Form - There are two very di(cid:27)erent uses of this term. One refers to long multimovement works (a "song cycle", for example) that have an overarching theme and structure binding them together. It may also refer to a single movement or piece of music with a form based on the constant repetition of a single short section. This may be an exact repetition (ostinato) in one part of the music (for example, the bass line, or the rhythm section), while development, variation, or new melodies occur in other parts. Or it may be a repetition that gradually changes and evolves. This intense-repetition type of cyclic form is very common in folk musics around the world and often (cid:28)nds its way into classical and popular musics, too.\n---\nKB: rythm/TBQ_the_basic_elements_of_music.pdf (Pg:55):\nchords - In Western65 music, most harmony is based on chords. Chords are groups of notes built on major66 or minor67 triads68. In traditional triadic harmony, there are always at least three notes in a chord (there can be more than three), but some of the notes may be left out and only "implied" by the harmony. The notes of the chord may be played at the same time (block chords), or may be played separately with some overlap, or may be played separately but in a quick enough succession that they will be "heard" as a chord or understood to imply a chord (arpeggiated chords or arpeggios). • chord progression - A series of chords played one after another is a chord progression. Musicians may describe a speci(cid:28)c chord progression (for example, "two measures of G major, then a half measure of A minor and a half measure of D seventh", or just "G, A minor, D seventh") or speak more generally of classes of chord progressions (for example a "blues chord progression")\n\nSE INFO:\nNo SE info.\n---\n\nPlease generate 2-4 distinct and actionable rhythm suggestions for this music project.\nFocus ONLY on aspects like drum patterns, percussion, rhythmic feel, groove techniques, beat programming, and tempo considerations.\nIf the retrieved knowledge chunks are sparse or not directly relevant, rely more on the project goal to generate general but applicable rhythmic ideas.\nEnsure your suggestions are formatted as Markdown bullet points. Each bullet point should represent a complete, creative idea.\n\nRhythm Suggestions:\n', 'role': 'user'}], 'model': 'meta-llama/Llama-3.2-3B-Instruct', 'stream': False, 'temperature': 0.7}}
+2025-05-27 17:25:03,050 - DEBUG    - openai._base_client            - Sending HTTP Request: POST https://api.runpod.ai/v2/u4d3b5g2c5ot09/openai/v1/chat/completions
+2025-05-27 17:25:03,050 - DEBUG    - httpcore.http11                - send_request_headers.started request=<Request [b'POST']>
+2025-05-27 17:25:03,051 - DEBUG    - httpcore.http11                - send_request_headers.complete
+2025-05-27 17:25:03,051 - DEBUG    - httpcore.http11                - send_request_body.started request=<Request [b'POST']>
+2025-05-27 17:25:03,051 - DEBUG    - httpcore.http11                - send_request_body.complete
+2025-05-27 17:25:03,051 - DEBUG    - httpcore.http11                - receive_response_headers.started request=<Request [b'POST']>
+2025-05-27 17:25:03,069 - DEBUG    - urllib3.connectionpool         - https://api.stackexchange.com:443 "GET /2.3/search/advanced?site=music.stackexchange.com&q=%22Blues+Theory%22&pagesize=2&sort=relevance&order=desc HTTP/1.1" 200 87
+2025-05-27 17:25:03,072 - DEBUG    - openai._base_client            - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-e31c391e-4dd6-4e79-bddd-c01440720a2d', 'json_data': {'messages': [{'content': "\nYou are a helpful music theory assistant.\nYour goal is to provide actionable and creative suggestions related to harmony, melody, and song structure.\n\nBased on the following overall project goal:\n---\nBased on the user's request for a Blues music creation project, here's a concise project goal summary:\n\nThe project aims to create a Blues music piece, drawing inspiration from the classic genre's emotional intensity and soulful feel. The target artist/style is likely to be a contemporary Blues musician, such as Gary Clark Jr. or Buddy Guy, known for their mastery of the genre. The desired mood is melancholic and heartfelt, evoking the feelings of longing and nostalgia that are characteristic of Blues music. Instrumentation may include the guitar, harmonica, and drums, with possible additional elements like piano or bass.\n\nThe tempo is likely to be moderate, around 100-120 BPM, allowing for a steady, walking pace that underscores the emotional weight of the music. A key signature of E-flat minor (Ebmin) or C minor (Cmin) is implied, which are common keys used in Blues music. The overall goal is to craft a Blues piece that feels authentic, heartfelt, and true to the genre's traditions.\n---\n\nAnd these relevant knowledge chunks retrieved from a music theory knowledge base:\n---\nKB INFO:\nKB: theory_general/OPEN_MUSIC_THEORY_V2.pdf (Pg:17):\nLimitations of Chord-Scale Theory\n\nBlues Harmony 12-Bar Blues Examples of Variations\n\nBlues Melodies and the Blues Scale Phrase and Lyric Structure\n---\nKB: theory_general/Understanding_Basic_Music_Theory_hk_r.pdf (Pg:118):\nmost Western music.\n\nNow take a look at the piano keyboard. Only seven letter names are used to name\n\nnotes: A, B, C, D, E, F, and G. The eighth note would, of course, be the next A, beginning\n\nthe next octave. To name the other notes, the notes on the black piano keys, you have\n\nto use a sharp or flat sign.\n\nFigure 4.6 Keyboard The white keys are the natural notes. Black keys can only be named using sharps or\n\nflats. The pattern repeats at the eighth tone of a scale, the octave.\n\nWhether it is a popular song, a classical symphony, or an old folk tune, most of the\n\nmusic that feels comfortable and familiar (to Western listeners) is based on either a major or minor scale. It is tonal music that mostly uses only seven of the notes within\n\nan octave: only one of the possible A's (A sharp, A natural, or A flat), one of the\n\npossible B's (B sharp, B natural, or B flat), and so on. The other notes in the chromatic\n---\nKB: theory_general/OPEN_MUSIC_THEORY_V2.pdf (Pg:549):\nOrganization\n\nThe first chapter, Swing Rhythms, introduces students to common and stylistic rhythms that are often\n\nfound in swing music and subgenres that grew out of it.\n\nNext, students learn about simple and complex chord symbols and how those symbols are idiomatically\n\nvoiced in a jazz context.\n\nThe next few chapters discuss common harmonic formulas encountered in jazz repertories: ii–V–I;\n\nembellishing chords such as applied chords and common tone diminished seventh chords;\n\nand substitutions such as the tritone substitution, mode mixture, and substituting applied chords.\n\nImprovisation is discussed in the Chord-Scale Theory chapter, which also introduces students to how jazz\n\nmusicians use modes to improvise.\n\nThe final chapters of this section cover the formal/harmonic and melodic aspects of traditional blues\n\nmusic. This also serves as a transition into the following section on popular music, a genre that borrows heavily from the blues.\n\nSE INFO:\nNo SE info.\n---\n\nPlease generate 2-4 distinct and actionable music theory suggestions for this music project.\nFocus ONLY on aspects like chord progressions, scales, modes, melodic ideas, harmonic rhythm, and song structure.\nIf the retrieved knowledge chunks are sparse or not directly relevant, rely more on the project goal to generate general but applicable theoretical ideas.\nEnsure your suggestions are formatted as Markdown bullet points. Each bullet point should represent a complete, creative idea.\n\nMusic Theory Suggestions:\n", 'role': 'user'}], 'model': 'meta-llama/Llama-3.2-3B-Instruct', 'stream': False, 'temperature': 0.7}}
+2025-05-27 17:25:03,074 - DEBUG    - openai._base_client            - Sending HTTP Request: POST https://api.runpod.ai/v2/u4d3b5g2c5ot09/openai/v1/chat/completions
+2025-05-27 17:25:03,074 - DEBUG    - httpcore.http11                - send_request_headers.started request=<Request [b'POST']>
+2025-05-27 17:25:03,075 - DEBUG    - httpcore.http11                - send_request_headers.complete
+2025-05-27 17:25:03,075 - DEBUG    - httpcore.http11                - send_request_body.started request=<Request [b'POST']>
+2025-05-27 17:25:03,075 - DEBUG    - httpcore.http11                - send_request_body.complete
+2025-05-27 17:25:03,075 - DEBUG    - httpcore.http11                - receive_response_headers.started request=<Request [b'POST']>
+2025-05-27 17:25:03,452 - DEBUG    - httpcore.http11                - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 27 May 2025 14:25:26 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'cf-cache-status', b'DYNAMIC'), (b'Server', b'cloudflare'), (b'CF-RAY', b'94662e701f60e3e8-OTP'), (b'Content-Encoding', b'gzip')])
+2025-05-27 17:25:03,452 - INFO     - httpx                          - HTTP Request: POST https://api.runpod.ai/v2/u4d3b5g2c5ot09/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 17:25:03,452 - DEBUG    - httpcore.http11                - receive_response_body.started request=<Request [b'POST']>
+2025-05-27 17:25:03,453 - DEBUG    - httpcore.http11                - receive_response_body.complete
+2025-05-27 17:25:03,453 - DEBUG    - httpcore.http11                - response_closed.started
+2025-05-27 17:25:03,453 - DEBUG    - httpcore.http11                - response_closed.complete
+2025-05-27 17:25:03,453 - DEBUG    - openai._base_client            - HTTP Response: POST https://api.runpod.ai/v2/u4d3b5g2c5ot09/openai/v1/chat/completions "200 OK" Headers({'date': 'Tue, 27 May 2025 14:25:26 GMT', 'content-type': 'application/json; charset=utf-8', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cf-cache-status': 'DYNAMIC', 'server': 'cloudflare', 'cf-ray': '94662e701f60e3e8-OTP', 'content-encoding': 'gzip'})
+2025-05-27 17:25:03,453 - DEBUG    - openai._base_client            - request_id: None
+2025-05-27 17:25:03,454 - INFO     - rag_agent_nodes                - SE query tokens P=337, C=28
+2025-05-27 17:25:03,456 - DEBUG    - urllib3.connectionpool         - Starting new HTTPS connection (1): api.stackexchange.com:443
+2025-05-27 17:25:03,630 - DEBUG    - httpcore.http11                - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 27 May 2025 14:25:26 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'cf-cache-status', b'DYNAMIC'), (b'Server', b'cloudflare'), (b'CF-RAY', b'94662e709bfbe443-OTP'), (b'Content-Encoding', b'gzip')])
+2025-05-27 17:25:03,631 - INFO     - httpx                          - HTTP Request: POST https://api.runpod.ai/v2/u4d3b5g2c5ot09/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 17:25:03,631 - DEBUG    - httpcore.http11                - receive_response_body.started request=<Request [b'POST']>
+2025-05-27 17:25:03,632 - DEBUG    - httpcore.http11                - receive_response_body.complete
+2025-05-27 17:25:03,632 - DEBUG    - httpcore.http11                - response_closed.started
+2025-05-27 17:25:03,632 - DEBUG    - httpcore.http11                - response_closed.complete
+2025-05-27 17:25:03,632 - DEBUG    - openai._base_client            - HTTP Response: POST https://api.runpod.ai/v2/u4d3b5g2c5ot09/openai/v1/chat/completions "200 OK" Headers({'date': 'Tue, 27 May 2025 14:25:26 GMT', 'content-type': 'application/json; charset=utf-8', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cf-cache-status': 'DYNAMIC', 'server': 'cloudflare', 'cf-ray': '94662e709bfbe443-OTP', 'content-encoding': 'gzip'})
+2025-05-27 17:25:03,632 - DEBUG    - openai._base_client            - request_id: None
+2025-05-27 17:25:03,634 - INFO     - rag_agent_nodes                - SE query tokens P=337, C=55
+2025-05-27 17:25:03,636 - DEBUG    - urllib3.connectionpool         - Starting new HTTPS connection (1): api.stackexchange.com:443
+2025-05-27 17:25:03,765 - DEBUG    - urllib3.connectionpool         - https://api.stackexchange.com:443 "GET /2.3/search/advanced?site=audio.stackexchange.com&q=%22Blues+Guitar%22%0A%0AThis+query+is+specific+enough+to+find+relevant+discussions+and+answers+on+instruments+used+in+Blues+music%2C+particularly+the+guitar.&pagesize=2&sort=relevance&order=desc HTTP/1.1" 400 119
+2025-05-27 17:25:03,770 - DEBUG    - openai._base_client            - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-ef14bbdc-66dc-4837-89ac-e22f78cb7bd4', 'json_data': {'messages': [{'content': '\nYou are a helpful music production assistant specializing in instrumentation and sound design.\nYour goal is to provide actionable and creative suggestions.\n\nBased on the following overall project goal:\n---\nBased on the user\'s request for a Blues music creation project, here\'s a concise project goal summary:\n\nThe project aims to create a Blues music piece, drawing inspiration from the classic genre\'s emotional intensity and soulful feel. The target artist/style is likely to be a contemporary Blues musician, such as Gary Clark Jr. or Buddy Guy, known for their mastery of the genre. The desired mood is melancholic and heartfelt, evoking the feelings of longing and nostalgia that are characteristic of Blues music. Instrumentation may include the guitar, harmonica, and drums, with possible additional elements like piano or bass.\n\nThe tempo is likely to be moderate, around 100-120 BPM, allowing for a steady, walking pace that underscores the emotional weight of the music. A key signature of E-flat minor (Ebmin) or C minor (Cmin) is implied, which are common keys used in Blues music. The overall goal is to craft a Blues piece that feels authentic, heartfelt, and true to the genre\'s traditions.\n---\n\nAnd these relevant knowledge chunks retrieved from a music production knowledge base about instruments and timbre:\n---\nKB INFO:\nKB: timbre_instruments/Sound_Synthesis_Theory.pdf (Pg:4):\nIntroduction\n\nThis book covers a sub-field of Music Technology called sound synthesis. Al- though the tone is generally aimed at musicians and people with little prior knowledge of music systems, there may be some mathematical concepts and pro- gramming techniques that are not familiar. The book focuses on synthesis from a digital perspective rather than an analogue one, since it aims to demonstrate the theory of digital synthesis rather than applications to a specific medium or piece of software.\n---\nKB: timbre_instruments/musicbrainz_instruments.pdf (Pg:12):\ndoshpuluur — The doshpuluur is a long-necked Tuvan lute. double bass (Contrabass of modern violin family) — Known also as contrabass or upright bass, it is the largest and lowest-pitched member of the modern violin family and a principal member of the symphony orchestra. dramyin — The dramyin is a traditional Himalayan long-necked lute with seven strings. dulce melos — European mediaeval struck string instrument, similar to the psaltery and a possible ancestor of the piano. Basically it is a dulcimer with keys. dutar — The dutar is a long-necked two-stringed lute found in Iran and Central Asia. duxianqin — The duxianqin is a one-string zither which is likely derived from the Vietnamese đàn bầu. electric bass guitar — Solid body 4-stringed electric bass guitar. The most common for "bass guitar" and "bass" credits in popular (rock) music. electric cello electric fretless guitar — Electric guitar without frets\n---\nKB: timbre_instruments/Sound_Synthesis_Theory.pdf (Pg:16):\nDigital Waveguide Synthesis\n\nAlthough the tone is generally aimed at musicians and people with lit- tle prior knowledge of music systems, there may be some mathematical concepts and programming techniques that are not familiar.\n\nThe book focuses on synthesis from a digital perspective rather than an analogue one, since it aims to demonstrate the theory of digital synthesis rather than applications to a specific medium or piece of software.\n\nUse diagrams and pictures where possible to illustrate ideas; it informs and makes the Wikibook more readable, approachable and better overall. • Key terms and words are included in a /Glossary/ for further clarification.\n\nImportant statements or facts should be highlighted in the following way.\n\nSE INFO:\nNo SE info.\n---\n\nPlease generate 2-4 distinct and actionable instrumentation and timbre suggestions for this music project.\nFocus ONLY on aspects like instrument choices, sound design for specific instruments (e.g., synths, strings, drums), layering, and textural ideas.\nIf the retrieved knowledge chunks are sparse or not directly relevant, rely more on the project goal to generate general but applicable ideas.\nEnsure your suggestions are formatted as Markdown bullet points. Each bullet point should represent a complete, creative idea.\n\nInstrumentation & Timbre Suggestions:\n', 'role': 'user'}], 'model': 'meta-llama/Llama-3.2-3B-Instruct', 'stream': False, 'temperature': 0.7}}
+2025-05-27 17:25:03,771 - DEBUG    - openai._base_client            - Sending HTTP Request: POST https://api.runpod.ai/v2/u4d3b5g2c5ot09/openai/v1/chat/completions
+2025-05-27 17:25:03,771 - DEBUG    - httpcore.http11                - send_request_headers.started request=<Request [b'POST']>
+2025-05-27 17:25:03,772 - DEBUG    - httpcore.http11                - send_request_headers.complete
+2025-05-27 17:25:03,772 - DEBUG    - httpcore.http11                - send_request_body.started request=<Request [b'POST']>
+2025-05-27 17:25:03,772 - DEBUG    - httpcore.http11                - send_request_body.complete
+2025-05-27 17:25:03,772 - DEBUG    - httpcore.http11                - receive_response_headers.started request=<Request [b'POST']>
+2025-05-27 17:25:04,067 - DEBUG    - urllib3.connectionpool         - https://api.stackexchange.com:443 "GET /2.3/search/advanced?site=audio.stackexchange.com&q=%22Blues+Production%22%0A%0AThis+query+is+concise%2C+specific%2C+and+directly+related+to+the+project%27s+focus+area+of+production.+It+should+yield+relevant+and+practical+Q%26A+on+topics+such+as+instrumentation%2C+tempo%2C+key+signature%2C+and+overall+production+techniques+for+creating+a+Blues+music+piece.&pagesize=2&sort=relevance&order=desc HTTP/1.1" 400 119
+2025-05-27 17:25:04,072 - DEBUG    - openai._base_client            - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-3cf91525-d669-45b5-bdfa-a8abaa0d9ffd', 'json_data': {'messages': [{'content': "\nYou are a helpful music production and mixing assistant.\nYour goal is to provide actionable and creative suggestions related to overall production, mixing, and effects.\n\nBased on the following overall project goal:\n---\nBased on the user's request for a Blues music creation project, here's a concise project goal summary:\n\nThe project aims to create a Blues music piece, drawing inspiration from the classic genre's emotional intensity and soulful feel. The target artist/style is likely to be a contemporary Blues musician, such as Gary Clark Jr. or Buddy Guy, known for their mastery of the genre. The desired mood is melancholic and heartfelt, evoking the feelings of longing and nostalgia that are characteristic of Blues music. Instrumentation may include the guitar, harmonica, and drums, with possible additional elements like piano or bass.\n\nThe tempo is likely to be moderate, around 100-120 BPM, allowing for a steady, walking pace that underscores the emotional weight of the music. A key signature of E-flat minor (Ebmin) or C minor (Cmin) is implied, which are common keys used in Blues music. The overall goal is to craft a Blues piece that feels authentic, heartfelt, and true to the genre's traditions.\n---\n\nAnd these relevant knowledge chunks retrieved from a music production knowledge base about mixing, mastering, and effects:\n---\nKB INFO:\nKB: production/Douglas_Self_Audio_Engineering_Explained.pdf (Pg:455):\nThe software world doesn’t actually hold the total patent on looping tools and toys; there are a number of groove keyboards and module boxes that are on the market. These systems, which range widely in sounds, functionality, and price, can offer up a wide range of unique sounds that can be quite useful laying a foundation under your production. In the past, getting a hardware grove tool to sync into a ses- sion could be time-consuming, frustrating, and problematic, taking time and tons of manual reading. However, with the advent of powerful time and pitch shift processing within most DAWs, the sounds from these hardware devices can be pulled into a session without too much trouble. For example, a sin- gle groove loop (or multiple loops) could be recorded into a DAW (at a bpm that’s near to the session’s tempo), edited, and then imported into the session, at which time the loop could be easily stretched into time sync, allowing it to be looped to your heart’s content\n---\nKB: production/Douglas_Self_Audio_Engineering_Explained.pdf (Pg:447):\nThe Drum Machine. The drum machine is most commonly a sample-based digital audio device that can’t record audio into its internal memory (although this has changed in recent years, allowing it to import, record, and manipulate sampled audio much like a sampler). Traditionally, these hardware or software systems use ROM-based, prerecorded samples to reproduce high-quality drum sounds.\n\nfIgure 16.25 Groove Agent 3 VST Virtual Drummer. (Courtesy of Steinberg Media Technologies GmbH, a division of Yamaha Corporation, www. steinberg.net).\n\nThese factory-loaded sounds often include a wide assortment of drum sets, percussion sets, rare and wacky percussion hits, and effected drum sounds (i.e., reverberated, gated, etc.). Who knows, you might even encounter “Hit me!” screams from the venerable King of Soul—James Brown.\n---\nKB: production/Douglas_Self_Audio_Engineering_Explained.pdf (Pg:451):\nIn addition to recording a performance in a track-based environment, most sequencers let you enter note values into sequence one note at a time. This feature (known as step time) lets you give the sequencer a basic tempo and note length (i.e., quarter note, sixteenth note, etc.) and then manually enter the notes from a keyboard or other controller. This data entry style is often (but not always) used with fast, hi-tech and dance styles, where a real-time performance just isn’t possible or accurate enough for the song.\n\nWhether you’re recording a track in real-time or in step-time, it’s almost always best to select the proper song tempo before recording a sequence. I bring this up because most sequencers are able to output a click track that can be used as an accurate audible guide for keeping in time with the song’s selected tempo. It’s also critical that the tempo be accurate when trying to sync groove loops and rhythms to a sequence via plug-ins or external instruments.\n\nSE INFO:\nNo SE info.\n---\n\nPlease generate 2-4 distinct and actionable production or mixing suggestions for this music project.\nFocus ONLY on aspects like arrangement polish, mixing techniques (EQ, compression, stereo imaging), choice and use of effects (reverb, delay, modulation), or overall sonic character.\nIf the retrieved knowledge chunks are sparse or not directly relevant, rely more on the project goal to generate general but applicable ideas.\nEnsure your suggestions are formatted as Markdown bullet points. Each bullet point should represent a complete, creative idea.\n\nProduction & Mix Suggestions:\n", 'role': 'user'}], 'model': 'meta-llama/Llama-3.2-3B-Instruct', 'stream': False, 'temperature': 0.7}}
+2025-05-27 17:25:04,073 - DEBUG    - openai._base_client            - Sending HTTP Request: POST https://api.runpod.ai/v2/u4d3b5g2c5ot09/openai/v1/chat/completions
+2025-05-27 17:25:04,074 - DEBUG    - httpcore.http11                - send_request_headers.started request=<Request [b'POST']>
+2025-05-27 17:25:04,074 - DEBUG    - httpcore.http11                - send_request_headers.complete
+2025-05-27 17:25:04,074 - DEBUG    - httpcore.http11                - send_request_body.started request=<Request [b'POST']>
+2025-05-27 17:25:04,074 - DEBUG    - httpcore.http11                - send_request_body.complete
+2025-05-27 17:25:04,074 - DEBUG    - httpcore.http11                - receive_response_headers.started request=<Request [b'POST']>
+2025-05-27 17:25:17,992 - DEBUG    - httpcore.http11                - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 27 May 2025 14:25:40 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'cf-cache-status', b'DYNAMIC'), (b'Server', b'cloudflare'), (b'CF-RAY', b'94662e78aca5e4b4-OTP'), (b'Content-Encoding', b'gzip')])
+2025-05-27 17:25:17,994 - INFO     - httpx                          - HTTP Request: POST https://api.runpod.ai/v2/u4d3b5g2c5ot09/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 17:25:17,994 - DEBUG    - httpcore.http11                - receive_response_body.started request=<Request [b'POST']>
+2025-05-27 17:25:17,995 - DEBUG    - httpcore.http11                - receive_response_body.complete
+2025-05-27 17:25:17,995 - DEBUG    - httpcore.http11                - response_closed.started
+2025-05-27 17:25:17,995 - DEBUG    - httpcore.http11                - response_closed.complete
+2025-05-27 17:25:17,995 - DEBUG    - openai._base_client            - HTTP Response: POST https://api.runpod.ai/v2/u4d3b5g2c5ot09/openai/v1/chat/completions "200 OK" Headers({'date': 'Tue, 27 May 2025 14:25:40 GMT', 'content-type': 'application/json; charset=utf-8', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cf-cache-status': 'DYNAMIC', 'server': 'cloudflare', 'cf-ray': '94662e78aca5e4b4-OTP', 'content-encoding': 'gzip'})
+2025-05-27 17:25:17,996 - DEBUG    - openai._base_client            - request_id: None
+2025-05-27 17:25:17,997 - INFO     - rag_agent_nodes                - Rhythm advice tokens P=1083, C=365
+2025-05-27 17:25:17,997 - INFO     - rag_agent_nodes                - Rhythm returning token keys: ['rhythm_se_query_prompt_tokens', 'rhythm_se_query_completion_tokens', 'rhythm_final_advice_prompt_tokens', 'rhythm_final_advice_completion_tokens'] with values: [('rhythm_se_query_prompt_tokens', 338), ('rhythm_se_query_completion_tokens', 5), ('rhythm_final_advice_prompt_tokens', 1083), ('rhythm_final_advice_completion_tokens', 365)]
+2025-05-27 17:25:17,997 - INFO     - rag_agent_nodes                - --- NODE FINISH: Rhythm Agent ---
+2025-05-27 17:25:20,478 - DEBUG    - httpcore.http11                - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 27 May 2025 14:25:43 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'cf-cache-status', b'DYNAMIC'), (b'Server', b'cloudflare'), (b'CF-RAY', b'94662e78ebb7053b-OTP'), (b'Content-Encoding', b'gzip')])
+2025-05-27 17:25:20,479 - INFO     - httpx                          - HTTP Request: POST https://api.runpod.ai/v2/u4d3b5g2c5ot09/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 17:25:20,479 - DEBUG    - httpcore.http11                - receive_response_body.started request=<Request [b'POST']>
+2025-05-27 17:25:20,480 - DEBUG    - httpcore.http11                - receive_response_body.complete
+2025-05-27 17:25:20,480 - DEBUG    - httpcore.http11                - response_closed.started
+2025-05-27 17:25:20,480 - DEBUG    - httpcore.http11                - response_closed.complete
+2025-05-27 17:25:20,480 - DEBUG    - openai._base_client            - HTTP Response: POST https://api.runpod.ai/v2/u4d3b5g2c5ot09/openai/v1/chat/completions "200 OK" Headers({'date': 'Tue, 27 May 2025 14:25:43 GMT', 'content-type': 'application/json; charset=utf-8', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cf-cache-status': 'DYNAMIC', 'server': 'cloudflare', 'cf-ray': '94662e78ebb7053b-OTP', 'content-encoding': 'gzip'})
+2025-05-27 17:25:20,481 - DEBUG    - openai._base_client            - request_id: None
+2025-05-27 17:25:20,482 - INFO     - rag_agent_nodes                - Music Theory advice tokens P=915, C=435
+2025-05-27 17:25:20,483 - INFO     - rag_agent_nodes                - Music Theory returning token keys: ['music_theory_se_query_prompt_tokens', 'music_theory_se_query_completion_tokens', 'music_theory_final_advice_prompt_tokens', 'music_theory_final_advice_completion_tokens'] with values: [('music_theory_se_query_prompt_tokens', 338), ('music_theory_se_query_completion_tokens', 6), ('music_theory_final_advice_prompt_tokens', 915), ('music_theory_final_advice_completion_tokens', 435)]
+2025-05-27 17:25:20,483 - INFO     - rag_agent_nodes                - --- NODE FINISH: Music Theory Agent ---
+2025-05-27 17:25:30,382 - DEBUG    - httpcore.http11                - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 27 May 2025 14:25:53 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'cf-cache-status', b'DYNAMIC'), (b'Server', b'cloudflare'), (b'CF-RAY', b'94662e7d3a61e3e8-OTP'), (b'Content-Encoding', b'gzip')])
+2025-05-27 17:25:30,383 - INFO     - httpx                          - HTTP Request: POST https://api.runpod.ai/v2/u4d3b5g2c5ot09/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 17:25:30,383 - DEBUG    - httpcore.http11                - receive_response_body.started request=<Request [b'POST']>
+2025-05-27 17:25:30,384 - DEBUG    - httpcore.http11                - receive_response_body.complete
+2025-05-27 17:25:30,384 - DEBUG    - httpcore.http11                - response_closed.started
+2025-05-27 17:25:30,384 - DEBUG    - httpcore.http11                - response_closed.complete
+2025-05-27 17:25:30,384 - DEBUG    - httpcore.connection            - close.started
+2025-05-27 17:25:30,385 - DEBUG    - httpcore.connection            - close.complete
+2025-05-27 17:25:30,385 - DEBUG    - httpcore.connection            - close.started
+2025-05-27 17:25:30,385 - DEBUG    - httpcore.connection            - close.complete
+2025-05-27 17:25:30,385 - DEBUG    - openai._base_client            - HTTP Response: POST https://api.runpod.ai/v2/u4d3b5g2c5ot09/openai/v1/chat/completions "200 OK" Headers({'date': 'Tue, 27 May 2025 14:25:53 GMT', 'content-type': 'application/json; charset=utf-8', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cf-cache-status': 'DYNAMIC', 'server': 'cloudflare', 'cf-ray': '94662e7d3a61e3e8-OTP', 'content-encoding': 'gzip'})
+2025-05-27 17:25:30,385 - DEBUG    - openai._base_client            - request_id: None
+2025-05-27 17:25:30,387 - INFO     - rag_agent_nodes                - Instruments advice tokens P=915, C=317
+2025-05-27 17:25:30,387 - INFO     - rag_agent_nodes                - Instruments returning token keys: ['instruments_se_query_prompt_tokens', 'instruments_se_query_completion_tokens', 'instruments_final_advice_prompt_tokens', 'instruments_final_advice_completion_tokens'] with values: [('instruments_se_query_prompt_tokens', 337), ('instruments_se_query_completion_tokens', 28), ('instruments_final_advice_prompt_tokens', 915), ('instruments_final_advice_completion_tokens', 317)]
+2025-05-27 17:25:30,387 - INFO     - rag_agent_nodes                - --- NODE FINISH: Instruments Agent ---
+2025-05-27 17:25:30,792 - DEBUG    - httpcore.http11                - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 27 May 2025 14:25:53 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'cf-cache-status', b'DYNAMIC'), (b'Server', b'cloudflare'), (b'CF-RAY', b'94662e7f187ce443-OTP'), (b'Content-Encoding', b'gzip')])
+2025-05-27 17:25:30,792 - INFO     - httpx                          - HTTP Request: POST https://api.runpod.ai/v2/u4d3b5g2c5ot09/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 17:25:30,793 - DEBUG    - httpcore.http11                - receive_response_body.started request=<Request [b'POST']>
+2025-05-27 17:25:30,794 - DEBUG    - httpcore.http11                - receive_response_body.complete
+2025-05-27 17:25:30,794 - DEBUG    - httpcore.http11                - response_closed.started
+2025-05-27 17:25:30,794 - DEBUG    - httpcore.http11                - response_closed.complete
+2025-05-27 17:25:30,794 - DEBUG    - openai._base_client            - HTTP Response: POST https://api.runpod.ai/v2/u4d3b5g2c5ot09/openai/v1/chat/completions "200 OK" Headers({'date': 'Tue, 27 May 2025 14:25:53 GMT', 'content-type': 'application/json; charset=utf-8', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cf-cache-status': 'DYNAMIC', 'server': 'cloudflare', 'cf-ray': '94662e7f187ce443-OTP', 'content-encoding': 'gzip'})
+2025-05-27 17:25:30,794 - DEBUG    - openai._base_client            - request_id: None
+2025-05-27 17:25:30,796 - INFO     - rag_agent_nodes                - Production advice tokens P=1070, C=356
+2025-05-27 17:25:30,796 - INFO     - rag_agent_nodes                - Production returning token keys: ['production_se_query_prompt_tokens', 'production_se_query_completion_tokens', 'production_final_advice_prompt_tokens', 'production_final_advice_completion_tokens'] with values: [('production_se_query_prompt_tokens', 337), ('production_se_query_completion_tokens', 55), ('production_final_advice_prompt_tokens', 1070), ('production_final_advice_completion_tokens', 356)]
+2025-05-27 17:25:30,796 - INFO     - rag_agent_nodes                - --- NODE FINISH: Production Agent ---
+2025-05-27 17:25:30,798 - INFO     - rag_agent_nodes                - --- NODE START: Combining Advice ---
+2025-05-27 17:25:30,798 - INFO     - rag_agent_nodes                - All token-related keys in state: ['total_prompt_tokens', 'total_completion_tokens']
+2025-05-27 17:25:30,798 - INFO     - rag_agent_nodes                - rhythm tokens: all zero - keys might be missing
+2025-05-27 17:25:30,798 - INFO     - rag_agent_nodes                - music_theory tokens: all zero - keys might be missing
+2025-05-27 17:25:30,798 - INFO     - rag_agent_nodes                - instruments tokens: all zero - keys might be missing
+2025-05-27 17:25:30,798 - INFO     - rag_agent_nodes                - lyrics tokens: all zero - keys might be missing
+2025-05-27 17:25:30,798 - INFO     - rag_agent_nodes                - production tokens: all zero - keys might be missing
+2025-05-27 17:25:30,798 - INFO     - rag_agent_nodes                - Total summed tokens P=0, C=0
+2025-05-27 17:25:30,799 - INFO     - rag_agent_nodes                - --- NODE FINISH: Combining Advice ---
+2025-05-27 17:25:30,800 - INFO     - __main__                       - Graph run complete.
+2025-05-27 17:25:30,800 - INFO     - __main__                       - 👉 Total prompt tokens:     0
+2025-05-27 17:25:30,800 - INFO     - __main__                       - 👉 Total completion tokens: 0
+2025-05-27 17:25:30,801 - INFO     - __main__                       - 👉 Grand total tokens:      0
+2025-05-27 17:25:30,801 - INFO     - __main__                       - Log file: /home/raduc/Documents/Code/Licentzio/MusicBlock/rag_logs/moodboard_run_20250527_172322.log
+2025-05-27 17:25:31,378 - DEBUG    - httpcore.connection            - close.started
+2025-05-27 17:25:31,379 - DEBUG    - httpcore.connection            - close.complete
+2025-05-27 17:25:31,379 - DEBUG    - httpcore.connection            - close.started
+2025-05-27 17:25:31,380 - DEBUG    - httpcore.connection            - close.complete

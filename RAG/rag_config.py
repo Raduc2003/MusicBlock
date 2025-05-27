@@ -20,11 +20,16 @@ SPARSE_EMBEDDING_MODEL_NAME = "Qdrant/bm25"
 # --- LLM Configuration ---
 LLM_PROVIDER = "LocalOpenAICompatible" 
 
-
+#LOCAL Set-up
 LOCAL_LLM_API_BASE = os.getenv("LOCAL_LLM_API_BASE", "http://localhost:1337/v1") # Jan default, adjust if needed. Ollama uses /v1 too.
 
-LOCAL_LLM_MODEL_NAME = os.getenv("LOCAL_LLM_MODEL_NAME", "bartowski:Llama-3.2-3B-Instruct-GGUF:Llama-3.2-3B-Instruct-Q8_0.gguf") # e.g., "mistral-7b-instruct-v0.2-q4_K_M" if that's what Jan shows
+LOCAL_LLM_MODEL_NAME = os.getenv("LOCAL_LLM_MODEL_NAME", "llama3.2:3b") # e.g., "mistral-7b-instruct-v0.2-q4_K_M" if that's what Jan shows
 LOCAL_LLM_API_KEY = os.getenv("LOCAL_LLM_API_KEY", "NotNeeded") # Often not needed for local servers, but good to have a placeholder
+
+# --- RunPod Configuration ---
+LLM_API_BASE = os.getenv("LOCAL_LLM_API_BASE", "https://api.runpod.ai/v2/u4d3b5g2c5ot09/openai/v1") 
+LLM_MODEL_NAME = os.getenv("LOCAL_LLM_MODEL_NAME", "meta-llama/Llama-3.2-3B-Instruct") # **IMPORTANT: SET THIS IN .ENV or here**
+LLM_API_KEY = os.getenv("LOCAL_LLM_API_KEY", "YOUR_API_KEY_HERE") # Often not needed for local servers, but good to have a placeholder
 
 # --- Retrieval Configuration ---
 DEFAULT_RETRIEVAL_TOP_K = 3

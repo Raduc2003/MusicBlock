@@ -129,3 +129,18 @@ Ensure your suggestions are formatted as Markdown bullet points. Each bullet poi
 
 Production & Mix Suggestions:
 """
+
+
+STACKEXCHANGE_QUESTION_GENERATION_PROMPT_TEMPLATE = """
+Based on the following overall music project goal and the specific focus area, generate a concise and targeted search query (max 3 words) suitable for finding relevant Q&A on a site like StackExchange (e.g., music.stackexchange.com or audio.stackexchange.com).
+The query should be specific enough to find practical answers or discussions.
+
+Overall Project Goal:
+---
+{project_goal_summary}
+---
+
+Specific Focus Area for this query: {focus_area}
+
+Concise Search Query for StackExchange  IN 2 WORDS:
+"""

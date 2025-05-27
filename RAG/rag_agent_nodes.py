@@ -1,249 +1,465 @@
 # RAG/rag_agent_nodes.py
 
+import logging
 from typing import Dict, List, Optional, Any
+from bs4 import BeautifulSoup
 
 from langchain_core.documents import Document
 from langchain_openai import ChatOpenAI
+from langchain_community.callbacks import OpenAICallbackHandler
 
-# Assuming these files are in the same RAG directory, hence relative imports
 from rag_state import OverallState
-from rag_tools import get_knowledge_from_kb
+from rag_tools import get_knowledge_from_kb, search_stackexchange_qa
 from rag_config import (
-    LLM_PROVIDER,
-    LOCAL_LLM_API_BASE,
-    LOCAL_LLM_MODEL_NAME,
-    LOCAL_LLM_API_KEY,
-    DEFAULT_RETRIEVAL_TOP_K
+    LLM_API_BASE,
+    LLM_MODEL_NAME,
+    LLM_API_KEY,
+    DEFAULT_RETRIEVAL_TOP_K,
 )
 from rag_prompts import (
     INITIAL_GOAL_SYNTHESIS_PROMPT_TEMPLATE,
+    STACKEXCHANGE_QUESTION_GENERATION_PROMPT_TEMPLATE,
     RHYTHM_ADVICE_PROMPT_TEMPLATE,
     MUSIC_THEORY_ADVICE_PROMPT_TEMPLATE,
     INSTRUMENTS_ADVICE_PROMPT_TEMPLATE,
     LYRICS_ADVICE_PROMPT_TEMPLATE,
-    PRODUCTION_ADVICE_PROMPT_TEMPLATE
+    PRODUCTION_ADVICE_PROMPT_TEMPLATE,
 )
 
-# --- LLM Initialization ---
+node_logger = logging.getLogger(__name__)
+if not node_logger.handlers and not logging.getLogger().handlers:
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    )
+
+# --- Initialize LLM client ---
 llm = None
 try:
-    if LLM_PROVIDER == "LocalOpenAICompatible":
-        api_key_to_use = None
-        if LOCAL_LLM_API_KEY and LOCAL_LLM_API_KEY.lower() not in ["notneeded", "none", ""]:
-            api_key_to_use = LOCAL_LLM_API_KEY
-        elif LOCAL_LLM_API_KEY and LOCAL_LLM_API_KEY.lower() in ["notneeded", "none", ""]:
-             api_key_to_use = "NotNeeded" # Langchain OpenAI client seems to want a string
-
-        llm = ChatOpenAI(
-            model=LOCAL_LLM_MODEL_NAME,
-            openai_api_base=LOCAL_LLM_API_BASE,
-            api_key=api_key_to_use,
-            temperature=0.7,
-            # default_headers={"Content-Type": "application/json"}, # Already handled by client
-        )
-        print(f"LLM Initialized for rag_agent_nodes: LocalOpenAICompatible with model {LOCAL_LLM_MODEL_NAME} at {LOCAL_LLM_API_BASE} (API Key Used: '{api_key_to_use}')")
-    else:
-        raise ValueError(f"Unsupported LLM_PROVIDER: {LLM_PROVIDER} in rag_agent_nodes.")
+    if not all([LLM_API_BASE, LLM_MODEL_NAME]):
+        raise ValueError("LLM_API_BASE or LLM_MODEL_NAME not configured.")
+    api_key = (
+        LLM_API_KEY
+        if LLM_API_KEY and LLM_API_KEY.lower() not in ["notneeded", "none", ""]
+        else None
+    )
+    llm = ChatOpenAI(
+        model=LLM_MODEL_NAME,
+        base_url=LLM_API_BASE,
+        api_key=api_key,
+        temperature=0.7,
+        request_timeout=30,  
+    )
+    node_logger.info(f"LLM initialized: Model={LLM_MODEL_NAME}, Base={LLM_API_BASE}")
 except Exception as e:
-    print(f"FATAL: Could not initialize LLM in rag_agent_nodes: {e}")
-    # llm remains None
+    node_logger.error(f"FATAL: LLM init failed: {e}", exc_info=True)
 
 
-# --- Node 1: Input Processing & Goal Synthesis ---
 def process_initial_input_node(state: OverallState) -> Dict[str, Any]:
-    print("--- NODE: Processing Initial Input & Synthesizing Goal ---")
-    node_error_message = None
-    project_goal_summary = "Project goal could not be determined." # Default
+    node_logger.info("--- NODE START: Initial Input Processor ---")
+    error_msg = None
+    goal_summary = "Project goal determination failed."
+    prompt_tokens = 0
+    completion_tokens = 0
 
     if not llm:
-        project_goal_summary = "CRITICAL ERROR: LLM not initialized for project goal synthesis."
-        node_error_message = "LLM not initialized for the entire graph. Cannot proceed."
+        error_msg = "LLM not initialized for graph."
+        node_logger.error(error_msg)
     else:
-        user_query = state["user_text_query"]
-        similar_tracks_summary = state.get("similar_tracks_summary", "No specific similarity analysis provided.")
-        prompt_input = {"user_text_query": user_query, "similar_tracks_summary": similar_tracks_summary}
-        prompt = INITIAL_GOAL_SYNTHESIS_PROMPT_TEMPLATE.format(**prompt_input)
+        user_q = state["user_text_query"]
+        sim_summary = state.get(
+            "similar_tracks_summary", "No similarity analysis provided."
+        )
+        node_logger.info(f"User Query: '{user_q}'")
+        node_logger.debug(f"Similarity Summary: {sim_summary[:500]}...")
+        prompt = INITIAL_GOAL_SYNTHESIS_PROMPT_TEMPLATE.format(
+            user_text_query=user_q, similar_tracks_summary=sim_summary
+        )
         
-        print(f"NODE (process_initial_input): Generating project goal summary...")
+        node_logger.debug("=== INITIAL GOAL SYNTHESIS PROMPT ===")
+        node_logger.debug(prompt)
+        node_logger.debug("=== END PROMPT ===")
+
+        cb = OpenAICallbackHandler()
         try:
-            response = llm.invoke(prompt)
-            project_goal_summary = response.content
-            print(f"NODE (process_initial_input): Project Goal Summary successfully generated.")
+            node_logger.info("Generating project goal summary...")
+            resp = llm.invoke(prompt, config={"callbacks": [cb]})
+            goal_summary = resp.content.strip()
+            prompt_tokens = cb.prompt_tokens
+            completion_tokens = cb.completion_tokens
+            
+            node_logger.debug("=== GOAL SYNTHESIS RESPONSE ===")
+            node_logger.debug(goal_summary)
+            node_logger.debug("=== END RESPONSE ===")
+            node_logger.info(
+                f"Goal summary generated. Tokens P={prompt_tokens}, C={completion_tokens}"
+            )
         except Exception as e:
-            print(f"CRITICAL ERROR during project goal synthesis LLM call: {e}")
-            project_goal_summary = f"Error: Could not synthesize project goal. Details: {e}"
-            node_error_message = f"Failed to synthesize project goal: {e}"
+            node_logger.error(f"Goal synthesis failed: {e}", exc_info=True)
+            goal_summary = f"Error synthesizing goal: {e}"
+            error_msg = str(e)
 
-    should_run_lyrics = "lyric" in state["user_text_query"].lower() or "vocal" in state["user_text_query"].lower()
-    
-    output_dict: Dict[str, Any] = {
-        "project_goal_summary": project_goal_summary,
-        "should_run_lyrics_agent": should_run_lyrics
+    should_run_lyrics = any(
+        kw in state["user_text_query"].lower() for kw in ("lyric", "vocal")
+    )
+    return {
+        "project_goal_summary": goal_summary,
+        "should_run_lyrics_agent": should_run_lyrics,
+        "node_prompt_tokens": prompt_tokens,
+        "node_completion_tokens": completion_tokens,
+        **({"error_message": f"Initial Processing Error: {error_msg}"} if error_msg else {}),
     }
-    if node_error_message: # If this critical first step fails, set the global error
-        output_dict["error_message"] = node_error_message
-    return output_dict
 
 
-# --- Specialist Agent Node Generic Logic ---
 def _specialist_agent_node_logic(
     agent_name: str,
     state: OverallState,
-    knowledge_topic: str, # CRITICAL: This must match Qdrant metadata.topic
+    knowledge_topic: Optional[str],
     prompt_template: str,
-    retrieved_chunks_key_in_prompt: str
-) -> Dict[str, str]:
-    advice_key = f"{agent_name.lower().replace(' ', '_')}_advice"
-    advice_content = f"{agent_name} advice could not be generated." # Default
+    retrieved_chunks_key_in_prompt: str,
+    stackexchange_site: Optional[str] = None,
+) -> Dict[str, Any]:
+    k = agent_name.lower().replace(" ", "_").replace("&", "and")
+    advice_k = f"{k}_advice"
+    kb_src_k = f"{k}_kb_sources"
+    stack_src_k = f"{k}_stack_sources"
 
-    print(f"--- NODE: {agent_name} Agent ---")
 
-    if state.get("error_message"): # Check for critical error from previous steps
-        advice_content = f"Skipping {agent_name} advice due to earlier critical error: {state.get('error_message')}"
-        print(f"NODE ({agent_name}_agent): {advice_content}")
-        return {advice_key: advice_content}
-    if not llm:
-        advice_content = f"Error: LLM not initialized for {agent_name} agent."
-        print(f"NODE ({agent_name}_agent): {advice_content}")
-        return {advice_key: advice_content}
-    
-    project_goal = state.get("project_goal_summary")
-    if not project_goal or "Error:" in project_goal.split('.')[0]: # Check if goal itself indicates an error
-        advice_content = f"Skipping {agent_name} advice: Project goal not available or in error state ('{project_goal[:100]}...')."
-        print(f"NODE ({agent_name}_agent): {advice_content}")
-        return {advice_key: advice_content}
+    node_logger.info(f"--- NODE START: {agent_name} Agent ---")
+    node_logger.info(f"Agent Name: {agent_name}")
+    node_logger.info(f"Normalized Key: {k}")
+    node_logger.info(f"Knowledge Topic: {knowledge_topic}")
+    node_logger.info(f"StackExchange Site: {stackexchange_site}")
 
-    try:
-        search_query = f"{agent_name} concepts and techniques for: {project_goal}"
-        print(f"NODE ({agent_name}_agent): Retrieving knowledge for topic '{knowledge_topic}' with query: '{search_query[:100]}...'")
-        
-        retrieved_docs = get_knowledge_from_kb(
-            search_query=search_query,
-            topic=knowledge_topic, # Use the specific topic for this agent
-            top_k=DEFAULT_RETRIEVAL_TOP_K
-        )
-        context_chunks_text = "\n\n---\n\n".join([
-            f"Source: {doc.metadata.get('source', 'N/A')}, Page: {doc.metadata.get('page_number', 'N/A')}\nContent: {doc.page_content}"
-            for doc in retrieved_docs
-        ]) if retrieved_docs else f"No specific knowledge for '{knowledge_topic}' retrieved from the knowledge base."
-        
-        prompt_input = {
-            "project_goal_summary": project_goal,
-            retrieved_chunks_key_in_prompt: context_chunks_text
+    # Early bail on errors
+    if state.get("error_message"):
+        msg = f"Skipping {agent_name}: prior critical error."
+        node_logger.warning(msg)
+        node_logger.info(f"--- NODE FINISH: {agent_name} Agent (Early Exit - Error) ---")
+        return {
+            advice_k: msg, 
+            kb_src_k: [], 
+            stack_src_k: [],
+            f"{k}_se_query_prompt_tokens": 0,
+            f"{k}_se_query_completion_tokens": 0,
+            f"{k}_final_advice_prompt_tokens": 0,
+            f"{k}_final_advice_completion_tokens": 0,
         }
-        prompt = prompt_template.format(**prompt_input)
+    if not llm:
+        msg = f"Error: LLM not initialized for {agent_name}."
+        node_logger.error(msg)
+        node_logger.info(f"--- NODE FINISH: {agent_name} Agent (Early Exit - No LLM) ---")
+        return {
+            advice_k: msg, 
+            kb_src_k: [], 
+            stack_src_k: [],
+            f"{k}_se_query_prompt_tokens": 0,
+            f"{k}_se_query_completion_tokens": 0,
+            f"{k}_final_advice_prompt_tokens": 0,
+            f"{k}_final_advice_completion_tokens": 0,
+        }
+
+    project_goal = state.get("project_goal_summary", "")
+    node_logger.info(f"Project Goal Summary: {project_goal[:200]}...")
+    if not project_goal or "Error:" in project_goal.split(".")[0]:
+        msg = f"Skipping {agent_name}: invalid project goal."
+        node_logger.warning(msg)
+        node_logger.info(f"--- NODE FINISH: {agent_name} Agent (Early Exit - Invalid Goal) ---")
+        return {
+            advice_k: msg, 
+            kb_src_k: [], 
+            stack_src_k: [],
+            f"{k}_se_query_prompt_tokens": 0,
+            f"{k}_se_query_completion_tokens": 0,
+            f"{k}_final_advice_prompt_tokens": 0,
+            f"{k}_final_advice_completion_tokens": 0,
+        }
+
+    # Token counters
+    se_q_p, se_q_c = 0, 0
+    final_p, final_c = 0, 0
+
+    # 1) KB Retrieval
+    kb_sources: List[str] = []
+    kb_ctx = "No KB info."
+    if knowledge_topic:
+        node_logger.info(f"Step 1: Retrieving KB knowledge for topic '{knowledge_topic}'...")
+        query_text = f"{agent_name} concepts for: {project_goal}"
+        node_logger.debug(f"KB Query: '{query_text}'")
         
-        print(f"NODE ({agent_name}_agent): Generating {agent_name.lower()} advice...")
-        response = llm.invoke(prompt)
-        advice_content = response.content
-        print(f"NODE ({agent_name}_agent): {agent_name} Advice successfully generated.")
-    except Exception as e:
-        print(f"Error during {agent_name} agent's own execution (LLM call or retrieval): {e}")
-        advice_content = f"Error: Could not generate {agent_name.lower()} advice. Details: {e}"
+        docs = get_knowledge_from_kb(
+            query_text,
+            knowledge_topic,
+            DEFAULT_RETRIEVAL_TOP_K,
+        )
+        if docs:
+            kb_sources = [
+                f"KB: {d.metadata.get('source','N/A')} (Pg:{d.metadata.get('page_number','N/A')})"
+                for d in docs
+            ]
+            kb_ctx = "\n---\n".join(
+                f"{src}:\n{d.page_content}" for src, d in zip(kb_sources, docs)
+            )
+            node_logger.info(f"Retrieved {len(docs)} KB docs for {agent_name}.")
+            node_logger.debug("=== KB RETRIEVAL RESULTS ===")
+            for i, (src, doc) in enumerate(zip(kb_sources, docs)):
+                node_logger.debug(f"KB Doc {i+1}: {src}")
+                node_logger.debug(f"Content preview: {doc.page_content[:300]}...")
+            node_logger.debug("=== END KB RESULTS ===")
+        else:
+            node_logger.warning(f"No KB documents retrieved for {agent_name} with topic '{knowledge_topic}'")
+
+    # 2) StackExchange Retrieval
+    stack_sources: List[str] = []
+    stack_ctx = "No SE info."
+    if stackexchange_site:
+        node_logger.info(f"Step 2: Generating StackExchange query for site '{stackexchange_site}'...")
+        cb1 = OpenAICallbackHandler()
+        gen_q = STACKEXCHANGE_QUESTION_GENERATION_PROMPT_TEMPLATE.format(
+            project_goal_summary=project_goal, focus_area=agent_name
+        )
         
-    return {advice_key: advice_content}
+        node_logger.debug("=== SE QUERY GENERATION PROMPT ===")
+        node_logger.debug(gen_q)
+        node_logger.debug("=== END PROMPT ===")
+        
+        resp1 = llm.invoke(gen_q, config={"callbacks": [cb1]})
+        raw_q = resp1.content.strip()
+        se_q_p, se_q_c = cb1.prompt_tokens, cb1.completion_tokens
+        
+        node_logger.debug("=== SE QUERY GENERATION RESPONSE ===")
+        node_logger.debug(f"Generated query: '{raw_q}'")
+        node_logger.debug("=== END RESPONSE ===")
+        node_logger.info(f"SE query tokens P={se_q_p}, C={se_q_c}")
+
+        if raw_q:
+            node_logger.info(f"Step 2b: Searching StackExchange with query: '{raw_q}'...")
+            results = search_stackexchange_qa(raw_q, stackexchange_site)
+            if results:
+                stack_sources = [
+                    f"SE({item['source_url']}): {item['question_title']}"
+                    for item in results
+                ]
+                stack_ctx = "\n=====\n".join(
+                    "Q:"
+                    + item["question_title"]
+                    + "\nA:"
+                    + "\n---\n".join(
+                        BeautifulSoup(html, "html.parser").get_text(
+                            separator="\n", strip=True
+                        )
+                        for html in item["answer_html_bodies"]
+                    )
+                    for item in results
+                )
+                node_logger.info(f"Retrieved {len(results)} SE Q&A for {agent_name}.")
+                node_logger.debug("=== SE RETRIEVAL RESULTS ===")
+                for i, item in enumerate(results):
+                    node_logger.debug(f"SE Q&A {i+1}: {item['question_title']}")
+                    node_logger.debug(f"URL: {item['source_url']}")
+                    node_logger.debug(f"Answers: {len(item['answer_html_bodies'])}")
+                node_logger.debug("=== END SE RESULTS ===")
+            else:
+                node_logger.warning(f"No StackExchange results retrieved for query: '{raw_q}'")
+
+    # 3) Final Advice Generation
+    node_logger.info(f"Step 3: Generating final {agent_name} advice...")
+    combined = f"KB INFO:\n{kb_ctx}\n\nSE INFO:\n{stack_ctx}"
+    node_logger.debug(f"Combined context length: {len(combined)} characters")
+    
+    final_prompt = prompt_template.format(
+        project_goal_summary=project_goal, **{retrieved_chunks_key_in_prompt: combined}
+    )
+    
+    node_logger.debug("=== FINAL ADVICE GENERATION PROMPT ===")
+    node_logger.debug(final_prompt)
+    node_logger.debug("=== END PROMPT ===")
+    
+    cb2 = OpenAICallbackHandler()
+    resp2 = llm.invoke(final_prompt, config={"callbacks": [cb2]})
+    advice = resp2.content.strip()
+    final_p, final_c = cb2.prompt_tokens, cb2.completion_tokens
+    
+    node_logger.debug("=== FINAL ADVICE RESPONSE ===")
+    node_logger.debug(advice)
+    node_logger.debug("=== END RESPONSE ===")
+    node_logger.info(f"{agent_name} advice tokens P={final_p}, C={final_c}")
+
+    # Debug: Log the exact keys being returned
+    result_keys = {
+        advice_k: advice,
+        kb_src_k: kb_sources,
+        stack_src_k: stack_sources,
+        f"{k}_se_query_prompt_tokens": se_q_p,
+        f"{k}_se_query_completion_tokens": se_q_c,
+        f"{k}_final_advice_prompt_tokens": final_p,
+        f"{k}_final_advice_completion_tokens": final_c,
+    }
+    
+    token_keys_returned = [key for key in result_keys.keys() if "token" in key]
+    node_logger.info(f"{agent_name} returning token keys: {token_keys_returned} with values: {[(key, result_keys[key]) for key in token_keys_returned]}")
+
+    node_logger.info(f"--- NODE FINISH: {agent_name} Agent ---")
+    return result_keys
 
 
-# --- Specialist Agent Node Definitions ---
-def rhythm_agent_node(state: OverallState) -> Dict[str, str]:
+def rhythm_agent_node(state: OverallState) -> Dict[str, Any]:
     return _specialist_agent_node_logic(
-        agent_name="Rhythm",
-        state=state,
-        knowledge_topic="rythm", # VERIFY THIS TOPIC NAME with your Qdrant data
-        prompt_template=RHYTHM_ADVICE_PROMPT_TEMPLATE,
-        retrieved_chunks_key_in_prompt="retrieved_rhythm_chunks"
+        "Rhythm",
+        state,
+        "rythm",
+        RHYTHM_ADVICE_PROMPT_TEMPLATE,
+        "retrieved_rhythm_chunks",
+        "audio.stackexchange.com",
     )
 
-def music_theory_agent_node(state: OverallState) -> Dict[str, str]:
+
+def music_theory_agent_node(state: OverallState) -> Dict[str, Any]:
     return _specialist_agent_node_logic(
-        agent_name="Music Theory",
-        state=state,
-        knowledge_topic="theory_general", # VERIFY THIS TOPIC NAME
-        prompt_template=MUSIC_THEORY_ADVICE_PROMPT_TEMPLATE,
-        retrieved_chunks_key_in_prompt="retrieved_music_theory_chunks"
+        "Music Theory",
+        state,
+        "theory_general",
+        MUSIC_THEORY_ADVICE_PROMPT_TEMPLATE,
+        "retrieved_music_theory_chunks",
+        "music.stackexchange.com",
     )
 
-def instruments_agent_node(state: OverallState) -> Dict[str, str]:
+
+def instruments_agent_node(state: OverallState) -> Dict[str, Any]:
     return _specialist_agent_node_logic(
-        agent_name="Instruments",
-        state=state,
-        knowledge_topic="timbre_instruments", # VERIFY THIS TOPIC NAME
-        prompt_template=INSTRUMENTS_ADVICE_PROMPT_TEMPLATE,
-        retrieved_chunks_key_in_prompt="retrieved_instruments_chunks"
+        "Instruments",
+        state,
+        "timbre_instruments",
+        INSTRUMENTS_ADVICE_PROMPT_TEMPLATE,
+        "retrieved_instruments_chunks",
+        "audio.stackexchange.com",
     )
 
-def lyrics_agent_node(state: OverallState) -> Dict[str, str]:
-    print("--- NODE: Lyrics Agent ---")
-    advice_content = "" # Default to empty if skipped or other pre-checks fail
 
+def lyrics_agent_node(state: OverallState) -> Dict[str, Any]:
+    node_logger.info("--- NODE START: Lyrics Agent (conditional) ---")
     if not state.get("should_run_lyrics_agent", False):
-        print("NODE (Lyrics_agent): Skipping as per should_run_lyrics_agent flag.")
-        return {"lyrics_advice": advice_content}
-
-    # Now call the generic logic if it's supposed to run
+        node_logger.info("Skipping Lyrics Agent by flag.")
+        return {
+            "lyrics_advice": "",
+            "lyrics_kb_sources": [],
+            "lyrics_stack_sources": [],
+            "lyrics_se_query_prompt_tokens": 0,
+            "lyrics_se_query_completion_tokens": 0,
+            "lyrics_final_advice_prompt_tokens": 0,
+            "lyrics_final_advice_completion_tokens": 0,
+        }
     return _specialist_agent_node_logic(
-        agent_name="Lyrics",
-        state=state,
-        knowledge_topic=None, # VERIFY THIS TOPIC NAME (or set to None for general search)
-        prompt_template=LYRICS_ADVICE_PROMPT_TEMPLATE,
-        retrieved_chunks_key_in_prompt="retrieved_lyrics_chunks"
+        "Lyrics",
+        state,
+        "Lyrics",
+        LYRICS_ADVICE_PROMPT_TEMPLATE,
+        "retrieved_lyrics_chunks",
+        "writers.stackexchange.com",
     )
 
-def production_agent_node(state: OverallState) -> Dict[str, str]:
+
+def production_agent_node(state: OverallState) -> Dict[str, Any]:
     return _specialist_agent_node_logic(
-        agent_name="Production",
-        state=state,
-        knowledge_topic="production", # VERIFY THIS TOPIC NAME
-        prompt_template=PRODUCTION_ADVICE_PROMPT_TEMPLATE,
-        retrieved_chunks_key_in_prompt="retrieved_production_chunks"
+        "Production",
+        state,
+        "production",
+        PRODUCTION_ADVICE_PROMPT_TEMPLATE,
+        "retrieved_production_chunks",
+        "audio.stackexchange.com",
     )
 
 
-# --- Node for Combining Advice ---
 def combine_advice_node(state: OverallState) -> Dict[str, Any]:
-    print("--- NODE: Combining Advice ---")
-    project_goal = state.get("project_goal_summary", "N/A (Project goal was not generated or was missing)")
-    initial_critical_error = state.get("error_message")
+    node_logger.info("--- NODE START: Combining Advice ---")
+    pg = state.get("project_goal_summary", "N/A")
+    err = state.get("error_message")
+    parts: List[str] = []
+    all_src: List[str] = []
 
-    moodboard_parts = []
+    node_logger.info(f"Project Goal: {pg}")
+    if err:
+        node_logger.warning(f"Error detected: {err}")
 
-    if initial_critical_error:
-        moodboard_parts.append(f"# Music Inspiration Moodboard - Generation Failed\n\n## Critical Error During Setup\n{initial_critical_error}\n")
-        moodboard_parts.append(f"Attempted Project Goal:\n{project_goal}\n")
+    if err:
+        parts.append(f"# FAILED\n{err}\nGoal: {pg}")
     else:
-        moodboard_parts.append(f"# Music Inspiration Moodboard\n\n## Project Goal\n{project_goal}\n")
+        parts.append(f"# Music Inspiration Moodboard\n## Project Goal\n{pg}\n")
 
-    # Helper to add advice sections, including embedded errors
-    def add_advice_section(title: str, advice_key: str, is_conditional: bool = False, condition_met: bool = True):
-        if is_conditional and not condition_met:
-            # Only add "skipped" message if it was meant to run but didn't produce content for other reasons than skip flag
-            # The lyrics_agent_node now returns "" if skipped by flag, so this handles it.
-            # If advice is None, it means the key wasn't even returned by the agent.
-            # if state.get(advice_key) is None: # If key is missing entirely (shouldn't happen if agent ran)
-            #    moodboard_parts.append(f"## {title}\n(This section was not processed)")
-            return # Do not add section if condition to run was not met AND it correctly returned empty/None
+    sections = [
+        ("Rhythm & Groove", "rhythm_advice", "rhythm_kb_sources", "rhythm_stack_sources"),
+        ("Music Theory & Harmony", "music_theory_advice", "music_theory_kb_sources", "music_theory_stack_sources"),
+        ("Timbre & Instrumentation", "instruments_advice", "instruments_kb_sources", "instruments_stack_sources"),
+        ("Lyrics & Vocals", "lyrics_advice", "lyrics_kb_sources", "lyrics_stack_sources", True, state.get("should_run_lyrics_agent", False)),
+        ("Production & Mix", "production_advice", "production_kb_sources", "production_stack_sources"),
+    ]
 
-        advice_content = state.get(advice_key)
-        if advice_content: # Non-empty string means advice or an embedded error
-            moodboard_parts.append(f"## {title}\n{advice_content}")
-        elif advice_content == "": # Specifically for agents that can be skipped and return empty string
-             moodboard_parts.append(f"## {title}\n(This section was intentionally skipped or produced no content)")
-        # If None, and it was supposed to run, something unexpected happened.
-        elif advice_content is None and (not is_conditional or condition_met):
-            moodboard_parts.append(f"## {title}\n(No advice was generated or an error occurred in this section - state key missing)")
+    node_logger.info("Processing advice sections...")
+    for sec in sections:
+        title, adv_k, kb_k, stk_k = sec[0], sec[1], sec[2], sec[3]
+        cond, ok = (sec[4], sec[5]) if len(sec) > 4 else (False, True)
+        
+        node_logger.debug(f"Processing section: {title}")
+        if cond and not ok:
+            node_logger.info(f"Skipping {title} (conditional skip)")
+            parts.append(f"## {title}\n(Skipped)")
+            continue
+            
+        adv = state.get(adv_k)
+        kbs = state.get(kb_k, [])
+        sts = state.get(stk_k, [])
+        
+        if adv:
+            node_logger.info(f"Including {title}: {len(adv)} chars, {len(kbs)} KB sources, {len(sts)} SE sources")
+            node_logger.debug(f"{title} advice preview: {adv[:200]}...")
+            parts.append(f"## {title}\n{adv}")
+            all_src += kbs + sts
+        else:
+            node_logger.warning(f"No advice found for {title} (key: {adv_k})")
 
+    uniq = sorted(set(all_src))
+    if uniq:
+        node_logger.info(f"Adding {len(uniq)} unique sources")
+        parts.append("## Sources")
+        parts += [f"{i+1}. {s}" for i, s in enumerate(uniq)]
 
-    add_advice_section("Rhythm & Groove", "rhythm_advice")
-    add_advice_section("Music Theory & Harmony", "music_theory_advice")
-    add_advice_section("Timbre & Instrumentation", "instruments_advice")
-    add_advice_section("Lyrics & Vocals", "lyrics_advice", is_conditional=True, condition_met=state.get("should_run_lyrics_agent", False))
-    add_advice_section("Production & Mix", "production_advice")
+    # Token calculation with detailed logging
+    node_logger.info("Calculating total token usage...")
+    agent_key_prefixes = ["rhythm", "music_theory", "instruments", "lyrics", "production"]
+    total_p = state.get("node_prompt_tokens", 0)
+    total_c = state.get("node_completion_tokens", 0)
     
-    final_moodboard = "\n\n".join(moodboard_parts)
-    print("NODE (combine_advice): Final moodboard assembled.")
+    node_logger.debug(f"Initial tokens from node: P={total_p}, C={total_c}")
     
-    # Return the final moodboard and preserve the critical error message if one existed
-    output_state: Dict[str, Any] = {"final_moodboard": final_moodboard}
-    if initial_critical_error:
-        output_state["error_message"] = initial_critical_error # Propagate if set
-    return output_state
+    # Debug: Print all state keys that contain "token"
+    token_keys = [k for k in state.keys() if "token" in k]
+    node_logger.debug(f"All token-related keys in state: {token_keys}")
+    
+    for prefix in agent_key_prefixes:
+        se_q_p = state.get(f"{prefix}_se_query_prompt_tokens", 0)
+        se_q_c = state.get(f"{prefix}_se_query_completion_tokens", 0)
+        final_p = state.get(f"{prefix}_final_advice_prompt_tokens", 0)
+        final_c = state.get(f"{prefix}_final_advice_completion_tokens", 0)
+        
+        agent_total_p = se_q_p + final_p
+        agent_total_c = se_q_c + final_c
+        total_p += agent_total_p
+        total_c += agent_total_c
+        
+        if agent_total_p or agent_total_c:
+            node_logger.info(f"{prefix} tokens: SE(P={se_q_p},C={se_q_c}) + Final(P={final_p},C={final_c}) = Total(P={agent_total_p},C={agent_total_c})")
+        else:
+            node_logger.warning(f"{prefix} tokens: all zero - agent may have failed or keys missing")
+
+    node_logger.info(f"FINAL Total tokens P={total_p}, C={total_c}")
+    
+    final_moodboard = "\n\n".join(parts)
+    node_logger.info(f"Generated moodboard: {len(final_moodboard)} characters total")
+
+    node_logger.info(f"--- NODE FINISH: Combining Advice ---")
+    return {
+        "final_moodboard": final_moodboard,
+        "all_accumulated_sources": uniq,
+        "total_prompt_tokens": total_p,
+        "total_completion_tokens": total_c,
+    }

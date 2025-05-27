@@ -1,0 +1,714 @@
+2025-05-20 10:46:15,714 - INFO - __main__ - RAG Music Moodboard Script Started.
+2025-05-20 10:46:15,714 - INFO - __main__ - Using LLM: llama3.2:3b via rag_agent_nodes.llm
+2025-05-20 10:46:15,714 - INFO - __main__ - --- New Moodboard Generation Run ---
+2025-05-20 10:46:15,714 - INFO - __main__ - Execution Mode: SEQUENTIAL
+2025-05-20 10:46:15,715 - INFO - __main__ - Building graph: Adding nodes...
+2025-05-20 10:46:15,715 - INFO - __main__ - Building graph: Entry point set to 'initial_processor'.
+2025-05-20 10:46:15,715 - INFO - __main__ - Building graph: Using SEQUENTIAL agent execution flow.
+2025-05-20 10:46:15,715 - INFO - __main__ - Building graph: Final edge to END set from 'advice_combiner'.
+2025-05-20 10:46:15,719 - INFO - __main__ - LangGraph RAG Moodboard Generator Compiled.
+2025-05-20 10:46:38,665 - INFO - __main__ - User Text Query: gypsy music
+2025-05-20 10:46:40,272 - INFO - __main__ - No audio file provided by user.
+2025-05-20 10:46:40,273 - INFO - __main__ - Similarity Summary (Placeholder):
+Audio provided; similarity analysis resulted in this list of similar tracks based on audio extracted features. Here is the list:
+
+| #  | Title                | Artist                          | Key       | BPM | Genres                      | Other tags                          |
+| -- | -------------------- | ------------------------------- | --------- | --- | --------------------------- | ----------------------------------- |
+| 1  | Serge’s Kiss         | Daybehavior                     | C minor   | 109 | alternative rock, dream pop | re-recording, pop, alternative rock |
+| 2  | Imagine              | John Lennon                     | C major   | 75  | rock, pop                   | piano, classic, 1971                |
+| 3  | Billie Jean          | Michael Jackson                 | F ♯ minor | 117 | pop, R&B                    | dance, 1980s, synth                 |
+| 4  | Smells Like Teen…    | Nirvana                         | F minor   | 117 | grunge, alternative rock    | 1990s, guitar riff, breakthrough    |
+| 5  | Rolling in the Deep  | Adele                           | C minor   | 105 | pop, soul                   | powerful vocals, 2010s              |
+| 6  | Take Five            | The Dave Brubeck Quartet        | E ♭ minor | 174 | jazz, cool jazz             | saxophone, classic, instrumental    |
+| 7  | Get Lucky            | Daft Punk ft. Pharrell Williams | F minor   | 116 | disco, electronic, funk     | dancefloor, 2010s                   |
+| 8  | Nothing Else Matters | Metallica                       | E minor   | 142 | heavy metal, rock           | ballad, acoustic intro              |
+| 9  | Bad Guy              | Billie Eilish                   | G minor   | 135 | pop, electro-pop            | whisper vocals, modern sound        |
+| 10 | Clocks               | Coldplay                        | E ♭ major | 131 | alternative rock, pop rock  | piano riff, 2000s                   |
+
+2025-05-20 10:46:40,273 - INFO - __main__ - Initial graph state prepared: {'user_text_query': 'gypsy music', 'user_audio_path': None, 'similar_tracks_summary': 'Audio provided; similarity analysis resulted in this list of similar tracks based on audio extracted features. Here is the list:\n\n| #  | Title                | Artist                          | Key       | BPM | Genres                      | Other tags                          |\n| -- | -------------------- | ------------------------------- | --------- | --- | --------------------------- | ----------------------------------- |\n| 1  | Serge’s Kiss         | Daybehavior                     | C minor   | 109 | alternative rock, dream pop | re-recording, pop, alternative rock |\n| 2  | Imagine              | John Lennon                     | C major   | 75  | rock, pop                   | piano, classic, 1971                |\n| 3  | Billie Jean          | Michael Jackson                 | F ♯ minor | 117 | pop, R&B                    | dance, 1980s, synth                 |\n| 4  | Smells Like Teen…    | Nirvana                         | F minor   | 117 | grunge, alternative rock    | 1990s, guitar riff, breakthrough    |\n| 5  | Rolling in the Deep  | Adele                           | C minor   | 105 | pop, soul                   | powerful vocals, 2010s              |\n| 6  | Take Five            | The Dave Brubeck Quartet        | E ♭ minor | 174 | jazz, cool jazz             | saxophone, classic, instrumental    |\n| 7  | Get Lucky            | Daft Punk ft. Pharrell Williams | F minor   | 116 | disco, electronic, funk     | dancefloor, 2010s                   |\n| 8  | Nothing Else Matters | Metallica                       | E minor   | 142 | heavy metal, rock           | ballad, acoustic intro              |\n| 9  | Bad Guy              | Billie Eilish                   | G minor   | 135 | pop, electro-pop            | whisper vocals, modern sound        |\n| 10 | Clocks               | Coldplay                        | E ♭ major | 131 | alternative rock, pop rock  | piano riff, 2000s                   |\n', 'project_goal_summary': '', 'rhythm_advice': None, 'music_theory_advice': None, 'instruments_advice': None, 'lyrics_advice': None, 'production_advice': None, 'final_moodboard': None, 'error_message': None, 'should_run_lyrics_agent': False}
+2025-05-20 10:46:40,273 - INFO - __main__ - Invoking LangGraph workflow...
+2025-05-20 10:46:40,300 - INFO - rag_agent_nodes - --- Starting NODE: Processing Initial Input & Synthesizing Goal ---
+2025-05-20 10:46:40,300 - INFO - rag_agent_nodes - User Text Query: 'gypsy music'
+2025-05-20 10:46:40,300 - INFO - rag_agent_nodes - Similar Tracks Summary Input:
+Audio provided; similarity analysis resulted in this list of similar tracks based on audio extracted features. Here is the list:
+
+| #  | Title                | Artist                          | Key       | BPM | Genres                      | Other tags                          |
+| -- | -------------------- | ------------------------------- | --------- | --- | --------------------------- | ----------------------------------- |
+| 1  | Serge’s Kiss         | Daybehavior                     | C minor   | 109 | alternative rock, dream pop | re-recording, pop, alternative rock |
+| 2  | Imagine              | John Lennon                     | C major   | 75  | rock, pop                   | piano, classic, 1971                |
+| 3  | Billie Jean          | Michael Jackson                 | F ♯ minor | 117 | pop, R&B                    | dance, 1980s, synth                 |
+| 4  | Smells Like Teen…    | Nirvana                         | F minor   | 117 | grunge, alternative rock    | 1990s, guitar riff, breakthrough    |
+| 5  | Rolling in the Deep  | Adele                           | C minor   | 105 | pop, soul                   | powerful vocals, 2010s              |
+| 6  | Take Five            | The Dave Brubeck Quartet        | E ♭ minor | 174 | jazz, cool jazz             | saxophone, classic, instrumental    |
+| 7  | Get Lucky            | Daft Punk ft. Pharrell Williams | F minor   | 116 | disco, electronic, funk     | dancefloor, 2010s                   |
+| 8  | Nothing Else Matters | Metallica                       | E minor   | 142 | heavy metal, rock           | ballad, acoustic intro              |
+| 9  | Bad Guy              | Billie Eilish                   | G minor   | 135 | pop, electro-pop            | whisper vocals, modern sound        |
+| 10 | Clocks               | Coldplay                        | E ♭ major | 131 | alternative rock, pop rock  | piano riff, 2000s                   |
+
+2025-05-20 10:46:40,300 - INFO - rag_agent_nodes - Attempting to generate project goal summary. Full Prompt:
+
+You are a helpful assistant that synthesizes information for a music creation project.
+Based on the user's request and an analysis of similar music (if provided), create a concise project goal summary.
+This summary will guide other specialized AI agents in providing creative advice.
+Focus on extracting key musical elements: genre, target artists/style, mood, instrumentation, tempo, and key signatures mentioned or implied.
+Keep the summary to 1-2 concise paragraphs.
+
+User Request:
+---
+gypsy music
+---
+
+Provided Similarity Analysis (characteristics of the user's audio or comparable tracks):
+---
+Audio provided; similarity analysis resulted in this list of similar tracks based on audio extracted features. Here is the list:
+
+| #  | Title                | Artist                          | Key       | BPM | Genres                      | Other tags                          |
+| -- | -------------------- | ------------------------------- | --------- | --- | --------------------------- | ----------------------------------- |
+| 1  | Serge’s Kiss         | Daybehavior                     | C minor   | 109 | alternative rock, dream pop | re-recording, pop, alternative rock |
+| 2  | Imagine              | John Lennon                     | C major   | 75  | rock, pop                   | piano, classic, 1971                |
+| 3  | Billie Jean          | Michael Jackson                 | F ♯ minor | 117 | pop, R&B                    | dance, 1980s, synth                 |
+| 4  | Smells Like Teen…    | Nirvana                         | F minor   | 117 | grunge, alternative rock    | 1990s, guitar riff, breakthrough    |
+| 5  | Rolling in the Deep  | Adele                           | C minor   | 105 | pop, soul                   | powerful vocals, 2010s              |
+| 6  | Take Five            | The Dave Brubeck Quartet        | E ♭ minor | 174 | jazz, cool jazz             | saxophone, classic, instrumental    |
+| 7  | Get Lucky            | Daft Punk ft. Pharrell Williams | F minor   | 116 | disco, electronic, funk     | dancefloor, 2010s                   |
+| 8  | Nothing Else Matters | Metallica                       | E minor   | 142 | heavy metal, rock           | ballad, acoustic intro              |
+| 9  | Bad Guy              | Billie Eilish                   | G minor   | 135 | pop, electro-pop            | whisper vocals, modern sound        |
+| 10 | Clocks               | Coldplay                        | E ♭ major | 131 | alternative rock, pop rock  | piano riff, 2000s                   |
+
+---
+
+Concise Project Goal Summary:
+
+2025-05-20 10:46:47,411 - INFO - httpx - HTTP Request: POST http://localhost:1337/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 10:46:47,426 - INFO - rag_agent_nodes - Project Goal Summary successfully generated by LLM:
+Based on the provided similar tracks and audio analysis, I have synthesized a concise project goal summary for your gypsy music creation project:
+
+**Project Goal:** Create an instrumental track that embodies the essence of traditional Gypsy music with a modern twist. The desired genre is rooted in Balkan folk, infused with elements of alternative rock and electronic music. The track should capture the emotional intensity and depth characteristic of classic Gypsy ballads, while incorporating contemporary production techniques to create a unique sound.
+
+**Key Musical Elements:**
+
+- Genre: Balkan folk, alternative rock, and electronic music
+- Mood: Emotive, intense, and melancholic, with moments of energetic and uplifting vibes
+- Instrumentation: Traditional Gypsy instruments (e.g., bouzouki, violin, accordion) blended with modern electronic elements (synthesizers, drum machines)
+- Tempo: Moderate to fast-paced, around 120 BPM
+- Key signature: A minor or E minor, potentially incorporating modal interchange and chromaticism typical of traditional Gypsy music.
+2025-05-20 10:46:47,427 - INFO - rag_agent_nodes - Should run lyrics agent: False
+2025-05-20 10:46:47,427 - INFO - rag_agent_nodes - --- Finished NODE: Processing Initial Input. Output: {'project_goal_summary': 'Based on the provided similar tracks and audio analysis, I have synthesized a concise project goal s...', 'should_run_lyrics_agent': False} ---
+2025-05-20 10:46:47,428 - INFO - __main__ - Output from node 'initial_processor': {'project_goal_summary': 'Based on the provided similar tracks and audio analysis, I have synthesized a concise project goal summary for your gypsy music creation project:\n\n**Project Goal:** Create an instrumental track that embodies the essence of traditional Gypsy music with a modern twist. The desired genre is rooted in Balkan folk, infused with elements of alternative rock and electronic music. The track should capture the emotional intensity and depth characteristic of classic Gypsy ballads, while incorporating contemporary production techniques to create a unique sound.\n\n**Key Musical Elements:**\n\n- Genre: Balkan folk, alternative rock, and electronic music\n- Mood: Emotive, intense, and melancholic, with moments of energetic and uplifting vibes\n- Instrumentation: Traditional Gypsy instruments (e.g., bouzouki, violin, accordion) blended with modern electronic elements (synthesizers, drum machines)\n- Tempo: Moderate to fast-paced, around 120 BPM\n- Key signature: A minor or E minor, potentially incorporating modal interchange and chromaticism typical of traditional Gypsy music.', 'should_run_lyrics_agent': False}
+2025-05-20 10:46:47,429 - INFO - rag_agent_nodes - --- Starting NODE: Rhythm Agent ---
+2025-05-20 10:46:47,429 - INFO - rag_agent_nodes - Project Goal for Rhythm:
+Based on the provided similar tracks and audio analysis, I have synthesized a concise project goal summary for your gypsy music creation project:
+
+**Project Goal:** Create an instrumental track that embodies the essence of traditional Gypsy music with a modern twist. The desired genre is rooted in Balkan folk, infused with elements of alternative rock and electronic music. The track should capture the emotional intensity and depth characteristic of classic Gypsy ballads, while incorporating contemporary production techniques to create a unique sound.
+
+**Key Musical Elements:**
+
+- Genre: Balkan folk, alternative rock, and electronic music
+- Mood: Emotive, intense, and melancholic, with moments of energetic and uplifting vibes
+- Instrumentation: Traditional Gypsy instruments (e.g., bouzouki, violin, accordion) blended with modern electronic elements (synthesizers, drum machines)
+- Tempo: Moderate to fast-paced, around 120 BPM
+- Key signature: A minor or E minor, potentially incorporating modal interchange and chromaticism typical of traditional Gypsy music.
+2025-05-20 10:46:47,429 - INFO - rag_agent_nodes - Formulated Search Query for Rhythm: 'Specific rhythm concepts, techniques, and ideas related to: Based on the provided similar tracks and audio analysis, I have synthesized a concise proj...'
+2025-05-20 10:46:47,495 - INFO - httpx - HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+2025-05-20 10:46:47,502 - INFO - httpx - HTTP Request: GET http://localhost:6333/collections/pdf_knowledge_base_hybrid3 "HTTP/1.1 200 OK"
+2025-05-20 10:46:48,170 - INFO - httpx - HTTP Request: GET http://localhost:6333/collections/pdf_knowledge_base_hybrid3 "HTTP/1.1 200 OK"
+2025-05-20 10:46:48,355 - INFO - httpx - HTTP Request: POST http://localhost:6333/collections/pdf_knowledge_base_hybrid3/points/query "HTTP/1.1 200 OK"
+2025-05-20 10:46:48,357 - INFO - rag_agent_nodes - Retrieved 3 documents for Rhythm (Topic: rythm):
+2025-05-20 10:46:48,357 - INFO - rag_agent_nodes -   Doc 1: Source: rythm/TBQ_the_basic_elements_of_music.pdf, Page: 6, Content: Students with some musical sophistication will enjoy the challenge of adding percussion in a "stylisti- cally appropriate" way. Work with the students to come up with "percussion tracks" for several p...
+2025-05-20 10:46:48,357 - INFO - rag_agent_nodes -   Doc 2: Source: rythm/TBQ_the_basic_elements_of_music.pdf, Page: 18, Content: 1.7 Dynamics and Accents in Music55 1.7.1 Dynamics
+
+Sounds, including music, can be barely audible, or loud enough to hurt your ears, or anywhere in between. When they want to talk about the loudness ...
+2025-05-20 10:46:48,357 - INFO - rag_agent_nodes -   Doc 3: Source: rythm/TBQ_the_basic_elements_of_music.pdf, Page: 48, Content: Goals - The student will learn to recognize when a repeated motif is being used in a piece of music (presented aurally), and will become familiar with some of the speci(cid:28)c uses of musical motifs...
+2025-05-20 10:46:48,357 - INFO - rag_agent_nodes - Attempting to generate rhythm advice. Full Prompt:
+
+You are a helpful music production assistant specializing in rhythm and groove.
+Your goal is to provide actionable and creative suggestions.
+
+Based on the following overall project goal:
+---
+Based on the provided similar tracks and audio analysis, I have synthesized a concise project goal summary for your gypsy music creation project:
+
+**Project Goal:** Create an instrumental track that embodies the essence of traditional Gypsy music with a modern twist. The desired genre is rooted in Balkan folk, infused with elements of alternative rock and electronic music. The track should capture the emotional intensity and depth characteristic of classic Gypsy ballads, while incorporating contemporary production techniques to create a unique sound.
+
+**Key Musical Elements:**
+
+- Genre: Balkan folk, alternative rock, and electronic music
+- Mood: Emotive, intense, and melancholic, with moments of energetic and uplifting vibes
+- Instrumentation: Traditional Gypsy instruments (e.g., bouzouki, violin, accordion) blended with modern electronic elements (synthesizers, drum machines)
+- Tempo: Moderate to fast-paced, around 120 BPM
+- Key signature: A minor or E minor, potentially incorporating modal interchange and chromaticism typical of traditional Gypsy music.
+---
+
+And these relevant knowledge chunks retrieved from a music production knowledge base about rhythm, drums, and groove:
+---
+Source: rythm/TBQ_the_basic_elements_of_music.pdf, Page: 6
+Content: Students with some musical sophistication will enjoy the challenge of adding percussion in a "stylisti- cally appropriate" way. Work with the students to come up with "percussion tracks" for several pieces in very di(cid:27)erent styles. Discuss di(cid:27)erences in choice of instruments and in rhythms for the di(cid:27)erent styles.
+
+---
+
+Source: rythm/TBQ_the_basic_elements_of_music.pdf, Page: 18
+Content: 1.7 Dynamics and Accents in Music55 1.7.1 Dynamics
+
+Sounds, including music, can be barely audible, or loud enough to hurt your ears, or anywhere in between. When they want to talk about the loudness of a sound, scientists and engineers talk about amplitude56. Musicians talk about dynamics. The amplitude of a sound is a particular number, usually measured in decibels, but dynamics are relative; an orchestra playing fortissimo sounds much louder than a single violin playing fortissimo. The exact interpretation of each dynamic marking in a piece of music depends on:
+
+comparison with other dynamics in that piece • the typical dynamic range for that instrument or ensemble • the abilities of the performer(s) • the traditions of the musical genre being performed • the acoustics of the performance space
+
+---
+
+Source: rythm/TBQ_the_basic_elements_of_music.pdf, Page: 48
+Content: Goals - The student will learn to recognize when a repeated motif is being used in a piece of music (presented aurally), and will become familiar with some of the speci(cid:28)c uses of musical motifs.
+
+Music Standards Addressed - These activities encourage the use of appropriate terminology in analyzing and describing music (National Standards for Music Education51 , music standard 6). If music from a variety of cultures or historical periods is used, and the discussion includes an exploration of the use of motifs in the music of di(cid:27)erent cultures or historical periods, music standard 9 is also addressed. The students may also be given a chance to compose (music standard 4) or improvise (music standard 3) using motifs.
+
+50This content is available online at <http://cnx.org/content/m11880/1.8/>. 51http://musiced.nafme.org/resources/national-standards-for-music-education/
+---
+
+Please generate 2-4 distinct and actionable rhythm suggestions for this music project.
+Focus ONLY on aspects like drum patterns, percussion, rhythmic feel, groove techniques, beat programming, and tempo considerations.
+If the retrieved knowledge chunks are sparse or not directly relevant, rely more on the project goal to generate general but applicable rhythmic ideas.
+Ensure your suggestions are formatted as Markdown bullet points. Each bullet point should represent a complete, creative idea.
+
+Rhythm Suggestions:
+
+2025-05-20 10:46:59,930 - INFO - httpx - HTTP Request: POST http://localhost:1337/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 10:46:59,931 - INFO - rag_agent_nodes - Rhythm Advice successfully generated by LLM:
+Here are 2-4 actionable rhythm suggestions for your Gypsy music project:
+
+* **Percussive Bouzouki Pattern**: Create a driving rhythmic foundation using the bouzouki as the primary melodic instrument. Use a combination of downstrokes and upstrokes to create a dynamic, energetic feel. Emphasize the 2nd and 4th beats in each measure to give the track a strong, pulsing rhythm. Consider using a mix of eighth-note and quarter-note rhythmic patterns to add texture and interest.
+* **Rhythmic Interplay between Drums and Electronic Elements**: Program a drum machine or use an electronic instrument to create a dynamic rhythmic interplay with the bouzouki. Use a combination of quarter notes and eighth notes on the drums, while also incorporating some syncopation (emphasizing off-beat rhythms) to create tension and release. Experiment with different rhythmic feels, such as a " shuffle" or "swing" feel, to add variety and interest.
+* **Vibrant Rhythmic Feel using Groove Techniques**: Focus on creating a vibrant, danceable rhythm by emphasizing the groove techniques of the Gypsy music tradition. Use a combination of quarter notes and eighth notes on the drums, while also incorporating some rhythmic fills (short rhythmic patterns played over the top of the main rhythm) to add flavor and interest. Consider using a "shuffling" or "shuffle-ball-change" feel to give the track a lively, energetic vibe.
+* **Polyrhythmic Beats with Multiple Drums**: Experiment with creating polyrhythms by layering multiple drum patterns on top of each other. Use a combination of quarter notes and eighth notes on different drums (such as snare, bass, and hi-hat) to create a complex, driving rhythmic feel. Consider using a slow-to-fast tempo build-up to create tension and release, while also incorporating some rhythmic fills to add variety and interest.
+2025-05-20 10:46:59,931 - INFO - rag_agent_nodes - --- Finished NODE: Rhythm Agent. Output for 'rhythm_advice': Here are 2-4 actionable rhythm suggestions for your Gypsy music project:
+
+* **Percussive Bouzouki Pa... ---
+2025-05-20 10:46:59,932 - INFO - __main__ - Output from node 'rhythm_agent': {'rhythm_advice': 'Here are 2-4 actionable rhythm suggestions for your Gypsy music project:\n\n* **Percussive Bouzouki Pattern**: Create a driving rhythmic foundation using the bouzouki as the primary melodic instrument. Use a combination of downstrokes and upstrokes to create a dynamic, energetic feel. Emphasize the 2nd and 4th beats in each measure to give the track a strong, pulsing rhythm. Consider using a mix of eighth-note and quarter-note rhythmic patterns to add texture and interest.\n* **Rhythmic Interplay between Drums and Electronic Elements**: Program a drum machine or use an electronic instrument to create a dynamic rhythmic interplay with the bouzouki. Use a combination of quarter notes and eighth notes on the drums, while also incorporating some syncopation (emphasizing off-beat rhythms) to create tension and release. Experiment with different rhythmic feels, such as a " shuffle" or "swing" feel, to add variety and interest.\n* **Vibrant Rhythmic Feel using Groove Techniques**: Focus on creating a vibrant, danceable rhythm by emphasizing the groove techniques of the Gypsy music tradition. Use a combination of quarter notes and eighth notes on the drums, while also incorporating some rhythmic fills (short rhythmic patterns played over the top of the main rhythm) to add flavor and interest. Consider using a "shuffling" or "shuffle-ball-change" feel to give the track a lively, energetic vibe.\n* **Polyrhythmic Beats with Multiple Drums**: Experiment with creating polyrhythms by layering multiple drum patterns on top of each other. Use a combination of quarter notes and eighth notes on different drums (such as snare, bass, and hi-hat) to create a complex, driving rhythmic feel. Consider using a slow-to-fast tempo build-up to create tension and release, while also incorporating some rhythmic fills to add variety and interest.'}
+2025-05-20 10:46:59,932 - INFO - rag_agent_nodes - --- Starting NODE: Music Theory Agent ---
+2025-05-20 10:46:59,932 - INFO - rag_agent_nodes - Project Goal for Music Theory:
+Based on the provided similar tracks and audio analysis, I have synthesized a concise project goal summary for your gypsy music creation project:
+
+**Project Goal:** Create an instrumental track that embodies the essence of traditional Gypsy music with a modern twist. The desired genre is rooted in Balkan folk, infused with elements of alternative rock and electronic music. The track should capture the emotional intensity and depth characteristic of classic Gypsy ballads, while incorporating contemporary production techniques to create a unique sound.
+
+**Key Musical Elements:**
+
+- Genre: Balkan folk, alternative rock, and electronic music
+- Mood: Emotive, intense, and melancholic, with moments of energetic and uplifting vibes
+- Instrumentation: Traditional Gypsy instruments (e.g., bouzouki, violin, accordion) blended with modern electronic elements (synthesizers, drum machines)
+- Tempo: Moderate to fast-paced, around 120 BPM
+- Key signature: A minor or E minor, potentially incorporating modal interchange and chromaticism typical of traditional Gypsy music.
+2025-05-20 10:46:59,932 - INFO - rag_agent_nodes - Formulated Search Query for Music Theory: 'Specific music theory concepts, techniques, and ideas related to: Based on the provided similar tracks and audio analysis, I have synthesized a concis...'
+2025-05-20 10:46:59,974 - INFO - httpx - HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+2025-05-20 10:46:59,976 - INFO - httpx - HTTP Request: GET http://localhost:6333/collections/pdf_knowledge_base_hybrid3 "HTTP/1.1 200 OK"
+2025-05-20 10:46:59,995 - INFO - httpx - HTTP Request: GET http://localhost:6333/collections/pdf_knowledge_base_hybrid3 "HTTP/1.1 200 OK"
+2025-05-20 10:47:00,153 - INFO - httpx - HTTP Request: POST http://localhost:6333/collections/pdf_knowledge_base_hybrid3/points/query "HTTP/1.1 200 OK"
+2025-05-20 10:47:00,154 - INFO - rag_agent_nodes - Retrieved 3 documents for Music Theory (Topic: theory_general):
+2025-05-20 10:47:00,154 - INFO - rag_agent_nodes -   Doc 1: Source: theory_general/Fundamentals_Function_and_Form.pdf, Page: 16, Content: unexpected and exciting musical destinations.
+
+These discussions will culminate in the fourth part of this book: an introduction to the concept of musical form, the
+
+shape and structure of a compositi...
+2025-05-20 10:47:00,154 - INFO - rag_agent_nodes -   Doc 2: Source: theory_general/Understanding_Basic_Music_Theory_hk_r.pdf, Page: 225, Content: To the average Western listener, medieval European chant and classical Indian music
+
+are the two most familiar traditions that are not based on major and minor scales. But
+
+many other musical traditio...
+2025-05-20 10:47:00,154 - INFO - rag_agent_nodes -   Doc 3: Source: theory_general/OPEN_MUSIC_THEORY_V2.pdf, Page: 39, Content: English or French.
+
+3. Finally, there are some special pitfalls where what looks like the same terms is actually used
+
+differently. Perhaps the most confusing and commonly used term here is “parallel....
+2025-05-20 10:47:00,154 - INFO - rag_agent_nodes - Attempting to generate music theory advice. Full Prompt:
+
+You are a helpful music theory assistant.
+Your goal is to provide actionable and creative suggestions related to harmony, melody, and song structure.
+
+Based on the following overall project goal:
+---
+Based on the provided similar tracks and audio analysis, I have synthesized a concise project goal summary for your gypsy music creation project:
+
+**Project Goal:** Create an instrumental track that embodies the essence of traditional Gypsy music with a modern twist. The desired genre is rooted in Balkan folk, infused with elements of alternative rock and electronic music. The track should capture the emotional intensity and depth characteristic of classic Gypsy ballads, while incorporating contemporary production techniques to create a unique sound.
+
+**Key Musical Elements:**
+
+- Genre: Balkan folk, alternative rock, and electronic music
+- Mood: Emotive, intense, and melancholic, with moments of energetic and uplifting vibes
+- Instrumentation: Traditional Gypsy instruments (e.g., bouzouki, violin, accordion) blended with modern electronic elements (synthesizers, drum machines)
+- Tempo: Moderate to fast-paced, around 120 BPM
+- Key signature: A minor or E minor, potentially incorporating modal interchange and chromaticism typical of traditional Gypsy music.
+---
+
+And these relevant knowledge chunks retrieved from a music theory knowledge base:
+---
+Source: theory_general/Fundamentals_Function_and_Form.pdf, Page: 16
+Content: unexpected and exciting musical destinations.
+
+These discussions will culminate in the fourth part of this book: an introduction to the concept of musical form, the
+
+shape and structure of a composition and its constituent parts. Through form we will engage with the entirety of
+
+an artistic work: first and foremost the interaction of harmonic and thematic elements, but also such other musical
+
+dimensions as rhythm, meter, texture, and expression. Our discussions will initially address the hierarchical nature of
+
+various structures in tonal Western art music—how the smallest musical elements work together to form larger sections
+
+and even entire pieces—as well as the ways in which various composers exploit this. Our discussions will cover a variety
+
+of the most frequently discussed formal paradigms, beginning with short compositional models and building to larger and more complicated archetypes.
+
+---
+
+Source: theory_general/Understanding_Basic_Music_Theory_hk_r.pdf, Page: 225
+Content: To the average Western listener, medieval European chant and classical Indian music
+
+are the two most familiar traditions that are not based on major and minor scales. But
+
+many other musical traditions around the world are not based on Western scales.
+
+Some of these have modes similar to the medieval Church modes; they also tend to
+
+be a list of notes (or a pattern of intervals) used with a specific finalis, which may
+
+encourage certain types of melodies. While the church mode/jazz mode tradition
+
+features diatonic modes (which can be played using only the white keys of a piano),
+
+non-Western modes may use other types of scales.
+
+In other music traditions, modes are much more like Indian ragas, featuring important
+
+variations in tuning and melodic expectations from one mode to the next, so that each
+
+mode may be seen as a collection of related melodic ideas, phrases, and
+
+ornamentations that are traditionally played with a certain set of notes tuned in a
+
+---
+
+Source: theory_general/OPEN_MUSIC_THEORY_V2.pdf, Page: 39
+Content: English or French.
+
+3. Finally, there are some special pitfalls where what looks like the same terms is actually used
+
+differently. Perhaps the most confusing and commonly used term here is “parallel.” Modern German
+
+music theory pedagogy uses “Parallel” to describe the relationship between two keys with the same
+
+key signature (e.g., C major and a minor) and for the same relationship between triads. English
+
+(British and American) music theory use “relative” for this and “parallel” for keys and triads on the
+
+same root (e.g., C major and c minor, “Varianttonarten” in German). This is just one term, but a
+
+particularly confusing one that percolates through wider differences.
+
+We hope these brief caveats are useful and you will be able to benefit from OMT.
+---
+
+Please generate 2-4 distinct and actionable music theory suggestions for this music project.
+Focus ONLY on aspects like chord progressions, scales, modes, melodic ideas, harmonic rhythm, and song structure.
+If the retrieved knowledge chunks are sparse or not directly relevant, rely more on the project goal to generate general but applicable theoretical ideas.
+Ensure your suggestions are formatted as Markdown bullet points. Each bullet point should represent a complete, creative idea.
+
+Music Theory Suggestions:
+
+2025-05-20 10:47:09,379 - INFO - httpx - HTTP Request: POST http://localhost:1337/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2025-05-20 10:47:09,379 - INFO - openai._base_client - Retrying request to /chat/completions in 0.382523 seconds
+2025-05-20 10:47:09,768 - INFO - httpx - HTTP Request: POST http://localhost:1337/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2025-05-20 10:47:09,768 - INFO - openai._base_client - Retrying request to /chat/completions in 0.756982 seconds
+2025-05-20 10:47:10,530 - INFO - httpx - HTTP Request: POST http://localhost:1337/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2025-05-20 10:47:10,530 - ERROR - rag_agent_nodes - Error during Music Theory agent's own execution (LLM call or retrieval): Error code: 500 - {'statusCode': 500, 'error': 'Internal Server Error', 'message': "Converting circular structure to JSON\n    --> starting at object with constructor 'Socket'\n    |     property 'parser' -> object with constructor 'HTTPParser'\n    --- property 'socket' closes the circle"}
+Traceback (most recent call last):
+  File "/home/raduc/Documents/Code/Licentzio/MusicBlock/RAG/rag_agent_nodes.py", line 187, in _specialist_agent_node_logic
+    response = llm.invoke(prompt)
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 370, in invoke
+    self.generate_prompt(
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 947, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 766, in generate
+    self._generate_with_cache(
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 1012, in _generate_with_cache
+    result = self._generate(
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langchain_openai/chat_models/base.py", line 959, in _generate
+    response = self.client.create(**payload)
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/openai/_utils/_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/openai/resources/chat/completions/completions.py", line 925, in create
+    return self._post(
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/openai/_base_client.py", line 1239, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/openai/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.InternalServerError: Error code: 500 - {'statusCode': 500, 'error': 'Internal Server Error', 'message': "Converting circular structure to JSON\n    --> starting at object with constructor 'Socket'\n    |     property 'parser' -> object with constructor 'HTTPParser'\n    --- property 'socket' closes the circle"}
+2025-05-20 10:47:10,538 - INFO - rag_agent_nodes - --- Finished NODE: Music Theory Agent. Output for 'music_theory_advice': Error: Could not generate music theory advice. Details: Error code: 500 - {'statusCode': 500, 'error... ---
+2025-05-20 10:47:10,539 - INFO - __main__ - Output from node 'music_theory_agent': {'music_theory_advice': 'Error: Could not generate music theory advice. Details: Error code: 500 - {\'statusCode\': 500, \'error\': \'Internal Server Error\', \'message\': "Converting circular structure to JSON\\n    --> starting at object with constructor \'Socket\'\\n    |     property \'parser\' -> object with constructor \'HTTPParser\'\\n    --- property \'socket\' closes the circle"}'}
+2025-05-20 10:47:10,539 - INFO - rag_agent_nodes - --- Starting NODE: Instruments Agent ---
+2025-05-20 10:47:10,539 - INFO - rag_agent_nodes - Project Goal for Instruments:
+Based on the provided similar tracks and audio analysis, I have synthesized a concise project goal summary for your gypsy music creation project:
+
+**Project Goal:** Create an instrumental track that embodies the essence of traditional Gypsy music with a modern twist. The desired genre is rooted in Balkan folk, infused with elements of alternative rock and electronic music. The track should capture the emotional intensity and depth characteristic of classic Gypsy ballads, while incorporating contemporary production techniques to create a unique sound.
+
+**Key Musical Elements:**
+
+- Genre: Balkan folk, alternative rock, and electronic music
+- Mood: Emotive, intense, and melancholic, with moments of energetic and uplifting vibes
+- Instrumentation: Traditional Gypsy instruments (e.g., bouzouki, violin, accordion) blended with modern electronic elements (synthesizers, drum machines)
+- Tempo: Moderate to fast-paced, around 120 BPM
+- Key signature: A minor or E minor, potentially incorporating modal interchange and chromaticism typical of traditional Gypsy music.
+2025-05-20 10:47:10,539 - INFO - rag_agent_nodes - Formulated Search Query for Instruments: 'Specific instruments concepts, techniques, and ideas related to: Based on the provided similar tracks and audio analysis, I have synthesized a concise...'
+2025-05-20 10:47:10,580 - INFO - httpx - HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+2025-05-20 10:47:10,583 - INFO - httpx - HTTP Request: GET http://localhost:6333/collections/pdf_knowledge_base_hybrid3 "HTTP/1.1 200 OK"
+2025-05-20 10:47:10,609 - INFO - httpx - HTTP Request: GET http://localhost:6333/collections/pdf_knowledge_base_hybrid3 "HTTP/1.1 200 OK"
+2025-05-20 10:47:10,746 - INFO - httpx - HTTP Request: POST http://localhost:6333/collections/pdf_knowledge_base_hybrid3/points/query "HTTP/1.1 200 OK"
+2025-05-20 10:47:10,747 - INFO - rag_agent_nodes - Retrieved 3 documents for Instruments (Topic: timbre_instruments):
+2025-05-20 10:47:10,747 - INFO - rag_agent_nodes -   Doc 1: Source: timbre_instruments/Sound_Synthesis_Theory.pdf, Page: 4, Content: Introduction
+
+This book covers a sub-field of Music Technology called sound synthesis. Al- though the tone is generally aimed at musicians and people with little prior knowledge of music systems, ther...
+2025-05-20 10:47:10,747 - INFO - rag_agent_nodes -   Doc 2: Source: timbre_instruments/musicbrainz_instruments.pdf, Page: 27, Content: Electronic instrument analog synthesizer (uses analogue circuits to produce sound) — Using analogue circuits and techniques to produce sound electronically, the first types where created in the 1920's...
+2025-05-20 10:47:10,747 - INFO - rag_agent_nodes -   Doc 3: Source: timbre_instruments/Sound_Synthesis_Theory.pdf, Page: 17, Content: Sound in the Digital Domain Introduction
+
+Digital systems (e.g. computers) and formats (e.g. CD) are clearly the most popular and commonplace methods of storing and manipulating audio. Since the intro...
+2025-05-20 10:47:10,747 - INFO - rag_agent_nodes - Attempting to generate instruments advice. Full Prompt:
+
+You are a helpful music production assistant specializing in instrumentation and sound design.
+Your goal is to provide actionable and creative suggestions.
+
+Based on the following overall project goal:
+---
+Based on the provided similar tracks and audio analysis, I have synthesized a concise project goal summary for your gypsy music creation project:
+
+**Project Goal:** Create an instrumental track that embodies the essence of traditional Gypsy music with a modern twist. The desired genre is rooted in Balkan folk, infused with elements of alternative rock and electronic music. The track should capture the emotional intensity and depth characteristic of classic Gypsy ballads, while incorporating contemporary production techniques to create a unique sound.
+
+**Key Musical Elements:**
+
+- Genre: Balkan folk, alternative rock, and electronic music
+- Mood: Emotive, intense, and melancholic, with moments of energetic and uplifting vibes
+- Instrumentation: Traditional Gypsy instruments (e.g., bouzouki, violin, accordion) blended with modern electronic elements (synthesizers, drum machines)
+- Tempo: Moderate to fast-paced, around 120 BPM
+- Key signature: A minor or E minor, potentially incorporating modal interchange and chromaticism typical of traditional Gypsy music.
+---
+
+And these relevant knowledge chunks retrieved from a music production knowledge base about instruments and timbre:
+---
+Source: timbre_instruments/Sound_Synthesis_Theory.pdf, Page: 4
+Content: Introduction
+
+This book covers a sub-field of Music Technology called sound synthesis. Al- though the tone is generally aimed at musicians and people with little prior knowledge of music systems, there may be some mathematical concepts and pro- gramming techniques that are not familiar. The book focuses on synthesis from a digital perspective rather than an analogue one, since it aims to demonstrate the theory of digital synthesis rather than applications to a specific medium or piece of software.
+
+---
+
+Source: timbre_instruments/musicbrainz_instruments.pdf, Page: 27
+Content: Electronic instrument analog synthesizer (uses analogue circuits to produce sound) — Using analogue circuits and techniques to produce sound electronically, the first types where created in the 1920's with thermionic valves and other electromechanical machineries. bass pedals bass synthesizer — A bass synthesizer is used to create sounds in the bass range. chamberlin (electromechanical piano) clavioline (electronic keyboard, forerunner to analogue synthesizers) — An early analogue synthesizer, it had a vacuum tube oscillator and high/low pass filtering to produce vibrato. continuum Denis d'or disk drive — Computer drives used for producing music, be it hard drives, floppy, CD or other. drum machine (drum programming) Dubreq Stylophone ebow electronic instruments electronic organ elektronium (electronic keyboard accordion) — In the form of a piano accordion, the keys control the output, pitch and sound, bellows control only volume
+
+---
+
+Source: timbre_instruments/Sound_Synthesis_Theory.pdf, Page: 17
+Content: Sound in the Digital Domain Introduction
+
+Digital systems (e.g. computers) and formats (e.g. CD) are clearly the most popular and commonplace methods of storing and manipulating audio. Since the introduction of the compact disc in the early 1980s, the digital format has provided increasingly greater storage capacity and the ability to store audio in- formation at an acceptable quality. Although analogue formats still exist (vinyl, tape), they typically serve a niche audience. Digital systems are ubiquitous in modern music technology. It must be stressed that there is no argument as to whether one domain, be it analogue or digital is superior, but the following provides some desirable features of working with audio in the digital domain.
+
+Storage. The amount of digital audio data capable of being stored on a modern hard drive is far greater than a tape system. Furthermore, we can choose the quality of the captured audio data, which relates directly to file size and other factors.
+---
+
+Please generate 2-4 distinct and actionable instrumentation and timbre suggestions for this music project.
+Focus ONLY on aspects like instrument choices, sound design for specific instruments (e.g., synths, strings, drums), layering, and textural ideas.
+If the retrieved knowledge chunks are sparse or not directly relevant, rely more on the project goal to generate general but applicable ideas.
+Ensure your suggestions are formatted as Markdown bullet points. Each bullet point should represent a complete, creative idea.
+
+Instrumentation & Timbre Suggestions:
+
+2025-05-20 10:47:10,751 - INFO - httpx - HTTP Request: POST http://localhost:1337/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2025-05-20 10:47:10,751 - INFO - openai._base_client - Retrying request to /chat/completions in 0.466182 seconds
+2025-05-20 10:47:11,222 - INFO - httpx - HTTP Request: POST http://localhost:1337/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2025-05-20 10:47:11,223 - INFO - openai._base_client - Retrying request to /chat/completions in 0.975287 seconds
+2025-05-20 10:47:12,202 - INFO - httpx - HTTP Request: POST http://localhost:1337/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2025-05-20 10:47:12,203 - ERROR - rag_agent_nodes - Error during Instruments agent's own execution (LLM call or retrieval): Error code: 500 - {'statusCode': 500, 'error': 'Internal Server Error', 'message': "Converting circular structure to JSON\n    --> starting at object with constructor 'Socket'\n    |     property 'parser' -> object with constructor 'HTTPParser'\n    --- property 'socket' closes the circle"}
+Traceback (most recent call last):
+  File "/home/raduc/Documents/Code/Licentzio/MusicBlock/RAG/rag_agent_nodes.py", line 187, in _specialist_agent_node_logic
+    response = llm.invoke(prompt)
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 370, in invoke
+    self.generate_prompt(
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 947, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 766, in generate
+    self._generate_with_cache(
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 1012, in _generate_with_cache
+    result = self._generate(
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langchain_openai/chat_models/base.py", line 959, in _generate
+    response = self.client.create(**payload)
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/openai/_utils/_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/openai/resources/chat/completions/completions.py", line 925, in create
+    return self._post(
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/openai/_base_client.py", line 1239, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/openai/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.InternalServerError: Error code: 500 - {'statusCode': 500, 'error': 'Internal Server Error', 'message': "Converting circular structure to JSON\n    --> starting at object with constructor 'Socket'\n    |     property 'parser' -> object with constructor 'HTTPParser'\n    --- property 'socket' closes the circle"}
+2025-05-20 10:47:12,203 - INFO - rag_agent_nodes - --- Finished NODE: Instruments Agent. Output for 'instruments_advice': Error: Could not generate instruments advice. Details: Error code: 500 - {'statusCode': 500, 'error'... ---
+2025-05-20 10:47:12,204 - INFO - __main__ - Output from node 'instruments_agent': {'instruments_advice': 'Error: Could not generate instruments advice. Details: Error code: 500 - {\'statusCode\': 500, \'error\': \'Internal Server Error\', \'message\': "Converting circular structure to JSON\\n    --> starting at object with constructor \'Socket\'\\n    |     property \'parser\' -> object with constructor \'HTTPParser\'\\n    --- property \'socket\' closes the circle"}'}
+2025-05-20 10:47:12,204 - INFO - rag_agent_nodes - --- Evaluating NODE: Lyrics Agent ---
+2025-05-20 10:47:12,204 - INFO - rag_agent_nodes - NODE (Lyrics_agent): Skipping as should_run_lyrics_agent flag is False.
+2025-05-20 10:47:12,204 - INFO - __main__ - Output from node 'lyrics_agent': {'lyrics_advice': ''}
+2025-05-20 10:47:12,204 - INFO - rag_agent_nodes - --- Starting NODE: Production Agent ---
+2025-05-20 10:47:12,204 - INFO - rag_agent_nodes - Project Goal for Production:
+Based on the provided similar tracks and audio analysis, I have synthesized a concise project goal summary for your gypsy music creation project:
+
+**Project Goal:** Create an instrumental track that embodies the essence of traditional Gypsy music with a modern twist. The desired genre is rooted in Balkan folk, infused with elements of alternative rock and electronic music. The track should capture the emotional intensity and depth characteristic of classic Gypsy ballads, while incorporating contemporary production techniques to create a unique sound.
+
+**Key Musical Elements:**
+
+- Genre: Balkan folk, alternative rock, and electronic music
+- Mood: Emotive, intense, and melancholic, with moments of energetic and uplifting vibes
+- Instrumentation: Traditional Gypsy instruments (e.g., bouzouki, violin, accordion) blended with modern electronic elements (synthesizers, drum machines)
+- Tempo: Moderate to fast-paced, around 120 BPM
+- Key signature: A minor or E minor, potentially incorporating modal interchange and chromaticism typical of traditional Gypsy music.
+2025-05-20 10:47:12,204 - INFO - rag_agent_nodes - Formulated Search Query for Production: 'Specific production concepts, techniques, and ideas related to: Based on the provided similar tracks and audio analysis, I have synthesized a concise ...'
+2025-05-20 10:47:12,249 - INFO - httpx - HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+2025-05-20 10:47:12,252 - INFO - httpx - HTTP Request: GET http://localhost:6333/collections/pdf_knowledge_base_hybrid3 "HTTP/1.1 200 OK"
+2025-05-20 10:47:12,283 - INFO - httpx - HTTP Request: GET http://localhost:6333/collections/pdf_knowledge_base_hybrid3 "HTTP/1.1 200 OK"
+2025-05-20 10:47:12,447 - INFO - httpx - HTTP Request: POST http://localhost:6333/collections/pdf_knowledge_base_hybrid3/points/query "HTTP/1.1 200 OK"
+2025-05-20 10:47:12,448 - INFO - rag_agent_nodes - Retrieved 3 documents for Production (Topic: production):
+2025-05-20 10:47:12,448 - INFO - rag_agent_nodes -   Doc 1: Source: production/Douglas_Self_Audio_Engineering_Explained.pdf, Page: 459, Content: In order to eliminate (or at best reduce) the basic differences that exist between systems, a patch and settings standard known as General MIDI (GM) was created. In short, GM assigns a specific instru...
+2025-05-20 10:47:12,448 - INFO - rag_agent_nodes -   Doc 2: Source: production/Douglas_Self_Audio_Engineering_Explained.pdf, Page: 444, Content: Hardware and software electronic instruments Since its inception in the early 80s, MIDI-based electronic musical instruments have helped to shape the face and sounds of our modern music culture. These...
+2025-05-20 10:47:12,448 - INFO - rag_agent_nodes -   Doc 3: Source: production/Douglas_Self_Audio_Engineering_Explained.pdf, Page: 528, Content: We will discuss the matter of timbre changes later, and we will see that tone coloration can be either positive or negative, depending on how one asks the question in an experiment. Again, we will go ...
+2025-05-20 10:47:12,448 - INFO - rag_agent_nodes - Attempting to generate production advice. Full Prompt:
+
+You are a helpful music production and mixing assistant.
+Your goal is to provide actionable and creative suggestions related to overall production, mixing, and effects.
+
+Based on the following overall project goal:
+---
+Based on the provided similar tracks and audio analysis, I have synthesized a concise project goal summary for your gypsy music creation project:
+
+**Project Goal:** Create an instrumental track that embodies the essence of traditional Gypsy music with a modern twist. The desired genre is rooted in Balkan folk, infused with elements of alternative rock and electronic music. The track should capture the emotional intensity and depth characteristic of classic Gypsy ballads, while incorporating contemporary production techniques to create a unique sound.
+
+**Key Musical Elements:**
+
+- Genre: Balkan folk, alternative rock, and electronic music
+- Mood: Emotive, intense, and melancholic, with moments of energetic and uplifting vibes
+- Instrumentation: Traditional Gypsy instruments (e.g., bouzouki, violin, accordion) blended with modern electronic elements (synthesizers, drum machines)
+- Tempo: Moderate to fast-paced, around 120 BPM
+- Key signature: A minor or E minor, potentially incorporating modal interchange and chromaticism typical of traditional Gypsy music.
+---
+
+And these relevant knowledge chunks retrieved from a music production knowledge base about mixing, mastering, and effects:
+---
+Source: production/Douglas_Self_Audio_Engineering_Explained.pdf, Page: 459
+Content: In order to eliminate (or at best reduce) the basic differences that exist between systems, a patch and settings standard known as General MIDI (GM) was created. In short, GM assigns a specific instrument patch to each of the 128 available program change numbers. Since all electronic instruments that con- form to the GM format must use these patch assignments, placing GM program change commands at the header of each track will automatically configure the sequence to play with its originally intended sound. As such, no matter what sequencer is used to play the file back, as long as the receiving instru- ment conforms to the GM spec the sequence will be heard using its intended instrumentation. Tables 16.3 and 16.4 detail the program numbers and patch names that conform to the GM format (Table 16.3 for percussion and Table 16.4 for nonpercussion instruments)
+
+---
+
+Source: production/Douglas_Self_Audio_Engineering_Explained.pdf, Page: 444
+Content: Hardware and software electronic instruments Since its inception in the early 80s, MIDI-based electronic musical instruments have helped to shape the face and sounds of our modern music culture. These devices (along with digital audio and advances in recording equipment technology) have altered music production, through the creation of one of the most cost-effective and powerful tools in the development of music history—the personal project studio.
+
+The following is a sample listing of the many hardware MIDI instrument types that are currently avail- able on the market.
+
+---
+
+Source: production/Douglas_Self_Audio_Engineering_Explained.pdf, Page: 528
+Content: We will discuss the matter of timbre changes later, and we will see that tone coloration can be either positive or negative, depending on how one asks the question in an experiment. Again, we will go back to the quote in the caption that with the addition of a reflection, “the music [begins] to gain body and fullness,” which can readily be interpreted to be tonal coloration but of a possibly desirable form.
+
+Threshold curve shapes for different sounds It is useful to go back now and compare the shapes of the threshold contours determined by Barron for music with those shown earlier for speech, both in anechoic listening conditions. Figure 19.14 shows such a comparison, and it is seen that curves obtained using the anechoically recorded Mozart excerpt are much flatter than those for speech.
+---
+
+Please generate 2-4 distinct and actionable production or mixing suggestions for this music project.
+Focus ONLY on aspects like arrangement polish, mixing techniques (EQ, compression, stereo imaging), choice and use of effects (reverb, delay, modulation), or overall sonic character.
+If the retrieved knowledge chunks are sparse or not directly relevant, rely more on the project goal to generate general but applicable ideas.
+Ensure your suggestions are formatted as Markdown bullet points. Each bullet point should represent a complete, creative idea.
+
+Production & Mix Suggestions:
+
+2025-05-20 10:47:12,453 - INFO - httpx - HTTP Request: POST http://localhost:1337/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2025-05-20 10:47:12,453 - INFO - openai._base_client - Retrying request to /chat/completions in 0.394977 seconds
+2025-05-20 10:47:12,856 - INFO - httpx - HTTP Request: POST http://localhost:1337/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2025-05-20 10:47:12,856 - INFO - openai._base_client - Retrying request to /chat/completions in 0.828344 seconds
+2025-05-20 10:47:13,691 - INFO - httpx - HTTP Request: POST http://localhost:1337/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2025-05-20 10:47:13,692 - ERROR - rag_agent_nodes - Error during Production agent's own execution (LLM call or retrieval): Error code: 500 - {'statusCode': 500, 'error': 'Internal Server Error', 'message': "Converting circular structure to JSON\n    --> starting at object with constructor 'Socket'\n    |     property 'parser' -> object with constructor 'HTTPParser'\n    --- property 'socket' closes the circle"}
+Traceback (most recent call last):
+  File "/home/raduc/Documents/Code/Licentzio/MusicBlock/RAG/rag_agent_nodes.py", line 187, in _specialist_agent_node_logic
+    response = llm.invoke(prompt)
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 370, in invoke
+    self.generate_prompt(
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 947, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 766, in generate
+    self._generate_with_cache(
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 1012, in _generate_with_cache
+    result = self._generate(
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langchain_openai/chat_models/base.py", line 959, in _generate
+    response = self.client.create(**payload)
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/openai/_utils/_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/openai/resources/chat/completions/completions.py", line 925, in create
+    return self._post(
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/openai/_base_client.py", line 1239, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/openai/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.InternalServerError: Error code: 500 - {'statusCode': 500, 'error': 'Internal Server Error', 'message': "Converting circular structure to JSON\n    --> starting at object with constructor 'Socket'\n    |     property 'parser' -> object with constructor 'HTTPParser'\n    --- property 'socket' closes the circle"}
+2025-05-20 10:47:13,693 - INFO - rag_agent_nodes - --- Finished NODE: Production Agent. Output for 'production_advice': Error: Could not generate production advice. Details: Error code: 500 - {'statusCode': 500, 'error':... ---
+2025-05-20 10:47:13,694 - INFO - __main__ - Output from node 'production_agent': {'production_advice': 'Error: Could not generate production advice. Details: Error code: 500 - {\'statusCode\': 500, \'error\': \'Internal Server Error\', \'message\': "Converting circular structure to JSON\\n    --> starting at object with constructor \'Socket\'\\n    |     property \'parser\' -> object with constructor \'HTTPParser\'\\n    --- property \'socket\' closes the circle"}'}
+2025-05-20 10:47:13,694 - INFO - rag_agent_nodes - --- Starting NODE: Combining Advice ---
+2025-05-20 10:47:13,694 - INFO - rag_agent_nodes - Moodboard Project Goal:
+Based on the provided similar tracks and audio analysis, I have synthesized a concise project goal summary for your gypsy music creation project:
+
+**Project Goal:** Create an instrumental track that embodies the essence of traditional Gypsy music with a modern twist. The desired genre is rooted in Balkan folk, infused with elements of alternative rock and electronic music. The track should capture the emotional intensity and depth characteristic of classic Gypsy ballads, while incorporating contemporary production techniques to create a unique sound.
+
+**Key Musical Elements:**
+
+- Genre: Balkan folk, alternative rock, and electronic music
+- Mood: Emotive, intense, and melancholic, with moments of energetic and uplifting vibes
+- Instrumentation: Traditional Gypsy instruments (e.g., bouzouki, violin, accordion) blended with modern electronic elements (synthesizers, drum machines)
+- Tempo: Moderate to fast-paced, around 120 BPM
+- Key signature: A minor or E minor, potentially incorporating modal interchange and chromaticism typical of traditional Gypsy music.
+2025-05-20 10:47:13,694 - INFO - rag_agent_nodes - Advice for 'Rhythm & Groove':
+Here are 2-4 actionable rhythm suggestions for your Gypsy music project:
+
+* **Percussive Bouzouki Pattern**: Create a driving rhythmic foundation using the bouzouki as the primary melodic instrument. Use a combination of downstrokes and upstrokes to create a dynamic, energetic feel. Emphasize the 2nd and 4th beats in each measure to give the track a strong, pulsing rhythm. Consider using a mix of eighth-note and quarter-note rhythmic patterns to add texture and interest.
+* **Rhythmic Interplay between Drums and Electronic Elements**: Program a drum machine or use an electronic instrument to create a dynamic rhythmic interplay with the bouzouki. Use a combination of quarter notes and eighth notes on the drums, while also incorporating some syncopation (emphasizing off-beat rhythms) to create tension and release. Experiment with different rhythmic feels, such as a " shuffle" or "swing" feel, to add variety and interest.
+* **Vibrant Rhythmic Feel using Groove Techniques**: Focus on creating a vibrant, danceable rhythm by emphasizing the groove techniques of the Gypsy music tradition. Use a combination of quarter notes and eighth notes on the drums, while also incorporating some rhythmic fills (short rhythmic patterns played over the top of the main rhythm) to add flavor and interest. Consider using a "shuffling" or "shuffle-ball-change" feel to give the track a lively, energetic vibe.
+* **Polyrhythmic Beats with Multiple Drums**: Experiment with creating polyrhythms by layering multiple drum patterns on top of each other. Use a combination of quarter notes and eighth notes on different drums (such as snare, bass, and hi-hat) to create a complex, driving rhythmic feel. Consider using a slow-to-fast tempo build-up to create tension and release, while also incorporating some rhythmic fills to add variety and interest.
+2025-05-20 10:47:13,694 - INFO - rag_agent_nodes - Advice for 'Music Theory & Harmony':
+Error: Could not generate music theory advice. Details: Error code: 500 - {'statusCode': 500, 'error': 'Internal Server Error', 'message': "Converting circular structure to JSON\n    --> starting at object with constructor 'Socket'\n    |     property 'parser' -> object with constructor 'HTTPParser'\n    --- property 'socket' closes the circle"}
+2025-05-20 10:47:13,694 - INFO - rag_agent_nodes - Advice for 'Timbre & Instrumentation':
+Error: Could not generate instruments advice. Details: Error code: 500 - {'statusCode': 500, 'error': 'Internal Server Error', 'message': "Converting circular structure to JSON\n    --> starting at object with constructor 'Socket'\n    |     property 'parser' -> object with constructor 'HTTPParser'\n    --- property 'socket' closes the circle"}
+2025-05-20 10:47:13,694 - INFO - rag_agent_nodes - 'Lyrics & Vocals' was intentionally skipped.
+2025-05-20 10:47:13,694 - INFO - rag_agent_nodes - Advice for 'Production & Mix':
+Error: Could not generate production advice. Details: Error code: 500 - {'statusCode': 500, 'error': 'Internal Server Error', 'message': "Converting circular structure to JSON\n    --> starting at object with constructor 'Socket'\n    |     property 'parser' -> object with constructor 'HTTPParser'\n    --- property 'socket' closes the circle"}
+2025-05-20 10:47:13,694 - INFO - rag_agent_nodes - Final moodboard assembled. Length: 4162 chars.
+2025-05-20 10:47:13,694 - INFO - rag_agent_nodes - --- Finished NODE: Combining Advice ---
+2025-05-20 10:47:13,695 - INFO - __main__ - Output from node 'advice_combiner': {'final_moodboard': '# Music Inspiration Moodboard\n\n## Project Goal\nBased on the provided similar tracks and audio analysis, I have synthesized a concise project goal summary for your gypsy music creation project:\n\n**Project Goal:** Create an instrumental track that embodies the essence of traditional Gypsy music with a modern twist. The desired genre is rooted in Balkan folk, infused with elements of alternative rock and electronic music. The track should capture the emotional intensity and depth characteristic of classic Gypsy ballads, while incorporating contemporary production techniques to create a unique sound.\n\n**Key Musical Elements:**\n\n- Genre: Balkan folk, alternative rock, and electronic music\n- Mood: Emotive, intense, and melancholic, with moments of energetic and uplifting vibes\n- Instrumentation: Traditional Gypsy instruments (e.g., bouzouki, violin, accordion) blended with modern electronic elements (synthesizers, drum machines)\n- Tempo: Moderate to fast-paced, around 120 BPM\n- Key signature: A minor or E minor, potentially incorporating modal interchange and chromaticism typical of traditional Gypsy music.\n\n\n## Rhythm & Groove\nHere are 2-4 actionable rhythm suggestions for your Gypsy music project:\n\n* **Percussive Bouzouki Pattern**: Create a driving rhythmic foundation using the bouzouki as the primary melodic instrument. Use a combination of downstrokes and upstrokes to create a dynamic, energetic feel. Emphasize the 2nd and 4th beats in each measure to give the track a strong, pulsing rhythm. Consider using a mix of eighth-note and quarter-note rhythmic patterns to add texture and interest.\n* **Rhythmic Interplay between Drums and Electronic Elements**: Program a drum machine or use an electronic instrument to create a dynamic rhythmic interplay with the bouzouki. Use a combination of quarter notes and eighth notes on the drums, while also incorporating some syncopation (emphasizing off-beat rhythms) to create tension and release. Experiment with different rhythmic feels, such as a " shuffle" or "swing" feel, to add variety and interest.\n* **Vibrant Rhythmic Feel using Groove Techniques**: Focus on creating a vibrant, danceable rhythm by emphasizing the groove techniques of the Gypsy music tradition. Use a combination of quarter notes and eighth notes on the drums, while also incorporating some rhythmic fills (short rhythmic patterns played over the top of the main rhythm) to add flavor and interest. Consider using a "shuffling" or "shuffle-ball-change" feel to give the track a lively, energetic vibe.\n* **Polyrhythmic Beats with Multiple Drums**: Experiment with creating polyrhythms by layering multiple drum patterns on top of each other. Use a combination of quarter notes and eighth notes on different drums (such as snare, bass, and hi-hat) to create a complex, driving rhythmic feel. Consider using a slow-to-fast tempo build-up to create tension and release, while also incorporating some rhythmic fills to add variety and interest.\n\n## Music Theory & Harmony\nError: Could not generate music theory advice. Details: Error code: 500 - {\'statusCode\': 500, \'error\': \'Internal Server Error\', \'message\': "Converting circular structure to JSON\\n    --> starting at object with constructor \'Socket\'\\n    |     property \'parser\' -> object with constructor \'HTTPParser\'\\n    --- property \'socket\' closes the circle"}\n\n## Timbre & Instrumentation\nError: Could not generate instruments advice. Details: Error code: 500 - {\'statusCode\': 500, \'error\': \'Internal Server Error\', \'message\': "Converting circular structure to JSON\\n    --> starting at object with constructor \'Socket\'\\n    |     property \'parser\' -> object with constructor \'HTTPParser\'\\n    --- property \'socket\' closes the circle"}\n\n## Lyrics & Vocals\n(This section was intentionally skipped)\n\n## Production & Mix\nError: Could not generate production advice. Details: Error code: 500 - {\'statusCode\': 500, \'error\': \'Internal Server Error\', \'message\': "Converting circular structure to JSON\\n    --> starting at object with constructor \'Socket\'\\n    |     property \'parser\' -> object with constructor \'HTTPParser\'\\n    --- property \'socket\' closes the circle"}'}
+2025-05-20 10:47:13,696 - INFO - rag_agent_nodes - --- Starting NODE: Processing Initial Input & Synthesizing Goal ---
+2025-05-20 10:47:13,696 - INFO - rag_agent_nodes - User Text Query: 'gypsy music'
+2025-05-20 10:47:13,697 - INFO - rag_agent_nodes - Similar Tracks Summary Input:
+Audio provided; similarity analysis resulted in this list of similar tracks based on audio extracted features. Here is the list:
+
+| #  | Title                | Artist                          | Key       | BPM | Genres                      | Other tags                          |
+| -- | -------------------- | ------------------------------- | --------- | --- | --------------------------- | ----------------------------------- |
+| 1  | Serge’s Kiss         | Daybehavior                     | C minor   | 109 | alternative rock, dream pop | re-recording, pop, alternative rock |
+| 2  | Imagine              | John Lennon                     | C major   | 75  | rock, pop                   | piano, classic, 1971                |
+| 3  | Billie Jean          | Michael Jackson                 | F ♯ minor | 117 | pop, R&B                    | dance, 1980s, synth                 |
+| 4  | Smells Like Teen…    | Nirvana                         | F minor   | 117 | grunge, alternative rock    | 1990s, guitar riff, breakthrough    |
+| 5  | Rolling in the Deep  | Adele                           | C minor   | 105 | pop, soul                   | powerful vocals, 2010s              |
+| 6  | Take Five            | The Dave Brubeck Quartet        | E ♭ minor | 174 | jazz, cool jazz             | saxophone, classic, instrumental    |
+| 7  | Get Lucky            | Daft Punk ft. Pharrell Williams | F minor   | 116 | disco, electronic, funk     | dancefloor, 2010s                   |
+| 8  | Nothing Else Matters | Metallica                       | E minor   | 142 | heavy metal, rock           | ballad, acoustic intro              |
+| 9  | Bad Guy              | Billie Eilish                   | G minor   | 135 | pop, electro-pop            | whisper vocals, modern sound        |
+| 10 | Clocks               | Coldplay                        | E ♭ major | 131 | alternative rock, pop rock  | piano riff, 2000s                   |
+
+2025-05-20 10:47:13,697 - INFO - rag_agent_nodes - Attempting to generate project goal summary. Full Prompt:
+
+You are a helpful assistant that synthesizes information for a music creation project.
+Based on the user's request and an analysis of similar music (if provided), create a concise project goal summary.
+This summary will guide other specialized AI agents in providing creative advice.
+Focus on extracting key musical elements: genre, target artists/style, mood, instrumentation, tempo, and key signatures mentioned or implied.
+Keep the summary to 1-2 concise paragraphs.
+
+User Request:
+---
+gypsy music
+---
+
+Provided Similarity Analysis (characteristics of the user's audio or comparable tracks):
+---
+Audio provided; similarity analysis resulted in this list of similar tracks based on audio extracted features. Here is the list:
+
+| #  | Title                | Artist                          | Key       | BPM | Genres                      | Other tags                          |
+| -- | -------------------- | ------------------------------- | --------- | --- | --------------------------- | ----------------------------------- |
+| 1  | Serge’s Kiss         | Daybehavior                     | C minor   | 109 | alternative rock, dream pop | re-recording, pop, alternative rock |
+| 2  | Imagine              | John Lennon                     | C major   | 75  | rock, pop                   | piano, classic, 1971                |
+| 3  | Billie Jean          | Michael Jackson                 | F ♯ minor | 117 | pop, R&B                    | dance, 1980s, synth                 |
+| 4  | Smells Like Teen…    | Nirvana                         | F minor   | 117 | grunge, alternative rock    | 1990s, guitar riff, breakthrough    |
+| 5  | Rolling in the Deep  | Adele                           | C minor   | 105 | pop, soul                   | powerful vocals, 2010s              |
+| 6  | Take Five            | The Dave Brubeck Quartet        | E ♭ minor | 174 | jazz, cool jazz             | saxophone, classic, instrumental    |
+| 7  | Get Lucky            | Daft Punk ft. Pharrell Williams | F minor   | 116 | disco, electronic, funk     | dancefloor, 2010s                   |
+| 8  | Nothing Else Matters | Metallica                       | E minor   | 142 | heavy metal, rock           | ballad, acoustic intro              |
+| 9  | Bad Guy              | Billie Eilish                   | G minor   | 135 | pop, electro-pop            | whisper vocals, modern sound        |
+| 10 | Clocks               | Coldplay                        | E ♭ major | 131 | alternative rock, pop rock  | piano riff, 2000s                   |
+
+---
+
+Concise Project Goal Summary:
+
+2025-05-20 10:47:13,702 - INFO - httpx - HTTP Request: POST http://localhost:1337/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2025-05-20 10:47:13,702 - INFO - openai._base_client - Retrying request to /chat/completions in 0.463121 seconds
+2025-05-20 10:47:14,173 - INFO - httpx - HTTP Request: POST http://localhost:1337/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2025-05-20 10:47:14,173 - INFO - openai._base_client - Retrying request to /chat/completions in 0.863540 seconds
+2025-05-20 10:47:15,067 - INFO - httpx - HTTP Request: POST http://localhost:1337/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-05-20 10:47:15,067 - ERROR - rag_agent_nodes - CRITICAL ERROR during project goal synthesis LLM call: Error code: 400 - {'message': 'Engine is not loaded yet'}
+Traceback (most recent call last):
+  File "/home/raduc/Documents/Code/Licentzio/MusicBlock/RAG/rag_agent_nodes.py", line 103, in process_initial_input_node
+    response = llm.invoke(prompt)
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 370, in invoke
+    self.generate_prompt(
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 947, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 766, in generate
+    self._generate_with_cache(
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 1012, in _generate_with_cache
+    result = self._generate(
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langchain_openai/chat_models/base.py", line 959, in _generate
+    response = self.client.create(**payload)
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/openai/_utils/_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/openai/resources/chat/completions/completions.py", line 925, in create
+    return self._post(
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/openai/_base_client.py", line 1239, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/openai/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 10:47:15,067 - INFO - rag_agent_nodes - Should run lyrics agent: False
+2025-05-20 10:47:15,067 - INFO - rag_agent_nodes - --- Finished NODE: Processing Initial Input. Output: {'project_goal_summary': "Error: Could not synthesize project goal. Details: Error code: 400 - {'message': 'Engine is not load...", 'should_run_lyrics_agent': False, 'error_message': "Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}"} ---
+2025-05-20 10:47:15,068 - INFO - rag_agent_nodes - --- Starting NODE: Rhythm Agent ---
+2025-05-20 10:47:15,068 - WARNING - rag_agent_nodes - NODE (Rhythm_agent): Skipping Rhythm advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 10:47:15,068 - INFO - rag_agent_nodes - --- Starting NODE: Music Theory Agent ---
+2025-05-20 10:47:15,068 - WARNING - rag_agent_nodes - NODE (Music Theory_agent): Skipping Music Theory advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 10:47:15,068 - INFO - rag_agent_nodes - --- Starting NODE: Instruments Agent ---
+2025-05-20 10:47:15,068 - WARNING - rag_agent_nodes - NODE (Instruments_agent): Skipping Instruments advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 10:47:15,069 - INFO - rag_agent_nodes - --- Evaluating NODE: Lyrics Agent ---
+2025-05-20 10:47:15,069 - INFO - rag_agent_nodes - NODE (Lyrics_agent): Skipping as should_run_lyrics_agent flag is False.
+2025-05-20 10:47:15,069 - INFO - rag_agent_nodes - --- Starting NODE: Production Agent ---
+2025-05-20 10:47:15,069 - WARNING - rag_agent_nodes - NODE (Production_agent): Skipping Production advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 10:47:15,069 - INFO - rag_agent_nodes - --- Starting NODE: Combining Advice ---
+2025-05-20 10:47:15,069 - ERROR - rag_agent_nodes - Moodboard combination reflects critical setup error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 10:47:15,069 - INFO - rag_agent_nodes - Advice for 'Rhythm & Groove':
+Skipping Rhythm advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 10:47:15,069 - INFO - rag_agent_nodes - Advice for 'Music Theory & Harmony':
+Skipping Music Theory advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 10:47:15,069 - INFO - rag_agent_nodes - Advice for 'Timbre & Instrumentation':
+Skipping Instruments advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 10:47:15,069 - INFO - rag_agent_nodes - 'Lyrics & Vocals' was intentionally skipped.
+2025-05-20 10:47:15,069 - INFO - rag_agent_nodes - Advice for 'Production & Mix':
+Skipping Production advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 10:47:15,069 - INFO - rag_agent_nodes - Final moodboard assembled. Length: 1070 chars.
+2025-05-20 10:47:15,069 - INFO - rag_agent_nodes - --- Finished NODE: Combining Advice ---
+2025-05-20 10:47:15,069 - INFO - __main__ - Graph invocation complete. Final State: {'user_text_query': 'gypsy music', 'similar_tracks_summary': 'Audio provided; similarity analysis resulted in this list of similar tracks based on audio extracted features. Here is the list:\n\n| #  | Title                | Artist                          | Key       | BPM | Genres                      | Other tags                          |\n| -- | -------------------- | ------------------------------- | --------- | --- | --------------------------- | ----------------------------------- |\n| 1  | Serge’s Kiss         | Daybehavior                     | C minor   | 109 | alternative rock, dream pop | re-recording, pop, alternative rock |\n| 2  | Imagine              | John Lennon                     | C major   | 75  | rock, pop                   | piano, classic, 1971                |\n| 3  | Billie Jean          | Michael Jackson                 | F ♯ minor | 117 | pop, R&B                    | dance, 1980s, synth                 |\n| 4  | Smells Like Teen…    | Nirvana                         | F minor   | 117 | grunge, alternative rock    | 1990s, guitar riff, breakthrough    |\n| 5  | Rolling in the Deep  | Adele                           | C minor   | 105 | pop, soul                   | powerful vocals, 2010s              |\n| 6  | Take Five            | The Dave Brubeck Quartet        | E ♭ minor | 174 | jazz, cool jazz             | saxophone, classic, instrumental    |\n| 7  | Get Lucky            | Daft Punk ft. Pharrell Williams | F minor   | 116 | disco, electronic, funk     | dancefloor, 2010s                   |\n| 8  | Nothing Else Matters | Metallica                       | E minor   | 142 | heavy metal, rock           | ballad, acoustic intro              |\n| 9  | Bad Guy              | Billie Eilish                   | G minor   | 135 | pop, electro-pop            | whisper vocals, modern sound        |\n| 10 | Clocks               | Coldplay                        | E ♭ major | 131 | alternative rock, pop rock  | piano riff, 2000s                   |\n', 'project_goal_summary': "Error: Could not synthesize project goal. Details: Error code: 400 - {'message': 'Engine is not loaded yet'}", 'rhythm_advice': "Skipping Rhythm advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}", 'music_theory_advice': "Skipping Music Theory advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}", 'instruments_advice': "Skipping Instruments advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}", 'lyrics_advice': '', 'production_advice': "Skipping Production advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}", 'final_moodboard': "# Music Inspiration Moodboard - Generation Failed\n\n## Critical Error During Setup\nFailed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}\n\nAttempted Project Goal:\nError: Could not synthesize project goal. Details: Error code: 400 - {'message': 'Engine is not loaded yet'}\n\n\n## Rhythm & Groove\nSkipping Rhythm advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}\n\n## Music Theory & Harmony\nSkipping Music Theory advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}\n\n## Timbre & Instrumentation\nSkipping Instruments advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}\n\n## Lyrics & Vocals\n(This section was intentionally skipped)\n\n## Production & Mix\nSkipping Production advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}", 'should_run_lyrics_agent': False, 'error_message': "Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}"}
+2025-05-20 10:47:15,069 - INFO - __main__ - --- Moodboard Generation Attempt Finished ---
+2025-05-20 10:47:15,069 - INFO - __main__ - Successfully generated final moodboard.
+2025-05-20 10:47:15,069 - INFO - __main__ - Final Moodboard Content:
+# Music Inspiration Moodboard - Generation Failed
+
+## Critical Error During Setup
+Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+
+Attempted Project Goal:
+Error: Could not synthesize project goal. Details: Error code: 400 - {'message': 'Engine is not loaded yet'}
+
+
+## Rhythm & Groove
+Skipping Rhythm advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+
+## Music Theory & Harmony
+Skipping Music Theory advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+
+## Timbre & Instrumentation
+Skipping Instruments advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+
+## Lyrics & Vocals
+(This section was intentionally skipped)
+
+## Production & Mix
+Skipping Production advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 10:47:15,070 - ERROR - __main__ - Moodboard generation failed with critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 10:47:15,070 - INFO - __main__ - Log file for this run: /home/raduc/Documents/Code/Licentzio/MusicBlock/rag_logs/moodboard_run_20250520_104615.log

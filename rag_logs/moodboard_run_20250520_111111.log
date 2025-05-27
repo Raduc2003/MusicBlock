@@ -1,0 +1,267 @@
+2025-05-20 11:11:11,981 - INFO - __main__ - RAG Music Moodboard Script Started.
+2025-05-20 11:11:11,981 - INFO - __main__ - Using LLM: llama3.2:3b via rag_agent_nodes.llm
+2025-05-20 11:11:11,982 - INFO - __main__ - --- New Moodboard Generation Run ---
+2025-05-20 11:11:11,982 - INFO - __main__ - Execution Mode: SEQUENTIAL
+2025-05-20 11:11:11,982 - INFO - __main__ - Building graph: Adding nodes...
+2025-05-20 11:11:11,982 - INFO - __main__ - Building graph: Entry point set to 'initial_processor'.
+2025-05-20 11:11:11,982 - INFO - __main__ - Building graph: Using SEQUENTIAL agent execution flow.
+2025-05-20 11:11:11,982 - INFO - __main__ - Building graph: Final edge to END set from 'advice_combiner'.
+2025-05-20 11:11:11,986 - INFO - __main__ - LangGraph RAG Moodboard Generator Compiled.
+2025-05-20 11:11:23,563 - INFO - __main__ - User Text Query: dark pop but disco and groovy
+2025-05-20 11:11:24,635 - INFO - __main__ - No audio file provided by user.
+2025-05-20 11:11:24,635 - INFO - __main__ - Similarity Summary (Placeholder):
+Audio provided; similarity analysis resulted in this list of similar tracks based on audio extracted features. Here is the list:
+
+| #  | Title                | Artist                          | Key       | BPM | Genres                      | Other tags                          |
+| -- | -------------------- | ------------------------------- | --------- | --- | --------------------------- | ----------------------------------- |
+| 1  | Serge’s Kiss         | Daybehavior                     | C minor   | 109 | alternative rock, dream pop | re-recording, pop, alternative rock |
+| 2  | Imagine              | John Lennon                     | C major   | 75  | rock, pop                   | piano, classic, 1971                |
+| 3  | Billie Jean          | Michael Jackson                 | F ♯ minor | 117 | pop, R&B                    | dance, 1980s, synth                 |
+| 4  | Smells Like Teen…    | Nirvana                         | F minor   | 117 | grunge, alternative rock    | 1990s, guitar riff, breakthrough    |
+| 5  | Rolling in the Deep  | Adele                           | C minor   | 105 | pop, soul                   | powerful vocals, 2010s              |
+| 6  | Take Five            | The Dave Brubeck Quartet        | E ♭ minor | 174 | jazz, cool jazz             | saxophone, classic, instrumental    |
+| 7  | Get Lucky            | Daft Punk ft. Pharrell Williams | F minor   | 116 | disco, electronic, funk     | dancefloor, 2010s                   |
+| 8  | Nothing Else Matters | Metallica                       | E minor   | 142 | heavy metal, rock           | ballad, acoustic intro              |
+| 9  | Bad Guy              | Billie Eilish                   | G minor   | 135 | pop, electro-pop            | whisper vocals, modern sound        |
+| 10 | Clocks               | Coldplay                        | E ♭ major | 131 | alternative rock, pop rock  | piano riff, 2000s                   |
+
+2025-05-20 11:11:24,635 - INFO - __main__ - Initial graph state prepared: {'user_text_query': 'dark pop but disco and groovy', 'user_audio_path': None, 'similar_tracks_summary': 'Audio provided; similarity analysis resulted in this list of similar tracks based on audio extracted features. Here is the list:\n\n| #  | Title                | Artist                          | Key       | BPM | Genres                      | Other tags                          |\n| -- | -------------------- | ------------------------------- | --------- | --- | --------------------------- | ----------------------------------- |\n| 1  | Serge’s Kiss         | Daybehavior                     | C minor   | 109 | alternative rock, dream pop | re-recording, pop, alternative rock |\n| 2  | Imagine              | John Lennon                     | C major   | 75  | rock, pop                   | piano, classic, 1971                |\n| 3  | Billie Jean          | Michael Jackson                 | F ♯ minor | 117 | pop, R&B                    | dance, 1980s, synth                 |\n| 4  | Smells Like Teen…    | Nirvana                         | F minor   | 117 | grunge, alternative rock    | 1990s, guitar riff, breakthrough    |\n| 5  | Rolling in the Deep  | Adele                           | C minor   | 105 | pop, soul                   | powerful vocals, 2010s              |\n| 6  | Take Five            | The Dave Brubeck Quartet        | E ♭ minor | 174 | jazz, cool jazz             | saxophone, classic, instrumental    |\n| 7  | Get Lucky            | Daft Punk ft. Pharrell Williams | F minor   | 116 | disco, electronic, funk     | dancefloor, 2010s                   |\n| 8  | Nothing Else Matters | Metallica                       | E minor   | 142 | heavy metal, rock           | ballad, acoustic intro              |\n| 9  | Bad Guy              | Billie Eilish                   | G minor   | 135 | pop, electro-pop            | whisper vocals, modern sound        |\n| 10 | Clocks               | Coldplay                        | E ♭ major | 131 | alternative rock, pop rock  | piano riff, 2000s                   |\n', 'project_goal_summary': '', 'rhythm_advice': None, 'music_theory_advice': None, 'instruments_advice': None, 'lyrics_advice': None, 'production_advice': None, 'final_moodboard': None, 'error_message': None, 'should_run_lyrics_agent': False}
+2025-05-20 11:11:24,635 - INFO - __main__ - Invoking LangGraph workflow...
+2025-05-20 11:11:24,636 - INFO - rag_agent_nodes - --- Starting NODE: Processing Initial Input & Synthesizing Goal ---
+2025-05-20 11:11:24,636 - INFO - rag_agent_nodes - User Text Query: 'dark pop but disco and groovy'
+2025-05-20 11:11:24,636 - INFO - rag_agent_nodes - Similar Tracks Summary Input:
+Audio provided; similarity analysis resulted in this list of similar tracks based on audio extracted features. Here is the list:
+
+| #  | Title                | Artist                          | Key       | BPM | Genres                      | Other tags                          |
+| -- | -------------------- | ------------------------------- | --------- | --- | --------------------------- | ----------------------------------- |
+| 1  | Serge’s Kiss         | Daybehavior                     | C minor   | 109 | alternative rock, dream pop | re-recording, pop, alternative rock |
+| 2  | Imagine              | John Lennon                     | C major   | 75  | rock, pop                   | piano, classic, 1971                |
+| 3  | Billie Jean          | Michael Jackson                 | F ♯ minor | 117 | pop, R&B                    | dance, 1980s, synth                 |
+| 4  | Smells Like Teen…    | Nirvana                         | F minor   | 117 | grunge, alternative rock    | 1990s, guitar riff, breakthrough    |
+| 5  | Rolling in the Deep  | Adele                           | C minor   | 105 | pop, soul                   | powerful vocals, 2010s              |
+| 6  | Take Five            | The Dave Brubeck Quartet        | E ♭ minor | 174 | jazz, cool jazz             | saxophone, classic, instrumental    |
+| 7  | Get Lucky            | Daft Punk ft. Pharrell Williams | F minor   | 116 | disco, electronic, funk     | dancefloor, 2010s                   |
+| 8  | Nothing Else Matters | Metallica                       | E minor   | 142 | heavy metal, rock           | ballad, acoustic intro              |
+| 9  | Bad Guy              | Billie Eilish                   | G minor   | 135 | pop, electro-pop            | whisper vocals, modern sound        |
+| 10 | Clocks               | Coldplay                        | E ♭ major | 131 | alternative rock, pop rock  | piano riff, 2000s                   |
+
+2025-05-20 11:11:24,636 - INFO - rag_agent_nodes - Attempting to generate project goal summary. Full Prompt:
+
+You are a helpful assistant that synthesizes information for a music creation project.
+Based on the user's request and an analysis of similar music (if provided), create a concise project goal summary.
+This summary will guide other specialized AI agents in providing creative advice.
+Focus on extracting key musical elements: genre, target artists/style, mood, instrumentation, tempo, and key signatures mentioned or implied.
+Keep the summary to 1-2 concise paragraphs.
+
+User Request:
+---
+dark pop but disco and groovy
+---
+
+Provided Similarity Analysis (characteristics of the user's audio or comparable tracks):
+---
+Audio provided; similarity analysis resulted in this list of similar tracks based on audio extracted features. Here is the list:
+
+| #  | Title                | Artist                          | Key       | BPM | Genres                      | Other tags                          |
+| -- | -------------------- | ------------------------------- | --------- | --- | --------------------------- | ----------------------------------- |
+| 1  | Serge’s Kiss         | Daybehavior                     | C minor   | 109 | alternative rock, dream pop | re-recording, pop, alternative rock |
+| 2  | Imagine              | John Lennon                     | C major   | 75  | rock, pop                   | piano, classic, 1971                |
+| 3  | Billie Jean          | Michael Jackson                 | F ♯ minor | 117 | pop, R&B                    | dance, 1980s, synth                 |
+| 4  | Smells Like Teen…    | Nirvana                         | F minor   | 117 | grunge, alternative rock    | 1990s, guitar riff, breakthrough    |
+| 5  | Rolling in the Deep  | Adele                           | C minor   | 105 | pop, soul                   | powerful vocals, 2010s              |
+| 6  | Take Five            | The Dave Brubeck Quartet        | E ♭ minor | 174 | jazz, cool jazz             | saxophone, classic, instrumental    |
+| 7  | Get Lucky            | Daft Punk ft. Pharrell Williams | F minor   | 116 | disco, electronic, funk     | dancefloor, 2010s                   |
+| 8  | Nothing Else Matters | Metallica                       | E minor   | 142 | heavy metal, rock           | ballad, acoustic intro              |
+| 9  | Bad Guy              | Billie Eilish                   | G minor   | 135 | pop, electro-pop            | whisper vocals, modern sound        |
+| 10 | Clocks               | Coldplay                        | E ♭ major | 131 | alternative rock, pop rock  | piano riff, 2000s                   |
+
+---
+
+Concise Project Goal Summary:
+
+2025-05-20 11:11:24,657 - INFO - httpx - HTTP Request: POST http://localhost:1337/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-05-20 11:11:24,658 - ERROR - rag_agent_nodes - CRITICAL ERROR during project goal synthesis LLM call: Error code: 400 - {'message': 'Engine is not loaded yet'}
+Traceback (most recent call last):
+  File "/home/raduc/Documents/Code/Licentzio/MusicBlock/RAG/rag_agent_nodes.py", line 103, in process_initial_input_node
+    response = llm.invoke(prompt)
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 370, in invoke
+    self.generate_prompt(
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 947, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 766, in generate
+    self._generate_with_cache(
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 1012, in _generate_with_cache
+    result = self._generate(
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langchain_openai/chat_models/base.py", line 959, in _generate
+    response = self.client.create(**payload)
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/openai/_utils/_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/openai/resources/chat/completions/completions.py", line 925, in create
+    return self._post(
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/openai/_base_client.py", line 1239, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/openai/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 11:11:24,659 - INFO - rag_agent_nodes - Should run lyrics agent: False
+2025-05-20 11:11:24,659 - INFO - rag_agent_nodes - --- Finished NODE: Processing Initial Input. Output: {'project_goal_summary': "Error: Could not synthesize project goal. Details: Error code: 400 - {'message': 'Engine is not load...", 'should_run_lyrics_agent': False, 'error_message': "Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}"} ---
+2025-05-20 11:11:24,660 - INFO - __main__ - Output from node 'initial_processor': {'project_goal_summary': "Error: Could not synthesize project goal. Details: Error code: 400 - {'message': 'Engine is not loaded yet'}", 'should_run_lyrics_agent': False, 'error_message': "Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}"}
+2025-05-20 11:11:24,660 - INFO - rag_agent_nodes - --- Starting NODE: Rhythm Agent ---
+2025-05-20 11:11:24,660 - WARNING - rag_agent_nodes - NODE (Rhythm_agent): Skipping Rhythm advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 11:11:24,660 - INFO - __main__ - Output from node 'rhythm_agent': {'rhythm_advice': "Skipping Rhythm advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}"}
+2025-05-20 11:11:24,660 - INFO - rag_agent_nodes - --- Starting NODE: Music Theory Agent ---
+2025-05-20 11:11:24,660 - WARNING - rag_agent_nodes - NODE (Music Theory_agent): Skipping Music Theory advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 11:11:24,660 - INFO - __main__ - Output from node 'music_theory_agent': {'music_theory_advice': "Skipping Music Theory advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}"}
+2025-05-20 11:11:24,660 - INFO - rag_agent_nodes - --- Starting NODE: Instruments Agent ---
+2025-05-20 11:11:24,660 - WARNING - rag_agent_nodes - NODE (Instruments_agent): Skipping Instruments advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 11:11:24,661 - INFO - __main__ - Output from node 'instruments_agent': {'instruments_advice': "Skipping Instruments advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}"}
+2025-05-20 11:11:24,661 - INFO - rag_agent_nodes - --- Evaluating NODE: Lyrics Agent ---
+2025-05-20 11:11:24,661 - INFO - rag_agent_nodes - NODE (Lyrics_agent): Skipping as should_run_lyrics_agent flag is False.
+2025-05-20 11:11:24,661 - INFO - __main__ - Output from node 'lyrics_agent': {'lyrics_advice': ''}
+2025-05-20 11:11:24,661 - INFO - rag_agent_nodes - --- Starting NODE: Production Agent ---
+2025-05-20 11:11:24,661 - WARNING - rag_agent_nodes - NODE (Production_agent): Skipping Production advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 11:11:24,661 - INFO - __main__ - Output from node 'production_agent': {'production_advice': "Skipping Production advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}"}
+2025-05-20 11:11:24,661 - INFO - rag_agent_nodes - --- Starting NODE: Combining Advice ---
+2025-05-20 11:11:24,661 - ERROR - rag_agent_nodes - Moodboard combination reflects critical setup error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 11:11:24,661 - INFO - rag_agent_nodes - Advice for 'Rhythm & Groove':
+Skipping Rhythm advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 11:11:24,661 - INFO - rag_agent_nodes - Advice for 'Music Theory & Harmony':
+Skipping Music Theory advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 11:11:24,661 - INFO - rag_agent_nodes - Advice for 'Timbre & Instrumentation':
+Skipping Instruments advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 11:11:24,661 - INFO - rag_agent_nodes - 'Lyrics & Vocals' was intentionally skipped.
+2025-05-20 11:11:24,661 - INFO - rag_agent_nodes - Advice for 'Production & Mix':
+Skipping Production advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 11:11:24,661 - INFO - rag_agent_nodes - Final moodboard assembled. Length: 1070 chars.
+2025-05-20 11:11:24,661 - INFO - rag_agent_nodes - --- Finished NODE: Combining Advice ---
+2025-05-20 11:11:24,661 - INFO - __main__ - Output from node 'advice_combiner': {'final_moodboard': "# Music Inspiration Moodboard - Generation Failed\n\n## Critical Error During Setup\nFailed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}\n\nAttempted Project Goal:\nError: Could not synthesize project goal. Details: Error code: 400 - {'message': 'Engine is not loaded yet'}\n\n\n## Rhythm & Groove\nSkipping Rhythm advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}\n\n## Music Theory & Harmony\nSkipping Music Theory advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}\n\n## Timbre & Instrumentation\nSkipping Instruments advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}\n\n## Lyrics & Vocals\n(This section was intentionally skipped)\n\n## Production & Mix\nSkipping Production advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}", 'error_message': "Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}"}
+2025-05-20 11:11:24,662 - INFO - rag_agent_nodes - --- Starting NODE: Processing Initial Input & Synthesizing Goal ---
+2025-05-20 11:11:24,662 - INFO - rag_agent_nodes - User Text Query: 'dark pop but disco and groovy'
+2025-05-20 11:11:24,662 - INFO - rag_agent_nodes - Similar Tracks Summary Input:
+Audio provided; similarity analysis resulted in this list of similar tracks based on audio extracted features. Here is the list:
+
+| #  | Title                | Artist                          | Key       | BPM | Genres                      | Other tags                          |
+| -- | -------------------- | ------------------------------- | --------- | --- | --------------------------- | ----------------------------------- |
+| 1  | Serge’s Kiss         | Daybehavior                     | C minor   | 109 | alternative rock, dream pop | re-recording, pop, alternative rock |
+| 2  | Imagine              | John Lennon                     | C major   | 75  | rock, pop                   | piano, classic, 1971                |
+| 3  | Billie Jean          | Michael Jackson                 | F ♯ minor | 117 | pop, R&B                    | dance, 1980s, synth                 |
+| 4  | Smells Like Teen…    | Nirvana                         | F minor   | 117 | grunge, alternative rock    | 1990s, guitar riff, breakthrough    |
+| 5  | Rolling in the Deep  | Adele                           | C minor   | 105 | pop, soul                   | powerful vocals, 2010s              |
+| 6  | Take Five            | The Dave Brubeck Quartet        | E ♭ minor | 174 | jazz, cool jazz             | saxophone, classic, instrumental    |
+| 7  | Get Lucky            | Daft Punk ft. Pharrell Williams | F minor   | 116 | disco, electronic, funk     | dancefloor, 2010s                   |
+| 8  | Nothing Else Matters | Metallica                       | E minor   | 142 | heavy metal, rock           | ballad, acoustic intro              |
+| 9  | Bad Guy              | Billie Eilish                   | G minor   | 135 | pop, electro-pop            | whisper vocals, modern sound        |
+| 10 | Clocks               | Coldplay                        | E ♭ major | 131 | alternative rock, pop rock  | piano riff, 2000s                   |
+
+2025-05-20 11:11:24,662 - INFO - rag_agent_nodes - Attempting to generate project goal summary. Full Prompt:
+
+You are a helpful assistant that synthesizes information for a music creation project.
+Based on the user's request and an analysis of similar music (if provided), create a concise project goal summary.
+This summary will guide other specialized AI agents in providing creative advice.
+Focus on extracting key musical elements: genre, target artists/style, mood, instrumentation, tempo, and key signatures mentioned or implied.
+Keep the summary to 1-2 concise paragraphs.
+
+User Request:
+---
+dark pop but disco and groovy
+---
+
+Provided Similarity Analysis (characteristics of the user's audio or comparable tracks):
+---
+Audio provided; similarity analysis resulted in this list of similar tracks based on audio extracted features. Here is the list:
+
+| #  | Title                | Artist                          | Key       | BPM | Genres                      | Other tags                          |
+| -- | -------------------- | ------------------------------- | --------- | --- | --------------------------- | ----------------------------------- |
+| 1  | Serge’s Kiss         | Daybehavior                     | C minor   | 109 | alternative rock, dream pop | re-recording, pop, alternative rock |
+| 2  | Imagine              | John Lennon                     | C major   | 75  | rock, pop                   | piano, classic, 1971                |
+| 3  | Billie Jean          | Michael Jackson                 | F ♯ minor | 117 | pop, R&B                    | dance, 1980s, synth                 |
+| 4  | Smells Like Teen…    | Nirvana                         | F minor   | 117 | grunge, alternative rock    | 1990s, guitar riff, breakthrough    |
+| 5  | Rolling in the Deep  | Adele                           | C minor   | 105 | pop, soul                   | powerful vocals, 2010s              |
+| 6  | Take Five            | The Dave Brubeck Quartet        | E ♭ minor | 174 | jazz, cool jazz             | saxophone, classic, instrumental    |
+| 7  | Get Lucky            | Daft Punk ft. Pharrell Williams | F minor   | 116 | disco, electronic, funk     | dancefloor, 2010s                   |
+| 8  | Nothing Else Matters | Metallica                       | E minor   | 142 | heavy metal, rock           | ballad, acoustic intro              |
+| 9  | Bad Guy              | Billie Eilish                   | G minor   | 135 | pop, electro-pop            | whisper vocals, modern sound        |
+| 10 | Clocks               | Coldplay                        | E ♭ major | 131 | alternative rock, pop rock  | piano riff, 2000s                   |
+
+---
+
+Concise Project Goal Summary:
+
+2025-05-20 11:11:24,672 - INFO - httpx - HTTP Request: POST http://localhost:1337/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-05-20 11:11:24,672 - ERROR - rag_agent_nodes - CRITICAL ERROR during project goal synthesis LLM call: Error code: 400 - {'message': 'Engine is not loaded yet'}
+Traceback (most recent call last):
+  File "/home/raduc/Documents/Code/Licentzio/MusicBlock/RAG/rag_agent_nodes.py", line 103, in process_initial_input_node
+    response = llm.invoke(prompt)
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 370, in invoke
+    self.generate_prompt(
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 947, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 766, in generate
+    self._generate_with_cache(
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 1012, in _generate_with_cache
+    result = self._generate(
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langchain_openai/chat_models/base.py", line 959, in _generate
+    response = self.client.create(**payload)
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/openai/_utils/_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/openai/resources/chat/completions/completions.py", line 925, in create
+    return self._post(
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/openai/_base_client.py", line 1239, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/openai/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 11:11:24,673 - INFO - rag_agent_nodes - Should run lyrics agent: False
+2025-05-20 11:11:24,673 - INFO - rag_agent_nodes - --- Finished NODE: Processing Initial Input. Output: {'project_goal_summary': "Error: Could not synthesize project goal. Details: Error code: 400 - {'message': 'Engine is not load...", 'should_run_lyrics_agent': False, 'error_message': "Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}"} ---
+2025-05-20 11:11:24,673 - INFO - rag_agent_nodes - --- Starting NODE: Rhythm Agent ---
+2025-05-20 11:11:24,673 - WARNING - rag_agent_nodes - NODE (Rhythm_agent): Skipping Rhythm advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 11:11:24,674 - INFO - rag_agent_nodes - --- Starting NODE: Music Theory Agent ---
+2025-05-20 11:11:24,674 - WARNING - rag_agent_nodes - NODE (Music Theory_agent): Skipping Music Theory advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 11:11:24,674 - INFO - rag_agent_nodes - --- Starting NODE: Instruments Agent ---
+2025-05-20 11:11:24,674 - WARNING - rag_agent_nodes - NODE (Instruments_agent): Skipping Instruments advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 11:11:24,674 - INFO - rag_agent_nodes - --- Evaluating NODE: Lyrics Agent ---
+2025-05-20 11:11:24,674 - INFO - rag_agent_nodes - NODE (Lyrics_agent): Skipping as should_run_lyrics_agent flag is False.
+2025-05-20 11:11:24,674 - INFO - rag_agent_nodes - --- Starting NODE: Production Agent ---
+2025-05-20 11:11:24,674 - WARNING - rag_agent_nodes - NODE (Production_agent): Skipping Production advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 11:11:24,674 - INFO - rag_agent_nodes - --- Starting NODE: Combining Advice ---
+2025-05-20 11:11:24,674 - ERROR - rag_agent_nodes - Moodboard combination reflects critical setup error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 11:11:24,674 - INFO - rag_agent_nodes - Advice for 'Rhythm & Groove':
+Skipping Rhythm advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 11:11:24,674 - INFO - rag_agent_nodes - Advice for 'Music Theory & Harmony':
+Skipping Music Theory advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 11:11:24,674 - INFO - rag_agent_nodes - Advice for 'Timbre & Instrumentation':
+Skipping Instruments advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 11:11:24,675 - INFO - rag_agent_nodes - 'Lyrics & Vocals' was intentionally skipped.
+2025-05-20 11:11:24,675 - INFO - rag_agent_nodes - Advice for 'Production & Mix':
+Skipping Production advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 11:11:24,675 - INFO - rag_agent_nodes - Final moodboard assembled. Length: 1070 chars.
+2025-05-20 11:11:24,675 - INFO - rag_agent_nodes - --- Finished NODE: Combining Advice ---
+2025-05-20 11:11:24,675 - INFO - __main__ - Graph invocation complete. Final State: {'user_text_query': 'dark pop but disco and groovy', 'similar_tracks_summary': 'Audio provided; similarity analysis resulted in this list of similar tracks based on audio extracted features. Here is the list:\n\n| #  | Title                | Artist                          | Key       | BPM | Genres                      | Other tags                          |\n| -- | -------------------- | ------------------------------- | --------- | --- | --------------------------- | ----------------------------------- |\n| 1  | Serge’s Kiss         | Daybehavior                     | C minor   | 109 | alternative rock, dream pop | re-recording, pop, alternative rock |\n| 2  | Imagine              | John Lennon                     | C major   | 75  | rock, pop                   | piano, classic, 1971                |\n| 3  | Billie Jean          | Michael Jackson                 | F ♯ minor | 117 | pop, R&B                    | dance, 1980s, synth                 |\n| 4  | Smells Like Teen…    | Nirvana                         | F minor   | 117 | grunge, alternative rock    | 1990s, guitar riff, breakthrough    |\n| 5  | Rolling in the Deep  | Adele                           | C minor   | 105 | pop, soul                   | powerful vocals, 2010s              |\n| 6  | Take Five            | The Dave Brubeck Quartet        | E ♭ minor | 174 | jazz, cool jazz             | saxophone, classic, instrumental    |\n| 7  | Get Lucky            | Daft Punk ft. Pharrell Williams | F minor   | 116 | disco, electronic, funk     | dancefloor, 2010s                   |\n| 8  | Nothing Else Matters | Metallica                       | E minor   | 142 | heavy metal, rock           | ballad, acoustic intro              |\n| 9  | Bad Guy              | Billie Eilish                   | G minor   | 135 | pop, electro-pop            | whisper vocals, modern sound        |\n| 10 | Clocks               | Coldplay                        | E ♭ major | 131 | alternative rock, pop rock  | piano riff, 2000s                   |\n', 'project_goal_summary': "Error: Could not synthesize project goal. Details: Error code: 400 - {'message': 'Engine is not loaded yet'}", 'rhythm_advice': "Skipping Rhythm advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}", 'music_theory_advice': "Skipping Music Theory advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}", 'instruments_advice': "Skipping Instruments advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}", 'lyrics_advice': '', 'production_advice': "Skipping Production advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}", 'final_moodboard': "# Music Inspiration Moodboard - Generation Failed\n\n## Critical Error During Setup\nFailed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}\n\nAttempted Project Goal:\nError: Could not synthesize project goal. Details: Error code: 400 - {'message': 'Engine is not loaded yet'}\n\n\n## Rhythm & Groove\nSkipping Rhythm advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}\n\n## Music Theory & Harmony\nSkipping Music Theory advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}\n\n## Timbre & Instrumentation\nSkipping Instruments advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}\n\n## Lyrics & Vocals\n(This section was intentionally skipped)\n\n## Production & Mix\nSkipping Production advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}", 'should_run_lyrics_agent': False, 'error_message': "Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}"}
+2025-05-20 11:11:24,675 - INFO - __main__ - --- Moodboard Generation Attempt Finished ---
+2025-05-20 11:11:24,675 - INFO - __main__ - Successfully generated final moodboard.
+2025-05-20 11:11:24,675 - INFO - __main__ - Final Moodboard Content:
+# Music Inspiration Moodboard - Generation Failed
+
+## Critical Error During Setup
+Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+
+Attempted Project Goal:
+Error: Could not synthesize project goal. Details: Error code: 400 - {'message': 'Engine is not loaded yet'}
+
+
+## Rhythm & Groove
+Skipping Rhythm advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+
+## Music Theory & Harmony
+Skipping Music Theory advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+
+## Timbre & Instrumentation
+Skipping Instruments advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+
+## Lyrics & Vocals
+(This section was intentionally skipped)
+
+## Production & Mix
+Skipping Production advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 11:11:24,675 - ERROR - __main__ - Moodboard generation failed with critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 11:11:24,675 - INFO - __main__ - Log file for this run: /home/raduc/Documents/Code/Licentzio/MusicBlock/rag_logs/moodboard_run_20250520_111111.log

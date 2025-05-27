@@ -1,0 +1,70 @@
+2025-05-26 19:51:30,621 - INFO - __main__ - RAG Music Moodboard Script Started.
+2025-05-26 19:51:30,621 - INFO - __main__ - Using LLM: llama3.2:3b via rag_agent_nodes.llm
+2025-05-26 19:51:30,622 - INFO - __main__ - --- New Moodboard Generation Run ---
+2025-05-26 19:51:30,622 - INFO - __main__ - Execution Mode: CONCURRENT
+2025-05-26 19:51:30,622 - INFO - __main__ - Building graph: Adding nodes...
+2025-05-26 19:51:30,623 - INFO - __main__ - Building graph: Entry point set to 'initial_processor'.
+2025-05-26 19:51:30,623 - INFO - __main__ - Building graph: Using CONCURRENT agent execution flow.
+2025-05-26 19:51:30,623 - INFO - __main__ - Building graph: Final edge to END set from 'advice_combiner'.
+2025-05-26 19:51:30,627 - INFO - __main__ - LangGraph RAG Moodboard Generator Compiled.
+2025-05-26 19:51:43,613 - INFO - __main__ - User Text Query: dark pop song like The Weeknd with strings
+2025-05-26 19:51:45,631 - INFO - __main__ - No audio file provided by user.
+2025-05-26 19:51:45,631 - INFO - __main__ - Similarity Summary (Placeholder):
+Audio provided; similarity analysis resulted in this list of similar tracks based on audio extracted features. Here is the list:
+
+| #  | Title                | Artist                          | Key       | BPM | Genres                      | Other tags                          |
+| -- | -------------------- | ------------------------------- | --------- | --- | --------------------------- | ----------------------------------- |
+| 1  | Serge’s Kiss         | Daybehavior                     | C minor   | 109 | alternative rock, dream pop | re-recording, pop, alternative rock |
+| 2  | Imagine              | John Lennon                     | C major   | 75  | rock, pop                   | piano, classic, 1971                |
+| 3  | Billie Jean          | Michael Jackson                 | F ♯ minor | 117 | pop, R&B                    | dance, 1980s, synth                 |
+| 4  | Smells Like Teen…    | Nirvana                         | F minor   | 117 | grunge, alternative rock    | 1990s, guitar riff, breakthrough    |
+| 5  | Rolling in the Deep  | Adele                           | C minor   | 105 | pop, soul                   | powerful vocals, 2010s              |
+| 6  | Take Five            | The Dave Brubeck Quartet        | E ♭ minor | 174 | jazz, cool jazz             | saxophone, classic, instrumental    |
+| 7  | Get Lucky            | Daft Punk ft. Pharrell Williams | F minor   | 116 | disco, electronic, funk     | dancefloor, 2010s                   |
+| 8  | Nothing Else Matters | Metallica                       | E minor   | 142 | heavy metal, rock           | ballad, acoustic intro              |
+| 9  | Bad Guy              | Billie Eilish                   | G minor   | 135 | pop, electro-pop            | whisper vocals, modern sound        |
+| 10 | Clocks               | Coldplay                        | E ♭ major | 131 | alternative rock, pop rock  | piano riff, 2000s                   |
+
+2025-05-26 19:51:45,631 - INFO - __main__ - Initial graph state prepared: {'user_text_query': 'dark pop song like The Weeknd with strings', 'user_audio_path': None, 'similar_tracks_summary': 'Audio provided; similarity analysis resulted in this list of similar tracks based on audio extracted features. Here is the list:\n\n| #  | Title                | Artist                          | Key       | BPM | Genres                      | Other tags                          |\n| -- | -------------------- | ------------------------------- | --------- | --- | --------------------------- | ----------------------------------- |\n| 1  | Serge’s Kiss         | Daybehavior                     | C minor   | 109 | alternative rock, dream pop | re-recording, pop, alternative rock |\n| 2  | Imagine              | John Lennon                     | C major   | 75  | rock, pop                   | piano, classic, 1971                |\n| 3  | Billie Jean          | Michael Jackson                 | F ♯ minor | 117 | pop, R&B                    | dance, 1980s, synth                 |\n| 4  | Smells Like Teen…    | Nirvana                         | F minor   | 117 | grunge, alternative rock    | 1990s, guitar riff, breakthrough    |\n| 5  | Rolling in the Deep  | Adele                           | C minor   | 105 | pop, soul                   | powerful vocals, 2010s              |\n| 6  | Take Five            | The Dave Brubeck Quartet        | E ♭ minor | 174 | jazz, cool jazz             | saxophone, classic, instrumental    |\n| 7  | Get Lucky            | Daft Punk ft. Pharrell Williams | F minor   | 116 | disco, electronic, funk     | dancefloor, 2010s                   |\n| 8  | Nothing Else Matters | Metallica                       | E minor   | 142 | heavy metal, rock           | ballad, acoustic intro              |\n| 9  | Bad Guy              | Billie Eilish                   | G minor   | 135 | pop, electro-pop            | whisper vocals, modern sound        |\n| 10 | Clocks               | Coldplay                        | E ♭ major | 131 | alternative rock, pop rock  | piano riff, 2000s                   |\n', 'project_goal_summary': '', 'rhythm_advice': None, 'music_theory_advice': None, 'instruments_advice': None, 'lyrics_advice': None, 'production_advice': None, 'final_moodboard': None, 'error_message': None, 'should_run_lyrics_agent': False}
+2025-05-26 19:51:45,631 - INFO - __main__ - Invoking LangGraph workflow...
+2025-05-26 19:51:45,641 - INFO - rag_agent_nodes - --- Starting NODE: Processing Initial Input & Synthesizing Goal ---
+2025-05-26 19:51:45,641 - INFO - rag_agent_nodes - Attempting to generate project goal summary...
+2025-05-26 19:52:45,788 - INFO - openai._base_client - Retrying request to /chat/completions in 0.498322 seconds
+2025-05-26 19:53:17,085 - INFO - httpx - HTTP Request: POST https://api.runpod.ai/v2/u4d3b5g2c5ot09/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-26 19:53:17,097 - INFO - rag_agent_nodes - Project Goal Summary successfully generated.
+2025-05-26 19:53:17,097 - INFO - rag_agent_nodes - Should run lyrics agent: False
+2025-05-26 19:53:17,097 - INFO - rag_agent_nodes - --- Finished NODE: Processing Initial Input. Project Goal: Based on the user's request for a dark pop song like The Weeknd with strings, and analyzing the prov... ---
+2025-05-26 19:53:17,099 - INFO - __main__ - Output from node 'initial_processor': {'project_goal_summary': 'Based on the user\'s request for a dark pop song like The Weeknd with strings, and analyzing the provided similarity analysis, here\'s a concise project goal summary:\n\nThe goal is to create a dark, atmospheric pop song with a focus on emotive vocals and a blend of electronic and organic elements, reminiscent of The Weeknd\'s style. The track should feature a prominent string section, building upon the mood and ambiance of similar tracks like "Serge\'s Kiss" by Daybehavior and "Get Lucky" by Daft Punk ft. Pharrell Williams. The tempo is expected to be moderate, around 110 BPM, with a key signature that evokes a sense of tension and drama, such as C minor or F minor.\n\nInstrumentation-wise, the track should incorporate a mix of electronic and acoustic elements, including piano, synthesizers, and a prominent string section. The overall mood and atmosphere should be dark and moody, with a focus on creating an immersive listening experience.', 'should_run_lyrics_agent': False}
+2025-05-26 19:53:17,100 - INFO - rag_agent_nodes - --- Evaluating NODE: Lyrics Agent ---
+2025-05-26 19:53:17,100 - INFO - rag_agent_nodes - NODE (Lyrics_agent): Skipping as should_run_lyrics_agent flag is False.
+2025-05-26 19:53:17,102 - INFO - __main__ - Output from node 'lyrics_agent': {'lyrics_advice': '', 'lyrics_kb_sources': [], 'lyrics_stack_sources': []}
+2025-05-26 19:53:17,102 - ERROR - __main__ - An unexpected error occurred while running the graph: _specialist_agent_node_logic() missing 1 required positional argument: 'knowledge_topic'
+Traceback (most recent call last):
+  File "/home/raduc/Documents/Code/Licentzio/MusicBlock/RAG/rag_music_moodboard.py", line 202, in <module>
+    for event_chunk in app.stream(initial_graph_state): # config=config
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langgraph/pregel/__init__.py", line 2461, in stream
+    for _ in runner.tick(
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langgraph/pregel/runner.py", line 247, in tick
+    _panic_or_proceed(
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langgraph/pregel/runner.py", line 499, in _panic_or_proceed
+    raise exc
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langgraph/pregel/executor.py", line 80, in done
+    task.result()
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langgraph/pregel/retry.py", line 40, in run_with_retry
+    return task.proc.invoke(task.input, config)
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langgraph/utils/runnable.py", line 623, in invoke
+    input = context.run(step.invoke, input, config, **kwargs)
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langgraph/utils/runnable.py", line 377, in invoke
+    ret = self.func(*args, **kwargs)
+  File "/home/raduc/Documents/Code/Licentzio/MusicBlock/RAG/rag_agent_nodes.py", line 246, in music_theory_agent_node
+    return _specialist_agent_node_logic(
+TypeError: _specialist_agent_node_logic() missing 1 required positional argument: 'knowledge_topic'
+2025-05-26 19:53:17,109 - INFO - __main__ - --- Moodboard Generation Attempt Finished ---
+2025-05-26 19:53:17,109 - ERROR - __main__ - Graph execution did not produce a final state.
+2025-05-26 19:53:17,109 - INFO - __main__ - Log file for this run: /home/raduc/Documents/Code/Licentzio/MusicBlock/rag_logs/moodboard_run_20250526_195130.log

@@ -7,7 +7,7 @@ class OverallState(TypedDict):
    
     # --- Inputs ---
     user_text_query: str              
-    # user_audio_path: Optional[str]    
+    user_audio_path: Optional[str]    
     user_audio_features: Optional[List[float]] # The 94D Essentia features
 
     # --- Derived from Music Similarity Pipeline & Initial Processing ---
@@ -15,13 +15,62 @@ class OverallState(TypedDict):
     project_goal_summary: str           # A synthesized brief combining user query and similar track insights
 
     # --- Agent-Specific Outputs (Generated Advice) ---
-    # These will be populated by their respective agent nodes
     rhythm_advice: Optional[str]
-    music_theory_advice: Optional[str]
-    instruments_advice: Optional[str]
-    lyrics_advice: Optional[str]        # This agent might be conditionally run
-    production_advice: Optional[str]
+    rhythm_kb_sources: Optional[List[str]]
+    rhythm_stack_sources: Optional[List[str]]
 
+    music_theory_advice: Optional[str]
+    music_theory_kb_sources: Optional[List[str]]
+    music_theory_stack_sources: Optional[List[str]]
+
+    instruments_advice: Optional[str]
+    instruments_kb_sources: Optional[List[str]]
+    instruments_stack_sources: Optional[List[str]]
+
+    lyrics_advice: Optional[str]
+    lyrics_kb_sources: Optional[List[str]]
+    lyrics_stack_sources: Optional[List[str]]
+
+    production_advice: Optional[str]
+    production_kb_sources: Optional[List[str]]
+    production_stack_sources: Optional[List[str]]
+    
+    all_accumulated_sources: Optional[List[str]] # For the combiner to output
+
+    # --- Token Tracking ---
+    # Node-level token counters (for current processing node)
+    node_prompt_tokens: int
+    node_completion_tokens: int
+    
+    # Agent-specific token counters for SE query generation
+    rhythm_se_query_prompt_tokens: int
+    rhythm_se_query_completion_tokens: int
+    music_theory_se_query_prompt_tokens: int
+    music_theory_se_query_completion_tokens: int
+    instruments_se_query_prompt_tokens: int
+    instruments_se_query_completion_tokens: int
+    lyrics_se_query_prompt_tokens: int
+    lyrics_se_query_completion_tokens: int
+    production_se_query_prompt_tokens: int
+    production_se_query_completion_tokens: int
+    
+    # Agent-specific token counters for final advice generation
+    rhythm_final_advice_prompt_tokens: int
+    rhythm_final_advice_completion_tokens: int
+    music_theory_final_advice_prompt_tokens: int
+    music_theory_final_advice_completion_tokens: int
+    instruments_final_advice_prompt_tokens: int
+    instruments_final_advice_completion_tokens: int
+    lyrics_final_advice_prompt_tokens: int
+    lyrics_final_advice_completion_tokens: int
+    production_final_advice_prompt_tokens: int
+    production_final_advice_completion_tokens: int
+    
+    # Total accumulated token counters
+    total_prompt_tokens: int
+    total_completion_tokens: int
+    total_cost: Optional[float]
+    
     # --- Final Output ---
     final_moodboard: Optional[str]      # The combined Markdown output
 

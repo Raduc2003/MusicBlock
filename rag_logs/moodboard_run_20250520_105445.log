@@ -1,0 +1,763 @@
+2025-05-20 10:54:45,867 - INFO - __main__ - RAG Music Moodboard Script Started.
+2025-05-20 10:54:45,867 - INFO - __main__ - Using LLM: llama3.2:3b via rag_agent_nodes.llm
+2025-05-20 10:54:45,868 - INFO - __main__ - --- New Moodboard Generation Run ---
+2025-05-20 10:54:45,868 - INFO - __main__ - Execution Mode: SEQUENTIAL
+2025-05-20 10:54:45,868 - INFO - __main__ - Building graph: Adding nodes...
+2025-05-20 10:54:45,869 - INFO - __main__ - Building graph: Entry point set to 'initial_processor'.
+2025-05-20 10:54:45,869 - INFO - __main__ - Building graph: Using SEQUENTIAL agent execution flow.
+2025-05-20 10:54:45,869 - INFO - __main__ - Building graph: Final edge to END set from 'advice_combiner'.
+2025-05-20 10:54:45,874 - INFO - __main__ - LangGraph RAG Moodboard Generator Compiled.
+2025-05-20 10:55:05,663 - INFO - __main__ - User Text Query: retro funky pop song 
+2025-05-20 10:55:06,910 - INFO - __main__ - No audio file provided by user.
+2025-05-20 10:55:06,911 - INFO - __main__ - Similarity Summary (Placeholder):
+Audio provided; similarity analysis resulted in this list of similar tracks based on audio extracted features. Here is the list:
+
+| #  | Title                | Artist                          | Key       | BPM | Genres                      | Other tags                          |
+| -- | -------------------- | ------------------------------- | --------- | --- | --------------------------- | ----------------------------------- |
+| 1  | Serge’s Kiss         | Daybehavior                     | C minor   | 109 | alternative rock, dream pop | re-recording, pop, alternative rock |
+| 2  | Imagine              | John Lennon                     | C major   | 75  | rock, pop                   | piano, classic, 1971                |
+| 3  | Billie Jean          | Michael Jackson                 | F ♯ minor | 117 | pop, R&B                    | dance, 1980s, synth                 |
+| 4  | Smells Like Teen…    | Nirvana                         | F minor   | 117 | grunge, alternative rock    | 1990s, guitar riff, breakthrough    |
+| 5  | Rolling in the Deep  | Adele                           | C minor   | 105 | pop, soul                   | powerful vocals, 2010s              |
+| 6  | Take Five            | The Dave Brubeck Quartet        | E ♭ minor | 174 | jazz, cool jazz             | saxophone, classic, instrumental    |
+| 7  | Get Lucky            | Daft Punk ft. Pharrell Williams | F minor   | 116 | disco, electronic, funk     | dancefloor, 2010s                   |
+| 8  | Nothing Else Matters | Metallica                       | E minor   | 142 | heavy metal, rock           | ballad, acoustic intro              |
+| 9  | Bad Guy              | Billie Eilish                   | G minor   | 135 | pop, electro-pop            | whisper vocals, modern sound        |
+| 10 | Clocks               | Coldplay                        | E ♭ major | 131 | alternative rock, pop rock  | piano riff, 2000s                   |
+
+2025-05-20 10:55:06,911 - INFO - __main__ - Initial graph state prepared: {'user_text_query': 'retro funky pop song ', 'user_audio_path': None, 'similar_tracks_summary': 'Audio provided; similarity analysis resulted in this list of similar tracks based on audio extracted features. Here is the list:\n\n| #  | Title                | Artist                          | Key       | BPM | Genres                      | Other tags                          |\n| -- | -------------------- | ------------------------------- | --------- | --- | --------------------------- | ----------------------------------- |\n| 1  | Serge’s Kiss         | Daybehavior                     | C minor   | 109 | alternative rock, dream pop | re-recording, pop, alternative rock |\n| 2  | Imagine              | John Lennon                     | C major   | 75  | rock, pop                   | piano, classic, 1971                |\n| 3  | Billie Jean          | Michael Jackson                 | F ♯ minor | 117 | pop, R&B                    | dance, 1980s, synth                 |\n| 4  | Smells Like Teen…    | Nirvana                         | F minor   | 117 | grunge, alternative rock    | 1990s, guitar riff, breakthrough    |\n| 5  | Rolling in the Deep  | Adele                           | C minor   | 105 | pop, soul                   | powerful vocals, 2010s              |\n| 6  | Take Five            | The Dave Brubeck Quartet        | E ♭ minor | 174 | jazz, cool jazz             | saxophone, classic, instrumental    |\n| 7  | Get Lucky            | Daft Punk ft. Pharrell Williams | F minor   | 116 | disco, electronic, funk     | dancefloor, 2010s                   |\n| 8  | Nothing Else Matters | Metallica                       | E minor   | 142 | heavy metal, rock           | ballad, acoustic intro              |\n| 9  | Bad Guy              | Billie Eilish                   | G minor   | 135 | pop, electro-pop            | whisper vocals, modern sound        |\n| 10 | Clocks               | Coldplay                        | E ♭ major | 131 | alternative rock, pop rock  | piano riff, 2000s                   |\n', 'project_goal_summary': '', 'rhythm_advice': None, 'music_theory_advice': None, 'instruments_advice': None, 'lyrics_advice': None, 'production_advice': None, 'final_moodboard': None, 'error_message': None, 'should_run_lyrics_agent': False}
+2025-05-20 10:55:06,911 - INFO - __main__ - Invoking LangGraph workflow...
+2025-05-20 10:55:06,915 - INFO - rag_agent_nodes - --- Starting NODE: Processing Initial Input & Synthesizing Goal ---
+2025-05-20 10:55:06,915 - INFO - rag_agent_nodes - User Text Query: 'retro funky pop song '
+2025-05-20 10:55:06,915 - INFO - rag_agent_nodes - Similar Tracks Summary Input:
+Audio provided; similarity analysis resulted in this list of similar tracks based on audio extracted features. Here is the list:
+
+| #  | Title                | Artist                          | Key       | BPM | Genres                      | Other tags                          |
+| -- | -------------------- | ------------------------------- | --------- | --- | --------------------------- | ----------------------------------- |
+| 1  | Serge’s Kiss         | Daybehavior                     | C minor   | 109 | alternative rock, dream pop | re-recording, pop, alternative rock |
+| 2  | Imagine              | John Lennon                     | C major   | 75  | rock, pop                   | piano, classic, 1971                |
+| 3  | Billie Jean          | Michael Jackson                 | F ♯ minor | 117 | pop, R&B                    | dance, 1980s, synth                 |
+| 4  | Smells Like Teen…    | Nirvana                         | F minor   | 117 | grunge, alternative rock    | 1990s, guitar riff, breakthrough    |
+| 5  | Rolling in the Deep  | Adele                           | C minor   | 105 | pop, soul                   | powerful vocals, 2010s              |
+| 6  | Take Five            | The Dave Brubeck Quartet        | E ♭ minor | 174 | jazz, cool jazz             | saxophone, classic, instrumental    |
+| 7  | Get Lucky            | Daft Punk ft. Pharrell Williams | F minor   | 116 | disco, electronic, funk     | dancefloor, 2010s                   |
+| 8  | Nothing Else Matters | Metallica                       | E minor   | 142 | heavy metal, rock           | ballad, acoustic intro              |
+| 9  | Bad Guy              | Billie Eilish                   | G minor   | 135 | pop, electro-pop            | whisper vocals, modern sound        |
+| 10 | Clocks               | Coldplay                        | E ♭ major | 131 | alternative rock, pop rock  | piano riff, 2000s                   |
+
+2025-05-20 10:55:06,915 - INFO - rag_agent_nodes - Attempting to generate project goal summary. Full Prompt:
+
+You are a helpful assistant that synthesizes information for a music creation project.
+Based on the user's request and an analysis of similar music (if provided), create a concise project goal summary.
+This summary will guide other specialized AI agents in providing creative advice.
+Focus on extracting key musical elements: genre, target artists/style, mood, instrumentation, tempo, and key signatures mentioned or implied.
+Keep the summary to 1-2 concise paragraphs.
+
+User Request:
+---
+retro funky pop song 
+---
+
+Provided Similarity Analysis (characteristics of the user's audio or comparable tracks):
+---
+Audio provided; similarity analysis resulted in this list of similar tracks based on audio extracted features. Here is the list:
+
+| #  | Title                | Artist                          | Key       | BPM | Genres                      | Other tags                          |
+| -- | -------------------- | ------------------------------- | --------- | --- | --------------------------- | ----------------------------------- |
+| 1  | Serge’s Kiss         | Daybehavior                     | C minor   | 109 | alternative rock, dream pop | re-recording, pop, alternative rock |
+| 2  | Imagine              | John Lennon                     | C major   | 75  | rock, pop                   | piano, classic, 1971                |
+| 3  | Billie Jean          | Michael Jackson                 | F ♯ minor | 117 | pop, R&B                    | dance, 1980s, synth                 |
+| 4  | Smells Like Teen…    | Nirvana                         | F minor   | 117 | grunge, alternative rock    | 1990s, guitar riff, breakthrough    |
+| 5  | Rolling in the Deep  | Adele                           | C minor   | 105 | pop, soul                   | powerful vocals, 2010s              |
+| 6  | Take Five            | The Dave Brubeck Quartet        | E ♭ minor | 174 | jazz, cool jazz             | saxophone, classic, instrumental    |
+| 7  | Get Lucky            | Daft Punk ft. Pharrell Williams | F minor   | 116 | disco, electronic, funk     | dancefloor, 2010s                   |
+| 8  | Nothing Else Matters | Metallica                       | E minor   | 142 | heavy metal, rock           | ballad, acoustic intro              |
+| 9  | Bad Guy              | Billie Eilish                   | G minor   | 135 | pop, electro-pop            | whisper vocals, modern sound        |
+| 10 | Clocks               | Coldplay                        | E ♭ major | 131 | alternative rock, pop rock  | piano riff, 2000s                   |
+
+---
+
+Concise Project Goal Summary:
+
+2025-05-20 10:55:36,372 - INFO - httpx - HTTP Request: POST http://localhost:1337/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 10:55:36,375 - INFO - rag_agent_nodes - Project Goal Summary successfully generated by LLM:
+Based on the provided audio analysis and similar tracks, I've synthesized a project goal summary for a retro funky pop song:
+
+**Project Goal:** Create a catchy, upbeat retro-funk inspired track that combines infectious melodies with driving rhythms reminiscent of 1980s disco and funk. Drawing from the similarities found in artists such as Daft Punk, Billie Eilish (in her more experimental tracks), and classic funk legends like Sly Stone or Parliament-Funkadelic, this song should feature prominent synthesizers, bass-heavy instrumentation, and a tempo range of 100-120 BPM.
+
+**Key Elements:**
+
+* Genre: Retro funky pop with elements of disco and electronic dance music
+* Mood: Upbeat, energetic, and carefree
+* Instrumentation: Prominent use of synthesizers, funk-inspired bass lines, and catchy melodic hooks
+* Tempo: Moderate to fast-paced (100-120 BPM)
+* Key signatures: Emphasize the use of minor keys (e.g., C minor, F minor) with a focus on resolving chord progressions
+2025-05-20 10:55:36,375 - INFO - rag_agent_nodes - Should run lyrics agent: False
+2025-05-20 10:55:36,375 - INFO - rag_agent_nodes - --- Finished NODE: Processing Initial Input. Output: {'project_goal_summary': "Based on the provided audio analysis and similar tracks, I've synthesized a project goal summary for...", 'should_run_lyrics_agent': False} ---
+2025-05-20 10:55:36,376 - INFO - __main__ - Output from node 'initial_processor': {'project_goal_summary': "Based on the provided audio analysis and similar tracks, I've synthesized a project goal summary for a retro funky pop song:\n\n**Project Goal:** Create a catchy, upbeat retro-funk inspired track that combines infectious melodies with driving rhythms reminiscent of 1980s disco and funk. Drawing from the similarities found in artists such as Daft Punk, Billie Eilish (in her more experimental tracks), and classic funk legends like Sly Stone or Parliament-Funkadelic, this song should feature prominent synthesizers, bass-heavy instrumentation, and a tempo range of 100-120 BPM.\n\n**Key Elements:**\n\n* Genre: Retro funky pop with elements of disco and electronic dance music\n* Mood: Upbeat, energetic, and carefree\n* Instrumentation: Prominent use of synthesizers, funk-inspired bass lines, and catchy melodic hooks\n* Tempo: Moderate to fast-paced (100-120 BPM)\n* Key signatures: Emphasize the use of minor keys (e.g., C minor, F minor) with a focus on resolving chord progressions", 'should_run_lyrics_agent': False}
+2025-05-20 10:55:36,376 - INFO - rag_agent_nodes - --- Starting NODE: Rhythm Agent ---
+2025-05-20 10:55:36,376 - INFO - rag_agent_nodes - Project Goal for Rhythm:
+Based on the provided audio analysis and similar tracks, I've synthesized a project goal summary for a retro funky pop song:
+
+**Project Goal:** Create a catchy, upbeat retro-funk inspired track that combines infectious melodies with driving rhythms reminiscent of 1980s disco and funk. Drawing from the similarities found in artists such as Daft Punk, Billie Eilish (in her more experimental tracks), and classic funk legends like Sly Stone or Parliament-Funkadelic, this song should feature prominent synthesizers, bass-heavy instrumentation, and a tempo range of 100-120 BPM.
+
+**Key Elements:**
+
+* Genre: Retro funky pop with elements of disco and electronic dance music
+* Mood: Upbeat, energetic, and carefree
+* Instrumentation: Prominent use of synthesizers, funk-inspired bass lines, and catchy melodic hooks
+* Tempo: Moderate to fast-paced (100-120 BPM)
+* Key signatures: Emphasize the use of minor keys (e.g., C minor, F minor) with a focus on resolving chord progressions
+2025-05-20 10:55:36,376 - INFO - rag_agent_nodes - Formulated Search Query for Rhythm: 'Specific rhythm concepts, techniques, and ideas related to: Based on the provided audio analysis and similar tracks, I've synthesized a project goal s...'
+2025-05-20 10:55:36,434 - INFO - httpx - HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+2025-05-20 10:55:36,445 - INFO - httpx - HTTP Request: GET http://localhost:6333/collections/pdf_knowledge_base_hybrid3 "HTTP/1.1 200 OK"
+2025-05-20 10:55:36,559 - INFO - httpx - HTTP Request: GET http://localhost:6333/collections/pdf_knowledge_base_hybrid3 "HTTP/1.1 200 OK"
+2025-05-20 10:55:36,741 - INFO - httpx - HTTP Request: POST http://localhost:6333/collections/pdf_knowledge_base_hybrid3/points/query "HTTP/1.1 200 OK"
+2025-05-20 10:55:36,743 - INFO - rag_agent_nodes - Retrieved 3 documents for Rhythm (Topic: rythm):
+2025-05-20 10:55:36,743 - INFO - rag_agent_nodes -   Doc 1: Source: rythm/TBQ_the_basic_elements_of_music.pdf, Page: 3, Content: 1.1 Rhythm1
+
+Rhythm, melody (Section 2.2.1), harmony (Section 2.3.1), timbre (Section 2.1.1), and texture (Section 3.1) are the essential aspects of a musical performance. They are often called the ba...
+2025-05-20 10:55:36,743 - INFO - rag_agent_nodes -   Doc 2: Source: rythm/TBQ_the_basic_elements_of_music.pdf, Page: 6, Content: Students with some musical sophistication will enjoy the challenge of adding percussion in a "stylisti- cally appropriate" way. Work with the students to come up with "percussion tracks" for several p...
+2025-05-20 10:55:36,743 - INFO - rag_agent_nodes -   Doc 3: Source: rythm/Learn_to_Play_Drums.pdf, Page: 11, Content: {{ listen | filename = Beat_2-1.ogg | title = Beat with open hi-hats | type = music }}
+
+This next beat is in 8/7 time (you can tell what tempo it is by the amount of hi-hat hits in one bar). Notice th...
+2025-05-20 10:55:36,743 - INFO - rag_agent_nodes - Attempting to generate rhythm advice. Full Prompt:
+
+You are a helpful music production assistant specializing in rhythm and groove.
+Your goal is to provide actionable and creative suggestions.
+
+Based on the following overall project goal:
+---
+Based on the provided audio analysis and similar tracks, I've synthesized a project goal summary for a retro funky pop song:
+
+**Project Goal:** Create a catchy, upbeat retro-funk inspired track that combines infectious melodies with driving rhythms reminiscent of 1980s disco and funk. Drawing from the similarities found in artists such as Daft Punk, Billie Eilish (in her more experimental tracks), and classic funk legends like Sly Stone or Parliament-Funkadelic, this song should feature prominent synthesizers, bass-heavy instrumentation, and a tempo range of 100-120 BPM.
+
+**Key Elements:**
+
+* Genre: Retro funky pop with elements of disco and electronic dance music
+* Mood: Upbeat, energetic, and carefree
+* Instrumentation: Prominent use of synthesizers, funk-inspired bass lines, and catchy melodic hooks
+* Tempo: Moderate to fast-paced (100-120 BPM)
+* Key signatures: Emphasize the use of minor keys (e.g., C minor, F minor) with a focus on resolving chord progressions
+---
+
+And these relevant knowledge chunks retrieved from a music production knowledge base about rhythm, drums, and groove:
+---
+Source: rythm/TBQ_the_basic_elements_of_music.pdf, Page: 3
+Content: 1.1 Rhythm1
+
+Rhythm, melody (Section 2.2.1), harmony (Section 2.3.1), timbre (Section 2.1.1), and texture (Section 3.1) are the essential aspects of a musical performance. They are often called the basic elements of music. The main purpose of music theory is to describe various pieces of music in terms of their similarities and di(cid:27)erences in these elements, and music is usually grouped into genres based on similarities in all or most elements. It’s useful, therefore, to be familiar with the terms commonly used to describe each element. Because harmony is the most highly developed aspect of Western music2, music theory tends to focus almost exclusively on melody and harmony. Music does not have to have harmony, however, and some music doesn’t even have melody. So perhaps the other three elements can be considered the most basic components of music.
+
+---
+
+Source: rythm/TBQ_the_basic_elements_of_music.pdf, Page: 6
+Content: Students with some musical sophistication will enjoy the challenge of adding percussion in a "stylisti- cally appropriate" way. Work with the students to come up with "percussion tracks" for several pieces in very di(cid:27)erent styles. Discuss di(cid:27)erences in choice of instruments and in rhythms for the di(cid:27)erent styles.
+
+---
+
+Source: rythm/Learn_to_Play_Drums.pdf, Page: 11
+Content: {{ listen | filename = Beat_2-1.ogg | title = Beat with open hi-hats | type = music }}
+
+This next beat is in 8/7 time (you can tell what tempo it is by the amount of hi-hat hits in one bar). Notice the 'o' on the hi-hat's line. You know what to do... open ('o'pen) the hi-hats with your foot and close it on the next hi-hat hit.
+
+HH|x-x-x-x-x-x-x-o-|x-x-x-x-x-x-x-o-| T1|----------------|----------------| Sn|----o-------o---|----o-------o---| T2|----------------|----------------| T3|----------------|----------------| BD|o-------o-------|o-------o-o-----|
+
+As usual, just practice this until you can repeat it for ever (well, you know). Try out different places to open the hi-hats, for example, on the bass drum hits. Back to Starting Out
+---
+
+Please generate 2-4 distinct and actionable rhythm suggestions for this music project.
+Focus ONLY on aspects like drum patterns, percussion, rhythmic feel, groove techniques, beat programming, and tempo considerations.
+If the retrieved knowledge chunks are sparse or not directly relevant, rely more on the project goal to generate general but applicable rhythmic ideas.
+Ensure your suggestions are formatted as Markdown bullet points. Each bullet point should represent a complete, creative idea.
+
+Rhythm Suggestions:
+
+2025-05-20 10:56:10,838 - INFO - httpx - HTTP Request: POST http://localhost:1337/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 10:56:10,841 - INFO - rag_agent_nodes - Rhythm Advice successfully generated by LLM:
+Here are 4 distinct and actionable rhythm suggestions for your retro funky pop song:
+
+* **Disco-Inspired Hi-Hat Pattern**: Create a driving hi-hat pattern with an emphasis on the 'and' of beat 2 (the space between beats 1 and 2). For example, HH|x-x-o-x-x-x-x-o|x-x-o-x-x-x-x-o|. This will give your song a strong disco feel and make it more energetic.
+* **Funky Bass Drum Pattern**: Use a syncopated bass drum pattern that emphasizes the 'and' of beat 3 (the space between beats 2 and 3). For example, BD|o-------o---|o-------o-o-----|. This will add a funky feel to your song and make it more interesting for listeners.
+* **Rhythmic Feel with Hi-Hat and Snare**: Experiment with programming the hi-hats and snare drum to create a rhythmic feel that feels like walking or dancing. For example, use an 8th-note pattern on the hi-hats (HH|x-x-x-x-x-x-x-o|) and a shorter 16th-note pattern on the snare drum (Sn|----o-------o---|. This will give your song a more human feel and make it more engaging for listeners.
+* **Tempo-Sensitive Kick Drum Pattern**: Create a kick drum pattern that changes tempo slightly to match the energy of the music. For example, use a 4/4 time signature for the intro, but switch to 5/4 during the chorus or bridge. This will create a sense of tension and release in your song and make it more dynamic.
+2025-05-20 10:56:10,841 - INFO - rag_agent_nodes - --- Finished NODE: Rhythm Agent. Output for 'rhythm_advice': Here are 4 distinct and actionable rhythm suggestions for your retro funky pop song:
+
+* **Disco-Insp... ---
+2025-05-20 10:56:10,841 - INFO - __main__ - Output from node 'rhythm_agent': {'rhythm_advice': "Here are 4 distinct and actionable rhythm suggestions for your retro funky pop song:\n\n* **Disco-Inspired Hi-Hat Pattern**: Create a driving hi-hat pattern with an emphasis on the 'and' of beat 2 (the space between beats 1 and 2). For example, HH|x-x-o-x-x-x-x-o|x-x-o-x-x-x-x-o|. This will give your song a strong disco feel and make it more energetic.\n* **Funky Bass Drum Pattern**: Use a syncopated bass drum pattern that emphasizes the 'and' of beat 3 (the space between beats 2 and 3). For example, BD|o-------o---|o-------o-o-----|. This will add a funky feel to your song and make it more interesting for listeners.\n* **Rhythmic Feel with Hi-Hat and Snare**: Experiment with programming the hi-hats and snare drum to create a rhythmic feel that feels like walking or dancing. For example, use an 8th-note pattern on the hi-hats (HH|x-x-x-x-x-x-x-o|) and a shorter 16th-note pattern on the snare drum (Sn|----o-------o---|. This will give your song a more human feel and make it more engaging for listeners.\n* **Tempo-Sensitive Kick Drum Pattern**: Create a kick drum pattern that changes tempo slightly to match the energy of the music. For example, use a 4/4 time signature for the intro, but switch to 5/4 during the chorus or bridge. This will create a sense of tension and release in your song and make it more dynamic."}
+2025-05-20 10:56:10,841 - INFO - rag_agent_nodes - --- Starting NODE: Music Theory Agent ---
+2025-05-20 10:56:10,841 - INFO - rag_agent_nodes - Project Goal for Music Theory:
+Based on the provided audio analysis and similar tracks, I've synthesized a project goal summary for a retro funky pop song:
+
+**Project Goal:** Create a catchy, upbeat retro-funk inspired track that combines infectious melodies with driving rhythms reminiscent of 1980s disco and funk. Drawing from the similarities found in artists such as Daft Punk, Billie Eilish (in her more experimental tracks), and classic funk legends like Sly Stone or Parliament-Funkadelic, this song should feature prominent synthesizers, bass-heavy instrumentation, and a tempo range of 100-120 BPM.
+
+**Key Elements:**
+
+* Genre: Retro funky pop with elements of disco and electronic dance music
+* Mood: Upbeat, energetic, and carefree
+* Instrumentation: Prominent use of synthesizers, funk-inspired bass lines, and catchy melodic hooks
+* Tempo: Moderate to fast-paced (100-120 BPM)
+* Key signatures: Emphasize the use of minor keys (e.g., C minor, F minor) with a focus on resolving chord progressions
+2025-05-20 10:56:10,841 - INFO - rag_agent_nodes - Formulated Search Query for Music Theory: 'Specific music theory concepts, techniques, and ideas related to: Based on the provided audio analysis and similar tracks, I've synthesized a project ...'
+2025-05-20 10:56:10,880 - INFO - httpx - HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+2025-05-20 10:56:10,884 - INFO - httpx - HTTP Request: GET http://localhost:6333/collections/pdf_knowledge_base_hybrid3 "HTTP/1.1 200 OK"
+2025-05-20 10:56:10,903 - INFO - httpx - HTTP Request: GET http://localhost:6333/collections/pdf_knowledge_base_hybrid3 "HTTP/1.1 200 OK"
+2025-05-20 10:56:11,067 - INFO - httpx - HTTP Request: POST http://localhost:6333/collections/pdf_knowledge_base_hybrid3/points/query "HTTP/1.1 200 OK"
+2025-05-20 10:56:11,068 - INFO - rag_agent_nodes - Retrieved 3 documents for Music Theory (Topic: theory_general):
+2025-05-20 10:56:11,068 - INFO - rag_agent_nodes -   Doc 1: Source: theory_general/OPEN_MUSIC_THEORY_V2.pdf, Page: 599, Content: The Blues Scale
+
+Much as the harmonies of the blues tend not to stick to one diatonic key, flouting the norms of tonal
+
+music, the melodies are similarly chromatic to match. The blues scale, notated i...
+2025-05-20 10:56:11,068 - INFO - rag_agent_nodes -   Doc 2: Source: theory_general/OPEN_MUSIC_THEORY_V2.pdf, Page: 18, Content: Sections within Verse-Chorus Form Standout Lyrics within Sections
+
+Introduction to Harmonic Schemas in Pop Music
+
+Blues-Based Schemas Plagal Motion...
+2025-05-20 10:56:11,069 - INFO - rag_agent_nodes -   Doc 3: Source: theory_general/Understanding_Basic_Music_Theory_hk_r.pdf, Page: 225, Content: To the average Western listener, medieval European chant and classical Indian music
+
+are the two most familiar traditions that are not based on major and minor scales. But
+
+many other musical traditio...
+2025-05-20 10:56:11,069 - INFO - rag_agent_nodes - Attempting to generate music theory advice. Full Prompt:
+
+You are a helpful music theory assistant.
+Your goal is to provide actionable and creative suggestions related to harmony, melody, and song structure.
+
+Based on the following overall project goal:
+---
+Based on the provided audio analysis and similar tracks, I've synthesized a project goal summary for a retro funky pop song:
+
+**Project Goal:** Create a catchy, upbeat retro-funk inspired track that combines infectious melodies with driving rhythms reminiscent of 1980s disco and funk. Drawing from the similarities found in artists such as Daft Punk, Billie Eilish (in her more experimental tracks), and classic funk legends like Sly Stone or Parliament-Funkadelic, this song should feature prominent synthesizers, bass-heavy instrumentation, and a tempo range of 100-120 BPM.
+
+**Key Elements:**
+
+* Genre: Retro funky pop with elements of disco and electronic dance music
+* Mood: Upbeat, energetic, and carefree
+* Instrumentation: Prominent use of synthesizers, funk-inspired bass lines, and catchy melodic hooks
+* Tempo: Moderate to fast-paced (100-120 BPM)
+* Key signatures: Emphasize the use of minor keys (e.g., C minor, F minor) with a focus on resolving chord progressions
+---
+
+And these relevant knowledge chunks retrieved from a music theory knowledge base:
+---
+Source: theory_general/OPEN_MUSIC_THEORY_V2.pdf, Page: 599
+Content: The Blues Scale
+
+Much as the harmonies of the blues tend not to stick to one diatonic key, flouting the norms of tonal
+
+music, the melodies are similarly chromatic to match. The blues scale, notated in the upper staff of
+
+Example 4, attempts to generalize blues melodic practice into a scale on which beginning improvisers
+
+can base their melodies. The blues scale is essentially a minor pentatonic scale with an added chromatic
+
+passing tone leading up to sol
+
+One or more interactive elements has been excluded from this version of the text. You can view
+
+them online here: https://viva.pressbooks.pub/openmusictheory/?p=2637
+
+Example 4. The C blues scale creates stylistic clashes with the I and V chords of C major.
+
+This blues scale is used in both major and minor blues tunes, despite the clashes with the underlying
+
+harmony. When this scale is combined with the chords of the major blues—I, V, and IV, or C major, F
+
+major, and G major in the key of C—the characteristic clashes between mi/me
+
+---
+
+Source: theory_general/OPEN_MUSIC_THEORY_V2.pdf, Page: 18
+Content: Sections within Verse-Chorus Form Standout Lyrics within Sections
+
+Introduction to Harmonic Schemas in Pop Music
+
+Blues-Based Schemas Plagal Motion
+
+---
+
+Source: theory_general/Understanding_Basic_Music_Theory_hk_r.pdf, Page: 225
+Content: To the average Western listener, medieval European chant and classical Indian music
+
+are the two most familiar traditions that are not based on major and minor scales. But
+
+many other musical traditions around the world are not based on Western scales.
+
+Some of these have modes similar to the medieval Church modes; they also tend to
+
+be a list of notes (or a pattern of intervals) used with a specific finalis, which may
+
+encourage certain types of melodies. While the church mode/jazz mode tradition
+
+features diatonic modes (which can be played using only the white keys of a piano),
+
+non-Western modes may use other types of scales.
+
+In other music traditions, modes are much more like Indian ragas, featuring important
+
+variations in tuning and melodic expectations from one mode to the next, so that each
+
+mode may be seen as a collection of related melodic ideas, phrases, and
+
+ornamentations that are traditionally played with a certain set of notes tuned in a
+---
+
+Please generate 2-4 distinct and actionable music theory suggestions for this music project.
+Focus ONLY on aspects like chord progressions, scales, modes, melodic ideas, harmonic rhythm, and song structure.
+If the retrieved knowledge chunks are sparse or not directly relevant, rely more on the project goal to generate general but applicable theoretical ideas.
+Ensure your suggestions are formatted as Markdown bullet points. Each bullet point should represent a complete, creative idea.
+
+Music Theory Suggestions:
+
+2025-05-20 10:56:42,631 - INFO - httpx - HTTP Request: POST http://localhost:1337/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2025-05-20 10:56:42,632 - INFO - openai._base_client - Retrying request to /chat/completions in 0.469822 seconds
+2025-05-20 10:57:27,349 - INFO - httpx - HTTP Request: POST http://localhost:1337/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 10:57:27,362 - INFO - rag_agent_nodes - Music Theory Advice successfully generated by LLM:
+**Retro Funky Pop Music Theory Suggestions**
+=============================================
+
+### 1. **Use of Minor Keys and Modal Interchange**
+
+* Emphasize the use of minor keys, such as C minor or F minor, to create an upbeat yet melancholic feel.
+* Explore modal interchange by incorporating chords and scales from parallel modes, like the C Lydian mode (C D E F G A B C) or the C Mixolydian mode (C D E F G A B C). This will add depth and interest to your chord progressions.
+
+### 2. **Blues-Based Schemas with a Twist**
+
+* Use Plagal Motion (a common pattern in blues-based music) as a starting point, but introduce unexpected twists by adding chromaticism or altering the expected cadence.
+* Experiment with "borrowed" chords from parallel keys to create tension and release.
+
+### 3. **Non-Diatonic Scales for Melodic Interest**
+
+* Draw inspiration from non-Western scales and modes, such as Indian ragas or Middle Eastern maqams, which often feature complex melodic patterns and ornaments.
+* Incorporate these scales into your melodies using techniques like "mode swapping" (quickly moving between different modes) or "melodic chromaticism."
+
+### 4. **Harmonic Rhythm with a Funky Twist**
+
+* Experiment with unconventional harmonic rhythms by emphasizing off-beat or syncopated chord changes.
+* Use techniques like "chordal hesitation" (pausing on a chord before resolving to the next one) or "harmonic syncopation" (placing accents on non-chord tones).
+
+### 5. **Verse-Chorus Form with Modal Variations**
+
+* Use Plagal Motion as a starting point for your Verse-Chorus Form, but introduce variations by incorporating different modes or scales into each section.
+* Experiment with "mode-switching" within the verse-chorus structure to create a sense of tension and release.
+
+### 6. **Modal Interchange in Chord Progressions**
+
+* Use modal interchange to add interest to your chord progressions by incorporating chords from parallel modes.
+* Experiment with combining chords from different modes to create unique harmonic sounds.
+
+These suggestions are designed to enhance the retro funky pop sound by incorporating elements of blues, jazz, and non-Western music traditions. Feel free to experiment and modify these ideas to fit your creative vision!
+2025-05-20 10:57:27,362 - INFO - rag_agent_nodes - --- Finished NODE: Music Theory Agent. Output for 'music_theory_advice': **Retro Funky Pop Music Theory Suggestions**
+=============================================
+
+### 1. *... ---
+2025-05-20 10:57:27,363 - INFO - __main__ - Output from node 'music_theory_agent': {'music_theory_advice': '**Retro Funky Pop Music Theory Suggestions**\n=============================================\n\n### 1. **Use of Minor Keys and Modal Interchange**\n\n* Emphasize the use of minor keys, such as C minor or F minor, to create an upbeat yet melancholic feel.\n* Explore modal interchange by incorporating chords and scales from parallel modes, like the C Lydian mode (C D E F G A B C) or the C Mixolydian mode (C D E F G A B C). This will add depth and interest to your chord progressions.\n\n### 2. **Blues-Based Schemas with a Twist**\n\n* Use Plagal Motion (a common pattern in blues-based music) as a starting point, but introduce unexpected twists by adding chromaticism or altering the expected cadence.\n* Experiment with "borrowed" chords from parallel keys to create tension and release.\n\n### 3. **Non-Diatonic Scales for Melodic Interest**\n\n* Draw inspiration from non-Western scales and modes, such as Indian ragas or Middle Eastern maqams, which often feature complex melodic patterns and ornaments.\n* Incorporate these scales into your melodies using techniques like "mode swapping" (quickly moving between different modes) or "melodic chromaticism."\n\n### 4. **Harmonic Rhythm with a Funky Twist**\n\n* Experiment with unconventional harmonic rhythms by emphasizing off-beat or syncopated chord changes.\n* Use techniques like "chordal hesitation" (pausing on a chord before resolving to the next one) or "harmonic syncopation" (placing accents on non-chord tones).\n\n### 5. **Verse-Chorus Form with Modal Variations**\n\n* Use Plagal Motion as a starting point for your Verse-Chorus Form, but introduce variations by incorporating different modes or scales into each section.\n* Experiment with "mode-switching" within the verse-chorus structure to create a sense of tension and release.\n\n### 6. **Modal Interchange in Chord Progressions**\n\n* Use modal interchange to add interest to your chord progressions by incorporating chords from parallel modes.\n* Experiment with combining chords from different modes to create unique harmonic sounds.\n\nThese suggestions are designed to enhance the retro funky pop sound by incorporating elements of blues, jazz, and non-Western music traditions. Feel free to experiment and modify these ideas to fit your creative vision!'}
+2025-05-20 10:57:27,363 - INFO - rag_agent_nodes - --- Starting NODE: Instruments Agent ---
+2025-05-20 10:57:27,363 - INFO - rag_agent_nodes - Project Goal for Instruments:
+Based on the provided audio analysis and similar tracks, I've synthesized a project goal summary for a retro funky pop song:
+
+**Project Goal:** Create a catchy, upbeat retro-funk inspired track that combines infectious melodies with driving rhythms reminiscent of 1980s disco and funk. Drawing from the similarities found in artists such as Daft Punk, Billie Eilish (in her more experimental tracks), and classic funk legends like Sly Stone or Parliament-Funkadelic, this song should feature prominent synthesizers, bass-heavy instrumentation, and a tempo range of 100-120 BPM.
+
+**Key Elements:**
+
+* Genre: Retro funky pop with elements of disco and electronic dance music
+* Mood: Upbeat, energetic, and carefree
+* Instrumentation: Prominent use of synthesizers, funk-inspired bass lines, and catchy melodic hooks
+* Tempo: Moderate to fast-paced (100-120 BPM)
+* Key signatures: Emphasize the use of minor keys (e.g., C minor, F minor) with a focus on resolving chord progressions
+2025-05-20 10:57:27,363 - INFO - rag_agent_nodes - Formulated Search Query for Instruments: 'Specific instruments concepts, techniques, and ideas related to: Based on the provided audio analysis and similar tracks, I've synthesized a project g...'
+2025-05-20 10:57:27,408 - INFO - httpx - HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+2025-05-20 10:57:27,416 - INFO - httpx - HTTP Request: GET http://localhost:6333/collections/pdf_knowledge_base_hybrid3 "HTTP/1.1 200 OK"
+2025-05-20 10:57:27,438 - INFO - httpx - HTTP Request: GET http://localhost:6333/collections/pdf_knowledge_base_hybrid3 "HTTP/1.1 200 OK"
+2025-05-20 10:57:27,598 - INFO - httpx - HTTP Request: POST http://localhost:6333/collections/pdf_knowledge_base_hybrid3/points/query "HTTP/1.1 200 OK"
+2025-05-20 10:57:27,599 - INFO - rag_agent_nodes - Retrieved 3 documents for Instruments (Topic: timbre_instruments):
+2025-05-20 10:57:27,599 - INFO - rag_agent_nodes -   Doc 1: Source: timbre_instruments/musicbrainz_instruments.pdf, Page: 27, Content: Electronic instrument analog synthesizer (uses analogue circuits to produce sound) — Using analogue circuits and techniques to produce sound electronically, the first types where created in the 1920's...
+2025-05-20 10:57:27,599 - INFO - rag_agent_nodes -   Doc 2: Source: timbre_instruments/Sound_Synthesis_Theory.pdf, Page: 4, Content: Introduction
+
+This book covers a sub-field of Music Technology called sound synthesis. Al- though the tone is generally aimed at musicians and people with little prior knowledge of music systems, ther...
+2025-05-20 10:57:27,599 - INFO - rag_agent_nodes -   Doc 3: Source: timbre_instruments/musicbrainz_instruments.pdf, Page: 13, Content: electric upright bass electric viola electric violin erhu (Middle range huqin) — The erhu is a bowed Chinese instrument with two strings. esraj — The esraj is a bowed string instrument from Eastern an...
+2025-05-20 10:57:27,599 - INFO - rag_agent_nodes - Attempting to generate instruments advice. Full Prompt:
+
+You are a helpful music production assistant specializing in instrumentation and sound design.
+Your goal is to provide actionable and creative suggestions.
+
+Based on the following overall project goal:
+---
+Based on the provided audio analysis and similar tracks, I've synthesized a project goal summary for a retro funky pop song:
+
+**Project Goal:** Create a catchy, upbeat retro-funk inspired track that combines infectious melodies with driving rhythms reminiscent of 1980s disco and funk. Drawing from the similarities found in artists such as Daft Punk, Billie Eilish (in her more experimental tracks), and classic funk legends like Sly Stone or Parliament-Funkadelic, this song should feature prominent synthesizers, bass-heavy instrumentation, and a tempo range of 100-120 BPM.
+
+**Key Elements:**
+
+* Genre: Retro funky pop with elements of disco and electronic dance music
+* Mood: Upbeat, energetic, and carefree
+* Instrumentation: Prominent use of synthesizers, funk-inspired bass lines, and catchy melodic hooks
+* Tempo: Moderate to fast-paced (100-120 BPM)
+* Key signatures: Emphasize the use of minor keys (e.g., C minor, F minor) with a focus on resolving chord progressions
+---
+
+And these relevant knowledge chunks retrieved from a music production knowledge base about instruments and timbre:
+---
+Source: timbre_instruments/musicbrainz_instruments.pdf, Page: 27
+Content: Electronic instrument analog synthesizer (uses analogue circuits to produce sound) — Using analogue circuits and techniques to produce sound electronically, the first types where created in the 1920's with thermionic valves and other electromechanical machineries. bass pedals bass synthesizer — A bass synthesizer is used to create sounds in the bass range. chamberlin (electromechanical piano) clavioline (electronic keyboard, forerunner to analogue synthesizers) — An early analogue synthesizer, it had a vacuum tube oscillator and high/low pass filtering to produce vibrato. continuum Denis d'or disk drive — Computer drives used for producing music, be it hard drives, floppy, CD or other. drum machine (drum programming) Dubreq Stylophone ebow electronic instruments electronic organ elektronium (electronic keyboard accordion) — In the form of a piano accordion, the keys control the output, pitch and sound, bellows control only volume
+
+---
+
+Source: timbre_instruments/Sound_Synthesis_Theory.pdf, Page: 4
+Content: Introduction
+
+This book covers a sub-field of Music Technology called sound synthesis. Al- though the tone is generally aimed at musicians and people with little prior knowledge of music systems, there may be some mathematical concepts and pro- gramming techniques that are not familiar. The book focuses on synthesis from a digital perspective rather than an analogue one, since it aims to demonstrate the theory of digital synthesis rather than applications to a specific medium or piece of software.
+
+---
+
+Source: timbre_instruments/musicbrainz_instruments.pdf, Page: 13
+Content: electric upright bass electric viola electric violin erhu (Middle range huqin) — The erhu is a bowed Chinese instrument with two strings. esraj — The esraj is a bowed string instrument from Eastern and Central India, mostly used as an accompanying instrument. five-string banjo — The most common and based on the original design, its fifth string is shorter than the others, creating an uneven pitch progression. flamenco guitar (Guitar used in flamenco) — Deriving from the classical guitar, it has many modifications and playing techniques to create a more percussive sound. Originally having wooden tuning pegs like lutes and violins, it has a thinner, lighter build with "golpeadores" or tapping-plates and less sustain than the classical guitar. folk harp fortepiano four-string banjo — Lacking the short drone string of its predecessor, it is usually played with a plectrum and has 22 frets. fretless bass — Variety of bass guitars without frets
+---
+
+Please generate 2-4 distinct and actionable instrumentation and timbre suggestions for this music project.
+Focus ONLY on aspects like instrument choices, sound design for specific instruments (e.g., synths, strings, drums), layering, and textural ideas.
+If the retrieved knowledge chunks are sparse or not directly relevant, rely more on the project goal to generate general but applicable ideas.
+Ensure your suggestions are formatted as Markdown bullet points. Each bullet point should represent a complete, creative idea.
+
+Instrumentation & Timbre Suggestions:
+
+2025-05-20 10:58:14,080 - INFO - httpx - HTTP Request: POST http://localhost:1337/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-20 10:58:14,081 - INFO - rag_agent_nodes - Instruments Advice successfully generated by LLM:
+Here are 2-4 distinct and actionable instrumentation and timbre suggestions for your retro funky pop song:
+
+* **Synthesizer Options**
+	+ Use the Roland Juno-106 or Jupiter-8 to create warm, analog-inspired leads and melodies. These classic synths were popular in 80s disco and funk music.
+	+ Experiment with the Moog Minimoog to add deep, rich basses and textures. The Minimoog's characteristic "wobbly" sound is perfect for creating a funky, retro vibe.
+	+ Consider using software emulations of these classic synths (e.g., Roland Juno-106 VST or Moog Model D) to achieve a similar sound without the need for original hardware.
+* **String Instrument Options**
+	+ Use a combination of electric upright bass and fretless bass to create a dynamic, pulsing rhythm section. The electric upright can provide a bright, punchy sound, while the fretless bass adds warmth and depth.
+	+ Add some Eastern-inspired flair with an erhu or esraj, playing soaring melodic lines that blend seamlessly into the funk-infused rhythms.
+	+ For added textural interest, use a four-string banjo to play percussive, rhythmic patterns on top of the bassline.
+* **Drum Machine and Percussion Options**
+	+ Use a Roland TR-808 or TR-909 drum machine to create classic 80s-style percussion. These machines are known for their distinctive "buzzy" sound and are perfect for creating funky, driving rhythms.
+	+ Experiment with adding some unconventional percussion elements, such as a flamenco guitar or a five-string banjo, to add texture and interest to the rhythm section.
+	+ Consider using a combination of acoustic drums and electronic drum samples to create a dynamic, layered sound that blends the best of both worlds.
+
+Some general textural ideas to consider:
+
+* **Layering**: Experiment with layering different instruments and textures to create a thick, immersive sound. For example, layer a bright synthesizer lead over a warm bassline or use multiple drum machines to create a driving rhythm section.
+* **Reverb and Delay**: Use liberal amounts of reverb and delay to create a sense of space and depth in your mix. This can help to create a sense of distance and atmosphere that's perfect for retro funk music.
+* **Distortion and Overdrive**: Use distortion and overdrive pedals (or software plugins) to add grit and attitude
+2025-05-20 10:58:14,081 - INFO - rag_agent_nodes - --- Finished NODE: Instruments Agent. Output for 'instruments_advice': Here are 2-4 distinct and actionable instrumentation and timbre suggestions for your retro funky pop... ---
+2025-05-20 10:58:14,082 - INFO - __main__ - Output from node 'instruments_agent': {'instruments_advice': 'Here are 2-4 distinct and actionable instrumentation and timbre suggestions for your retro funky pop song:\n\n* **Synthesizer Options**\n\t+ Use the Roland Juno-106 or Jupiter-8 to create warm, analog-inspired leads and melodies. These classic synths were popular in 80s disco and funk music.\n\t+ Experiment with the Moog Minimoog to add deep, rich basses and textures. The Minimoog\'s characteristic "wobbly" sound is perfect for creating a funky, retro vibe.\n\t+ Consider using software emulations of these classic synths (e.g., Roland Juno-106 VST or Moog Model D) to achieve a similar sound without the need for original hardware.\n* **String Instrument Options**\n\t+ Use a combination of electric upright bass and fretless bass to create a dynamic, pulsing rhythm section. The electric upright can provide a bright, punchy sound, while the fretless bass adds warmth and depth.\n\t+ Add some Eastern-inspired flair with an erhu or esraj, playing soaring melodic lines that blend seamlessly into the funk-infused rhythms.\n\t+ For added textural interest, use a four-string banjo to play percussive, rhythmic patterns on top of the bassline.\n* **Drum Machine and Percussion Options**\n\t+ Use a Roland TR-808 or TR-909 drum machine to create classic 80s-style percussion. These machines are known for their distinctive "buzzy" sound and are perfect for creating funky, driving rhythms.\n\t+ Experiment with adding some unconventional percussion elements, such as a flamenco guitar or a five-string banjo, to add texture and interest to the rhythm section.\n\t+ Consider using a combination of acoustic drums and electronic drum samples to create a dynamic, layered sound that blends the best of both worlds.\n\nSome general textural ideas to consider:\n\n* **Layering**: Experiment with layering different instruments and textures to create a thick, immersive sound. For example, layer a bright synthesizer lead over a warm bassline or use multiple drum machines to create a driving rhythm section.\n* **Reverb and Delay**: Use liberal amounts of reverb and delay to create a sense of space and depth in your mix. This can help to create a sense of distance and atmosphere that\'s perfect for retro funk music.\n* **Distortion and Overdrive**: Use distortion and overdrive pedals (or software plugins) to add grit and attitude'}
+2025-05-20 10:58:14,082 - INFO - rag_agent_nodes - --- Evaluating NODE: Lyrics Agent ---
+2025-05-20 10:58:14,082 - INFO - rag_agent_nodes - NODE (Lyrics_agent): Skipping as should_run_lyrics_agent flag is False.
+2025-05-20 10:58:14,082 - INFO - __main__ - Output from node 'lyrics_agent': {'lyrics_advice': ''}
+2025-05-20 10:58:14,082 - INFO - rag_agent_nodes - --- Starting NODE: Production Agent ---
+2025-05-20 10:58:14,082 - INFO - rag_agent_nodes - Project Goal for Production:
+Based on the provided audio analysis and similar tracks, I've synthesized a project goal summary for a retro funky pop song:
+
+**Project Goal:** Create a catchy, upbeat retro-funk inspired track that combines infectious melodies with driving rhythms reminiscent of 1980s disco and funk. Drawing from the similarities found in artists such as Daft Punk, Billie Eilish (in her more experimental tracks), and classic funk legends like Sly Stone or Parliament-Funkadelic, this song should feature prominent synthesizers, bass-heavy instrumentation, and a tempo range of 100-120 BPM.
+
+**Key Elements:**
+
+* Genre: Retro funky pop with elements of disco and electronic dance music
+* Mood: Upbeat, energetic, and carefree
+* Instrumentation: Prominent use of synthesizers, funk-inspired bass lines, and catchy melodic hooks
+* Tempo: Moderate to fast-paced (100-120 BPM)
+* Key signatures: Emphasize the use of minor keys (e.g., C minor, F minor) with a focus on resolving chord progressions
+2025-05-20 10:58:14,082 - INFO - rag_agent_nodes - Formulated Search Query for Production: 'Specific production concepts, techniques, and ideas related to: Based on the provided audio analysis and similar tracks, I've synthesized a project go...'
+2025-05-20 10:58:14,118 - INFO - httpx - HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+2025-05-20 10:58:14,120 - INFO - httpx - HTTP Request: GET http://localhost:6333/collections/pdf_knowledge_base_hybrid3 "HTTP/1.1 200 OK"
+2025-05-20 10:58:14,139 - INFO - httpx - HTTP Request: GET http://localhost:6333/collections/pdf_knowledge_base_hybrid3 "HTTP/1.1 200 OK"
+2025-05-20 10:58:14,291 - INFO - httpx - HTTP Request: POST http://localhost:6333/collections/pdf_knowledge_base_hybrid3/points/query "HTTP/1.1 200 OK"
+2025-05-20 10:58:14,292 - INFO - rag_agent_nodes - Retrieved 3 documents for Production (Topic: production):
+2025-05-20 10:58:14,292 - INFO - rag_agent_nodes -   Doc 1: Source: production/Mixing_and_Mastering.pdf, Page: 7, Content: Now go back to listening to just the kick and the bass. Listen with more of an emphasis on the kick. Mostly you don't need to do any EQ work on the kick but sometimes there will be just the odd harmon...
+2025-05-20 10:58:14,292 - INFO - rag_agent_nodes -   Doc 2: Source: production/Douglas_Self_Audio_Engineering_Explained.pdf, Page: 451, Content: In addition to recording a performance in a track-based environment, most sequencers let you enter note values into sequence one note at a time. This feature (known as step time) lets you give the seq...
+2025-05-20 10:58:14,292 - INFO - rag_agent_nodes -   Doc 3: Source: production/Mixing_and_Mastering.pdf, Page: 2, Content: The second reason is this and again it is to do with ego. After a while, it could be six months, it could be five years: who cares? No one is counting. You will be writing music that is good enough fo...
+2025-05-20 10:58:14,292 - INFO - rag_agent_nodes - Attempting to generate production advice. Full Prompt:
+
+You are a helpful music production and mixing assistant.
+Your goal is to provide actionable and creative suggestions related to overall production, mixing, and effects.
+
+Based on the following overall project goal:
+---
+Based on the provided audio analysis and similar tracks, I've synthesized a project goal summary for a retro funky pop song:
+
+**Project Goal:** Create a catchy, upbeat retro-funk inspired track that combines infectious melodies with driving rhythms reminiscent of 1980s disco and funk. Drawing from the similarities found in artists such as Daft Punk, Billie Eilish (in her more experimental tracks), and classic funk legends like Sly Stone or Parliament-Funkadelic, this song should feature prominent synthesizers, bass-heavy instrumentation, and a tempo range of 100-120 BPM.
+
+**Key Elements:**
+
+* Genre: Retro funky pop with elements of disco and electronic dance music
+* Mood: Upbeat, energetic, and carefree
+* Instrumentation: Prominent use of synthesizers, funk-inspired bass lines, and catchy melodic hooks
+* Tempo: Moderate to fast-paced (100-120 BPM)
+* Key signatures: Emphasize the use of minor keys (e.g., C minor, F minor) with a focus on resolving chord progressions
+---
+
+And these relevant knowledge chunks retrieved from a music production knowledge base about mixing, mastering, and effects:
+---
+Source: production/Mixing_and_Mastering.pdf, Page: 7
+Content: Now go back to listening to just the kick and the bass. Listen with more of an emphasis on the kick. Mostly you don't need to do any EQ work on the kick but sometimes there will be just the odd harmonic that seems to 'ring' out on top of the kick and the bass. If it's too much and clouds things up, reduce it, again with a parametric.
+
+And that is it. Job done. The track should now have a tight and punchy bottom end that will rock on any sound system. There are now just the other 50 sounds to sort out.
+
+Come on super engineers, collaborate! This is a good start.
+
+---
+
+Source: production/Douglas_Self_Audio_Engineering_Explained.pdf, Page: 451
+Content: In addition to recording a performance in a track-based environment, most sequencers let you enter note values into sequence one note at a time. This feature (known as step time) lets you give the sequencer a basic tempo and note length (i.e., quarter note, sixteenth note, etc.) and then manually enter the notes from a keyboard or other controller. This data entry style is often (but not always) used with fast, hi-tech and dance styles, where a real-time performance just isn’t possible or accurate enough for the song.
+
+Whether you’re recording a track in real-time or in step-time, it’s almost always best to select the proper song tempo before recording a sequence. I bring this up because most sequencers are able to output a click track that can be used as an accurate audible guide for keeping in time with the song’s selected tempo. It’s also critical that the tempo be accurate when trying to sync groove loops and rhythms to a sequence via plug-ins or external instruments.
+
+---
+
+Source: production/Mixing_and_Mastering.pdf, Page: 2
+Content: The second reason is this and again it is to do with ego. After a while, it could be six months, it could be five years: who cares? No one is counting. You will be writing music that is good enough for release if you have the talent for it, without a doubt but you may not have handle on the mixdown. In other words you can program great drum tracks, brilliant bass and synth lines and arrange it all perfectly but when you listen to your recordings they don't sound right. They lack volume and punch, the clarity isn't there, the bass doesn't cut through; they sound right but they don't sound right: that professional 'sheen' isn't there.
+
+I'm sure everyone has seen on letters pages in magazines and on web forums a query where someone says something along the lines of:
+---
+
+Please generate 2-4 distinct and actionable production or mixing suggestions for this music project.
+Focus ONLY on aspects like arrangement polish, mixing techniques (EQ, compression, stereo imaging), choice and use of effects (reverb, delay, modulation), or overall sonic character.
+If the retrieved knowledge chunks are sparse or not directly relevant, rely more on the project goal to generate general but applicable ideas.
+Ensure your suggestions are formatted as Markdown bullet points. Each bullet point should represent a complete, creative idea.
+
+Production & Mix Suggestions:
+
+2025-05-20 10:58:41,841 - INFO - httpx - HTTP Request: POST http://localhost:1337/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
+2025-05-20 10:58:41,841 - INFO - openai._base_client - Retrying request to /chat/completions in 0.455734 seconds
+2025-05-20 10:58:42,311 - INFO - httpx - HTTP Request: POST http://localhost:1337/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-05-20 10:58:42,312 - ERROR - rag_agent_nodes - Error during Production agent's own execution (LLM call or retrieval): Error code: 400 - {'message': 'Engine is not loaded yet'}
+Traceback (most recent call last):
+  File "/home/raduc/Documents/Code/Licentzio/MusicBlock/RAG/rag_agent_nodes.py", line 187, in _specialist_agent_node_logic
+    response = llm.invoke(prompt)
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 370, in invoke
+    self.generate_prompt(
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 947, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 766, in generate
+    self._generate_with_cache(
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 1012, in _generate_with_cache
+    result = self._generate(
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langchain_openai/chat_models/base.py", line 959, in _generate
+    response = self.client.create(**payload)
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/openai/_utils/_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/openai/resources/chat/completions/completions.py", line 925, in create
+    return self._post(
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/openai/_base_client.py", line 1239, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/openai/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 10:58:42,315 - INFO - rag_agent_nodes - --- Finished NODE: Production Agent. Output for 'production_advice': Error: Could not generate production advice. Details: Error code: 400 - {'message': 'Engine is not l... ---
+2025-05-20 10:58:42,315 - INFO - __main__ - Output from node 'production_agent': {'production_advice': "Error: Could not generate production advice. Details: Error code: 400 - {'message': 'Engine is not loaded yet'}"}
+2025-05-20 10:58:42,315 - INFO - rag_agent_nodes - --- Starting NODE: Combining Advice ---
+2025-05-20 10:58:42,316 - INFO - rag_agent_nodes - Moodboard Project Goal:
+Based on the provided audio analysis and similar tracks, I've synthesized a project goal summary for a retro funky pop song:
+
+**Project Goal:** Create a catchy, upbeat retro-funk inspired track that combines infectious melodies with driving rhythms reminiscent of 1980s disco and funk. Drawing from the similarities found in artists such as Daft Punk, Billie Eilish (in her more experimental tracks), and classic funk legends like Sly Stone or Parliament-Funkadelic, this song should feature prominent synthesizers, bass-heavy instrumentation, and a tempo range of 100-120 BPM.
+
+**Key Elements:**
+
+* Genre: Retro funky pop with elements of disco and electronic dance music
+* Mood: Upbeat, energetic, and carefree
+* Instrumentation: Prominent use of synthesizers, funk-inspired bass lines, and catchy melodic hooks
+* Tempo: Moderate to fast-paced (100-120 BPM)
+* Key signatures: Emphasize the use of minor keys (e.g., C minor, F minor) with a focus on resolving chord progressions
+2025-05-20 10:58:42,316 - INFO - rag_agent_nodes - Advice for 'Rhythm & Groove':
+Here are 4 distinct and actionable rhythm suggestions for your retro funky pop song:
+
+* **Disco-Inspired Hi-Hat Pattern**: Create a driving hi-hat pattern with an emphasis on the 'and' of beat 2 (the space between beats 1 and 2). For example, HH|x-x-o-x-x-x-x-o|x-x-o-x-x-x-x-o|. This will give your song a strong disco feel and make it more energetic.
+* **Funky Bass Drum Pattern**: Use a syncopated bass drum pattern that emphasizes the 'and' of beat 3 (the space between beats 2 and 3). For example, BD|o-------o---|o-------o-o-----|. This will add a funky feel to your song and make it more interesting for listeners.
+* **Rhythmic Feel with Hi-Hat and Snare**: Experiment with programming the hi-hats and snare drum to create a rhythmic feel that feels like walking or dancing. For example, use an 8th-note pattern on the hi-hats (HH|x-x-x-x-x-x-x-o|) and a shorter 16th-note pattern on the snare drum (Sn|----o-------o---|. This will give your song a more human feel and make it more engaging for listeners.
+* **Tempo-Sensitive Kick Drum Pattern**: Create a kick drum pattern that changes tempo slightly to match the energy of the music. For example, use a 4/4 time signature for the intro, but switch to 5/4 during the chorus or bridge. This will create a sense of tension and release in your song and make it more dynamic.
+2025-05-20 10:58:42,316 - INFO - rag_agent_nodes - Advice for 'Music Theory & Harmony':
+**Retro Funky Pop Music Theory Suggestions**
+=============================================
+
+### 1. **Use of Minor Keys and Modal Interchange**
+
+* Emphasize the use of minor keys, such as C minor or F minor, to create an upbeat yet melancholic feel.
+* Explore modal interchange by incorporating chords and scales from parallel modes, like the C Lydian mode (C D E F G A B C) or the C Mixolydian mode (C D E F G A B C). This will add depth and interest to your chord progressions.
+
+### 2. **Blues-Based Schemas with a Twist**
+
+* Use Plagal Motion (a common pattern in blues-based music) as a starting point, but introduce unexpected twists by adding chromaticism or altering the expected cadence.
+* Experiment with "borrowed" chords from parallel keys to create tension and release.
+
+### 3. **Non-Diatonic Scales for Melodic Interest**
+
+* Draw inspiration from non-Western scales and modes, such as Indian ragas or Middle Eastern maqams, which often feature complex melodic patterns and ornaments.
+* Incorporate these scales into your melodies using techniques like "mode swapping" (quickly moving between different modes) or "melodic chromaticism."
+
+### 4. **Harmonic Rhythm with a Funky Twist**
+
+* Experiment with unconventional harmonic rhythms by emphasizing off-beat or syncopated chord changes.
+* Use techniques like "chordal hesitation" (pausing on a chord before resolving to the next one) or "harmonic syncopation" (placing accents on non-chord tones).
+
+### 5. **Verse-Chorus Form with Modal Variations**
+
+* Use Plagal Motion as a starting point for your Verse-Chorus Form, but introduce variations by incorporating different modes or scales into each section.
+* Experiment with "mode-switching" within the verse-chorus structure to create a sense of tension and release.
+
+### 6. **Modal Interchange in Chord Progressions**
+
+* Use modal interchange to add interest to your chord progressions by incorporating chords from parallel modes.
+* Experiment with combining chords from different modes to create unique harmonic sounds.
+
+These suggestions are designed to enhance the retro funky pop sound by incorporating elements of blues, jazz, and non-Western music traditions. Feel free to experiment and modify these ideas to fit your creative vision!
+2025-05-20 10:58:42,316 - INFO - rag_agent_nodes - Advice for 'Timbre & Instrumentation':
+Here are 2-4 distinct and actionable instrumentation and timbre suggestions for your retro funky pop song:
+
+* **Synthesizer Options**
+	+ Use the Roland Juno-106 or Jupiter-8 to create warm, analog-inspired leads and melodies. These classic synths were popular in 80s disco and funk music.
+	+ Experiment with the Moog Minimoog to add deep, rich basses and textures. The Minimoog's characteristic "wobbly" sound is perfect for creating a funky, retro vibe.
+	+ Consider using software emulations of these classic synths (e.g., Roland Juno-106 VST or Moog Model D) to achieve a similar sound without the need for original hardware.
+* **String Instrument Options**
+	+ Use a combination of electric upright bass and fretless bass to create a dynamic, pulsing rhythm section. The electric upright can provide a bright, punchy sound, while the fretless bass adds warmth and depth.
+	+ Add some Eastern-inspired flair with an erhu or esraj, playing soaring melodic lines that blend seamlessly into the funk-infused rhythms.
+	+ For added textural interest, use a four-string banjo to play percussive, rhythmic patterns on top of the bassline.
+* **Drum Machine and Percussion Options**
+	+ Use a Roland TR-808 or TR-909 drum machine to create classic 80s-style percussion. These machines are known for their distinctive "buzzy" sound and are perfect for creating funky, driving rhythms.
+	+ Experiment with adding some unconventional percussion elements, such as a flamenco guitar or a five-string banjo, to add texture and interest to the rhythm section.
+	+ Consider using a combination of acoustic drums and electronic drum samples to create a dynamic, layered sound that blends the best of both worlds.
+
+Some general textural ideas to consider:
+
+* **Layering**: Experiment with layering different instruments and textures to create a thick, immersive sound. For example, layer a bright synthesizer lead over a warm bassline or use multiple drum machines to create a driving rhythm section.
+* **Reverb and Delay**: Use liberal amounts of reverb and delay to create a sense of space and depth in your mix. This can help to create a sense of distance and atmosphere that's perfect for retro funk music.
+* **Distortion and Overdrive**: Use distortion and overdrive pedals (or software plugins) to add grit and attitude
+2025-05-20 10:58:42,316 - INFO - rag_agent_nodes - 'Lyrics & Vocals' was intentionally skipped.
+2025-05-20 10:58:42,316 - INFO - rag_agent_nodes - Advice for 'Production & Mix':
+Error: Could not generate production advice. Details: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 10:58:42,316 - INFO - rag_agent_nodes - Final moodboard assembled. Length: 7186 chars.
+2025-05-20 10:58:42,316 - INFO - rag_agent_nodes - --- Finished NODE: Combining Advice ---
+2025-05-20 10:58:42,316 - INFO - __main__ - Output from node 'advice_combiner': {'final_moodboard': '# Music Inspiration Moodboard\n\n## Project Goal\nBased on the provided audio analysis and similar tracks, I\'ve synthesized a project goal summary for a retro funky pop song:\n\n**Project Goal:** Create a catchy, upbeat retro-funk inspired track that combines infectious melodies with driving rhythms reminiscent of 1980s disco and funk. Drawing from the similarities found in artists such as Daft Punk, Billie Eilish (in her more experimental tracks), and classic funk legends like Sly Stone or Parliament-Funkadelic, this song should feature prominent synthesizers, bass-heavy instrumentation, and a tempo range of 100-120 BPM.\n\n**Key Elements:**\n\n* Genre: Retro funky pop with elements of disco and electronic dance music\n* Mood: Upbeat, energetic, and carefree\n* Instrumentation: Prominent use of synthesizers, funk-inspired bass lines, and catchy melodic hooks\n* Tempo: Moderate to fast-paced (100-120 BPM)\n* Key signatures: Emphasize the use of minor keys (e.g., C minor, F minor) with a focus on resolving chord progressions\n\n\n## Rhythm & Groove\nHere are 4 distinct and actionable rhythm suggestions for your retro funky pop song:\n\n* **Disco-Inspired Hi-Hat Pattern**: Create a driving hi-hat pattern with an emphasis on the \'and\' of beat 2 (the space between beats 1 and 2). For example, HH|x-x-o-x-x-x-x-o|x-x-o-x-x-x-x-o|. This will give your song a strong disco feel and make it more energetic.\n* **Funky Bass Drum Pattern**: Use a syncopated bass drum pattern that emphasizes the \'and\' of beat 3 (the space between beats 2 and 3). For example, BD|o-------o---|o-------o-o-----|. This will add a funky feel to your song and make it more interesting for listeners.\n* **Rhythmic Feel with Hi-Hat and Snare**: Experiment with programming the hi-hats and snare drum to create a rhythmic feel that feels like walking or dancing. For example, use an 8th-note pattern on the hi-hats (HH|x-x-x-x-x-x-x-o|) and a shorter 16th-note pattern on the snare drum (Sn|----o-------o---|. This will give your song a more human feel and make it more engaging for listeners.\n* **Tempo-Sensitive Kick Drum Pattern**: Create a kick drum pattern that changes tempo slightly to match the energy of the music. For example, use a 4/4 time signature for the intro, but switch to 5/4 during the chorus or bridge. This will create a sense of tension and release in your song and make it more dynamic.\n\n## Music Theory & Harmony\n**Retro Funky Pop Music Theory Suggestions**\n=============================================\n\n### 1. **Use of Minor Keys and Modal Interchange**\n\n* Emphasize the use of minor keys, such as C minor or F minor, to create an upbeat yet melancholic feel.\n* Explore modal interchange by incorporating chords and scales from parallel modes, like the C Lydian mode (C D E F G A B C) or the C Mixolydian mode (C D E F G A B C). This will add depth and interest to your chord progressions.\n\n### 2. **Blues-Based Schemas with a Twist**\n\n* Use Plagal Motion (a common pattern in blues-based music) as a starting point, but introduce unexpected twists by adding chromaticism or altering the expected cadence.\n* Experiment with "borrowed" chords from parallel keys to create tension and release.\n\n### 3. **Non-Diatonic Scales for Melodic Interest**\n\n* Draw inspiration from non-Western scales and modes, such as Indian ragas or Middle Eastern maqams, which often feature complex melodic patterns and ornaments.\n* Incorporate these scales into your melodies using techniques like "mode swapping" (quickly moving between different modes) or "melodic chromaticism."\n\n### 4. **Harmonic Rhythm with a Funky Twist**\n\n* Experiment with unconventional harmonic rhythms by emphasizing off-beat or syncopated chord changes.\n* Use techniques like "chordal hesitation" (pausing on a chord before resolving to the next one) or "harmonic syncopation" (placing accents on non-chord tones).\n\n### 5. **Verse-Chorus Form with Modal Variations**\n\n* Use Plagal Motion as a starting point for your Verse-Chorus Form, but introduce variations by incorporating different modes or scales into each section.\n* Experiment with "mode-switching" within the verse-chorus structure to create a sense of tension and release.\n\n### 6. **Modal Interchange in Chord Progressions**\n\n* Use modal interchange to add interest to your chord progressions by incorporating chords from parallel modes.\n* Experiment with combining chords from different modes to create unique harmonic sounds.\n\nThese suggestions are designed to enhance the retro funky pop sound by incorporating elements of blues, jazz, and non-Western music traditions. Feel free to experiment and modify these ideas to fit your creative vision!\n\n## Timbre & Instrumentation\nHere are 2-4 distinct and actionable instrumentation and timbre suggestions for your retro funky pop song:\n\n* **Synthesizer Options**\n\t+ Use the Roland Juno-106 or Jupiter-8 to create warm, analog-inspired leads and melodies. These classic synths were popular in 80s disco and funk music.\n\t+ Experiment with the Moog Minimoog to add deep, rich basses and textures. The Minimoog\'s characteristic "wobbly" sound is perfect for creating a funky, retro vibe.\n\t+ Consider using software emulations of these classic synths (e.g., Roland Juno-106 VST or Moog Model D) to achieve a similar sound without the need for original hardware.\n* **String Instrument Options**\n\t+ Use a combination of electric upright bass and fretless bass to create a dynamic, pulsing rhythm section. The electric upright can provide a bright, punchy sound, while the fretless bass adds warmth and depth.\n\t+ Add some Eastern-inspired flair with an erhu or esraj, playing soaring melodic lines that blend seamlessly into the funk-infused rhythms.\n\t+ For added textural interest, use a four-string banjo to play percussive, rhythmic patterns on top of the bassline.\n* **Drum Machine and Percussion Options**\n\t+ Use a Roland TR-808 or TR-909 drum machine to create classic 80s-style percussion. These machines are known for their distinctive "buzzy" sound and are perfect for creating funky, driving rhythms.\n\t+ Experiment with adding some unconventional percussion elements, such as a flamenco guitar or a five-string banjo, to add texture and interest to the rhythm section.\n\t+ Consider using a combination of acoustic drums and electronic drum samples to create a dynamic, layered sound that blends the best of both worlds.\n\nSome general textural ideas to consider:\n\n* **Layering**: Experiment with layering different instruments and textures to create a thick, immersive sound. For example, layer a bright synthesizer lead over a warm bassline or use multiple drum machines to create a driving rhythm section.\n* **Reverb and Delay**: Use liberal amounts of reverb and delay to create a sense of space and depth in your mix. This can help to create a sense of distance and atmosphere that\'s perfect for retro funk music.\n* **Distortion and Overdrive**: Use distortion and overdrive pedals (or software plugins) to add grit and attitude\n\n## Lyrics & Vocals\n(This section was intentionally skipped)\n\n## Production & Mix\nError: Could not generate production advice. Details: Error code: 400 - {\'message\': \'Engine is not loaded yet\'}'}
+2025-05-20 10:58:42,316 - INFO - rag_agent_nodes - --- Starting NODE: Processing Initial Input & Synthesizing Goal ---
+2025-05-20 10:58:42,317 - INFO - rag_agent_nodes - User Text Query: 'retro funky pop song '
+2025-05-20 10:58:42,317 - INFO - rag_agent_nodes - Similar Tracks Summary Input:
+Audio provided; similarity analysis resulted in this list of similar tracks based on audio extracted features. Here is the list:
+
+| #  | Title                | Artist                          | Key       | BPM | Genres                      | Other tags                          |
+| -- | -------------------- | ------------------------------- | --------- | --- | --------------------------- | ----------------------------------- |
+| 1  | Serge’s Kiss         | Daybehavior                     | C minor   | 109 | alternative rock, dream pop | re-recording, pop, alternative rock |
+| 2  | Imagine              | John Lennon                     | C major   | 75  | rock, pop                   | piano, classic, 1971                |
+| 3  | Billie Jean          | Michael Jackson                 | F ♯ minor | 117 | pop, R&B                    | dance, 1980s, synth                 |
+| 4  | Smells Like Teen…    | Nirvana                         | F minor   | 117 | grunge, alternative rock    | 1990s, guitar riff, breakthrough    |
+| 5  | Rolling in the Deep  | Adele                           | C minor   | 105 | pop, soul                   | powerful vocals, 2010s              |
+| 6  | Take Five            | The Dave Brubeck Quartet        | E ♭ minor | 174 | jazz, cool jazz             | saxophone, classic, instrumental    |
+| 7  | Get Lucky            | Daft Punk ft. Pharrell Williams | F minor   | 116 | disco, electronic, funk     | dancefloor, 2010s                   |
+| 8  | Nothing Else Matters | Metallica                       | E minor   | 142 | heavy metal, rock           | ballad, acoustic intro              |
+| 9  | Bad Guy              | Billie Eilish                   | G minor   | 135 | pop, electro-pop            | whisper vocals, modern sound        |
+| 10 | Clocks               | Coldplay                        | E ♭ major | 131 | alternative rock, pop rock  | piano riff, 2000s                   |
+
+2025-05-20 10:58:42,317 - INFO - rag_agent_nodes - Attempting to generate project goal summary. Full Prompt:
+
+You are a helpful assistant that synthesizes information for a music creation project.
+Based on the user's request and an analysis of similar music (if provided), create a concise project goal summary.
+This summary will guide other specialized AI agents in providing creative advice.
+Focus on extracting key musical elements: genre, target artists/style, mood, instrumentation, tempo, and key signatures mentioned or implied.
+Keep the summary to 1-2 concise paragraphs.
+
+User Request:
+---
+retro funky pop song 
+---
+
+Provided Similarity Analysis (characteristics of the user's audio or comparable tracks):
+---
+Audio provided; similarity analysis resulted in this list of similar tracks based on audio extracted features. Here is the list:
+
+| #  | Title                | Artist                          | Key       | BPM | Genres                      | Other tags                          |
+| -- | -------------------- | ------------------------------- | --------- | --- | --------------------------- | ----------------------------------- |
+| 1  | Serge’s Kiss         | Daybehavior                     | C minor   | 109 | alternative rock, dream pop | re-recording, pop, alternative rock |
+| 2  | Imagine              | John Lennon                     | C major   | 75  | rock, pop                   | piano, classic, 1971                |
+| 3  | Billie Jean          | Michael Jackson                 | F ♯ minor | 117 | pop, R&B                    | dance, 1980s, synth                 |
+| 4  | Smells Like Teen…    | Nirvana                         | F minor   | 117 | grunge, alternative rock    | 1990s, guitar riff, breakthrough    |
+| 5  | Rolling in the Deep  | Adele                           | C minor   | 105 | pop, soul                   | powerful vocals, 2010s              |
+| 6  | Take Five            | The Dave Brubeck Quartet        | E ♭ minor | 174 | jazz, cool jazz             | saxophone, classic, instrumental    |
+| 7  | Get Lucky            | Daft Punk ft. Pharrell Williams | F minor   | 116 | disco, electronic, funk     | dancefloor, 2010s                   |
+| 8  | Nothing Else Matters | Metallica                       | E minor   | 142 | heavy metal, rock           | ballad, acoustic intro              |
+| 9  | Bad Guy              | Billie Eilish                   | G minor   | 135 | pop, electro-pop            | whisper vocals, modern sound        |
+| 10 | Clocks               | Coldplay                        | E ♭ major | 131 | alternative rock, pop rock  | piano riff, 2000s                   |
+
+---
+
+Concise Project Goal Summary:
+
+2025-05-20 10:58:42,326 - INFO - httpx - HTTP Request: POST http://localhost:1337/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-05-20 10:58:42,327 - ERROR - rag_agent_nodes - CRITICAL ERROR during project goal synthesis LLM call: Error code: 400 - {'message': 'Engine is not loaded yet'}
+Traceback (most recent call last):
+  File "/home/raduc/Documents/Code/Licentzio/MusicBlock/RAG/rag_agent_nodes.py", line 103, in process_initial_input_node
+    response = llm.invoke(prompt)
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 370, in invoke
+    self.generate_prompt(
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 947, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 766, in generate
+    self._generate_with_cache(
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 1012, in _generate_with_cache
+    result = self._generate(
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/langchain_openai/chat_models/base.py", line 959, in _generate
+    response = self.client.create(**payload)
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/openai/_utils/_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/openai/resources/chat/completions/completions.py", line 925, in create
+    return self._post(
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/openai/_base_client.py", line 1239, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/raduc/miniconda3/envs/ess/lib/python3.10/site-packages/openai/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 10:58:42,327 - INFO - rag_agent_nodes - Should run lyrics agent: False
+2025-05-20 10:58:42,327 - INFO - rag_agent_nodes - --- Finished NODE: Processing Initial Input. Output: {'project_goal_summary': "Error: Could not synthesize project goal. Details: Error code: 400 - {'message': 'Engine is not load...", 'should_run_lyrics_agent': False, 'error_message': "Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}"} ---
+2025-05-20 10:58:42,327 - INFO - rag_agent_nodes - --- Starting NODE: Rhythm Agent ---
+2025-05-20 10:58:42,328 - WARNING - rag_agent_nodes - NODE (Rhythm_agent): Skipping Rhythm advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 10:58:42,328 - INFO - rag_agent_nodes - --- Starting NODE: Music Theory Agent ---
+2025-05-20 10:58:42,328 - WARNING - rag_agent_nodes - NODE (Music Theory_agent): Skipping Music Theory advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 10:58:42,328 - INFO - rag_agent_nodes - --- Starting NODE: Instruments Agent ---
+2025-05-20 10:58:42,328 - WARNING - rag_agent_nodes - NODE (Instruments_agent): Skipping Instruments advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 10:58:42,328 - INFO - rag_agent_nodes - --- Evaluating NODE: Lyrics Agent ---
+2025-05-20 10:58:42,328 - INFO - rag_agent_nodes - NODE (Lyrics_agent): Skipping as should_run_lyrics_agent flag is False.
+2025-05-20 10:58:42,328 - INFO - rag_agent_nodes - --- Starting NODE: Production Agent ---
+2025-05-20 10:58:42,328 - WARNING - rag_agent_nodes - NODE (Production_agent): Skipping Production advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 10:58:42,328 - INFO - rag_agent_nodes - --- Starting NODE: Combining Advice ---
+2025-05-20 10:58:42,328 - ERROR - rag_agent_nodes - Moodboard combination reflects critical setup error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 10:58:42,329 - INFO - rag_agent_nodes - Advice for 'Rhythm & Groove':
+Skipping Rhythm advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 10:58:42,329 - INFO - rag_agent_nodes - Advice for 'Music Theory & Harmony':
+Skipping Music Theory advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 10:58:42,329 - INFO - rag_agent_nodes - Advice for 'Timbre & Instrumentation':
+Skipping Instruments advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 10:58:42,329 - INFO - rag_agent_nodes - 'Lyrics & Vocals' was intentionally skipped.
+2025-05-20 10:58:42,329 - INFO - rag_agent_nodes - Advice for 'Production & Mix':
+Skipping Production advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 10:58:42,329 - INFO - rag_agent_nodes - Final moodboard assembled. Length: 1070 chars.
+2025-05-20 10:58:42,329 - INFO - rag_agent_nodes - --- Finished NODE: Combining Advice ---
+2025-05-20 10:58:42,329 - INFO - __main__ - Graph invocation complete. Final State: {'user_text_query': 'retro funky pop song ', 'similar_tracks_summary': 'Audio provided; similarity analysis resulted in this list of similar tracks based on audio extracted features. Here is the list:\n\n| #  | Title                | Artist                          | Key       | BPM | Genres                      | Other tags                          |\n| -- | -------------------- | ------------------------------- | --------- | --- | --------------------------- | ----------------------------------- |\n| 1  | Serge’s Kiss         | Daybehavior                     | C minor   | 109 | alternative rock, dream pop | re-recording, pop, alternative rock |\n| 2  | Imagine              | John Lennon                     | C major   | 75  | rock, pop                   | piano, classic, 1971                |\n| 3  | Billie Jean          | Michael Jackson                 | F ♯ minor | 117 | pop, R&B                    | dance, 1980s, synth                 |\n| 4  | Smells Like Teen…    | Nirvana                         | F minor   | 117 | grunge, alternative rock    | 1990s, guitar riff, breakthrough    |\n| 5  | Rolling in the Deep  | Adele                           | C minor   | 105 | pop, soul                   | powerful vocals, 2010s              |\n| 6  | Take Five            | The Dave Brubeck Quartet        | E ♭ minor | 174 | jazz, cool jazz             | saxophone, classic, instrumental    |\n| 7  | Get Lucky            | Daft Punk ft. Pharrell Williams | F minor   | 116 | disco, electronic, funk     | dancefloor, 2010s                   |\n| 8  | Nothing Else Matters | Metallica                       | E minor   | 142 | heavy metal, rock           | ballad, acoustic intro              |\n| 9  | Bad Guy              | Billie Eilish                   | G minor   | 135 | pop, electro-pop            | whisper vocals, modern sound        |\n| 10 | Clocks               | Coldplay                        | E ♭ major | 131 | alternative rock, pop rock  | piano riff, 2000s                   |\n', 'project_goal_summary': "Error: Could not synthesize project goal. Details: Error code: 400 - {'message': 'Engine is not loaded yet'}", 'rhythm_advice': "Skipping Rhythm advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}", 'music_theory_advice': "Skipping Music Theory advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}", 'instruments_advice': "Skipping Instruments advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}", 'lyrics_advice': '', 'production_advice': "Skipping Production advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}", 'final_moodboard': "# Music Inspiration Moodboard - Generation Failed\n\n## Critical Error During Setup\nFailed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}\n\nAttempted Project Goal:\nError: Could not synthesize project goal. Details: Error code: 400 - {'message': 'Engine is not loaded yet'}\n\n\n## Rhythm & Groove\nSkipping Rhythm advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}\n\n## Music Theory & Harmony\nSkipping Music Theory advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}\n\n## Timbre & Instrumentation\nSkipping Instruments advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}\n\n## Lyrics & Vocals\n(This section was intentionally skipped)\n\n## Production & Mix\nSkipping Production advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}", 'should_run_lyrics_agent': False, 'error_message': "Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}"}
+2025-05-20 10:58:42,329 - INFO - __main__ - --- Moodboard Generation Attempt Finished ---
+2025-05-20 10:58:42,329 - INFO - __main__ - Successfully generated final moodboard.
+2025-05-20 10:58:42,329 - INFO - __main__ - Final Moodboard Content:
+# Music Inspiration Moodboard - Generation Failed
+
+## Critical Error During Setup
+Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+
+Attempted Project Goal:
+Error: Could not synthesize project goal. Details: Error code: 400 - {'message': 'Engine is not loaded yet'}
+
+
+## Rhythm & Groove
+Skipping Rhythm advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+
+## Music Theory & Harmony
+Skipping Music Theory advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+
+## Timbre & Instrumentation
+Skipping Instruments advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+
+## Lyrics & Vocals
+(This section was intentionally skipped)
+
+## Production & Mix
+Skipping Production advice due to earlier critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 10:58:42,329 - ERROR - __main__ - Moodboard generation failed with critical error: Failed to synthesize project goal: Error code: 400 - {'message': 'Engine is not loaded yet'}
+2025-05-20 10:58:42,329 - INFO - __main__ - Log file for this run: /home/raduc/Documents/Code/Licentzio/MusicBlock/rag_logs/moodboard_run_20250520_105445.log
