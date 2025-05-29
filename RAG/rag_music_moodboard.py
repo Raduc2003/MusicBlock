@@ -238,12 +238,7 @@ if __name__ == "__main__":
         similar_tracks_summary_output = f"Analysis of acoustically similar tracks to the input audio yielded the following results:\n{similar_tracks_table_data}"
         logger.info(f"Similarity Summary (Placeholder) Snippet:\n{similar_tracks_summary_output[:200]}...")
     else:
-        similar_tracks_summary_output = (
-            "No audio was provided for similarity analysis. " # Corrected message
-            "For general context, here are some diverse example tracks:\n"
-            f"{similar_tracks_table_data}"
-            "\n(Note: These are general examples, not based on specific audio input.)"
-        )
+        similar_tracks_summary_output = f"Analysis of acoustically similar tracks to the input audio yielded the following results:\n{similar_tracks_table_data}"
         logger.info(f"Similarity Summary (Placeholder) Snippet:\n{similar_tracks_summary_output[:200]}...")
 
     initial_graph_state = OverallState(

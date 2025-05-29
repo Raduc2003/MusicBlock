@@ -98,8 +98,8 @@ class StackExchangeResult(TypedDict):
 def search_stackexchange_qa(
     query: str,
     site: str = 'music.stackexchange.com',
-    num_questions: int = 2, 
-    num_answers: int = 1
+    num_questions: int = 5, 
+    num_answers: int = 2
 ) -> List[StackExchangeResult]: # Return type is a list of our TypedDict
     """
     Fetches top questions and their top answers from a StackExchange site.

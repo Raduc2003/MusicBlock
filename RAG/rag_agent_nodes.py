@@ -24,7 +24,11 @@ from rag_prompts import (
     INSTRUMENTS_ADVICE_PROMPT_TEMPLATE,
     LYRICS_ADVICE_PROMPT_TEMPLATE,
     PRODUCTION_ADVICE_PROMPT_TEMPLATE,
-    RHYTHM_ADVICE_COT_PROMPT_TEMPLATE
+    RHYTHM_ADVICE_COT_PROMPT_TEMPLATE,
+    MUSIC_THEORY_ADVICE_COT_PROMPT_TEMPLATE, 
+    INSTRUMENTS_ADVICE_COT_PROMPT_TEMPLATE,  
+    LYRICS_ADVICE_COT_PROMPT_TEMPLATE,       
+    PRODUCTION_ADVICE_COT_PROMPT_TEMPLATE 
 )
 
 node_logger = logging.getLogger(__name__)
@@ -49,7 +53,7 @@ try:
         base_url=LLM_API_BASE,
         api_key=api_key,
         temperature=0.7,
-        request_timeout=80,  
+        request_timeout=200,  
     )
     node_logger.info(f"LLM initialized: Model={LLM_MODEL_NAME}, Base={LLM_API_BASE}")
 except Exception as e:
@@ -82,6 +86,26 @@ def process_initial_input_node(state: OverallState) -> Dict[str, Any]:
         node_logger.debug("=== END PROMPT ===")
 
         cb = OpenAICallbackHandler()
+
+        #project goal summary extraction
+        def extract_goal_summary(response: str, marker: str) -> str:
+            """
+            Extracts the final project goal from a CoT-structured response.
+            Looks for the marker and returns everything after it.
+            Falls back to the full response if marker not found.
+            """
+            if marker in response:
+                parts = response.split(marker, 1)
+                if len(parts) > 1:
+                    final_part = parts[1].strip()
+                    # Remove any markdown formatting artifacts
+                    final_part = final_part.replace("**", "").replace("*", "")
+                    return final_part
+            
+            # Fallback: return the original response
+            return response
+        # Define the marker for the final project goal
+
         try:
             node_logger.info("Generating project goal summary...")
             resp = llm.invoke(prompt, config={"callbacks": [cb]})
@@ -94,7 +118,18 @@ def process_initial_input_node(state: OverallState) -> Dict[str, Any]:
             node_logger.info("=== END PROJECT GOAL RESPONSE ===")
             
             # Extract final response from CoT structure if present
-         
+            final_marker = "Concise Project Goal Summary:"
+            goal_summary = extract_goal_summary(raw_goal_response, final_marker)
+            if not goal_summary:
+                node_logger.warning(
+                    "No valid project goal summary found in LLM response. Using raw response."
+                )
+                goal_summary = raw_goal_response
+            elif len(goal_summary) < 10:
+                node_logger.warning(
+                    "Project goal summary is too short. Using raw response."
+                )
+                goal_summary = raw_goal_response
             node_logger.info("=== END EXTRACTED GOAL ===")
             node_logger.info(
                 f"Goal summary generated. Tokens P={prompt_tokens}, C={completion_tokens}"
@@ -230,7 +265,9 @@ def _specialist_agent_node_logic(
         node_logger.debug("=== END PROMPT ===")
         
         resp1 = llm.invoke(gen_q, config={"callbacks": [cb1]})
-        raw_q = resp1.content.strip()
+        #replace possible " " with empty string
+        replacements = str.maketrans({'"': '', '“': '', '”': '', '‘': '', '’': ''})
+        raw_q = resp1.content.translate(replacements).strip()
         se_q_p, se_q_c = cb1.prompt_tokens, cb1.completion_tokens
         
         node_logger.info("=== STACKEXCHANGE QUERY GENERATION - FULL LLM RESPONSE ===")
@@ -296,8 +333,8 @@ def _specialist_agent_node_logic(
     if is_cot_prompt:
          
         marker = f"Final {agent_name} Suggestions:"
-        if agent_name == "Rhythm": 
-            marker = "Final Rhythm Advice:"
+        # if agent_name == "Rhythm": 
+        #     marker = "Final Rhythm Advice:"
 
         if marker in advice:
             advice_content = advice.split(marker, 1)[1].strip()
@@ -359,9 +396,10 @@ def music_theory_agent_node(state: OverallState) -> Dict[str, Any]:
         "Music Theory",
         state,
         "theory_general",
-        MUSIC_THEORY_ADVICE_PROMPT_TEMPLATE,
+        MUSIC_THEORY_ADVICE_COT_PROMPT_TEMPLATE,
         "retrieved_music_theory_chunks",
         "music.stackexchange.com",
+        is_cot_prompt=True,
     )
 
 
@@ -370,9 +408,10 @@ def instruments_agent_node(state: OverallState) -> Dict[str, Any]:
         "Instruments",
         state,
         "timbre_instruments",
-        INSTRUMENTS_ADVICE_PROMPT_TEMPLATE,
+        INSTRUMENTS_ADVICE_COT_PROMPT_TEMPLATE,
         "retrieved_instruments_chunks",
         "audio.stackexchange.com",
+        is_cot_prompt=True,
     )
 
 
@@ -393,9 +432,10 @@ def lyrics_agent_node(state: OverallState) -> Dict[str, Any]:
         "Lyrics",
         state,
         "Lyrics",
-        LYRICS_ADVICE_PROMPT_TEMPLATE,
+        LYRICS_ADVICE_COT_PROMPT_TEMPLATE,
         "retrieved_lyrics_chunks",
         "writers.stackexchange.com",
+        is_cot_prompt=True,
     )
 
 
@@ -404,9 +444,10 @@ def production_agent_node(state: OverallState) -> Dict[str, Any]:
         "Production",
         state,
         "production",
-        PRODUCTION_ADVICE_PROMPT_TEMPLATE,
+        PRODUCTION_ADVICE_COT_PROMPT_TEMPLATE,
         "retrieved_production_chunks",
         "audio.stackexchange.com",
+        is_cot_prompt=True,
     )
 
 
