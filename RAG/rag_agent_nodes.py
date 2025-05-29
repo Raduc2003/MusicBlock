@@ -24,6 +24,7 @@ from rag_prompts import (
     INSTRUMENTS_ADVICE_PROMPT_TEMPLATE,
     LYRICS_ADVICE_PROMPT_TEMPLATE,
     PRODUCTION_ADVICE_PROMPT_TEMPLATE,
+    RHYTHM_ADVICE_COT_PROMPT_TEMPLATE
 )
 
 node_logger = logging.getLogger(__name__)
@@ -48,7 +49,7 @@ try:
         base_url=LLM_API_BASE,
         api_key=api_key,
         temperature=0.7,
-        request_timeout=30,  
+        request_timeout=80,  
     )
     node_logger.info(f"LLM initialized: Model={LLM_MODEL_NAME}, Base={LLM_API_BASE}")
 except Exception as e:
@@ -84,13 +85,17 @@ def process_initial_input_node(state: OverallState) -> Dict[str, Any]:
         try:
             node_logger.info("Generating project goal summary...")
             resp = llm.invoke(prompt, config={"callbacks": [cb]})
-            goal_summary = resp.content.strip()
+            raw_goal_response = resp.content.strip()
             prompt_tokens = cb.prompt_tokens
             completion_tokens = cb.completion_tokens
             
-            node_logger.debug("=== GOAL SYNTHESIS RESPONSE ===")
-            node_logger.debug(goal_summary)
-            node_logger.debug("=== END RESPONSE ===")
+            node_logger.info("=== PROJECT GOAL SYNTHESIS - FULL LLM RESPONSE ===")
+            node_logger.info(raw_goal_response)
+            node_logger.info("=== END PROJECT GOAL RESPONSE ===")
+            
+            # Extract final response from CoT structure if present
+         
+            node_logger.info("=== END EXTRACTED GOAL ===")
             node_logger.info(
                 f"Goal summary generated. Tokens P={prompt_tokens}, C={completion_tokens}"
             )
@@ -118,6 +123,7 @@ def _specialist_agent_node_logic(
     prompt_template: str,
     retrieved_chunks_key_in_prompt: str,
     stackexchange_site: Optional[str] = None,
+    is_cot_prompt: bool = False
 ) -> Dict[str, Any]:
     k = agent_name.lower().replace(" ", "_").replace("&", "and")
     advice_k = f"{k}_advice"
@@ -227,9 +233,9 @@ def _specialist_agent_node_logic(
         raw_q = resp1.content.strip()
         se_q_p, se_q_c = cb1.prompt_tokens, cb1.completion_tokens
         
-        node_logger.debug("=== SE QUERY GENERATION RESPONSE ===")
-        node_logger.debug(f"Generated query: '{raw_q}'")
-        node_logger.debug("=== END RESPONSE ===")
+        node_logger.info("=== STACKEXCHANGE QUERY GENERATION - FULL LLM RESPONSE ===")
+        node_logger.info(raw_q)
+        node_logger.info("=== END STACKEXCHANGE QUERY RESPONSE ===")
         node_logger.info(f"SE query tokens P={se_q_p}, C={se_q_c}")
 
         if raw_q:
@@ -280,10 +286,43 @@ def _specialist_agent_node_logic(
     advice = resp2.content.strip()
     final_p, final_c = cb2.prompt_tokens, cb2.completion_tokens
     
-    node_logger.debug("=== FINAL ADVICE RESPONSE ===")
-    node_logger.debug(advice)
-    node_logger.debug("=== END RESPONSE ===")
+    node_logger.info(f"=== {agent_name.upper()} FINAL ADVICE - FULL LLM RESPONSE ===")
+    node_logger.info(advice)
+    node_logger.info(f"=== END {agent_name.upper()} FINAL ADVICE RESPONSE ===")
     node_logger.info(f"{agent_name} advice tokens P={final_p}, C={final_c}")
+
+
+
+    if is_cot_prompt:
+         
+        marker = f"Final {agent_name} Suggestions:"
+        if agent_name == "Rhythm": 
+            marker = "Final Rhythm Advice:"
+
+        if marker in advice:
+            advice_content = advice.split(marker, 1)[1].strip()
+            node_logger.info(f"✅ Successfully parsed CoT output for {agent_name} using marker: '{marker}'")
+            node_logger.info(f"=== PARSED {agent_name.upper()} ADVICE (EXTRACTED FROM COT) ===")
+            node_logger.info(advice_content)
+            node_logger.info(f"=== END PARSED {agent_name.upper()} ADVICE ===")
+        else:
+            node_logger.warning(f"⚠️ Could not find '{marker}' in CoT output for {agent_name}. Using raw output.")
+            advice_content = advice 
+    else:
+        advice_content = advice  
+    advice = advice_content
+
+    node_logger.info(f"🎯 {agent_name} Advice Generation Complete!")
+    node_logger.info(f"=== FINAL {agent_name.upper()} ADVICE SUMMARY ===")
+    node_logger.info(f"Length: {len(advice)} characters")
+    node_logger.info(f"Preview: {advice[:200]}...")
+    node_logger.info(f"=== END {agent_name.upper()} ADVICE SUMMARY ===")
+
+    node_logger.debug(f"Final Parsed Advice Snippet for {agent_name}:\n{advice[:200]}...")
+
+
+
+
 
     # Debug: Log the exact keys being returned
     result_keys = {
@@ -308,9 +347,10 @@ def rhythm_agent_node(state: OverallState) -> Dict[str, Any]:
         "Rhythm",
         state,
         "rythm",
-        RHYTHM_ADVICE_PROMPT_TEMPLATE,
+        RHYTHM_ADVICE_COT_PROMPT_TEMPLATE,
         "retrieved_rhythm_chunks",
         "audio.stackexchange.com",
+        is_cot_prompt=True,  
     )
 
 
@@ -423,7 +463,6 @@ def combine_advice_node(state: OverallState) -> Dict[str, Any]:
         parts.append("## Sources")
         parts += [f"{i+1}. {s}" for i, s in enumerate(uniq)]
 
-    # Token calculation with detailed logging
     node_logger.info("Calculating total token usage...")
     agent_key_prefixes = ["rhythm", "music_theory", "instruments", "lyrics", "production"]
     total_p = state.get("node_prompt_tokens", 0)
@@ -431,7 +470,6 @@ def combine_advice_node(state: OverallState) -> Dict[str, Any]:
     
     node_logger.debug(f"Initial tokens from node: P={total_p}, C={total_c}")
     
-    # Debug: Print all state keys that contain "token"
     token_keys = [k for k in state.keys() if "token" in k]
     node_logger.debug(f"All token-related keys in state: {token_keys}")
     

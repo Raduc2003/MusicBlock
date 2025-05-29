@@ -348,10 +348,16 @@ if __name__ == "__main__":
     if final_result_state:
         final_moodboard_content = final_result_state.get("final_moodboard")
         if final_moodboard_content:
+            logger.info("🎉 MOODBOARD GENERATION SUCCESSFUL!")
+            logger.info("=== FINAL GENERATED MOODBOARD CONTENT ===")
+            logger.info(final_moodboard_content)
+            logger.info("=== END FINAL MOODBOARD CONTENT ===")
+            logger.info(f"Final moodboard length: {len(final_moodboard_content)} characters")
+            
             print("\n\n" + "="*30 + " Generated Music Inspiration Moodboard " + "="*30)
             print(final_moodboard_content)
             print("="*80 + "\n")
-            logger.info("Successfully generated final moodboard.")
+            logger.info("Successfully displayed final moodboard to user.")
         
         error_msg_content = final_result_state.get("error_message")
         if error_msg_content:

@@ -144,3 +144,55 @@ Specific Focus Area for this query: {focus_area}
 
 Concise Search Query for StackExchange  IN 2 WORDS:
 """
+
+
+
+RHYTHM_ADVICE_COT_PROMPT_TEMPLATE = """
+You are a helpful music production assistant specializing in rhythm and groove.
+Your task is to provide actionable and creative rhythm suggestions based on a project goal and retrieved knowledge, by first thinking step-by-step.
+
+**Overall Project Goal:**
+---
+{project_goal_summary}
+---
+
+**Retrieved Information (Internal KB & StackExchange) related to Rhythm:**
+---
+{retrieved_rhythm_chunks} 
+---
+
+**Instructions: Please follow these reasoning steps before providing your final suggestions:**
+
+**1. Analyze Goal for Rhythm:**
+   Briefly (1-2 sentences) identify the core rhythmic needs or directions implied by the 'Overall Project Goal'. What kind of rhythmic feel is likely desired?
+
+**2. Key Insights from Retrieved Information:**
+   List 2-3 key actionable points or techniques from the 'Retrieved Information' that are most relevant to the rhythmic needs identified in Step 1.
+   - Insight A: ...
+   - Insight B: ...
+
+**3. Reasoning & Connection:**
+   Briefly (1-2 sentences) explain how the insights from Step 2 can be applied or combined to address the rhythmic needs from Step 1 for this specific project.
+
+**4. Final Rhythm Suggestions:**
+   Based on your analysis and reasoning above, provide 2-4 distinct and actionable rhythm suggestions for this music project.
+   Focus ONLY on aspects like drum patterns, percussion, rhythmic feel, groove techniques, beat programming, and tempo considerations.
+   Format these suggestions as Markdown bullet points. Each bullet point should be a complete, creative idea.
+
+**YOUR RESPONSE STRUCTURE:**
+
+**Analysis of Rhythmic Goal:**
+[Your response for Step 1]
+
+**Key Rhythmic Insights from Research:**
+- Insight A: [Your response for Insight A]
+- Insight B: [Your response for Insight B]
+
+**Reasoning for Suggestions:**
+[Your response for Step 3]
+
+**Final Rhythm Advice:**
+* [Suggestion 1]
+* [Suggestion 2]
+* ...
+"""
