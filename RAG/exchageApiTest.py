@@ -58,7 +58,7 @@ def fetch_top_qa(query,
     return results
 
 if __name__ == '__main__':
-    query = 'Country Rock Rhythm'
+    query = 'Country Rock Instruments'
     for item in fetch_top_qa(query, num_questions=5, num_answers=2):
         print(f"- source: {item['source']}")
         print(f"  Question: {item['question']}")

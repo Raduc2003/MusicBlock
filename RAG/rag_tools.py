@@ -123,7 +123,7 @@ def search_stackexchange_qa(
 
     try:
         print(f"TOOL (search_stackexchange_qa): Making request to StackExchange API...")
-        q_resp = requests.get('https://api.stackexchange.com/2.3/search/advanced', params=q_params, timeout=10)
+        q_resp = requests.get('https://api.stackexchange.com/2.3/search/advanced', params=q_params, timeout=15)
         print(f"TOOL (search_stackexchange_qa): Response status: {q_resp.status_code}")
         q_resp.raise_for_status()
         questions = q_resp.json().get('items', [])

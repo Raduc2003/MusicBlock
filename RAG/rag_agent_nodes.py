@@ -277,7 +277,7 @@ def _specialist_agent_node_logic(
 
         if raw_q:
             node_logger.info(f"Step 2b: Searching StackExchange with query: '{raw_q}'...")
-            results = search_stackexchange_qa(raw_q, stackexchange_site)
+            results = search_stackexchange_qa(raw_q, stackexchange_site, 2, 1)
             if results:
                 stack_sources = [
                     f"SE({item['source_url']}): {item['question_title']}"
@@ -331,10 +331,14 @@ def _specialist_agent_node_logic(
 
 
     if is_cot_prompt:
-         
-        marker = f"Final {agent_name} Suggestions:"
-        # if agent_name == "Rhythm": 
-        #     marker = "Final Rhythm Advice:"
+        marker = f"Final {agent_name} Advice:"
+        if marker == "Final Lyrics Advice:":
+            marker = "Final Lyrics & Vocal Advice:"
+        if marker == "Final Production Advice:":
+            marker = "Final Production & Mix Advice:"
+        if marker == "Final Instruments Advice:":
+            marker = "Final Instruments & Timbre Advice:"
+        node_logger.info(f"Parsing CoT output for {agent_name} using marker: '{marker}'")
 
         if marker in advice:
             advice_content = advice.split(marker, 1)[1].strip()
@@ -386,7 +390,7 @@ def rhythm_agent_node(state: OverallState) -> Dict[str, Any]:
         "rythm",
         RHYTHM_ADVICE_COT_PROMPT_TEMPLATE,
         "retrieved_rhythm_chunks",
-        "audio.stackexchange.com",
+        "music.stackexchange.com",
         is_cot_prompt=True,  
     )
 
@@ -410,7 +414,7 @@ def instruments_agent_node(state: OverallState) -> Dict[str, Any]:
         "timbre_instruments",
         INSTRUMENTS_ADVICE_COT_PROMPT_TEMPLATE,
         "retrieved_instruments_chunks",
-        "audio.stackexchange.com",
+        "music.stackexchange.com",
         is_cot_prompt=True,
     )
 
@@ -422,7 +426,7 @@ def lyrics_agent_node(state: OverallState) -> Dict[str, Any]:
         return {
             "lyrics_advice": "",
             "lyrics_kb_sources": [],
-            "lyrics_stack_sources": [],
+            "lyrics_stack_sources": [],~
             "lyrics_se_query_prompt_tokens": 0,
             "lyrics_se_query_completion_tokens": 0,
             "lyrics_final_advice_prompt_tokens": 0,
@@ -446,7 +450,7 @@ def production_agent_node(state: OverallState) -> Dict[str, Any]:
         "production",
         PRODUCTION_ADVICE_COT_PROMPT_TEMPLATE,
         "retrieved_production_chunks",
-        "audio.stackexchange.com",
+        "music.stackexchange.com",
         is_cot_prompt=True,
     )
 

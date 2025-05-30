@@ -172,10 +172,10 @@ Your task is to provide actionable and creative rhythm suggestions based on a pr
    - Insight B: ...
 
 **3. Reasoning & Connection:**
-   Briefly (1-2 sentences) explain how these insights can be combined or used to inspire rhythmic ideas for the project goal. Consider any connections or creative combinations.
+   Briefly (1-2 sentences) explain how these insights and your own knowledge can be combined or used to inspire rhythmic ideas for the project goal. Consider any connections or creative combinations.
 
 **4. Final Rhythm Suggestions:**
-   Based on your analysis and reasoning above, provide 2-4 distinct and actionable rhythm suggestions.
+   Based on your analysis and reasoning above, provide 3-5 distinct and actionable and applicable rhythm suggestions on my project.
    Focus ONLY on aspects like drum patterns, percussion, rhythmic feel, groove techniques, beat programming, and tempo considerations.
    Format these suggestions as Markdown bullet points. Each bullet point should be a complete, creative idea.
 
@@ -191,7 +191,7 @@ Your task is to provide actionable and creative rhythm suggestions based on a pr
 **Reasoning for Suggestions:**
 [Your response for Step 3]
 
-**Final Rhythm Suggestions:**
+**Final Rhythm Advice:**
 * [Suggestion 1]
 * [Suggestion 2]
 * ...
@@ -222,10 +222,10 @@ Your task is to provide actionable and creative suggestions related to harmony, 
    - Insight B: ...
 
 **3. Reasoning & Connection:**
-   Briefly (1-2 sentences) explain how these insights can be combined or used to inspire theoretical ideas (harmony, melody, structure) for the project goal.
+   Briefly (1-2 sentences) explain how these insights and your own knowledge can be combined or used to inspire theoretical ideas (harmony, melody, structure) for the project goal.
 
 **4. Final Music Theory Suggestions:**
-   Based on your analysis and reasoning above, provide 2-4 distinct and actionable music theory suggestions.
+   Based on your analysis and reasoning above, provide 3-5 distinct and actionable and applicable suggestions on my project.
    Focus ONLY on aspects like chord progressions, scales, modes, melodic ideas, harmonic rhythm, and song structure.
    Format these suggestions as Markdown bullet points. Each bullet point should be a complete, creative idea.
 
@@ -241,7 +241,7 @@ Your task is to provide actionable and creative suggestions related to harmony, 
 **Reasoning for Suggestions:**
 [Your response for Step 3]
 
-**Final Music Theory Suggestions:**
+**Final Music Theory Advice:**
 * [Suggestion 1]
 * [Suggestion 2]
 * ...
@@ -272,10 +272,10 @@ Your task is to provide actionable and creative suggestions, by first thinking s
    - Insight B: ...
 
 **3. Reasoning & Connection:**
-   Briefly (1-2 sentences) explain how these insights can be combined or used to inspire instrumentation or sound design choices for the project goal.
+   Briefly (1-2 sentences) explain how these insights and your own knowledge can be combined or used to inspire instrumentation or sound design choices for the project goal.
 
 **4. Final Instruments & Timbre Suggestions:**
-   Based on your analysis and reasoning above, provide 2-4 distinct and actionable suggestions.
+   Based on your analysis and reasoning above, provide 3-5 distinct and actionable and applicable suggestions on my project.
    Focus ONLY on aspects like instrument choices, sound design for specific instruments (e.g., synths, strings, drums), layering instruments, and creating unique timbral textures.
    Format these suggestions as Markdown bullet points. Each bullet point should be a complete, creative idea.
 
@@ -291,7 +291,7 @@ Your task is to provide actionable and creative suggestions, by first thinking s
 **Reasoning for Suggestions:**
 [Your response for Step 3]
 
-**Final Instruments & Timbre Suggestions:**
+**Final Instruments & Timbre Advice:**
 * [Suggestion 1]
 * [Suggestion 2]
 * ...
@@ -322,10 +322,10 @@ Your task is to provide actionable and creative suggestions, by first thinking s
    - Insight B: ...
 
 **3. Reasoning & Connection:**
-   Briefly (1-2 sentences) explain how these insights can be combined or used to inspire lyrical or vocal ideas for the project goal.
+   Briefly (1-2 sentences) explain how these insights and your own knowledge can be combined or used to inspire lyrical or vocal ideas for the project goal.
 
 **4. Final Lyrics & Vocal Suggestions:**
-   Based on your analysis and reasoning above, provide 2-4 distinct and actionable suggestions.
+   Based on your analysis and reasoning above, provide 3-5 distinct and actionable and applicable suggestions on my project.
    Focus ONLY on lyrical themes, storytelling approaches, rhyme schemes, song structure from a lyrical perspective, vocal delivery ideas, or melodic contours for vocals.
    Format these suggestions as Markdown bullet points. Each bullet point should be a complete, creative idea.
 
@@ -341,7 +341,7 @@ Your task is to provide actionable and creative suggestions, by first thinking s
 **Reasoning for Suggestions:**
 [Your response for Step 3]
 
-**Final Lyrics & Vocal Suggestions:**
+**Final Lyrics & Vocal Advice:**
 * [Suggestion 1]
 * [Suggestion 2]
 * ...
@@ -372,10 +372,10 @@ Your task is to provide actionable and creative suggestions related to overall p
    - Insight B: ...
 
 **3. Reasoning & Connection:**
-   Briefly (1-2 sentences) explain how these insights can be combined or used to inspire production or mixing decisions for the project goal.
+   Briefly (1-2 sentences) explain how these insights and your own knowledge can be combined or used to inspire production or mixing decisions for the project goal.
 
 **4. Final Production & Mix Suggestions:**
-   Based on your analysis and reasoning above, provide 2-4 distinct and actionable suggestions.
+   Based on your analysis and reasoning above, provide 3-5 distinct and actionable and applicable suggestions on my project.
    Focus ONLY on aspects like arrangement polish, mixing techniques (EQ, compression, stereo imaging), choice and use of effects (reverb, delay, modulation), mastering considerations, or achieving a specific overall sonic character.
    Format these suggestions as Markdown bullet points. Each bullet point should be a complete, creative idea.
 
@@ -391,7 +391,7 @@ Your task is to provide actionable and creative suggestions related to overall p
 **Reasoning for Suggestions:**
 [Your response for Step 3]
 
-**Final Production & Mix Suggestions:**
+**Final Production & Mix Advice:**
 * [Suggestion 1]
 * [Suggestion 2]
 * ...
