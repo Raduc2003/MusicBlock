@@ -86,7 +86,7 @@ def get_knowledge_from_kb(
         return []
 
 # --- StackExchange Q&A Retrieval Tool ---
-# STACKEXCHANGE_API_KEY = os.getenv("STACKEXCHANGE_API_KEY")
+STACKEXCHANGE_API_KEY = os.getenv("STACKEXCHANGE_API_KEY")
 
 class StackExchangeResult(TypedDict):
     source_url: str
@@ -119,7 +119,7 @@ def search_stackexchange_qa(
     q_params: Dict[str, Any] = {
         'site': site, 'q': clean_query, 'pagesize': num_questions, 'sort': 'relevance', 'order': 'desc',
     }
-    # if STACKEXCHANGE_API_KEY: q_params['key'] = STACKEXCHANGE_API_KEY
+    if STACKEXCHANGE_API_KEY: q_params['key'] = STACKEXCHANGE_API_KEY
 
     try:
         print(f"TOOL (search_stackexchange_qa): Making request to StackExchange API...")
@@ -144,7 +144,7 @@ def search_stackexchange_qa(
         a_params: Dict[str, Any] = {
             'site': site, 'sort': 'votes', 'order': 'desc', 'pagesize': num_answers, 'filter': 'withbody'
         }
-        # if STACKEXCHANGE_API_KEY: a_params['key'] = STACKEXCHANGE_API_KEY
+        if STACKEXCHANGE_API_KEY: a_params['key'] = STACKEXCHANGE_API_KEY
         
         fetched_answers_bodies = []
         try:
@@ -166,8 +166,8 @@ def search_stackexchange_qa(
 
             if answer_ids_to_fetch_str:
                 specific_a_params = {'site': site, 'filter': 'withbody', 'order': 'desc', 'sort': 'activity'}
-                # if STACKEXCHANGE_API_KEY: specific_a_params['key'] = STACKEXCHANGE_API_KEY
-                final_ans_resp = requests.get(f'https://api.stackexchange.com/2.3/answers/{answer_ids_to_fetch_str}', params=specific_a_params, timeout=10)
+                if STACKEXCHANGE_API_KEY: specific_a_params['key'] = STACKEXCHANGE_API_KEY
+                final_ans_resp = requests.get(f'https://api.stackexchange.com/2.3/answers/{answer_ids_to_fetch_str}', params=specific_a_params, timeout=15)
                 final_ans_resp.raise_for_status()
                 final_answers_data = final_ans_resp.json().get('items', [])
                 fetched_answers_bodies = [html.unescape(ans['body']) for ans in final_answers_data]

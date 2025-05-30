@@ -1,5 +1,5 @@
 import requests
-
+import os 
 def fetch_top_qa(query,
                  site='music.stackexchange',
                  num_questions=5,
@@ -58,8 +58,9 @@ def fetch_top_qa(query,
     return results
 
 if __name__ == '__main__':
-    query = 'Country Rock Instruments'
-    for item in fetch_top_qa(query, num_questions=5, num_answers=2):
+    query = 'Country Guitars'
+    key = os.getenv("STACKEXCHANGE_API_KEY", None)
+    for item in fetch_top_qa(query, num_questions=2, num_answers=1, key=key):
         print(f"- source: {item['source']}")
         print(f"  Question: {item['question']}")
         print(f"  Top Answers:")
