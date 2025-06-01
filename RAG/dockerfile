@@ -1,0 +1,32 @@
+# RAG/Dockerfile
+
+# Use an official Python runtime as a parent image
+FROM python:3.10-slim
+
+# Set the working directory in the container
+WORKDIR /app
+
+# Set environment variables to ensure Python outputs are sent straight to terminal
+ENV PYTHONUNBUFFERED 1
+ENV PYTHONPATH=/app
+
+# Copy the requirements file into the container at /app
+COPY requirements_rag.txt .
+
+# Install any needed system dependencies (if any, e.g., for specific Python packages)
+# RUN apt-get update && apt-get install -y --no-install-recommends some-package && rm -rf /var/lib/apt/lists/*
+
+# Install Python dependencies
+RUN pip install --no-cache-dir -r requirements_rag.txt
+
+# Copy the entire RAG application code into the container at /app/RAG
+COPY . .
+# If rag_config.py or other files are outside RAG/ but needed, adjust copy.
+
+# Make port 8000 available to the world outside this container (where Uvicorn will run)
+EXPOSE 8000
+
+# Define the command to run your application
+# This will run the FastAPI server using Uvicorn.
+# It tells uvicorn to look for an object named 'app' in the 'api_server' module within the 'RAG' package.
+CMD ["uvicorn", "api_server:app", "--host", "0.0.0.0", "--port", "8000"]

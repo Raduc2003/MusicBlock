@@ -1,5 +1,3 @@
-
-
 services:
   # Qdrant Database Service
   qdrant:
@@ -25,6 +23,7 @@ services:
       - ./demoMusic:/data/input_audio:ro
       - ./extraction_module/pr.yaml:/app/pr.yaml:ro # Adjust /app/ if WORKDIR is different
       - ./extraction_module/prepare_extract.py:/app/prepare_extract.py
+      - ./extraction_module/feature_extraction_api.py:/app/feature_extraction_api.py
     working_dir: /app 
     networks:
       - musicblock_net
@@ -41,33 +40,86 @@ services:
     working_dir: /app
     networks:
       - musicblock_net
-  # Similarity Client Service
-  client:
-    build:
-      context: . 
-      dockerfile: dockerfile 
-    container_name: client_service
-    volumes:
-      - shared_data:/data/input_json
+  # Similarity Client Service(deprecated)
+  # client:
+  #   build:
+  #     context: ./client_module
+  #     dockerfile: Dockerfile 
+  #   container_name: client_service
+  #   volumes:
+  #     - shared_data:/data/input_json
       
-      # will need to be copied
-      - ./global_min_max.json:/app/global_min_max.json:ro
-      - ./Dataset/global_mean_std_94FEATURES.json:/app/global_mean_std_94FEATURES.json:ro # Adjust /app/ if WORKDIR is different
-      - ./client_module/94_client_similarity_z.py:/app/94_client_similarity_z.py
+  #     # will need to be copied
+  #     - ./global_min_max.json:/app/global_min_max.json:ro
+  #     - ./Dataset/global_mean_std_94FEATURES.json:/app/global_mean_std_94FEATURES.json:ro # Adjust /app/ if WORKDIR is different
+  #     - ./client_module/94_client_similarity_z.py:/app/94_client_similarity_z.py
       
-      - ./client_module/test.py:/app/test.py
-      # temoporary for testing
-      - ./test:/app/test
-      - ./demoMusic:/data/test
+  #     - ./client_module/test.py:/app/test.py
+  #     # temoporary for testing
+  #     - ./test:/app/test
+  #     - ./demoMusic:/data/test
 
-    working_dir: /app 
+  #   working_dir: /app 
+  #   networks:
+  #     - musicblock_net
+  #   environment:
+  #     - QDRANT_HOST=qdrant # Use the service name 'qdrant'
+  #   depends_on:
+  #     - qdrant # Ensure Qdrant starts first (doesn't guarantee readiness)
+  #   # No ports needed, it's run manually via docker-compose run
+  # Similarity API Service
+  similarity_api:
+    build:
+      context: ./client_module
+      dockerfile: Dockerfile # Create this file
+    container_name: similarity_query_service
+    ports:
+      - "8002:8002"
+    volumes:
+      - ./Dataset/global_mean_std_94FEATURES.json:/app/global_mean_std_94FEATURES.json:ro
+    environment:
+      - QDRANT_HOST=qdrant  # Use service name instead of localhost
+      - QDRANT_PORT=6333
+    depends_on:
+      - qdrant
     networks:
       - musicblock_net
+  rag_service:
+    build:
+      context: ./RAG
+      dockerfile: dockerfile
+    container_name: rag_service
+    ports:
+      - "8000:8000"
+    volumes:
+      - shared_data:/data/output_json
+      - ./RAG/rag_config.yaml:/app/rag_config.yaml:ro
     environment:
-      - QDRANT_HOST=qdrant # Use the service name 'qdrant'
+      - QDRANT_HOST=qdrant  # Use service name instead of localhost
+      - QDRANT_PORT=6333
+      - LOG_LEVEL=DEBUG
     depends_on:
-      - qdrant # Ensure Qdrant starts first (doesn't guarantee readiness)
-    # No ports needed, it's run manually via docker-compose run
+      - qdrant
+    networks:
+      - musicblock_net
+
+  orchestrator_service:
+      build:
+        context: ./orchestrator # Path to where main_orchestrator_api.py and its Dockerfile are
+        dockerfile: Dockerfile
+      container_name: orchestrator_api
+      ports:
+        - "8080:8080" # Expose this port to your host machine to interact with it
+      environment:
+        - PYTHONUNBUFFERED=1
+        - LOG_LEVEL=DEBUG
+        - RAG_API_URL=http://rag_service:8000/generate_moodboard 
+        - FEATURE_EXTRACTOR_API_URL=http://extractor:8001/extract_features
+        - SIMILARITY_API_URL=http://similarity_api:8002/similar_tracks
+      depends_on:
+        - rag_service
+      networks:
+        - musicblock_net
 
 # Define Named Volumes
 volumes:
@@ -77,3 +129,4 @@ volumes:
 # Define Network
 networks:
   musicblock_net:
+    driver: bridge
