@@ -12,4 +12,4 @@ test_id,configuration,db_size,db_name,no_test
 20250416_233145, z-score 94 feats(mai multe care captureaza si dinamica temporala) no_lnorm_beta2,2.5m pts,zscore_94,10*3 variante 
 20250416_233145, z-score 94 feats lnorm_beta2,2.5m pts,zscore_94,10*3 variante 
 20250416_233145, z-score 94 feats no_lnorm_beta6,2.5m pts,zscore_94,10*3 variante 
-20250416_233145, z-score 94 feats lnorm_beta7,2.5m pts,zscore_94,10*3 variante 
+20250416_233145,z-score 94 feats lnorm_beta6,2.5m pts,zscore_94,10*3 variante 

@@ -3,6 +3,9 @@ FROM python:3.8-slim
 ENV LANG=C.UTF-8
 ENV TERM=xterm
 
+ENV PYTHONUNBUFFERED 1
+ENV PYTHONPATH=/app
+
 # Install system dependencies (using Debian package names)
 RUN apt-get update && apt-get install -y --no-install-recommends \
     curl \
@@ -27,4 +30,18 @@ RUN curl -L https://essentia.upf.edu/extractors/essentia-extractors-v2.1_beta2-l
 
 # Set working directory for your application
 WORKDIR /app
-CMD ["bash"]
+
+# Copy your pr.yaml (extractor config) into the image
+COPY pr.yaml /app/pr.yaml 
+
+# Copy requirements for this service
+COPY requirements_feature_extractor.txt .
+RUN pip install --no-cache-dir -r requirements_feature_extractor.txt
+
+# Copy the API script and any other necessary Python modules from similarity_pipeline
+COPY feature_extractor_api.py . 
+
+EXPOSE 8001
+
+
+CMD ["uvicorn", "feature_extractor_api:app", "--host", "0.0.0.0", "--port", "8001"]

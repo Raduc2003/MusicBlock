@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+pydantic
+essentia # Ensure correct essentia package name
+numpy
+python-multipart

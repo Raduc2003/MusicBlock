@@ -1,0 +1,18 @@
+# RAG/requirements_rag.txt
+
+fastapi
+uvicorn[standard]
+pydantic
+requests
+httpx
+langchain
+langchain-openai # Or your specific LLM client library
+langchain-community # For OpenAICallbackHandler (if used)
+langchain-huggingface # For embeddings
+langchain-qdrant
+qdrant-client
+fastembed # If used by langchain-qdrant for sparse or if you use it directly
+beautifulsoup4
+python-dotenv   # For rag_config.py
+graphviz
+langgraph
