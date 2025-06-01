@@ -63,6 +63,8 @@ async def shutdown_event():
 
 # --- Pydantic Models for this API's main endpoint ---
 class SimilarTrackDetail(BaseModel):
+    qid: Optional[int] = None  # Unique identifier for the track, if available
+    sim_score: Optional[float] = None  # Similarity score, if available
     title: Optional[str] = "Unknown Title"
     artist: Optional[str] = "Unknown Artist"
     mbid: Optional[str] = None
@@ -262,7 +264,6 @@ async def enrich_song(song: Dict[str, Any]) -> Dict[str, Any]:
 
     return enriched
 
-
 def generate_rag_summary_from_songs(enriched_songs: List[Dict[str, Any]]) -> str:
     logger.info(f"Generating RAG summary from {len(enriched_songs)} enriched songs...")
     if not enriched_songs:
@@ -348,6 +349,8 @@ async def main_moodboard_endpoint(
                             bpm_value = float(bpm_value)
                         
                         processed_similar_tracks_for_client.append(SimilarTrackDetail(
+                            qid=song.get('id'),
+                            sim_score=song.get('score'),
                             title=song.get('full_title', song.get('title')),
                             artist=song.get('artist_name', song.get('artist')),
                             mbid=song.get('mbid'),
