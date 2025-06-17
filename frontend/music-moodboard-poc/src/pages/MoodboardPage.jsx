@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react'; // Added useCallback
+import React, { useState, useCallback , useMemo} from 'react'; // Added useCallback
 import { useLocation, Link } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import { FaPlayCircle, FaTimesCircle } from 'react-icons/fa'; // Added FaTimesCircle for consistency
@@ -70,23 +70,29 @@ const MoodboardPage = () => {
     rag_sources = [] 
   } = moodboardData;
     // console.log("Mooasdasdasdasd:", moodboardData.processed_similar_tracks); // Uncomment for debugging
+  
+  // Memoize sortedTracks so its reference only changes if processed_similar_tracks changes
+  const sortedTracks = useMemo(() => {
+    console.log("MOODBOARDPAGE: Re-calculating sortedTracks"); // For debugging
+    return Array.isArray(processed_similar_tracks)
+      ? [...processed_similar_tracks].sort((a, b) => (b.sim_score || 0) - (a.sim_score || 0))
+      : [];
+  }, [processed_similar_tracks]); // Dependency: only re-sort if the raw tracks change
 
-  // Ensure processed_similar_tracks is an array before sorting
-  let sortedTracks = Array.isArray(processed_similar_tracks)
-    ? [...processed_similar_tracks].sort((a, b) => (b.sim_score || 0) - (a.sim_score || 0))
-    : [];
-
- 
-
-  const categorizedSources = { kb: [], se: [], other: [] };
-  if (Array.isArray(rag_sources)) {
-    rag_sources.forEach(sourceStr => {
-      const parsed = parseRagSource(sourceStr);
-      if (parsed.type === 'KB') categorizedSources.kb.push(parsed);
-      else if (parsed.type === 'SE') categorizedSources.se.push(parsed);
-      else categorizedSources.other.push(parsed);
-    });
-  }
+  // Memoize categorizedSources as well if rag_sources could cause re-renders
+  const categorizedSources = useMemo(() => {
+    console.log("MOODBOARDPAGE: Re-calculating categorizedSources");
+    const sources = { kb: [], se: [], other: [] };
+    if (Array.isArray(rag_sources)) {
+      rag_sources.forEach(sourceStr => {
+        const parsed = parseRagSource(sourceStr);
+        if (parsed.type === 'KB') sources.kb.push(parsed);
+        else if (parsed.type === 'SE') sources.se.push(parsed);
+        else sources.other.push(parsed);
+      });
+    }
+    return sources;
+  }, [rag_sources]);
 
   if (sortedTracks.length > 0) {
     console.log("Track QIDs for keys:", sortedTracks.map(t => t.qid));

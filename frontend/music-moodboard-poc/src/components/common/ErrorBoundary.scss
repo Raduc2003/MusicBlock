@@ -1,5 +1,5 @@
 // src/components/common/ErrorBoundary.scss
-@import '../../styles/variables';
+@use '../../styles/variables' as *;
 
 .error-boundary-fallback {
   display: flex;
@@ -42,7 +42,7 @@
       color: $color-text-primary;
 
       &:hover {
-        color: lighten($color-text-primary, 10%);
+        color: color-mix(in srgb, $color-text-primary 90%, white 10%);
       }
     }
   }
