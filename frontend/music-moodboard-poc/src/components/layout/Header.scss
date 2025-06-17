@@ -1,0 +1,27 @@
+// src/components/layout/Header.scss
+@import '../../styles/variables';
+
+.site-header {
+  background-color: rgba($color-card-bg-dark, 0.5);
+  backdrop-filter: blur(5px);
+  padding: 1rem 0; // Adjusted padding
+  border-bottom: 1px solid rgba($color-input-border, 0.3);
+  position: sticky; // Make header sticky
+  top: 0;
+  z-index: 10; // Ensure it's above other content
+
+  .header-content {
+    width: 100%;
+    max-width: 1280px; // Match .main-content max-width
+    margin: 0 auto;
+    padding: 0 1rem; // Match .main-content horizontal padding
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    font-size: 1.75rem;
+    font-weight: 800;
+  }
+}

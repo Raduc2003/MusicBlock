@@ -16,3 +16,4 @@ beautifulsoup4
 python-dotenv   # For rag_config.py
 graphviz
 langgraph
+sentence-transformers

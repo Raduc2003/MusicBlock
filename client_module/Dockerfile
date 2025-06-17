@@ -15,7 +15,7 @@ COPY requirements_similarity_query.txt .
 RUN pip install --no-cache-dir -r requirements_similarity_query.txt
 
 COPY similarity_query_api.py .
-# If you have other shared utility modules from similarity_pipeline, copy them too.
+COPY test.py .
 
 EXPOSE 8002
 

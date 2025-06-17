@@ -1,15 +1,8 @@
 test_id,configuration,db_size,db_name,no_test
-20250401_000350,55 dimensiuni:mfcc(13);bpm;onset_rate;danceability;key_strength; chords_changes_rate; hpcp_entropy(36) normalizate min max ( pe baza de date),1.4m pts,music_similarity2.10*3 variante
-20250405_183437,la fel doar ca audio ul nu a fost normalizat la -23 LUFS,1.4m pts,music_similarity2.10*3 variante
-20250405_184943,audio ne-normalizat si extragere facuta cu versiuea beta2,1.4m pts,music_similarity2.10*3 variante
-20250405_193503,beta2 si audio normalizat,1.4m pts,music_similarity2.10*3 variante
-20250413_095725,beta2 si audio normalizat am zscore nu minmax,1.4m pts,music_similarity_zscore.10*3 variante
-20250413_150616, zscore weighted query (2/3 tonal 1/3 rythm 1/3 lowlevel),1.4m pts,music_similarity_zscore2.10*3 variante
-20250413_155633,  zscore weighted query (0.2 tonal 0.2 rythm 0.6 lowlevel),1.4m pts,music_similarity_zscore2.10*3 variante
-20250413_155836, zscore weighted query (0.6 tonal 0.2 rythm 0.2 lowlevel),1.4m pts,music_similarity_zscore2.10*3 variante
-20250413_160119, zscore weighted query (0.35 tonal 0.3 rythm 0.3 lowlevel),1.4m pts,music_similarity_zscore2.10*3 variante
-20250415_18xxxx, minmax weighted (diverse variante dezastru),1.4m pts,music_similarity2.10*3 variante
-20250416_233145, z-score 94 feats(mai multe care captureaza si dinamica temporala) no_lnorm_beta2,2.5m pts,zscore_94,10*3 variante 
-20250416_233145, z-score 94 feats lnorm_beta2,2.5m pts,zscore_94,10*3 variante 
-20250416_233145, z-score 94 feats no_lnorm_beta6,2.5m pts,zscore_94,10*3 variante 
-20250416_233145,z-score 94 feats lnorm_beta6,2.5m pts,zscore_94,10*3 variante 
+20250401_000350,vector preliminar + normalizare min-max,1.4m pts,music_similarity2,10*3 variante
+20250405_184943,vector preliminar + normalizare min-max + versiune anterioara extractor,1.4m pts,music_similarity2,10*3 variante
+20250413_095725,vector preliminar + normalizare zscore + versiune anterioara extractor,1.4m pts,music_similarity_zscore,10*3 variante
+20250413_160119,vector preliminar + normalizare zscore + versiune anterioara extractor + pondere (1/3),1.4m pts,music_similarity_zscore2,10*3 variante
+20250415_183702,vector preliminar + normalizare min-max + versiune anterioara extractor + pondere (1/3),1.4m pts,music_similarity2,10*3 variante
+20250614_105717,vector imbunatatit + normalizare zscore + versiune anterioara extractor ,1.4m pts,zscore_94_1.4,10*3 variante 
+20250416_233145,vector imbunatatit + normalizare zscore + versiune anterioara extractor + set de date marit,2.5m pts,zscore_94,10*3 variante 

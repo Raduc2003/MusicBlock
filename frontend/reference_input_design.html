@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Input & Analysis</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        /* Custom global styles - Reusing from previous design */
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #020617; /* Fallback - Very Dark Blue */
+            background-image: linear-gradient(to bottom right, #020617, #1E293B, #312E81); /* very-dark-blue -> dark-slate-blue -> vibrant indigo/purple */
+            color: #E0E0E0; 
+            overflow-x: hidden;
+        }
+
+        .noise-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            opacity: 0.02; 
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 250 250' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+            z-index: 0; 
+        }
+        
+        .app-content-wrapper {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .main-content {
+            flex-grow: 1;
+        }
+
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0F172A; 
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #8B5CF6; 
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #EC4899;
+        }
+
+        .text-gradient-neon-pink-purple {
+            background: linear-gradient(to right, #EC4899, #A855F7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
+        
+        /* Custom file input styling */
+        .custom-file-input::-webkit-file-upload-button {
+            visibility: hidden;
+        }
+        .custom-file-input::before {
+            content: 'Select Audio File'; /* Default text */
+            display: inline-block;
+            background: linear-gradient(to right, #14B8A6, #22C55E); /* Teal-500 to Green-500 */
+            color: white;
+            border: none;
+            border-radius: 0.75rem; /* rounded-xl */
+            padding: 0.75rem 1.5rem; /* py-3 px-6 */
+            outline: none;
+            white-space: nowrap;
+            -webkit-user-select: none;
+            cursor: pointer;
+            font-weight: 600; /* semibold */
+            text-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+            transition: all 0.3s ease;
+            box-shadow: 0 0 5px #14B8A6, 0 0 10px #14B8A6, 0 0 15px #22C55E, 0 0 20px #22C55E;
+        }
+        .custom-file-input:hover::before {
+            background: linear-gradient(to right, #0D9488, #16A34A); /* Darker shades */
+            box-shadow: 0 0 8px #14B8A6, 0 0 16px #14B8A6, 0 0 24px #22C55E, 0 0 32px #22C55E;
+        }
+        .custom-file-input:active::before {
+            transform: scale(0.98);
+        }
+        #fileName {
+            color: #9CA3AF; /* gray-400 */
+            transition: color 0.3s ease;
+        }
+        .file-input-wrapper:hover #fileName {
+             color: #E5E7EB; /* gray-200 */
+        }
+
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Montserrat', 'sans-serif'],
+                    },
+                    colors: {
+                        'very-dark-blue': '#020617',   
+                        'dark-slate-blue': '#1E293B', 
+                        'vibrant-indigo': '#312E81', 
+                        'card-bg-dark': '#0F172A', 
+                        'card-bg-medium': '#1E293B', 
+                        'input-bg': '#1E293B', /* Slate-800 for inputs */
+                        'input-border': '#334155', /* Slate-700 for input borders */
+                        'input-focus-border': '#A855F7', /* Purple-500 */
+                    },
+                    borderRadius: {
+                        '3xl': '1.5rem', 
+                        'xl': '0.75rem',
+                    },
+                    boxShadow: {
+                        'xl': '0 20px 25px -5px rgba(0,0,0,0.3), 0 10px 10px -5px rgba(0,0,0,0.2)',
+                        '2xl': '0 25px 50px -12px rgba(0,0,0,0.5)',
+                        'lift': '0 30px 60px -15px rgba(168, 85, 247, 0.3), 0 20px 30px -10px rgba(236, 72, 153, 0.25)',
+                        'neon-glow-purple': '0 0 10px #A855F7, 0 0 20px #A855F7, 0 0 30px #EC4899, 0 0 40px #EC4899',
+                    },
+                    scale: {
+                        '103': '1.03',
+                        '105': '1.05',
+                    },
+                }
+            }
+        }
+    </script>
+</head>
+<body class="antialiased text-lg text-gray-200">
+    <div class="noise-overlay"></div>
+
+    <div class="app-content-wrapper">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12 main-content">
+            <!-- Header -->
+            <header class="text-center mb-12 md:mb-16">
+                <h1 class="text-4xl lg:text-5xl font-extrabold">
+                    <span class="text-gradient-neon-pink-purple">Upload & Describe</span>
+                    <span class="text-gray-100">Your Music</span>
+                </h1>
+                <p class="mt-3 text-gray-400 text-lg">Let's find the perfect moodboard for your sound.</p>
+            </header>
+
+            <!-- Main Input Form Section -->
+            <main>
+                <form class="max-w-2xl mx-auto p-6 sm:p-8 bg-card-bg-dark/80 backdrop-blur-lg rounded-3xl shadow-2xl border border-slate-700/60 space-y-8">
+                    
+                    <!-- Audio File Input -->
+                    <div>
+                        <label for="audioFile" class="block text-xl font-semibold mb-3 text-gray-100">
+                            1. Upload Your Audio Track
+                        </label>
+                        <div class="mt-1 flex flex-col items-center justify-center px-6 pt-5 pb-6 border-2 border-input-border border-dashed rounded-xl hover:border-input-focus-border transition-colors duration-300 file-input-wrapper bg-slate-900/50">
+                            <svg class="mx-auto h-12 w-12 text-gray-500 group-hover:text-purple-400 transition-colors" stroke="currentColor" fill="none" viewBox="0 0 48 48" aria-hidden="true">
+                                <path d="M28 8H12a4 4 0 00-4 4v20m32-12v8m0 0v8a4 4 0 01-4 4H12a4 4 0 01-4-4v-4m32-4l-3.172-3.172a4 4 0 00-5.656 0L28 28M8 32l9.172-9.172a4 4 0 015.656 0L28 28m0 0l4 4m4-24h8m-4-4v8m-12 4h.02" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            <div class="flex text-sm text-gray-400 mt-4">
+                                <label for="audio-upload" class="relative cursor-pointer bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-semibold py-2 px-4 rounded-xl transition-all duration-300 shadow-md hover:shadow-neon-glow-purple transform hover:scale-103">
+                                    <span>Upload a file</span>
+                                    <input id="audio-upload" name="audio-upload" type="file" class="sr-only" accept="audio/mp3, audio/wav, audio/mpeg, audio/ogg, audio/aac" onchange="displayFileName(this)">
+                                </label>
+                                <p class="pl-1">or drag and drop</p>
+                            </div>
+                            <p class="text-xs text-gray-500 mt-2">MP3, WAV, OGG, AAC up to 50MB</p>
+                            <p id="audioFileName" class="mt-2 text-sm text-gray-400"></p>
+                        </div>
+                    </div>
+
+                    <!-- Text Input -->
+                    <div>
+                        <label for="moodDescription" class="block text-xl font-semibold mb-3 text-gray-100">
+                            2. Describe the Vibe
+                        </label>
+                        <textarea 
+                            id="moodDescription" 
+                            name="moodDescription" 
+                            rows="6" 
+                            class="block w-full p-4 bg-input-bg border border-input-border rounded-xl shadow-sm focus:ring-1 focus:ring-input-focus-border focus:border-input-focus-border placeholder-gray-500 text-gray-200 text-base transition-all duration-300" 
+                            placeholder="e.g., 'Energetic synthwave for a night drive', 'Chill lo-fi beat for studying', 'Epic orchestral piece for a movie scene'..."
+                        ></textarea>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="pt-4">
+                        <button 
+                            type="submit" 
+                            class="w-full flex justify-center py-4 px-6 border border-transparent rounded-3xl shadow-lg text-lg font-bold text-white bg-gradient-to-r from-pink-500 via-purple-600 to-indigo-700 hover:from-pink-600 hover:via-purple-700 hover:to-indigo-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-very-dark-blue focus:ring-purple-500 transform hover:scale-103 transition-all duration-300 hover:shadow-lift"
+                        >
+                            Analyze & Create Moodboard
+                        </button>
+                    </div>
+                </form>
+            </main>
+        </div>
+
+        <!-- Footer -->
+        <footer class="w-full mt-auto pt-10 pb-8 border-t border-slate-700/50 text-center">
+            <p class="text-gray-500 text-sm">© 2025 MusicMoodboard Inc. All rights reserved.</p>
+        </footer>
+    </div>
+    <script>
+        function displayFileName(input) {
+            const fileNameDisplay = document.getElementById('audioFileName');
+            if (input.files && input.files.length > 0) {
+                fileNameDisplay.textContent = input.files[0].name;
+                fileNameDisplay.classList.remove('text-gray-500');
+                fileNameDisplay.classList.add('text-green-400');
+            } else {
+                fileNameDisplay.textContent = '';
+            }
+        }
+    </script>
+</body>
+</html>

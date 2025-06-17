@@ -6,12 +6,12 @@ import os
 import shutil # For potentially saving/handling uploaded files if needed locally
 from typing import Optional, Dict, Any, List
 
-import fastapi
+
 from fastapi import FastAPI, File, UploadFile, Form, HTTPException
 from pydantic import BaseModel, Field # For request/response models
 import uvicorn
 import httpx # For making async HTTP requests to other services
-import asyncio # For simulating delays or handling async tasks
+from fastapi.middleware.cors import CORSMiddleware
 
 # --- Configuration ---
 # These should be set via environment variables for flexibility in deployment
@@ -22,6 +22,15 @@ MUSICBRAINZ_API_BASE_URL = "https://musicbrainz.org/ws/2/"
 COVER_ART_ARCHIVE_BASE_URL = "https://coverartarchive.org/"
 DEFAULT_TOP_K_SIMILARITY = int(os.getenv("DEFAULT_TOP_K_SIMILARITY", 5)) # Default to 5 similar tracks
 USER_AGENT = "SimpleMusicEnricher/0.2 (contact@example.com)"
+
+# --- CORS Middleware Setup ---
+
+
+origins = [
+    "http://localhost:5173",  
+    "http://localhost:3000",  
+]
+
 
 LISTENBRAINZ_PLAYER_TMPL = "https://listenbrainz.org/player?recording_mbids={mbid}"
 # Placeholder for similarity data if the Music Similarity service is skipped or fails for POC
@@ -42,7 +51,14 @@ app = FastAPI(
     description="Orchestrates calls to music feature extraction, similarity, and RAG services.",
     version="0.1.0"
 )
-
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,  # Allows specific origins
+    # allow_origins=["*"], # Allows all origins (use with caution, less secure)
+    allow_credentials=True, # Allows cookies to be included in requests
+    allow_methods=["*"],    # Allows all methods (GET, POST, PUT, DELETE, etc.)
+    allow_headers=["*"],    # Allows all headers
+)
 # --- HTTP Client for Service-to-Service Communication ---
 SERVICE_CALL_TIMEOUT = 500 
 http_client_global = httpx.AsyncClient(timeout=SERVICE_CALL_TIMEOUT,
@@ -63,6 +79,8 @@ async def shutdown_event():
 
 # --- Pydantic Models for this API's main endpoint ---
 class SimilarTrackDetail(BaseModel):
+    qid: Optional[int] = None  # Unique identifier for the track, if available
+    sim_score: Optional[float] = None  # Similarity score, if available
     title: Optional[str] = "Unknown Title"
     artist: Optional[str] = "Unknown Artist"
     mbid: Optional[str] = None
@@ -356,7 +374,9 @@ async def main_moodboard_endpoint(
                             genres=song.get('genres', []),
                             tags=song.get('tags', []),
                             key_signature=song.get('key', None),
-                            bpm=bpm_value
+                            bpm=bpm_value,
+                            qid=song.get('id', None),
+                            sim_score=song.get('score', None)
                         ))
                     except Exception as e:
                         logger.warning(f"Failed to process enriched song {song.get('title', 'unknown')}: {e}")

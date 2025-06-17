@@ -15,7 +15,7 @@ init(autoreset=True)
 # --- Configuration ---
 # Updated for the 94-dimensional feature set
 EXPECTED_DIM = 94
-DEFAULT_COLLECTION_NAME = f"zscore_94" # Suggest descriptive name
+DEFAULT_COLLECTION_NAME = f"zscore_94_1.4" # Suggest descriptive name
 DEFAULT_STATS_FILE = f"global_mean_std_94FEATURES.json" # Match stats script output
 TOP_K = 20
 QDRANT_HOST = os.getenv("QDRANT_HOST", "localhost") # Changed default to localhost

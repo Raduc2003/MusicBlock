@@ -1,0 +1,28 @@
+// src/styles/_variables.scss
+
+// Fonts
+$font-family-sans: 'Montserrat', sans-serif;
+
+// Colors (from our design reference)
+$color-very-dark-blue: #020617;
+$color-dark-slate-blue: #1E293B;
+$color-vibrant-indigo: #312E81;
+
+$color-card-bg-dark: #0F172A;
+$color-input-bg: #1E293B;
+$color-input-border: #334155;
+$color-input-focus-border: #A855F7; // Purple-500
+
+$color-text-primary: #E0E0E0; // Light gray
+$color-text-secondary: #9CA3AF; // Gray-400
+$color-text-placeholder: #6B7280; // Gray-500
+
+// Neon Gradients / Accents (can be defined as variables or used directly)
+$gradient-neon-pink-purple: linear-gradient(to right, #EC4899, #A855F7);
+$gradient-button-pink-purple-indigo: linear-gradient(to right, #EC4899, #A855F7, #4F46E5); // Pink-500, Purple-500, Indigo-600
+$gradient-button-teal-green: linear-gradient(to right, #14B8A6, #22C55E);
+
+// Shadows (can be defined as mixins or variables)
+$shadow-xl: 0 20px 25px -5px rgba(0,0,0,0.3), 0 10px 10px -5px rgba(0,0,0,0.2);
+$shadow-2xl: 0 25px 50px -12px rgba(0,0,0,0.5);
+$shadow-lift: 0 30px 60px -15px rgba(168, 85, 247, 0.3), 0 20px 30px -10px rgba(236, 72, 153, 0.25);

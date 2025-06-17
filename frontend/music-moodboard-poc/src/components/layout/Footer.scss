@@ -1,0 +1,16 @@
+// src/components/layout/Footer.scss
+@import '../../styles/variables';
+
+.site-footer {
+  width: 100%;
+  padding: 2.5rem 1rem; // pt-10 pb-8
+  border-top: 1px solid rgba($color-input-border, 0.3); // border-slate-700/50
+  text-align: center;
+  margin-top: auto; // Pushes footer to bottom in flex container
+  background-color: rgba($color-very-dark-blue, 0.7); // Slight background for distinction
+
+  p {
+    color: $color-text-secondary; // text-gray-500
+    font-size: 0.875rem; // text-sm
+  }
+}

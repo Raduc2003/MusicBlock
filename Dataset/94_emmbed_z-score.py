@@ -14,10 +14,10 @@ import time # For potential retries or delays
 # ------------------- Configuration -------------------
 
 qdrant = QdrantClient(host="localhost", port=6333)
-COLLECTION_NAME = "zscore_94" # New collection name suggested
+COLLECTION_NAME = "zscore_94_1.4" # New collection name suggested
 STATS_FILE = "global_mean_std_94FEATURES.json"   # File with [mean, std_dev] pairs
-EXPECTED_DIM = 94   
-FILE_LIMIT =1400000           # Expected dimension of feature vector
+EXPECTED_DIM = 94
+FILE_LIMIT = 1400000           # Expected dimension of feature vector
 BATCH_SIZE = 1000                   # Number of points per upsert batch (REINTRODUCED)
 MAX_WORKERS = 300                 # Number of parallel threads for file processing
 # -----------------------------------------------------
@@ -295,7 +295,7 @@ if __name__ == "__main__":
     parser.add_argument("--collection", default=COLLECTION_NAME, help=f"Qdrant collection name (default: {COLLECTION_NAME}).")
     parser.add_argument("--stats_file", default=STATS_FILE, help=f"Path to [mean, std_dev] stats JSON (default: {STATS_FILE}).")
     parser.add_argument("--offset", type=int, default=0, help="Starting file index (0-based) (default: 0).")
-    parser.add_argument("--limit", type=int, default=None, help="Max number of files to process in this run (default: all).")
+    parser.add_argument("--limit", type=int, default=FILE_LIMIT, help="Max number of files to process in this run (default: all).")
     parser.add_argument("--create", action="store_true", help="Create collection if it doesn't exist.")
     args = parser.parse_args()
 

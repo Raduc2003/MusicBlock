@@ -1,0 +1,460 @@
+// src/pages/MoodboardPage.scss
+@import '../styles/variables';
+
+// General Page Structure
+.moodboard-page-container {
+  width: 100%;
+  padding-bottom: 2rem;
+
+  &.error-container {
+    text-align: center;
+    padding-top: 3rem;
+    h2 {
+      font-size: 1.75rem;
+      color: $color-text-primary;
+      margin-bottom: 1rem;
+    }
+    p {
+      color: $color-text-secondary;
+      margin-bottom: 1.5rem;
+    }
+  }
+}
+
+.moodboard-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+  h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: $color-text-primary;
+  }
+}
+
+.moodboard-section {
+  margin-bottom: 2.5rem;
+}
+
+// Reusable Card Style (ensure this isn't overly duplicated if defined globally)
+.card-style {
+  background-color: rgba($color-card-bg-dark, 0.7);
+  backdrop-filter: blur(8px);
+  padding: 1.5rem;
+  border-radius: 1.25rem;
+  box-shadow: $shadow-xl;
+  border: 1px solid rgba($color-input-border, 0.4);
+}
+
+.section-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: $color-text-primary;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid rgba($color-input-border, 0.5);
+}
+
+.subsection-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: $color-text-secondary;
+}
+
+// Final Moodboard (Markdown) Section
+.final-moodboard-section {
+  .markdown-content {
+    color: $color-text-primary;
+    line-height: 1.7;
+    h1, h2, h3 {
+      margin-top: 1.5em;
+      margin-bottom: 0.75em;
+      font-weight: 600;
+      color: lighten($color-text-primary, 5%);
+    }
+    h1 { font-size: 1.6rem; }
+    h2 { font-size: 1.4rem; }
+    h3 { font-size: 1.2rem; }
+    p { margin-bottom: 1em; }
+    ul, ol {
+      margin-left: 1.5rem;
+      margin-bottom: 1em;
+      li { margin-bottom: 0.5em; }
+    }
+    strong { font-weight: 700; }
+    a {
+      color: $color-input-focus-border;
+      text-decoration: underline;
+      &:hover {
+        color: lighten($color-input-focus-border, 10%);
+      }
+    }
+  }
+}
+// Similar Tracks Section
+.similar-tracks-section {
+  .tracks-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    @media (min-width: 768px) {
+      flex-direction: row;
+    }
+
+    .graph-container {
+      flex: 2;
+      height: 400px;
+      
+      .subsection-title {
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+        color: $color-text-primary;
+      }
+      
+      .graph-content {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+    .tracks-list-container {
+      flex: 1;
+      // Match the graph height instead of limiting with max-height
+      height: 400px; // Same as graph container min-height
+      overflow-y: auto;
+      padding-right: 0.5rem; // For scrollbar
+      // Add a touch of padding to the container itself
+      padding-left: 0.25rem; 
+      padding-top: 0.25rem;
+      border: 1px solid transparent; // Prevents margin collapse sometimes, ensures own block formatting context
+
+      &::-webkit-scrollbar { width: 5px; }
+      &::-webkit-scrollbar-thumb { background: $color-text-secondary; }
+      &::-webkit-scrollbar-thumb:hover { background: lighten($color-text-secondary, 10%); }
+    }
+  }
+}
+
+// Individual Track Card Styling (Wrapper and Card)
+.track-card-wrapper {
+  // Ensure each wrapper is a distinct block and doesn't interfere with others
+  display: block; // Explicitly a block element
+  margin-bottom: 1.25rem; // Slightly increased spacing
+  // background-color: rgba(255,0,0,0.05); // DEBUG: Light red tint for wrapper bounds
+
+  .track-card {
+    // .card-style is applied in JSX
+    display: flex;
+    align-items: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    position: relative; // Crucial for containing absolutely positioned children or managing z-index locally
+    z-index: 2;         // Ensures the main card content is above its own expanded details (if expanded details had z-index:1)
+                         // And potentially above other elements if stacking contexts get complex.
+    // outline: 1px solid yellow; // DEBUG: Outline for the main card
+
+    .track-album-art {
+      width: 4rem; height: 4rem;
+      border-radius: 0.5rem;
+      margin-right: 1rem;
+      object-fit: cover;
+      flex-shrink: 0;
+      background-color: $color-input-border;
+    }
+
+    .track-info {
+      flex-grow: 1;
+      min-width: 0; // For ellipsis
+      cursor: pointer;
+      padding: 0.5rem; // Increased padding for a more generous click target
+      border-radius: 0.35rem;
+      transition: background-color 0.2s ease;
+      // outline: 1px solid lime; // DEBUG: Outline for the clickable track info
+      
+      &:hover {
+        background-color: rgba($color-input-border, 0.1); // Subtle hover feedback on the click area
+      }
+
+      .track-title {
+        font-size: 1rem;
+        font-weight: 600;
+        margin-bottom: 0.25rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        color: $color-text-primary;
+      }
+      
+      .track-artist {
+        font-size: 0.85rem;
+        color: $color-text-secondary;
+        margin-bottom: 0.5rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      
+      .track-meta-pills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+      }
+      
+      .track-pill {
+        background-color: rgba($color-input-border, 0.3);
+        color: $color-text-secondary;
+        padding: 0.2rem 0.5rem;
+        border-radius: 1rem;
+        font-size: 0.75rem;
+        font-weight: 500;
+        transition: background-color 0.2s ease;
+        
+        &.score-pill {
+          background-color: rgba($color-input-focus-border, 0.2);
+          color: lighten($color-input-focus-border, 20%);
+        }
+        
+        &.bpm-pill {
+          background-color: rgba(#22C55E, 0.2);
+          color: lighten(#22C55E, 10%);
+        }
+        
+        &.key-pill {
+          background-color: rgba(#14B8A6, 0.2);
+          color: lighten(#14B8A6, 10%);
+        }
+      }
+    }
+
+    .play-button {
+      margin-left: 1rem; padding: 0.5rem;
+      border-radius: 50%;
+      color: $color-text-primary;
+      background-color: rgba($color-input-focus-border, 0.2);
+      transition: background-color 0.2s ease, transform 0.2s ease;
+      display: flex; align-items: center; justify-content: center;
+      width: 38px; height: 38px; // Slightly larger
+      border: none; cursor: pointer;
+      flex-shrink: 0;
+      position: relative; // Ensures it's in flow, can take z-index
+      z-index: 3;         // Should be on top of track-info
+      // outline: 1px solid cyan; // DEBUG
+      &:hover {
+        background-color: rgba($color-input-focus-border, 0.3);
+        transform: scale(1.05);
+      }
+    }
+  }
+
+  // Styles for the expanded details section
+  .track-details-expanded {
+    // .card-style is applied in JSX
+    padding: 1.25rem 1.5rem; // Increased padding
+    margin-top: 0.1rem; // Minimal margin, rely on card's own padding.
+                        // Or, if .track-card also has .card-style, consider how their paddings interact.
+                        // This could also be styled to look like it's "part of" the card above.
+    animation: fadeInExpand 0.35s ease-out forwards;
+    overflow: hidden;
+    position: relative; // New stacking context, below its parent .track-card in natural flow.
+    z-index: 1;         // If track-card is z-index: 2, this is visually "behind" it.
+    // background-color: rgba(0,255,0,0.05); // DEBUG: Light green tint for expanded bounds
+    border-top: 1px solid rgba($color-input-border, 0.25); // A slightly more visible separator
+
+    .detail-section {
+      margin-bottom: 1rem;
+      &:last-child { margin-bottom: 0; }
+    }
+    
+    .detail-title {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: $color-text-primary;
+      margin-bottom: 0.5rem;
+    }
+    
+    .tags-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    
+    .tag-pill {
+      background-color: rgba($color-input-border, 0.3);
+      color: $color-text-secondary;
+      padding: 0.25rem 0.6rem;
+      border-radius: 1rem;
+      font-size: 0.8rem;
+      font-weight: 500;
+      transition: background-color 0.2s ease;
+      
+      &.genre-pill {
+        background-color: rgba($color-vibrant-indigo, 0.3);
+        color: lighten($color-vibrant-indigo, 30%);
+      }
+    }
+    
+    .no-details-text {
+      color: $color-text-secondary;
+      font-style: italic;
+      font-size: 0.9rem;
+    }
+  }
+}
+
+@keyframes fadeInExpand {
+  from {
+    opacity: 0;
+    transform: translateY(-5px); // Reduced translate
+    max-height: 0;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    max-height: 600px; // Increased max-height just in case of very long tag lists
+  }
+}
+
+// RAG Sources Section
+.rag-sources-section {
+  .source-category {
+    margin-bottom: 1.5rem;
+    &:last-child { margin-bottom: 0; }
+  }
+  .source-category-title {
+    border-bottom: 1px dashed rgba($color-input-border, 0.3);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .sources-list {
+    list-style: none;
+    padding: 0;
+    font-size: 0.9rem;
+    color: $color-text-secondary;
+    .source-item {
+      padding: 0.5rem 0.25rem;
+      border-bottom: 1px solid rgba($color-input-border, 0.2);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      align-items: center;
+      &:last-child { border-bottom: none; }
+      &.kb-item {
+        .book-name {
+          font-weight: 500;
+          color: $color-text-primary;
+        }
+        .category-tag {
+          font-size: 0.8em;
+          background-color: rgba($color-dark-slate-blue, 0.7);
+          color: $color-text-secondary;
+          padding: 0.1rem 0.4rem;
+          border-radius: 0.25rem;
+        }
+        .page-number {
+          font-size: 0.85em;
+          color: $color-text-secondary;
+          margin-left: auto;
+          background-color: rgba($color-input-border, 0.5);
+          padding: 0.1rem 0.4rem;
+          border-radius: 0.25rem;
+        }
+      }
+      &.se-item {
+        .external-link {
+          color: $color-input-focus-border;
+          text-decoration: none;
+          &:hover {
+            text-decoration: underline;
+            color: lighten($color-input-focus-border, 10%);
+          }
+        }
+      }
+    }
+  }
+}
+
+// Embedded Player Styles
+.embedded-player-overlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba($color-very-dark-blue, 0.8);
+  backdrop-filter: blur(8px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+  animation: fadeInOverlay 0.3s ease-out;
+}
+
+.embedded-player-container {
+  // .card-style is applied in JSX
+  width: 90%;
+  max-width: 700px;
+  position: relative; // For close button
+  .player-track-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: $color-text-primary;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  iframe {
+    border-radius: 0.5rem;
+    border: 1px solid $color-input-border;
+  }
+  .close-player-button {
+    position: absolute;
+    top: 0.75rem; right: 0.75rem;
+    background: none; border: none;
+    color: $color-text-secondary;
+    font-size: 1.8rem;
+    line-height: 1;
+    cursor: pointer;
+    padding: 0.25rem;
+    transition: color 0.2s ease, transform 0.2s ease;
+    &:hover {
+      color: $color-text-primary;
+      transform: scale(1.1);
+    }
+  }
+  .iframe-note {
+    font-size: 0.8rem;
+    color: $color-text-secondary;
+    text-align: center;
+    margin-top: 1rem;
+    a {
+      color: $color-input-focus-border;
+      &:hover { text-decoration: underline; }
+    }
+  }
+}
+
+@keyframes fadeInOverlay {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+// Actions Footer / Button Link
+.actions-footer {
+  margin-top: 2.5rem;
+  text-align: center;
+}
+
+.button-link {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 1.5rem;
+  font-weight: 600;
+  color: white;
+  background: $gradient-button-pink-purple-indigo;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: $shadow-xl;
+  &:hover {
+    filter: brightness(1.15);
+    box-shadow: $shadow-lift;
+    transform: scale(1.03);
+  }
+}

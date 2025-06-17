@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Moodboard Assistant</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        /* Custom global styles */
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #020617; /* Fallback - Very Dark Blue */
+            background-image: linear-gradient(to bottom right, #020617, #1E293B, #312E81); /* very-dark-blue -> dark-slate-blue -> vibrant indigo/purple */
+            color: #E0E0E0; 
+            overflow-x: hidden;
+        }
+
+        .noise-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            opacity: 0.02; /* Slightly reduced opacity for better bg visibility */
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 250 250' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+            z-index: 0; 
+        }
+        
+        .app-content-wrapper {
+            position: relative;
+            z-index: 1;
+        }
+
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0F172A; /* Midnight Purple */
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #8B5CF6; /* Violet-500 for a neon touch */
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #EC4899; /* Pink-500 */
+        }
+        .custom-scrollbar-thin::-webkit-scrollbar {
+            width: 5px;
+        }
+        .custom-scrollbar-thin::-webkit-scrollbar-thumb {
+            background: #4B5563; /* gray-600 */
+        }
+         .custom-scrollbar-thin::-webkit-scrollbar-thumb:hover {
+            background: #6D28D9; /* violet-700 */
+        }
+
+        .text-gradient-neon-pink-purple {
+            background: linear-gradient(to right, #EC4899, #A855F7); /* Pink-500 to Purple-500 */
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
+        
+        .scroll-snap-container {
+            scroll-snap-type: x mandatory;
+            -webkit-overflow-scrolling: touch; 
+            scroll-padding: 0 10%; 
+        }
+        .scroll-snap-child {
+            scroll-snap-align: center;
+            scroll-snap-stop: always;
+        }
+
+        /* Enhanced button/pill neon hover effect */
+        .neon-button-teal-green {
+            background-image: linear-gradient(to right, #14B8A6, #22C55E); /* Teal-500 to Green-500 */
+            box-shadow: 0 0 5px #14B8A6, 0 0 10px #14B8A6, 0 0 15px #22C55E, 0 0 20px #22C55E;
+        }
+        .neon-button-teal-green:hover {
+            box-shadow: 0 0 8px #14B8A6, 0 0 16px #14B8A6, 0 0 24px #22C55E, 0 0 32px #22C55E;
+        }
+
+        .neon-button-purple-pink {
+            background-image: linear-gradient(to right, #A855F7, #EC4899); /* Purple-500 to Pink-500 */
+            box-shadow: 0 0 5px #A855F7, 0 0 10px #A855F7, 0 0 15px #EC4899, 0 0 20px #EC4899;
+        }
+        .neon-button-purple-pink:hover {
+            box-shadow: 0 0 8px #A855F7, 0 0 16px #A855F7, 0 0 24px #EC4899, 0 0 32px #EC4899;
+        }
+
+        .neon-button-yellow-orange {
+            background-image: linear-gradient(to right, #FACC15, #F97316); /* Yellow-400 to Orange-500 */
+            box-shadow: 0 0 5px #FACC15, 0 0 10px #FACC15, 0 0 15px #F97316, 0 0 20px #F97316;
+        }
+        .neon-button-yellow-orange:hover {
+             box-shadow: 0 0 8px #FACC15, 0 0 16px #FACC15, 0 0 24px #F97316, 0 0 32px #F97316;
+        }
+
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Montserrat', 'sans-serif'],
+                    },
+                    colors: {
+                        'very-dark-blue': '#020617',   // Slate-950
+                        'dark-slate-blue': '#1E293B', // Slate-800
+                        'vibrant-indigo': '#312E81', // Indigo-800
+                        'card-bg-dark': '#0F172A', // Slate-900 (for cards, slightly lighter than darkest bg)
+                        'card-bg-medium': '#1E293B', // Slate-800 (alternative for cards)
+                    },
+                    borderRadius: {
+                        '3xl': '1.5rem', 
+                    },
+                    boxShadow: {
+                        'xl': '0 20px 25px -5px rgba(0,0,0,0.3), 0 10px 10px -5px rgba(0,0,0,0.2)',
+                        '2xl': '0 25px 50px -12px rgba(0,0,0,0.5)',
+                        'lift': '0 30px 60px -15px rgba(168, 85, 247, 0.3), 0 20px 30px -10px rgba(236, 72, 153, 0.25)', // Purple/Pink neon glow
+                        'neon-glow-teal': '0 0 10px #14B8A6, 0 0 20px #14B8A6, 0 0 30px #22C55E, 0 0 40px #22C55E',
+                        'neon-glow-purple': '0 0 10px #A855F7, 0 0 20px #A855F7, 0 0 30px #EC4899, 0 0 40px #EC4899',
+                    },
+                    scale: {
+                        '103': '1.03',
+                        '105': '1.05',
+                        '112': '1.12',
+                    },
+                    animation: {
+                        'pulse-gradient': 'pulseGradientKeyframes 5s ease infinite alternate', // Made alternate for smoother pulse
+                    },
+                    keyframes: {
+                        pulseGradientKeyframes: { // Adjusted for more vibrant pulsing
+                            '0%': { backgroundPosition: '0% 50%', filter: 'brightness(100%) saturate(100%)' },
+                            '50%': { backgroundPosition: '100% 50%', filter: 'brightness(130%) saturate(130%)' },
+                            '100%': { backgroundPosition: '0% 50%', filter: 'brightness(100%) saturate(100%)' },
+                        }
+                    },
+                }
+            }
+        }
+    </script>
+</head>
+<body class="antialiased text-lg text-gray-200">
+    <div class="noise-overlay"></div>
+
+    <div class="app-content-wrapper min-h-screen">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
+            <!-- Header -->
+            <header class="flex flex-col sm:flex-row justify-between items-center mb-12 md:mb-20">
+                <h1 class="text-4xl lg:text-5xl font-extrabold mb-6 sm:mb-0">
+                    <span class="text-gradient-neon-pink-purple">Music</span><span class="text-gray-100">Moodboard</span>
+                </h1>
+                <button class="px-8 py-4 rounded-3xl font-semibold text-white bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-600 hover:from-pink-600 hover:via-purple-600 hover:to-indigo-700 transform hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-lift text-lg">
+                    New Analysis
+                </button>
+            </header>
+
+            <main class="space-y-16 md:space-y-24">
+                <!-- Similar Songs Section -->
+                <section id="similar-songs">
+                    <h2 class="text-3xl lg:text-4xl font-bold mb-10 text-center md:text-left text-gray-100">Similar Songs</h2>
+                    <div class="flex flex-col md:flex-row gap-8 lg:gap-12">
+                        <!-- Left: Force-Graph Placeholder -->
+                        <div class="w-full md:order-1 md:w-3/5 lg:w-2/3 p-6 bg-card-bg-dark/70 backdrop-blur-lg rounded-3xl shadow-2xl border border-slate-700/50">
+                            <h3 class="text-2xl font-semibold mb-6 text-gray-200">Song Relation Graph</h3>
+                            <svg width="100%" height="400" viewBox="0 0 500 400" class="rounded-lg bg-slate-950/50">
+                                <defs>
+                                    <linearGradient id="linkGradientSVG" x1="0%" y1="0%" x2="100%" y2="0%">
+                                        <stop offset="0%" style="stop-color:#6366F1;" /> <!-- Indigo -->
+                                        <stop offset="100%" style="stop-color:#F472B6;" /> <!-- Pink -->
+                                    </linearGradient>
+                                    <linearGradient id="nodeGradientSVG" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#A855F7;" /> <!-- Purple-500 -->
+                                        <stop offset="100%" style="stop-color:#EC4899;" /> <!-- Pink-500 -->
+                                    </linearGradient>
+                                    <pattern id="albumArt1" patternUnits="objectBoundingBox" width="1" height="1">
+                                        <image href="https://picsum.photos/seed/album1/60/60" x="0" y="0" width="60" height="60" />
+                                    </pattern>
+                                    <pattern id="albumArt2" patternUnits="objectBoundingBox" width="1" height="1">
+                                        <image href="https://picsum.photos/seed/album2/60/60" x="0" y="0" width="60" height="60" />
+                                    </pattern>
+                                    <pattern id="albumArt3" patternUnits="objectBoundingBox" width="1" height="1">
+                                        <image href="https://picsum.photos/seed/album3/60/60" x="0" y="0" width="60" height="60" />
+                                    </pattern>
+                                </defs>
+                                
+                                <path d="M 100 100 C 175 100, 175 150, 250 150" stroke="url(#linkGradientSVG)" stroke-width="4" fill="none" />
+                                <path d="M 100 100 C 100 175, 150 175, 150 250" stroke="url(#linkGradientSVG)" stroke-width="4" fill="none" />
+                                <path d="M 250 150 C 175 150, 175 250, 150 250" stroke="url(#linkGradientSVG)" stroke-width="4" fill="none" />
+                                <path d="M 250 150 C 325 150, 325 200, 400 200" stroke="url(#linkGradientSVG)" stroke-width="4" fill="none" />
+                                <path d="M 150 250 C 225 250, 225 300, 300 300" stroke="url(#linkGradientSVG)" stroke-width="4" fill="none" />
+                                
+                                <rect x="70" y="70" width="60" height="60" rx="12" ry="12" fill="url(#albumArt1)" class="transform transition-transform duration-300 hover:scale-112 cursor-pointer filter hover:drop-shadow-[0_0_10px_rgba(236,72,153,0.8)]"><title>Starlight Ride - Voyager</title></rect>
+                                <rect x="220" y="120" width="60" height="60" rx="12" ry="12" fill="url(#albumArt2)" class="transform transition-transform duration-300 hover:scale-112 cursor-pointer filter hover:drop-shadow-[0_0_10px_rgba(236,72,153,0.8)]"><title>Azure Dreams - Mirage</title></rect>
+                                <rect x="120" y="220" width="60" height="60" rx="12" ry="12" fill="url(#albumArt3)" class="transform transition-transform duration-300 hover:scale-112 cursor-pointer filter hover:drop-shadow-[0_0_10px_rgba(236,72,153,0.8)]"><title>City Lights - After Hours</title></rect>
+                                <rect x="370" y="170" width="60" height="60" rx="12" ry="12" fill="url(#nodeGradientSVG)" class="transform transition-transform duration-300 hover:scale-112 cursor-pointer filter hover:drop-shadow-[0_0_10px_rgba(168,85,247,0.8)]"><title>Vibescape - Aura</title></rect>
+                                <rect x="270" y="270" width="60" height="60" rx="12" ry="12" fill="url(#nodeGradientSVG)" class="transform transition-transform duration-300 hover:scale-112 cursor-pointer filter hover:drop-shadow-[0_0_10px_rgba(168,85,247,0.8)]"><title>Glitch Garden - Bloom</title></rect>
+                            </svg>
+                            <p class="text-xs text-gray-400 mt-4 text-center">Interactive graph placeholder. Hover nodes to scale. Links are Bézier curves.</p>
+                        </div>
+
+                        <!-- Right: Sleek List Cards -->
+                        <div class="w-full md:order-2 md:w-2/5 lg:w-1/3 space-y-4 max-h-[450px] md:max-h-[500px] overflow-y-auto pr-2 custom-scrollbar-thin">
+                            <!-- Song Item Template -->
+                            <div class="flex items-center p-4 bg-gradient-to-br from-slate-800/80 via-slate-900/70 to-slate-800/80 backdrop-blur-md rounded-3xl shadow-xl hover:shadow-lift hover:scale-103 transition-all duration-300 cursor-pointer group border border-slate-700/40 hover:border-purple-500/60">
+                                <img src="https://picsum.photos/seed/song1/64/64" alt="Album Art" class="w-16 h-16 rounded-xl mr-4 object-cover flex-shrink-0">
+                                <div class="flex-grow min-w-0">
+                                    <h4 class="text-xl font-semibold text-gray-100 group-hover:text-gradient-neon-pink-purple transition-colors duration-300 truncate" title="Neon Dreams">Neon Dreams</h4>
+                                    <p class="text-sm text-gray-400 group-hover:text-gray-300 truncate" title="Synthwave Rider">Synthwave Rider</p>
+                                </div>
+                                <span class="ml-auto pl-3 flex-shrink-0 px-3 py-1 text-sm font-semibold text-teal-300 bg-teal-600/40 rounded-full border border-teal-500/50">120 BPM</span>
+                            </div>
+                            <div class="flex items-center p-4 bg-gradient-to-br from-slate-800/80 via-slate-900/70 to-slate-800/80 backdrop-blur-md rounded-3xl shadow-xl hover:shadow-lift hover:scale-103 transition-all duration-300 cursor-pointer group border border-slate-700/40 hover:border-pink-500/60">
+                                <img src="https://picsum.photos/seed/song2/64/64" alt="Album Art" class="w-16 h-16 rounded-xl mr-4 object-cover flex-shrink-0">
+                                <div class="flex-grow min-w-0">
+                                    <h4 class="text-xl font-semibold text-gray-100 group-hover:text-gradient-neon-pink-purple transition-colors duration-300 truncate" title="Midnight Drive">Midnight Drive</h4>
+                                    <p class="text-sm text-gray-400 group-hover:text-gray-300 truncate" title="Chromeo Knights">Chromeo Knights</p>
+                                </div>
+                                <span class="ml-auto pl-3 flex-shrink-0 px-3 py-1 text-sm font-semibold text-pink-300 bg-pink-600/40 rounded-full border border-pink-500/50">110 BPM</span>
+                            </div>
+                             <div class="flex items-center p-4 bg-gradient-to-br from-slate-800/80 via-slate-900/70 to-slate-800/80 backdrop-blur-md rounded-3xl shadow-xl hover:shadow-lift hover:scale-103 transition-all duration-300 cursor-pointer group border border-slate-700/40 hover:border-orange-500/60">
+                                <img src="https://picsum.photos/seed/song3/64/64" alt="Album Art" class="w-16 h-16 rounded-xl mr-4 object-cover flex-shrink-0">
+                                <div class="flex-grow min-w-0">
+                                    <h4 class="text-xl font-semibold text-gray-100 group-hover:text-gradient-neon-pink-purple transition-colors duration-300 truncate" title="Future Groove">Future Groove</h4>
+                                    <p class="text-sm text-gray-400 group-hover:text-gray-300 truncate" title="Digital Funksters">Digital Funksters</p>
+                                </div>
+                                <span class="ml-auto pl-3 flex-shrink-0 px-3 py-1 text-sm font-semibold text-orange-300 bg-orange-600/40 rounded-full border border-orange-500/50">128 BPM</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Genre Tag Cloud Section -->
+                <section id="genre-tags">
+                    <h2 class="text-3xl lg:text-4xl font-bold mb-10 text-center text-gray-100">Genre Tag Cloud</h2>
+                    <div class="flex flex-wrap justify-center gap-x-3 gap-y-4 md:gap-x-4 md:gap-y-5">
+                        <button class="px-7 py-3 rounded-3xl text-md lg:text-lg font-semibold text-white neon-button-teal-green transform hover:scale-105 transition-all duration-300">Synthwave</button>
+                        <button class="px-7 py-3 rounded-3xl text-md lg:text-lg font-semibold text-white neon-button-purple-pink transform hover:scale-105 transition-all duration-300">Chillhop</button>
+                        <button class="px-7 py-3 rounded-3xl text-md lg:text-lg font-semibold text-white neon-button-yellow-orange transform hover:scale-105 transition-all duration-300">Lo-fi Hip Hop</button>
+                        <button class="px-7 py-3 rounded-3xl text-md lg:text-lg font-semibold text-white bg-gradient-to-r from-sky-500 to-indigo-500 hover:from-sky-600 hover:to-indigo-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-neon-glow-purple">Electronic</button> <!-- Example with a different base gradient -->
+                        <button class="px-7 py-3 rounded-3xl text-md lg:text-lg font-semibold text-white bg-gradient-to-r from-rose-500 to-red-600 hover:from-rose-600 hover:to-red-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-lift">Ambient</button>
+                    </div>
+                </section>
+
+                <!-- Advice Deck Section -->
+                <section id="advice-deck">
+                    <h2 class="text-3xl lg:text-4xl font-bold mb-10 text-center text-gray-100">Curator's Advice</h2>
+                    <div class="flex overflow-x-auto pb-10 scroll-snap-container space-x-6 md:space-x-8 scroll-smooth">
+                        <div class="flex-none w-[calc(100%-2rem)] sm:w-5/6 md:w-3/4 lg:max-w-md p-6 md:p-8 rounded-3xl shadow-2xl hover:shadow-lift transform hover:scale-103 transition-all duration-300 scroll-snap-child animate-pulse-gradient bg-gradient-to-br from-purple-600 via-pink-500 to-rose-500 bg-[length:250%_250%] border border-purple-500/30 hover:border-pink-400/70">
+                            <h3 class="text-2xl font-bold mb-4 text-white">Mood Consistency</h3>
+                            <p class="text-gray-100 mb-6">
+                                Maintaining a consistent mood is key. Consider tracks with similar emotional weight.
+                            </p>
+                            <ul class="space-y-2 text-purple-100 list-disc list-inside marker:text-pink-300">
+                                <li>Analyze lyrical themes and tonality.</li>
+                                <li>Match instrumentation styles and textures.</li>
+                                <li>Keep BPMs within a close range (e.g., ±10 BPM).</li>
+                            </ul>
+                        </div>
+                        <div class="flex-none w-[calc(100%-2rem)] sm:w-5/6 md:w-3/4 lg:max-w-md p-6 md:p-8 rounded-3xl shadow-2xl hover:shadow-lift transform hover:scale-103 transition-all duration-300 scroll-snap-child animate-pulse-gradient bg-gradient-to-br from-teal-500 via-cyan-400 to-sky-500 bg-[length:250%_250%] border border-teal-500/30 hover:border-cyan-400/70">
+                            <h3 class="text-2xl font-bold mb-4 text-white">Energy Flow</h3>
+                            <p class="text-gray-100 mb-6">
+                                Guide the listener's energy. Build up intensity gradually or create waves of calm and excitement.
+                            </p>
+                            <ul class="space-y-2 text-teal-100 list-disc list-inside marker:text-cyan-300">
+                                <li>Start with lower energy or atmospheric tracks.</li>
+                                <li>Introduce a peak track or moment strategically.</li>
+                                <li>Conclude with a resolving or calming song.</li>
+                            </ul>
+                        </div>
+                        <div class="flex-none w-[calc(100%-2rem)] sm:w-5/6 md:w-3/4 lg:max-w-md p-6 md:p-8 rounded-3xl shadow-2xl hover:shadow-lift transform hover:scale-103 transition-all duration-300 scroll-snap-child animate-pulse-gradient bg-gradient-to-br from-yellow-400 via-amber-500 to-orange-500 bg-[length:250%_250%] border border-yellow-500/30 hover:border-amber-400/70">
+                            <h3 class="text-2xl font-bold mb-4 text-white">Discovery & Surprise</h3>
+                            <p class="text-gray-100 mb-6">
+                                An occasional unexpected gem can delight listeners and broaden their musical horizons.
+                            </p>
+                            <ul class="space-y-2 text-yellow-100 list-disc list-inside marker:text-orange-300">
+                                <li>Include a lesser-known artist or indie track.</li>
+                                <li>Introduce a slightly different but related sub-genre.</li>
+                                <li>Vary track length or structure occasionally.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+            <!-- Footer -->
+            <footer class="mt-16 md:mt-24 pt-10 pb-8 border-t border-slate-700/50 text-center">
+                <p class="text-gray-500 text-sm">© 2025 MusicMoodboard Inc. All rights reserved.</p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

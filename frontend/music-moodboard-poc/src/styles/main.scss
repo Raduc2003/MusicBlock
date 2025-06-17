@@ -1,0 +1,19 @@
+// src/styles/main.scss
+@import 'variables';
+@import 'base';
+
+// Page-specific styles
+@import '../pages/InputPage.scss';
+
+// Component-specific styles
+@import '../components/layout/Header.scss'; // <<< Add
+@import '../components/layout/Footer.scss'; // <<< Add
+// src/styles/main.scss
+// ... (other imports)
+@import '../pages/MoodboardPage.scss'; // <<< Add this line
+// src/styles/main.scss
+// ... (other imports)
+
+// Component-specific styles
+
+@import '../components/common/Loader.scss'; // <<< Add this line
